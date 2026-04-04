@@ -36,6 +36,18 @@ DOMAIN_KEYWORDS: dict[str, list[str]] = {
         "手机", "电脑", "操作系统", "云计算", "数据库",
         "开源", "github", "开发者", "编程", "框架",
     ],
+    "国际": [
+        "united nations", "un", "nato", "g7", "g20", "summit",
+        "diplomat", "diplomacy", "treaty", "sanction", "tariff",
+        "trade war", "bilateral", "multilateral", "geopolitic",
+        "climate", "carbon", "emission", "cop", "paris agreement",
+        "who", "world health", "pandemic", "vaccine",
+        "space", "nasa", "esa", "spacex", "rocket", "satellite",
+        "联合国", "峰会", "外交", "贸易", "关税", "制裁",
+        "气候", "碳排放", "世卫", "国际", "全球",
+        "太空", "航天", "卫星", "火箭",
+        "欧盟", "东盟", "中东", "非洲",
+    ],
 }
 
 # ── Category keywords (sub-classification per domain) ─────────────
@@ -140,6 +152,27 @@ CATEGORY_KEYWORDS: dict[str, dict[str, list[str]]] = {
             "框架", "数据库", "代码",
         ],
     },
+    "国际": {
+        "外交": [
+            "diplomat", "diplomacy", "summit", "bilateral",
+            "ambassador", "外交", "峰会", "会晤", "大使",
+            "访问", "协议", "条约",
+        ],
+        "贸易": [
+            "trade", "tariff", "sanction", "export", "import",
+            "wto", "贸易", "关税", "制裁", "出口", "进口",
+        ],
+        "气候": [
+            "climate", "carbon", "emission", "renewable", "solar",
+            "wind energy", "cop", "气候", "碳", "排放",
+            "可再生", "新能源",
+        ],
+        "科学": [
+            "space", "nasa", "esa", "spacex", "rocket", "satellite",
+            "who", "health", "vaccine", "太空", "航天",
+            "卫星", "火箭", "世卫", "疫苗",
+        ],
+    },
 }
 
 
@@ -150,7 +183,7 @@ def detect_domain(title: str, content: str = "") -> str:
     for domain, keywords in DOMAIN_KEYWORDS.items():
         scores[domain] = sum(1 for kw in keywords if kw in text)
     best = max(scores, key=scores.get)
-    return best if scores[best] > 0 else "科技"  # default to 科技 for general tech news
+    return best if scores[best] > 0 else "科技"
 
 
 def categorize(title: str, content: str = "", domain: str = "") -> str:

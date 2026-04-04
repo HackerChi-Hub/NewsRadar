@@ -158,7 +158,7 @@ def main():
         from summarizer import generate_digest
         import time as _t
         digest_data = {"generated_at": datetime.now(timezone.utc).isoformat()}
-        for dom in ["AI", "安全", "经济", "科技"]:
+        for dom in ["AI", "安全", "经济", "科技", "国际"]:
             dom_articles = [a for a in all_articles if a.get("domain") == dom]
             if len(dom_articles) >= 3:
                 print(f"\nGenerating {dom} digest ({len(dom_articles)} articles)...")

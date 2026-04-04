@@ -54,6 +54,17 @@ RSS_FEEDS = [
     {"name": "IT之家", "url": "https://www.ithome.com/rss/", "domain": "科技"},
 
     # ══════════════════════════════════════════════════
+    # 🌍 国际
+    # ══════════════════════════════════════════════════
+    {"name": "UN News", "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml", "domain": "国际"},
+    {"name": "BBC World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "domain": "国际"},
+    {"name": "NPR World", "url": "https://feeds.npr.org/1004/rss.xml", "domain": "国际"},
+    {"name": "Reuters World", "url": "https://www.reutersagency.com/feed/", "domain": "国际"},
+    {"name": "NASA", "url": "https://www.nasa.gov/feed/", "domain": "国际"},
+    {"name": "新华网", "url": "http://www.news.cn/rss/english.xml", "domain": "国际"},
+    {"name": "环球时报", "url": "https://www.globaltimes.cn/rss/outbrain.xml", "domain": "国际"},
+
+    # ══════════════════════════════════════════════════
     # 🌐 综合（按关键词自动分域）
     # ══════════════════════════════════════════════════
     {"name": "36氪", "url": "https://36kr.com/feed", "domain": "auto"},
