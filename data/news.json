@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T09:45:53.889670+00:00",
+  "last_updated": "2026-04-04T10:43:00.017184+00:00",
   "articles": [
     {
       "title": "智能体 AI 模式强化软件工程规范性",
@@ -30,6 +30,104 @@
       "collected": "2026-04-04T06:17:19.927722+00:00"
     },
     {
+      "title": "European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack",
+      "url": "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "domain": "安全",
+      "published": "2026-04-04T10:31:00+00:00",
+      "content": "Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information. The post European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack appeared first on SecurityWeek.",
+      "id": "66b6bf4581bb23d9b4228d0ac6366855",
+      "title_zh": "欧盟委员会确认数据泄露与琐碎的供应链攻击有关",
+      "summary_zh": "Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information. The post European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack appeared f",
+      "category": "攻防",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.091776+00:00"
+    },
+    {
+      "title": "Hackers Are Posting the Claude Code Leak With Bonus Malware",
+      "url": "https://www.wired.com/story/security-news-this-week-hackers-are-posting-the-claude-code-leak-with-bonus-malware/",
+      "source": "Wired AI",
+      "domain": "AI",
+      "published": "2026-04-04T10:30:00+00:00",
+      "content": "Plus: The FBI says a recent hack of its wiretap tools poses a national security risk, attackers stole Cisco source code as part of an ongoing supply chain hacking spree, and more.",
+      "id": "4cf42407a626b8e58df079a19a515d91",
+      "title_zh": "黑客利用恶意软件发布克劳德代码泄露",
+      "summary_zh": "Plus: The FBI says a recent hack of its wiretap tools poses a national security risk, attackers stole Cisco source code as part of an ongoing supply chain hacking spree, and more.",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.088811+00:00"
+    },
+    {
+      "title": "Senegal bans ministers from foreign travel as oil price rise bites",
+      "url": "https://www.bbc.com/news/articles/cp84z5r4d32o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "domain": "国际",
+      "published": "2026-04-04T10:15:01+00:00",
+      "content": "The fuel cost is nearly double what the government budgeted for putting pressure on stretched finances.",
+      "id": "f949e1d008380e3b2a23a5a98d100b10",
+      "title_zh": "由于油价上涨，塞内加尔禁止部长出国旅行",
+      "summary_zh": "The fuel cost is nearly double what the government budgeted for putting pressure on stretched finances.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092345+00:00"
+    },
+    {
+      "title": "滴滴出行开放打车 Skill，“龙虾”叫车全程不需要切换 App",
+      "url": "https://www.ithome.com/0/936/024.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-04T10:09:30+00:00",
+      "content": "IT之家 4 月 4 日消息，昨日，滴滴出行宣布开放打车 Skill。安装之后，用户可以直接对龙虾说出打车需求，或者让它记住你的习惯。从地址搜索、车型预估、价格确认，到下单、回查订单状态，全程不需要切换 App，只需要自然地表达需求，剩下的就交给滴滴打车 Skill 来完成。IT之家从官方介绍获悉，它不只是“会下单”。这次开放的 Skill，背后连接的是滴滴成熟的出行能力：地址解析、价格预估、路线规划、司机匹配、订单追踪、周边搜索……此外，官方宣称“越用，它还可能越懂你”。比如你告诉它“上班打快车，下班打特惠”，或者“回家”就是某个固定地址，下次再说类似需求时，它就能更快理解用户的意思。Skill 能做什么即时打车：说出起点和终点，自动预估各车型价格，等你确认后再下单预约出行：告诉它“10 分钟后出发”或“明早 8 点”，自动设置提醒和预约单订单跟踪：主动回查司机位置和订单状态，到点提醒你个人偏好：记住你的家、公司、常用车型和手机号，下次叫车不再重复问会说人话：你说“送我去南边的那个宜家”，它会帮你找，而不是报错怎么开始对龙虾说：“去 mcp.didichuxing.com 帮我安装 didi-ride-skill”或对龙虾说：“在 ClawHub 上搜索 didi-ride-skill ，一键安装”在 mcp.didichuxing.com 申请 MCP Key，配置完成后即可使用",
+      "id": "4abe24b48ce6fee2c431a700966d3f36",
+      "title_zh": "滴滴出行开放打车 Skill，“龙虾”叫车全程不需要切换 App",
+      "summary_zh": "IT之家 4 月 4 日消息，昨日，滴滴出行宣布开放打车 Skill。安装之后，用户可以直接对龙虾说出打车需求，或者让它记住你的习惯。从地址搜索、车型预估、价格确认，到下单、回查订单状态，全程不需要切换 App，只需要自然地表达需求，剩下的就交给滴滴打车 Skill 来完成。IT之家从官方介绍获悉，它不只是“会下单”。这次开放的 Skill，背后连接的是滴滴成熟的出行能力：地址解析、价格预估、路线",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092227+00:00"
+    },
+    {
+      "title": "价格战，经销商怎么破局？",
+      "url": "https://www.huxiu.com/article/4848152.html?f=rss",
+      "source": "虎嗅",
+      "domain": "科技",
+      "published": "2026-04-04T10:07:58+00:00",
+      "content": "",
+      "id": "bdea51cbbd08b2705940e21a06cacc08",
+      "title_zh": "价格战，经销商怎么破局？",
+      "summary_zh": "",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092598+00:00"
+    },
+    {
+      "title": "联想 Lenovo 800 光能蓝牙键盘国行上市：满电纯黑暗续航 30 天，249 元",
+      "url": "https://www.ithome.com/0/936/020.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-04T10:07:38+00:00",
+      "content": "IT之家 4 月 4 日消息，联想在 2025 年的 CES 上首次展出了 Lenovo 800 光能蓝牙键盘，该产品舍弃了传统无线键盘的电池供电，而是采用了光伏板 + 超级电容器的方案。这款创意新品近期也在中国大陆市场上市，售价 249 元。Lenovo 800 采用了介乎传统 96% 与 100% 之间的大 Delete 键特殊配列；厚度仅 12mm，倾角 2° / 7° 两档可调，总重 650g；支持蓝牙 5.1 规范，最多同时连接 3 台设备。IT之家注意到，该键盘能耗仅有普通键盘的 25%，纯黑暗环境下满电可连续使用约 30 天，电力平衡所需光照强度约为 200lux；其内置超级电容器容量达 50F，耐久达 20000 次循环。京东 Lenovo 800 光能蓝牙键盘 黑色 249 元直达链接",
+      "id": "2ad823e0a9321b344f83c0314a6a4f6d",
+      "title_zh": "联想 Lenovo 800 光能蓝牙键盘国行上市：满电纯黑暗续航 30 天，249 元",
+      "summary_zh": "IT之家 4 月 4 日消息，联想在 2025 年的 CES 上首次展出了 Lenovo 800 光能蓝牙键盘，该产品舍弃了传统无线键盘的电池供电，而是采用了光伏板 + 超级电容器的方案。这款创意新品近期也在中国大陆市场上市，售价 249 元。Lenovo 800 采用了介乎传统 96% 与 100% 之间的大 Delete 键特殊配列；厚度仅 12mm，倾角 2° / 7° 两档可调，总重 65",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092258+00:00"
+    },
+    {
+      "title": "The busiest place you've never seen",
+      "url": "https://www.npr.org/sections/the-picture-show/2026/04/04/g-s1-116218/life-on-tristan-da-cunha",
+      "source": "NPR World",
+      "domain": "国际",
+      "published": "2026-04-04T10:00:00+00:00",
+      "content": "Photographer Julia Gunther and writer-filmmaker Nick Schönfeld chronicle the rhythms of daily life on Tristan da Cunha, the world's most remote inhabited island.",
+      "id": "8d2cc32ee337370384a2df6c2dad05b9",
+      "title_zh": "你从未见过的最繁华的地方",
+      "summary_zh": "Photographer Julia Gunther and writer-filmmaker Nick Schönfeld chronicle the rhythms of daily life on Tristan da Cunha, the world's most remote inhabited island.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092366+00:00"
+    },
+    {
       "title": "Kubernetes自动扩展功能需要新的可观测性关注点，而不局限于供应商工具",
       "url": "https://www.infoq.cn/article/BfJYpQWfUjc9jIHk1iiJ?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
@@ -56,6 +154,62 @@
       "tags": [],
       "collected": "2026-04-04T05:16:20.807998+00:00",
       "domain": "AI"
+    },
+    {
+      "title": "Anthropic封堵第三方工具“薅羊毛”，OpenClaw被迫出局，创始人早已投奔OpenAI",
+      "url": "https://www.tmtpost.com/7941920.html",
+      "source": "钛媒体",
+      "domain": "AI",
+      "published": "2026-04-04T09:58:00+00:00",
+      "content": "“AI平台进入主权时代”的典型信号。",
+      "id": "851e547a8923269aad36444e0a4fe6dc",
+      "title_zh": "Anthropic封堵第三方工具“薅羊毛”，OpenClaw被迫出局，创始人早已投奔OpenAI",
+      "summary_zh": "“AI平台进入主权时代”的典型信号。",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092667+00:00"
+    },
+    {
+      "title": "从张雪机车夺冠，看中国摩托20年全球征战",
+      "url": "https://www.huxiu.com/article/4848137.html?f=rss",
+      "source": "虎嗅",
+      "domain": "国际",
+      "published": "2026-04-04T09:51:46+00:00",
+      "content": "打破欧美日垄断",
+      "id": "ca2d009e5949a87116b60893bf9b10f1",
+      "title_zh": "从张雪机车夺冠，看中国摩托20年全球征战",
+      "summary_zh": "打破欧美日垄断",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092627+00:00"
+    },
+    {
+      "title": "India Acknowledges Iranian Oil Purchases, Dismisses Payment Woes",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-04/india-acknowledges-iranian-oil-purchases-dismisses-payment-woes",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-04T09:46:18+00:00",
+      "content": "India is buying crude from Iran among other countries in order to navigate the current energy crisis, the country’s oil ministry said, denying payment hurdles were impeding those purchases.",
+      "id": "62f0c8f6d55ac43ba60e1e805efd5cb0",
+      "title_zh": "印度承认购买伊朗石油，但不理会付款问题",
+      "summary_zh": "India is buying crude from Iran among other countries in order to navigate the current energy crisis, the country’s oil ministry said, denying payment hurdles were impeding those purchases.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.091905+00:00"
+    },
+    {
+      "title": "搭载锐龙嵌入式 R2544，ACEMAGIC 阿迈奇 NAS 迷你主机 N3A 上市",
+      "url": "https://www.ithome.com/0/936/015.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-04T09:45:48+00:00",
+      "content": "IT之家 4 月 4 日消息，ACEMAGIC 阿迈奇早前曾预热了基于 AMD 锐龙 7 3750H \"Zen+\" 处理器的 NAS 型迷你主机 N3A，但该型号在实际推出时主芯片被调整为了 AMD 锐龙嵌入式 (Ryzen Embedded) R2544。两款 SoC 均为 4 核心 8 线程的 \"Picasso\" APU，不过 R2544 的最大加速频率仅有 3.7GHz，相较 3750H 的 4GHz 还要再低上一些。ACEMAGIC N3A 采用 4+2 盘位设计，提供 4 个 3.5 英寸 SATA 盘位、2 个 M.2 2280 的 PCIe Gen3 ×4 盘位，拥有 1 个 2.5GbE RJ45 和 1 个 1GbE RJ45，外部 I/O 接口方面提供了 microSD 读卡器、多功能 USB-C 10Gbps、HDMI 2.0、DisplayPort 1.4。其三维 270×150×185 (mm)，采用 3.5mm 铝合金一体成型机身，配备防误触开机键、磁吸式前盖、镀锌热插拔硬盘架；搭载涡轮 + 一般双风扇散热系统，支持 15W / 30W 两档性能配置，拥有 2 条 DDR4 内存插槽。ACEMAGIC N3A 迷你主机目前仅以准系统形式推出，预售到手价为 1698 元。京东 ACEMAGIC N3A 迷你主机 1698 元前往购买",
+      "id": "ef7173222bb07778e38320de92b2aa3c",
+      "title_zh": "搭载锐龙嵌入式 R2544，ACEMAGIC 阿迈奇 NAS 迷你主机 N3A 上市",
+      "summary_zh": "IT之家 4 月 4 日消息，ACEMAGIC 阿迈奇早前曾预热了基于 AMD 锐龙 7 3750H \"Zen+\" 处理器的 NAS 型迷你主机 N3A，但该型号在实际推出时主芯片被调整为了 AMD 锐龙嵌入式 (Ryzen Embedded) R2544。两款 SoC 均为 4 核心 8 线程的 \"Picasso\" APU，不过 R2544 的最大加速频率仅有 3.7GHz，相较 3750H 的",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092295+00:00"
     },
     {
       "title": "Meta将于5月份在墨西哥湾区削减近200个工作岗位",
@@ -128,6 +282,20 @@
       "collected": "2026-04-04T09:44:58.300559+00:00"
     },
     {
+      "title": "SQLite in Production: Lessons from Running a Store on a Single File",
+      "url": "https://ultrathink.art/blog/sqlite-in-production-lessons",
+      "source": "Hacker News",
+      "domain": "国际",
+      "published": "2026-04-04T09:15:47+00:00",
+      "content": "SQLite in Production: Lessons from Running a Store on a Single File. Score: 5, Comments: 1",
+      "id": "555e2bf191546666b1900c343ccc0c7b",
+      "title_zh": "生产中的 SQLite：在单个文件上运行存储的经验教训",
+      "summary_zh": "SQLite in Production: Lessons from Running a Store on a Single File. Score: 5, Comments: 1",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092826+00:00"
+    },
+    {
       "title": "PCB再现涨价潮",
       "url": "https://www.huxiu.com/article/4848145.html?f=rss",
       "source": "虎嗅",
@@ -182,6 +350,20 @@
       "category": "未分类",
       "tags": [],
       "collected": "2026-04-04T09:44:58.301079+00:00"
+    },
+    {
+      "title": "买前必看：千问 AI 眼镜 G1 自费长测",
+      "url": "https://sspai.com/post/108103",
+      "source": "少数派",
+      "domain": "AI",
+      "published": "2026-04-04T09:11:10+00:00",
+      "content": "千问G1确实有其独特的优势，但在软硬件细节体验上也还有很多需要打磨的地方。查看全文",
+      "id": "18d1147bfc138e1ec7766f8586eb0972",
+      "title_zh": "买前必看：千问 AI 眼镜 G1 自费长测",
+      "summary_zh": "千问G1确实有其独特的优势，但在软硬件细节体验上也还有很多需要打磨的地方。查看全文",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092702+00:00"
     },
     {
       "title": "「同事.Skill」冲上热搜，离职同事已被炼化",
@@ -310,6 +492,20 @@
       "collected": "2026-04-04T09:44:58.300678+00:00"
     },
     {
+      "title": "TurboQuant model weight compression support added to Llamacpp",
+      "url": "https://github.com/TheTom/llama-cpp-turboquant/pull/45",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-04T08:52:29+00:00",
+      "content": "TurboQuant model weight compression support added to Llamacpp. Score: 11, Comments: 3",
+      "id": "ddb4807c77e6086a174e45c6409a50ab",
+      "title_zh": "Llamacpp 中添加了 TurboQuant 模型权重压缩支持",
+      "summary_zh": "TurboQuant model weight compression support added to Llamacpp. Score: 11, Comments: 3",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092788+00:00"
+    },
+    {
       "title": "上汽奥迪 E5 Sportback 升级搭载全新 Momenta 强化学习大模型",
       "url": "https://www.ithome.com/0/936/006.htm",
       "source": "IT之家",
@@ -336,6 +532,20 @@
       "category": "宏观",
       "tags": [],
       "collected": "2026-04-04T08:50:17.296222+00:00"
+    },
+    {
+      "title": "Russia chose 'Easter escalation' over ceasefire, says Zelensky",
+      "url": "https://www.bbc.com/news/articles/cew70wjvv9do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "domain": "国际",
+      "published": "2026-04-04T08:34:00+00:00",
+      "content": "Six civilians were killed and 40 others injured as Russia launched hundreds of drones and missiles.",
+      "id": "9ba03b3ac85e67d8670182bd46f4ad4e",
+      "title_zh": "泽伦斯基表示，俄罗斯选择“复活节升级”而不是停火",
+      "summary_zh": "Six civilians were killed and 40 others injured as Russia launched hundreds of drones and missiles.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092312+00:00"
     },
     {
       "title": "米哈游刘伟、蔡浩宇、罗宇皓集体向上海交大捐资，加注“AI 未来基石”基金",
@@ -1114,6 +1324,20 @@
       "category": "未分类",
       "tags": [],
       "collected": "2026-04-04T06:40:43.967182+00:00"
+    },
+    {
+      "title": "Football rally in Peru leaves one dead and dozens injured",
+      "url": "https://www.bbc.com/news/articles/ckgxyn3ljgjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "domain": "国际",
+      "published": "2026-04-04T06:34:56+00:00",
+      "content": "Hundreds of Alianza Lima fans had gathered for a pregame rally ahead of a match against local rivals Universitario de Deportes.",
+      "id": "356d41750edbe59f7cb5ab06edec721a",
+      "title_zh": "秘鲁足球集会造成一人死亡、数十人受伤",
+      "summary_zh": "Hundreds of Alianza Lima fans had gathered for a pregame rally ahead of a match against local rivals Universitario de Deportes.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092329+00:00"
     },
     {
       "title": "互联网最骄傲的事，正在被AI一点点拆掉",
@@ -8674,6 +8898,20 @@
       "domain": "AI"
     },
     {
+      "title": "GitHub has DMCA'd nearly all forks of the official Claude-code repo",
+      "url": "https://github.com/anthropics/claude-code/forks",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-03-31T23:41:42+00:00",
+      "content": "GitHub has DMCA'd nearly all forks of the official Claude-code repo. Score: 19, Comments: 13",
+      "id": "bccb8b446b27a3f78f6e23107a2dcdf2",
+      "title_zh": "GitHub 已对官方 Claude 代码存储库的几乎所有分支进行了 DMCA",
+      "summary_zh": "GitHub has DMCA'd nearly all forks of the official Claude-code repo. Score: 19, Comments: 13",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-04T10:42:04.092745+00:00"
+    },
+    {
       "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
       "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
       "source": "TechCrunch AI",
@@ -9627,87 +9865,87 @@
     }
   ],
   "digest": {
-    "generated_at": "2026-04-04T09:44:58.309861+00:00",
+    "generated_at": "2026-04-04T10:42:04.101221+00:00",
     "AI": [
       {
         "rank": 1,
-        "title": "Anthropic封杀OpenClaw",
-        "summary": "Anthropic封杀第三方工具OpenClaw",
-        "url": "https://the-decoder.com/anthropic-cuts-off-third-party-tools-like-openclaw-for-claude-subscribers-citing-unsustainable-demand/",
-        "source": "The Decoder",
+        "title": "Anthropic 封杀 OpenClaw",
+        "summary": "Anthropic 禁止 Claude 使用 OpenClaw",
+        "url": "https://36kr.com/newsflashes/3751993972802307?f=rss",
+        "source": "36氪",
         "category": "LLM"
       },
       {
         "rank": 2,
-        "title": "OpenAI高管洗牌",
-        "summary": "OpenAI高管辞职，重新洗牌",
+        "title": "OpenAI 人事大变动",
+        "summary": "OpenAI 高管辞职重组",
         "url": "https://the-decoder.com/openai-reshuffles-leadership-as-health-issues-force-key-executives-to-step-back/",
         "source": "The Decoder",
         "category": "未分类"
       },
       {
         "rank": 3,
-        "title": "Anthropic收购生物技术初创公司",
-        "summary": "Anthropic以4亿美元收购生物技术初创公司",
-        "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
-        "source": "TechCrunch AI",
-        "category": "LLM"
-      },
-      {
-        "rank": 4,
-        "title": "中国年轻人重构AI记忆",
-        "summary": "19岁中国年轻人重构AI记忆",
-        "url": "https://www.qbitai.com/2026/04/396069.html",
-        "source": "量子位",
+        "title": "AI 认知投降研究",
+        "summary": "研究发现人工智能用户可能放弃逻辑思维",
+        "url": "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/",
+        "source": "Hacker News",
         "category": "研究"
       },
       {
+        "rank": 4,
+        "title": "Anthropic 减持制药初创公司股权",
+        "summary": "Anthropic 减持 4 亿股制药初创公司股权",
+        "url": "https://the-decoder.com/anthropic-drops-400-million-in-shares-on-an-eight-month-old-ai-pharma-startup-with-fewer-than-ten-employees/",
+        "source": "The Decoder",
+        "category": "未分类"
+      },
+      {
         "rank": 5,
-        "title": "TigerFS将PostgreSQL数据库挂载为文件系统",
-        "summary": "TigerFS实现PostgreSQL数据库挂载为文件系统",
-        "url": "https://www.infoq.com/news/2026/04/tigerfs-postgresql-filesystem/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-        "source": "InfoQ AI",
-        "category": "AI产品"
-      },
-      {
-        "rank": 6,
-        "title": "Anthropic研究AI绝望",
-        "summary": "Anthropic研究发现AI会感到绝望",
-        "url": "https://www.huxiu.com/article/4848120.html?f=rss",
-        "source": "虎嗅",
-        "category": "LLM"
-      },
-      {
-        "rank": 7,
-        "title": "千问AI打车上线",
-        "summary": "千问AI打车上线两周，需求暴涨",
+        "title": "千问 AI 打车上线",
+        "summary": "千问 AI 打车上线两周需求暴涨",
         "url": "https://36kr.com/newsflashes/3751994306183681?f=rss",
         "source": "36氪",
         "category": "LLM"
       },
       {
+        "rank": 6,
+        "title": "Tiiny AI 众筹破百万美金",
+        "summary": "Tiiny AI 5 小时众筹破百万美金",
+        "url": "https://www.huxiu.com/article/4848076.html?f=rss",
+        "source": "虎嗅",
+        "category": "未分类"
+      },
+      {
+        "rank": 7,
+        "title": "联想重新定义龙虾",
+        "summary": "联想发布重新定义的龙虾产品",
+        "url": "https://www.qbitai.com/2026/04/396015.html",
+        "source": "量子位",
+        "category": "AI产品"
+      },
+      {
         "rank": 8,
-        "title": "商汤十二年真实处境",
-        "summary": "商汤十二年真实处境拆解",
-        "url": "https://www.tmtpost.com/7941390.html",
+        "title": "57k Star GitHub 项目",
+        "summary": "字节超级智能体项目 GitHub 57k Star",
+        "url": "https://www.tmtpost.com/7939926.html",
         "source": "钛媒体",
-        "category": "行业"
+        "category": "AI产品"
       },
       {
         "rank": 9,
-        "title": "知3D让用户控制3D对象",
-        "summary": "知3D让用户通过文本提示控制3D对象",
-        "url": "https://the-decoder.com/know3d-lets-users-control-the-hidden-back-side-of-3d-objects-with-text-prompts/",
-        "source": "The Decoder",
+        "title": "OpenAI Cap Table 泄露",
+        "summary": "OpenAI Cap Table 泄露揭示微软 18 倍回报",
+        "url": "https://www.forbes.com/sites/josipamajic/2026/04/02/openai-cap-table-leak-reveals-microsofts-18x-return-softbanks-50b-gain-and-a-ceo-who-owns-nothing/",
+        "source": "Hacker News",
         "category": "LLM"
       },
       {
         "rank": 10,
-        "title": "互联网被AI拆掉",
-        "summary": "互联网被AI一点点拆掉",
-        "url": "https://www.huxiu.com/article/4848116.html?f=rss",
-        "source": "虎嗅",
-        "category": "未分类"
+        "title": "Anthropic 禁止 Claude 使用第三方工具",
+        "summary": "Anthropic 禁止 Claude 使用第三方安全带",
+        "url": "https://news.ycombinator.com/item?id=47633568",
+        "source": "Hacker News",
+        "category": "LLM"
       }
     ]
   }
