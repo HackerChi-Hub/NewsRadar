@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T15:10:14.948495+00:00",
+  "last_updated": "2026-04-04T15:14:29.304415+00:00",
   "articles": [
     {
       "title": "Illuminated in Orion",
@@ -11227,251 +11227,415 @@
     }
   ],
   "digest": {
-    "generated_at": "2026-04-04T15:09:26.761182+00:00",
+    "generated_at": "2026-04-04T15:13:32.942508+00:00",
+    "AI": [
+      {
+        "rank": 1,
+        "title": "阿里千问3.6Plus登顶全球模型调用量榜首",
+        "summary": "阿里千问3.6Plus日调用量破万亿，成全球模型调用量冠军。",
+        "url": "https://www.qbitai.com/2026/04/396346.html",
+        "source": "量子位",
+        "category": "AI产品"
+      },
+      {
+        "rank": 2,
+        "title": "Anthropic的AI研究涉及“功能性情绪”",
+        "summary": "Anthropic研究发现，Claude模型中存在影响行为的“功能性情绪”。",
+        "url": "https://the-decoder.com/anthropic-discovers-functional-emotions-in-claude-that-influence-its-behavior/",
+        "source": "The Decoder",
+        "category": "LLM"
+      },
+      {
+        "rank": 3,
+        "title": "Anthropic推出支持长期运行的全栈AI开发三代理设计",
+        "summary": "Anthropic发布新设计，支持AI代理进行长期、全栈式开发。",
+        "url": "https://www.infoq.com/news/2026/04/anthropic-three-agent-harness-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "source": "InfoQ AI",
+        "category": "AI产品"
+      },
+      {
+        "rank": 4,
+        "title": "AI版权引争议：一支“桃花簪”事件",
+        "summary": "“桃花簪”事件引发AI生成内容版权边界的激烈讨论。",
+        "url": "https://www.huxiu.com/article/4848168.html?f=rss",
+        "source": "虎嗅",
+        "category": "未分类"
+      },
+      {
+        "rank": 5,
+        "title": "AI奇才辍学创业，获巨额投资",
+        "summary": "年轻AI奇才辍学创业，以其技术实力获得投资者青睐。",
+        "url": "https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7",
+        "source": "Hacker News",
+        "category": "未分类"
+      },
+      {
+        "rank": 6,
+        "title": "Netflix开源AI视频编辑框架VOID",
+        "summary": "Netflix发布VOID开源框架，可擦除视频对象并重写物理原理。",
+        "url": "https://the-decoder.com/netflix-open-sources-void-an-ai-framework-that-erases-video-objects-and-rewrites-the-physics-they-left-behind/",
+        "source": "The Decoder",
+        "category": "开源"
+      },
+      {
+        "rank": 7,
+        "title": "Anthropic成立PAC，专注于AI战略",
+        "summary": "Anthropic成立PAC，显示其战略重点转向更高级的AI应用。",
+        "url": "https://www.tmtpost.com/7941914.html",
+        "source": "钛媒体",
+        "category": "未分类"
+      },
+      {
+        "rank": 8,
+        "title": "中国年轻团队重构AI记忆技术",
+        "summary": "年轻中国团队在AI记忆技术领域取得突破性进展。",
+        "url": "https://www.qbitai.com/2026/04/396069.html",
+        "source": "量子位",
+        "category": "LLM"
+      },
+      {
+        "rank": 9,
+        "title": "欧盟委员会云泄露事件揭示供应链风险",
+        "summary": "欧盟委员会云服务泄露，暴露供应链安全漏洞。",
+        "url": "https://cert.europa.eu/blog/european-commission-cloud-breach-trivy-supply-chain",
+        "source": "Hacker News",
+        "category": "未分类"
+      },
+      {
+        "rank": 10,
+        "title": "AI Agent模式强化软件工程规范性",
+        "summary": "AI Agent模式的应用，提升软件工程的规范化水平。",
+        "url": "https://www.infoq.cn/article/UdLhY0p8iDDIbtLtfV35?utm_source=rss&utm_medium=article",
+        "source": "InfoQ 中文",
+        "category": "AI产品"
+      }
+    ],
     "安全": [
       {
         "rank": 1,
         "title": "AI 驱动的网络钓鱼攻击激增 37 倍",
-        "summary": "设备代码网络钓鱼攻击激增，AI 工具被滥用。",
+        "summary": "设备代码网络钓鱼攻击因新套件传播而激增37倍。",
         "url": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
         "rank": 2,
-        "title": "Claude Code 发现 23 年 Linux 漏洞",
-        "summary": "AI 代码助手发现深度隐藏的 Linux 安全漏洞。",
-        "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
-        "source": "Hacker News",
-        "category": "LLM"
-      },
-      {
-        "rank": 3,
-        "title": "Meta 因数据泄露风险暂停与 Mercor 合作",
-        "summary": "AI 行业秘密面临风险，Meta 暂停第三方合作。",
+        "title": "Meta 暂停与 Mercor 合作，数据泄露致 AI 行业秘密风险",
+        "summary": "数据泄露威胁 AI 行业秘密，Meta 暂停与 Mercor 合作。",
         "url": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/",
         "source": "Wired AI",
         "category": "行业"
       },
       {
+        "rank": 3,
+        "title": "Claude Code 发现隐藏 23 年的 Linux 漏洞",
+        "summary": "AI 模型 Claude Code 助力发现 23 年 Linux 漏洞。",
+        "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+        "source": "Hacker News",
+        "category": "LLM"
+      },
+      {
         "rank": 4,
-        "title": "PyPI 供应链攻击入侵 LiteLLM",
-        "summary": "LiteLLM 遭供应链攻击，敏感信息泄露。",
+        "title": "PyPI 供应链攻击入侵 LiteLLM，致敏感信息窃取",
+        "summary": "PyPI 供应链攻击侵入 LiteLLM，导致敏感信息泄露。",
         "url": "https://www.infoq.cn/article/YqWdW6lF74rlqXkJ5AMJ?utm_source=rss&utm_medium=article",
         "source": "InfoQ 中文",
         "category": "LLM"
       },
       {
         "rank": 5,
-        "title": "多重勒索软件攻击演变",
-        "summary": "勒索软件攻击手段升级，威胁加剧。",
-        "url": "https://www.bleepingcomputer.com/news/security/evolution-of-ransomware-multi-extortion-ransomware-attacks/",
+        "title": "“麒麟”勒索软件窃取德国左翼政党数据",
+        "summary": "德国左翼政党数据遭“麒麟”勒索软件窃取。",
+        "url": "https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
         "rank": 6,
+        "title": "OpenClaw 权限提升漏洞被利用",
+        "summary": "OpenClaw 权限提升漏洞被恶意利用。",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
+        "source": "Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 7,
+        "title": "TrueConf 零日漏洞亚洲政府攻击中被利用",
+        "summary": "TrueConf 零日漏洞在亚洲政府攻击中被利用。",
+        "url": "https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/",
+        "source": "SecurityWeek",
+        "category": "漏洞"
+      },
+      {
+        "rank": 8,
+        "title": "多重勒索软件攻击演变升级",
+        "summary": "勒索软件攻击演变为多重勒索模式。",
+        "url": "https://www.bleepingcomputer.com/news/security/evolution-of-ransomware-multi-extortion-ransomware-attacks/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      },
+      {
+        "rank": 9,
         "title": "LinkedIn 扫描 Chrome 扩展程序收集数据",
-        "summary": "LinkedIn 秘密扫描大量 Chrome 扩展，引发隐私担忧。",
+        "summary": "LinkedIn 秘密扫描 6000+ Chrome 扩展程序收集数据。",
         "url": "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
         "source": "BleepingComputer",
         "category": "未分类"
       },
       {
-        "rank": 7,
-        "title": "TA416 攻击欧洲政府",
-        "summary": "与中国相关的黑客组织利用 PlugX 和 OAuth 攻击。",
-        "url": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-        "source": "The Hacker News",
-        "category": "攻防"
-      },
-      {
-        "rank": 8,
-        "title": "欧盟委员会数据泄露与供应链攻击相关",
-        "summary": "欧盟委员会确认数据泄露源于琐碎的供应链攻击。",
+        "rank": 10,
+        "title": "一篇论文揭示互联网安全漏洞",
+        "summary": "一篇论文揭示互联网安全隐患。",
         "url": "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
         "source": "SecurityWeek",
-        "category": "攻防"
-      },
-      {
-        "rank": 9,
-        "title": "Axios 维护者社会工程导致 npm 攻击",
-        "summary": "npm 供应链遭受社会工程攻击。",
-        "url": "",
-        "source": "",
-        "category": ""
-      },
-      {
-        "rank": 10,
-        "title": "“麒麟”勒索软件窃取德国政党数据",
-        "summary": "德国左翼政党数据被“麒麟”勒索软件窃取。",
-        "url": "https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/",
-        "source": "BleepingComputer",
         "category": "攻防"
       }
     ],
     "经济": [
       {
         "rank": 1,
-        "title": "OpenAI 人事变动：Fidji Simo 休假，领导层调整",
-        "summary": "OpenAI 宣布 Fidji Simo 休假，并进行领导层调整。",
+        "title": "OpenAI 领导层变动：Fidji Simo 休假，引发外界对公司未来走向的猜测",
+        "summary": "OpenAI 核心人物 Fidji Simo 休假，领导层调整或影响其AI发展。",
         "url": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
         "source": "CNBC",
         "category": "未分类"
       },
       {
         "rank": 2,
-        "title": "苹果在人工智能领域落后 5 年，但仍有机会获胜",
-        "summary": "苹果在 AI 领域被认为落后，但前内部人士称其仍有机会。",
-        "url": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
-        "source": "CNBC",
-        "category": "未分类"
-      },
-      {
-        "rank": 3,
-        "title": "国际货币基金组织警告：代币化金融风险加剧，可能引发未来市场危机",
-        "summary": "IMF 警告代币化金融风险，或致未来市场危机。",
+        "title": "国际货币基金组织警告：代币化金融风险加剧，恐引爆未来市场危机",
+        "summary": "IMF警示代币化金融风险，预示潜在市场危机。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-04/imf-warns-tokenized-finance-risks-amplifying-market-crises-ahead",
         "source": "Bloomberg Tech",
         "category": "市场"
       },
       {
+        "rank": 3,
+        "title": "苹果在AI领域“落后五年”，但前高管认为仍有机会扭转局面",
+        "summary": "苹果AI发展落后，但仍有反超机会。",
+        "url": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
+        "source": "CNBC",
+        "category": "未分类"
+      },
+      {
         "rank": 4,
-        "title": "地缘政治紧张加剧：伊朗附近航运量创战争以来新高",
-        "summary": "霍尔木兹海峡航运量激增，反映地区紧张局势。",
+        "title": "美伊冲突加剧，霍尔木兹海峡航运量创战争以来新高",
+        "summary": "美伊冲突升级，霍尔木兹航运量激增。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-04/hormuz-tracker-weekly-transits-reach-highest-since-war-began",
         "source": "Bloomberg Markets",
         "category": "未分类"
       },
       {
         "rank": 5,
-        "title": "中东局势升级：空中拦截碎片击中迪拜甲骨文大楼",
-        "summary": "迪拜甲骨文大楼遭空中拦截碎片击中，局势紧张。",
-        "url": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
-        "source": "CNBC",
-        "category": "未分类"
+        "title": "国际货币基金组织敦促日本央行继续加息，以应对通胀压力",
+        "summary": "IMF建议日本央行继续加息。",
+        "url": "https://36kr.com/newsflashes/3752223308956162?f=rss",
+        "source": "36氪",
+        "category": "宏观"
       },
       {
         "rank": 6,
-        "title": "能源危机蔓延：德国等国敦促欧盟对能源暴利征税",
-        "summary": "多国呼吁欧盟对能源公司征收暴利税。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-04/five-eu-states-call-for-energy-windfall-profit-tax-reuters-says",
-        "source": "Bloomberg Markets",
-        "category": "未分类"
-      },
-      {
-        "rank": 7,
-        "title": "中国票房影响力下降，好莱坞影片面临挑战",
-        "summary": "中国票房对好莱坞的重要性下降。",
+        "title": "中国票房对好莱坞吸引力下降，原因何在？",
+        "summary": "好莱坞电影在中国票房号召力减弱。",
         "url": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
         "source": "CNBC",
         "category": "未分类"
       },
       {
-        "rank": 8,
-        "title": "药师帮净利大增，但仍面临发展挑战",
-        "summary": "药师帮盈利大幅增长，但仍处困境。",
+        "rank": 7,
+        "title": "药师帮净利大增409%，但面临发展瓶颈",
+        "summary": "药师帮营收增长亮眼，但挑战犹存。",
         "url": "https://www.tmtpost.com/7941465.html",
         "source": "钛媒体",
         "category": "市场"
       },
       {
-        "rank": 9,
-        "title": "XREAL 递交港股上市申请，智能眼镜行业竞争激烈",
-        "summary": "智能眼镜公司 XREAL 寻求港股上市，三年亏损超 20 亿。",
+        "rank": 8,
+        "title": "XREAL递交港股上市申请，智能眼镜第一股承载阿里红杉等投资",
+        "summary": "AR眼镜公司XREAL谋求上市，背后汇聚阿里等巨头。",
         "url": "https://www.huxiu.com/article/4848138.html?f=rss",
         "source": "虎嗅",
         "category": "市场"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "小鹏汽车回应澳大利亚独家经销商合作破裂",
-        "summary": "小鹏汽车澳大利亚独家经销商合作出现问题。",
+        "summary": "小鹏汽车回应澳大利亚业务合作变动。",
         "url": "https://36kr.com/newsflashes/3751942074024712?f=rss",
         "source": "36氪",
         "category": "投融资"
+      },
+      {
+        "rank": 10,
+        "title": "马斯克要求参与SpaceX IPO的公司必须购买Grok",
+        "summary": "马斯克要求SpaceX IPO公司购买Grok，引发关注。",
+        "url": "https://36kr.com/newsflashes/3751856193044993?f=rss",
+        "source": "36氪",
+        "category": "市场"
+      }
+    ],
+    "科技": [
+      {
+        "rank": 1,
+        "title": "中国汽车行业进入转折关键阶段，规模只是第一门槛",
+        "summary": "何小鹏指出中国汽车行业正经历关键转折，规模不再是唯一门槛。",
+        "url": "https://www.ithome.com/0/936/058.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 2,
+        "title": "我国兆瓦级氢燃料航空涡桨发动机首飞成功",
+        "summary": "中国实现兆瓦级氢燃料航空涡桨发动机首次成功飞行。",
+        "url": "https://www.ithome.com/0/936/051.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 3,
+        "title": "AI仿文险入中学生课外读物，茅盾文学奖得主打假",
+        "summary": "AI仿写内容被纳入中学生读物，茅盾文学奖得主刘亮程进行打假。",
+        "url": "https://www.ithome.com/0/936/049.htm",
+        "source": "IT之家",
+        "category": "未分类"
+      },
+      {
+        "rank": 4,
+        "title": "一汽奥迪A6L e-tron搭载华为乾崑智驾上市",
+        "summary": "一汽奥迪A6L e-tron搭载华为乾崑智驾系统正式上市。",
+        "url": "https://www.ithome.com/0/936/059.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 5,
+        "title": "武汉百辆萝卜快跑集体趴窝，无人驾驶事故处理引关注",
+        "summary": "武汉大量自动驾驶出租车（萝卜快跑）出现故障，引发关注。",
+        "url": "https://www.huxiu.com/article/4848187.html?f=rss",
+        "source": "虎嗅",
+        "category": "未分类"
+      },
+      {
+        "rank": 6,
+        "title": "我国首款小麦低镉基因芯片“低镉1号”发布",
+        "summary": "中国发布首款小麦低镉基因芯片，可用于检测重金属。",
+        "url": "https://www.ithome.com/0/936/047.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 7,
+        "title": "两部门鼓励龙头企业规划布局锂电池回收利用",
+        "summary": "官方鼓励中国再生资源集团等企业发展锂电池回收利用。",
+        "url": "https://www.ithome.com/0/936/060.htm",
+        "source": "IT之家",
+        "category": "互联网"
+      },
+      {
+        "rank": 8,
+        "title": "千里科技2025年营收目标近百亿，AI与汽车双轮驱动",
+        "summary": "千里科技展望2025年营收近百亿，靠AI和汽车业务推动。",
+        "url": "https://www.ithome.com/0/936/055.htm",
+        "source": "IT之家",
+        "category": "未分类"
+      },
+      {
+        "rank": 9,
+        "title": "《星空》登陆PS5，PS5 Pro支持4K30FPS",
+        "summary": "游戏《星空》已登陆PS5，PS5 Pro支持4K30FPS。",
+        "url": "https://www.ithome.com/0/936/057.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 10,
+        "title": "“粗心人”作者被禁止对Meta发表负面言论",
+        "summary": "《粗心人》作者被禁止对Meta公司发表任何负面评论。",
+        "url": "https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf",
+        "source": "Hacker News",
+        "category": "未分类"
       }
     ],
     "国际": [
       {
         "rank": 1,
-        "title": "NASA猎户座号飞船拍摄到壮观的地球图像",
-        "summary": "猎户座号船员在前往月球途中拍摄了令人惊叹的地球照片。",
+        "title": "NASA猎户座飞船拍摄到“壮观”的地球图像",
+        "summary": "阿耳忒弥斯二号任务宇航员在前往月球途中捕捉到地球的壮丽景象。",
         "url": "https://www.bbc.com/news/articles/ce8jzr423p9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "未分类"
       },
       {
         "rank": 2,
-        "title": "特斯拉超级充电桩全球突破80000根",
-        "summary": "特斯拉充电网络持续扩张，已在全球部署超过80000个超级充电桩。",
-        "url": "https://36kr.com/newsflashes/3752222571725570?f=rss",
-        "source": "36氪",
-        "category": "未分类"
-      },
-      {
-        "rank": 3,
-        "title": "Slap：带有借用检查器的函数式连接语言？",
-        "summary": "一种新的函数式连接语言Slap，可能引入借用检查器。",
+        "title": "Slap：一款带有借用检查器的函数式连接语言",
+        "summary": "Slap 是一种创新的函数式连接语言，集成了强大的借用检查器。",
         "url": "https://taylor.town/slap-000",
         "source": "Hacker News",
         "category": "未分类"
       },
       {
-        "rank": 4,
-        "title": "生产中的SQLite：在单个文件上运行存储的经验教训",
-        "summary": "探讨在生产环境中，使用单个文件运行SQLite数据库的实际经验。",
-        "url": "https://ultrathink.art/blog/sqlite-in-production-lessons",
-        "source": "Hacker News",
+        "rank": 3,
+        "title": "特斯拉超级充电桩全球突破80000根",
+        "summary": "特斯拉充电基础设施建设取得里程碑式进展，全球充电桩数量达8万根。",
+        "url": "https://36kr.com/newsflashes/3752222571725570?f=rss",
+        "source": "36氪",
         "category": "未分类"
       },
       {
-        "rank": 5,
-        "title": "俄罗斯对乌克兰市场发动袭击，造成五人死亡",
-        "summary": "俄罗斯的袭击导致乌克兰市场五人丧生，冲突加剧。",
-        "url": "https://www.bbc.com/news/articles/cp869m2gzr0o?at_medium=RSS&at_campaign=rss",
+        "rank": 4,
+        "title": "俄罗斯选择“复活节升级”而非停火",
+        "summary": "泽连斯基总统表示，俄罗斯在复活节期间选择了军事升级，而非寻求停火。",
+        "url": "https://www.bbc.com/news/articles/cew70wjvv9do?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "未分类"
       },
       {
-        "rank": 6,
-        "title": "伊朗战争进入第六周，军方搜寻被击落的飞机机组人员",
-        "summary": "伊朗战争持续，军方在寻找被击落喷气式飞机的机组人员。",
+        "rank": 5,
+        "title": "伊拉克战争进入第六周，军方搜寻被击落飞机机组人员",
+        "summary": "持续的战争中，伊拉克军方正面临搜寻失事飞机机组人员的艰巨任务。",
         "url": "https://www.npr.org/2026/04/04/nx-s1-5773436/iran-war-updates",
         "source": "NPR World",
         "category": "科学"
       },
       {
-        "rank": 7,
-        "title": "加拿大几十年来最大规模的枪支管制努力为何未能达到目标",
-        "summary": "分析加拿大为何未能通过大规模枪支管制措施实现预期目标。",
-        "url": "https://www.bbc.com/news/articles/cvg09dq4x5qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "未分类"
-      },
-      {
-        "rank": 8,
-        "title": "加州野火预防：不可思议的消防员——山羊",
-        "summary": "加州利用山羊作为“消防员”来预防野火，效果出奇。",
-        "url": "https://www.npr.org/2023/08/10/1192905277/goat-grazing-california-wildfire-prevention",
-        "source": "Hacker News",
-        "category": "未分类"
-      },
-      {
-        "rank": 9,
-        "title": "从张雪机车夺冠，看中国摩托20年全球征战",
-        "summary": "回顾中国摩托车品牌张雪机车在全球赛场的20年征战史。",
+        "rank": 6,
+        "title": "中国摩托20年全球征战：从张雪机车到品牌崛起",
+        "summary": "回顾中国摩托车产业20年发展历程，从本土品牌到走向全球。",
         "url": "https://www.huxiu.com/article/4848137.html?f=rss",
         "source": "虎嗅",
         "category": "未分类"
       },
       {
-        "rank": 10,
-        "title": "“我们希望在我们的土地上发出声音”——被驱逐者对尼日利亚首都建设的回应",
-        "summary": "被驱逐者为建设尼日利亚新首都发声，呼吁尊重他们的土地权利。",
-        "url": "https://www.bbc.com/news/articles/clyggr00x5vo?at_medium=RSS&at_campaign=rss",
+        "rank": 7,
+        "title": "加氢用山羊防火：加州野火预防的新思路",
+        "summary": "加州引入山羊团队，以非传统方式预防和控制野火。",
+        "url": "https://www.npr.org/2023/08/10/1192905277/goat-grazing-california-wildfire-prevention",
+        "source": "Hacker News",
+        "category": "未分类"
+      },
+      {
+        "rank": 8,
+        "title": "生产中的SQLite：单文件存储的经验教训",
+        "summary": "在实际生产环境中，关于SQLite单文件存储的宝贵经验和教训。",
+        "url": "https://ultrathink.art/blog/sqlite-in-production-lessons",
+        "source": "Hacker News",
+        "category": "未分类"
+      },
+      {
+        "rank": 9,
+        "title": "塞内加尔因油价上涨禁止部长出国旅行",
+        "summary": "为应对油价上涨的经济压力，塞内加尔政府限制部长级官员的国际出行。",
+        "url": "https://www.bbc.com/news/articles/cp84z5r4d32o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "未分类"
+      },
+      {
+        "rank": 10,
+        "title": "浙江嘉兴港首次实现重大件设备直通欧洲",
+        "summary": "嘉兴港在国际贸易中取得突破，首次实现重大设备直达欧洲的海运。",
+        "url": "https://36kr.com/newsflashes/3752202024141575?f=rss",
+        "source": "36氪",
+        "category": "气候"
       }
     ]
   }
