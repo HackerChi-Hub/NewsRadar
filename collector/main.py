@@ -8,10 +8,11 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from sources import fetch_all_rss, fetch_hackernews, fetch_arxiv
-from summarizer import summarize_articles
+from summarizer import summarize_articles, MAX_PER_RUN
 
 DATA_FILE = Path(__file__).parent.parent / "web" / "public" / "data" / "news.json"
 MAX_AGE_DAYS = 7
+RETRY_UNSUMMARIZED = 5  # Re-process up to N old uncategorized articles per run
 
 
 def load_existing_data() -> dict:
@@ -61,19 +62,30 @@ def main():
 
     print(f"New articles: {len(new_articles)}\n")
 
-    if not new_articles:
-        print("No new articles found, exiting.")
-        return
-
     # Summarize with AI
     api_key = os.environ.get("GEMINI_API_KEY", "")
+
+    # Also pick up old unsummarized articles to retry
+    old_unsummarized = [a for a in data["articles"] if a.get("category") == "未分类"]
+    old_summarized = [a for a in data["articles"] if a.get("category") != "未分类"]
+    retry = old_unsummarized[:RETRY_UNSUMMARIZED]
+    still_pending = old_unsummarized[RETRY_UNSUMMARIZED:]
+
+    to_process = new_articles + retry
+    if not to_process:
+        print("No articles to process, exiting.")
+        return
+
+    if retry:
+        print(f"Retrying {len(retry)} old unsummarized articles")
+
     if api_key:
-        print(f"Summarizing {len(new_articles)} articles with Gemini...\n")
-        enriched = summarize_articles(new_articles, api_key)
+        print(f"\nSummarizing with Gemini (max {MAX_PER_RUN}/run)...\n")
+        enriched = summarize_articles(to_process, api_key)
     else:
         print("No GEMINI_API_KEY set, saving articles without AI summary.\n")
         enriched = []
-        for a in new_articles:
+        for a in to_process:
             enriched.append({
                 **{k: v for k, v in a.items() if k != "extra"},
                 "title_zh": a["title"],
@@ -83,8 +95,8 @@ def main():
                 "collected": datetime.now(timezone.utc).isoformat(),
             })
 
-    # Merge with existing articles
-    all_articles = enriched + data["articles"]
+    # Merge: enriched (new + retried) + already-summarized + still-pending
+    all_articles = enriched + old_summarized + still_pending
 
     # Prune articles older than MAX_AGE_DAYS
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
