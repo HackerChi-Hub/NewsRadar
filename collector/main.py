@@ -154,15 +154,20 @@ def main():
     api_key = os.environ.get("GEMINI_API_KEY", "")
     groq_key = os.environ.get("GROQ_API_KEY", "")
     if api_key or groq_key:
-        # Digest FIRST — most visible, only 1 API call
+        # Digest per domain — 4 API calls
         from summarizer import generate_digest
-        print("\nGenerating digest...")
-        digest = generate_digest(all_articles, api_key, groq_key)
-        if digest:
-            data["digest"] = {
-                "generated_at": datetime.now(timezone.utc).isoformat(),
-                "items": digest,
-            }
+        import time as _t
+        digest_data = {"generated_at": datetime.now(timezone.utc).isoformat()}
+        for dom in ["AI", "安全", "经济", "科技"]:
+            dom_articles = [a for a in all_articles if a.get("domain") == dom]
+            if len(dom_articles) >= 3:
+                print(f"\nGenerating {dom} digest ({len(dom_articles)} articles)...")
+                items = generate_digest(dom_articles, api_key, groq_key)
+                if items:
+                    digest_data[dom] = items
+                _t.sleep(2)
+        if len(digest_data) > 1:
+            data["digest"] = digest_data
 
         # Then enhance individual articles with remaining quota
         _ai_enhance(enriched, api_key, groq_key)
