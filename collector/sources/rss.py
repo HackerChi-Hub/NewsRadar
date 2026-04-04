@@ -5,32 +5,35 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 RSS_FEEDS = [
-    {
-        "name": "TechCrunch AI",
-        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-    },
-    {
-        "name": "The Verge AI",
-        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-    },
-    {
-        "name": "MIT Tech Review",
-        "url": "https://www.technologyreview.com/feed/",
-        "ai_filter": True,
-    },
-    {
-        "name": "VentureBeat AI",
-        "url": "https://venturebeat.com/category/ai/feed/",
-    },
-    {
-        "name": "Ars Technica AI",
-        "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
-        "ai_filter": True,
-    },
-    {
-        "name": "机器之心",
-        "url": "https://www.jiqizhixin.com/rss",
-    },
+    # ── 中文 AI 新闻（高优先级） ──
+    {"name": "量子位", "url": "https://www.qbitai.com/feed"},
+    {"name": "雷锋网 AI", "url": "https://www.leiphone.com/feed/categoryRss/name/ai"},
+    {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
+    {"name": "36氪", "url": "https://36kr.com/feed", "ai_filter": True},
+    {"name": "InfoQ 中文", "url": "https://www.infoq.cn/feed", "ai_filter": True},
+    {"name": "虎嗅", "url": "https://rss.huxiu.com/", "ai_filter": True},
+    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml", "ai_filter": True},
+    {"name": "爱范儿", "url": "https://www.ifanr.com/feed", "ai_filter": True},
+    {"name": "少数派", "url": "https://sspai.com/feed", "ai_filter": True},
+    # ── 英文 AI 媒体 ──
+    {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+    {"name": "The Decoder", "url": "https://the-decoder.com/feed/"},
+    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/"},
+    {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "ai_filter": True},
+    {"name": "Ars Technica AI", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "ai_filter": True},
+    {"name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss"},
+    {"name": "Bloomberg Tech", "url": "https://feeds.bloomberg.com/technology/news.rss", "ai_filter": True},
+    {"name": "InfoQ AI", "url": "https://feed.infoq.com/ai-ml-data-eng/"},
+    # ── 公司 / 实验室官方博客 ──
+    {"name": "OpenAI Blog", "url": "https://openai.com/news/rss.xml"},
+    {"name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml"},
+    {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/"},
+    {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml"},
+    {"name": "Microsoft AI Blog", "url": "https://blogs.microsoft.com/ai/feed/"},
+    {"name": "Meta AI Blog", "url": "https://engineering.fb.com/category/ml-applications/feed/"},
+    {"name": "AWS AI Blog", "url": "https://aws.amazon.com/blogs/ai/feed/"},
+    {"name": "NVIDIA Blog", "url": "https://developer.nvidia.com/blog/feed", "ai_filter": True},
 ]
 
 AI_KEYWORDS = [
