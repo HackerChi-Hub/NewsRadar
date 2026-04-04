@@ -124,12 +124,6 @@ def main():
     categorized = sum(1 for a in enriched if a["category"] != "未分类")
     print(f"Keyword categorized: {categorized}/{len(enriched)}\n")
 
-    # 3. Optional: AI-enhance with Gemini/Groq (better summaries)
-    api_key = os.environ.get("GEMINI_API_KEY", "")
-    groq_key = os.environ.get("GROQ_API_KEY", "")
-    if api_key or groq_key:
-        _ai_enhance(enriched, api_key, groq_key)
-
     # Merge with existing articles
     all_articles = enriched + data["articles"]
 
@@ -145,13 +139,13 @@ def main():
         print(f"Pruned {pruned} old articles")
 
     all_articles.sort(key=lambda a: a.get("published", ""), reverse=True)
-
     data["articles"] = all_articles
 
-    # 4. Generate top-10 digest (single LLM call)
+    # 3. AI tasks (Groq preferred, 14400 RPD free)
     api_key = os.environ.get("GEMINI_API_KEY", "")
     groq_key = os.environ.get("GROQ_API_KEY", "")
     if api_key or groq_key:
+        # Digest FIRST — most visible, only 1 API call
         from summarizer import generate_digest
         print("\nGenerating digest...")
         digest = generate_digest(all_articles, api_key, groq_key)
@@ -160,6 +154,9 @@ def main():
                 "generated_at": datetime.now(timezone.utc).isoformat(),
                 "items": digest,
             }
+
+        # Then enhance individual articles with remaining quota
+        _ai_enhance(enriched, api_key, groq_key)
 
     _save(data)
 
