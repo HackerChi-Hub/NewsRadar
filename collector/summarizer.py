@@ -28,7 +28,15 @@ def _parse_json(text: str) -> dict:
     match = re.search(r"```(?:json)?\s*\n?(.*?)\n?```", text, re.DOTALL)
     if match:
         text = match.group(1)
-    return json.loads(text.strip())
+    text = text.strip()
+    # Fix invalid unicode escapes from LLMs
+    text = re.sub(r'\\u(?![0-9a-fA-F]{4})', r'\\\\u', text)
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        # Try fixing common LLM JSON issues: trailing commas, single quotes
+        text = re.sub(r',\s*([}\]])', r'\1', text)
+        return json.loads(text)
 
 
 def _call_gemini(api_key: str, prompt: str) -> dict:
