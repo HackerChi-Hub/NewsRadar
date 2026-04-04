@@ -1,73 +1,67 @@
-# 📡 NewsRadar - AI 新闻雷达
+# 📡 NewsRadar - 新闻雷达
 
-自动采集 AI 领域新闻，通过 Gemini AI 生成中文摘要，部署在 GitHub Pages 上。
+全方位新闻聚合平台，覆盖 **AI · 网络安全 · 经济 · 科技 · 国际** 五大领域。
 
-**每 30 分钟自动更新。完全免费。**
+自动采集 50+ 信源，关键词智能分类，Google 翻译中文标题，AI 生成 Top 10 速报。
 
-## 新闻源
+**每 30 分钟自动更新 · 完全免费 · 部署在 [hyphentech.top/radar](https://hyphentech.top/radar/)**
 
-| 来源 | 类型 | 说明 |
-|------|------|------|
-| Hacker News | API | 英文 AI 热帖 |
-| arXiv | API | 最新 AI 论文 |
-| TechCrunch AI | RSS | AI 产业新闻 |
-| The Verge AI | RSS | 科技新闻 |
-| MIT Tech Review | RSS | 前沿技术报道 |
-| VentureBeat AI | RSS | AI 行业新闻 |
-| Ars Technica | RSS | 技术新闻 |
-| 机器之心 | RSS | 中文 AI 新闻 |
+## 五大领域
+
+| 领域 | 信源数 | 代表源 |
+|------|--------|--------|
+| 🤖 AI | 17 | 量子位、TechCrunch AI、OpenAI Blog、arXiv、Hacker News |
+| 🔒 安全 | 6 | The Hacker News、BleepingComputer、FreeBuf、Krebs on Security |
+| 💰 经济 | 3 | Bloomberg Markets、CNBC、Reuters |
+| 💻 科技 | 5 | Engadget、Ars Technica、IT之家、MIT Tech Review |
+| 🌍 国际 | 7 | UN News、BBC World、NASA、新华网、环球时报 |
+| 🌐 综合 | 7 | 36氪、虎嗅、钛媒体、爱范儿（按关键词自动分域） |
+
+## 功能
+
+- **关键词自动分类** — 5 大领域 × 4 子类，无需 API，毫秒级
+- **Google 翻译** — 英文标题自动翻译为中文（free，无需 API key）
+- **AI 速报** — 每个领域 Top 10 重要新闻（Groq Llama 3.3 70B 免费层）
+- **多级筛选** — 领域标签 → 子分类标签 → 关键词搜索
+- **回溯翻译** — 每次运行补翻 20 篇旧文章
 
 ## 技术栈
 
-- **采集器**: Python + feedparser + httpx
-- **AI 摘要**: Google Gemini 2.0 Flash (免费层)
-- **前端**: React + TypeScript + Vite + Tailwind CSS
+- **采集器**: Python + feedparser + httpx + deep-translator
+- **AI 摘要**: Groq (首选) + Gemini (备选)，均为免费层
+- **分类**: 关键词匹配，零 API 调用
+- **前端**: Next.js (集成在 Blog 项目中)
 - **CI/CD**: GitHub Actions (每 30 分钟 cron)
-- **部署**: GitHub Pages
 
 ## 设置
 
-### 1. Fork / Clone
+### 1. Clone
 
 ```bash
 git clone https://github.com/HackerChi-Hub/NewsRadar.git
 cd NewsRadar
 ```
 
-### 2. 配置 Gemini API Key
+### 2. 配置 API Keys (GitHub Secrets)
 
-1. 前往 [Google AI Studio](https://aistudio.google.com/) 获取免费 API Key
-2. 在 GitHub 仓库 Settings → Secrets and variables → Actions → New repository secret
-3. 添加 `GEMINI_API_KEY`
+| Secret | 用途 | 获取方式 |
+|--------|------|---------|
+| `GROQ_API_KEY` | AI 速报 + 摘要（首选） | [console.groq.com](https://console.groq.com/) |
+| `GEMINI_API_KEY` | AI 摘要（备选） | [aistudio.google.com](https://aistudio.google.com/) |
 
-### 3. 启用 GitHub Pages
+两个都免费，无需信用卡。
 
-1. 仓库 Settings → Pages
-2. Source 选择 **Deploy from a branch**
-3. Branch 选择 `gh-pages` / `root`
-4. 保存
+### 3. 首次运行
 
-### 4. 首次运行
-
-前往 Actions tab → "Collect & Deploy" → Run workflow
+Actions tab → "Collect & Deploy" → Run workflow
 
 ## 本地开发
 
 ```bash
-# 采集器
-cd collector
-uv sync
-GEMINI_API_KEY=your_key uv run python main.py
-
-# 前端
-cd web
-npm install
-npm run dev
+cd collector && uv sync
+GROQ_API_KEY=your_key uv run python main.py
 ```
 
 ## 成本
 
-**$0** — 全部使用免费服务：
-- GitHub Actions: 公共仓库无限分钟
-- GitHub Pages: 免费静态托管
-- Gemini API: 免费层 1000 次/天
+**$0** — GitHub Actions (公共仓库无限) + Groq 免费层 (14400 次/天) + Google Translate (免费)

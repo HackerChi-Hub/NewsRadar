@@ -165,7 +165,7 @@ def main():
                 items = generate_digest(dom_articles, api_key, groq_key)
                 if items:
                     digest_data[dom] = items
-                _t.sleep(2)
+                _t.sleep(8)  # Groq 70B: 30 RPM, need spacing
         if len(digest_data) > 1:
             data["digest"] = digest_data
 
