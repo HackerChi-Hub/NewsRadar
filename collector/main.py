@@ -9,7 +9,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from sources import fetch_all_rss, fetch_hackernews, fetch_arxiv
-from categorizer import categorize
+from categorizer import categorize, detect_domain
 
 DATA_FILE = Path(__file__).parent.parent / "web" / "public" / "data" / "news.json"
 MAX_AGE_DAYS = 7
@@ -60,17 +60,26 @@ def _translate_titles(articles: list[dict]) -> None:
 
 
 def _enrich_article(article: dict) -> dict:
-    """Add category, title_zh, summary_zh to an article using keyword matching."""
-    cat = categorize(article["title"], article.get("content", ""))
-    title_zh = article.get("title_zh", article["title"])
-    summary = article.get("content", "")[:200]
-    # Clean summary
-    summary = re.sub(r"\s+", " ", summary).strip()
+    """Add domain, category, title_zh, summary_zh using keyword matching."""
+    title = article.get("title", "")
+    content = article.get("content", "")
+    raw_domain = article.get("domain", "auto")
+
+    # Determine domain
+    if raw_domain == "auto":
+        domain = detect_domain(title, content)
+    else:
+        domain = raw_domain
+
+    cat = categorize(title, content, domain)
+    title_zh = article.get("title_zh", title)
+    summary = re.sub(r"\s+", " ", content[:200]).strip()
 
     return {
         **{k: v for k, v in article.items() if k != "extra"},
         "title_zh": title_zh,
         "summary_zh": summary,
+        "domain": domain,
         "category": cat,
         "tags": [],
         "collected": datetime.now(timezone.utc).isoformat(),
@@ -192,13 +201,20 @@ def _backfill_old(articles: list[dict]) -> None:
         except ImportError:
             pass
 
-    # Re-categorize all "未分类"
+    # Re-categorize + detect domain for old articles
     recategorized = 0
     for a in articles:
+        # Detect domain if missing
+        if not a.get("domain") or a.get("domain") == "auto":
+            a["domain"] = detect_domain(
+                a.get("title", "") + " " + a.get("title_zh", ""),
+                a.get("summary_zh", "") + " " + a.get("content", ""),
+            )
         if a.get("category") == "未分类":
             new_cat = categorize(
                 a.get("title", "") + " " + a.get("title_zh", ""),
                 a.get("summary_zh", "") + " " + a.get("content", ""),
+                a.get("domain", ""),
             )
             if new_cat != "未分类":
                 a["category"] = new_cat

@@ -55,6 +55,7 @@ def fetch_arxiv() -> list[dict]:
                 "title": title,
                 "url": url,
                 "source": "arXiv",
+                "domain": "AI",
                 "published": published,
                 "content": summary[:2000],
                 "extra": {"categories": categories},

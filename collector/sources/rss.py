@@ -1,58 +1,72 @@
-"""RSS feed sources for AI news."""
+"""RSS feed sources for news across domains."""
 
 import feedparser
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 RSS_FEEDS = [
-    # ── 中文 AI 新闻（高优先级） ──
-    {"name": "量子位", "url": "https://www.qbitai.com/feed"},
-    {"name": "雷锋网 AI", "url": "https://www.leiphone.com/feed/categoryRss/name/ai"},
-    {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
-    {"name": "36氪", "url": "https://36kr.com/feed", "ai_filter": True},
-    {"name": "InfoQ 中文", "url": "https://www.infoq.cn/feed", "ai_filter": True},
-    {"name": "虎嗅", "url": "https://rss.huxiu.com/", "ai_filter": True},
-    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml", "ai_filter": True},
-    {"name": "爱范儿", "url": "https://www.ifanr.com/feed", "ai_filter": True},
-    {"name": "少数派", "url": "https://sspai.com/feed", "ai_filter": True},
-    # ── 英文 AI 媒体 ──
-    {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
-    {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
-    {"name": "The Decoder", "url": "https://the-decoder.com/feed/"},
-    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/"},
-    {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "ai_filter": True},
-    {"name": "Ars Technica AI", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "ai_filter": True},
-    {"name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss"},
-    {"name": "Bloomberg Tech", "url": "https://feeds.bloomberg.com/technology/news.rss", "ai_filter": True},
-    {"name": "InfoQ AI", "url": "https://feed.infoq.com/ai-ml-data-eng/"},
-    # ── 公司 / 实验室官方博客 ──
-    {"name": "OpenAI Blog", "url": "https://openai.com/news/rss.xml"},
-    {"name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml"},
-    {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/"},
-    {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml"},
-    {"name": "Microsoft AI Blog", "url": "https://blogs.microsoft.com/ai/feed/"},
-    {"name": "Meta AI Blog", "url": "https://engineering.fb.com/category/ml-applications/feed/"},
-    {"name": "AWS AI Blog", "url": "https://aws.amazon.com/blogs/ai/feed/"},
-    {"name": "NVIDIA Blog", "url": "https://developer.nvidia.com/blog/feed", "ai_filter": True},
+    # ══════════════════════════════════════════════════
+    # 🤖 AI — 中文
+    # ══════════════════════════════════════════════════
+    {"name": "量子位", "url": "https://www.qbitai.com/feed", "domain": "AI"},
+    {"name": "雷锋网 AI", "url": "https://www.leiphone.com/feed/categoryRss/name/ai", "domain": "AI"},
+    {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "domain": "AI"},
+    # 🤖 AI — 英文媒体
+    {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "domain": "AI"},
+    {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "domain": "AI"},
+    {"name": "The Decoder", "url": "https://the-decoder.com/feed/", "domain": "AI"},
+    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "domain": "AI"},
+    {"name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "domain": "AI"},
+    {"name": "InfoQ AI", "url": "https://feed.infoq.com/ai-ml-data-eng/", "domain": "AI"},
+    # 🤖 AI — 公司博客
+    {"name": "OpenAI Blog", "url": "https://openai.com/news/rss.xml", "domain": "AI"},
+    {"name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml", "domain": "AI"},
+    {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "domain": "AI"},
+    {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "domain": "AI"},
+    {"name": "Microsoft AI Blog", "url": "https://blogs.microsoft.com/ai/feed/", "domain": "AI"},
+    {"name": "Meta AI Blog", "url": "https://engineering.fb.com/category/ml-applications/feed/", "domain": "AI"},
+    {"name": "AWS AI Blog", "url": "https://aws.amazon.com/blogs/ai/feed/", "domain": "AI"},
+
+    # ══════════════════════════════════════════════════
+    # 🔒 安全
+    # ══════════════════════════════════════════════════
+    {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "domain": "安全"},
+    {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "domain": "安全"},
+    {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "domain": "安全"},
+    {"name": "SecurityWeek", "url": "https://www.securityweek.com/feed/", "domain": "安全"},
+    {"name": "FreeBuf", "url": "https://www.freebuf.com/feed", "domain": "安全"},
+    {"name": "嘶吼", "url": "https://www.4hou.com/feed", "domain": "安全"},
+
+    # ══════════════════════════════════════════════════
+    # 💰 经济
+    # ══════════════════════════════════════════════════
+    {"name": "Bloomberg Markets", "url": "https://feeds.bloomberg.com/markets/news.rss", "domain": "经济"},
+    {"name": "CNBC", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "domain": "经济"},
+    {"name": "Reuters Business", "url": "https://www.reutersagency.com/feed/", "domain": "经济"},
+
+    # ══════════════════════════════════════════════════
+    # 💻 科技（综合）
+    # ══════════════════════════════════════════════════
+    {"name": "Engadget", "url": "https://www.engadget.com/rss.xml", "domain": "科技"},
+    {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "domain": "科技"},
+    {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "domain": "科技"},
+    {"name": "NVIDIA Blog", "url": "https://developer.nvidia.com/blog/feed", "domain": "科技", "ai_filter": False},
+    {"name": "IT之家", "url": "https://www.ithome.com/rss/", "domain": "科技"},
+
+    # ══════════════════════════════════════════════════
+    # 🌐 综合（按关键词自动分域）
+    # ══════════════════════════════════════════════════
+    {"name": "36氪", "url": "https://36kr.com/feed", "domain": "auto"},
+    {"name": "InfoQ 中文", "url": "https://www.infoq.cn/feed", "domain": "auto"},
+    {"name": "虎嗅", "url": "https://rss.huxiu.com/", "domain": "auto"},
+    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml", "domain": "auto"},
+    {"name": "爱范儿", "url": "https://www.ifanr.com/feed", "domain": "auto"},
+    {"name": "少数派", "url": "https://sspai.com/feed", "domain": "auto"},
+    {"name": "Bloomberg Tech", "url": "https://feeds.bloomberg.com/technology/news.rss", "domain": "auto"},
 ]
-
-AI_KEYWORDS = [
-    "ai", "artificial intelligence", "machine learning", "deep learning",
-    "neural", "llm", "large language model", "gpt", "openai", "anthropic",
-    "claude", "gemini", "mistral", "llama", "transformer", "diffusion",
-    "chatbot", "copilot", "agent", "rag", "nlp", "computer vision",
-    "robotics", "deepseek", "nvidia", "cuda", "gpu",
-    "人工智能", "大模型", "机器学习", "深度学习", "语言模型",
-]
-
-
-def _is_ai_related(title: str, summary: str = "") -> bool:
-    text = (title + " " + summary).lower()
-    return any(kw in text for kw in AI_KEYWORDS)
 
 
 def _parse_date(entry) -> str:
-    """Extract published date from a feed entry."""
     for field in ("published", "updated", "created"):
         raw = entry.get(field)
         if raw:
@@ -71,14 +85,12 @@ def _parse_date(entry) -> str:
 
 
 def _strip_html(text: str) -> str:
-    """Remove HTML tags from text."""
     import re
     clean = re.sub(r"<[^>]+>", "", text)
     return re.sub(r"\s+", " ", clean).strip()
 
 
 def fetch_rss(feed_info: dict) -> list[dict]:
-    """Fetch articles from a single RSS feed."""
     try:
         feed = feedparser.parse(feed_info["url"])
         articles = []
@@ -86,17 +98,15 @@ def fetch_rss(feed_info: dict) -> list[dict]:
             title = entry.get("title", "")
             summary = _strip_html(entry.get("summary", "") or entry.get("description", ""))
 
-            if feed_info.get("ai_filter") and not _is_ai_related(title, summary):
-                continue
-
             articles.append({
                 "title": title,
                 "url": entry.get("link", ""),
                 "source": feed_info["name"],
+                "domain": feed_info.get("domain", "auto"),
                 "published": _parse_date(entry),
                 "content": summary[:2000],
             })
-        print(f"  [{feed_info['name']}] fetched {len(articles)} articles")
+        print(f"  [{feed_info['name']}] {len(articles)}")
         return articles
     except Exception as e:
         print(f"  [{feed_info['name']}] error: {e}")
@@ -104,7 +114,6 @@ def fetch_rss(feed_info: dict) -> list[dict]:
 
 
 def fetch_all_rss() -> list[dict]:
-    """Fetch articles from all RSS feeds."""
     articles = []
     for feed_info in RSS_FEEDS:
         articles.extend(fetch_rss(feed_info))
