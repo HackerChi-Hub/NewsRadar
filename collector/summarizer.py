@@ -46,12 +46,12 @@ def _call_gemini(api_key: str, prompt: str) -> dict:
     return _parse_json(resp.text)
 
 
-def _call_groq(api_key: str, prompt: str) -> dict:
+def _call_groq(api_key: str, prompt: str, model: str = "llama-3.3-70b-versatile") -> dict:
     resp = httpx.post(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-        json={"model": "llama-3.1-8b-instant", "messages": [{"role": "user", "content": prompt}]},
-        timeout=30,
+        json={"model": model, "messages": [{"role": "user", "content": prompt}]},
+        timeout=60,
     )
     resp.raise_for_status()
     text = resp.json()["choices"][0]["message"]["content"]
