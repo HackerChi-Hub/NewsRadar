@@ -1,106 +1,83 @@
-"""AI summarizer using Google Gemini API (google-genai SDK)."""
+"""AI summarizer: Gemini (primary) + Groq (fallback). Both free tier."""
 
 import json
 import re
 import time
 from datetime import datetime, timezone
 
-from google import genai
+import httpx
 
-MODEL = "gemini-2.5-flash-lite"
+MAX_PER_RUN = 10
 RATE_LIMIT_DELAY = 6
-MAX_PER_RUN = 10  # Stay well under free tier limits per run
+
+VALID_CATEGORIES = {"LLM", "CV", "机器人", "AI产品", "研究", "行业", "政策", "开源"}
+
+PROMPT_TEMPLATE = (
+    "You are an AI news analyst. Respond with ONLY a JSON object.\n\n"
+    "Fields:\n"
+    '- "title_zh": Chinese translation of the title (keep if already Chinese)\n'
+    '- "summary_zh": 2-3 sentence summary in Chinese\n'
+    '- "category": ONE of [LLM, CV, 机器人, AI产品, 研究, 行业, 政策, 开源]\n'
+    '- "tags": 2-3 tags in Chinese\n\n'
+    "Title: {title}\nContent: {content}\n\n"
+    'JSON only: {{"title_zh":"...","summary_zh":"...","category":"...","tags":["..."]}}'
+)
 
 
-def _parse_json_response(text: str) -> dict:
-    """Extract JSON from a potentially markdown-wrapped response."""
+def _parse_json(text: str) -> dict:
     match = re.search(r"```(?:json)?\s*\n?(.*?)\n?```", text, re.DOTALL)
     if match:
         text = match.group(1)
     return json.loads(text.strip())
 
 
-VALID_CATEGORIES = {"LLM", "CV", "机器人", "AI产品", "研究", "行业", "政策", "开源"}
-
-
-def summarize_articles(articles: list[dict], api_key: str) -> list[dict]:
-    """Summarize up to MAX_PER_RUN articles. Returns enriched articles.
-    Remaining articles are returned without summary (to be processed in later runs)."""
+def _call_gemini(api_key: str, prompt: str) -> dict:
+    from google import genai
     client = genai.Client(api_key=api_key)
+    resp = client.models.generate_content(model="gemini-2.5-flash-lite", contents=prompt)
+    return _parse_json(resp.text)
 
-    to_summarize = articles[:MAX_PER_RUN]
-    skip = articles[MAX_PER_RUN:]
 
-    print(f"  Will summarize {len(to_summarize)} of {len(articles)} (max {MAX_PER_RUN}/run, model: {MODEL})")
+def _call_groq(api_key: str, prompt: str) -> dict:
+    resp = httpx.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        json={"model": "llama-3.1-8b-instant", "messages": [{"role": "user", "content": prompt}]},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    text = resp.json()["choices"][0]["message"]["content"]
+    return _parse_json(text)
 
-    enriched = []
-    quota_hit = False
 
-    for i, article in enumerate(to_summarize):
-        if quota_hit:
-            # Quota exhausted, save remaining without summary
-            enriched.append(_fallback(article))
-            continue
-
+def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = "") -> None:
+    """Enhance articles in-place with AI summaries. Stops on quota hit."""
+    for i, article in enumerate(articles):
+        prompt = PROMPT_TEMPLATE.format(
+            title=article.get("title", ""),
+            content=article.get("content", article.get("summary_zh", ""))[:3000],
+        )
         try:
-            prompt = (
-                "You are an AI news analyst. Analyze this article and respond with ONLY a JSON object (no markdown).\n\n"
-                "Required fields:\n"
-                '- "title_zh": Chinese translation of the title (keep original if already Chinese)\n'
-                '- "summary_zh": A concise 2-3 sentence summary in Chinese\n'
-                f'- "category": ONE of [{", ".join(VALID_CATEGORIES)}]\n'
-                '- "tags": 2-3 relevant tags in Chinese\n\n'
-                f"Title: {article['title']}\n"
-                f"Content: {article.get('content', '')[:3000]}\n\n"
-                'Respond ONLY with JSON: {"title_zh": "...", "summary_zh": "...", "category": "...", "tags": ["..."]}'
-            )
+            if gemini_key:
+                result = _call_gemini(gemini_key, prompt)
+            elif groq_key:
+                result = _call_groq(groq_key, prompt)
+            else:
+                return
 
-            response = client.models.generate_content(model=MODEL, contents=prompt)
-            result = _parse_json_response(response.text)
+            cat = result.get("category", "")
+            if cat in VALID_CATEGORIES:
+                article["category"] = cat
+            article["title_zh"] = result.get("title_zh", article.get("title_zh", ""))
+            article["summary_zh"] = result.get("summary_zh", article.get("summary_zh", ""))
+            article["tags"] = result.get("tags", [])[:5]
+            print(f"  ✓ [{i+1}] {article['title'][:45]}...")
 
-            category = result.get("category", "未分类")
-            if category not in VALID_CATEGORIES:
-                category = "未分类"
-
-            enriched.append({
-                **{k: v for k, v in article.items() if k != "extra"},
-                "title_zh": result.get("title_zh", article["title"]),
-                "summary_zh": result.get("summary_zh", ""),
-                "category": category,
-                "tags": result.get("tags", [])[:5],
-                "collected": datetime.now(timezone.utc).isoformat(),
-            })
-            print(f"  ✓ [{i+1}/{len(to_summarize)}] {article['title'][:50]}...")
-
-            if i < len(to_summarize) - 1:
+            if i < len(articles) - 1:
                 time.sleep(RATE_LIMIT_DELAY)
 
         except Exception as e:
-            err_str = str(e)
-            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
-                print(f"  ✗ [{i+1}/{len(to_summarize)}] Quota hit, stopping summarization")
-                quota_hit = True
-                enriched.append(_fallback(article))
-            else:
-                print(f"  ✗ [{i+1}/{len(to_summarize)}] Error: {e}")
-                enriched.append(_fallback(article))
-
-    # Remaining articles saved without summary
-    for article in skip:
-        enriched.append(_fallback(article))
-
-    summarized = sum(1 for a in enriched if a["category"] != "未分类")
-    print(f"  Result: {summarized} summarized, {len(enriched) - summarized} pending")
-
-    return enriched
-
-
-def _fallback(article: dict) -> dict:
-    return {
-        **{k: v for k, v in article.items() if k != "extra"},
-        "title_zh": article["title"],
-        "summary_zh": article.get("content", "")[:200],
-        "category": "未分类",
-        "tags": [],
-        "collected": datetime.now(timezone.utc).isoformat(),
-    }
+            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+                print(f"  ✗ [{i+1}] Quota hit, stopping")
+                return
+            print(f"  ✗ [{i+1}] {e}")
