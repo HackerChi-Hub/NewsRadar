@@ -144,12 +144,23 @@ def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = 
     prompt = DIGEST_PROMPT.format(articles_text="\n".join(lines))
 
     try:
-        # Prefer Gemini for digest (higher free quota), fallback to Groq
+        # Prefer Gemini for digest, fallback to Groq on failure
+        result = None
         if gemini_key:
-            result = _call_gemini(gemini_key, prompt)
-        elif groq_key:
+            for attempt in range(2):
+                try:
+                    result = _call_gemini(gemini_key, prompt)
+                    break
+                except Exception as ge:
+                    if attempt == 0 and ("503" in str(ge) or "UNAVAILABLE" in str(ge)):
+                        print(f"  ⏳ Gemini busy, retrying in 5s...")
+                        time.sleep(5)
+                    else:
+                        print(f"  ⚠ Gemini failed: {ge}")
+                        break  # Fall through to Groq
+        if result is None and groq_key:
             result = _call_groq(groq_key, prompt)
-        else:
+        if result is None:
             return []
 
         items = result.get("items", [])
