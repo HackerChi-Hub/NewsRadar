@@ -132,8 +132,8 @@ def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = 
     if len(articles) < 5:
         return []
 
-    # Build article list for prompt (limit to 50 newest)
-    candidates = articles[:50]
+    # Build article list for prompt (limit to 25 newest to control tokens)
+    candidates = articles[:25]
     lines = []
     for a in candidates:
         title = a.get("title_zh", a.get("title", ""))
@@ -144,10 +144,11 @@ def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = 
     prompt = DIGEST_PROMPT.format(articles_text="\n".join(lines))
 
     try:
-        if groq_key:
-            result = _call_groq(groq_key, prompt)
-        elif gemini_key:
+        # Prefer Gemini for digest (higher free quota), fallback to Groq
+        if gemini_key:
             result = _call_gemini(gemini_key, prompt)
+        elif groq_key:
+            result = _call_groq(groq_key, prompt)
         else:
             return []
 

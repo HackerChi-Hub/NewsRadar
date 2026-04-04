@@ -154,16 +154,22 @@ def main():
     api_key = os.environ.get("GEMINI_API_KEY", "")
     groq_key = os.environ.get("GROQ_API_KEY", "")
     if api_key or groq_key:
-        # Digest for all domains — single API call
-        from summarizer import generate_all_digests
+        # Digest per domain — 5 API calls with rate limit handling
+        from summarizer import generate_digest
         import time as _t
-        print("\nGenerating digests for all domains (single call)...")
-        domain_digests = generate_all_digests(all_articles, api_key, groq_key)
-        if domain_digests:
-            digest_data = {"generated_at": datetime.now(timezone.utc).isoformat()}
-            digest_data.update(domain_digests)
+        digest_data = {"generated_at": datetime.now(timezone.utc).isoformat()}
+        for dom in ["AI", "安全", "经济", "科技", "国际"]:
+            dom_articles = [a for a in all_articles if a.get("domain") == dom]
+            if len(dom_articles) >= 3:
+                print(f"\nGenerating {dom} digest ({len(dom_articles)} articles)...")
+                # Use Gemini for digest to avoid Groq TPM limits, save Groq for enhancement
+                items = generate_digest(dom_articles, api_key, groq_key)
+                if items:
+                    digest_data[dom] = items
+                _t.sleep(3)
+        if len(digest_data) > 1:
             data["digest"] = digest_data
-            _t.sleep(8)  # Spacing before article enhancement
+            _t.sleep(6)  # Spacing before article enhancement
 
         # Then enhance individual articles with remaining quota
         _ai_enhance(enriched, api_key, groq_key)
