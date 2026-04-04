@@ -1,6 +1,20 @@
 {
-  "last_updated": "2026-04-04T15:05:55.367828+00:00",
+  "last_updated": "2026-04-04T15:10:14.948495+00:00",
   "articles": [
+    {
+      "title": "Illuminated in Orion",
+      "url": "https://www.nasa.gov/image-article/illuminated-in-orion/",
+      "source": "NASA",
+      "domain": "国际",
+      "published": "2026-04-04T15:07:46+00:00",
+      "content": "NASA astronaut Christina Koch reads on a tablet in the dimly lit Orion crew capsule in this April 3, 2026, photo. To the right of the image&#8217;s center, CSA (Canadian Space Agency) astronaut Jeremy Hansen is seen in profile peering out of one of Orion&#8217;s windows. Lights are turned off to avoid glare on the [&#8230;]",
+      "id": "ec0d3471e148d445e83d8fafa25ec951",
+      "title_zh": "猎户座照明",
+      "summary_zh": "NASA astronaut Christina Koch reads on a tablet in the dimly lit Orion crew capsule in this April 3, 2026, photo. To the right of the image&#8217;s center, CSA (Canadian Space Agency) astronaut Jeremy",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-04-04T15:09:26.750748+00:00"
+    },
     {
       "title": "两部门：鼓励中国再生资源集团等龙头企业规划布局锂电池回收利用",
       "url": "https://www.ithome.com/0/936/060.htm",
@@ -2378,6 +2392,20 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-04-04T07:51:16.727766+00:00"
+    },
+    {
+      "title": "Apple at 50, blind people and our allies shaping Apple accessibility innovation",
+      "url": "https://nfb.org/resources/publications-and-media/access-on-podcast/apple-50-blind-people-and-our-allies-shaping",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-04T07:01:21+00:00",
+      "content": "Apple at 50, blind people and our allies shaping Apple accessibility innovation. Score: 3, Comments: 1",
+      "id": "ef8ae8c9c25e9f32ab2b2b07c5aa070d",
+      "title_zh": "Apple 50 岁了，盲人和我们的盟友塑造了 Apple 无障碍创新",
+      "summary_zh": "Apple at 50, blind people and our allies shaping Apple accessibility innovation. Score: 3, Comments: 1",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-04T15:09:26.751047+00:00"
     },
     {
       "title": "华泰证券：近期二级市场持续回调，各板块内估值稳健、分派率较高的项目，或有短期交易机会",
@@ -9518,6 +9546,20 @@
       "domain": "AI"
     },
     {
+      "title": "Training mRNA Language Models Across 25 Species for $165",
+      "url": "https://news.ycombinator.com/item?id=47606244",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-01T20:38:24+00:00",
+      "content": "Training mRNA Language Models Across 25 Species for $165. Score: 6, Comments: 1",
+      "id": "25d2081f339565ecf386537885c537ac",
+      "title_zh": "训练 25 个物种的 mRNA 语言模型，仅需 165 美元",
+      "summary_zh": "Training mRNA Language Models Across 25 Species for $165. Score: 6, Comments: 1",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-04T15:09:26.751003+00:00"
+    },
+    {
       "title": "Sequential Optimal Packing for PCB Placement",
       "url": "https://blog.autorouting.com/p/sequential-optimal-packing-for-pcb",
       "source": "Hacker News",
@@ -11185,169 +11227,251 @@
     }
   ],
   "digest": {
-    "generated_at": "2026-04-04T13:06:07.161576+00:00",
-    "AI": [
-      {
-        "rank": 1,
-        "title": "Anthropic封杀OpenClaw",
-        "summary": "Anthropic封杀第三方工具OpenClaw",
-        "url": "https://www.tmtpost.com/7941920.html",
-        "source": "钛媒体",
-        "category": "AI产品"
-      },
-      {
-        "rank": 2,
-        "title": "OpenAI人事大变动",
-        "summary": "OpenAI高管因健康问题辞职",
-        "url": "https://the-decoder.com/openai-reshuffles-leadership-as-health-issues-force-key-executives-to-step-back/",
-        "source": "The Decoder",
-        "category": "未分类"
-      },
-      {
-        "rank": 3,
-        "title": "Netflix开源VOID",
-        "summary": "Netflix开源人工智能框架VOID",
-        "url": "https://the-decoder.com/netflix-open-sources-void-an-ai-framework-that-erases-video-objects-and-rewrites-the-physics-they-left-behind/",
-        "source": "The Decoder",
-        "category": "开源"
-      },
-      {
-        "rank": 4,
-        "title": "Anthropic发现功能性情绪",
-        "summary": "Anthropic发现大型语言模型的情绪",
-        "url": "https://the-decoder.com/anthropic-discovers-functional-emotions-in-claude-that-influence-its-behavior/",
-        "source": "The Decoder",
-        "category": "LLM"
-      },
-      {
-        "rank": 5,
-        "title": "欧盟委员会云泄露",
-        "summary": "欧盟委员会云服务出现安全漏洞",
-        "url": "https://cert.europa.eu/blog/european-commission-cloud-breach-trivy-supply-chain",
-        "source": "Hacker News",
-        "category": "未分类"
-      },
-      {
-        "rank": 6,
-        "title": "Tiiny AI众筹破百万",
-        "summary": "Tiiny AI项目众筹仅5小时破百万",
-        "url": "https://www.huxiu.com/article/4848076.html?f=rss",
-        "source": "虎嗅",
-        "category": "未分类"
-      },
-      {
-        "rank": 7,
-        "title": "联想重新定义龙虾",
-        "summary": "联想提出新的龙虾概念",
-        "url": "https://www.qbitai.com/2026/04/396015.html",
-        "source": "量子位",
-        "category": "AI产品"
-      },
-      {
-        "rank": 8,
-        "title": "Anthropic减持制药初创公司",
-        "summary": "Anthropic减持制药初创公司股份",
-        "url": "https://the-decoder.com/anthropic-drops-400-million-in-shares-on-an-eight-month-old-ai-pharma-startup-with-fewer-than-ten-employees/",
-        "source": "The Decoder",
-        "category": "未分类"
-      },
-      {
-        "rank": 9,
-        "title": "千问AI打车上线",
-        "summary": "千问AI打车服务上线",
-        "url": "https://36kr.com/newsflashes/3751994306183681?f=rss",
-        "source": "36氪",
-        "category": "LLM"
-      },
-      {
-        "rank": 10,
-        "title": "大厂限制员工使用第三方模型",
-        "summary": "大厂限制员工使用第三方AI模型",
-        "url": "https://www.tmtpost.com/7941699.html",
-        "source": "钛媒体",
-        "category": "LLM"
-      }
-    ],
+    "generated_at": "2026-04-04T15:09:26.761182+00:00",
     "安全": [
       {
         "rank": 1,
-        "title": "欧盟委员会确认数据泄露与供应链攻击有关",
-        "summary": "欧盟委员会数据泄露",
-        "url": "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
-        "source": "SecurityWeek",
+        "title": "AI 驱动的网络钓鱼攻击激增 37 倍",
+        "summary": "设备代码网络钓鱼攻击激增，AI 工具被滥用。",
+        "url": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
+        "source": "BleepingComputer",
         "category": "攻防"
       },
       {
         "rank": 2,
-        "title": "Meta暂停与Mercor合作",
-        "summary": "Meta暂停合作",
-        "url": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/",
-        "source": "Wired AI",
-        "category": "行业"
-      },
-      {
-        "rank": 3,
-        "title": " Claude Code 发现隐藏23年的Linux漏洞",
-        "summary": "Linux漏洞",
+        "title": "Claude Code 发现 23 年 Linux 漏洞",
+        "summary": "AI 代码助手发现深度隐藏的 Linux 安全漏洞。",
         "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
         "source": "Hacker News",
         "category": "LLM"
       },
       {
+        "rank": 3,
+        "title": "Meta 因数据泄露风险暂停与 Mercor 合作",
+        "summary": "AI 行业秘密面临风险，Meta 暂停第三方合作。",
+        "url": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/",
+        "source": "Wired AI",
+        "category": "行业"
+      },
+      {
         "rank": 4,
-        "title": "与中国相关的TA416发起网络钓鱼攻击",
-        "summary": "网络钓鱼攻击",
-        "url": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-        "source": "The Hacker News",
-        "category": "攻防"
-      },
-      {
-        "rank": 5,
-        "title": "德国左翼政党数据被窃取",
-        "summary": "数据被窃取",
-        "url": "https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      },
-      {
-        "rank": 6,
-        "title": "PyPI供应链攻击导致LiteLLM遭入侵",
-        "summary": "PyPI供应链攻击",
+        "title": "PyPI 供应链攻击入侵 LiteLLM",
+        "summary": "LiteLLM 遭供应链攻击，敏感信息泄露。",
         "url": "https://www.infoq.cn/article/YqWdW6lF74rlqXkJ5AMJ?utm_source=rss&utm_medium=article",
         "source": "InfoQ 中文",
         "category": "LLM"
       },
       {
+        "rank": 5,
+        "title": "多重勒索软件攻击演变",
+        "summary": "勒索软件攻击手段升级，威胁加剧。",
+        "url": "https://www.bleepingcomputer.com/news/security/evolution-of-ransomware-multi-extortion-ransomware-attacks/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      },
+      {
+        "rank": 6,
+        "title": "LinkedIn 扫描 Chrome 扩展程序收集数据",
+        "summary": "LinkedIn 秘密扫描大量 Chrome 扩展，引发隐私担忧。",
+        "url": "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
+        "source": "BleepingComputer",
+        "category": "未分类"
+      },
+      {
         "rank": 7,
-        "title": "微软详细介绍了PHP Web Shell",
-        "summary": "PHP Web Shell",
-        "url": "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
+        "title": "TA416 攻击欧洲政府",
+        "summary": "与中国相关的黑客组织利用 PlugX 和 OAuth 攻击。",
+        "url": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
         "source": "The Hacker News",
+        "category": "攻防"
+      },
+      {
+        "rank": 8,
+        "title": "欧盟委员会数据泄露与供应链攻击相关",
+        "summary": "欧盟委员会确认数据泄露源于琐碎的供应链攻击。",
+        "url": "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
+        "source": "SecurityWeek",
+        "category": "攻防"
+      },
+      {
+        "rank": 9,
+        "title": "Axios 维护者社会工程导致 npm 攻击",
+        "summary": "npm 供应链遭受社会工程攻击。",
+        "url": "",
+        "source": "",
+        "category": ""
+      },
+      {
+        "rank": 10,
+        "title": "“麒麟”勒索软件窃取德国政党数据",
+        "summary": "德国左翼政党数据被“麒麟”勒索软件窃取。",
+        "url": "https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      }
+    ],
+    "经济": [
+      {
+        "rank": 1,
+        "title": "OpenAI 人事变动：Fidji Simo 休假，领导层调整",
+        "summary": "OpenAI 宣布 Fidji Simo 休假，并进行领导层调整。",
+        "url": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
+        "source": "CNBC",
+        "category": "未分类"
+      },
+      {
+        "rank": 2,
+        "title": "苹果在人工智能领域落后 5 年，但仍有机会获胜",
+        "summary": "苹果在 AI 领域被认为落后，但前内部人士称其仍有机会。",
+        "url": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
+        "source": "CNBC",
+        "category": "未分类"
+      },
+      {
+        "rank": 3,
+        "title": "国际货币基金组织警告：代币化金融风险加剧，可能引发未来市场危机",
+        "summary": "IMF 警告代币化金融风险，或致未来市场危机。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-04/imf-warns-tokenized-finance-risks-amplifying-market-crises-ahead",
+        "source": "Bloomberg Tech",
+        "category": "市场"
+      },
+      {
+        "rank": 4,
+        "title": "地缘政治紧张加剧：伊朗附近航运量创战争以来新高",
+        "summary": "霍尔木兹海峡航运量激增，反映地区紧张局势。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-04/hormuz-tracker-weekly-transits-reach-highest-since-war-began",
+        "source": "Bloomberg Markets",
+        "category": "未分类"
+      },
+      {
+        "rank": 5,
+        "title": "中东局势升级：空中拦截碎片击中迪拜甲骨文大楼",
+        "summary": "迪拜甲骨文大楼遭空中拦截碎片击中，局势紧张。",
+        "url": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
+        "source": "CNBC",
+        "category": "未分类"
+      },
+      {
+        "rank": 6,
+        "title": "能源危机蔓延：德国等国敦促欧盟对能源暴利征税",
+        "summary": "多国呼吁欧盟对能源公司征收暴利税。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-04/five-eu-states-call-for-energy-windfall-profit-tax-reuters-says",
+        "source": "Bloomberg Markets",
+        "category": "未分类"
+      },
+      {
+        "rank": 7,
+        "title": "中国票房影响力下降，好莱坞影片面临挑战",
+        "summary": "中国票房对好莱坞的重要性下降。",
+        "url": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
+        "source": "CNBC",
         "category": "未分类"
       },
       {
         "rank": 8,
-        "title": "TrueConf零日漏洞被利用",
-        "summary": "零日漏洞",
-        "url": "https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/",
-        "source": "SecurityWeek",
-        "category": "漏洞"
+        "title": "药师帮净利大增，但仍面临发展挑战",
+        "summary": "药师帮盈利大幅增长，但仍处困境。",
+        "url": "https://www.tmtpost.com/7941465.html",
+        "source": "钛媒体",
+        "category": "市场"
       },
       {
         "rank": 9,
-        "title": "Axios维护者的UNC1069社会工程导致npm供应链攻击",
-        "summary": "npm供应链攻击",
-        "url": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-        "source": "The Hacker News",
-        "category": "攻防"
+        "title": "XREAL 递交港股上市申请，智能眼镜行业竞争激烈",
+        "summary": "智能眼镜公司 XREAL 寻求港股上市，三年亏损超 20 亿。",
+        "url": "https://www.huxiu.com/article/4848138.html?f=rss",
+        "source": "虎嗅",
+        "category": "市场"
       },
       {
         "rank": 10,
-        "title": "CERT-EU：欧盟委员会黑客攻击暴露了30个欧盟实体的数据",
-        "summary": "欧盟委员会黑客攻击",
-        "url": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
-        "source": "BleepingComputer",
-        "category": "攻防"
+        "title": "小鹏汽车回应澳大利亚独家经销商合作破裂",
+        "summary": "小鹏汽车澳大利亚独家经销商合作出现问题。",
+        "url": "https://36kr.com/newsflashes/3751942074024712?f=rss",
+        "source": "36氪",
+        "category": "投融资"
+      }
+    ],
+    "国际": [
+      {
+        "rank": 1,
+        "title": "NASA猎户座号飞船拍摄到壮观的地球图像",
+        "summary": "猎户座号船员在前往月球途中拍摄了令人惊叹的地球照片。",
+        "url": "https://www.bbc.com/news/articles/ce8jzr423p9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "未分类"
+      },
+      {
+        "rank": 2,
+        "title": "特斯拉超级充电桩全球突破80000根",
+        "summary": "特斯拉充电网络持续扩张，已在全球部署超过80000个超级充电桩。",
+        "url": "https://36kr.com/newsflashes/3752222571725570?f=rss",
+        "source": "36氪",
+        "category": "未分类"
+      },
+      {
+        "rank": 3,
+        "title": "Slap：带有借用检查器的函数式连接语言？",
+        "summary": "一种新的函数式连接语言Slap，可能引入借用检查器。",
+        "url": "https://taylor.town/slap-000",
+        "source": "Hacker News",
+        "category": "未分类"
+      },
+      {
+        "rank": 4,
+        "title": "生产中的SQLite：在单个文件上运行存储的经验教训",
+        "summary": "探讨在生产环境中，使用单个文件运行SQLite数据库的实际经验。",
+        "url": "https://ultrathink.art/blog/sqlite-in-production-lessons",
+        "source": "Hacker News",
+        "category": "未分类"
+      },
+      {
+        "rank": 5,
+        "title": "俄罗斯对乌克兰市场发动袭击，造成五人死亡",
+        "summary": "俄罗斯的袭击导致乌克兰市场五人丧生，冲突加剧。",
+        "url": "https://www.bbc.com/news/articles/cp869m2gzr0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "未分类"
+      },
+      {
+        "rank": 6,
+        "title": "伊朗战争进入第六周，军方搜寻被击落的飞机机组人员",
+        "summary": "伊朗战争持续，军方在寻找被击落喷气式飞机的机组人员。",
+        "url": "https://www.npr.org/2026/04/04/nx-s1-5773436/iran-war-updates",
+        "source": "NPR World",
+        "category": "科学"
+      },
+      {
+        "rank": 7,
+        "title": "加拿大几十年来最大规模的枪支管制努力为何未能达到目标",
+        "summary": "分析加拿大为何未能通过大规模枪支管制措施实现预期目标。",
+        "url": "https://www.bbc.com/news/articles/cvg09dq4x5qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "未分类"
+      },
+      {
+        "rank": 8,
+        "title": "加州野火预防：不可思议的消防员——山羊",
+        "summary": "加州利用山羊作为“消防员”来预防野火，效果出奇。",
+        "url": "https://www.npr.org/2023/08/10/1192905277/goat-grazing-california-wildfire-prevention",
+        "source": "Hacker News",
+        "category": "未分类"
+      },
+      {
+        "rank": 9,
+        "title": "从张雪机车夺冠，看中国摩托20年全球征战",
+        "summary": "回顾中国摩托车品牌张雪机车在全球赛场的20年征战史。",
+        "url": "https://www.huxiu.com/article/4848137.html?f=rss",
+        "source": "虎嗅",
+        "category": "未分类"
+      },
+      {
+        "rank": 10,
+        "title": "“我们希望在我们的土地上发出声音”——被驱逐者对尼日利亚首都建设的回应",
+        "summary": "被驱逐者为建设尼日利亚新首都发声，呼吁尊重他们的土地权利。",
+        "url": "https://www.bbc.com/news/articles/clyggr00x5vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "未分类"
       }
     ]
   }
