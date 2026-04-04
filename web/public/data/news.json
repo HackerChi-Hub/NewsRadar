@@ -1,5 +1,13 @@
 {
+<<<<<<< HEAD
   "last_updated": "2026-04-04T04:41:19.893505+00:00",
+=======
+<<<<<<< Updated upstream
+  "last_updated": "2026-04-04T04:14:03.521413+00:00",
+=======
+  "last_updated": "2026-04-04T04:38:40.062995+00:00",
+>>>>>>> Stashed changes
+>>>>>>> 7a36218 (Add backfill translation for old untranslated articles)
   "articles": [
     {
       "title": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
@@ -41,6 +49,19 @@
       "collected": "2026-04-04T04:14:03.518659+00:00"
     },
     {
+      "title": "Anthropic封杀OpenClaw，龙虾之父：说服失败",
+      "url": "https://www.huxiu.com/article/4848104.html?f=rss",
+      "source": "虎嗅",
+      "published": "2026-04-04T04:15:00+00:00",
+      "content": "想继续用？以后有两条路",
+      "id": "7b5dc52a9dc7cc619fbbd278baf617eb",
+      "title_zh": "Anthropic封杀OpenClaw，龙虾之父：说服失败",
+      "summary_zh": "想继续用？以后有两条路",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-04T04:38:40.041130+00:00"
+    },
+    {
       "title": "千问AI打车上线两周：假期需求暴涨，周环比增长超1500%",
       "url": "https://36kr.com/newsflashes/3751994306183681?f=rss",
       "source": "36氪",
@@ -66,9 +87,19 @@
       "id": "843309e4e41793186a37f5e6a22e0ea9",
       "title_zh": "OpenAI人事大变动",
       "summary_zh": "",
+<<<<<<< HEAD
       "category": "LLM",
+=======
+<<<<<<< Updated upstream
+      "category": "未分类",
+>>>>>>> 7a36218 (Add backfill translation for old untranslated articles)
       "tags": [],
       "collected": "2026-04-04T04:14:03.518664+00:00"
+=======
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-04T04:38:40.041164+00:00"
+>>>>>>> Stashed changes
     },
     {
       "title": "AI的风吹到了地府，华南F3还在山上找太公",
@@ -640,7 +671,11 @@
       "summary_zh": "微软表示，将与樱花互联网和软银集团合作，提供人工智能基础设施。",
       "category": "未分类",
       "tags": [],
+<<<<<<< HEAD
       "collected": "2026-04-04T04:41:18.257080+00:00"
+=======
+      "collected": "2026-04-04T04:38:40.041207+00:00"
+>>>>>>> 7a36218 (Add backfill translation for old untranslated articles)
     },
     {
       "title": "The Facebook insider building content moderation for the AI era",

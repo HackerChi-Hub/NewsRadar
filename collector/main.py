@@ -133,13 +133,8 @@ def main():
     # Merge with existing articles
     all_articles = enriched + data["articles"]
 
-    # Also re-categorize old "未分类" articles with keywords
-    for a in all_articles:
-        if a.get("category") == "未分类":
-            a["category"] = categorize(
-                a.get("title", "") + " " + a.get("title_zh", ""),
-                a.get("summary_zh", "") + " " + a.get("content", ""),
-            )
+    # Backfill: translate + re-categorize old articles
+    _backfill_old(all_articles)
 
     # Prune old
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
@@ -153,6 +148,52 @@ def main():
 
     data["articles"] = all_articles
     _save(data)
+
+
+BACKFILL_TRANSLATE_PER_RUN = 20
+
+
+def _backfill_old(articles: list[dict]) -> None:
+    """Translate untranslated old articles + re-categorize uncategorized ones."""
+    # Find articles where title_zh == title and title is not Chinese (untranslated)
+    untranslated = [
+        a for a in articles
+        if a.get("title_zh") == a.get("title") and not _is_chinese(a.get("title", ""))
+    ]
+
+    if untranslated:
+        batch = untranslated[:BACKFILL_TRANSLATE_PER_RUN]
+        try:
+            from deep_translator import GoogleTranslator
+            translator = GoogleTranslator(source="auto", target="zh-CN")
+            import time as _time
+            success = 0
+            for a in batch:
+                try:
+                    translated = translator.translate(a["title"][:500])
+                    if translated:
+                        a["title_zh"] = translated
+                        success += 1
+                    _time.sleep(0.5)
+                except Exception:
+                    break  # Stop on error to avoid being blocked
+            print(f"Backfill translated: {success}/{len(batch)} (remaining: {len(untranslated) - len(batch)})")
+        except ImportError:
+            pass
+
+    # Re-categorize all "未分类"
+    recategorized = 0
+    for a in articles:
+        if a.get("category") == "未分类":
+            new_cat = categorize(
+                a.get("title", "") + " " + a.get("title_zh", ""),
+                a.get("summary_zh", "") + " " + a.get("content", ""),
+            )
+            if new_cat != "未分类":
+                a["category"] = new_cat
+                recategorized += 1
+    if recategorized:
+        print(f"Backfill re-categorized: {recategorized}")
 
 
 def _ai_enhance(articles: list[dict], gemini_key: str, groq_key: str) -> None:
