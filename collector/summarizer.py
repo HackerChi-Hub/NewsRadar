@@ -7,8 +7,7 @@ from datetime import datetime, timezone
 
 from google import genai
 
-MODEL_NAME = "gemini-2.0-flash"
-# Rate limit: ~15 RPM for free tier, so wait 4s between calls
+MODELS = ["gemini-2.5-flash-lite", "gemini-2.0-flash-lite", "gemini-1.5-flash"]
 RATE_LIMIT_DELAY = 4
 
 
@@ -23,9 +22,27 @@ def _parse_json_response(text: str) -> dict:
 VALID_CATEGORIES = {"LLM", "CV", "机器人", "AI产品", "研究", "行业", "政策", "开源"}
 
 
+def _call_gemini(client, prompt: str) -> dict:
+    """Try each model in MODELS list until one works."""
+    last_err = None
+    for model in MODELS:
+        try:
+            response = client.models.generate_content(model=model, contents=prompt)
+            return _parse_json_response(response.text)
+        except Exception as e:
+            last_err = e
+            err_str = str(e)
+            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
+                print(f"    Model {model} quota exhausted, trying next...")
+                continue
+            raise
+    raise last_err  # type: ignore[misc]
+
+
 def summarize_articles(articles: list[dict], api_key: str) -> list[dict]:
     """Summarize articles using Gemini API. Returns enriched articles."""
     client = genai.Client(api_key=api_key)
+    print(f"  Models priority: {MODELS}")
 
     enriched = []
     for i, article in enumerate(articles):
@@ -42,10 +59,7 @@ def summarize_articles(articles: list[dict], api_key: str) -> list[dict]:
                 'Respond ONLY with JSON: {"title_zh": "...", "summary_zh": "...", "category": "...", "tags": ["..."]}'
             )
 
-            response = client.models.generate_content(
-                model=MODEL_NAME, contents=prompt
-            )
-            result = _parse_json_response(response.text)
+            result = _call_gemini(client, prompt)
 
             category = result.get("category", "未分类")
             if category not in VALID_CATEGORIES:
