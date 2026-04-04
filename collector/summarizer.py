@@ -207,7 +207,7 @@ def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_ke
     try:
         if groq_key:
             # Use scout model for large combined prompt (30K TPM vs 12K for 70b)
-            result = _call_groq(groq_key, prompt, model="llama-4-scout-17b-16e-instruct")
+            result = _call_groq(groq_key, prompt, model="meta-llama/llama-4-scout-17b-16e-instruct")
         elif gemini_key:
             result = _call_gemini(gemini_key, prompt)
         else:
