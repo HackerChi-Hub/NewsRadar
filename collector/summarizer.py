@@ -58,10 +58,10 @@ def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = 
             content=article.get("content", article.get("summary_zh", ""))[:3000],
         )
         try:
-            if gemini_key:
-                result = _call_gemini(gemini_key, prompt)
-            elif groq_key:
+            if groq_key:
                 result = _call_groq(groq_key, prompt)
+            elif gemini_key:
+                result = _call_gemini(gemini_key, prompt)
             else:
                 return
 
