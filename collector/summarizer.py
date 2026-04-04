@@ -184,7 +184,7 @@ def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_ke
     for dom in domains:
         dom_arts = [a for a in all_articles if a.get("domain") == dom]
         if len(dom_arts) >= 3:
-            domain_articles[dom] = dom_arts[:30]
+            domain_articles[dom] = dom_arts[:20]
 
     if not domain_articles:
         return {}
@@ -206,7 +206,8 @@ def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_ke
 
     try:
         if groq_key:
-            result = _call_groq(groq_key, prompt)
+            # Use scout model for large combined prompt (30K TPM vs 12K for 70b)
+            result = _call_groq(groq_key, prompt, model="llama-4-scout-17b-16e-instruct")
         elif gemini_key:
             result = _call_gemini(gemini_key, prompt)
         else:
