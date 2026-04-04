@@ -147,6 +147,20 @@ def main():
     all_articles.sort(key=lambda a: a.get("published", ""), reverse=True)
 
     data["articles"] = all_articles
+
+    # 4. Generate top-10 digest (single LLM call)
+    api_key = os.environ.get("GEMINI_API_KEY", "")
+    groq_key = os.environ.get("GROQ_API_KEY", "")
+    if api_key or groq_key:
+        from summarizer import generate_digest
+        print("\nGenerating digest...")
+        digest = generate_digest(all_articles, api_key, groq_key)
+        if digest:
+            data["digest"] = {
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "items": digest,
+            }
+
     _save(data)
 
 
