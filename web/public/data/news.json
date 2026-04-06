@@ -1,6 +1,202 @@
 {
-  "last_updated": "2026-04-06T16:58:03.258231+00:00",
+  "last_updated": "2026-04-06T17:54:29.756858+00:00",
   "articles": [
+    {
+      "title": "Building Intelligent Search with Amazon Bedrock and Amazon OpenSearch for hybrid RAG solutions",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-intelligent-search-with-amazon-bedrock-and-amazon-opensearch-for-hybrid-rag-solutions/",
+      "source": "AWS AI Blog",
+      "domain": "AI",
+      "published": "2026-04-06T17:49:32+00:00",
+      "content": "In this post, we show how to implement a generative AI agentic assistant that uses both semantic and text-based search using Amazon Bedrock, Amazon Bedrock AgentCore, Strands Agents and Amazon OpenSearch.",
+      "id": "a930c4d89f59da4891144c6363471dc7",
+      "title_zh": "使用 Amazon Bedrock 和 Amazon OpenSearch 构建混合 RAG 解决方案的智能搜索",
+      "summary_zh": "In this post, we show how to implement a generative AI agentic assistant that uses both semantic and text-based search using Amazon Bedrock, Amazon Bedrock AgentCore, Strands Agents and Amazon OpenSea",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.842949+00:00"
+    },
+    {
+      "title": "From isolated alerts to contextual intelligence: Agentic maritime anomaly analysis with generative AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-isolated-alerts-to-contextual-intelligence-agentic-maritime-anomaly-analysis-with-generative-ai/",
+      "source": "AWS AI Blog",
+      "domain": "AI",
+      "published": "2026-04-06T17:48:54+00:00",
+      "content": "This blog post demonstrates how Windward helps enhance and accelerate alert investigation processes by combining geospatial intelligence with generative AI, enabling analysts to focus on decision-making rather than data collection.",
+      "id": "d36b1c0f91097865c1bf5c47f58f4a03",
+      "title_zh": "从孤立的警报到情境智能：利用生成人工智能进行代理海事异常分析",
+      "summary_zh": "This blog post demonstrates how Windward helps enhance and accelerate alert investigation processes by combining geospatial intelligence with generative AI, enabling analysts to focus on decision-maki",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.842987+00:00"
+    },
+    {
+      "title": "Trump Says Iran Can Be Taken Out in One Night, Maybe Tomorrow",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-06/trump-iran-can-be-taken-out-in-one-night-maybe-tuesday-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-06T17:46:02+00:00",
+      "content": "President Donald Trump says Iran \"can be taken out in one night\" during a news conference in Washington, D.C. (Source: Bloomberg)",
+      "id": "60dcbe3090f4e1eb935940f650e6e351",
+      "title_zh": "特朗普称伊朗可以在一夜之间甚至明天就被消灭",
+      "summary_zh": "President Donald Trump says Iran \"can be taken out in one night\" during a news conference in Washington, D.C. (Source: Bloomberg)",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843795+00:00"
+    },
+    {
+      "title": "Microsoft removes Support and Recovery Assistant from Windows",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-support-and-recovery-assistant-from-windows/",
+      "source": "BleepingComputer",
+      "domain": "安全",
+      "published": "2026-04-06T17:45:57+00:00",
+      "content": "Microsoft has deprecated and removed the Support and Recovery Assistant (SaRA) command-line utility from all in-support versions of Windows updates starting March 10. [...]",
+      "id": "1792e7bd72cd534613350276fde5e9ac",
+      "title_zh": "微软从 Windows 中删除支持和恢复助手",
+      "summary_zh": "Microsoft has deprecated and removed the Support and Recovery Assistant (SaRA) command-line utility from all in-support versions of Windows updates starting March 10. [...]",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843242+00:00"
+    },
+    {
+      "title": "SpaceX Expected to Kick Off a Wave of Mega IPOs",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-06/spacex-expected-to-kick-off-a-wave-of-mega-ipos-video",
+      "source": "Bloomberg Tech",
+      "domain": "国际",
+      "published": "2026-04-06T17:42:14+00:00",
+      "content": "SpaceX is preparing for its market debut at a valuation that could top $2 trillion, according to sources. It’s expected to be the first in a bumper crop of mega initial public offerings in the next 12 months. Lise Buyer, founder and partner at IPO advisory firm Class V Group, joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg)",
+      "id": "c6edfbe02c7488fdfcc651fe11c38a59",
+      "title_zh": "SpaceX 预计将掀起一波大型 IPO 浪潮",
+      "summary_zh": "SpaceX is preparing for its market debut at a valuation that could top $2 trillion, according to sources. It’s expected to be the first in a bumper crop of mega initial public offerings in the next 12",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.844577+00:00"
+    },
+    {
+      "title": "Adobe modifies hosts file to detect whether Creative Cloud is installed",
+      "url": "https://www.osnews.com/story/144737/adobe-secretly-modifies-your-hosts-file-for-the-stupidest-reason/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T17:38:30+00:00",
+      "content": "Adobe modifies hosts file to detect whether Creative Cloud is installed. Score: 17, Comments: 0",
+      "id": "e3c9c8ab99504694b8851d71cbc309f1",
+      "title_zh": "Adobe修改hosts文件检测是否安装了Creative Cloud",
+      "summary_zh": "Adobe modifies hosts file to detect whether Creative Cloud is installed. Score: 17, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.844819+00:00"
+    },
+    {
+      "title": "US Crude Exports Test Limits as Shipping Constraints Mount",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/us-crude-exports-test-limits-as-shipping-constraints-mount",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-06T17:31:20+00:00",
+      "content": "The war in Iran has sent demand for US oil from overseas toward record levels, bolstering President Donald Trump’s push for “American energy dominance.” But as shipments surge, exports are beginning to run up against their practical limits.",
+      "id": "ba156fc07c01581b3a5ddd33a7db609a",
+      "title_zh": "随着运输限制的增加，美国原油出口测试限制",
+      "summary_zh": "The war in Iran has sent demand for US oil from overseas toward record levels, bolstering President Donald Trump’s push for “American energy dominance.” But as shipments surge, exports are beginning t",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843825+00:00"
+    },
+    {
+      "title": "Average tax refund is up $350 compared to last year as IRS deadline approaches",
+      "url": "https://www.cnbc.com/2026/04/06/average-tax-refund.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-06T17:18:19+00:00",
+      "content": "The average IRS tax refund is up $350 compared to last year, based on the latest filing data. Here's what to expect for your return.",
+      "id": "33bfd5c29d7528da46f6fbe642f63ab4",
+      "title_zh": "随着国税局截止日期的临近，平均退税比去年增加了 350 美元",
+      "summary_zh": "The average IRS tax refund is up $350 compared to last year, based on the latest filing data. Here's what to expect for your return.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843881+00:00"
+    },
+    {
+      "title": "Jones Day Law Firm Says Hackers Accessed Some Clients’ Data",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/jones-day-law-firm-says-hackers-accessed-some-clients-data",
+      "source": "Bloomberg Tech",
+      "domain": "安全",
+      "published": "2026-04-06T17:06:50+00:00",
+      "content": "Hackers have breached Jones Day and accessed the files of 10 clients, the law firm said on Monday.",
+      "id": "52442693541e980980e154c932fe2e9d",
+      "title_zh": "众达律师事务所称黑客访问了一些客户的数据",
+      "summary_zh": "Hackers have breached Jones Day and accessed the files of 10 clients, the law firm said on Monday.",
+      "category": "攻防",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.844634+00:00"
+    },
+    {
+      "title": "You can now search through app reviews on the Google Play Store",
+      "url": "https://www.engadget.com/apps/you-can-now-search-through-app-reviews-on-the-google-play-store-170459063.html?src=rss",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-04-06T17:04:59+00:00",
+      "content": "Finding the right app on the Google Play Store just got a lot easier. Google is rolling out a new search function for an app's reviews when navigating its Play Store, as first spotted by Android Authority. The new feature only currently searches for exact matches of at least two words, but it should still help users identify if certain apps and games have specific features or gameplay elements. You can find the search function after hitting the \"See all reviews\" button on the Play Store, and it will also offer some popular search terms next to the feature. It's similar to Amazon's \"Search customer reviews\" feature and will bold the search phrase in the reviews. The ability to search reviews is a welcome addition to the Play Store, especially when compared to the App Store that can only sort an app's reviews. Google has also been cracking down on bad apps that violate its policies in recent years, but giving users the ability to search through reviews could offer another layer of scrutiny for any apps that slip through the cracks.This article originally appeared on Engadget at https://www.engadget.com/apps/you-can-now-search-through-app-reviews-on-the-google-play-store-170459063.html?src=rss",
+      "id": "e6ad3e9525ac46a53492dfd1e4233aa7",
+      "title_zh": "您现在可以在 Google Play 商店中搜索应用评论",
+      "summary_zh": "Finding the right app on the Google Play Store just got a lot easier. Google is rolling out a new search function for an app's reviews when navigating its Play Store, as first spotted by Android Autho",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843928+00:00"
+    },
+    {
+      "title": "Netflix just released a standalone gaming app for kids",
+      "url": "https://www.engadget.com/apps/netflix-just-released-a-standalone-gaming-app-for-kids-170030884.html?src=rss",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-04-06T17:00:30+00:00",
+      "content": "Netflix just released a free app called Playground for smartphones and tablets. This is a gaming app for kids, aged eight and under. It's available to all Netflix members on any tier, and the company promises it doesn't have ads or in-app purchases. It also works without a mobile or Wi-Fi connection. Netflix says this makes it the &quot;perfect companion for long airplane rides or grocery trips.&quot; Kids do love their screens. The company promises an &quot;ever-growing library of games&quot; for children. The platform launches with titles based on some massively popular franchises. There's something called Playtime with Peppa Pig, which is a collection of minigames starring the titular Peppa and friends. There's also a game set on Sesame Street, in which kids get to &quot;hang out with Elmo, Big Bird, Cookie Monster, Oscar and more beloved puppet pals.&quot; This is another minigame collection, with a memory card game, a connect-the-dots game and more. The catalog also includes a couple of games based on Dr. Seuss properties and a racing title based on the show Bad Dinosaurs. There are other things on the platform, like a sticker book collection and jigsaw puzzles. Again, every title here is intended for young children. Netflix Playground is available now in the US and many other parts of the world. It launches globally on April 28. The regular Netflix app still offers access to traditional video games, though the streamer's interactive division has been struggling lately. It closed its AAA gaming studio back in 2024 and has since removed many titles from the platform.This article originally appeared on Engadget at https://www.engadget.com/apps/netflix-just-released-a-standalone-gaming-app-for-kids-170030884.html?src=rss",
+      "id": "dae2a6708b5e7e63004c440a791ed450",
+      "title_zh": "Netflix 刚刚发布了一款独立的儿童游戏应用",
+      "summary_zh": "Netflix just released a free app called Playground for smartphones and tablets. This is a gaming app for kids, aged eight and under. It's available to all Netflix members on any tier, and the company",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843977+00:00"
+    },
+    {
+      "title": "OpenAI Releases Policy Recommendations for AI Age",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-06/openai-releases-policy-recommendations-for-ai-age-video",
+      "source": "Bloomberg Tech",
+      "domain": "AI",
+      "published": "2026-04-06T16:58:17+00:00",
+      "content": "OpenAI has released policy recommendations to address the rapid social changes driven by AI. OpenAI's Chief Global Affairs Officer Chris Lehane discusses the company’s ideas to “ensure AI benefits everyone.” Lehane joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg)",
+      "id": "e0e5b57b3b0291fcbaee5dc6cd1b2a0d",
+      "title_zh": "OpenAI 发布人工智能时代政策建议",
+      "summary_zh": "OpenAI has released policy recommendations to address the rapid social changes driven by AI. OpenAI's Chief Global Affairs Officer Chris Lehane discusses the company’s ideas to “ensure AI benefits eve",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.844732+00:00"
+    },
+    {
+      "title": "FDA declines to issue specific guidance on health programs' foreign drug imports",
+      "url": "https://www.cnbc.com/2026/04/06/fda-says-foreign-drug.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-06T16:56:50+00:00",
+      "content": "A CNBC investigation revealed the proliferation of AFPs, which import prescription drugs from overseas in what U.S. regulators say is a violation of import laws.",
+      "id": "94496d6f693c385883715a7c02355b40",
+      "title_zh": "FDA 拒绝发布有关卫生项目外国药品进口的具体指南",
+      "summary_zh": "A CNBC investigation revealed the proliferation of AFPs, which import prescription drugs from overseas in what U.S. regulators say is a violation of import laws.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843864+00:00"
+    },
+    {
+      "title": "Microsoft links Medusa ransomware affiliate to zero-day attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
+      "source": "BleepingComputer",
+      "domain": "安全",
+      "published": "2026-04-06T16:56:01+00:00",
+      "content": "Microsoft says that Storm-1175, a China-based financially motivated cybercriminal group known for deploying Medusa ransomware payloads, has been deploying n-day and zero-day exploits in high-velocity attacks. [...]",
+      "id": "cef609b3d94b58995e1bed9c7e16384c",
+      "title_zh": "微软将 Medusa 勒索软件附属公司与零日攻击联系起来",
+      "summary_zh": "Microsoft says that Storm-1175, a China-based financially motivated cybercriminal group known for deploying Medusa ransomware payloads, has been deploying n-day and zero-day exploits in high-velocity",
+      "category": "漏洞",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843264+00:00"
+    },
     {
       "title": "US Truck Rates at Highest Since 2022 Add to Inflation Pressures",
       "url": "https://www.bloomberg.com/news/articles/2026-04-06/us-truck-rates-at-highest-since-2022-adds-to-inflation-pressures",
@@ -42,6 +238,20 @@
       "category": "未分类",
       "tags": [],
       "collected": "2026-04-06T16:57:10.329035+00:00"
+    },
+    {
+      "title": "Bloomberg Surveillance 4/6/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-06/bloomberg-surveillance-4-6-2026-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-06T16:37:22+00:00",
+      "content": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives for the trading day. (Source: Bloomberg)",
+      "id": "4d1344515ce37a8fa76939c2e65ad33f",
+      "title_zh": "彭博社监测 2026 年 4 月 6 日",
+      "summary_zh": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843846+00:00"
     },
     {
       "title": "Show HN: I Built Paul Graham's Intellectual Captcha Idea",
@@ -140,6 +350,34 @@
       "category": "未分类",
       "tags": [],
       "collected": "2026-04-06T16:57:10.328743+00:00"
+    },
+    {
+      "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea",
+      "url": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
+      "source": "The Hacker News",
+      "domain": "安全",
+      "published": "2026-04-06T16:24:00+00:00",
+      "content": "Threat&nbsp;actors likely associated with the Democratic People's Republic of Korea (DPRK) have been observed using GitHub as command-and-control (C2) infrastructure in multi-stage attacks targeting organizations in South&nbsp;Korea. The&nbsp;attack chain,&nbsp;per Fortinet FortiGuard&nbsp;Labs, involves obfuscated Windows shortcut (LNK) files acting as the starting point to drop a decoy PDF",
+      "id": "4ec477a53b788a415014d7a7f099ea69",
+      "title_zh": "与朝鲜有关的黑客使用 GitHub 作为针对韩国的多阶段攻击的 C2",
+      "summary_zh": "Threat&nbsp;actors likely associated with the Democratic People's Republic of Korea (DPRK) have been observed using GitHub as command-and-control (C2) infrastructure in multi-stage attacks targeting o",
+      "category": "攻防",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.843223+00:00"
+    },
+    {
+      "title": "Show HN: GovAuctions lets you browse government auctions at once",
+      "url": "https://www.govauctions.app/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T16:21:46+00:00",
+      "content": "Show HN: GovAuctions lets you browse government auctions at once. Score: 7, Comments: 5",
+      "id": "ac76cc742729fd449c8406fc0b7633e8",
+      "title_zh": "Show HN：GovAuctions 可让您立即浏览政府拍卖",
+      "summary_zh": "Show HN: GovAuctions lets you browse government auctions at once. Score: 7, Comments: 5",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.844853+00:00"
     },
     {
       "title": "I Replaced Kafka, Redis, and RabbitMQ with One Tool – A Deep Dive into NATS",
@@ -540,6 +778,20 @@
         "注意力机制"
       ],
       "collected": "2026-04-06T16:57:10.322201+00:00"
+    },
+    {
+      "title": "Sky – an Elm-inspired language that compiles to Go",
+      "url": "https://github.com/anzellai/sky",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T15:22:53+00:00",
+      "content": "Sky – an Elm-inspired language that compiles to Go. Score: 23, Comments: 2",
+      "id": "323ddf8bd61a690339792ae589531f94",
+      "title_zh": "Sky – 一种受 Elm 启发的语言，可编译为 Go",
+      "summary_zh": "Sky – an Elm-inspired language that compiles to Go. Score: 23, Comments: 2",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.844780+00:00"
     },
     {
       "title": "Wall Street Banks Line Up Financing for €1.5 Billion Sushi Deal",
@@ -2472,6 +2724,20 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-04-06T10:15:40.928643+00:00"
+    },
+    {
+      "title": "Announcing the OpenAI Safety Fellowship",
+      "url": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "source": "OpenAI Blog",
+      "domain": "AI",
+      "published": "2026-04-06T10:00:00+00:00",
+      "content": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
+      "id": "f6c272c7f0d807d2afa56cf4c3637bb1",
+      "title_zh": "宣布 OpenAI 安全奖学金",
+      "summary_zh": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-06T17:53:42.840712+00:00"
     },
     {
       "title": "AI 时代的架构治理",
@@ -24719,249 +24985,249 @@
     }
   ],
   "digest": {
-    "generated_at": "2026-04-06T16:57:10.350021+00:00",
+    "generated_at": "2026-04-06T17:53:42.865553+00:00",
     "AI": [
       {
         "rank": 1,
-        "title": "OpenAI 描绘超级智能社会愿景：每周四天工作制",
-        "summary": "OpenAI 展望AI重塑社会，有望实现更少工作，同工同酬，并提出机器人税等设想。",
+        "title": "OpenAI 阐述超级智能重塑世界的愿景",
+        "summary": "OpenAI 展望超级智能，主张“更少工作，同工同酬”。",
+        "url": "https://the-decoder.com/less-work-equal-pay-openai-lays-out-its-vision-for-a-world-reshaped-by-superintelligence/",
+        "source": "The Decoder",
+        "category": "AI产品"
+      },
+      {
+        "rank": 2,
+        "title": "OpenAI 提出人工智能时代政策建议",
+        "summary": "OpenAI 发布人工智能时代政策建议，引领行业发展方向。",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-06/openai-releases-policy-recommendations-for-ai-age-video",
+        "source": "Bloomberg Tech",
+        "category": "AI产品"
+      },
+      {
+        "rank": 3,
+        "title": "OpenAI 对人工智能经济的愿景：机器人税与每周四天工作制",
+        "summary": "OpenAI 描绘AI经济蓝图，考虑机器人税与缩短工时。",
         "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
         "source": "TechCrunch AI",
         "category": "机器人"
       },
       {
-        "rank": 2,
-        "title": "Meta AI：用AI管理大规模数据管道中的“部落知识”",
-        "summary": "Meta 探索利用AI技术，高效管理和整合数据管道中零散的隐性知识。",
-        "url": "https://engineering.fb.com/2026/04/06/developer-tools/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines/",
-        "source": "Meta AI Blog",
-        "category": "AI产品"
-      },
-      {
-        "rank": 3,
-        "title": "AI歌手单曲登顶iTunes，音乐产业面临新挑战",
-        "summary": "AI生成的歌曲取得商业成功，标志着AI在创意产业的突破性进展。",
-        "url": "https://www.showbiz411.com/2026/04/05/itunes-takeover-by-fake-ai-singer-eddie-dalton-now-occupies-eleven-spots-on-chart-despite-not-being-human-or-real-exclusive",
-        "source": "Hacker News",
-        "category": "未分类"
-      },
-      {
         "rank": 4,
-        "title": "ReCALL框架：破解多模态大模型检索的范式冲突",
-        "summary": "新框架ReCALL解决大模型多模态检索难题，有望大幅提升检索性能。",
+        "title": "让大模型多模态检索全面超越SOTA！ReCALL框架化解冲突",
+        "summary": "ReCALL框架突破多模态检索，大幅超越现有SOTA。",
         "url": "https://www.qbitai.com/2026/04/396863.html",
         "source": "量子位",
-        "category": "研究"
+        "category": "CV"
       },
       {
         "rank": 5,
-        "title": "北大团队改造DeepSeek注意力机制，大幅提升速度",
-        "summary": "北京大学团队优化DeepSeek模型注意力机制，实现四倍速度提升且不损失精度。",
+        "title": "北大团队改造DeepSeek注意力，速度快四倍还不丢精度",
+        "summary": "北大团队优化DeepSeek注意力机制，实现速度与精度双提升。",
         "url": "https://www.qbitai.com/2026/04/396841.html",
         "source": "量子位",
         "category": "LLM"
       },
       {
         "rank": 6,
-        "title": "AI技术催生旧金山房价新高",
-        "summary": "AI行业的蓬勃发展正显著推高旧金山的房地产价格，创下新纪录。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/san-francisco-house-prices-hit-record-2-15-million-on-ai-boom",
-        "source": "Bloomberg Tech",
-        "category": "LLM"
+        "title": "AI 歌手在 iTunes 单曲榜占据 11 位",
+        "summary": "AI 歌手的音乐作品首次进入 iTunes 单曲榜前列。",
+        "url": "https://www.showbiz411.com/2026/04/05/itunes-takeover-by-fake-ai-singer-eddie-dalton-now-occupies-eleven-spots-on-chart-despite-not-being-human-or-real-exclusive",
+        "source": "Hacker News",
+        "category": "未分类"
       },
       {
         "rank": 7,
-        "title": "斯坦福研究：AI或能预测人类寿命",
-        "summary": "斯坦福大学研究表明，AI或可通过分析数据预测个体的剩余寿命。",
+        "title": "斯坦福最新研究：睡一觉，AI 就知道你还能活多久",
+        "summary": "斯坦福研究显示AI可预测寿命，引发关注。",
         "url": "https://www.huxiu.com/article/4848365.html?f=rss",
         "source": "虎嗅",
         "category": "研究"
       },
       {
         "rank": 8,
-        "title": "HN Freestyle：AI编码代理的沙箱环境",
-        "summary": "Hacker News推出Freestyle，为AI编码代理提供安全隔离的测试环境。",
-        "url": "https://www.freestyle.sh",
-        "source": "Hacker News",
+        "title": "思科首席执行官希望在太空建立数据中心",
+        "summary": "思科CEO提议太空建数据中心，探索未来基础设施。",
+        "url": "https://www.theverge.com/podcast/906727/cisco-ceo-chuck-robbins-data-centers-space-ai-elon-musk-interview",
+        "source": "The Verge AI",
         "category": "AI产品"
       },
       {
         "rank": 9,
-        "title": "AI宣传：病毒式传播成为信息新时代",
-        "summary": "AI的崛起催生了新的信息传播模式，病毒式传播成为AI宣传的常态。",
-        "url": "https://time.com/article/2026/04/02/when-virality-is-the-message-the-new-age-of-ai-propaganda/",
+        "title": "AI 歌手与 OpenAI 合作，解锁新一代音乐创作",
+        "summary": "AI 歌手与 OpenAI 合作，预示音乐创作新时代。",
+        "url": "https://news.ycombinator.com/item?id=47662112",
         "source": "Hacker News",
-        "category": "未分类"
+        "category": "LLM"
       },
       {
         "rank": 10,
-        "title": "ChatGPT应用集成扩展，连接生活服务",
-        "summary": "ChatGPT通过新应用集成，与DoorDash、Spotify等深度联动，拓展实用性。",
-        "url": "https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/",
-        "source": "TechCrunch AI",
-        "category": "LLM"
+        "title": "当病毒式传播成为信息时：人工智能宣传的新时代",
+        "summary": "AI驱动病毒式传播，重塑信息传播与宣传方式。",
+        "url": "https://time.com/article/2026/04/02/when-virality-is-the-message-the-new-age-of-ai-propaganda/",
+        "source": "Hacker News",
+        "category": "未分类"
       }
     ],
     "安全": [
       {
         "rank": 1,
-        "title": "2.8亿美元加密货币盗窃案",
-        "summary": "朝鲜黑客6月内盗窃2.8亿美元",
-        "url": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      },
-      {
-        "rank": 2,
-        "title": "Fortinet EMS漏洞",
-        "summary": "CISA命令修复Fortinet EMS漏洞",
+        "title": "Fortinet EMS 零日漏洞被利用，CISA 命令联邦政府紧急修复",
+        "summary": "Fortinet EMS 零日漏洞被利用，CISA 命令紧急修复。",
         "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-fortinet-flaw-exploited-in-attacks-by-friday/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
+        "rank": 2,
+        "title": "与朝鲜有关的黑客利用 GitHub 进行多阶段攻击",
+        "summary": "朝鲜黑客利用 GitHub 进行针对韩国的多阶段攻击。",
+        "url": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
+        "source": "The Hacker News",
+        "category": "攻防"
+      },
+      {
         "rank": 3,
-        "title": "人工智能代理网络攻击图",
-        "summary": "谷歌DeepMind绘制人工智能代理网络攻击图",
+        "title": "2.8 亿美元加密货币盗窃案与 6 个月现场操作有关",
+        "summary": "6 个月现场操作导致 2.8 亿美元加密货币被盗。",
+        "url": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      },
+      {
+        "rank": 4,
+        "title": "谷歌 DeepMind 研究人员绘制 AI 代理网络攻击图",
+        "summary": "研究人员绘制 AI 代理网络攻击图，揭示潜在威胁。",
         "url": "https://www.securityweek.com/google-deepmind-researchers-map-web-attacks-against-ai-agents/",
         "source": "SecurityWeek",
         "category": "漏洞"
       },
       {
-        "rank": 4,
-        "title": "React2Shell利用",
-        "summary": "黑客利用React2Shell进行自动凭证盗窃",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
+        "rank": 5,
+        "title": "微软将 Medusa 勒索软件与零日攻击联系起来",
+        "summary": "微软将 Medusa 勒索软件与零日攻击联系起来。",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
-        "rank": 5,
-        "title": "恶意npm软件包",
-        "summary": "36个恶意npm软件包利用Redis、PostgreSQL部署持久植入",
-        "url": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-        "source": "The Hacker News",
-        "category": "漏洞"
-      },
-      {
         "rank": 6,
-        "title": "朝鲜黑客瞄准Node.js维护者",
-        "summary": "朝鲜黑客瞄准知名Node.js维护者",
-        "url": "https://www.securityweek.com/north-korean-hackers-target-high-profile-node-js-maintainers/",
-        "source": "SecurityWeek",
+        "title": "LiteLLM 导致开发者机器凭证泄露",
+        "summary": "LiteLLM 存在安全隐患，可将开发者机器变成凭证库。",
+        "url": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+        "source": "The Hacker News",
         "category": "攻防"
       },
       {
         "rank": 7,
-        "title": "Qilin和Warlock勒索软件",
-        "summary": "Qilin和Warlock勒索软件利用易受攻击的驱动程序禁用300多个EDR工具",
+        "title": "Guardarian 用户成为恶意 Strapi NPM 软件包目标",
+        "summary": "Guardarian 用户因恶意 NPM 包成为攻击目标。",
+        "url": "https://www.securityweek.com/guardarian-users-targeted-with-malicious-strapi-npm-packages/",
+        "source": "SecurityWeek",
+        "category": "攻防"
+      },
+      {
+        "rank": 8,
+        "title": "Qilin 和 Warlock 勒索软件利用驱动程序禁用 EDR 工具",
+        "summary": "勒索软件利用驱动程序禁用大量 EDR 工具。",
         "url": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
         "source": "The Hacker News",
         "category": "安全工具"
       },
       {
-        "rank": 8,
-        "title": "Fortinet零日漏洞",
-        "summary": "Fortinet紧急修复被利用的零日漏洞",
-        "url": "https://www.securityweek.com/fortinet-rushes-emergency-fixes-for-exploited-zero-day/",
-        "source": "SecurityWeek",
-        "category": "漏洞"
-      },
-      {
         "rank": 9,
-        "title": "REvil领导者被确定",
-        "summary": "BKA确定了130起德国勒索软件攻击背后的REvil领导者",
+        "title": "BKA 确定 REvil 领导者，与德国勒索软件攻击相关",
+        "summary": "德国警方确定 REvil 领导者，与多起勒索软件攻击有关。",
         "url": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
         "source": "The Hacker News",
         "category": "漏洞"
       },
       {
         "rank": 10,
-        "title": "LiteLLM攻击",
-        "summary": "LiteLLM将开发人员机器变成攻击者的凭证库",
-        "url": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
-        "source": "The Hacker News",
+        "title": "众达律师事务所报告客户数据被黑客访问",
+        "summary": "大型律所众达遭遇黑客攻击，部分客户数据泄露。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/jones-day-law-firm-says-hackers-accessed-some-clients-data",
+        "source": "Bloomberg Tech",
         "category": "攻防"
       }
     ],
     "经济": [
       {
         "rank": 1,
-        "title": "量子计算时间表引担忧",
-        "summary": "密码学工程师对量子计算的推进速度提出质疑。",
+        "title": "特朗普称伊朗可在“一夜之间”被消灭，美国与伊朗在停火问题上僵持",
+        "summary": "美国与伊朗关系紧张，涉及霍尔木兹海峡，特朗普言论加剧地区担忧。",
+        "url": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
+        "source": "CNBC",
+        "category": "未分类"
+      },
+      {
+        "rank": 2,
+        "title": "量子计算时间表：密码学工程师的观点",
+        "summary": "专家探讨量子计算的未来发展及其对密码学领域的潜在影响。",
         "url": "https://words.filippo.io/crqc-timeline/",
         "source": "Hacker News",
         "category": "加密"
       },
       {
-        "rank": 2,
-        "title": "美卡车运价飙升加剧通胀",
-        "summary": "美国卡车运输成本创两年新高，通胀压力加剧。",
+        "rank": 3,
+        "title": "美国卡车运价创2022年以来新高，加剧通胀压力",
+        "summary": "运输成本上升可能进一步推高通胀，影响宏观经济稳定。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-06/us-truck-rates-at-highest-since-2022-adds-to-inflation-pressures",
         "source": "Bloomberg Markets",
         "category": "宏观"
       },
       {
-        "rank": 3,
-        "title": "AI驱动的“快钱”基金转向股票",
-        "summary": "高盛交易员认为AI驱动基金正成为股市重要买家。",
+        "rank": 4,
+        "title": "高盛交易员：快钱基金转向股票买家，市场情绪转变",
+        "summary": "机构资金流向变化预示着股票市场可能迎来新的投资热潮。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-06/goldman-traders-see-fast-money-funds-turning-into-stock-buyers",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 4,
-        "title": "能源价格冲击与通胀风险",
-        "summary": "博斯特詹西奇警告能源价格波动可能引发通胀。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-06/bostjancic-on-inflation-risks-amid-energy-price-shocks-video",
-        "source": "Bloomberg Markets",
-        "category": "宏观"
-      },
-      {
         "rank": 5,
-        "title": "CrowdStrike股票分析",
-        "summary": "CrowdStrike股票面临挑战，投资者应如何决策。",
-        "url": "https://www.cnbc.com/2026/04/06/crowdstrike-is-buying-more-of-its-beat-up-stock-should-investors-join.html",
-        "source": "CNBC",
-        "category": "市场"
-      },
-      {
-        "rank": 6,
-        "title": "私信贷的重要性",
-        "summary": "为何私人信贷市场值得投资者关注。",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-04-06/why-you-should-care-about-private-credit",
-        "source": "Bloomberg Markets",
-        "category": "未分类"
-      },
-      {
-        "rank": 7,
-        "title": "花旗凯泽：盈利是市场福音",
-        "summary": "花旗和凯泽认为公司盈利将提振股市。",
+        "title": "花旗：盈利是市场“福音”，看好AIGC公司前景",
+        "summary": "企业盈利能力提升为股市带来利好，尤其关注AI相关公司。",
         "url": "https://www.bloomberg.com/news/videos/2026-04-06/earnings-a-blessing-for-markets-citi-s-kaiser-says-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 8,
-        "title": "美服务业增长放缓",
-        "summary": "美国服务提供商增长速度放缓，价格持续上涨。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/growth-slows-at-us-service-providers-as-price-gauge-surges",
-        "source": "Bloomberg Markets",
-        "category": "宏观"
+        "rank": 6,
+        "title": "FDA拒绝发布进口外国药品指南，合规性受关注",
+        "summary": "药品进口监管政策不明朗，或影响医药行业跨境合作。",
+        "url": "https://www.cnbc.com/2026/04/06/fda-says-foreign-drug.html",
+        "source": "CNBC",
+        "category": "未分类"
       },
       {
-        "rank": 9,
-        "title": "币安合规人员离职",
-        "summary": "币安合规部门关键人员离职，引发关注。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/binance-compliance-staff-leave-financial-crime-monitoring-roles",
+        "rank": 7,
+        "title": "《马里奥》带动假日票房飙升，AMC股价上涨",
+        "summary": "电影市场复苏，带动相关娱乐公司股价表现。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/amc-shares-gain-on-holiday-box-office-surge-buoyed-by-mario",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 8,
+        "title": "为什么你应该关心私人信贷",
+        "summary": "深入解读私人信贷市场的作用及其对投资者的意义。",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-04-06/why-you-should-care-about-private-credit",
         "source": "Bloomberg Markets",
         "category": "未分类"
       },
       {
+        "rank": 9,
+        "title": "华尔街银行为15亿欧元寿司交易排队融资",
+        "summary": "大型并购交易获金融机构支持，显示市场活跃度。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/wall-street-banks-line-up-financing-for-1-5-billion-sushi-deal",
+        "source": "Bloomberg Markets",
+        "category": "投融资"
+      },
+      {
         "rank": 10,
-        "title": "杰米戴蒙呼吁美国强大",
-        "summary": "摩根大通CEO杰米戴蒙呼吁美国提升实力。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-06/dimon-urges-us-to-get-stronger-in-shareholder-letter-video",
+        "title": "币安合规人员离开金融犯罪、监控岗位",
+        "summary": "加密货币交易所人才变动，引发对合规风险的担忧。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/binance-compliance-staff-leave-financial-crime-monitoring-roles",
         "source": "Bloomberg Markets",
         "category": "未分类"
       }
@@ -24969,165 +25235,165 @@
     "科技": [
       {
         "rank": 1,
-        "title": "我国钠离子电池取得重大突破，彻底阻断热失控",
-        "summary": "中国在钠离子电池技术上实现重大突破，安全性能大幅提升。",
-        "url": "https://www.ithome.com/0/936/306.htm",
-        "source": "IT之家",
-        "category": "未分类"
+        "title": "AI揭示工作与AI数据",
+        "summary": "一项新数据真正揭示工作与人工智能的关联。",
+        "url": "https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/",
+        "source": "MIT Tech Review",
+        "category": "软件"
       },
       {
         "rank": 2,
-        "title": "我用一种工具取代了 Kafka、Redis 和 RabbitMQ——深入探讨 NATS",
-        "summary": "NATS 成为 Kafka 等传统消息队列的替代方案，技术架构更新。",
+        "title": "NATS取代Kafka、Redis等",
+        "summary": "深入探讨NATS如何取代Kafka、Redis等传统消息队列。",
         "url": "https://medium.com/@jainal/i-replaced-kafka-redis-and-rabbitmq-with-one-tool-heres-what-i-learned-b9f0b5ca94ed",
         "source": "Hacker News",
         "category": "未分类"
       },
       {
         "rank": 3,
-        "title": "一项真正可以揭示你的工作和人工智能的数据",
-        "summary": "新工具可分析工作数据与AI互动，洞察AI在工作中的应用。",
-        "url": "https://www.huxiu.com/article/4848395.html?f=rss",
-        "source": "虎嗅",
-        "category": "未分类"
-      },
-      {
-        "rank": 4,
-        "title": "自动驾驶优化：从复杂性到实时工程",
-        "summary": "自动驾驶技术在复杂性与实时工程之间寻求优化与突破。",
-        "url": "https://www.infoq.cn/article/v42V65eJ884wfPPLdx1a?utm_source=rss&utm_medium=article",
-        "source": "InfoQ 中文",
-        "category": "未分类"
-      },
-      {
-        "rank": 5,
-        "title": "Reducto 发布 Deep Extract",
-        "summary": "Reducto推出Deep Extract工具，功能细节有待观察。",
+        "title": "Reducto发布Deep Extract",
+        "summary": "Reducto推出Deep Extract，拓展AI应用能力。",
         "url": "https://reducto.ai/blog/reducto-deep-extract-agent",
         "source": "Hacker News",
         "category": "软件"
       },
       {
-        "rank": 6,
-        "title": "战争让伊朗成为世界强国",
-        "summary": "文章分析战争对伊朗国力提升的潜在影响。",
-        "url": "https://www.huxiu.com/article/4848398.html?f=rss",
-        "source": "虎嗅",
+        "rank": 4,
+        "title": "Sky语言编译为Go",
+        "summary": "受Elm启发的Sky语言现已支持编译为Go。",
+        "url": "https://github.com/anzellai/sky",
+        "source": "Hacker News",
         "category": "未分类"
       },
       {
+        "rank": 5,
+        "title": "自动驾驶技术优化",
+        "summary": "探讨自动驾驶从复杂性到实时工程的优化。",
+        "url": "https://www.infoq.cn/article/v42V65eJ884wfPPLdx1a?utm_source=rss&utm_medium=article",
+        "source": "InfoQ 中文",
+        "category": "未分类"
+      },
+      {
+        "rank": 6,
+        "title": "Google Play商店搜评论",
+        "summary": "Google Play商店新增应用评论搜索功能。",
+        "url": "https://www.engadget.com/apps/you-can-now-search-through-app-reviews-on-the-google-play-store-170459063.html?src=rss",
+        "source": "Engadget",
+        "category": "软件"
+      },
+      {
         "rank": 7,
-        "title": "三星的 Music Studio 扬声器和两款 2026 条形音箱现已上市",
-        "summary": "三星发布新款智能音箱和条形音箱，拓展音频产品线。",
-        "url": "https://www.engadget.com/audio/speakers/samsungs-music-studio-speakers-and-two-of-its-2026-soundbars-are-available-now-150000056.html?src=rss",
+        "title": "Netflix发布儿童游戏App",
+        "summary": "Netflix推出独立儿童游戏应用。",
+        "url": "https://www.engadget.com/apps/netflix-just-released-a-standalone-gaming-app-for-kids-170030884.html?src=rss",
         "source": "Engadget",
         "category": "软件"
       },
       {
         "rank": 8,
-        "title": "81岁道奇队球迷因没有智能手机而买不到票",
-        "summary": "数字鸿沟显现，传统购票方式受限，影响部分人群。",
-        "url": "https://twitter.com/Suzierizzo1/status/2040864617467924865",
-        "source": "Hacker News",
-        "category": "硬件"
+        "title": "三星音响产品上市",
+        "summary": "三星Music Studio扬声器及条形音箱已上市。",
+        "url": "https://www.engadget.com/audio/speakers/samsungs-music-studio-speakers-and-two-of-its-2026-soundbars-are-available-now-150000056.html?src=rss",
+        "source": "Engadget",
+        "category": "软件"
       },
       {
         "rank": 9,
-        "title": "全资购买苹果？Musk：但前提是我喜欢iPhone",
-        "summary": "埃隆·马斯克对收购苹果公司的假设性评论，引发关注。",
-        "url": "https://www.huxiu.com/article/4848373.html?f=rss",
-        "source": "虎嗅",
-        "category": "未分类"
+        "title": "梅奔G-Wagon召回",
+        "summary": "梅赛德斯-奔驰因轮毂问题召回部分G-Wagon。",
+        "url": "https://www.engadget.com/transportation/evs/mercedes-benz-recalls-some-g-wagon-evs-due-to-risk-of-wheels-falling-off-150939361.html?src=rss",
+        "source": "Engadget",
+        "category": "软件"
       },
       {
         "rank": 10,
-        "title": "曾经“二次元入坑必备”的萌娘百科，为何一步步走向消亡？",
-        "summary": "分析萌娘百科的衰落原因，反映网络文化变迁。",
-        "url": "https://www.huxiu.com/article/4848376.html?f=rss",
-        "source": "虎嗅",
+        "title": "追觅护眼台灯",
+        "summary": "追觅推出立体光源带雷达护眼台灯。",
+        "url": "https://www.ithome.com/0/936/308.htm",
+        "source": "IT之家",
         "category": "未分类"
       }
     ],
     "国际": [
       {
         "rank": 1,
-        "title": "纹身墨水可能引起炎症",
-        "summary": "影响疫苗接种反应",
-        "url": "https://www.pnas.org/doi/10.1073/pnas.2510392122",
-        "source": "Hacker News",
-        "category": "科学"
-      },
-      {
-        "rank": 2,
-        "title": "阿耳忒弥斯二号飞越月球背面",
-        "summary": "美国宇航局任务",
+        "title": "阿耳忒弥斯二号宇航员将飞越月球背面",
+        "summary": "探索月球新篇章",
         "url": "https://www.bloomberg.com/news/articles/2026-04-06/nasa-artemis-ii-astronauts-set-to-fly-by-far-side-of-the-moon",
         "source": "Bloomberg Tech",
         "category": "科学"
       },
       {
+        "rank": 2,
+        "title": "纹身墨水会引起炎症并改变免疫反应",
+        "summary": "纹身对健康的影响",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2510392122",
+        "source": "Hacker News",
+        "category": "科学"
+      },
+      {
         "rank": 3,
-        "title": "全球海拔最高光热电站开工",
-        "summary": "位于西藏",
+        "title": "全球海拔最高的槽式光热电站在西藏开工",
+        "summary": "可再生能源发展",
         "url": "https://36kr.com/newsflashes/3755103260918279?f=rss",
         "source": "36氪",
         "category": "未分类"
       },
       {
         "rank": 4,
-        "title": "韩国计划增加可再生能源占比",
-        "summary": "目标20%",
+        "title": "韩国计划将可再生能源发电占比提升至20%",
+        "summary": "可再生能源目标",
         "url": "https://36kr.com/newsflashes/3755019581506307?f=rss",
         "source": "36氪",
         "category": "气候"
       },
       {
         "rank": 5,
-        "title": "中东冲突影响飞行方式",
-        "summary": "长期化冲突",
-        "url": "https://www.huxiu.com/article/4848320.html?f=rss",
+        "title": "特朗普威胁伊朗的发电厂、桥梁",
+        "summary": "中东局势紧张",
+        "url": "https://www.npr.org/2026/04/06/g-s1-116535/up-first-newsletter-trump-strait-of-hormuz-artemis-two-lunar-flyby-savannah-nancy-guthrie-ada",
+        "source": "NPR World",
+        "category": "科学"
+      },
+      {
+        "rank": 6,
+        "title": "中东传来停战信号",
+        "summary": "中东局势发展",
+        "url": "https://www.huxiu.com/article/4848371.html?f=rss",
         "source": "虎嗅",
         "category": "未分类"
       },
       {
-        "rank": 6,
+        "rank": 7,
+        "title": "SpaceX 预计将掀起一波大型 IPO 浪潮",
+        "summary": "太空行业投资热潮",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-06/spacex-expected-to-kick-off-a-wave-of-mega-ipos-video",
+        "source": "Bloomberg Tech",
+        "category": "科学"
+      },
+      {
+        "rank": 8,
+        "title": "美国宇航局阿耳忒弥斯二号宇航员准备飞越月球",
+        "summary": "太空探索新里程",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/nasa-artemis-ii-astronauts-set-to-fly-by-far-side-of-the-moon",
+        "source": "Bloomberg Tech",
+        "category": "科学"
+      },
+      {
+        "rank": 9,
         "title": "伊朗推迟特朗普的最后期限",
-        "summary": "贸易紧张",
+        "summary": "中东政治局势",
         "url": "https://www.npr.org/2026/04/06/nx-s1-5775383/iran-war-updates",
         "source": "NPR World",
         "category": "贸易"
       },
       {
-        "rank": 7,
-        "title": "华泰证券看好中国家电企业",
-        "summary": "中东市场",
-        "url": "https://36kr.com/newsflashes/3754718229512966?f=rss",
-        "source": "36氪",
-        "category": "贸易"
-      },
-      {
-        "rank": 8,
-        "title": "孟加拉国麻疹疫情",
-        "summary": "紧急疫苗接种",
+        "rank": 10,
+        "title": "孟加拉国一个月内有 100 名儿童疑似麻疹死亡",
+        "summary": "全球健康挑战",
         "url": "https://www.bbc.com/news/articles/cevkz2z7dm8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "科学"
-      },
-      {
-        "rank": 9,
-        "title": "开源240天线阵列项目",
-        "summary": "月球信号反射",
-        "url": "https://moonrf.com/",
-        "source": "Hacker News",
-        "category": "未分类"
-      },
-      {
-        "rank": 10,
-        "title": "国际原油价格走低",
-        "summary": "市场变化",
-        "url": "https://36kr.com/newsflashes/3755055431664136?f=rss",
-        "source": "36氪",
-        "category": "未分类"
       }
     ]
   }
