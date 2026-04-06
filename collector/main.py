@@ -12,7 +12,7 @@ from sources import fetch_all_rss, fetch_hackernews, fetch_arxiv
 from categorizer import categorize, detect_domain
 
 DATA_FILE = Path(__file__).parent.parent / "web" / "public" / "data" / "news.json"
-MAX_AGE_DAYS = 7
+MAX_AGE_DAYS = 3
 
 
 def load_existing_data() -> dict:
