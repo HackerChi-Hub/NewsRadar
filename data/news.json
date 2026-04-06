@@ -1,6 +1,230 @@
 {
-  "last_updated": "2026-04-06T21:07:24.518717+00:00",
+  "last_updated": "2026-04-06T22:02:48.680875+00:00",
   "articles": [
+    {
+      "title": "Broadcom agrees to expanded chip deals with Google, Anthropic",
+      "url": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-06T21:58:23+00:00",
+      "content": "Broadcom said it agreed to produce future versions of Google artificial intelligence chips, and announced an expanded deal with Anthropic.",
+      "id": "03ffb647a7a2819cea997d49c6c1664a",
+      "title_zh": "博通同意扩大与谷歌、Anthropic 的芯片交易",
+      "summary_zh": "Broadcom said it agreed to produce future versions of Google artificial intelligence chips, and announced an expanded deal with Anthropic.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227727+00:00"
+    },
+    {
+      "title": "Sports bets on prediction markets ruled to be \"swaps,\" exempt from state laws",
+      "url": "https://arstechnica.com/tech-policy/2026/04/sports-bets-on-prediction-markets-ruled-to-be-swaps-exempt-from-state-laws/",
+      "source": "Ars Technica",
+      "domain": "科技",
+      "published": "2026-04-06T21:56:36+00:00",
+      "content": "Court rules US preempts states from applying gambling laws to prediction markets.",
+      "id": "15a29cba4761734713cfa0f0d481cb09",
+      "title_zh": "预测市场上的体育投注被裁定为“掉期”，不受州法律约束",
+      "summary_zh": "Court rules US preempts states from applying gambling laws to prediction markets.",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227821+00:00"
+    },
+    {
+      "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+      "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+      "source": "TechCrunch AI",
+      "domain": "AI",
+      "published": "2026-04-06T21:54:26+00:00",
+      "content": "Zero Shot, a new venture capital fund with deep ties to OpenAI, is aiming to raise $100 million for its first fund. It has already written some checks.",
+      "id": "de82341001c3272914f295a4b1ef5890",
+      "title_zh": "OpenAI 校友一直在悄悄地从一个可能 1 亿美元的新基金进行投资",
+      "summary_zh": "Zero Shot, a new venture capital fund with deep ties to OpenAI, is aiming to raise $100 million for its first fund. It has already written some checks.",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.221734+00:00"
+    },
+    {
+      "title": "New Jersey has no right to ban Kalshi's prediction market, US appeals court rules",
+      "url": "https://www.engadget.com/big-tech/new-jersey-has-no-right-to-ban-kalshis-prediction-market-us-appeals-court-rules-214448284.html?src=rss",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-04-06T21:44:48+00:00",
+      "content": "Kalshi can't be stopped in New Jersey. A 3rd US Circuit Court of Appeals panel ruled on Monday that New Jersey has no authority to regulate Kalshi's prediction market allowing people to bet on the outcome of sports events. That power rests with the Commodity Futures Trading Commission, the panel ruled 2-1.&nbsp; The CFTC is headed by President Donald Trump appointee Michael Selig, who vocally and actively supports prediction markets like Kalshi and Polymarket, calling them \"exciting products.\" The Trump family agrees: Donald Trump Jr. is a paid adviser to Kalshi and an unpaid adviser to Polymarket, and Truth Social, which is run by the Trump Media and Technology Group, is set to start a prediction market of its own. Online prediction markets are an emerging phenomenon that allow users to bet on the outcome of basically anything, from local athletic competitions to lethal military invasions. Though they're new, these marketplaces have already shown evidence of insider trading on an extreme scale, with suspicious bets and big payouts tied to the US and Israel's military strikes in Iran, and also the US' brief invasion in Venezuela. According to blockchain analyst DeFi Oasis, fewer than 0.04 percent of Polymarket accounts captured more than 70 percent of profits, totaling $3.7 billion. Multiple state gaming regulators have filed legal challenges against Kalshi and Polymarket in recent months, and just last week the CFTC sued Arizona, Connecticut and Illinois over their attempts to regulate prediction markets. While each state has its own angle of attack, from election issues to underage betting, they're all broadly claiming that prediction markets are just illegal gambling businesses. Today's ruling marks the first federal-level decision in one of these cases and it's in favor of the prediction markets. New Jersey sent Kalshi a cease and desist letter in 2025, claiming the service violated the state's ban on collegiate sports betting. Kalshi escalated the situation and",
+      "id": "ff684ec287d560982185991cafbcac70",
+      "title_zh": "新泽西州无权禁止卡尔希预测市场，美国上诉法院裁决",
+      "summary_zh": "Kalshi can't be stopped in New Jersey. A 3rd US Circuit Court of Appeals panel ruled on Monday that New Jersey has no authority to regulate Kalshi's prediction market allowing people to bet on the out",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227802+00:00"
+    },
+    {
+      "title": "New GPUBreach attack enables system takeover via GPU rowhammer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/",
+      "source": "BleepingComputer",
+      "domain": "安全",
+      "published": "2026-04-06T21:44:15+00:00",
+      "content": "A new attack, dubbed GPUBreach, can induce Rowhammer bit-flips on GPU GDDR6 memories to escalate privileges and lead to a full system compromise. [...]",
+      "id": "832f55dbcd5c26c08dc71799c29b42cc",
+      "title_zh": "新的 GPUBreach 攻击可通过 GPU rowhammer 接管系统",
+      "summary_zh": "A new attack, dubbed GPUBreach, can induce Rowhammer bit-flips on GPU GDDR6 memories to escalate privileges and lead to a full system compromise. [...]",
+      "category": "攻防",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.226947+00:00"
+    },
+    {
+      "title": "Trump's next budget once again calls for massive cuts to science",
+      "url": "https://arstechnica.com/science/2026/04/trumps-next-budget-once-again-calls-for-massive-cuts-to-science/",
+      "source": "Ars Technica",
+      "domain": "科技",
+      "published": "2026-04-06T21:40:40+00:00",
+      "content": "Congress rejected huge cuts to science in 2026, but Trump is trying again.",
+      "id": "efaf4fccc5036fb6aadb77a6ae814402",
+      "title_zh": "特朗普的下一份预算再次呼吁大幅削减科学经费",
+      "summary_zh": "Congress rejected huge cuts to science in 2026, but Trump is trying again.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227841+00:00"
+    },
+    {
+      "title": "Phillips 66 Sees Nearly $1 Billion in Losses as Oil Prices Surge",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/phillips-66-sees-nearly-1-billion-in-losses-as-oil-prices-surge",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-06T21:36:56+00:00",
+      "content": "Phillips 66 estimated nearly $1 billion in losses from its short position in oil and other related commodity derivative contracts in the first quarter as the war in Iran sent crude and fuel prices skyrocketing.",
+      "id": "c3e9fc71dfa5f193d4fe28b45a3455ff",
+      "title_zh": "油价飙升 Phillips 66 预计损失近 10 亿美元",
+      "summary_zh": "Phillips 66 estimated nearly $1 billion in losses from its short position in oil and other related commodity derivative contracts in the first quarter as the war in Iran sent crude and fuel prices sky",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227593+00:00"
+    },
+    {
+      "title": "Goldman Says It’s Ready to Pounce as Retail Flees Private Credit",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/goldman-says-it-s-ready-to-pounce-as-retail-flees-private-credit",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-06T21:34:49+00:00",
+      "content": "Goldman Sachs Group Inc. says a reliance on stickier, more patient institutional investors, rather than wealthy individuals, helped its $15.7 billion private credit fund narrowly escape the broader exodus plaguing peers this year.",
+      "id": "9b86e5ac9b908aa56efb1b4eed0f73f7",
+      "title_zh": "高盛表示，随着零售业逃离私人信贷，它已准备好出击",
+      "summary_zh": "Goldman Sachs Group Inc. says a reliance on stickier, more patient institutional investors, rather than wealthy individuals, helped its $15.7 billion private credit fund narrowly escape the broader ex",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227628+00:00"
+    },
+    {
+      "title": "NYC Families Need over $125,000 in Income to Live in Any Borough",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/nyc-families-need-over-125-000-in-income-to-live-in-any-borough",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T21:33:22+00:00",
+      "content": "NYC Families Need over $125,000 in Income to Live in Any Borough. Score: 12, Comments: 2",
+      "id": "a9d383effca33fb4db35b4389ebc478e",
+      "title_zh": "纽约市家庭需要超过 125,000 美元的收入才能在任何行政区居住",
+      "summary_zh": "NYC Families Need over $125,000 in Income to Live in Any Borough. Score: 12, Comments: 2",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228890+00:00"
+    },
+    {
+      "title": "2026 is World’s Largest Sports Year: Paul Caine",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-06/2026-is-world-s-largest-sports-year-paul-caine-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-06T21:31:26+00:00",
+      "content": "On Location President Paul Caine discusses the economic ripple effects of the FIFA World Cup, why 2026 is set to be a monumental year for sporting events, and the growth of sports related travel. He talks with Romaine Bostick and Isabelle Lee on “The Close.” (Source: Bloomberg)",
+      "id": "40c6e88f8c4b1670bf8b06d2316288e4",
+      "title_zh": "2026 年是世界上最大的体育年：Paul Caine",
+      "summary_zh": "On Location President Paul Caine discusses the economic ripple effects of the FIFA World Cup, why 2026 is set to be a monumental year for sporting events, and the growth of sports related travel. He t",
+      "category": "宏观",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227663+00:00"
+    },
+    {
+      "title": "“The problem is Sam Altman”: OpenAI Insiders don’t trust CEO",
+      "url": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/",
+      "source": "Ars Technica",
+      "domain": "科技",
+      "published": "2026-04-06T21:23:36+00:00",
+      "content": "OpenAI brainstorms ways AI can benefit humanity in effort to counter bad vibes.",
+      "id": "c72da0768b7a25d4c92c4ca11ef4dfc2",
+      "title_zh": "“问题在于 Sam Altman”：Op​​enAI 内部人士不信任 CEO",
+      "summary_zh": "OpenAI brainstorms ways AI can benefit humanity in effort to counter bad vibes.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227863+00:00"
+    },
+    {
+      "title": "Epstein files: Commerce Secretary Howard Lutnick set for May 6 interview by House Oversight",
+      "url": "https://www.cnbc.com/2026/04/06/jeffrey-epstein-howard-lutnick-house-oversight-interview.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-06T21:22:58+00:00",
+      "content": "Commerce Secretary Lutnick originally claimed to have cut off contact with Jeffrey Epstein in 2005. But he and his family had lunch with the predator in 2012.",
+      "id": "a4534935da6722a3829ab7b46a30d2c2",
+      "title_zh": "爱泼斯坦文件：商务部长霍华德·卢特尼克将于 5 月 6 日接受众议院监督局采访",
+      "summary_zh": "Commerce Secretary Lutnick originally claimed to have cut off contact with Jeffrey Epstein in 2005. But he and his family had lunch with the predator in 2012.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227707+00:00"
+    },
+    {
+      "title": "Ah, peptides. where to begin?",
+      "url": "https://www.science.org/content/blog-post/ah-peptides-where-begin",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T21:22:03+00:00",
+      "content": "Ah, peptides. where to begin?. Score: 20, Comments: 5",
+      "id": "e8b165625671d6fd994f63b02cc5a4d7",
+      "title_zh": "啊，肽。从哪里开始？",
+      "summary_zh": "Ah, peptides. where to begin?. Score: 20, Comments: 5",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228754+00:00"
+    },
+    {
+      "title": "Nine policemen sentenced to death in India over Covid custody killings",
+      "url": "https://www.bbc.com/news/articles/ce8l0md9gl1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "domain": "国际",
+      "published": "2026-04-06T21:21:13+00:00",
+      "content": "The father and son died in jail after being arrested on suspicion of breaching Covid lockdown rules in 2020.",
+      "id": "cb6a80b8e792e2899aa967dc357dbf23",
+      "title_zh": "印度九名警察因新冠肺炎谋杀罪被判处死刑",
+      "summary_zh": "The father and son died in jail after being arrested on suspicion of breaching Covid lockdown rules in 2020.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228272+00:00"
+    },
+    {
+      "title": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers",
+      "url": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-06T21:16:40+00:00",
+      "content": "The Trump administration will increase average Medicare Advantage payments by 2.48%, or more than $13 billion, in 2027.",
+      "id": "ff40a3e9bef067e9c07bd3ad4f6c39cb",
+      "title_zh": "特朗普政府最终确定了好于预期的医疗保险优惠支付率，以提振健康保险公司",
+      "summary_zh": "The Trump administration will increase average Medicare Advantage payments by 2.48%, or more than $13 billion, in 2027.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.227684+00:00"
+    },
+    {
+      "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
+      "source": "Bloomberg Tech",
+      "domain": "AI",
+      "published": "2026-04-06T21:08:58+00:00",
+      "content": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.’s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence models to gain an edge in the global AI race.",
+      "id": "7c063eb07326408d1fae0f90a7a095e2",
+      "title_zh": "OpenAI、Anthropic 和 Google 联手打击中国的模型复制行为",
+      "summary_zh": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.’s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence models",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228660+00:00"
+    },
     {
       "title": "Iran's Kurdish opposition in Iraq sees a chance for change after decades in exile",
       "url": "https://www.npr.org/2026/04/06/nx-s1-5763684/irans-kurdish-opposition-in-iraq-sees-a-chance-for-change-after-decades-in-exile",
@@ -44,6 +268,20 @@
       "collected": "2026-04-06T21:06:50.016285+00:00"
     },
     {
+      "title": "Tim Cook Is an Embarrassing Coward",
+      "url": "https://karlbode.com/tim-cook-is-an-embarrassing-coward/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T20:54:16+00:00",
+      "content": "Tim Cook Is an Embarrassing Coward. Score: 12, Comments: 1",
+      "id": "93afaaa6b606d647e6a4e939fd527606",
+      "title_zh": "蒂姆·库克是一个令人尴尬的胆小鬼",
+      "summary_zh": "Tim Cook Is an Embarrassing Coward. Score: 12, Comments: 1",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.229002+00:00"
+    },
+    {
       "title": "Fmr. Energy Sec. Moniz: Brace for 'Very Long' War Impact",
       "url": "https://www.bloomberg.com/news/videos/2026-04-06/fmr-energy-sec-moniz-brace-for-very-long-war-impact-video",
       "source": "Bloomberg Markets",
@@ -58,6 +296,20 @@
       "collected": "2026-04-06T21:06:50.016308+00:00"
     },
     {
+      "title": "Inside a Corporate Retreat That Went Very Badly Wrong",
+      "url": "https://www.wsj.com/lifestyle/workplace/corporate-retreat-gone-wrong-07754741",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T20:44:17+00:00",
+      "content": "Inside a Corporate Retreat That Went Very Badly Wrong. Score: 14, Comments: 2",
+      "id": "ea238151132b22a7f3be3c7587da5832",
+      "title_zh": "一次大错特错的企业静修会内部",
+      "summary_zh": "Inside a Corporate Retreat That Went Very Badly Wrong. Score: 14, Comments: 2",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228971+00:00"
+    },
+    {
       "title": "Root Persistence via macOS Recovery Mode Safari",
       "url": "https://yaseenghanem.com/recovery-unrestricted-write-access/",
       "source": "Hacker News",
@@ -70,6 +322,20 @@
       "category": "软件",
       "tags": [],
       "collected": "2026-04-06T21:06:50.017531+00:00"
+    },
+    {
+      "title": "'Microshifting' puts a new spin on 9-to-5 schedules",
+      "url": "https://apnews.com/article/microshifting-work-time-flexible-schedule-balance-97a98519916b447cd60c73261ffc0b4e",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T20:40:18+00:00",
+      "content": "'Microshifting' puts a new spin on 9-to-5 schedules. Score: 10, Comments: 0",
+      "id": "0188d37dc9c021f7afef27f74fb57550",
+      "title_zh": "“微转移”为朝九晚五的时间表带来新变化",
+      "summary_zh": "'Microshifting' puts a new spin on 9-to-5 schedules. Score: 10, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.229038+00:00"
     },
     {
       "title": "Next Gen Bitcoin ETFs, Refiners Outperform Broader Market | ETF IQ 4/6/2026",
@@ -238,6 +504,20 @@
       "category": "未分类",
       "tags": [],
       "collected": "2026-04-06T21:06:50.017348+00:00"
+    },
+    {
+      "title": "Artemis II astronauts officially set record for human's distance from Earth",
+      "url": "https://www.scientificamerican.com/article/nasas-artemis-ii-astronauts-break-apollos-distance-record/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T19:59:38+00:00",
+      "content": "Artemis II astronauts officially set record for human's distance from Earth. Score: 7, Comments: 0",
+      "id": "fdfab6a9d836c307d82ea8bcbcd59bd0",
+      "title_zh": "阿耳忒弥斯二号宇航员正式创下人类与地球距离纪录",
+      "summary_zh": "Artemis II astronauts officially set record for human's distance from Earth. Score: 7, Comments: 0",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.229123+00:00"
     },
     {
       "title": "Twitter devolved into a pipeline of ragebait slop",
@@ -492,6 +772,20 @@
       "collected": "2026-04-06T20:07:02.768113+00:00"
     },
     {
+      "title": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
+      "url": "https://github.com/4RH1T3CT0R7/ttf-doom",
+      "source": "Hacker News",
+      "domain": "国际",
+      "published": "2026-04-06T19:25:39+00:00",
+      "content": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting. Score: 4, Comments: 2",
+      "id": "c786e9cc7da3f2a3797212cc656ddf87",
+      "title_zh": "显示 HN：TTF-DOOM – 在 TrueType 字体提示中运行的光线投射器",
+      "summary_zh": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting. Score: 4, Comments: 2",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228851+00:00"
+    },
+    {
       "title": "Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit",
       "url": "https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/",
       "source": "BleepingComputer",
@@ -632,6 +926,20 @@
       "collected": "2026-04-06T19:09:48.732021+00:00"
     },
     {
+      "title": "SOM: A minimal Smalltalk for teaching of and research on Virtual Machines",
+      "url": "http://som-st.github.io/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T18:54:09+00:00",
+      "content": "SOM: A minimal Smalltalk for teaching of and research on Virtual Machines. Score: 10, Comments: 0",
+      "id": "ff2a9793088e5ac7ff03ff1b6b783307",
+      "title_zh": "SOM：用于虚拟机教学和研究的最小 Smalltalk",
+      "summary_zh": "SOM: A minimal Smalltalk for teaching of and research on Virtual Machines. Score: 10, Comments: 0",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228934+00:00"
+    },
+    {
       "title": "Zooming UIs in 2026: Prezi, impress.js, and why I built something different",
       "url": "https://news.ycombinator.com/item?id=47665194",
       "source": "Hacker News",
@@ -714,6 +1022,20 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-04-06T19:09:48.736377+00:00"
+    },
+    {
+      "title": "No on-site doctor: Dental student died in ICU overseen by remote tele-health MD",
+      "url": "https://lawandcrime.com/lawsuit/no-on-site-doctor-dental-student-died-in-icu-overseen-by-remote-tele-health-physician-who-pronounced-him-dead-on-a-video-screen-lawsuit-says/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-06T18:33:19+00:00",
+      "content": "No on-site doctor: Dental student died in ICU overseen by remote tele-health MD. Score: 11, Comments: 1",
+      "id": "28fbcd6d9294b1026b9108c5a6178b23",
+      "title_zh": "没有现场医生：牙科学生在远程医疗医生监督的 ICU 中死亡",
+      "summary_zh": "No on-site doctor: Dental student died in ICU overseen by remote tele-health MD. Score: 11, Comments: 1",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.229081+00:00"
     },
     {
       "title": "Londoners are sick of viral videos telling lies about their city",
@@ -3032,6 +3354,34 @@
       "category": "未分类",
       "tags": [],
       "collected": "2026-04-06T13:53:45.416565+00:00"
+    },
+    {
+      "title": "World News in Brief: ‘Skyrocketing’ needs outpace Sudan funding, Ukraine strikes update, global water security",
+      "url": "https://news.un.org/feed/view/en/story/2026/04/1167255",
+      "source": "UN News",
+      "domain": "国际",
+      "published": "2026-04-06T12:00:00+00:00",
+      "content": "The UN is significantly scaling up its presence in the Sudanese capital, Khartoum, to expand life-saving operations as the conflict between rival militaries approaches its third year.",
+      "id": "ef36974d99369e97f20126a14cd1b8e0",
+      "title_zh": "世界新闻简讯：需求“猛增”超过苏丹资金、乌克兰罢工更新、全球水安全",
+      "summary_zh": "The UN is significantly scaling up its presence in the Sudanese capital, Khartoum, to expand life-saving operations as the conflict between rival militaries approaches its third year.",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228217+00:00"
+    },
+    {
+      "title": "Cuba energy crisis: Humanitarian needs remain despite fuel supplies",
+      "url": "https://news.un.org/feed/view/en/story/2026/04/1167254",
+      "source": "UN News",
+      "domain": "国际",
+      "published": "2026-04-06T12:00:00+00:00",
+      "content": "The UN has issued an urgent call for international support as Cuba grapples with a ‘worsening’ humanitarian crisis fuelled by a prolonged energy blockade and the lingering devastation caused by&nbsp;Hurricane Melissa last year.",
+      "id": "2a274e4c3b5c1e58e671ec9bfde79904",
+      "title_zh": "古巴能源危机：尽管燃料供应充足，人道主义需求依然存在",
+      "summary_zh": "The UN has issued an urgent call for international support as Cuba grapples with a ‘worsening’ humanitarian crisis fuelled by a prolonged energy blockade and the lingering devastation caused by&nbsp;H",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228251+00:00"
     },
     {
       "title": "UN80 Initiative enters ‘delivery phase’, as Member States review progress on key work areas",
@@ -15444,6 +15794,20 @@
       "collected": "2026-04-04T11:34:58.621571+00:00"
     },
     {
+      "title": "Show HN: Tusk for macOS and Gnome",
+      "url": "https://shapemachine.xyz/tusk/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-04T10:39:32+00:00",
+      "content": "Show HN: Tusk for macOS and Gnome. Score: 16, Comments: 1",
+      "id": "3adc681f7a0d6acea22f49d2fe22b7c9",
+      "title_zh": "显示 HN：适用于 macOS 和 Gnome 的 Tusk",
+      "summary_zh": "Show HN: Tusk for macOS and Gnome. Score: 16, Comments: 1",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-06T22:02:18.228790+00:00"
+    },
+    {
       "title": "European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack",
       "url": "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
       "source": "SecurityWeek",
@@ -26172,183 +26536,169 @@
       "category": "未分类",
       "tags": [],
       "collected": "2026-04-04T06:17:19.929823+00:00"
-    },
-    {
-      "title": "What we learned building 100 API integrations with OpenCode",
-      "url": "https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-03-30T21:18:52+00:00",
-      "content": "What we learned building 100 API integrations with OpenCode. Score: 94, Comments: 21",
-      "id": "2a1bca2c188a698e2d72d99814f23abf",
-      "title_zh": "我们在使用 OpenCode 构建 100 个 API 集成时学到了什么",
-      "summary_zh": "What we learned building 100 API integrations with OpenCode. Score: 94, Comments: 21",
-      "category": "开发",
-      "tags": [],
-      "collected": "2026-04-04T06:17:19.930469+00:00"
     }
   ],
   "digest": {
-    "generated_at": "2026-04-06T21:06:50.039244+00:00",
+    "generated_at": "2026-04-06T22:02:18.255105+00:00",
     "AI": [
       {
         "rank": 1,
-        "title": "OpenAI 展望AI时代经济愿景：公共财富基金、机器人税与四天工作制",
-        "summary": "OpenAI 提出AI驱动的经济模型，探讨财富分配与工作模式变革。",
-        "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-        "source": "TechCrunch AI",
-        "category": "机器人"
+        "title": "OpenAI发布人工智能时代政策建议",
+        "summary": "OpenAI发布政策建议",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-06/openai-releases-policy-recommendations-for-ai-age-video",
+        "source": "Bloomberg Tech",
+        "category": "AI产品"
       },
       {
         "rank": 2,
-        "title": "OpenAI 推动政策建议，应对AI影响，并阐述超级智能的未来",
-        "summary": "OpenAI 呼吁政策调整，并描绘AI如何重塑世界，提倡少工作同酬。",
-        "url": "https://the-decoder.com/less-work-equal-pay-openai-lays-out-its-vision-for-a-world-reshaped-by-superintelligence/",
-        "source": "The Decoder",
-        "category": "AI产品"
-      },
-      {
-        "rank": 3,
-        "title": "维基百科AI代理之争揭示机器人灾难的潜在开端",
-        "summary": "维基百科上的AI代理冲突预示着更广泛的机器人应用挑战。",
-        "url": "https://www.malwarebytes.com/blog/ai/2026/04/wikipedias-ai-agent-row-likely-just-the-beginning-of-the-bot-ocalypse",
-        "source": "Hacker News",
-        "category": "AI产品"
-      },
-      {
-        "rank": 4,
-        "title": "Nvidia 支持的数据中心建造商 Firmus 融资5.05亿美元",
-        "summary": "Firmus 获巨额融资，显示AI基础设施建设的强劲势头。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/nvidia-backed-data-center-builder-firmus-raises-505-million",
+        "title": "OpenAI、Anthropic和Google联手打击中国的模型复制行为",
+        "summary": "联手打击模型复制",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
         "source": "Bloomberg Tech",
         "category": "未分类"
       },
       {
-        "rank": 5,
-        "title": "谷歌悄然发布iOS离线AI听写应用，提升移动端AI能力",
-        "summary": "谷歌推出离线AI听写应用，拓展移动AI服务。",
-        "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-        "source": "TechCrunch AI",
+        "rank": 3,
+        "title": "OpenAI推动政策抵消人工智能的影响",
+        "summary": "OpenAI推动政策",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-06/bloomberg-tech-4-6-2026-video",
+        "source": "Bloomberg Tech",
         "category": "AI产品"
       },
       {
-        "rank": 6,
-        "title": "前商务部长：AI将在特定领域创造实际就业机会",
-        "summary": "前商务部长预测AI在就业市场的具体创造潜力。",
+        "rank": 4,
+        "title": "伊朗威胁‘星际之门’人工智能数据中心",
+        "summary": "伊朗威胁数据中心",
+        "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
+        "source": "TechCrunch AI",
+        "category": "未分类"
+      },
+      {
+        "rank": 5,
+        "title": "前商务部长谈人工智能将在哪里实际创造就业机会",
+        "summary": "人工智能创造就业",
         "url": "https://www.bloomberg.com/news/videos/2026-04-06/former-commerce-secretary-on-where-ai-will-create-jobs-video",
         "source": "Bloomberg Tech",
         "category": "未分类"
       },
       {
+        "rank": 6,
+        "title": "Nvidia支持的数据中心建造商Firmus融资5.05亿美元",
+        "summary": "Firmus融资5.05亿",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/nvidia-backed-data-center-builder-firmus-raises-505-million",
+        "source": "Bloomberg Tech",
+        "category": "未分类"
+      },
+      {
         "rank": 7,
-        "title": "Meta 利用AI绘制数据管道中的“部落知识”",
-        "summary": "Meta 探索AI应用，用于理解和整合大规模数据中的隐性知识。",
-        "url": "https://engineering.fb.com/2026/04/06/developer-tools/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines/",
-        "source": "Meta AI Blog",
-        "category": "AI产品"
+        "title": "Apollo支持的雅虎启动16亿美元再融资谈判",
+        "summary": "雅虎再融资16亿",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/apollo-backed-yahoo-kicks-off-talks-on-1-6-billion-refinancing",
+        "source": "Bloomberg Tech",
+        "category": "LLM"
       },
       {
         "rank": 8,
-        "title": "OpenAI 安全人才流失的解释：Sam Altman 的共鸣效应",
-        "summary": "揭示OpenAI内部人才流失的原因与Sam Altman的管理风格相关。",
+        "title": "OpenAI的安全人才流失终于得到了解释",
+        "summary": "OpenAI安全人才流失",
         "url": "https://the-decoder.com/openais-safety-brain-drain-finally-gets-an-explanation-and-its-just-sam-altmans-vibes/",
         "source": "The Decoder",
         "category": "研究"
       },
       {
         "rank": 9,
-        "title": "AWS 推出Amazon SageMaker AI，加速代理工具调用",
-        "summary": "AWS SageMaker 改进代理工具调用，提升AI开发效率。",
-        "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-tool-calling-with-serverless-model-customization-in-amazon-sagemaker-ai/",
-        "source": "AWS AI Blog",
-        "category": "LLM"
+        "title": "推出HN：Freestyle – 编码代理沙箱",
+        "summary": "推出Freestyle",
+        "url": "https://www.freestyle.sh/",
+        "source": "Hacker News",
+        "category": "AI产品"
       },
       {
         "rank": 10,
-        "title": "Anthropic 开发者善意消耗加速，引发担忧",
-        "summary": "Anthropic 开发者关系紧张，引起行业关注。",
-        "url": "https://twitter.com/GergelyOrosz/status/2041133254586122605",
-        "source": "Hacker News",
-        "category": "未分类"
+        "title": "OpenAI对人工智能经济的愿景：公共财富基金、机器人税和每周四天工作制",
+        "summary": "OpenAI人工智能经济愿景",
+        "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+        "source": "TechCrunch AI",
+        "category": "机器人"
       }
     ],
     "安全": [
       {
         "rank": 1,
-        "title": "微软修复了导致电子邮件传送问题的 Classic Outlook 错误",
-        "summary": "解决电子邮件传送问题",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-classic-outlook-bug-causing-email-delivery-issues/",
-        "source": "BleepingComputer",
-        "category": "未分类"
-      },
-      {
-        "rank": 2,
-        "title": "与伊朗相关的密码喷涂活动针对 300 多个以色列 Microsoft 365 组织",
-        "summary": "伊朗黑客攻击以色列",
-        "url": "https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html",
-        "source": "The Hacker News",
-        "category": "攻防"
-      },
-      {
-        "rank": 3,
-        "title": "微软将 Medusa 勒索软件附属公司与零日攻击联系起来",
-        "summary": "微软发现勒索软件攻击",
-        "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
+        "title": "“BlueHammer”Windows 零日漏洞被泄露",
+        "summary": "心怀不满的研究员泄露 BlueHammer Windows 零日漏洞，影响广泛。",
+        "url": "https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
-        "rank": 4,
-        "title": "2.8 亿美元加密货币盗窃案",
-        "summary": "加密货币被盗",
-        "url": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
+        "rank": 2,
+        "title": "GPUBreach 攻击利用 GPU Rowhammer 接管系统",
+        "summary": "新型 GPUBreach 攻击通过 GPU Rowhammer 技术实现系统接管。",
+        "url": "https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
-        "rank": 5,
-        "title": "与朝鲜有关的黑客使用 GitHub 作为针对韩国的多阶段攻击的 C2",
-        "summary": "朝鲜黑客攻击韩国",
-        "url": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
-        "source": "The Hacker News",
-        "category": "攻防"
-      },
-      {
-        "rank": 6,
-        "title": "CISA 命令联邦政府在周五之前修复被利用的 Fortinet EMS 缺陷",
-        "summary": "修复 Fortinet 漏洞",
+        "rank": 3,
+        "title": "Fortinet EMS 零日漏洞被利用，CISA 命令紧急修复",
+        "summary": "Fortinet EMS 零日漏洞被利用，联邦政府被要求立即修复。",
         "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-fortinet-flaw-exploited-in-attacks-by-friday/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
-        "rank": 7,
-        "title": "谷歌 DeepMind 研究人员绘制了针对人工智能代理的网络攻击图",
-        "summary": "人工智能网络攻击图",
+        "rank": 4,
+        "title": "Medusa 勒索软件与零日攻击相关联",
+        "summary": "微软将 Medusa 勒索软件与零日攻击关联，安全警报升级。",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
+      },
+      {
+        "rank": 5,
+        "title": "谷歌 DeepMind 绘制 AI 代理网络攻击图",
+        "summary": "DeepMind 研究绘制 AI 代理网络攻击图，揭示潜在风险。",
         "url": "https://www.securityweek.com/google-deepmind-researchers-map-web-attacks-against-ai-agents/",
         "source": "SecurityWeek",
         "category": "漏洞"
       },
       {
-        "rank": 8,
-        "title": "为什么简单的违规监控已经不够了",
-        "summary": "违规监控不足",
-        "url": "https://www.bleepingcomputer.com/news/security/why-simple-breach-monitoring-is-no-longer-enough/",
+        "rank": 6,
+        "title": "伊朗相关密码喷涂活动针对以色列 M365 组织",
+        "summary": "伊朗黑客对以色列 M365 组织发动密码喷涂攻击。",
+        "url": "https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html",
+        "source": "The Hacker News",
+        "category": "攻防"
+      },
+      {
+        "rank": 7,
+        "title": "2.8 亿美元加密货币盗窃案与 6 个月现场操作有关",
+        "summary": "2.8 亿美元加密货币被盗，与长达半年的行动有关。",
+        "url": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
+        "rank": 8,
+        "title": "朝鲜黑客利用 GitHub 针对韩国发动多阶段攻击",
+        "summary": "朝鲜黑客利用 GitHub 进行多阶段攻击，目标为韩国。",
+        "url": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
+        "source": "The Hacker News",
+        "category": "攻防"
+      },
+      {
         "rank": 9,
-        "title": "多操作系统网络攻击：SOC 如何通过 3 个步骤消除关键风险",
-        "summary": "解决网络攻击风险",
-        "url": "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
+        "title": "LiteLLM 导致开发机器成为凭证库",
+        "summary": "LiteLLM 漏洞将开发机器变成攻击者的凭证库。",
+        "url": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
         "source": "The Hacker News",
         "category": "攻防"
       },
       {
         "rank": 10,
-        "title": "Qilin 和 Warlock 勒索软件利用易受攻击的驱动程序禁用 300 多个 EDR 工具",
-        "summary": "勒索软件禁用安全工具",
+        "title": "Qilin 和 Warlock 勒索软件禁用 EDR 工具",
+        "summary": "Qilin 和 Warlock 勒索软件利用漏洞禁用大量 EDR 工具。",
         "url": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
         "source": "The Hacker News",
         "category": "安全工具"
@@ -26357,165 +26707,83 @@
     "经济": [
       {
         "rank": 1,
-        "title": "OpenAI 控告马斯克反竞争行为",
-        "summary": "OpenAI 起诉马斯克",
-        "url": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
+        "title": "博通同意扩大与谷歌、Anthropic 的芯片交易",
+        "summary": "芯片交易扩大",
+        "url": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
         "source": "CNBC",
         "category": "未分类"
       },
       {
         "rank": 2,
         "title": "SpaceX 值 2 万亿美元吗",
-        "summary": "SpaceX 上市备受关注",
+        "summary": "SpaceX IPO 估值",
         "url": "https://www.bloomberg.com/news/articles/2026-04-06/is-spacex-worth-2-trillion-key-questions-for-musk-s-big-ipo",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 3,
-        "title": "比特币突破 70,000 美元",
-        "summary": "比特币价格飙升",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/bitcoin-tops-70-000-as-traders-unwind-bets-amid-war-tensions",
-        "source": "Bloomberg Tech",
-        "category": "加密"
+        "title": "高盛准备出击私人信贷市场",
+        "summary": "高盛私人信贷计划",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/goldman-says-it-s-ready-to-pounce-as-retail-flees-private-credit",
+        "source": "Bloomberg Markets",
+        "category": "未分类"
       },
       {
         "rank": 4,
-        "title": "战争影响能源部门",
-        "summary": "能源部长谈战争影响",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-06/fmr-energy-sec-moniz-brace-for-very-long-war-impact-video",
+        "title": "医疗保险最终确定加息 2.48%",
+        "summary": "医疗保险加息",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-06/medicare-finalizes-2-48-rate-hike-video",
         "source": "Bloomberg Markets",
         "category": "宏观"
       },
       {
         "rank": 5,
-        "title": "伊朗供应链面临风险",
-        "summary": "Flexport 首席执行官谈供应链风险",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-06/flexport-ceo-top-iran-supply-chain-risk-is-fertilizer-video",
-        "source": "Bloomberg Markets",
+        "title": "OpenAI 呼吁调查马斯克反竞争行为",
+        "summary": "OpenAI 呼吁调查",
+        "url": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
+        "source": "CNBC",
         "category": "未分类"
       },
       {
         "rank": 6,
-        "title": "阿根廷天然气发展前景",
-        "summary": "战争带来阿根廷天然气机会",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-06/war-opens-a-door-for-argentina-gas-pampa-s-mindlin-says-video",
-        "source": "Bloomberg Markets",
-        "category": "投融资"
+        "title": "比特币突破 70,000 美元",
+        "summary": "比特币价格上涨",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/bitcoin-tops-70-000-as-traders-unwind-bets-amid-war-tensions",
+        "source": "Bloomberg Tech",
+        "category": "加密"
       },
       {
         "rank": 7,
-        "title": "MAK Capital 要求 Evotec 上市",
-        "summary": "MAK Capital 提出上市要求",
+        "title": "MAK Capital 要求 Evotec 上市美国子公司",
+        "summary": "Evotec 上市计划",
         "url": "https://www.bloomberg.com/news/articles/2026-04-06/mak-capital-tells-evotec-to-list-us-unit-worth-over-1-billion",
         "source": "Bloomberg Markets",
         "category": "投融资"
       },
       {
         "rank": 8,
-        "title": "纳税截止日期后零售人群购股",
-        "summary": "零售人群恢复购股",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/retail-crowd-seen-resuming-stock-buying-binge-after-tax-deadline",
+        "title": "水下抵押贷款迫使中国银行发挥创意",
+        "summary": "中国银行应对水下抵押贷款",
+        "url": "https://www.bloomberg.com/news/features/2026-04-06/china-s-housing-crisis-forces-banks-to-confront-underwater-mortgages",
         "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 9,
-        "title": "摩根士丹利计划设立私人信贷基金",
-        "summary": "摩根士丹利计划新基金",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/morgan-stanley-plans-private-credit-fund-even-as-investors-flee",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 10,
-        "title": "标准普尔 500 指数扩大连胜势头",
-        "summary": "标准普尔 500 指数持续上涨",
-        "url": "https://www.cnbc.com/2026/04/06/sp-500-aims-to-extend-win-streak-plus-a-cfo-switch-at-one-of-our-key-names.html",
-        "source": "CNBC",
-        "category": "市场"
-      }
-    ],
-    "国际": [
-      {
-        "rank": 1,
-        "title": "SpaceX 预计将掀起大型 IPO 浪潮",
-        "summary": "SpaceX 准备上市，可能重塑太空产业资本格局。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-06/spacex-expected-to-kick-off-a-wave-of-mega-ipos-video",
-        "source": "Bloomberg Tech",
-        "category": "科学"
-      },
-      {
-        "rank": 2,
-        "title": "NASA 阿耳忒弥斯二号机组人员打破人类太空飞行最远距离记录",
-        "summary": "阿耳忒弥斯二号创下人类最远太空飞行纪录，标志月球探索新里程。",
-        "url": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-eclipses-record-for-farthest-human-spaceflight/",
-        "source": "NASA",
-        "category": "科学"
-      },
-      {
-        "rank": 3,
-        "title": "伊朗在伊拉克​​的库尔德反对派看到了变革的机会",
-        "summary": "伊朗库尔德反对派寻求变革，或影响地区政治格局。",
-        "url": "https://www.npr.org/2026/04/06/nx-s1-5763684/irans-kurdish-opposition-in-iraq-sees-a-chance-for-change-after-decades-in-exile",
-        "source": "NPR World",
-        "category": "未分类"
-      },
-      {
-        "rank": 4,
-        "title": "UN80倡议进入“交付阶段”，成员国审查进展",
-        "summary": "UN80倡议进入关键交付阶段，聚焦全球发展成果。",
-        "url": "https://news.un.org/feed/view/en/story/2026/04/1167253",
-        "source": "UN News",
-        "category": "科学"
-      },
-      {
-        "rank": 5,
-        "title": "纹身墨水会引起炎症并改变对疫苗接种的免疫反应",
-        "summary": "纹身墨水或影响人体免疫反应，对健康产生潜在影响。",
-        "url": "https://www.pnas.org/doi/10.1073/pnas.2510392122",
-        "source": "Hacker News",
-        "category": "科学"
-      },
-      {
-        "rank": 6,
-        "title": "美国最高法院为驳回对史蒂夫·班农的定罪铺平道路",
-        "summary": "美国最高法院可能驳回班农定罪，影响政治人物司法待遇。",
-        "url": "https://www.bbc.com/news/articles/cgqk4kyj4yvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "未分类"
-      },
-      {
-        "rank": 7,
-        "title": "中东传来“停战”信号，明天行情怎么走？",
-        "summary": "中东停战信号浮现，预示地区局势缓和对金融市场影响。",
-        "url": "https://www.huxiu.com/article/4848371.html?f=rss",
-        "source": "虎嗅",
-        "category": "未分类"
-      },
-      {
-        "rank": 8,
-        "title": "特朗普提供了一名被困伊朗的美国飞行员的戏剧性救援背后的细节",
-        "summary": "特朗普披露伊朗飞行员救援细节，凸显外交博弈。",
-        "url": "https://www.npr.org/2026/04/06/nx-s1-5775736/trump-provides-details-behind-the-dramatic-rescue-of-an-american-airman-trapped-in-iran",
-        "source": "NPR World",
         "category": "未分类"
       },
       {
         "rank": 9,
-        "title": "以哈双方冲突造成十人死亡，当地消息人士称",
-        "summary": "以哈冲突加剧致多人死亡，地区紧张局势升级。",
-        "url": "https://www.bbc.com/news/articles/c77md512n71o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "未分类"
+        "title": "能源部莫尼兹：为长期战争影响做好准备",
+        "summary": "能源部长发言",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-06/fmr-energy-sec-moniz-brace-for-very-long-war-impact-video",
+        "source": "Bloomberg Markets",
+        "category": "宏观"
       },
       {
         "rank": 10,
-        "title": "刚果民主共和国同意从美国接收被驱逐者",
-        "summary": "刚果（金）同意接收被美驱逐者，涉及国际移民议题。",
-        "url": "",
-        "source": "",
-        "category": ""
+        "title": "下一代比特币 ETF 开发",
+        "summary": "下一代比特币ETF",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-06/next-gen-bitcoin-etfs-refiners-outperform-broader-market-etf-iq-4-6-2026",
+        "source": "Bloomberg Markets",
+        "category": "市场"
       }
     ]
   }
