@@ -1,6 +1,202 @@
 {
-  "last_updated": "2026-04-07T21:15:30.745147+00:00",
+  "last_updated": "2026-04-07T22:07:24.904731+00:00",
   "articles": [
+    {
+      "title": "Hackers exploit critical flaw in Ninja Forms WordPress plugin",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-flaw-in-ninja-forms-wordpress-plugin/",
+      "source": "BleepingComputer",
+      "domain": "安全",
+      "published": "2026-04-07T22:03:01+00:00",
+      "content": "A critical vulnerability in the Ninja Forms File Uploads premium add-on for WordPress allows uploading arbitrary files without authentication, which can lead to remote code execution. [...]",
+      "id": "64f06eb7274ef393c99be4e665660dfb",
+      "title_zh": "黑客利用 Ninja Forms WordPress 插件中的严重缺陷",
+      "summary_zh": "A critical vulnerability in the Ninja Forms File Uploads premium add-on for WordPress allows uploading arbitrary files without authentication, which can lead to remote code execution. [...]",
+      "category": "漏洞",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.071178+00:00"
+    },
+    {
+      "title": "Anthropic launches Project Glasswing, an effort to prevent AI cyberattacks with AI",
+      "url": "https://www.engadget.com/ai/anthropic-launches-project-glasswing-an-effort-to-prevent-ai-cyberattacks-with-ai-214939773.html?src=rss",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-04-07T21:49:39+00:00",
+      "content": "We see a lot of doom and gloom about the potential negative impacts of artificial intelligence, particularly centered on how it could create new problems in cybersecurity. Anthropic has announced a new initiative called Project Glasswing to help address those concerns by working &quot;to secure the world’s most critical software&quot; against AI-powered attacks. The endeavor includes Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA and Palo Alto Networks as partners.&nbsp;Participants will use Claude Mythos Preview, an unreleased, general-purpose model from Anthropic, to enhance their own security projects. Anthropic claims that this model has found thousands of exploitable vulnerabilities, &quot;including some in every major operating system and web browser.&quot; The company said it wants to begin using its tools defensively to prevent malicious use of AI that could cause severe consequences for economies and security.&nbsp;Anthropic has become one of the notable AI companies raising concerns about ethics in the field. Earlier this year, the business refused to remove guardrails on its services for use by the Pentagon, which prompted the Department of Defense to sanction Anthropic with a &quot;supply chain risk&quot; designation in retaliation. Launching Project Glasswing could be a helpful start toward improved cybersecurity in the AI era, but some damage has already been done. Its own Claude was reportedly used by a hacker against multiple government agencies in Mexico in February.This article originally appeared on Engadget at https://www.engadget.com/ai/anthropic-launches-project-glasswing-an-effort-to-prevent-ai-cyberattacks-with-ai-214939773.html?src=rss",
+      "id": "06cc0e49252cbb95c48f1c337ceca1a1",
+      "title_zh": "Anthropic 推出 Project Glasswing，旨在利用 AI 防止 AI 网络攻击",
+      "summary_zh": "We see a lot of doom and gloom about the potential negative impacts of artificial intelligence, particularly centered on how it could create new problems in cybersecurity. Anthropic has announced a ne",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.072254+00:00"
+    },
+    {
+      "title": "Private Credit Experiencing 'Growing Pains,' SLR Capital Partners' Co-CEO Gross",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-07/private-credit-experiencing-growing-pains-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-07T21:43:53+00:00",
+      "content": "Michael Gross, Co-Founder of SLR Capital Partners said pressure on business development companies are part of private credit's \"growing pains.\" JPMorgan Chase & Co. is restricting some lending to private credit funds after marking down the value loans in their portfolios. At the same time, BDCs &mdash; which lend directly to middle-market companies &mdash; are seeing elevated redemption requests amid fear of loss related to oversized exposure to software firms disrupted by AI. Besides equity from limited partners and public investors, private credit funds rely on banks for funds. They also raise debt in the investment-grade bond market. (Source: Bloomberg)",
+      "id": "a330f655c279c8d7147b61c8fb56d29c",
+      "title_zh": "SLR Capital Partners 联席首席执行官格罗斯表示，私人信贷经历了“成长的烦恼”",
+      "summary_zh": "Michael Gross, Co-Founder of SLR Capital Partners said pressure on business development companies are part of private credit's \"growing pains.\" JPMorgan Chase & Co. is restricting some lending to priv",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.072090+00:00"
+    },
+    {
+      "title": "RSoC 2026: A new CPU scheduler for Redox OS",
+      "url": "https://www.redox-os.org/news/rsoc-dwrr/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-07T21:41:06+00:00",
+      "content": "RSoC 2026: A new CPU scheduler for Redox OS. Score: 3, Comments: 0",
+      "id": "771f28f2d188a4ba09edd398bab67a8a",
+      "title_zh": "RSoC 2026：Redox OS 的新 CPU 调度程序",
+      "summary_zh": "RSoC 2026: A new CPU scheduler for Redox OS. Score: 3, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.074846+00:00"
+    },
+    {
+      "title": "I can’t help rooting for tiny open source AI model maker Arcee",
+      "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+      "source": "TechCrunch AI",
+      "domain": "AI",
+      "published": "2026-04-07T21:35:02+00:00",
+      "content": "Arcee is a tiny 26-person U.S. startup that built a high-performing, massive, open source LLM. And it's gaining popularity with OpenClaw users.",
+      "id": "cb723f1af1b381c383cd67e020a6f844",
+      "title_zh": "我情不自禁地支持小型开源人工智能模型制作者 Arcee",
+      "summary_zh": "Arcee is a tiny 26-person U.S. startup that built a high-performing, massive, open source LLM. And it's gaining popularity with OpenClaw users.",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.066181+00:00"
+    },
+    {
+      "title": "Switzerland builds most powerful redox-flow battery",
+      "url": "https://www.swissinfo.ch/eng/climate-solutions/switzerland-builds-worlds-most-powerful-redox-flow-battery/91181119",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-07T21:33:40+00:00",
+      "content": "Switzerland builds most powerful redox-flow battery. Score: 6, Comments: 0",
+      "id": "be116324581f83b81e2671d8a155fe2a",
+      "title_zh": "瑞士制造最强大的氧化还原液流电池",
+      "summary_zh": "Switzerland builds most powerful redox-flow battery. Score: 6, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.075151+00:00"
+    },
+    {
+      "title": "Earth Has Fallen. The Amiga Dungeon Crawler Is Back",
+      "url": "https://old.reddit.com/r/amiga/comments/1sf7so4/earth_has_fallen_the_amiga_dungeon_crawler_is_back/",
+      "source": "Hacker News",
+      "domain": "国际",
+      "published": "2026-04-07T21:32:31+00:00",
+      "content": "Earth Has Fallen. The Amiga Dungeon Crawler Is Back. Score: 4, Comments: 0",
+      "id": "f945967b43f658fe071fc39cbfab2993",
+      "title_zh": "地球已陷落。 Amiga 地下城探索者回来了",
+      "summary_zh": "Earth Has Fallen. The Amiga Dungeon Crawler Is Back. Score: 4, Comments: 0",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.075183+00:00"
+    },
+    {
+      "title": "Toilet Paper Facility Fire Risks Disruption to US Market",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-07/toilet-paper-facility-fire-risks-disruption-to-us-market-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-07T21:24:01+00:00",
+      "content": "A fire at a Kimberly-Clark distribution center in Ontario, California, that houses paper products could potentially lead to disruptions in a market that serves around 50 million consumers. Ontario, California, Deputy Chief Mike Wedell confirms that a male employee of the paper company has been arrested on arson charges. (Source: Bloomberg)",
+      "id": "062921726876fbef4036ac6c92e2fd11",
+      "title_zh": "卫生纸设施火灾可能扰乱美国市场",
+      "summary_zh": "A fire at a Kimberly-Clark distribution center in Ontario, California, that houses paper products could potentially lead to disruptions in a market that serves around 50 million consumers. Ontario, Ca",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.072116+00:00"
+    },
+    {
+      "title": "Scientists invented a fake disease. AI told people it was real",
+      "url": "https://www.nature.com/articles/d41586-026-01100-y",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-07T21:23:12+00:00",
+      "content": "Scientists invented a fake disease. AI told people it was real. Score: 4, Comments: 0",
+      "id": "bd920decd831f9205d425926d488651e",
+      "title_zh": "科学家发明了一种假疾病。 AI告诉人们这是真实的",
+      "summary_zh": "Scientists invented a fake disease. AI told people it was real. Score: 4, Comments: 0",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.075348+00:00"
+    },
+    {
+      "title": "First Brands Judge Delays Sale of 12 Brands to Allow Late Bid",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-07/first-brands-judge-delays-sale-of-12-brands-to-allow-late-bid",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-07T21:23:11+00:00",
+      "content": "Bankrupt auto-parts maker First Brands Group must give a last-minute bidder a chance to buy some of its most-recognizable brands, a federal judge ruled Tuesday.",
+      "id": "2c1c686028b8a11cc54b4df986f929c6",
+      "title_zh": "First Brands 法官推迟出售 12 个品牌以允许延迟投标",
+      "summary_zh": "Bankrupt auto-parts maker First Brands Group must give a last-minute bidder a chance to buy some of its most-recognizable brands, a federal judge ruled Tuesday.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.072134+00:00"
+    },
+    {
+      "title": "Elon Musk seeks ouster of OpenAI CEO Sam Altman as part of lawsuit",
+      "url": "https://www.cnbc.com/2026/04/07/elon-musk-seeks-ouster-of-openai-ceo-sam-altman-as-part-of-lawsuit.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-07T21:21:23+00:00",
+      "content": "Elon Musk is seeking to have OpenAI CEO Sam Altman and President Greg Brockman removed from their roles as officers in the company as part of a lawsuit.",
+      "id": "058718bcb2c52c89befee09f7c37417c",
+      "title_zh": "作为诉讼的一部分，埃隆·马斯克寻求罢免 OpenAI 首席执行官萨姆·奥尔特曼",
+      "summary_zh": "Elon Musk is seeking to have OpenAI CEO Sam Altman and President Greg Brockman removed from their roles as officers in the company as part of a lawsuit.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.072171+00:00"
+    },
+    {
+      "title": "A Moscow poet highlights the challenges of speaking out against the war in Ukraine",
+      "url": "https://www.npr.org/2026/04/07/nx-s1-5761004/a-moscow-poet-highlights-the-challenges-of-speaking-out-against-the-war-in-ukraine",
+      "source": "NPR World",
+      "domain": "国际",
+      "published": "2026-04-07T21:14:18+00:00",
+      "content": "In Russia, protesting against the war in Ukraine can be dangerous. But one Russian poet living in Moscow, Vadim Dzyuba, is speaking out.",
+      "id": "1c2cd669cd35549c9d03438165d9a5b0",
+      "title_zh": "一位莫斯科诗人强调公开反对乌克兰战争的挑战",
+      "summary_zh": "In Russia, protesting against the war in Ukraine can be dangerous. But one Russian poet living in Moscow, Vadim Dzyuba, is speaking out.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.073202+00:00"
+    },
+    {
+      "title": "Elon Musk Seeks Removal of OpenAI CEO Sam Altman as Trial Looms",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-07/musk-wants-openai-nonprofit-to-get-any-trial-winnings-from-suit",
+      "source": "Bloomberg Tech",
+      "domain": "AI",
+      "published": "2026-04-07T21:11:57+00:00",
+      "content": "Elon Musk is seeking to have OpenAI Chief Executive Officer and board member Sam Altman removed from his roles at the artificial intelligence startup as part of the billionaire’s legal challenge to the ChatGPT maker’s conversion to a for-profit company.",
+      "id": "4a62e1ddadf17c76191af99e7a1fb2be",
+      "title_zh": "埃隆·马斯克 (Elon Musk) 寻求解除 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 的职务，审判即将来临",
+      "summary_zh": "Elon Musk is seeking to have OpenAI Chief Executive Officer and board member Sam Altman removed from his roles at the artificial intelligence startup as part of the billionaire’s legal challenge to th",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.074481+00:00"
+    },
+    {
+      "title": "Oncoclinicas Mulls Seeking Emergency Protection From Creditors in Brazil",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-07/oncoclinicas-onco3-mulls-seeking-emergency-protection-from-creditors-in-brazil",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-07T21:11:39+00:00",
+      "content": "Oncoclinicas do Brasil Servicos Medicos SA is considering seeking emergency protection from creditors as financial pressures mount, according to people familiar with the matter.",
+      "id": "f20e462385e2fe2fd3144bac49173a00",
+      "title_zh": "Oncoclinicas 考虑向巴西债权人寻求紧急保护",
+      "summary_zh": "Oncoclinicas do Brasil Servicos Medicos SA is considering seeking emergency protection from creditors as financial pressures mount, according to people familiar with the matter.",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.072153+00:00"
+    },
     {
       "title": "USDA Secretary Brooke Rollins sent Easter email to staff touting 'Jesus' and 'God'",
       "url": "https://www.cnbc.com/2026/04/07/usda-brooke-rollins-easter-jesus-god.html",
@@ -44,6 +240,34 @@
       "collected": "2026-04-07T21:14:51.673283+00:00"
     },
     {
+      "title": "Why Marathon's Richards Is Worried About Direct Lending",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-07/why-marathon-s-richards-is-worried-about-direct-lending-video",
+      "source": "Bloomberg Tech",
+      "domain": "AI",
+      "published": "2026-04-07T21:06:33+00:00",
+      "content": "Marathon Asset Management Chair and CEO Bruce Richards explains why he sees a correction in direct lending. Speaking on \"Bloomberg The Close,\" Richards says software has the biggest problems in direct lending, expecting the default rate to go to 15% in that sector. (Source: Bloomberg)",
+      "id": "23cef2e93407f22ec9172641bfa52059",
+      "title_zh": "为什么马拉松的理查兹担心直接贷款",
+      "summary_zh": "Marathon Asset Management Chair and CEO Bruce Richards explains why he sees a correction in direct lending. Speaking on \"Bloomberg The Close,\" Richards says software has the biggest problems in direct",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.074553+00:00"
+    },
+    {
+      "title": "Move Detroit",
+      "url": "https://www.movedetroit.com/program",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-07T21:04:53+00:00",
+      "content": "Move Detroit. Score: 14, Comments: 5",
+      "id": "0fca9ce4a86fb3d2ab39281efec5ec6f",
+      "title_zh": "移动底特律",
+      "summary_zh": "Move Detroit. Score: 14, Comments: 5",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.074745+00:00"
+    },
+    {
       "title": "Fertilizer Prices Are Still Soaring",
       "url": "https://www.bloomberg.com/news/newsletters/2026-04-07/fertilizer-prices-are-still-soaring",
       "source": "Bloomberg Markets",
@@ -70,6 +294,20 @@
       "category": "未分类",
       "tags": [],
       "collected": "2026-04-07T21:14:51.673302+00:00"
+    },
+    {
+      "title": "Intel Joins Musk’s Terafab Project With Tesla, SpaceX, xAI | Bloomberg Tech 4/7/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-07/bloomberg-tech-4-7-2026-video",
+      "source": "Bloomberg Tech",
+      "domain": "国际",
+      "published": "2026-04-07T21:01:28+00:00",
+      "content": "Bloomberg’s Caroline Hyde and Ed Ludlow discuss Intel’s plan to join Elon Musk’s Terafab project with Tesla, SpaceX, and xAI. Plus, Broadcom and Google expand an agreement with Anthropic to power the AI startup’s burgeoning operations. And Bill Ackman looks to make a deal for the world’s largest music company, Universal Music Group. (Source: Bloomberg)",
+      "id": "e22e20230d3fd39e4c707ec8e8fcda10",
+      "title_zh": "英特尔与特斯拉、SpaceX、xAI 一起加入马斯克的 Terafab 项目 |彭博科技 2026 年 4 月 7 日",
+      "summary_zh": "Bloomberg’s Caroline Hyde and Ed Ludlow discuss Intel’s plan to join Elon Musk’s Terafab project with Tesla, SpaceX, and xAI. Plus, Broadcom and Google expand an agreement with Anthropic to power the",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.074668+00:00"
     },
     {
       "title": "Coinbase Plans Australia Expansion After Securing AFSL License",
@@ -114,6 +352,20 @@
       "collected": "2026-04-07T21:14:51.673267+00:00"
     },
     {
+      "title": "Anthropic's Project Glasswing sounds necessary to me",
+      "url": "https://simonwillison.net/2026/Apr/7/project-glasswing/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-07T20:53:59+00:00",
+      "content": "Anthropic's Project Glasswing sounds necessary to me. Score: 22, Comments: 2",
+      "id": "db3d2f24908f3a306eb0ee86fec7c818",
+      "title_zh": "Anthropic 的 Glasswing 项目对我来说很有必要",
+      "summary_zh": "Anthropic's Project Glasswing sounds necessary to me. Score: 22, Comments: 2",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.075252+00:00"
+    },
+    {
       "title": "NASA’s Artemis II Crew Beams Official Moon Flyby Photos to Earth",
       "url": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-beams-official-moon-flyby-photos-to-earth/",
       "source": "NASA",
@@ -140,6 +392,20 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-04-07T21:14:51.671889+00:00"
+    },
+    {
+      "title": "Show HN: An interactive map of Tolkien's Middle-earth",
+      "url": "https://middle-earth-interactive-map.web.app/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-07T20:42:37+00:00",
+      "content": "Show HN: An interactive map of Tolkien's Middle-earth. Score: 17, Comments: 1",
+      "id": "c3c549ddf5504b0bdc76ccd536fa9b5b",
+      "title_zh": "显示 HN：托尔金中土世界的交互式地图",
+      "summary_zh": "Show HN: An interactive map of Tolkien's Middle-earth. Score: 17, Comments: 1",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.074779+00:00"
     },
     {
       "title": "FBI: Americans lost a record $21 billion to cybercrime last year",
@@ -182,6 +448,20 @@
       "category": "投融资",
       "tags": [],
       "collected": "2026-04-07T21:14:51.671941+00:00"
+    },
+    {
+      "title": "AWS S3 Files",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-07T20:39:23+00:00",
+      "content": "AWS S3 Files. Score: 7, Comments: 0",
+      "id": "27cf119818575ed2e6c7a44b267159b0",
+      "title_zh": "AWS S3 文件",
+      "summary_zh": "AWS S3 Files. Score: 7, Comments: 0",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.075275+00:00"
     },
     {
       "title": "Foreign Tanker Hauls Fuel From Washington State to California",
@@ -2494,6 +2774,20 @@
       "collected": "2026-04-07T16:14:37.663297+00:00"
     },
     {
+      "title": "Lunar Flyby",
+      "url": "https://www.nasa.gov/gallery/lunar-flyby/",
+      "source": "Hacker News",
+      "domain": "国际",
+      "published": "2026-04-07T15:03:18+00:00",
+      "content": "Lunar Flyby. Score: 67, Comments: 7",
+      "id": "35d81c76a86a9717ffbc19c996a28355",
+      "title_zh": "飞越月球",
+      "summary_zh": "Lunar Flyby. Score: 67, Comments: 7",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.074694+00:00"
+    },
+    {
       "title": "Bahamas police search for US woman who reportedly fell off boat",
       "url": "https://www.bbc.com/news/articles/ckg9yxpdxlgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
@@ -3962,6 +4256,20 @@
       "category": "未分类",
       "tags": [],
       "collected": "2026-04-07T13:29:09.136293+00:00"
+    },
+    {
+      "title": "Show HN: Unicode Steganography",
+      "url": "https://steganography.patrickvuscan.com",
+      "source": "Hacker News",
+      "domain": "国际",
+      "published": "2026-04-07T12:57:25+00:00",
+      "content": "Show HN: Unicode Steganography. Score: 6, Comments: 1",
+      "id": "5eb3888ee73f06fea81bbbfe8edc880a",
+      "title_zh": "显示 HN：Unicode 隐写术",
+      "summary_zh": "Show HN: Unicode Steganography. Score: 6, Comments: 1",
+      "category": "未分类",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.074873+00:00"
     },
     {
       "title": "Trump warns Iran’s ‘whole civilization will die tonight’ unless deal struck",
@@ -20756,6 +21064,20 @@
       "collected": "2026-04-05T23:40:03.679769+00:00"
     },
     {
+      "title": "A whole boss fight in 256 bytes",
+      "url": "https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html",
+      "source": "Hacker News",
+      "domain": "国际",
+      "published": "2026-04-05T22:32:12+00:00",
+      "content": "A whole boss fight in 256 bytes. Score: 18, Comments: 4",
+      "id": "55fe2deed8c96ebb6a898b469f5371fb",
+      "title_zh": "256 字节的完整 Boss 战斗",
+      "summary_zh": "A whole boss fight in 256 bytes. Score: 18, Comments: 4",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-04-07T22:06:58.074721+00:00"
+    },
+    {
       "title": "Ye Just Made $33 Million in Two Nights. Will His Comeback Last?",
       "url": "https://www.bloomberg.com/news/newsletters/2026-04-05/kanye-west-concert-breaks-records-with-18-million-night",
       "source": "Bloomberg Tech",
@@ -26438,516 +26760,172 @@
       "category": "科学",
       "tags": [],
       "collected": "2026-04-04T22:36:21.754019+00:00"
-    },
-    {
-      "title": "Local culture shapes the Zairean liturgy",
-      "url": "https://www.npr.org/2026/04/04/nx-s1-5769881/local-culture-shapes-the-zairean-liturgy",
-      "source": "NPR World",
-      "domain": "国际",
-      "published": "2026-04-04T21:45:47+00:00",
-      "content": "Easter in the Democratic Republic of the Congo—where congregants celebrate with the Zairean Rite, the only Vatican-approved liturgy shaped by local culture, alive with song, dance, and striking ritual.",
-      "id": "d21699b6c34374da680e1bc6fecb7bb3",
-      "title_zh": "当地文化塑造了扎伊尔礼拜仪式",
-      "summary_zh": "Easter in the Democratic Republic of the Congo—where congregants celebrate with the Zairean Rite, the only Vatican-approved liturgy shaped by local culture, alive with song, dance, and striking ritual",
-      "category": "未分类",
-      "tags": [],
-      "collected": "2026-04-04T22:36:21.754046+00:00"
-    },
-    {
-      "title": "German researchers set right the story of a 9,000-year-old shaman's grave",
-      "url": "https://www.npr.org/2026/04/04/nx-s1-5763625/german-researchers-set-right-the-story-of-a-9-000-year-old-shamans-grave",
-      "source": "NPR World",
-      "domain": "国际",
-      "published": "2026-04-04T21:45:43+00:00",
-      "content": "When a 9,000 year-old grave of a shaman was discovered in Nazi Germany, the discovery was quickly politicized to support Nazi propaganda. But new analysis shows that initial narrative was all wrong.",
-      "id": "bbe498e089864d1d46b44640d85424ea",
-      "title_zh": "德国研究人员纠正了9000年前萨满坟墓的故事",
-      "summary_zh": "When a 9,000 year-old grave of a shaman was discovered in Nazi Germany, the discovery was quickly politicized to support Nazi propaganda. But new analysis shows that initial narrative was all wrong.",
-      "category": "未分类",
-      "tags": [],
-      "collected": "2026-04-04T22:36:21.754067+00:00"
-    },
-    {
-      "title": "The Spaceballs sequel will be released in April next year",
-      "url": "https://www.engadget.com/entertainment/tv-movies/the-spaceballs-sequel-will-be-released-in-april-next-year-213543871.html?src=rss",
-      "source": "Engadget",
-      "domain": "科技",
-      "published": "2026-04-04T21:35:43+00:00",
-      "content": "There's finally a release date for the Spaceballs sequel — but before you get too excited, it's a whole year away. As first reported by Deadline, Amazon MGM Studios announced on Friday night that the upcoming Spaceballs movie will hit theaters on April 23, 2027, right around the 40th anniversary of the first film. Several members of the original cast will be reprising their roles, according to Deadline, including Mel Brooks, Rick Moranis, Bill Pullman, George Wynder and Daphne Zuniga.&nbsp;Spaceballs: The Release Date. April 23, 2027. pic.twitter.com/5Xv0BKmf7C— Amazon MGM Studios (@AmazonMGMStudio) April 4, 2026 Whispers of a potential Spaceballs 2 go back a couple of years, but Brooks officially confirmed in an extremely on-brand announcement video last summer that the movie is actually happening. Following Deadline's latest report, Amazon MGM Studios posted a screenshot of the article on X, along with the words, &quot;Spaceballs: The Release Date. April 23, 2027.&quot; The movie is being directed by Josh Greenbaum and written by Josh Gad, Dan Hernandez and Benji Samit, according to Deadline. Along with the returning cast members, it will star Gad, Keke Palmer (!!), Lewis Pullman and Anthony Carrigan.This article originally appeared on Engadget at https://www.engadget.com/entertainment/tv-movies/the-spaceballs-sequel-will-be-released-in-april-next-year-213543871.html?src=rss",
-      "id": "69606f63d9599aa57991edbc7790beb2",
-      "title_zh": "《太空球》续集将于明年四月上映",
-      "summary_zh": "There's finally a release date for the Spaceballs sequel — but before you get too excited, it's a whole year away. As first reported by Deadline, Amazon MGM Studios announced on Friday night that the",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-04T22:36:21.753739+00:00"
-    },
-    {
-      "title": "The Oxygen Apocalpyse: how bacteria used a spin diode to wipe out ancient life",
-      "url": "https://keiran-rowell.github.io/oxygen/2026-04-02-the-oxygen-apocalypse/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-04-04T21:31:40+00:00",
-      "content": "The Oxygen Apocalpyse: how bacteria used a spin diode to wipe out ancient life. Score: 11, Comments: 2",
-      "id": "65122c9406d696ab969a814b8ff82207",
-      "title_zh": "氧气启示录：细菌如何利用自旋二极管消灭古代生命",
-      "summary_zh": "The Oxygen Apocalpyse: how bacteria used a spin diode to wipe out ancient life. Score: 11, Comments: 2",
-      "category": "未分类",
-      "tags": [],
-      "collected": "2026-04-05T05:18:27.285632+00:00"
-    },
-    {
-      "title": "The significance of the space mission that's making history",
-      "url": "https://www.npr.org/2026/04/04/nx-s1-5771727/the-significance-of-the-space-mission-thats-making-history",
-      "source": "NPR World",
-      "domain": "国际",
-      "published": "2026-04-04T21:20:45+00:00",
-      "content": "Former NASA chief of staff Bale Dalton talks about the work that went into the Artemis mission plan and what to watch for on the journey.",
-      "id": "90cf4287f02b2f347be7e65bd790fef6",
-      "title_zh": "创造历史的太空任务的意义",
-      "summary_zh": "Former NASA chief of staff Bale Dalton talks about the work that went into the Artemis mission plan and what to watch for on the journey.",
-      "category": "科学",
-      "tags": [],
-      "collected": "2026-04-04T21:36:52.365502+00:00"
-    },
-    {
-      "title": "German males under 45 may need military approval for long stays abroad",
-      "url": "https://www.bbc.com/news/articles/cvg3nr83xyvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "domain": "国际",
-      "published": "2026-04-04T21:16:42+00:00",
-      "content": "Under the law, travel approvals must generally be granted and it remains unclear how the rule would be enforced if breached.",
-      "id": "0fb5740b1b838fa3a6d7e43fb69c70a8",
-      "title_zh": "45岁以下德国男性长期居留国外可能需要军方批准",
-      "summary_zh": "Under the law, travel approvals must generally be granted and it remains unclear how the rule would be enforced if breached.",
-      "category": "未分类",
-      "tags": [],
-      "collected": "2026-04-04T21:36:52.365484+00:00"
-    },
-    {
-      "title": "U.S. searches for airman shot down in Iran, while Trump posts ultimatum",
-      "url": "https://www.npr.org/2026/04/04/nx-s1-5773100/u-s-searches-for-airman-shot-down-in-iran-while-trump-posts-ultimatum",
-      "source": "NPR World",
-      "domain": "国际",
-      "published": "2026-04-04T21:15:24+00:00",
-      "content": "At the start of the sixth week of war, U.S. forces search for a missing airman and President Trump reiterates his ultimatum for Iran to open the Straight of Hormuz.",
-      "id": "d16c5a3a37e97c55e9ac69c4a13056a2",
-      "title_zh": "美国搜寻在伊朗被击落的飞行员，特朗普发出最后通牒",
-      "summary_zh": "At the start of the sixth week of war, U.S. forces search for a missing airman and President Trump reiterates his ultimatum for Iran to open the Straight of Hormuz.",
-      "category": "未分类",
-      "tags": [],
-      "collected": "2026-04-04T21:36:52.365524+00:00"
     }
   ],
   "digest": {
-    "generated_at": "2026-04-07T21:14:51.701359+00:00",
+    "generated_at": "2026-04-07T22:06:58.099281+00:00",
     "AI": [
       {
         "rank": 1,
-        "title": "Anthropic 推出强大新 AI 模型 Mythos 预览，并与苹果、亚马逊合作",
-        "summary": "Anthropic 发布强大的 Mythos AI 模型，苹果、亚马逊将测试。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/anthropic-lets-apple-amazon-test-more-powerful-mythos-ai-model",
+        "title": "埃隆·马斯克寻求解除OpenAI首席执行官职务",
+        "summary": "马斯克挑战OpenAI领导层",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/musk-wants-openai-nonprofit-to-get-any-trial-winnings-from-suit",
         "source": "Bloomberg Tech",
-        "category": "AI产品"
+        "category": "LLM"
       },
       {
         "rank": 2,
-        "title": "英伟达支持的 AI 数据中心建设者 Firmus 估值达 55 亿美元",
-        "summary": "AI 数据中心建设商 Firmus 获英伟达支持，估值飙升。",
-        "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
-        "source": "TechCrunch AI",
+        "title": "科学家发明假疾病，AI误导公众",
+        "summary": "AI不当使用引发社会问题",
+        "url": "https://www.nature.com/articles/d41586-026-01100-y",
+        "source": "Hacker News",
         "category": "未分类"
       },
       {
         "rank": 3,
-        "title": "Google AI 搜索摘要准确率达九成",
-        "summary": "研究显示，谷歌 AI 搜索摘要准确率高达 90%。",
-        "url": "https://the-decoder.com/googles-ai-overviews-are-correct-nine-out-of-ten-times-study-finds/",
-        "source": "The Decoder",
-        "category": "研究"
-      },
-      {
-        "rank": 4,
-        "title": "Anthropic 与竞争对手联手，共同抵御 AI 威胁",
-        "summary": "AI 公司携手应对 AI 潜在风险，展现行业合作。",
-        "url": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/",
-        "source": "Wired AI",
-        "category": "LLM"
-      },
-      {
-        "rank": 5,
-        "title": "英特尔签署埃隆·马斯克 Terafab 芯片项目",
-        "summary": "英特尔将参与埃隆·马斯克的 Terafab 芯片项目。",
-        "url": "https://techcrunch.com/2026/04/07/intel-signs-on-to-elon-musks-terafab-chips-project/",
+        "title": "Anthropic推出强大的新AI模型Mythos",
+        "summary": "Mythos提升AI能力",
+        "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
         "source": "TechCrunch AI",
         "category": "未分类"
       },
       {
-        "rank": 6,
-        "title": "Eclipse 获 13 亿美元融资，发力制造与机器人领域",
-        "summary": "Eclipse 融资 13 亿，重点发展制造及机器人技术。",
+        "rank": 4,
+        "title": "Eclipse融资13亿美元支持制造和机器人技术",
+        "summary": "巨额融资促进制造业发展",
         "url": "https://www.bloomberg.com/news/videos/2026-04-07/eclipse-raises-1-3b-to-back-manufacturing-robotics-video",
         "source": "Bloomberg Tech",
         "category": "机器人"
       },
       {
+        "rank": 5,
+        "title": "Nvidia支持的Firmus估值达到55亿美元",
+        "summary": "人工智能数据中心建设商估值飙升",
+        "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+        "source": "TechCrunch AI",
+        "category": "未分类"
+      },
+      {
+        "rank": 6,
+        "title": "英特尔签署埃隆·马斯克的Terafab芯片项目",
+        "summary": "芯片项目合作",
+        "url": "https://techcrunch.com/2026/04/07/intel-signs-on-to-elon-musks-terafab-chips-project/",
+        "source": "TechCrunch AI",
+        "category": "未分类"
+      },
+      {
         "rank": 7,
-        "title": "大学教师转向打字机应对 AI 写作",
-        "summary": "为遏制 AI 写作，部分大学教师改用打字机。",
-        "url": "https://apnews.com/article/typewriter-ai-cheating-chatgpt-cornell-ce10e1ca0f10c96f79b7d988bb56448b",
-        "source": "Hacker News",
+        "title": "新的人择模型发现安全问题",
+        "summary": "人工智能安全隐患",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
+        "source": "The Verge AI",
         "category": "未分类"
       },
       {
         "rank": 8,
-        "title": "Uber 败给亚马逊 AI 芯片",
-        "summary": "Uber 在芯片竞争中落后于亚马逊。",
-        "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
-        "source": "TechCrunch AI",
-        "category": "研究"
-      },
-      {
-        "rank": 9,
-        "title": "Spotify AI 驱动播客推荐",
-        "summary": "Spotify 利用 AI 提示功能推荐新播客。",
-        "url": "https://www.theverge.com/entertainment/908339/spotify-prompted-playlists-podcasts",
-        "source": "The Verge AI",
+        "title": "Anthropic与竞争对手联手阻止AI入侵",
+        "summary": "人工智能企业合作",
+        "url": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/",
+        "source": "Wired AI",
         "category": "LLM"
       },
       {
-        "rank": 10,
-        "title": "微软 Bing 团队开源“Harrier”嵌入模型",
-        "summary": "微软 Bing 团队发布开源的“Harrier”嵌入模型。",
-        "url": "https://the-decoder.com/microsofts-bing-team-open-sources-harrier-embedding-model/",
+        "rank": 9,
+        "title": "研究发现谷歌的人工智能概述十分之九是正确的",
+        "summary": "人工智能准确性研究",
+        "url": "https://the-decoder.com/googles-ai-overviews-are-correct-nine-out-of-ten-times-study-finds/",
         "source": "The Decoder",
         "category": "研究"
+      },
+      {
+        "rank": 10,
+        "title": "Coinbase计划在澳大利亚扩张",
+        "summary": "加密货币扩张",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/coinbase-plans-australia-expansion-after-securing-afsl-license",
+        "source": "Bloomberg Tech",
+        "category": "未分类"
       }
     ],
     "安全": [
       {
         "rank": 1,
         "title": "FBI：去年美国人因网络犯罪损失创纪录的 210 亿美元",
-        "summary": "美国网络犯罪损失创纪录，反映安全威胁严峻性。",
+        "summary": "网络犯罪损失创纪录",
         "url": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
         "rank": 2,
-        "title": "美国警告伊朗黑客瞄准关键基础设施",
-        "summary": "伊朗黑客威胁美国关键基础设施，国家安全受警示。",
-        "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-hackers-targeting-critical-infrastructure/",
-        "source": "BleepingComputer",
+        "title": "伊朗黑客对美国能源、水利目标发起破坏性攻击",
+        "summary": "伊朗黑客攻击美国目标",
+        "url": "https://www.cisa.gov/sites/default/files/2026-04/AA26-097A-Iranian-Affiliated-Cyber-Actors-Exploit-Programmable-Logic-Controllers-Across-US-Critical-Infrastructure_508c.pdf",
+        "source": "Hacker News",
         "category": "攻防"
       },
       {
         "rank": 3,
-        "title": "伊朗附属网络攻击者在美国关键基础设施中利用 PLC",
-        "summary": "伊朗攻击者利用 PLC 攻击美国关键基础设施，手法隐蔽。",
-        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
-        "source": "Hacker News",
-        "category": "漏洞"
-      },
-      {
-        "rank": 4,
-        "title": "npm 爆发重大供应链攻击：Axios 被植入远控木马，影响或已扩散",
-        "summary": "npm 供应链攻击影响广泛，Axios 被植入远控木马。",
+        "title": "npm 爆发重大供应链攻击：Axios 被植入远控木马",
+        "summary": "npm 供应链攻击",
         "url": "https://www.infoq.cn/article/j5SQxrf0ULJN2Fjd80T2?utm_source=rss&utm_medium=article",
         "source": "InfoQ 中文",
         "category": "攻防"
       },
       {
-        "rank": 5,
-        "title": "SaaS 集成商违规后 Snowflake 客户遭受数据盗窃攻击",
-        "summary": "SaaS 集成商漏洞导致 Snowflake 客户数据泄露。",
-        "url": "https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/",
+        "rank": 4,
+        "title": "美国警告伊朗黑客瞄准关键基础设施",
+        "summary": "美国警告伊朗黑客",
+        "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-hackers-targeting-critical-infrastructure/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
-        "rank": 6,
-        "title": "Anthropic 揭开了“克劳德神话”——一项网络安全突破，也可能加剧攻击",
-        "summary": "AI 安全新突破“克劳德神话”具有双面性。",
-        "url": "https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/",
-        "source": "SecurityWeek",
-        "category": "攻防"
-      },
-      {
-        "rank": 7,
+        "rank": 5,
         "title": "俄罗斯黑客入侵路由器窃取微软 Office 令牌",
-        "summary": "俄罗斯黑客利用路由器窃取 Office 令牌，凭证安全堪忧。",
+        "summary": "俄罗斯黑客入侵路由器",
         "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
         "source": "Krebs on Security",
         "category": "攻防"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "title": "最高严重性 Flowise RCE 漏洞现已在攻击中被利用",
-        "summary": "Flowise RCE 漏洞已被利用，风险级别极高。",
+        "summary": "Flowise RCE 漏洞被利用",
         "url": "https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
+        "rank": 7,
+        "title": "伊朗附属网络攻击者在美国关键基础设施中利用 PLC",
+        "summary": "伊朗攻击者利用 PLC",
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
+        "source": "Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 8,
+        "title": "俄罗斯国家关联 APT28 在全球 DNS 劫持活动中利用 SOHO 路由器",
+        "summary": "俄罗斯黑客利用路由器",
+        "url": "https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html",
+        "source": "The Hacker News",
+        "category": "漏洞"
+      },
+      {
         "rank": 9,
-        "title": "当局破坏用于窃取 Microsoft 365 登录信息的路由器 DNS 劫持",
-        "summary": "DNS 劫持路由器被用于窃取 M365 登录信息。",
-        "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-dns-hijacks-used-to-steal-microsoft-365-logins/",
-        "source": "BleepingComputer",
+        "title": "Docker CVE-2026-34040 让攻击者绕过授权并获得主机访问权限",
+        "summary": "Docker 漏洞被发现",
+        "url": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
+        "source": "The Hacker News",
         "category": "漏洞"
       },
       {
         "rank": 10,
-        "title": "为什么你的自动化渗透测试工具碰壁了",
-        "summary": "自动化渗透测试面临挑战，需新的测试方法。",
-        "url": "https://www.bleepingcomputer.com/news/security/why-your-automated-pentesting-tool-just-hit-a-wall/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      }
-    ],
-    "经济": [
-      {
-        "rank": 1,
-        "title": "伊朗回应报告推动股市走高",
-        "summary": "伊朗局势影响全球股市",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-07/stocks-higher-on-report-of-iran-response-closing-bell-video",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 2,
-        "title": "美国监管机构提议改革反洗钱规则",
-        "summary": "监管改革对金融市场影响",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/us-regulators-propose-overhaul-for-anti-money-laundering-rules",
-        "source": "Bloomberg Markets",
-        "category": "未分类"
-      },
-      {
-        "rank": 3,
-        "title": "高盛和摩根大通交易员预测战争风险",
-        "summary": "战争风险影响股票市场走势",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/goldman-jpmorgan-traders-map-stock-outcomes-as-war-risks-rise",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 4,
-        "title": "Sharplink首席执行官：处于代币化超级周期的边缘",
-        "summary": "加密货币市场趋势预测",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-07/on-verge-of-tokenization-super-cycle-sharplink-ceo-video",
-        "source": "Bloomberg Tech",
-        "category": "加密"
-      },
-      {
-        "rank": 5,
-        "title": "贝莱德的里德表示市场不确定性程度异常",
-        "summary": "市场不确定性影响投资者信心",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-07/-extraordinary-level-of-uncertainty-in-markets-rieder-video",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 6,
-        "title": "美国和伊朗局势不明朗导致股市下跌",
-        "summary": "地缘政治对全球股市影响",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-07/stocks-fall-and-oil-rises-on-us-iran-deal-doubts-video",
-        "source": "Bloomberg Markets",
-        "category": "宏观"
-      },
-      {
-        "rank": 7,
-        "title": "DoubleLine的谢尔曼：石油为美联储加息",
-        "summary": "石油价格对美联储决策影响",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-07/doubleline-s-sherman-oil-doing-the-hiking-for-the-fed-video",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 8,
-        "title": "李维·施特劳斯营收和利润超出预期",
-        "summary": "公司业绩超出预期影响股市",
-        "url": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html",
-        "source": "CNBC",
-        "category": "未分类"
-      },
-      {
-        "rank": 9,
-        "title": "哈斯：特朗普的伊朗目标乐观多于现实",
-        "summary": "伊朗政策预测和分析",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-07/haass-trump-s-iran-goals-more-optimistic-than-realistic-video",
-        "source": "Bloomberg Markets",
-        "category": "未分类"
-      },
-      {
-        "rank": 10,
-        "title": "富时指数确认越南进入9月份新兴市场",
-        "summary": "越南股市被纳入新兴市场指数",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/ftse-confirms-vietnam-s-entry-to-emerging-cohort-in-september",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      }
-    ],
-    "科技": [
-      {
-        "rank": 1,
-        "title": "谷歌 AI 概览被曝存在严重虚假信息问题",
-        "summary": "谷歌 Gemini AI 概览功能被指每小时捏造数百万虚假信息。",
-        "url": "https://arstechnica.com/google/2026/04/analysis-finds-google-ai-overviews-is-wrong-10-percent-of-the-time/",
-        "source": "Ars Technica",
-        "category": "未分类"
-      },
-      {
-        "rank": 2,
-        "title": "英特尔加入马斯克 Terafab 项目，加速芯片制造",
-        "summary": "英特尔宣布加入马斯克 Terafab 项目，对芯片制造产生深远影响。",
-        "url": "",
-        "source": "",
-        "category": ""
-      },
-      {
-        "rank": 3,
-        "title": "Meta 员工下载 30,000 张 Facebook 私人照片",
-        "summary": "英国 Meta 员工被指下载大量 Facebook 用户私人照片，引发隐私担忧。",
-        "url": "https://www.engadget.com/social-media/uk-meta-employee-reportedly-downloaded-30000-private-photos-from-facebook-users-181058081.html?src=rss",
-        "source": "Engadget",
-        "category": "软件"
-      },
-      {
-        "rank": 4,
-        "title": "Apple Silicon Gemma 4 多模态微调器发布",
-        "summary": "Show HN 推出适用于 Apple Silicon 的 Gemma 4 多模态微调器，推动本地 AI。",
-        "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
-        "source": "Hacker News",
-        "category": "软件"
-      },
-      {
-        "rank": 5,
-        "title": "SCOTUS 裁决：ISP 不能因盗版而踢出用户",
-        "summary": "美国最高法院推翻 ISP 踢出盗版者裁决，影响互联网内容管理。",
-        "url": "https://arstechnica.com/tech-policy/2026/04/scotus-overturns-5th-circuit-ruling-that-told-isp-to-kick-pirates-off-internet/",
-        "source": "Ars Technica",
-        "category": "互联网"
-      },
-      {
-        "rank": 6,
-        "title": "苹果可折叠 iPhone 仍有望 9 月亮相",
-        "summary": "传闻苹果首款可折叠 iPhone 预计于 9 月首次亮相。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/apple-s-foldable-iphone-remains-on-track-for-september-debut",
-        "source": "Bloomberg Tech",
-        "category": "软件"
-      },
-      {
-        "rank": 7,
-        "title": "NVIDIA 详解机架级超级计算机 AI 工作负载",
-        "summary": "NVIDIA 博客文章深入探讨机架级超级计算机上的 AI 工作负载部署。",
-        "url": "https://developer.nvidia.com/blog/running-ai-workloads-on-rack-scale-supercomputers-from-hardware-to-topology-aware-scheduling/",
-        "source": "NVIDIA Blog",
-        "category": "硬件"
-      },
-      {
-        "rank": 8,
-        "title": "Linux 内核逐步淘汰 Intel 486 支持",
-        "summary": "Linux 内核维护者继续取消对老旧 Intel 486 处理器的支持。",
-        "url": "https://arstechnica.com/gadgets/2026/04/linux-kernel-maintainers-are-following-through-on-removing-intel-486-support/",
-        "source": "Ars Technica",
-        "category": "软件"
-      },
-      {
-        "rank": 9,
-        "title": "X（Twitter）增加内置照片编辑器功能",
-        "summary": "X 平台新增功能稍强的内置照片编辑器，提升用户体验。",
-        "url": "https://www.engadget.com/apps/x-has-a-slightly-more-functional-photo-editor-now-210825833.html?src=rss",
-        "source": "Engadget",
-        "category": "软件"
-      },
-      {
-        "rank": 10,
-        "title": "Chrome 浏览器支持垂直选项卡",
-        "summary": "Chrome 浏览器终于引入了备受期待的垂直选项卡功能。",
-        "url": "https://www.engadget.com/computing/chrome-finally-adds-support-for-vertical-tabs-170000081.html?src=rss",
-        "source": "Engadget",
-        "category": "软件"
-      }
-    ],
-    "国际": [
-      {
-        "rank": 1,
-        "title": "英特尔加入马斯克的Terafab项目",
-        "summary": "英特尔参与Terafab",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-07/intel-announces-it-is-joining-musk-s-terafab-project-video",
-        "source": "Bloomberg Tech",
-        "category": "科学"
-      },
-      {
-        "rank": 2,
-        "title": "阿耳忒弥斯二号机组人员飞越月球",
-        "summary": "阿耳忒弥斯二号飞越月球",
-        "url": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-beams-official-moon-flyby-photos-to-earth/",
-        "source": "NASA",
-        "category": "科学"
-      },
-      {
-        "rank": 3,
-        "title": "以色列驻伊斯坦布尔领事馆发生枪击事件",
-        "summary": "以色列驻伊斯坦布尔领事馆枪击",
-        "url": "https://www.bbc.com/news/articles/c3exp8j7yz4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
-      },
-      {
-        "rank": 4,
-        "title": "美国宇航局发布飞越月球的图像",
-        "summary": "美国宇航局发布月球图像",
-        "url": "https://www.bbc.com/news/articles/cyv183v02j3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "气候"
-      },
-      {
-        "rank": 5,
-        "title": "美军对伊朗哈尔格岛发动袭击",
-        "summary": "美军袭击伊朗哈尔格岛",
-        "url": "https://www.npr.org/2026/04/07/nx-s1-5776495/u-s-military-launches-strikes-on-irans-kharg-island",
-        "source": "NPR World",
-        "category": "未分类"
-      },
-      {
-        "rank": 6,
-        "title": "国会民主党人对特朗普的言论发出警告",
-        "summary": "民主党人警告特朗普",
-        "url": "https://www.npr.org/2026/04/07/g-s1-116722/congressional-democrats-raise-alarm-over-trumps-comments-on-iran",
-        "source": "NPR World",
-        "category": "未分类"
-      },
-      {
-        "rank": 7,
-        "title": "法國夫婦在入狱三年多后离开伊朗",
-        "summary": "法國夫婦離開伊朗",
-        "url": "https://www.bbc.com/news/articles/clyxk5640wko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "未分类"
-      },
-      {
-        "rank": 8,
-        "title": "美国宇航局宇航员环绕月球并返回家园",
-        "summary": "美国宇航员返回家园",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-07/nasa-crew-loops-moon-and-heads-home-video",
-        "source": "Bloomberg Tech",
-        "category": "科学"
-      },
-      {
-        "rank": 9,
-        "title": "S3文件将任何S3存储桶挂载为NFS文件系统",
-        "summary": "S3文件挂载NFS",
-        "url": "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s3-buckets-accessible-as-file-systems/",
-        "source": "Hacker News",
-        "category": "未分类"
-      },
-      {
-        "rank": 10,
-        "title": "英特尔股价上涨后参与马斯克的Terafab项目",
-        "summary": "英特尔股价上涨",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/intel-rises-after-announcing-role-in-musk-s-terafab-project",
-        "source": "Bloomberg Tech",
-        "category": "科学"
+        "title": "GrafanaGhost：攻击者可以滥用 Grafana 泄露企业数据",
+        "summary": "GrafanaGhost 漏洞被发现",
+        "url": "https://www.securityweek.com/grafanaghost-attackers-can-abuse-grafana-to-leak-enterprise-data/",
+        "source": "SecurityWeek",
+        "category": "漏洞"
       }
     ]
   }
