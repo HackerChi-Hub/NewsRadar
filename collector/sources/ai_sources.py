@@ -221,7 +221,7 @@ ARXIV_QUERIES = [
     ("arXiv cs.RO", "https://arxiv.org/rss/cs.RO"),
 ]
 
-REDDIT_SUBREDDITS = [
+_REDDIT_SUBREDDITS = [  # DISABLED 2026-04-14
     ("r/MachineLearning", "https://www.reddit.com/r/MachineLearning.rss"),
     ("r/LocalLLaMA",      "https://www.reddit.com/r/LocalLLaMA.rss"),
     ("r/Claude",          "https://www.reddit.com/r/Claude.rss"),
@@ -241,7 +241,7 @@ AI_MEDIA_FEEDS = [
     ("Towards Data Science", "https://towardsdatascience.com/feed"),
     ("Wired AI",             "https://www.wired.com/feed/tag/ai/latest/rss"),
     ("InfoQ AI",             "https://feed.infoq.com/ai-ml-data-eng/"),
-    ("AI Insider",           "https://insiderthreat.substack.com/feed"),
+    # ("AI Insider",         "https://insiderthreat.substack.com/feed"),  # DISABLED
 ]
 
 COMPANY_BLOGS = [
@@ -277,13 +277,13 @@ def fetch_arxiv_all(log: Optional[_RunLog] = None) -> list[dict]:
     return articles
 
 
-def fetch_papers_with_code(log: Optional[_RunLog] = None) -> list[dict]:
-    return _fetch_rss("https://paperswithcode.com/feed", "Papers With Code", "AI", log=log)
+def _fetch_papers_with_code_disabled(log: Optional[_RunLog] = None) -> list[dict]:
+    return []  # permanently failed, disabled 2026-04-14
 
 
-def fetch_reddit_ai(log: Optional[_RunLog] = None) -> list[dict]:
+def _fetch_reddit_ai_disabled(log: Optional[_RunLog] = None) -> list[dict]:
     articles = []
-    for name, url in REDDIT_SUBREDDITS:
+    for name, url in _REDDIT_SUBREDDITS:  # disabled
         if name not in _permanently_failed:
             articles.extend(_fetch_rss(url, name, "AI", log=log))
             time.sleep(0.3)
@@ -344,10 +344,10 @@ def fetch_all_ai_sources() -> list[dict]:
 
     print("\n[Research / Papers]")
     articles.extend(fetch_arxiv_all(log))
-    articles.extend(fetch_papers_with_code(log))
+    pass  # fetch_papers_with_code disabled — source permanently failed
 
     print("\n[Communities]")
-    articles.extend(fetch_reddit_ai(log))
+    pass  # fetch_reddit_ai disabled — Reddit UGC is second-hand
     articles.extend(fetch_hackernews_ai(log))
     articles.extend(fetch_lobsteers_ai(log))
 
@@ -361,7 +361,7 @@ def fetch_all_ai_sources() -> list[dict]:
     articles.extend(fetch_ai_policy(log))
 
     print("\n[AI Tools / Products]")
-    articles.extend(fetch_ai_tools(log))
+    pass  # fetch_ai_tools disabled — Product Hunt is second-hand
 
     log.write()
     print(f"\n[Source log → {LOG_FILE}]")
