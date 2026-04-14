@@ -67,12 +67,12 @@ RSS_FEEDS = [
     # ══════════════════════════════════════════════════
     # 🌐 综合（按关键词自动分域）
     # ══════════════════════════════════════════════════
-    {"name": "36氪", "url": "https://36kr.com/feed", "domain": "auto"},
-    {"name": "InfoQ 中文", "url": "https://www.infoq.cn/feed", "domain": "auto"},
-    {"name": "虎嗅", "url": "https://rss.huxiu.com/", "domain": "auto"},
-    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml", "domain": "auto"},
-    {"name": "爱范儿", "url": "https://www.ifanr.com/feed", "domain": "auto"},
-    {"name": "少数派", "url": "https://sspai.com/feed", "domain": "auto"},
+    # {"name": "36氪", "url": "https://36kr.com/feed", "domain": "auto"},  # DISABLED — 聚合源
+    # {"name": "InfoQ 中文", "url": "https://www.infoq.cn/feed", "domain": "auto"},  # DISABLED — 聚合/翻译源
+    # {"name": "虎嗅", "url": "https://rss.huxiu.com/", "domain": "auto"},  # DISABLED — 聚合源，摘要质量差
+    # {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml", "domain": "auto"},  # DISABLED — 聚合源
+    # {"name": "爱范儿", "url": "https://www.ifanr.com/feed", "domain": "auto"},  # DISABLED — 聚合源
+    # {"name": "少数派", "url": "https://sspai.com/feed", "domain": "auto"},  # DISABLED — 聚合源
     {"name": "Bloomberg Tech", "url": "https://feeds.bloomberg.com/technology/news.rss", "domain": "auto"},
 ]
 
