@@ -92,38 +92,32 @@ def _call_groq(api_key: str, prompt: str, model: str = "llama-3.3-70b-versatile"
 
 
 def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = "") -> None:
-    """Enhance articles in-place with AI summaries. Tries Gemini first, falls back to Groq."""
+    """Enhance articles in-place with AI summaries. Groq-first to preserve Gemini DPU for digest."""
     for i, article in enumerate(articles):
         prompt = PROMPT_TEMPLATE % (
             article.get("title", ""),
             article.get("content", article.get("summary_zh", ""))[:3000],
         )
         result = None
-        last_error = ""
-        # Article enhancement: Groq only (avoids competing with Gemini digest DPU)
-    # Gemini is reserved for digest generation; Groq handles enhancement
-    if groq_key:
-        try:
-            result = _call_groq(groq_key, prompt)
-            print("  [rank %d] Groq OK: %s" % (i+1, article.get("title","")[:40]))
-        except RateLimitError:
-            print("  [rank %d] Groq quota hit, skipping..." % (i+1))
-            continue
-        except Exception as e:
-            print("  [rank %d] Groq error: %s" % (i+1, str(e)[:60]))
-            continue
-    elif gemini_key:
-        try:
-            result = _call_gemini(gemini_key, prompt)
-            print("  [rank %d] Gemini OK: %s" % (i+1, article.get("title","")[:40]))
-        except Exception as e:
-            print("  [rank %d] Gemini error: %s" % (i+1, str(e)[:60]))
-            continue
-    else:
-        continue
+        # Article enhancement: Groq only (digest consumed all Gemini DPU; Groq has 14.4K/day)
+        if groq_key:
+            try:
+                result = _call_groq(groq_key, prompt)
+                print("  [rank %d] Groq OK: %s" % (i+1, article.get("title","")[:40]))
+            except RateLimitError:
+                print("  [rank %d] Groq quota hit, skipping..." % (i+1))
+            except Exception as e:
+                print("  [rank %d] Groq error: %s" % (i+1, str(e)[:60]))
+        elif gemini_key:
+            # Gemini only if Groq not configured
+            try:
+                result = _call_gemini(gemini_key, prompt)
+                print("  [rank %d] Gemini OK: %s" % (i+1, article.get("title","")[:40]))
+            except Exception as e:
+                print("  [rank %d] Gemini error: %s" % (i+1, str(e)[:60]))
 
         if result is None:
-            print("  [rank %d] ALL PROVIDERS FAILED: %s" % (i+1, last_error[:80]))
+            print("  [rank %d] No API available, skipping..." % (i+1))
             continue
 
         cat = result.get("category", "")
