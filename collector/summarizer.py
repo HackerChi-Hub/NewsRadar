@@ -30,19 +30,16 @@ def _parse_json(text: str) -> dict:
     if match:
         text = match.group(1)
     text = text.strip()
-    # Fix invalid unicode escapes from LLMs
-    text = re.sub(r"\\u(?![0-9a-fA-F]{4})", r"\\\\u", text)
+    text = re.sub(r"\\\\u(?![0-9a-fA-F]{4})", r"\\\\\\\\u", text)
     try:
         return json.loads(text)
     except json.JSONDecodeError:
         pass
-    # Fix common LLM JSON issues: trailing commas, single quotes, bare unquoted keys
     text = re.sub(r",\s*([}\]])", r"\1", text)
     try:
         return json.loads(text)
     except json.JSONDecodeError:
         pass
-    # Last resort: extract first {...} block
     m = re.search(r"(\{.*\})", text, re.DOTALL)
     if m:
         try:
@@ -80,7 +77,6 @@ def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = 
         )
         result = None
         last_error = ""
-        # Try Gemini first, then Groq
         for provider, key, fn in [
             ("Gemini", gemini_key, lambda p: _call_gemini(gemini_key, p)),
             ("Groq",   groq_key,   lambda p: _call_groq(groq_key, p)),
@@ -114,20 +110,26 @@ def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = 
             time.sleep(RATE_LIMIT_DELAY)
 
 
-DIGEST_PROMPT = """You are a senior AI news editor. Given these recent news articles, pick the 10 MOST important/impactful ones and write a brief Chinese digest.
+DIGEST_ITEMS = (
+    '{'
+    '"items": ['
+    '{"rank": 1, "title": "中文标题", "summary": "一句话中文摘要（30字以内）", "id": "article_id"},'
+    "...up to 10 items"
+    ']'
+    '}'
+)
 
-Articles:
-{articles_text}
-
-Respond with ONLY a JSON object:
-{{
-  "items": [
-    {{"rank": 1, "title": "中文标题", "summary": "一句话中文摘要（30字以内）", "id": "article_id"}},
-    ...up to 10 items
-  ]
-}}
-
-Selection criteria: industry impact > technical breakthrough > product launch > funding. Prefer diverse categories. JSON only, no markdown."""
+DIGEST_PROMPT_TEMPLATE = (
+    "You are a senior AI news editor. Given these recent news articles, "
+    "pick the 10 MOST important/impactful ones and write a brief Chinese digest.\n\n"
+    "Articles:\n"
+    "{articles_text}\n\n"
+    "Selection criteria: industry impact > technical breakthrough > product launch > funding. "
+    "Prefer diverse categories. "
+    'Respond with ONLY a JSON object following this exact format:\n'
+    + DIGEST_ITEMS + "\n"
+    "JSON only, no markdown."
+)
 
 
 def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = "") -> list[dict]:
@@ -147,10 +149,8 @@ def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = 
         cat   = a.get("category", "")
         lines.append(f"- [{a['id']}] [{cat}] [{src}] {title}")
 
-    prompt = DIGEST_PROMPT.format(articles_text="
-".join(lines))
+    prompt = DIGEST_PROMPT_TEMPLATE.format(articles_text="\n".join(lines))
 
-    # Try Gemini first (more generous quota), then Groq
     tried = []
     for provider, key, fn in [
         ("Gemini", gemini_key, lambda p: _call_gemini(gemini_key, p)),
@@ -193,26 +193,30 @@ def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = 
     return []
 
 
-ALL_DOMAINS_DIGEST_PROMPT = """You are a senior news editor covering 5 domains: AI, 安全(Security), 经济(Economics), 科技(Tech), 国际(International).
+ALL_DOMAINS_ITEMS = (
+    '{"AI": [{"rank":1,"title":"中文标题","summary":"一句话（30字）","id":"id"},...up to 10],'
+    '"安全": [...],'
+    '"经济": [...],'
+    '"科技": [...],'
+    '"国际": [...]}'
+)
 
-For EACH domain below, pick the top 10 most important articles and write a brief Chinese digest.
-
-{domains_text}
-
-Respond with ONLY a JSON object:
-{{
-  "AI": [{{"rank": 1, "title": "中文标题", "summary": "一句话中文摘要（30字以内）", "id": "article_id"}}, ...up to 10],
-  "安全": [...up to 10],
-  "经济": [...up to 10],
-  "科技": [...up to 10],
-  "国际": [...up to 10]
-}}
-
-Selection criteria: industry impact > technical breakthrough > product launch > funding. Prefer diverse categories within each domain. JSON only, no markdown."""
+ALL_DOMAINS_DIGEST_TEMPLATE = (
+    "You are a senior news editor covering 5 domains: AI, 安全, 经济, 科技, 国际.\n"
+    "For EACH domain below, pick the top 10 most important articles.\n\n"
+    "{domains_text}\n\n"
+    "Selection: industry impact > technical breakthrough > product launch > funding. "
+    "Prefer diverse categories within each domain.\n"
+    'Respond with ONLY a JSON object with exactly these 5 keys: AI, 安全, 经济, 科技, 国际.\n'
+    "Each value is an array of objects with keys: rank, title, summary, id.\n"
+    "Example format:\n"
+    + ALL_DOMAINS_ITEMS + "\n"
+    "JSON only, no markdown."
+)
 
 
 def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_key: str = "") -> dict:
-    """Generate top-10 digests for all 5 domains in one call (Groq scout > Gemini > Groq 70b)."""
+    """Generate top-10 digests for all 5 domains in one API call."""
     if not (groq_key or gemini_key):
         return {}
 
@@ -236,21 +240,19 @@ def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_ke
             cat   = a.get("category", "")
             lines.append(f"- [{a['id']}] [{cat}] [{src}] {title}")
             all_candidates[a["id"]] = a
-        sections.append(f"=== {dom} ({len(arts)} articles) ===
-" + "
-".join(lines))
+        sections.append(f"=== {dom} ({len(arts)} articles) ===\n" + "\n".join(lines))
 
-    prompt = ALL_DOMAINS_DIGEST_PROMPT.format(domains_text="
+    prompt = ALL_DOMAINS_DIGEST_TEMPLATE.format(domains_text="\n\n".join(sections))
 
-".join(sections))
-
-    # Groq scout has 30K TPM, best for large combined prompts; fallback to Gemini
+    tried = []
+    # Groq scout (30K TPM) best for large prompts; Gemini as fallback
     for provider, key, fn in [
         ("Groq-scout", groq_key,   lambda p: _call_groq(groq_key, p, "meta-llama/llama-4-scout-17b-16e-instruct")),
         ("Gemini",     gemini_key, _call_gemini),
     ]:
         if not key:
             continue
+        tried.append(provider)
         for attempt in range(2):
             try:
                 result = fn(prompt)
@@ -285,4 +287,5 @@ def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_ke
                 print(f"  [all-digest:{provider}] FAILED: {err[:80]}")
                 break
 
+    print(f"  [all-digest] All providers exhausted ({tried})")
     return {}
