@@ -100,26 +100,27 @@ def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = 
         )
         result = None
         last_error = ""
-        for provider, key, fn in [
-            # Groq first for article enhancement (digest already used Gemini DPU)
-            ("Groq",   groq_key,   lambda p: _call_groq(groq_key, p)),
-            ("Gemini", gemini_key, lambda p: _call_gemini(gemini_key, p)),
-        ]:
-            if not key:
-                continue
-            try:
-                result = fn(prompt)
-                print("  [rank %d] %s OK: %s" % (i+1, provider, article.get("title","")[:40]))
-                break
-            except RateLimitError as e:
-                last_error = str(e)
-                print("  [rank %d] %s quota hit, trying next provider..." % (i+1, provider))
-                continue
-            except Exception as e:
-                last_error = str(e)
-                # Non-quota error — break, don't try other provider
-                print("  [rank %d] %s error: %s" % (i+1, provider, last_error[:60]))
-                break
+        # Article enhancement: Groq only (avoids competing with Gemini digest DPU)
+    # Gemini is reserved for digest generation; Groq handles enhancement
+    if groq_key:
+        try:
+            result = _call_groq(groq_key, prompt)
+            print("  [rank %d] Groq OK: %s" % (i+1, article.get("title","")[:40]))
+        except RateLimitError:
+            print("  [rank %d] Groq quota hit, skipping..." % (i+1))
+            continue
+        except Exception as e:
+            print("  [rank %d] Groq error: %s" % (i+1, str(e)[:60]))
+            continue
+    elif gemini_key:
+        try:
+            result = _call_gemini(gemini_key, prompt)
+            print("  [rank %d] Gemini OK: %s" % (i+1, article.get("title","")[:40]))
+        except Exception as e:
+            print("  [rank %d] Gemini error: %s" % (i+1, str(e)[:60]))
+            continue
+    else:
+        continue
 
         if result is None:
             print("  [rank %d] ALL PROVIDERS FAILED: %s" % (i+1, last_error[:80]))
