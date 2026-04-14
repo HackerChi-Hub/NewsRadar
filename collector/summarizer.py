@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 import httpx
 
 MAX_PER_RUN = 10
-RATE_LIMIT_DELAY = 4  # seconds between calls (TPM-safe for both providers)
+RATE_LIMIT_DELAY = 4
 
 VALID_CATEGORIES = {"LLM", "CV", "机器人", "AI产品", "研究", "行业", "政策", "开源"}
 
@@ -25,7 +25,7 @@ PROMPT_TEMPLATE = (
 
 
 def _parse_json(text: str) -> dict:
-    """Parse LLM JSON output with fallback corrections."""
+    """Parse LLM JSON output with fallback: strip code fences, fix trailing commas, extract first block."""
     match = re.search(r"```(?:json)?\s*\n?(.*?)\n?```", text, re.DOTALL)
     if match:
         text = match.group(1)
@@ -35,18 +35,38 @@ def _parse_json(text: str) -> dict:
         return json.loads(text)
     except json.JSONDecodeError:
         pass
+    # Fix trailing commas
     text = re.sub(r",\s*([}\]])", r"\1", text)
     try:
         return json.loads(text)
     except json.JSONDecodeError:
         pass
+    # Truncated JSON — try to close unclosed arrays/objects
+    text = _try_complete_json(text)
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+    # Last resort: extract first {...} block
     m = re.search(r"(\{.*\})", text, re.DOTALL)
     if m:
         try:
             return json.loads(m.group(1))
         except json.JSONDecodeError:
             pass
-    raise ValueError(f"Could not parse JSON from: {text[:200]}")
+    raise ValueError("Could not parse JSON from: " + text[:200])
+
+
+def _try_complete_json(text: str) -> str:
+    """If JSON appears truncated, try to close unclosed arrays/objects."""
+    # Count open brackets
+    opens = text.count("[") + text.count("{")
+    closes = text.count("]") + text.count("}")
+    if opens > closes:
+        # Try to close
+        deficit = opens - closes
+        return text + "]" * deficit
+    return text
 
 
 def _call_gemini(api_key: str, prompt: str) -> dict:
@@ -84,18 +104,18 @@ def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = 
                 continue
             try:
                 result = fn(prompt)
-                print(f"  [rank {i+1}] {provider} OK: {article.get('title','')[:40]}")
+                print("  [rank %d] %s OK: %s" % (i+1, provider, article.get("title","")[:40]))
                 break
             except Exception as e:
                 last_error = str(e)
                 if "429" in last_error or "RESOURCE_EXHAUSTED" in last_error:
-                    print(f"  [rank {i+1}] {provider} quota hit, trying next...")
+                    print("  [rank %d] %s quota hit, trying next..." % (i+1, provider))
                     continue
-                print(f"  [rank {i+1}] {provider} error: {last_error[:60]}")
+                print("  [rank %d] %s error: %s" % (i+1, provider, last_error[:60]))
                 break
 
         if result is None:
-            print(f"  [rank {i+1}] ALL PROVIDERS FAILED: {last_error[:60]}")
+            print("  [rank %d] ALL PROVIDERS FAILED: %s" % (i+1, last_error[:60]))
             continue
 
         cat = result.get("category", "")
@@ -135,7 +155,7 @@ def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = 
         print("  [digest] No API keys available")
         return []
     if len(articles) < 5:
-        print(f"  [digest] Only {len(articles)} articles, need >= 5")
+        print("  [digest] Only %d articles, need >= 5" % len(articles))
         return []
 
     candidates = articles[:25]
@@ -173,20 +193,20 @@ def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = 
                         "source":   article.get("source", ""),
                         "category": article.get("category", ""),
                     })
-                print(f"  [digest:%s] generated %d items" % (provider, len(digest)))
+                print("  [digest:%s] generated %d items" % (provider, len(digest)))
                 return digest
             except Exception as e:
                 err = str(e)
                 is_retryable = any(x in err for x in ["429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE", "timeout", "rate"])
                 if attempt < 2 and is_retryable:
                     wait = 2 ** attempt * 3
-                    print(f"  [digest:%s] attempt %d failed (%s), retry in %ds..." % (provider, attempt+1, err[:50], wait))
+                    print("  [digest:%s] attempt %d failed (%s), retry in %ds..." % (provider, attempt+1, err[:50], wait))
                     time.sleep(wait)
                     continue
-                print(f"  [digest:%s] FAILED (attempt %d): %s" % (provider, attempt+1, err[:80]))
+                print("  [digest:%s] FAILED (attempt %d): %s" % (provider, attempt+1, err[:80]))
                 break
 
-    print(f"  [digest] All providers exhausted (%s), returning empty digest" % ", ".join(tried))
+    print("  [digest] All providers exhausted (%s), returning empty digest" % ", ".join(tried))
     return []
 
 
@@ -242,10 +262,10 @@ def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_ke
     prompt = ALL_DOMAINS_DIGEST_PROMPT % "\n\n".join(sections)
 
     tried = []
-    # Groq scout (30K TPM) best for large prompts; Gemini as fallback
+    # Gemini first (generous quota), then Groq 70b (reliable)
     for provider, key, fn in [
-        ("Groq-scout", groq_key,   lambda p: _call_groq(groq_key, p, "meta-llama/llama-4-scout-17b-16e-instruct")),
-        ("Gemini",     gemini_key, _call_gemini),
+        ("Gemini", gemini_key, lambda p: _call_gemini(gemini_key, p)),
+        ("Groq",   groq_key,   lambda p: _call_groq(groq_key, p)),
     ]:
         if not key:
             continue
