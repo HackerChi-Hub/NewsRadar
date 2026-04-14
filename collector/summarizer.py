@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 
 import httpx
 
-MAX_PER_RUN = 10
+MAX_PER_RUN = 5  # Reduce to stay within Groq TPM limits per run
 RATE_LIMIT_DELAY = 5  # seconds between calls (TPM-safe for both providers)
 
 VALID_CATEGORIES = {"LLM", "CV", "机器人", "AI产品", "研究", "行业", "政策", "开源"}
