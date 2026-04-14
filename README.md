@@ -10,7 +10,7 @@
 
 | 领域 | 信源数 | 代表源 |
 |------|--------|--------|
-| 🤖 AI | 17 | 量子位、TechCrunch AI、OpenAI Blog、arXiv、Hacker News |
+| 🤖 AI | **37** | arXiv(5类)、Reddit(9版块)、Hacker News、AI媒体(8)、公司博客(7)、政策(4) |
 | 🔒 安全 | 6 | The Hacker News、BleepingComputer、FreeBuf、Krebs on Security |
 | 💰 经济 | 3 | Bloomberg Markets、CNBC、Reuters |
 | 💻 科技 | 5 | Engadget、Ars Technica、IT之家、MIT Tech Review |
@@ -19,11 +19,12 @@
 
 ## 功能
 
-- **关键词自动分类** — 5 大领域 × 4 子类，无需 API，毫秒级
+- **关键词自动分类** — 5 大领域 × 10+ 子类（LLM/CV/研究突破/产品发布/社区讨论/AI监管/...），无需 API，毫秒级
 - **Google 翻译** — 英文标题自动翻译为中文（free，无需 API key）
 - **AI 速报** — 每个领域 Top 10 重要新闻（Groq Llama 3.3 70B 免费层）
 - **多级筛选** — 领域标签 → 子分类标签 → 关键词搜索
 - **回溯翻译** — 每次运行补翻 20 篇旧文章
+- **信源健康追踪** — 自动记录每个信源的响应状态、HTTP 状态码、响应时间；3 次连续失败标记 degraded 并跳过；DNS 级永久失败自动屏蔽
 
 ## 技术栈
 
