@@ -166,7 +166,7 @@ def main():
         if digest_data:
             digest_data["generated_at"] = datetime.now(timezone.utc).isoformat()
             data["digest"] = digest_data
-            _t.sleep(4)  # Spacing before article enhancement
+            _t.sleep(30)  # Rate limit recovery before article enhancement
 
         # Then enhance individual articles with remaining quota
         _ai_enhance(enriched, api_key, groq_key)
