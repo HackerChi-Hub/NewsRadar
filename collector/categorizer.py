@@ -75,8 +75,37 @@ CATEGORY_KEYWORDS: dict[str, dict[str, list[str]]] = {
         ],
         "AI产品": [
             "product", "app launch", "release", "上线", "发布",
-            "产品", "应用", "工具", "copilot", "agent", "智能体",
+            "产品", "应用", "工具", "copilot", "智能体",
             "assistant", "api", "定价", "付费",
+        ],
+        "研究突破": [
+            "breakthrough", "sota", "state-of-the-art", "record",
+            "first to", "outperform", "surpass", "exceed",
+            "突破", "超越", "刷新", "首次", "最强",
+            "new architecture", "novel method", "improves",
+        ],
+        "产品发布": [
+            "launch", "release", "announce", "debut", "unveil",
+            "launching", "releasing", "announcing",
+            "发布", "上线", "推出", "开源", "正式版",
+            "available now", "generally available", "ga",
+        ],
+        "社区讨论": [
+            "discussion", "debate", "opinion", "analysis",
+            "review", "thoughts", "perspective", "critique",
+            "讨论", "争议", "观点", "分析", "评测",
+            "reddit", "hacker news", "lobste",
+        ],
+        "AI监管": [
+            "regulation", "policy", "law", "act", "ban", "restrict",
+            "governance", "compliance", "audit",
+            "监管", "法规", "政策", "法案", "合规", "审查",
+            "eu ai act", "white house ai", "un ai",
+        ],
+        "AI工具": [
+            "tool", "app", "platform", "api", "sdk",
+            "免费", "神器", "效率", "产品力",
+            "product hunt", "there's an ai for that",
         ],
         "研究": [
             "paper", "research", "arxiv", "论文", "研究", "benchmark",

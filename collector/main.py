@@ -8,7 +8,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from sources import fetch_all_rss, fetch_hackernews, fetch_arxiv
+from sources import fetch_all_rss, fetch_hackernews, fetch_arxiv, fetch_all_ai_sources
 from categorizer import categorize, detect_domain
 
 DATA_FILE = Path(__file__).parent.parent / "web" / "public" / "data" / "news.json"
@@ -105,6 +105,9 @@ def main():
 
     print("\nFetching arXiv papers...")
     raw_articles.extend(fetch_arxiv())
+
+    print("\nFetching AI-specialized sources (arXiv categories, communities, media, blogs, policy, tools)...")
+    raw_articles.extend(fetch_all_ai_sources())
 
     print(f"\nTotal fetched: {len(raw_articles)}")
 

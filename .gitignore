@@ -6,3 +6,5 @@ dist/
 .env
 *.egg-info/
 .uv/
+# Generated data files (deployed via CI, not versioned)
+web/public/data/*.json
