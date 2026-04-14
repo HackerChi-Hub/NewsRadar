@@ -111,21 +111,19 @@ CATEGORY_KEYWORDS: dict[str, dict[str, list[str]]] = {
             "assistant", "api", "定价", "付费", "免费",
             "launch", "announce", "unveil", "debut",
             "上线", "推出", "正式版", "available now", "generally available",
-        ],
-        "研究突破": [
-            "breakthrough", "sota", "state-of-the-art", "record",
-            "first to", "outperform", "surpass", "exceed",
-            "突破", "超越", "刷新", "首次", "最强",
-            "new architecture", "novel method", "improves",
-            "benchmark", "rank 1", "top of", "best",
-        ],
-        "行业": [
+            # 行业 keywords (merged into AI产品)
             "industry", "startup", "company", "funding", "investor",
             "行业", "公司", "融资", "投资", "创业", "独角兽",
             "venture", "series a", "series b", "acquisition", "merger",
             "生态", "商业化", "落地", "应用",
         ],
-        "政策": [
+        "研究": [
+            "breakthrough", "sota", "state-of-the-art", "record",
+            "first to", "outperform", "surpass", "exceed",
+            "突破", "超越", "刷新", "首次", "最强",
+            "new architecture", "novel method", "improves",
+            "benchmark", "rank 1", "top of", "best",
+            # 政策 keywords (merged into 研究 — AI governance)
             "regulation", "policy", "law", "act", "ban", "restrict",
             "governance", "compliance", "audit",
             "监管", "法规", "政策", "法案", "合规", "审查",
@@ -145,13 +143,13 @@ CATEGORY_KEYWORDS: dict[str, dict[str, list[str]]] = {
             "buffer overflow", "sql injection", "xss", "csrf",
             "缓冲区溢出", "注入", "跨站", "修复", "cve-",
         ],
-        "攻击": [
+        "攻防": [
             "attack", "apt", "hack", "breach", "intrusion",
             "red team", "penetration", "攻击", "入侵", "渗透",
             "红队", "蓝队", "应急响应", "取证",
             "ddos", "勒索软件", "供应链攻击",
         ],
-        "隐私合规": [
+        "隐私": [
             "privacy", "data breach", "leak", "surveillance",
             "数据泄露", "隐私", "监控", "合规", "gdpr",
             "个人信息", "数据保护", "网络安全法",
@@ -181,7 +179,7 @@ CATEGORY_KEYWORDS: dict[str, dict[str, list[str]]] = {
             "估值", "独角兽", "上市", "ipo",
             "series a", "series b", "pre-a", "a轮", "b轮",
         ],
-        "加密货币": [
+        "加密": [
             "crypto", "bitcoin", "ethereum", "blockchain",
             "defi", "nft", "web3", "比特币", "以太坊",
             "区块链", "加密货币", "交易所", "稳定币",
@@ -205,7 +203,7 @@ CATEGORY_KEYWORDS: dict[str, dict[str, list[str]]] = {
             "streaming", "互联网", "云计算", "平台", "社交",
             "流媒体", "电商", "搜索", "社交媒体",
         ],
-        "开发者": [
+        "开发": [
             "developer", "programming", "framework", "api",
             "devops", "kubernetes", "docker", "开发者", "编程",
             "框架", "数据库", "代码", "开源",
@@ -228,7 +226,7 @@ CATEGORY_KEYWORDS: dict[str, dict[str, list[str]]] = {
             "wind energy", "cop", "气候", "碳", "排放",
             "可再生", "新能源", "碳中和", "绿色能源",
         ],
-        "太空科学": [
+        "科学": [
             "space", "nasa", "esa", "spacex", "rocket", "satellite",
             "who", "health", "vaccine", "太空", "航天",
             "卫星", "火箭", "世卫", "疫苗",
@@ -238,9 +236,10 @@ CATEGORY_KEYWORDS: dict[str, dict[str, list[str]]] = {
 }
 
 # Domain-level fallback categories (used when no sub-keywords match)
+# NOTE: All category names here must match the frontend radar.js DOMAIN_CATEGORIES exactly.
 DOMAIN_DEFAULT_CATEGORY: dict[str, str] = {
     "AI": "LLM",
-    "安全": "攻击",
+    "安全": "攻防",
     "经济": "市场",
     "科技": "互联网",
     "国际": "外交",
