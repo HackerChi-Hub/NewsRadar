@@ -101,8 +101,9 @@ def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = 
         result = None
         last_error = ""
         for provider, key, fn in [
-            ("Gemini", gemini_key, lambda p: _call_gemini(gemini_key, p)),
+            # Groq first for article enhancement (digest already used Gemini DPU)
             ("Groq",   groq_key,   lambda p: _call_groq(groq_key, p)),
+            ("Gemini", gemini_key, lambda p: _call_gemini(gemini_key, p)),
         ]:
             if not key:
                 continue
