@@ -8,7 +8,7 @@ RSS_FEEDS = [
     # ══════════════════════════════════════════════════
     # 🤖 AI — 中文
     # ══════════════════════════════════════════════════
-    {"name": "量子位", "url": "https://www.qbitai.com/feed", "domain": "AI"},
+    # {"name": "量子位", "url": "https://www.qbitai.com/feed", "domain": "AI"},  # DISABLED — 403
     {"name": "雷锋网 AI", "url": "https://www.leiphone.com/feed/categoryRss/name/ai", "domain": "AI"},
     {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "domain": "AI"},
     # 🤖 AI — 英文媒体
