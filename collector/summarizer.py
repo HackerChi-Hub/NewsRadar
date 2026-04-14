@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 import httpx
 
 MAX_PER_RUN = 10
-RATE_LIMIT_DELAY = 6
+RATE_LIMIT_DELAY = 4  # seconds between calls (TPM-safe for both providers)
 
 VALID_CATEGORIES = {"LLM", "CV", "机器人", "AI产品", "研究", "行业", "政策", "开源"}
 
@@ -25,18 +25,31 @@ PROMPT_TEMPLATE = (
 
 
 def _parse_json(text: str) -> dict:
+    """Parse LLM JSON output with fallback corrections."""
     match = re.search(r"```(?:json)?\s*\n?(.*?)\n?```", text, re.DOTALL)
     if match:
         text = match.group(1)
     text = text.strip()
     # Fix invalid unicode escapes from LLMs
-    text = re.sub(r'\\u(?![0-9a-fA-F]{4})', r'\\\\u', text)
+    text = re.sub(r"\\u(?![0-9a-fA-F]{4})", r"\\\\u", text)
     try:
         return json.loads(text)
     except json.JSONDecodeError:
-        # Try fixing common LLM JSON issues: trailing commas, single quotes
-        text = re.sub(r',\s*([}\]])', r'\1', text)
+        pass
+    # Fix common LLM JSON issues: trailing commas, single quotes, bare unquoted keys
+    text = re.sub(r",\s*([}\]])", r"\1", text)
+    try:
         return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+    # Last resort: extract first {...} block
+    m = re.search(r"(\{.*\})", text, re.DOTALL)
+    if m:
+        try:
+            return json.loads(m.group(1))
+        except json.JSONDecodeError:
+            pass
+    raise ValueError(f"Could not parse JSON from: {text[:200]}")
 
 
 def _call_gemini(api_key: str, prompt: str) -> dict:
@@ -59,39 +72,49 @@ def _call_groq(api_key: str, prompt: str, model: str = "llama-3.3-70b-versatile"
 
 
 def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = "") -> None:
-    """Enhance articles in-place with AI summaries. Stops on quota hit."""
+    """Enhance articles in-place with AI summaries. Tries Gemini first, falls back to Groq."""
     for i, article in enumerate(articles):
         prompt = PROMPT_TEMPLATE.format(
             title=article.get("title", ""),
             content=article.get("content", article.get("summary_zh", ""))[:3000],
         )
-        try:
-            if groq_key:
-                result = _call_groq(groq_key, prompt)
-            elif gemini_key:
-                result = _call_gemini(gemini_key, prompt)
-            else:
-                return
+        result = None
+        last_error = ""
+        # Try Gemini first, then Groq
+        for provider, key, fn in [
+            ("Gemini", gemini_key, lambda p: _call_gemini(gemini_key, p)),
+            ("Groq",   groq_key,   lambda p: _call_groq(groq_key, p)),
+        ]:
+            if not key:
+                continue
+            try:
+                result = fn(prompt)
+                print(f"  [rank {i+1}] {provider} OK: {article.get('title','')[:40]}")
+                break
+            except Exception as e:
+                last_error = str(e)
+                if "429" in last_error or "RESOURCE_EXHAUSTED" in last_error:
+                    print(f"  [rank {i+1}] {provider} quota hit, trying next...")
+                    continue
+                print(f"  [rank {i+1}] {provider} error: {last_error[:60]}")
+                break
 
-            cat = result.get("category", "")
-            if cat in VALID_CATEGORIES:
-                article["category"] = cat
-            article["title_zh"] = result.get("title_zh", article.get("title_zh", ""))
-            article["summary_zh"] = result.get("summary_zh", article.get("summary_zh", ""))
-            article["tags"] = result.get("tags", [])[:5]
-            print(f"  ✓ [{i+1}] {article['title'][:45]}...")
+        if result is None:
+            print(f"  [rank {i+1}] ALL PROVIDERS FAILED: {last_error[:60]}")
+            continue
 
-            if i < len(articles) - 1:
-                time.sleep(RATE_LIMIT_DELAY)
+        cat = result.get("category", "")
+        if cat in VALID_CATEGORIES:
+            article["category"] = cat
+        article["title_zh"] = result.get("title_zh", article.get("title_zh", ""))
+        article["summary_zh"] = result.get("summary_zh", article.get("summary_zh", ""))
+        article["tags"] = result.get("tags", [])[:5]
 
-        except Exception as e:
-            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
-                print(f"  ✗ [{i+1}] Quota hit, stopping")
-                return
-            print(f"  ✗ [{i+1}] {e}")
+        if i < len(articles) - 1:
+            time.sleep(RATE_LIMIT_DELAY)
 
 
-DIGEST_PROMPT = """You are a senior AI news editor. Given these recent AI news articles, pick the 10 MOST important/impactful ones and write a brief Chinese digest.
+DIGEST_PROMPT = """You are a senior AI news editor. Given these recent news articles, pick the 10 MOST important/impactful ones and write a brief Chinese digest.
 
 Articles:
 {articles_text}
@@ -100,11 +123,74 @@ Respond with ONLY a JSON object:
 {{
   "items": [
     {{"rank": 1, "title": "中文标题", "summary": "一句话中文摘要（30字以内）", "id": "article_id"}},
-    ...10 items
+    ...up to 10 items
   ]
 }}
 
 Selection criteria: industry impact > technical breakthrough > product launch > funding. Prefer diverse categories. JSON only, no markdown."""
+
+
+def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = "") -> list[dict]:
+    """Generate a top-10 digest from recent articles. Tries Gemini then Groq with retries."""
+    if not (groq_key or gemini_key):
+        print("  [digest] No API keys available")
+        return []
+    if len(articles) < 5:
+        print(f"  [digest] Only {len(articles)} articles, need >= 5")
+        return []
+
+    candidates = articles[:25]
+    lines = []
+    for a in candidates:
+        title = a.get("title_zh", a.get("title", ""))
+        src   = a.get("source", "")
+        cat   = a.get("category", "")
+        lines.append(f"- [{a['id']}] [{cat}] [{src}] {title}")
+
+    prompt = DIGEST_PROMPT.format(articles_text="
+".join(lines))
+
+    # Try Gemini first (more generous quota), then Groq
+    tried = []
+    for provider, key, fn in [
+        ("Gemini", gemini_key, lambda p: _call_gemini(gemini_key, p)),
+        ("Groq",   groq_key,   lambda p: _call_groq(groq_key, p)),
+    ]:
+        if not key:
+            continue
+        tried.append(provider)
+        for attempt in range(3):
+            try:
+                result = fn(prompt)
+                items = result.get("items", [])
+                id_map = {a["id"]: a for a in candidates}
+                digest = []
+                for item in items[:10]:
+                    aid = item.get("id", "")
+                    article = id_map.get(aid, {})
+                    digest.append({
+                        "rank":     item.get("rank", len(digest) + 1),
+                        "title":    item.get("title", article.get("title_zh", "")),
+                        "summary":  item.get("summary", ""),
+                        "url":      article.get("url", ""),
+                        "source":   article.get("source", ""),
+                        "category": article.get("category", ""),
+                    })
+                print(f"  [digest:{provider}] generated {len(digest)} items")
+                return digest
+            except Exception as e:
+                err = str(e)
+                is_retryable = any(x in err for x in ["429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE", "timeout", "rate"])
+                if attempt < 2 and is_retryable:
+                    wait = 2 ** attempt * 3
+                    print(f"  [digest:{provider}] attempt {attempt+1} failed ({err[:50]}), retry in {wait}s...")
+                    time.sleep(wait)
+                    continue
+                print(f"  [digest:{provider}] FAILED (attempt {attempt+1}): {err[:80]}")
+                break
+
+    print(f"  [digest] All providers exhausted ({tried}), returning empty digest")
+    return []
 
 
 ALL_DOMAINS_DIGEST_PROMPT = """You are a senior news editor covering 5 domains: AI, 安全(Security), 经济(Economics), 科技(Tech), 国际(International).
@@ -125,69 +211,8 @@ Respond with ONLY a JSON object:
 Selection criteria: industry impact > technical breakthrough > product launch > funding. Prefer diverse categories within each domain. JSON only, no markdown."""
 
 
-def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = "") -> list[dict]:
-    """Generate a top-10 digest from recent articles using LLM."""
-    if not (groq_key or gemini_key):
-        return []
-    if len(articles) < 5:
-        return []
-
-    # Build article list for prompt (limit to 25 newest to control tokens)
-    candidates = articles[:25]
-    lines = []
-    for a in candidates:
-        title = a.get("title_zh", a.get("title", ""))
-        src = a.get("source", "")
-        cat = a.get("category", "")
-        lines.append(f'- [{a["id"]}] [{cat}] [{src}] {title}')
-
-    prompt = DIGEST_PROMPT.format(articles_text="\n".join(lines))
-
-    try:
-        # Prefer Gemini for digest, fallback to Groq on failure
-        result = None
-        if gemini_key:
-            for attempt in range(2):
-                try:
-                    result = _call_gemini(gemini_key, prompt)
-                    break
-                except Exception as ge:
-                    if attempt == 0 and ("503" in str(ge) or "UNAVAILABLE" in str(ge)):
-                        print(f"  ⏳ Gemini busy, retrying in 5s...")
-                        time.sleep(5)
-                    else:
-                        print(f"  ⚠ Gemini failed: {ge}")
-                        break  # Fall through to Groq
-        if result is None and groq_key:
-            result = _call_groq(groq_key, prompt)
-        if result is None:
-            return []
-
-        items = result.get("items", [])
-        # Enrich with article data
-        id_map = {a["id"]: a for a in candidates}
-        digest = []
-        for item in items[:10]:
-            aid = item.get("id", "")
-            article = id_map.get(aid, {})
-            digest.append({
-                "rank": item.get("rank", len(digest) + 1),
-                "title": item.get("title", article.get("title_zh", "")),
-                "summary": item.get("summary", ""),
-                "url": article.get("url", ""),
-                "source": article.get("source", ""),
-                "category": article.get("category", ""),
-            })
-        print(f"  ✓ Digest generated: {len(digest)} items")
-        return digest
-
-    except Exception as e:
-        print(f"  ✗ Digest failed: {e}")
-        return []
-
-
 def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_key: str = "") -> dict:
-    """Generate top-10 digests for all 5 domains in a single LLM call."""
+    """Generate top-10 digests for all 5 domains in one call (Groq scout > Gemini > Groq 70b)."""
     if not (groq_key or gemini_key):
         return {}
 
@@ -201,53 +226,63 @@ def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_ke
     if not domain_articles:
         return {}
 
-    # Build combined prompt
     sections = []
     all_candidates = {}
     for dom, arts in domain_articles.items():
         lines = []
         for a in arts:
             title = a.get("title_zh", a.get("title", ""))
-            src = a.get("source", "")
-            cat = a.get("category", "")
-            lines.append(f'- [{a["id"]}] [{cat}] [{src}] {title}')
+            src   = a.get("source", "")
+            cat   = a.get("category", "")
+            lines.append(f"- [{a['id']}] [{cat}] [{src}] {title}")
             all_candidates[a["id"]] = a
-        sections.append(f"=== {dom} ({len(arts)} articles) ===\n" + "\n".join(lines))
+        sections.append(f"=== {dom} ({len(arts)} articles) ===
+" + "
+".join(lines))
 
-    prompt = ALL_DOMAINS_DIGEST_PROMPT.format(domains_text="\n\n".join(sections))
+    prompt = ALL_DOMAINS_DIGEST_PROMPT.format(domains_text="
 
-    try:
-        if groq_key:
-            # Use scout model for large combined prompt (30K TPM vs 12K for 70b)
-            result = _call_groq(groq_key, prompt, model="meta-llama/llama-4-scout-17b-16e-instruct")
-        elif gemini_key:
-            result = _call_gemini(gemini_key, prompt)
-        else:
-            return {}
+".join(sections))
 
-        digest_data = {}
-        for dom in domains:
-            items = result.get(dom, [])
-            if not items:
-                continue
-            digest = []
-            for item in items[:10]:
-                aid = item.get("id", "")
-                article = all_candidates.get(aid, {})
-                digest.append({
-                    "rank": item.get("rank", len(digest) + 1),
-                    "title": item.get("title", article.get("title_zh", "")),
-                    "summary": item.get("summary", ""),
-                    "url": article.get("url", ""),
-                    "source": article.get("source", ""),
-                    "category": article.get("category", ""),
-                })
-            if digest:
-                digest_data[dom] = digest
-                print(f"  ✓ {dom} digest: {len(digest)} items")
+    # Groq scout has 30K TPM, best for large combined prompts; fallback to Gemini
+    for provider, key, fn in [
+        ("Groq-scout", groq_key,   lambda p: _call_groq(groq_key, p, "meta-llama/llama-4-scout-17b-16e-instruct")),
+        ("Gemini",     gemini_key, _call_gemini),
+    ]:
+        if not key:
+            continue
+        for attempt in range(2):
+            try:
+                result = fn(prompt)
+                digest_data = {}
+                for dom in domains:
+                    items = result.get(dom, [])
+                    if not items:
+                        continue
+                    digest = []
+                    for item in items[:10]:
+                        aid = item.get("id", "")
+                        article = all_candidates.get(aid, {})
+                        digest.append({
+                            "rank":     item.get("rank", len(digest) + 1),
+                            "title":    item.get("title", article.get("title_zh", "")),
+                            "summary":  item.get("summary", ""),
+                            "url":      article.get("url", ""),
+                            "source":   article.get("source", ""),
+                            "category": article.get("category", ""),
+                        })
+                    if digest:
+                        digest_data[dom] = digest
+                print(f"  [all-digest:{provider}] domains: {list(digest_data.keys())}")
+                return digest_data
+            except Exception as e:
+                err = str(e)
+                if attempt == 0 and any(x in err for x in ["429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE"]):
+                    wait = 6
+                    print(f"  [all-digest:{provider}] retry in {wait}s ({err[:50]})...")
+                    time.sleep(wait)
+                    continue
+                print(f"  [all-digest:{provider}] FAILED: {err[:80]}")
+                break
 
-        return digest_data
-
-    except Exception as e:
-        print(f"  ✗ All-domain digest failed: {e}")
-        return {}
+    return {}
