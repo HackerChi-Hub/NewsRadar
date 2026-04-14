@@ -20,7 +20,7 @@ PROMPT_TEMPLATE = (
     '- "category": ONE of [LLM, CV, 机器人, AI产品, 研究, 行业, 政策, 开源]\n'
     '- "tags": 2-3 tags in Chinese\n\n'
     "Title: {title}\nContent: {content}\n\n"
-    'JSON only: {{"title_zh":"...","summary_zh":"...","category":"...","tags":["..."]}}'
+    'JSON only: {"title_zh":"...","summary_zh":"...","category":"...","tags":["..."]}'
 )
 
 
@@ -71,9 +71,8 @@ def _call_groq(api_key: str, prompt: str, model: str = "llama-3.3-70b-versatile"
 def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = "") -> None:
     """Enhance articles in-place with AI summaries. Tries Gemini first, falls back to Groq."""
     for i, article in enumerate(articles):
-        prompt = PROMPT_TEMPLATE.format(
-            title=article.get("title", ""),
-            content=article.get("content", article.get("summary_zh", ""))[:3000],
+        prompt = PROMPT_TEMPLATE.replace("{title}", article.get("title", "")).replace(
+            "{content}", article.get("content", article.get("summary_zh", ""))[:3000]
         )
         result = None
         last_error = ""
@@ -110,24 +109,22 @@ def summarize_batch(articles: list[dict], gemini_key: str = "", groq_key: str = 
             time.sleep(RATE_LIMIT_DELAY)
 
 
-DIGEST_ITEMS = (
-    '{'
-    '"items": ['
+DIGEST_ITEMS_EXAMPLE = (
+    '{"items": ['
     '{"rank": 1, "title": "中文标题", "summary": "一句话中文摘要（30字以内）", "id": "article_id"},'
     "...up to 10 items"
-    ']'
-    '}'
+    ']}'
 )
 
-DIGEST_PROMPT_TEMPLATE = (
+DIGEST_PROMPT = (
     "You are a senior AI news editor. Given these recent news articles, "
     "pick the 10 MOST important/impactful ones and write a brief Chinese digest.\n\n"
     "Articles:\n"
-    "{articles_text}\n\n"
+    "%s\n\n"
     "Selection criteria: industry impact > technical breakthrough > product launch > funding. "
     "Prefer diverse categories. "
-    'Respond with ONLY a JSON object following this exact format:\n'
-    + DIGEST_ITEMS + "\n"
+    "Respond with ONLY a JSON object following this exact format:\n"
+    + DIGEST_ITEMS_EXAMPLE + "\n"
     "JSON only, no markdown."
 )
 
@@ -147,9 +144,9 @@ def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = 
         title = a.get("title_zh", a.get("title", ""))
         src   = a.get("source", "")
         cat   = a.get("category", "")
-        lines.append(f"- [{a['id']}] [{cat}] [{src}] {title}")
+        lines.append("- [%s] [%s] [%s] %s" % (a["id"], cat, src, title))
 
-    prompt = DIGEST_PROMPT_TEMPLATE.format(articles_text="\n".join(lines))
+    prompt = DIGEST_PROMPT % "\n".join(lines)
 
     tried = []
     for provider, key, fn in [
@@ -176,24 +173,24 @@ def generate_digest(articles: list[dict], gemini_key: str = "", groq_key: str = 
                         "source":   article.get("source", ""),
                         "category": article.get("category", ""),
                     })
-                print(f"  [digest:{provider}] generated {len(digest)} items")
+                print(f"  [digest:%s] generated %d items" % (provider, len(digest)))
                 return digest
             except Exception as e:
                 err = str(e)
                 is_retryable = any(x in err for x in ["429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE", "timeout", "rate"])
                 if attempt < 2 and is_retryable:
                     wait = 2 ** attempt * 3
-                    print(f"  [digest:{provider}] attempt {attempt+1} failed ({err[:50]}), retry in {wait}s...")
+                    print(f"  [digest:%s] attempt %d failed (%s), retry in %ds..." % (provider, attempt+1, err[:50], wait))
                     time.sleep(wait)
                     continue
-                print(f"  [digest:{provider}] FAILED (attempt {attempt+1}): {err[:80]}")
+                print(f"  [digest:%s] FAILED (attempt %d): %s" % (provider, attempt+1, err[:80]))
                 break
 
-    print(f"  [digest] All providers exhausted ({tried}), returning empty digest")
+    print(f"  [digest] All providers exhausted (%s), returning empty digest" % ", ".join(tried))
     return []
 
 
-ALL_DOMAINS_ITEMS = (
+ALL_DOMAINS_ITEMS_EXAMPLE = (
     '{"AI": [{"rank":1,"title":"中文标题","summary":"一句话（30字）","id":"id"},...up to 10],'
     '"安全": [...],'
     '"经济": [...],'
@@ -201,16 +198,16 @@ ALL_DOMAINS_ITEMS = (
     '"国际": [...]}'
 )
 
-ALL_DOMAINS_DIGEST_TEMPLATE = (
+ALL_DOMAINS_DIGEST_PROMPT = (
     "You are a senior news editor covering 5 domains: AI, 安全, 经济, 科技, 国际.\n"
     "For EACH domain below, pick the top 10 most important articles.\n\n"
-    "{domains_text}\n\n"
+    "%s\n\n"
     "Selection: industry impact > technical breakthrough > product launch > funding. "
     "Prefer diverse categories within each domain.\n"
-    'Respond with ONLY a JSON object with exactly these 5 keys: AI, 安全, 经济, 科技, 国际.\n'
+    "Respond with ONLY a JSON object with exactly these 5 keys: AI, 安全, 经济, 科技, 国际.\n"
     "Each value is an array of objects with keys: rank, title, summary, id.\n"
     "Example format:\n"
-    + ALL_DOMAINS_ITEMS + "\n"
+    + ALL_DOMAINS_ITEMS_EXAMPLE + "\n"
     "JSON only, no markdown."
 )
 
@@ -238,11 +235,11 @@ def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_ke
             title = a.get("title_zh", a.get("title", ""))
             src   = a.get("source", "")
             cat   = a.get("category", "")
-            lines.append(f"- [{a['id']}] [{cat}] [{src}] {title}")
+            lines.append("- [%s] [%s] [%s] %s" % (a["id"], cat, src, title))
             all_candidates[a["id"]] = a
-        sections.append(f"=== {dom} ({len(arts)} articles) ===\n" + "\n".join(lines))
+        sections.append("=== %s (%d articles) ===\n%s" % (dom, len(arts), "\n".join(lines)))
 
-    prompt = ALL_DOMAINS_DIGEST_TEMPLATE.format(domains_text="\n\n".join(sections))
+    prompt = ALL_DOMAINS_DIGEST_PROMPT % "\n\n".join(sections)
 
     tried = []
     # Groq scout (30K TPM) best for large prompts; Gemini as fallback
@@ -275,17 +272,17 @@ def generate_all_digests(all_articles: list[dict], gemini_key: str = "", groq_ke
                         })
                     if digest:
                         digest_data[dom] = digest
-                print(f"  [all-digest:{provider}] domains: {list(digest_data.keys())}")
+                print("  [all-digest:%s] domains: %s" % (provider, list(digest_data.keys())))
                 return digest_data
             except Exception as e:
                 err = str(e)
                 if attempt == 0 and any(x in err for x in ["429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE"]):
                     wait = 6
-                    print(f"  [all-digest:{provider}] retry in {wait}s ({err[:50]})...")
+                    print("  [all-digest:%s] retry in %ds (%s...)" % (provider, wait, err[:50]))
                     time.sleep(wait)
                     continue
-                print(f"  [all-digest:{provider}] FAILED: {err[:80]}")
+                print("  [all-digest:%s] FAILED: %s" % (provider, err[:80]))
                 break
 
-    print(f"  [all-digest] All providers exhausted ({tried})")
+    print("  [all-digest] All providers exhausted (%s)" % ", ".join(tried))
     return {}
