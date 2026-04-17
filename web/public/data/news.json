@@ -1,6 +1,272 @@
 {
-  "last_updated": "2026-04-17T22:51:20.654646+00:00",
+  "last_updated": "2026-04-17T23:45:58.113991+00:00",
   "articles": [
+    {
+      "title": "苹果 2026 款 Mac Studio 前瞻：封顶 256GB 内存、M5 Max / Ultra 芯片",
+      "url": "https://www.ithome.com/0/940/618.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-17T23:40:09+00:00",
+      "content": "IT之家 4 月 18 日消息，科技媒体 MacRumors 今天（4 月 18 日）发布博文，汇总郭明錤、马克 · 古尔曼等消息源爆料，梳理 2026 款 Mac Studio 信息。苹果公司可能最早在今年 6 月发布的 2026 全球开发者大会（WWDC）上推出，起售价维持 1999 美元（IT之家注：现汇率约合 13663 元人民币）。外观方面，2026 款 Mac Studio 将延续现有设计语言，保持类似 Apple TV 的紧凑方正外观，机身高度 3.7 英寸，宽度 7.7 英寸，并继续支持 Thunderbolt 5 接口，接口配置预计不会有明显变化。芯片方面，2026 款 Mac Studio 预估将搭载 M5 Max 和 M5 Ultra 芯片。其中 M5 Max 芯片配备最高 18 核 CPU 和 40 核 GPU，内存带宽达 614GB/s，专业性能较 M4 Max 提升约 30%。 更强悍的 M5 Ultra 芯片预计将拥有最高 36 核 CPU 和 80 核 GPU，由两枚 M5 Max 芯片拼接而成。存储方面，参考已发布的 M5 MacBook Pro，新款 Mac Studio 的 SSD 速度可能比前代快 2 倍，显著缩短大文件加载时间。该媒体预估全球内存供应短缺限制新机内存上限，M5 Max 机型最高支持 128GB RAM，M5 Ultra 机型则最高支持 256GB RAM。市场供应方面，部分高内存配置的现款 Mac Studio 已停止接单。虽然这可能被解读为新机发布的前兆，但更多迹象表明这是内存价格飙升导致的供应问题。随着 Mac Pro 在 3 月底停产，Mac Studio 现已成为苹果产品线中唯一的专业台式机选项。",
+      "id": "1537c9d993724750ccef9c44b979948d",
+      "title_zh": "苹果 2026 款 Mac Studio 前瞻：封顶 256GB 内存、M5 Max / Ultra 芯片",
+      "summary_zh": "IT之家 4 月 18 日消息，科技媒体 MacRumors 今天（4 月 18 日）发布博文，汇总郭明錤、马克 · 古尔曼等消息源爆料，梳理 2026 款 Mac Studio 信息。苹果公司可能最早在今年 6 月发布的 2026 全球开发者大会（WWDC）上推出，起售价维持 1999 美元（IT之家注：现汇率约合 13663 元人民币）。外观方面，2026 款 Mac Studio 将延续现有",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224566+00:00"
+    },
+    {
+      "title": "Stop using naive RAG – adding relationships to AI context",
+      "url": "https://news.ycombinator.com/item?id=47811753",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-17T23:35:02+00:00",
+      "content": "I’ve been working a lot with RAG systems recently, and kept running into the same issue: they retrieve relevant chunks, but lose the relationships between them.This becomes a problem pretty quickly when dealing with real systems (docs, APIs, infra), where understanding how things connect matters more than just finding similar text.So I built Mindex:\nhttps://usemindex.dev/It combines semantic search with a knowledge graph layer, so instead of returning isolated chunks, it can connect documents and surface how they relate.It works via CLI and MCP, so you can plug it directly into tools like Claude Code, Cursor, or your own agents.I also added a visual comparison showing naive RAG vs graph-based retrieval, which makes the difference clearer.Would love feedback — especially from people building with RAG or working on developer tooling.\n\nComments URL: https://news.ycombinator.com/item?id=47811753\nPoints: 1\n# Comments: 0",
+      "id": "722e1f236e4c2d79495bf7880564145a",
+      "title_zh": "停止使用幼稚的 RAG – 添加与 AI 上下文的关系",
+      "summary_zh": "I’ve been working a lot with RAG systems recently, and kept running into the same issue: they retrieve relevant chunks, but lose the relationships between them.This becomes a problem pretty quickly wh",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.226315+00:00"
+    },
+    {
+      "title": "Shuttered startups are selling old Slack chats and emails to AI companies",
+      "url": "https://www.fastcompany.com/91528808/shuttered-startups-are-selling-old-slack-chats-and-emails-to-ai-companies",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-17T23:34:04+00:00",
+      "content": "Article URL: https://www.fastcompany.com/91528808/shuttered-startups-are-selling-old-slack-chats-and-emails-to-ai-companies\nComments URL: https://news.ycombinator.com/item?id=47811748\nPoints: 2\n# Comments: 0",
+      "id": "3128ad179703b489ca87cadd810804f0",
+      "title_zh": "关闭的初创公司正在向人工智能公司出售旧的 Slack 聊天和电子邮件",
+      "summary_zh": "Article URL: https://www.fastcompany.com/91528808/shuttered-startups-are-selling-old-slack-chats-and-emails-to-ai-companies Comments URL: https://news.ycombinator.com/item?id=47811748 Points: 2 # Comm",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.226358+00:00"
+    },
+    {
+      "title": "苹果等厂商强硬立场见效，印度不再强制手机预装 Aadhaar 身份应用",
+      "url": "https://www.ithome.com/0/940/617.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-17T23:30:19+00:00",
+      "content": "IT之家 4 月 18 日消息，科技媒体 Appleinsider 昨日（4 月 17 日）发布博文，报道称在苹果、三星公司强调反对后，印度信息技术部撤销 2025 年 11 月发布的提案，该提案强制要求印度境内的智能手机厂商预装国家生物识别应用 Aadhaar。IT之家注：印度唯一身份识别机构（The Unique Identification Authority of India）曾向印度 IT 部提议，希望启动与苹果等科技公司的谈判，探讨将 Aadhaar 身份应用列为强制预装软件的可能性。Aadhaar 是印度居民可申请的 12 位身份识别号码，目前已发放给超过 13.4 亿居民。该号码与个人照片、指纹和虹膜扫描数据绑定，用作居住证明，广泛应用于政府福利领取、银行服务、税务申报及移动通信等场景。印度曾于 2025 年 11 月发布指令，要求苹果、三星、OPPO、vivo 和小米等厂商在印度销售的手机上预装 Aadhaar 应用。据路透社报道，印度信息技术部在审查提案后明确表示，不再支持强制预装 Aadhaar 应用的决定。该部门透露，这一转变是基于与电子行业利益相关方进行协商后的结果。苹果公司对此提案的抵制态度尤为坚决。此前报道显示，苹果以隐私和安全风险为由提出反对，内部消息人士甚至直言“绝对不可能执行”。除了商业考量，批评声音还聚焦于隐私侵犯风险，印度主要反对党国大党曾公开谴责该提议，指责政府试图建立监控机制，声称“老大哥不能盯着我们”。",
+      "id": "162ddbfe2ee4ff364261c27b401fc62b",
+      "title_zh": "苹果等厂商强硬立场见效，印度不再强制手机预装 Aadhaar 身份应用",
+      "summary_zh": "IT之家 4 月 18 日消息，科技媒体 Appleinsider 昨日（4 月 17 日）发布博文，报道称在苹果、三星公司强调反对后，印度信息技术部撤销 2025 年 11 月发布的提案，该提案强制要求印度境内的智能手机厂商预装国家生物识别应用 Aadhaar。IT之家注：印度唯一身份识别机构（The Unique Identification Authority of India）曾向印度 I",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224616+00:00"
+    },
+    {
+      "title": "“砍刀部”出手，微软视频编辑工具 Clipchamp iOS 版 6 月 10 日停止服务",
+      "url": "https://www.ithome.com/0/940/616.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-17T23:28:55+00:00",
+      "content": "IT之家 4 月 18 日消息，北京时间今天（4 月 18 日）凌晨，据外媒 Windows Latest 报道，微软确认将停止支持视频编辑工具 Clipchamp 的 iOS 版，并引导用户转向桌面端和网页版。微软在 2021 年 9 月收购澳大利亚视频编辑工具 Clipchamp，并将其整合进 Microsoft 365。此前，并无迹象显示该产品被弱化。在 iOS 设备打开 Clipchamp 时，应用将弹出“即将停止服务”提示，并要求用户在项目丢失前进行处理。微软解释称，大多数用户更倾向于在网页端和桌面端编辑视频，因此公司决定将资源集中在 Windows 11 和网页版。公司还提醒，在 2026 年 6 月 10 日之后，Clipchamp iOS 应用将停止服务，用户需提前采取措施避免项目丢失。为确保项目不会被删除，请在 2026 年 6 月 9 日前导出视频并保存到设备中。iOS 版 Clipchamp 在美国 App Store 评分达到 4.8，用户评价较高，不过微软表示移动端使用频率并不高。微软同时确认，如果用户未导出项目或未同步至 OneDrive，移动端视频项目将被删除，建议用户在 2026 年 6 月 9 日前将视频导出为 MP4 格式保存在本地。即使用户订阅了包含 Clipchamp Premium 的 Microsoft 365 服务，仍需停止使用 iOS 应用，并将项目同步至 OneDrive。微软表示，iOS 版在 2026 年 6 月 9 日之后可能仍可运行，但会自动停止连接，公司建议用户删除该应用，改用 Windows 11 版或通过浏览器访问官网。针对是否“边缘化”Clipchamp 的问题，微软回应称并非如此，网页版和桌面版将继续获得完整支持，“Clipchamp 的网页和桌面应用将继续完全正常运行，这些应用不会发生变化。”IT之家从报道中获悉，近期，Windows 11 版 Clipchamp 在未同步 OneDrive 的情况下导出视频变得更加困难，不过应用仍在持续推出新功能。",
+      "id": "afbd8eda274c20af6b02a61370be4db2",
+      "title_zh": "“砍刀部”出手，微软视频编辑工具 Clipchamp iOS 版 6 月 10 日停止服务",
+      "summary_zh": "IT之家 4 月 18 日消息，北京时间今天（4 月 18 日）凌晨，据外媒 Windows Latest 报道，微软确认将停止支持视频编辑工具 Clipchamp 的 iOS 版，并引导用户转向桌面端和网页版。微软在 2021 年 9 月收购澳大利亚视频编辑工具 Clipchamp，并将其整合进 Microsoft 365。此前，并无迹象显示该产品被弱化。在 iOS 设备打开 Clipchamp",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224677+00:00"
+    },
+    {
+      "title": "福特被砍三排座纯电 SUV 原型曝光：主打曲线美，还规划了增程版",
+      "url": "https://www.ithome.com/0/940/615.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-17T23:18:28+00:00",
+      "content": "IT之家 4 月 18 日消息，车企一旦取消项目后，通常就不会再公开展示，但也存在例外。大众曾在 2022 年展示接近量产的第二代辉腾原型车，萨博停产后也有 9-3 原型车及基于斯巴鲁 Tribeca 打造的 9-6X 等产品曝光。北京时间今天凌晨，据外媒 Carscoops 报道，福特也加入了这一行列。福特高管道格 · 菲尔德在 LinkedIn 上展示了一款已被取消的三排座纯电 SUV。经福特发言人确认，该车型正是公司在 2024 年取消的三排 SUV 项目，目前作为研究用车支持下一代纯电车型开发，其“重要影响”将在未来产品中体现。这款车属于“开发原型车”，设计风格在现有福特产品中并无对应。整车强调空气动力学，前脸圆润，倾斜的前风挡与修长下滑的车顶线条一体化。细节方面，车辆采用流线型车身和极简门把手设计，风格与 Mustang Mach-E 相似，同时配备空气动力学优化轮圈以及接近垂直的车尾设计。福特曾将其定义为一款七座“子弹头列车”，续航超过 563 公里，并支持高功率直流快充，在电量较低时约 6 分钟可补充 161km 续航。此外，原计划中还包括一款增程版本，续航可达 885 公里。福特已明显收缩纯电战略，同时却仍在推进多款更具价格优势的纯电车型，其中包括一款约 3 万美元（IT之家注：现汇率约合 20.5 万元人民币）的皮卡。",
+      "id": "da987cafac996cf0887e1f07a538c62c",
+      "title_zh": "福特被砍三排座纯电 SUV 原型曝光：主打曲线美，还规划了增程版",
+      "summary_zh": "IT之家 4 月 18 日消息，车企一旦取消项目后，通常就不会再公开展示，但也存在例外。大众曾在 2022 年展示接近量产的第二代辉腾原型车，萨博停产后也有 9-3 原型车及基于斯巴鲁 Tribeca 打造的 9-6X 等产品曝光。北京时间今天凌晨，据外媒 Carscoops 报道，福特也加入了这一行列。福特高管道格 · 菲尔德在 LinkedIn 上展示了一款已被取消的三排座纯电 SUV。经福特",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224722+00:00"
+    },
+    {
+      "title": "IT早报 0418：7 家电商平台涉“幽灵外卖”被罚 35.97 亿元；雷军称小米未来几年不做 10 万元内车型；闲鱼“鱼小铺”调整优惠规则；曝 DeepSeek 正寻求首轮外部融资...",
+      "url": "https://www.ithome.com/0/940/614.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-17T23:17:48+00:00",
+      "content": "“IT早报”时间，大家好，现在是 2026 年 4 月 18 日星期六，今天的重要科技资讯有：1、共处罚没款 35.97 亿元！拼多多、美团、京东、淘宝闪购、抖音、淘宝、天猫涉“幽灵外卖”系列案被处罚案件启动调查后，市场监管总局第一时间责成电商平台立行立改，7 家电商平台均已下架未经审核的有关“幽灵店铺”，停止与相关转单平台的餐饮转单合作。&gt;&gt; 查看详情2、雷军：未来几年，小米都不会做 10 万元以内车型雷军表示，小米未来几年内都不会做 10 万元内车型，原因在于电动汽车智能化要做好，成本会更高，比较难控制在 10 万元以内。&gt;&gt; 查看详情3、闲鱼“鱼小铺”4 月 18 日起调整优惠规则：软件服务费从 0.6% 升至 1.6%闲鱼宣布自 4 月 18 日 0 点起，对“鱼小铺”卖家的软件服务费从 0.6% 大幅提升至 1.6%。这意味着使用该工具的卖家每笔订单成本将显著增加，且不再享受原有的门槛优惠政策。平台称此举是为配合鱼小铺工具全面升级。卖家需留意相关规则变化。&gt;&gt; 查看详情4、消息称 DeepSeek 正寻求首轮外部融资，估值超百亿美元据《The Information》报道，深度求索（DeepSeek）正就首次引入外部资本展开洽谈，计划以至少 100 亿美元估值募集不少于 3 亿美元资金，以应对 AI 模型研发的高成本竞争。此前该公司已多次拒绝国内头部风投与科技巨头的投资邀约。&gt;&gt; 查看详情5、失散 28 年的女儿怀孕送外卖？美团提醒：卖惨视频多为起号牟利近日，多个短视频平台出现“寻找失散女儿的外卖员”、“丈夫牺牲妻子怀孕送外卖”等苦情连续剧，引发大量关注。美团官方核实，相关账号内容均为虚假摆拍，旨在骗取流量进而牟利。声明揭露了从虚构人设到引流变现的灰色产业链。&gt;&gt; 查看详情6、靓号过户被要求预存 1 万元话费，中国移动客服回应称过户后按新入网号码执行微博认证为作家的 @夏小嫣 于 4 月 16 日发文称，办理靓号过户时，被中国移动要求预存 10000 元话费，还要保底每个月消费 400 元，她质疑该要求属于霸王条款。&gt;&gt; 查看详情7、1313 公里雷军全程直播！新一代小米 SU7 成功实现满电出发，中间只充一次电从北京到上海小米 CEO 雷军亲自驾驶小米 SU7 Pro，从北京满电出发，历经约 15 小时直播，最终抵达上海，累计行驶 1313 公里，满电出发中间仅充一次电，剩余续航 19 公里。直播中回应了“特调车”质疑，并解释了小米优先发展长续航而非超快充的战略考量。&gt;&gt; 查看详情8、张雪机车与东鹏特饮签订全球冠名合作：3 年内拿 1 个年度总冠军张雪机车宣布与东鹏特饮达成全球冠名合作，创始人张雪现场承诺 3 年内必夺 WSBK 年度总冠军，并送出 500 顶签名帽及 5 个现场观赛名额。同时，其夺冠车型张雪 820RR 已量产交付，售价 4.38 万元起，设有“新手禁购”及举报奖励机制。&gt;&gt; 查看详情9、曝微软即将发布新一代 Surface Laptop / Pro 笔记本，英特尔酷睿 Ultra 3 机型先行据爆料，微软新一代 Surface Laptop 与 Surface Pro 将分批发布，英特尔酷睿 Ultra 3 机型春季率先上市，骁龙 X2 版本则要等到夏季。新品将升级 OLED 屏、提供更高内存硬盘配置，并首次在小尺寸机型上提供英特尔版本，还搭载了新的触觉反馈系统。&gt;&gt; 查看详情10、消息称苹果今年推出 OLED 屏幕版 MacBook Pro、iPad mini，三星显示供应据韩媒 Etnews 报道，苹果计划今年发布 OLED 屏幕的 iPad mini 和 MacBook Pro，由三星显示供应面板。升级后设备色彩更鲜艳、对比度更高，iPad mini 有望搭载 A19 Pro/A20 Pro 芯片并支持防水，MacBook Pro 或配备 M5 Pro / Max 芯片并引入“灵动岛”设计。&gt;&gt; 查看详情11、CounterPoint 报告 2026Q1 中国手机出货量：华为增 2%、苹果增 20%、OPPO 降 5%、vivo 增 2%、荣耀降 3%、小米降 35%市场调查机构 CounterPoint Research 4 月 17 日发布博文，报告称由于国补政策带来的高基期数据，以及内存等组件成本上涨，2026 年第 1 季度中国智能手机市场出货量同比下降 4%。&gt;&gt; 查看详情12、拼多多回应被处罚 15.2 亿元：诚恳接受，坚决服从市场监管总局通报，针对部分电商平台存在的“幽灵外卖”问题，对拼多多等平台进行了立案调查并作出行政处罚。拼多多官方回应诚恳接",
+      "id": "8ef69a151007336debfeef9500b996cc",
+      "title_zh": "IT早报 0418：7 家电商平台涉“幽灵外卖”被罚 35.97 亿元；雷军称小米未来几年不做 10 万元内车型；闲鱼“鱼小铺”调整优惠规则；曝 DeepSeek 正寻求首轮外部融资...",
+      "summary_zh": "“IT早报”时间，大家好，现在是 2026 年 4 月 18 日星期六，今天的重要科技资讯有：1、共处罚没款 35.97 亿元！拼多多、美团、京东、淘宝闪购、抖音、淘宝、天猫涉“幽灵外卖”系列案被处罚案件启动调查后，市场监管总局第一时间责成电商平台立行立改，7 家电商平台均已下架未经审核的有关“幽灵店铺”，停止与相关转单平台的餐饮转单合作。&gt;&gt; 查看详情2、雷军：未来几年，小米都不会做",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224831+00:00"
+    },
+    {
+      "title": "你也能设计出专业作品：Claude Design 视觉创作工具上线，分钟级转化创意到原型",
+      "url": "https://www.ithome.com/0/940/613.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-17T23:17:00+00:00",
+      "content": "IT之家 4 月 18 日消息，Anthropic 昨日（4 月 17 日）发布博文，宣布推出 Claude Design 工具，基于 Claude Opus 4.7 模型，定位是视觉创作工具。该工具支持用户通过对话生成设计、原型和演示文稿，具备品牌系统自动应用、多源导入和精细化调整功能。 IT之家注：Claude Design 工具目标是帮助设计师拓展探索空间，同时让产品经理、创始人等非设计背景人员在几分钟内高效产出视觉作品，目前该功能已向 Claude Pro、Max、Team 及 Enterprise 订阅用户逐步开放。在核心功能方面，Claude Design 支持用户通过自然语言描述需求，由 AI 生成初版设计。用户可通过对话、行内评论、直接编辑或自定义滑块进行精细化调整。产品支持导入文本提示词、图片及 DOCX、PPTX 等多格式文档，此外为确保原型与实际产品一致，还支持抓取网页元素。其内置的品牌系统能读取企业代码库与设计文件，自动应用统一的配色、字体与组件规范。该工具覆盖多种应用场景，包括将静态模型转为交互原型、快速产出产品线框图、生成融资演示文稿及营销物料等。实测数据显示，Brilliant 团队曾用其他工具需 20 余次提示词才能完成的复杂页面，在 Claude Design 中仅需 2 次提示词即可实现。设计完成后，用户可导出为 Canva、PDF、PPTX 或独立 HTML 文件，也可打包移交 Claude Code 进入开发流程。",
+      "id": "d807f5ad9dc5f2632e6d07b1f3b684a8",
+      "title_zh": "你也能设计出专业作品：Claude Design 视觉创作工具上线，分钟级转化创意到原型",
+      "summary_zh": "IT之家 4 月 18 日消息，Anthropic 昨日（4 月 17 日）发布博文，宣布推出 Claude Design 工具，基于 Claude Opus 4.7 模型，定位是视觉创作工具。该工具支持用户通过对话生成设计、原型和演示文稿，具备品牌系统自动应用、多源导入和精细化调整功能。 IT之家注：Claude Design 工具目标是帮助设计师拓展探索空间，同时让产品经理、创始人等非设计背景",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224881+00:00"
+    },
+    {
+      "title": "Show HN: AI agents should browse your site, not call your API",
+      "url": "https://www.rtrvr.ai/rover/blog/four-architectures-website-ai-agents",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-17T23:14:00+00:00",
+      "content": "We compared four architectures for putting AI agents on websites — RAG bots, API-tool agents(WebMCP), code-writing sandboxes (Cloudflare Agent Lee), and DOM-native execution. Three of them force you to maintain a parallel engineering surface. The DOM already has live state, user auth, and permissions baked in. A structural breakdown of why.\n\nComments URL: https://news.ycombinator.com/item?id=47811609\nPoints: 1\n# Comments: 0",
+      "id": "846e2b9d341703fb4296e1ca85549847",
+      "title_zh": "Show HN：AI 代理应该浏览您的网站，而不是调用您的 API",
+      "summary_zh": "We compared four architectures for putting AI agents on websites — RAG bots, API-tool agents(WebMCP), code-writing sandboxes (Cloudflare Agent Lee), and DOM-native execution. Three of them force you t",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.226452+00:00"
+    },
+    {
+      "title": "Maine Said No to New Data Centers. Other States Are Racing to Follow",
+      "url": "https://www.motherjones.com/environment/2026/04/maine-ai-data-center-moratorium-ban-energy-grid/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-17T23:13:16+00:00",
+      "content": "Maine Said No to New Data Centers. Other States Are Racing to Follow. Score: 5, Comments: 0",
+      "id": "06d1dd05178026197a6c0ff974183a61",
+      "title_zh": "缅因州对新数据中心说不。其他州也竞相效仿",
+      "summary_zh": "Maine Said No to New Data Centers. Other States Are Racing to Follow. Score: 5, Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225755+00:00"
+    },
+    {
+      "title": "被 OpenAI 放弃后，视频生成平台 Sora 负责人皮布尔斯离职",
+      "url": "https://www.ithome.com/0/940/612.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-17T23:05:50+00:00",
+      "content": "IT之家 4 月 18 日消息，当地时间 4 月 17 日，OpenAI 视频生成平台 Sora 负责人比尔 · 皮布尔斯宣布离职。公司正在调整战略，以减少“支线项目”，将重点转向编程和企业应用，皮布尔斯的离开正是这一系列调整的一部分。据IT之家了解，OpenAI 上个月宣布，放弃其视频生成工具 Sora。皮布尔斯在 X 上表示，“我非常感谢萨姆、马克、阿迪提亚和雅库布营造的研究环境，使我们能够探索偏离公司主线路线图的想法。人生中很容易只聚焦最重要的一件事，但对于研究机构来说，保持多样性才是长期发展的关键，萨姆对此深有理解。Sora 是一个只有在 OpenAI 才能实现的项目，我也将一直珍视这段经历。”同时，OpenAI 负责科学 AI 的副总裁凯文 · 韦尔也将离职，并宣布周五是其最后一天。他在 X 上称，其团队“将被分散到其他研究团队中”。另据《连线》报道，OpenAI 此前推出、由韦尔负责的科研平台 Prism 也将被关闭，公司计划将其能力整合进 Codex 桌面应用。",
+      "id": "657ba618e1385d9424892559d7f6feab",
+      "title_zh": "被 OpenAI 放弃后，视频生成平台 Sora 负责人皮布尔斯离职",
+      "summary_zh": "IT之家 4 月 18 日消息，当地时间 4 月 17 日，OpenAI 视频生成平台 Sora 负责人比尔 · 皮布尔斯宣布离职。公司正在调整战略，以减少“支线项目”，将重点转向编程和企业应用，皮布尔斯的离开正是这一系列调整的一部分。据IT之家了解，OpenAI 上个月宣布，放弃其视频生成工具 Sora。皮布尔斯在 X 上表示，“我非常感谢萨姆、马克、阿迪提亚和雅库布营造的研究环境，使我们能够探",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224921+00:00"
+    },
+    {
+      "title": "消息称苹果首款折叠 iPhone 将推深靛蓝色，展开最薄处 4.7 毫米",
+      "url": "https://www.ithome.com/0/940/611.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-17T23:02:39+00:00",
+      "content": "IT之家 4 月 18 日消息，科技媒体 MacWorld 昨日（4 月 17 日）发布博文，在披露 iPhone 18 Pro 和 iPhone 18 Pro Max 主打“深樱桃色”后，还爆料称苹果首款折叠手机（名为 iPhone Fold 或 iPhone Ultra）将推出深靛蓝色（Dark Indigo）颜色。颜色方面，IT之家援引博文介绍，针对 iPhone Fold，苹果公司内部正研发两种颜色，其一是经典的银白色，其二是深靛蓝色，比较接近 iPhone 17 Pro 的深蓝色。外观方面，该媒体最新渠道消息称，进一步验证此前曝光的 CAD 渲染图，预估将配备两个后置摄像头、一个位于外屏的前置摄像头以及另一个位于内屏左上角的前置摄像头。在展开状态下，iPhone Fold 最薄处为 4.7 毫米，作为对比苹果 iPhone Air 的厚度为 5.6 毫米。",
+      "id": "6aa82bfde06a612f723a281132517b7a",
+      "title_zh": "消息称苹果首款折叠 iPhone 将推深靛蓝色，展开最薄处 4.7 毫米",
+      "summary_zh": "IT之家 4 月 18 日消息，科技媒体 MacWorld 昨日（4 月 17 日）发布博文，在披露 iPhone 18 Pro 和 iPhone 18 Pro Max 主打“深樱桃色”后，还爆料称苹果首款折叠手机（名为 iPhone Fold 或 iPhone Ultra）将推出深靛蓝色（Dark Indigo）颜色。颜色方面，IT之家援引博文介绍，针对 iPhone Fold，苹果公司内部正研",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224959+00:00"
+    },
+    {
+      "title": "From Endless Frontier to Enemy of the People: The Assault on Public Science",
+      "url": "https://www.lawfaremedia.org/article/from-endless-frontier-to-enemy-of-the-people--the-assault-on-public-science",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-17T23:01:32+00:00",
+      "content": "From Endless Frontier to Enemy of the People: The Assault on Public Science. Score: 6, Comments: 0",
+      "id": "487522f381c0398d1444b7042def1a8a",
+      "title_zh": "从无尽的边疆到人民公敌：对公共科学的攻击",
+      "summary_zh": "From Endless Frontier to Enemy of the People: The Assault on Public Science. Score: 6, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225647+00:00"
+    },
+    {
+      "title": "NASA's X-59 Completes First Wheels-Up Flight",
+      "url": "https://www.nasa.gov/blogs/quesst/2026/04/15/nasas-x-59-shows-streamlined-profile-in-wheels-up-flights/",
+      "source": "Hacker News",
+      "domain": "国际",
+      "published": "2026-04-17T22:59:35+00:00",
+      "content": "NASA's X-59 Completes First Wheels-Up Flight. Score: 5, Comments: 3",
+      "id": "b464d788ce9e597a9cd976d9c78f040d",
+      "title_zh": "NASA X-59 完成首次轮式飞行",
+      "summary_zh": "NASA's X-59 Completes First Wheels-Up Flight. Score: 5, Comments: 3",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225841+00:00"
+    },
+    {
+      "title": "How to Host a Blog on a Subdirectory Instead of a Subdomain",
+      "url": "https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-17T22:53:18+00:00",
+      "content": "How to Host a Blog on a Subdirectory Instead of a Subdomain. Score: 7, Comments: 6",
+      "id": "549c3ba85a25caf342090a79fe1e32e8",
+      "title_zh": "如何在子目录而不是子域上托管博客",
+      "summary_zh": "How to Host a Blog on a Subdirectory Instead of a Subdomain. Score: 7, Comments: 6",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225398+00:00"
+    },
+    {
+      "title": "Full-Stack Optimizations for Agentic Inference with NVIDIA Dynamo",
+      "url": "https://developer.nvidia.com/blog/full-stack-optimizations-for-agentic-inference-with-nvidia-dynamo/",
+      "source": "NVIDIA Blog",
+      "domain": "科技",
+      "published": "2026-04-17T22:52:47+00:00",
+      "content": "Coding agents are starting to write production code at scale. Stripe’s agents generate 1,300+ PRs per week. Ramp attributes 30% of merged PRs to agents....",
+      "id": "461856749d573ac8b816847fcf715abf",
+      "title_zh": "使用 NVIDIA Dynamo 进行代理推理的全栈优化",
+      "summary_zh": "Coding agents are starting to write production code at scale. Stripe’s agents generate 1,300+ PRs per week. Ramp attributes 30% of merged PRs to agents....",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224420+00:00"
+    },
+    {
+      "title": "接棒星宇橙，消息称苹果 iPhone 18 Pro / Max 主打“深樱桃色”",
+      "url": "https://www.ithome.com/0/940/610.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-17T22:51:26+00:00",
+      "content": "IT之家 4 月 18 日消息，科技媒体 MacWorld 昨日（4 月 17 日）发布博文，报道称在今年秋季上线的 iPhone 18 Pro 系列上，苹果公司将推出“深樱桃色”（Dark Cherry），替代 iPhone 17 Pro 系列上的“星宇橙”（Cosmic Orange），成为 Pro 系列的新一代标志性色彩。颜色方面，消息称除了“深樱桃色”外，苹果还在测试浅蓝、深灰及银色版本，其中浅蓝色比较接近 iPhone 17 的青雾蓝色（Mist Blue），是一款低饱和度、带灰调的雅致色调。IT之家附上相关色号如下：图源：GSMArena目前内部已确定相应的彩通色号，但最终方案需待量产后确认：浅蓝色（Pantone 2121）深樱桃色（Pantone 6076）深灰色（Pantone 426C）银色（Pantone 427C）设计方面，iPhone 18 Pro 系列将基于现有形态精细化打磨，新机将采用更小的灵动岛设计，有望缩小后置摄像头玻璃与模组凸起之间的间隙，降低玻璃与金属边框间的色差，提升机身背面的整体感。",
+      "id": "9b1ac6e97986623b49934460d9e06975",
+      "title_zh": "接棒星宇橙，消息称苹果 iPhone 18 Pro / Max 主打“深樱桃色”",
+      "summary_zh": "IT之家 4 月 18 日消息，科技媒体 MacWorld 昨日（4 月 17 日）发布博文，报道称在今年秋季上线的 iPhone 18 Pro 系列上，苹果公司将推出“深樱桃色”（Dark Cherry），替代 iPhone 17 Pro 系列上的“星宇橙”（Cosmic Orange），成为 Pro 系列的新一代标志性色彩。颜色方面，消息称除了“深樱桃色”外，苹果还在测试浅蓝、深灰及银色版本，",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225001+00:00"
+    },
+    {
+      "title": "Show HN: Cogveo–Schedule AI agents to run Python on your files and email results",
+      "url": "https://cogveo.com",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-17T22:50:40+00:00",
+      "content": "Article URL: https://cogveo.com\nComments URL: https://news.ycombinator.com/item?id=47811420\nPoints: 1\n# Comments: 0",
+      "id": "45011cb776de3d3686115a44a8ee7af3",
+      "title_zh": "显示 HN：Cogveo – 安排 AI 代理在您的文件和电子邮件结果上运行 Python",
+      "summary_zh": "Article URL: https://cogveo.com Comments URL: https://news.ycombinator.com/item?id=47811420 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.226505+00:00"
+    },
+    {
+      "title": "Cerebras Files for IPO as Demand Surges for More Efficient AI Chips",
+      "url": "https://www.wsj.com/tech/chip-startup-cerebras-files-for-initial-public-offering-4aa27ae3",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-17T22:50:04+00:00",
+      "content": "Article URL: https://www.wsj.com/tech/chip-startup-cerebras-files-for-initial-public-offering-4aa27ae3\nComments URL: https://news.ycombinator.com/item?id=47811414\nPoints: 2\n# Comments: 0",
+      "id": "e2e12960216d9acf2edf3099f55504e7",
+      "title_zh": "随着对更高效人工智能芯片的需求激增，Cerebras 申请 IPO",
+      "summary_zh": "Article URL: https://www.wsj.com/tech/chip-startup-cerebras-files-for-initial-public-offering-4aa27ae3 Comments URL: https://news.ycombinator.com/item?id=47811414 Points: 2 # Comments: 0",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.226554+00:00"
+    },
     {
       "title": "Video shows ships turning away from the Strait of Hormuz as confusion persists over whether sea lane is really open",
       "url": "https://www.cnbc.com/2026/04/17/iran-trump-strait-hormuz-oil-tanker-traffic.html",
@@ -30,6 +296,20 @@
       "collected": "2026-04-17T22:50:19.149232+00:00"
     },
     {
+      "title": "Jim Cramer on the market's 'remarkable' rally — and what to watch in a big earnings week ahead",
+      "url": "https://www.cnbc.com/2026/04/17/jim-cramer-remarkable-rally-what-to-watch-ahead.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-17T22:32:29+00:00",
+      "content": "Jim Cramer says this is one of the most \"remarkable\" rallies he's seen, and provides guidance for the week ahead.",
+      "id": "398300bebe7ffc8f905f0fb408598d50",
+      "title_zh": "吉姆·克莱默 (Jim Cramer) 谈市场“显着”反弹——以及未来一周财报值得关注的内容",
+      "summary_zh": "Jim Cramer says this is one of the most \"remarkable\" rallies he's seen, and provides guidance for the week ahead.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.224383+00:00"
+    },
+    {
       "title": "Landmark ancient-genome study shows surprise acceleration of human evolution",
       "url": "https://www.nature.com/articles/d41586-026-01204-5",
       "source": "Hacker News",
@@ -56,6 +336,20 @@
       "category": "外交",
       "tags": [],
       "collected": "2026-04-17T22:50:19.160164+00:00"
+    },
+    {
+      "title": "DESI Completes Planned 3D Map of the Universe and Continues Exploring",
+      "url": "https://newscenter.lbl.gov/2026/04/15/desi-completes-planned-3d-map-of-the-universe-and-continues-exploring/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-17T22:26:19+00:00",
+      "content": "DESI Completes Planned 3D Map of the Universe and Continues Exploring. Score: 3, Comments: 0",
+      "id": "4dc05bbf54b0fd7152f69a7b77ff6bf0",
+      "title_zh": "DESI 完成了计划中的 3D 宇宙地图并继续探索",
+      "summary_zh": "DESI Completes Planned 3D Map of the Universe and Continues Exploring. Score: 3, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.226108+00:00"
     },
     {
       "title": "Blue Owl Co-CEOs’ Personal Loans No Longer Backed by Firm Shares",
@@ -126,6 +420,34 @@
       "category": "开源",
       "tags": [],
       "collected": "2026-04-17T22:50:19.161678+00:00"
+    },
+    {
+      "title": "Japan reveals new name for 40C-and-hotter days after blistering summer",
+      "url": "https://www.bbc.com/news/articles/crr185nx0n9o",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-17T22:14:41+00:00",
+      "content": "Japan reveals new name for 40C-and-hotter days after blistering summer. Score: 3, Comments: 0",
+      "id": "6036b48bebc493f6387289a8729d93e1",
+      "title_zh": "日本公布了酷暑过后 40 摄氏度及更热天气的新名称",
+      "summary_zh": "Japan reveals new name for 40C-and-hotter days after blistering summer. Score: 3, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.226158+00:00"
+    },
+    {
+      "title": "Kefir C17/C23 Compiler",
+      "url": "https://sr.ht/~jprotopopov/kefir/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-17T22:12:59+00:00",
+      "content": "Kefir C17/C23 Compiler. Score: 5, Comments: 0",
+      "id": "ef01308e7515efcf54805645efb82021",
+      "title_zh": "开菲尔 C17/C23 编译器",
+      "summary_zh": "Kefir C17/C23 Compiler. Score: 5, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.226057+00:00"
     },
     {
       "title": "Geothermal Power Firm Fervo Energy Files for IPO",
@@ -282,6 +604,20 @@
       "collected": "2026-04-17T21:57:55.880927+00:00"
     },
     {
+      "title": "The big business of survival bunkers",
+      "url": "https://www.economist.com/united-states/2026/04/16/the-big-business-of-survival-bunkers",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-17T21:40:18+00:00",
+      "content": "The big business of survival bunkers. Score: 5, Comments: 0",
+      "id": "bd9bde4a8ce214635be9d7406d0a4f9a",
+      "title_zh": "生存掩体的大生意",
+      "summary_zh": "The big business of survival bunkers. Score: 5, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225545+00:00"
+    },
+    {
       "title": "A simplified model of Fil-C",
       "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
       "source": "Hacker News",
@@ -406,6 +742,20 @@
       "category": "外交",
       "tags": [],
       "collected": "2026-04-17T22:50:19.160196+00:00"
+    },
+    {
+      "title": "Using a USB switch as a full KVM",
+      "url": "https://luke.hsiao.dev/blog/display-switch/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-17T21:20:24+00:00",
+      "content": "Using a USB switch as a full KVM. Score: 5, Comments: 0",
+      "id": "95dab22a50c17322129bffe42bcc6af5",
+      "title_zh": "使用 USB 交换机作为完整的 KVM",
+      "summary_zh": "Using a USB switch as a full KVM. Score: 5, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225687+00:00"
     },
     {
       "title": "OpenAI’s former Sora boss is leaving",
@@ -758,6 +1108,20 @@
       "collected": "2026-04-17T20:59:36.569764+00:00"
     },
     {
+      "title": "Two Motorola Transistors Became the Default NPNs",
+      "url": "https://www.allaboutcircuits.com/news/how-two-motorola-transistors-became-the-worlds-default-npns/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-17T20:27:49+00:00",
+      "content": "Two Motorola Transistors Became the Default NPNs. Score: 4, Comments: 1",
+      "id": "a904000b05bb5b258a6d6e631b2fe6c5",
+      "title_zh": "两个摩托罗拉晶体管成为默认 NPN",
+      "summary_zh": "Two Motorola Transistors Became the Default NPNs. Score: 4, Comments: 1",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225934+00:00"
+    },
+    {
       "title": "Breakthrough takes big step toward safe, reversible male contraception",
       "url": "https://news.cornell.edu/stories/2026/04/breakthrough-takes-big-step-toward-safe-reversible-male-contraception",
       "source": "Hacker News",
@@ -868,6 +1232,20 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-04-17T20:59:36.572767+00:00"
+    },
+    {
+      "title": "Self-Hosting",
+      "url": "https://blog.pcora.eu/2026/04/12/on-selfhosting.html",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-17T20:10:05+00:00",
+      "content": "Self-Hosting. Score: 4, Comments: 0",
+      "id": "f3e4d4824eb437b00a95c41ec7dcd982",
+      "title_zh": "自托管",
+      "summary_zh": "Self-Hosting. Score: 4, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225969+00:00"
     },
     {
       "title": "NYC’s Second-Home Tax Unites Mamdani, Hochul",
@@ -14798,6 +15176,20 @@
       "category": "科学",
       "tags": [],
       "collected": "2026-04-16T16:47:04.282877+00:00"
+    },
+    {
+      "title": "Nintendo's Empire of Secrets with Keza MacDonald – Factually with Adam Conover",
+      "url": "https://art19.com/shows/factually--with-adam-conover/episodes/5154e9af-8885-4149-9721-173c02c46bb7/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-16T16:40:49+00:00",
+      "content": "Nintendo's Empire of Secrets with Keza MacDonald – Factually with Adam Conover. Score: 7, Comments: 0",
+      "id": "18b4ed7e1e420b70c99410df5e53936e",
+      "title_zh": "与 Keza MacDonald 合作的任天堂《秘密帝国》——Factually 与 Adam Conover",
+      "summary_zh": "Nintendo's Empire of Secrets with Keza MacDonald – Factually with Adam Conover. Score: 7, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-17T23:44:54.225330+00:00"
     },
     {
       "title": "Tiny cameras in earbuds let users talk with AI about what they see",
@@ -37300,408 +37692,86 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-04-15T00:10:16.754581+00:00"
-    },
-    {
-      "title": "Mac 离线也能跑代码，Claude Code 新增线上自动化例程",
-      "url": "https://www.ithome.com/0/939/177.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:44:47+00:00",
-      "content": "IT之家 4 月 15 日消息，Anthropic 昨日（4 月 14 日）发布公告，宣布为 Claude Code 引入例程（routines）功能，这是一项基于 Web 基础设施的自动化服务。 开发者可打包代码仓库和连接器的自动化任务，设定时间表或触发条件执行，核心优势在于任务运行于云端，即使 Mac 设备离线，预定任务仍能按时完成。该功能目前以研究预览版形式发布，针对定时任务、API 工作流及 GitHub 自动化流程等任务场景，主要解决开发者手动管理 cron 作业和基础设施的痛点。IT之家注：cron 作业是类 Unix 系统中用于定时执行任务的常用工具，传统开发者需手动编写脚本并配置服务器环境。在订阅权限方面，Pro 用户每日可运行 5 个例程，Max 用户限额为 15 个，Team 及企业版用户则支持每日运行 25 个例程。除例程功能外，Anthropic 还发布了重新设计的 Claude Code Mac 客户端。新版本引入并行会话功能，用户可在单一窗口内并排运行多个 Claude 会话，通过新增侧边栏统一管理。改版后的客户端集成了终端、文件编辑器、HTML 及 PDF 预览功能，配备更快的差异查看器。界面采用拖拽式布局，开发者可根据个人习惯自由排列工作区。",
-      "id": "288fed4aea69b5cf5c3411896a3e55d5",
-      "title_zh": "Mac 离线也能跑代码，Claude Code 新增线上自动化例程",
-      "summary_zh": "IT之家 4 月 15 日消息，Anthropic 昨日（4 月 14 日）发布公告，宣布为 Claude Code 引入例程（routines）功能，这是一项基于 Web 基础设施的自动化服务。 开发者可打包代码仓库和连接器的自动化任务，设定时间表或触发条件执行，核心优势在于任务运行于云端，即使 Mac 设备离线，预定任务仍能按时完成。该功能目前以研究预览版形式发布，针对定时任务、API 工作流",
-      "category": "开发",
-      "tags": [],
-      "collected": "2026-04-15T00:10:16.755662+00:00"
-    },
-    {
-      "title": "Your article about AI doesn’t need AI art",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-14T23:42:14+00:00",
-      "content": "Article URL: https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai\nComments URL: https://news.ycombinator.com/item?id=47772908\nPoints: 2\n# Comments: 2",
-      "id": "2f7c7321b3c506003cf32c2381e8d583",
-      "title_zh": "你关于人工智能的文章不需要人工智能艺术",
-      "summary_zh": "Article URL: https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai Comments URL: https://news.ycombinator.com/item?id=47772908 Points: 2 # Comm",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T00:10:16.758277+00:00"
-    },
-    {
-      "title": "Apple App Store threatened to remove Grok over deepfakes: Letter",
-      "url": "https://www.nbcnews.com/tech/tech-news/apple-threat-remove-grok-app-store-deepfake-letter-musk-x-ai-rcna331677",
-      "source": "Hacker News",
-      "domain": "安全",
-      "published": "2026-04-14T23:41:43+00:00",
-      "content": "Apple App Store threatened to remove Grok over deepfakes: Letter. Score: 58, Comments: 24",
-      "id": "68c6be57e363db4503dd0bc291c6f544",
-      "title_zh": "苹果应用商店因 Deepfake 威胁要删除 Grok：信",
-      "summary_zh": "Apple App Store threatened to remove Grok over deepfakes: Letter. Score: 58, Comments: 24",
-      "category": "攻防",
-      "tags": [],
-      "collected": "2026-04-15T03:51:00.776084+00:00"
-    },
-    {
-      "title": "微软推出低成本高效文生图模型 MAI-Image-2-Efficient，成本降低 41%",
-      "url": "https://www.ithome.com/0/939/176.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:41:07+00:00",
-      "content": "IT之家 4 月 15 日消息，本月初，微软公布了一系列自研 AI 模型，其中包括具备转录、语音、图像生成下一代能力的 MAI-Transcribe-1、MAI-Voice-1 和 MAI-Image-2。如今，这家科技巨头推出了 MAI-Image-2-Efficient，这是其旗舰级文本生成图像模型的低成本、高速版本，微软表示该版本以近一半的价格提供了可投入生产的质量。微软将该工具标榜为旗下“最佳文生图模型”，称其能生成“照片级真实且富有表现力”的图像，并能稳定生成图像内文字。微软表示，该模型速度提升 22%，效率提升 4 倍，成本直接降低 41%。具体定价为：每百万文本输入词元（token） 5 美元（IT之家注：现汇率约合 34.2 元人民币），每百万图像输出 19.50 美元（现汇率约合 133.4 元人民币）。MAI-Image-2-Efficient 速度似乎将超过微软旗舰模型，平均比头部云厂商模型快 40%。更值得关注的是，微软拥有两款独立的文生图模型：MAI-Image-2-Efficient 和 MAI-Image-2。微软将前者定位为量产主力模型，适合需要“批量生成、速度与严格成本控制”的场景。该工具擅长生成产品实拍图和 UI 原型图，主要因为它能很好地处理标题、标签等短文本，还可无缝融入交互式工作流。而 MAI-Image-2 则是追求精准度时的首选。它擅长满足高保真需求，如照片级写实场景、动漫或插画等风格化效果，以及更长、更复杂的图像内文字生成，能精准理解并输出贴合详细提示词的内容。目前，MAI-Image-2-Efficient 已正式商用，可在微软 Foundry 和 MAI Playground 中使用。微软还承诺，很快会将该工具集成到 Copilot 和必应中。",
-      "id": "fcfaef75fd862daa3839972427fd92d8",
-      "title_zh": "微软推出低成本高效文生图模型 MAI-Image-2-Efficient，成本降低 41%",
-      "summary_zh": "IT之家 4 月 15 日消息，本月初，微软公布了一系列自研 AI 模型，其中包括具备转录、语音、图像生成下一代能力的 MAI-Transcribe-1、MAI-Voice-1 和 MAI-Image-2。如今，这家科技巨头推出了 MAI-Image-2-Efficient，这是其旗舰级文本生成图像模型的低成本、高速版本，微软表示该版本以近一半的价格提供了可投入生产的质量。微软将该工具标榜为旗下“",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-15T00:10:16.755742+00:00"
-    },
-    {
-      "title": "US Faces $7.8 Billion Measles Risk as Vaccination Rates Decline, Study Finds",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-14/us-faces-7-8-billion-measles-risk-as-vaccination-rates-decline-study-finds",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-04-14T23:38:11+00:00",
-      "content": "A sustained drop in childhood vaccinations could cost the US about $7.8 billion in measles outbreaks over five years, a new study found.",
-      "id": "2a74f229bcb2a70a13340abff44e3e3a",
-      "title_zh": "研究发现，随着疫苗接种率下降，美国面临 78 亿美元的麻疹风险",
-      "summary_zh": "A sustained drop in childhood vaccinations could cost the US about $7.8 billion in measles outbreaks over five years, a new study found.",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T00:10:16.756650+00:00"
-    },
-    {
-      "title": "消息称微软放弃 Surface Hub 大屏产品线，Surface Hub 3 将无后续机型",
-      "url": "https://www.ithome.com/0/939/175.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:33:11+00:00",
-      "content": "IT之家 4 月 15 日消息，北京时间今天（4 月 15 日）凌晨，据 Windows Central 援引知情人士消息称，微软已正式终止 Surface Hub 协作设备产品线。知情人士透露，Surface Hub 3 已停止生产，后续的 Surface Hub 4 计划也被一并取消。目前，微软及渠道仍有少量库存可供销售，售罄后将不再补货。Surface Hub 定位始终面向企业市场，主要用于会议室等场景，通常以批量采购形式部署。Surface Hub 3 提供 50 英寸和 85 英寸两种规格，起售价分别为 8000 美元及 20000 美元（IT之家注：现汇率约合 54744 元及 13.7 万元人民币）。其核心设计在于将显示与计算单元分离，使设备在不更换屏幕的情况下即可完成硬件升级。这一设计仅被微软实际利用过一次。Surface Hub 2 与 Surface Hub 3 共用显示面板，微软曾为 Surface Hub 2 用户单独提供 Surface Hub 3 计算模块，实现低成本升级。Surface Hub 3 还支持屏幕旋转，可在横屏与竖屏形态之间切换。然而，这些差异化功能未能支撑产品线延续，微软已停止后续型号开发。对于现有用户，微软将在 2030 年底前持续提供系统与固件更新支持，设备在可预见时间内仍可正常使用。不过，如果仍有采购需求，无论是用于家庭办公还是小型企业，当前或将是最后的入手机会。Surface Hub 的退出，也意味着微软近年来多项尝试性硬件形态的进一步收缩。微软已在 2023 年停止 Surface Duo 双屏手机项目，随后又放弃了 32 英寸 Surface Studio 一体机和 14 英寸 Surface Laptop Studio。目前，微软 Surface 产品体系已收敛至 Surface Pro 和 Surface Laptop 两大核心系列，通过不同配置覆盖多层价格区间。微软不再推进激进形态，而是转向更主流的笔记本和平板产品，与苹果展开直接竞争，并进一步强化企业市场定位。",
-      "id": "df5bf4e7a03ed183693f8d5172915815",
-      "title_zh": "消息称微软放弃 Surface Hub 大屏产品线，Surface Hub 3 将无后续机型",
-      "summary_zh": "IT之家 4 月 15 日消息，北京时间今天（4 月 15 日）凌晨，据 Windows Central 援引知情人士消息称，微软已正式终止 Surface Hub 协作设备产品线。知情人士透露，Surface Hub 3 已停止生产，后续的 Surface Hub 4 计划也被一并取消。目前，微软及渠道仍有少量库存可供销售，售罄后将不再补货。Surface Hub 定位始终面向企业市场，主要用于",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-15T00:10:16.755819+00:00"
-    },
-    {
-      "title": "谷歌 Windows 桌面搜索应用上线，对标苹果 macOS Spotlight",
-      "url": "https://www.ithome.com/0/939/174.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:31:38+00:00",
-      "content": "IT之家 4 月 15 日消息，去年，谷歌宣布正在测试一款适用于 Windows 的谷歌桌面应用，该应用类似 macOS 的聚焦搜索（Spotlight）功能。如今，这款应用已面向全球推出英文版，可以从谷歌官网下载，支持 Windows 10 及以上版本的电脑。据IT之家了解，按下 Alt + 空格快捷键即可调出该应用，可同时搜索网页、本地文件以及谷歌云端硬盘（Google Drive）中的内容。搜索时，可以切换不同视图，如全部、图片和 AI 模式。如果你想就电脑当前显示的内容向谷歌提问，还可以使用谷歌镜头（Google Lens）或共享屏幕。目前尚不清楚这款应用是否会登陆 macOS 或 Linux 系统，不过据报道，谷歌正在为 macOS 测试一款 Gemini 应用，若正式发布，将与 macOS 平台上的其他 AI 聊天应用展开竞争，例如 Anthropic 的 Claude 以及 OpenAI 的 ChatGPT。",
-      "id": "7648eabe97346215a04640e899b617df",
-      "title_zh": "谷歌 Windows 桌面搜索应用上线，对标苹果 macOS Spotlight",
-      "summary_zh": "IT之家 4 月 15 日消息，去年，谷歌宣布正在测试一款适用于 Windows 的谷歌桌面应用，该应用类似 macOS 的聚焦搜索（Spotlight）功能。如今，这款应用已面向全球推出英文版，可以从谷歌官网下载，支持 Windows 10 及以上版本的电脑。据IT之家了解，按下 Alt + 空格快捷键即可调出该应用，可同时搜索网页、本地文件以及谷歌云端硬盘（Google Drive）中的内容。",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-15T00:10:16.755867+00:00"
-    },
-    {
-      "title": "Meta creating AI version of Mark Zuckerberg so staff can talk to the boss",
-      "url": "https://www.theguardian.com/technology/2026/apr/13/meta-ai-mark-zuckerberg-staff-talk-to-the-boss",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-14T23:30:01+00:00",
-      "content": "Article URL: https://www.theguardian.com/technology/2026/apr/13/meta-ai-mark-zuckerberg-staff-talk-to-the-boss\nComments URL: https://news.ycombinator.com/item?id=47772812\nPoints: 2\n# Comments: 0",
-      "id": "7d19fd31433b0e528da5e6cef0c61ff2",
-      "title_zh": "Meta 创建了马克·扎克伯格的人工智能版本，以便员工可以与老板交谈",
-      "summary_zh": "Article URL: https://www.theguardian.com/technology/2026/apr/13/meta-ai-mark-zuckerberg-staff-talk-to-the-boss Comments URL: https://news.ycombinator.com/item?id=47772812 Points: 2 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T00:10:16.758325+00:00"
-    },
-    {
-      "title": "iOS 26 泄露案动态：普罗瑟未完全遵循传票要求，苹果拟申请强制令",
-      "url": "https://www.ithome.com/0/939/173.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:24:47+00:00",
-      "content": "IT之家 4 月 15 日消息，苹果公司就 iOS 26 设计细节泄露案，向美国加州联邦法院提交了最新联合状态报告。双方此前已就有限取证程序展开合作，迈克尔 · 拉马乔蒂（Michael Ramacciotti）同意补充讯问回复，并愿在苹果完成对 Prosser 的第三方取证后接受后续庭外证词。针对另一当事人乔恩 · 普罗瑟（Jon Prosser），案件进展则面临阻碍。Prosser 去年 10 月因错过投诉回应截止日期，法院已对其作出缺席判决。尽管 Prosser 声称一直与苹果保持沟通，但在今年 1 月收到传票后，他仅提供了部分相关材料。苹果指出，Prosser 未完全回应某些请求，且暗示仍持有其他相关材料，拟申请强制令执行。Prosser 目前正在聘请律师，并计划向法院申请撤销缺席判决。鉴于 Prosser 未在多次延期后完全履行取证义务，苹果计划向俄亥俄州联邦法院提交申请，要求法院命令 Prosser 说明其未完全遵守传票的原因。IT之家此前报道，这场法律纠纷始于 2025 年，当年 3 月和 4 月，Prosser 先后曝光了当时被称为“iOS 19”（实为 iOS 26）的 iMessage 和相机应用界面设计细节。为了掩护信源，Prosser 当时声称使用了人工重绘的渲染图而非系统原始截图，然而这种混淆手段并未奏效。苹果公司迅速锁定了泄密源头，并于同年 7 月以“盗用商业机密”为由正式起诉 Prosser 及其同伙。苹果的调查显示，共同被告 Ramacciotti 在未获授权的情况下，秘密获取了其朋友、时任苹果员工伊桑 · 利普尼克（Ethan Lipnik）开发专用 iPhone 的密码。Ramacciotti 随后通过 FaceTime 向 Prosser 展示了该设备的操作系统界面。相关阅读：《iOS 26 泄密案新进展：苹果动真格，要求爆料人 Prosser 宣誓作证》《iOS 26 泄密案被告内讧：Ramacciotti 否认合谋，650 美元款项成案件核心》《iOS 26 设计细节被提前曝光，苹果起诉两名泄密者案迎来新进展》",
-      "id": "a3d8c08fd452ab445666cb02200124eb",
-      "title_zh": "iOS 26 泄露案动态：普罗瑟未完全遵循传票要求，苹果拟申请强制令",
-      "summary_zh": "IT之家 4 月 15 日消息，苹果公司就 iOS 26 设计细节泄露案，向美国加州联邦法院提交了最新联合状态报告。双方此前已就有限取证程序展开合作，迈克尔 · 拉马乔蒂（Michael Ramacciotti）同意补充讯问回复，并愿在苹果完成对 Prosser 的第三方取证后接受后续庭外证词。针对另一当事人乔恩 · 普罗瑟（Jon Prosser），案件进展则面临阻碍。Prosser 去年 10",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-15T00:10:16.755941+00:00"
-    },
-    {
-      "title": "IT早报 0415：“120W 是商标”充电头功率虚标引热议；微信安卓内测版更新一览；新能源车牌绿变白“做旧褪色”或涉违法；山西晋中将禁止“老头乐”上路...",
-      "url": "https://www.ithome.com/0/939/172.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:24:07+00:00",
-      "content": "“IT早报”时间，大家好，现在是 2026 年 4 月 15 日星期三，今天的重要科技资讯有：1、充电头功率虚标乱象引热议：部分无良商家将“120W”作为商标 / 型号“钓鱼式销售”近期市面上出现大量涉嫌虚标的充电头产品，商家以“120W”作为型号或商标进行“钓鱼式销售”，实际功率仅为 22W 左右。法律专家指出，此举涉嫌虚假宣传和消费欺诈，消费者可依法主张“退一赔三”。&gt;&gt; 查看详情2、微信安卓 8.0.71 内测版更新：界面改版、图标变更、选项上新微信安卓 8.0.71 内测版发布，带来多项界面与功能更新。重点优化了公众号主页布局，新增“文章”分类，让内容浏览更清晰；「听全文」功能悬浮窗和播放器界面大幅简化，并新增字幕滚动；「添加好友」界面引入“服务号”新入口。整体改动力度较大，安卓端此次更新节奏罕见领先于 iOS。&gt;&gt; 查看详情3、新能源车牌绿色变白色，网传“做旧褪色”教程引热议一则关于“多地新能源车牌绿色变白色”的话题 4 月 14 日登上微博热搜，不少网友以为是新能源车牌新样式，结果是网友自己“做旧褪色”。&gt;&gt; 查看详情4、山西晋中整治低速代步电动车“老头乐”，4 月 21 日起禁止上路晋中市将全面整治低速代步电动车“老头乐”，违规上路将面临查处。此举旨在应对此类车辆增多引发的交通安全问题，多地已陆续开始禁止。&gt;&gt; 查看详情5、金山毒霸、360 安全卫士被曝存在内核驱动高危漏洞安全研究人员 Patrick Saif（@weezerOSINT）4 月 13 日在 X 平台发布推文，披露金山毒霸与 360 安全卫士两款主流杀毒软件的内核驱动存在高危漏洞。&gt;&gt; 查看详情6、Omdia：2026 年第一季度中国大陆智能手机出货量同比下降 1%，华为第一Omdia 报告显示，2026 年 Q1 中国大陆手机市场出货 6980 万台，同比微降 1%。华为以 1390 万台出货量、20% 份额重夺第一，苹果紧随其后。成本上涨导致部分品牌涨价，影响了消费意愿，但华为苹果趁机扩大份额。分析师指出，AI 智能体功能与硬件创新将是今年竞争关键。&gt;&gt; 查看详情7、Sensor Tower：2026 年第一季度 TikTok 全球月活首次突破 20 亿TikTok 本季度全球 MAU（IT之家注：月活跃用户）突破 20 亿大关，下载量环比增长 7%，在高基数下仍保持稳定增长。&gt;&gt; 查看详情8、OpenAI 推出网络安全专用 AI 模型 GPT-5.4-Cyber，对标 Claude MythosOpenAI 公司 4 月 14 日发布公告，宣布扩大网络防御可信访问计划（TAC），向数千名网络安全专家及数百个团队开放 GPT-5.4-Cyber。&gt;&gt; 查看详情9、分析师：苹果牺牲硬件利润换市场份额，未来十年 Mac 用户数或翻倍在内存成本大涨的背景下，多数 PC 厂商选择涨价，苹果却反其道而行之。分析师指出，苹果正通过牺牲硬件利润、下调毛利率来扩大 Mac 市场份额，并计划用高利润的软件订阅服务来弥补。这种“硬件不涨价、软件来补”的策略能走多远？&gt;&gt; 查看详情10、英伟达发布全球首个开源量子 AI 模型“ISING”，解决量子计算纠错与校准两大核心难题IT之家 4 月 14 日消息，英伟达发布全球首个开源量子 AI 模型“ISING”，旨在帮助科研人员、企业构建可以实际应用的量子处理器，重点解决误差校正、处理器校准两大核心痛点。&gt;&gt; 查看详情11、多所高校鼓励博士生再读一个 AI 等相关专业硕士多所高校近期相继启动“博士 + 硕士”双学位项目，鼓励博士生再攻读一个人工智能等相关专业的硕士学位。&gt;&gt; 查看详情12、消息称三星显示器本月国行所有订单作废：无货可出，渠道仅在消耗库存据渠道消息，三星显示器已通知代理商，四月国行所有订单作废，无新货可出。目前渠道仅能消耗现有库存，翰林汇、三星鹏泰等供应商均受影响，部分渠道已取消补贴变相涨价。&gt;&gt; 查看详情13、OPPO Pad Mini 小平板核心亮点公布：2.5K 144Hz OLED 屏、8000mAh 电池，4 月 21 日发布OPPO 官方 4 月 14 日公布了 OPPO Pad Mini 小平板的核心亮点，新机正面配备 2.5K OLED 明眸柔光屏，搭载第五代骁龙 8 旗舰处理器，并内置 8000mAh 电池。&gt;&gt; 查看详情14、三星 One UI 9 截图曝光：界面更简洁、动画更丝滑科技媒体 sammyguru 于 4 月 11 日发布博文，分享了一组截图，展示了三星 One UI 9 早期泄露版本，重点优化界面整洁度、动画流畅性，并在",
-      "id": "25fc3b2b60e2d157f774cb186166e8e1",
-      "title_zh": "IT早报 0415：“120W 是商标”充电头功率虚标引热议；微信安卓内测版更新一览；新能源车牌绿变白“做旧褪色”或涉违法；山西晋中将禁止“老头乐”上路...",
-      "summary_zh": "“IT早报”时间，大家好，现在是 2026 年 4 月 15 日星期三，今天的重要科技资讯有：1、充电头功率虚标乱象引热议：部分无良商家将“120W”作为商标 / 型号“钓鱼式销售”近期市面上出现大量涉嫌虚标的充电头产品，商家以“120W”作为型号或商标进行“钓鱼式销售”，实际功率仅为 22W 左右。法律专家指出，此举涉嫌虚假宣传和消费欺诈，消费者可依法主张“退一赔三”。&gt;&gt; 查看详情",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.127996+00:00"
-    },
-    {
-      "title": "特朗普手机官网全面改版，T1 手机最终定型但上市时间依旧是谜",
-      "url": "https://www.ithome.com/0/939/171.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:21:53+00:00",
-      "content": "IT之家 4 月 15 日消息，特朗普手机（Trump Mobile）对其官网进行了全面改版，推出了全新 Logo、新设计语言以及新版 T1 手机。这款经过重新设计的机型，正是两个月前两位公司高管在视频通话中展示的那款，如今基本可以确认为最终定型版本，但上市时间依旧没有任何消息。这款手机依旧是金色，背面带有美国国旗图案，部分图片中国旗为黑色，另一些则为白色，旁边配有“Trump Mobile”字样标识。The Verge 编辑此前看到的设计版本背面还有一个巨大的“T1”Logo 贯穿整个后盖，不过被告知这一元素会被移除，而在当前版本中也确实已消失不见。手机后置三摄，镜头排布略显怪异，旁边还有第二个“Trump Mobile”标识；机身采用曲面边缘设计，顶部保留了 3.5mm 耳机孔。整体外观依然与 HTC U24 Pro 十分相似。手机的配置清单也同步更新。该机重新采用 6.78 英寸 OLED 屏幕 —— 这是发布初期标注的尺寸，之后曾莫名改为 6.25 英寸。后置三摄包括 5000 万像素主摄、2 倍长焦镜头以及 800 万像素超广角镜头，前置 5000 万像素自拍镜头。内置 5000mAh 电池，支持 30W 充电，标配 512GB 存储空间，搭载未具体说明型号的高通骁龙 7 系列处理器，运行 Android 15 系统。目前官网标注该机“促销价”为 499 美元（IT之家注：现汇率约合 3415 元人民币），此前这一价格就是其标准售价。网站仍接受 100 美元定金，并承诺可“锁定”该促销价。今年 2 月高管埃里克 · 托马斯、唐 · 亨德里克森曾表示 499 美元为“首发价”，改版后将会上调，但承诺早期用户仍只需支付 499 美元，且新定价不会超过 1000 美元。官网依旧未公布最终售价，也未提及上市时间，此前标注的“年内上市”已从网站中删除。有关美国制造的表述也再次变更：现在称手机由“美国创新塑造”，由“美国团队主导设计与品控”，并未给出更具体的信息。而该公司高管此前曾称，手机将在迈阿密完成最终组装。最初的“美国制造”描述早已消失，其委婉的替代说法“每台设备都有美国人亲手打造”也已不见踪影。除手机信息更新外，特朗普手机还调整了移动通信套餐。47.45 美元（现汇率约合 324.7 元人民币）套餐面向军人及退伍军人提供 15% 折扣，同时新增家庭套餐，办理号码越多单价越低。官网甚至打出宣传语：“‘Trump’标识将作为你的网络名称，醒目显示在状态栏中”。整个官网完成了重新设计，视觉风格更流畅，Logo 也更现代化。小唐纳德 · 特朗普与埃里克 · 特朗普（特朗普总统的两个儿子）的曝光度大幅提升：埃里克占据首页核心位置，小唐纳德出现在套餐页面，两人还共同在关于页面的全新宣传视频中出镜。兄弟二人正式运营特朗普集团，从一开始就大力推广特朗普手机。不过官网显然仍在完善中。今天凌晨美国东部时间约 3 点新版官网的多个子页面链接还指向预发布测试环境；尝试为 T1 手机支付定金时，页面显示的还是去年 6 月公布的原版粗糙渲染图。这些问题在随后几小时内已修复，但有一个页面出现新错误，将 499 美元标注为定金而非整机售价。新 Logo 已同步至公司 Facebook 和 Instagram 账号，但 X 平台（原推特）与 Truth Social 尚未更新，说明此次品牌改版仍在逐步推进。特朗普手机已获得美国联邦通信委员会（FCC）认证，上周还提交了新的 47 套餐商标申请，种种迹象表明项目正在推进。此次官网改版是最新证据：这款特朗普主题手机，或许终究会变成一款真正上市的产品。",
-      "id": "6f3df93983255b8c814dfab1055eb7ee",
-      "title_zh": "特朗普手机官网全面改版，T1 手机最终定型但上市时间依旧是谜",
-      "summary_zh": "IT之家 4 月 15 日消息，特朗普手机（Trump Mobile）对其官网进行了全面改版，推出了全新 Logo、新设计语言以及新版 T1 手机。这款经过重新设计的机型，正是两个月前两位公司高管在视频通话中展示的那款，如今基本可以确认为最终定型版本，但上市时间依旧没有任何消息。这款手机依旧是金色，背面带有美国国旗图案，部分图片中国旗为黑色，另一些则为白色，旁边配有“Trump Mobile”字样",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.128103+00:00"
-    },
-    {
-      "title": "CadQuery is an open-source Python library for building 3D CAD models",
-      "url": "https://cadquery.github.io/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-04-14T23:20:39+00:00",
-      "content": "CadQuery is an open-source Python library for building 3D CAD models. Score: 48, Comments: 5",
-      "id": "58cd59b70fa97bd8d1fe70cca737ac89",
-      "title_zh": "CadQuery 是一个用于构建 3D CAD 模型的开源 Python 库",
-      "summary_zh": "CadQuery is an open-source Python library for building 3D CAD models. Score: 48, Comments: 5",
-      "category": "开发",
-      "tags": [],
-      "collected": "2026-04-17T02:58:06.339066+00:00"
-    },
-    {
-      "title": "Show HN: I built a self-improving autonomous AI agent that runs 24/7",
-      "url": "https://hergimuci.gumroad.com/l/ai-agent-blueprint",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-14T23:18:26+00:00",
-      "content": "Article URL: https://hergimuci.gumroad.com/l/ai-agent-blueprint\nComments URL: https://news.ycombinator.com/item?id=47772707\nPoints: 1\n# Comments: 0",
-      "id": "a652a16df846517c09b7042e9fe7b66c",
-      "title_zh": "Show HN：我构建了一个自我改进的自主 AI 代理，可以 24/7 运行",
-      "summary_zh": "Article URL: https://hergimuci.gumroad.com/l/ai-agent-blueprint Comments URL: https://news.ycombinator.com/item?id=47772707 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.131485+00:00"
-    },
-    {
-      "title": "I built an AI podcast that roasts a company with Lennys Newsletter as ammunition",
-      "url": "https://www.lennyseviltwin.com/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-14T23:14:26+00:00",
-      "content": "Article URL: https://www.lennyseviltwin.com/\nComments URL: https://news.ycombinator.com/item?id=47772672\nPoints: 1\n# Comments: 1",
-      "id": "77064b28ebf0c8c40fa54a67a11dd333",
-      "title_zh": "我建立了一个人工智能播客，以 Lennys Newsletter 作为弹药来炒作一家公司",
-      "summary_zh": "Article URL: https://www.lennyseviltwin.com/ Comments URL: https://news.ycombinator.com/item?id=47772672 Points: 1 # Comments: 1",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.131533+00:00"
-    },
-    {
-      "title": "Three years of messages at once - a chronicle of Sudan's war pours in as trapped reporter's phone turns on",
-      "url": "https://www.bbc.com/news/articles/cy01d1g0rrjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "domain": "国际",
-      "published": "2026-04-14T23:13:15+00:00",
-      "content": "As the conflict enters its fourth year, journalist Mohamed Suleiman shudders at what has been lost.",
-      "id": "ecc4dea69bce72409c67481a2c52e116",
-      "title_zh": "三年的信息同时出现——当被困记者的手机打开时，苏丹战争的编年史涌入",
-      "summary_zh": "As the conflict enters its fourth year, journalist Mohamed Suleiman shudders at what has been lost.",
-      "category": "外交",
-      "tags": [],
-      "collected": "2026-04-15T03:51:00.774603+00:00"
-    },
-    {
-      "title": "Adobe 修复 PDF 阅读器零日漏洞，已被黑客利用至少四个月",
-      "url": "https://www.ithome.com/0/939/170.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:11:12+00:00",
-      "content": "IT之家 4 月 15 日消息，Adobe 已为其旗舰文档阅读应用程序 Acrobat DC、Reader DC 及 Acrobat 2024 修复了一个漏洞，该漏洞已被黑客至少主动利用了四个月。IT之家注意到，该漏洞官方编号为 CVE-2026-34621，黑客可通过诱骗用户在 Windows 或 macOS 设备上打开精心构造的恶意 PDF 文件，远程在设备上植入恶意软件。该利用程序针对部分版本的 Adobe Reader 软件中的漏洞。目前尚不清楚此次黑客攻击活动已影响多少用户。Adobe 在其官网公告中表示，已知晓该漏洞正被在野利用（即零日漏洞），这意味着黑客在 Adobe 发布修复程序之前，就已利用该漏洞入侵用户电脑。目前暂未查明此次黑客行动的幕后主使。由于 Adobe PDF 阅读软件使用范围极广，一直是网络犯罪分子与境外背景黑客组织的重点攻击目标，他们长期利用该软件的漏洞窃取用户电脑中的数据。安全研究员李海飞（Haifei Li，音译）运营着漏洞利用检测系统 EXPMON，在有人上传一份包含该漏洞利用代码的恶意 PDF 样本到其恶意软件扫描平台后，他发现了此漏洞。李海飞在博客中提到，另一款含恶意代码的 PDF 样本已于 2025 年 11 月下旬首次出现在在线恶意软件扫描平台 VirusTotal 上。目前仍不清楚此次黑客行动的攻击目标与动机，李海飞表示，无法从黑客服务器获取更多漏洞利用程序。但根据其分析，打开恶意 PDF 并触发漏洞“可能导致受害者系统被完全控制”，黑客可借此窃取各类数据。Adobe 确认 Acrobat DC、Reader DC 和 Acrobat 2024 均受影响，并强烈建议用户将软件更新至最新版本。",
-      "id": "0635fee49f6025e382da0ad8d8d5e7cd",
-      "title_zh": "Adobe 修复 PDF 阅读器零日漏洞，已被黑客利用至少四个月",
-      "summary_zh": "IT之家 4 月 15 日消息，Adobe 已为其旗舰文档阅读应用程序 Acrobat DC、Reader DC 及 Acrobat 2024 修复了一个漏洞，该漏洞已被黑客至少主动利用了四个月。IT之家注意到，该漏洞官方编号为 CVE-2026-34621，黑客可通过诱骗用户在 Windows 或 macOS 设备上打开精心构造的恶意 PDF 文件，远程在设备上植入恶意软件。该利用程序针对部分版",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.128173+00:00"
-    },
-    {
-      "title": "两款违规应用被苹果 App Store 下架，已致 50+ 用户损失约 950 万美元",
-      "url": "https://www.ithome.com/0/939/169.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:09:07+00:00",
-      "content": "IT之家 4 月 15 日消息，科技媒体 9to5Mac 昨日（4 月 14 日）发布博文，报道称苹果 App Store 应用商店单日下架两款问题应用，至少出现 50 名受害者，涉及价值约 950 万美元（IT之家注：现汇率约合 6500.8 万元人民币）的加密货币。根据 CoinDesk 报道，名为 Ledger Live 的假冒应用成功绕过苹果应用商店审核机制，导致用户遭受重大财产损失。在 4 月 7 日至 13 日期间，该恶意应用致使至少 50 名用户的比特币、以太坊等资产被盗。损失最为惨重的 3 名受害者均损失了 7 位数资金，其中单笔最高被盗金额达 323 万美元。目前苹果已将该应用下架，但尚未对此事发表评论。区块链调查人员追踪发现，被盗资金已被转移至 KuCoin 存款地址。该地址被指与一个中心化加密货币混币服务有关，该服务通常通过收取高额费用来掩盖非法资金流向。区块链调查员 ZachXBT 指出，此次事件可能会引发集体诉讼。目前尚不清楚该恶意应用如何通过审核，以及苹果为何未在接到早期被盗报告后立即采取行动。同日，另一款名为 Freecash 的应用也因违规被苹果下架。据 TechCrunch 披露，该应用通过在 TikTok 承诺“刷视频赚钱”迅速蹿红，实则是在收集用户的种族、健康及生物特征等敏感个人数据。Malwarebytes 的报告指出，该应用本质上是一个数据中介平台，通过奖励机制诱导用户下载并消费特定手机游戏。调查进一步揭示了 Freecash 背后开发者的违规操作历史。其早期版本由 Almedia GmbH 发布并于 2024 年中被下架。数月后，塞浦路斯公司 256 Rewards Ltd 将现有应用更名为 Freecash 并重新上架，涉嫌通过更换开发者账号规避封禁。",
-      "id": "7c9d9e2d05cff7d5ac9cfe3eb71ce62f",
-      "title_zh": "两款违规应用被苹果 App Store 下架，已致 50+ 用户损失约 950 万美元",
-      "summary_zh": "IT之家 4 月 15 日消息，科技媒体 9to5Mac 昨日（4 月 14 日）发布博文，报道称苹果 App Store 应用商店单日下架两款问题应用，至少出现 50 名受害者，涉及价值约 950 万美元（IT之家注：现汇率约合 6500.8 万元人民币）的加密货币。根据 CoinDesk 报道，名为 Ledger Live 的假冒应用成功绕过苹果应用商店审核机制，导致用户遭受重大财产损失。在",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.128246+00:00"
-    },
-    {
-      "title": "WordPress 数十款插件被植入后门，超 2 万站点面临风险",
-      "url": "https://www.ithome.com/0/939/168.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T23:04:34+00:00",
-      "content": "IT之家 4 月 15 日消息，据 Techcrunch 报道，热门开源网页博客软件 WordPress 的数十款插件现已下线，原因是这些插件中被发现存在后门程序，该后门可向所有使用这些插件的网站推送恶意代码。这一后门是在这些插件被新的企业方收购后被发现的。IT之家注意到，网络托管服务商 Anchor Hosting 创始人奥斯汀 · 金德（Austin Ginder）上周在一篇博文中发出警告，称针对 WordPress 插件开发商 Essential Plugin 发生了一起供应链攻击。金德表示，去年有人收购了 Essential Plugin，此后不久，插件源代码中就被植入了后门。该后门在此前一直处于休眠状态，直到本月早些时候被激活，并开始向所有安装了相关插件的网站分发恶意代码。Essential Plugin 在其官网称，旗下插件安装量超过 40 万次，拥有超过 1.5 万名客户。而 WordPress 插件安装页面显示，受影响的插件正被用于超过 2 万个活跃的 WordPress 站点。插件能让基于 WordPress 的网站站长扩展网站功能，但这也意味着插件会获得网站的访问权限，可能使这些网站面临恶意扩展程序的威胁，甚至被入侵。但金德警告称，WordPress 用户并不会收到插件所有权变更的通知，这使得用户可能面临被新插件所有者接管攻击的风险。据金德介绍，这是短短两周内发现的第二起 WordPress 插件遭劫持事件。安全研究人员长期以来一直警告：恶意行为者通过收购软件并篡改代码，进而入侵全球大量计算机，这类风险一直存在。尽管相关插件已从 WordPress 官方插件库下架，并标注为永久下线，金德仍提醒 WordPress 站长检查自己是否仍安装了这些恶意插件，并立即删除。金德在博文中列出了受影响插件的完整清单。参考资料：https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/",
-      "id": "33d38b128a321b469953a9c2f89cdbec",
-      "title_zh": "WordPress 数十款插件被植入后门，超 2 万站点面临风险",
-      "summary_zh": "IT之家 4 月 15 日消息，据 Techcrunch 报道，热门开源网页博客软件 WordPress 的数十款插件现已下线，原因是这些插件中被发现存在后门程序，该后门可向所有使用这些插件的网站推送恶意代码。这一后门是在这些插件被新的企业方收购后被发现的。IT之家注意到，网络托管服务商 Anchor Hosting 创始人奥斯汀 · 金德（Austin Ginder）上周在一篇博文中发出警告，称",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.128326+00:00"
-    },
-    {
-      "title": "China’s Data Centers Are Plugging Into REIT-Style Financing Wave",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-14/china-s-data-centers-are-plugging-into-reit-style-financing-wave",
-      "source": "Bloomberg Tech",
-      "domain": "经济",
-      "published": "2026-04-14T23:00:01+00:00",
-      "content": "China’s data center operators are tapping a fast-growing asset-backed security market, raising more than a billion dollars from investors hungry for higher yields.",
-      "id": "cbb8df17325af3b381b3bb9f16dc03e5",
-      "title_zh": "中国的数据中心正在融入房地产投资信托基金式的融资浪潮",
-      "summary_zh": "China’s data center operators are tapping a fast-growing asset-backed security market, raising more than a billion dollars from investors hungry for higher yields.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-15T03:51:00.775615+00:00"
-    },
-    {
-      "title": "Sony is nerfing its Bravia TVs' program guide",
-      "url": "https://www.engadget.com/home/home-theater/sony-is-nerfing-its-bravia-tvs-program-guide-225640797.html?src=rss",
-      "source": "Engadget",
-      "domain": "科技",
-      "published": "2026-04-14T22:56:40+00:00",
-      "content": "Sony is removing some features from its TV guide and program guide displays for channels received by an over the air TV antenna on select models of Bravia televisions from 2023-2025. Cord Cutters News reported on the changes, which will take effect in late May.Channel logos and thumbnail images in program descriptions are going away from the built-in TV Guide for antenna TV channels. Only programs from recently watched channels will be shown in the guide, and depending on the channel, program information may not be displayed. Change is also coming for set top box users, with the dedicated Set Top Box TV menu being removed and replaced by a Control menu. This setup will also not show program thumbnail images any longer.&nbsp;This is an admittedly narrow use case in the age of both streaming and cable TV, but Sony didn't provide any reason for making the change. And for those people who are impacted, this could be an unpleasant surprise next month that makes the TV guide and program guide much less helpful.This article originally appeared on Engadget at https://www.engadget.com/home/home-theater/sony-is-nerfing-its-bravia-tvs-program-guide-225640797.html?src=rss",
-      "id": "5c80ea98d478165181b2eb824c7d689f",
-      "title_zh": "索尼正在削弱 Bravia 电视的节目指南",
-      "summary_zh": "Sony is removing some features from its TV guide and program guide displays for channels received by an over the air TV antenna on select models of Bravia televisions from 2023-2025. Cord Cutters News",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.127183+00:00"
-    },
-    {
-      "title": "Anthropic Wins Accolades From Canada’s AI Minister Over Mythos Approach",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-14/anthropic-wins-accolades-from-canada-s-ai-minister-over-mythos-approach",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-04-14T22:51:17+00:00",
-      "content": "A Canadian cabinet minister praised Anthropic PBC’s decision to introduce its Mythos model to select companies and allow them to test the technology before releasing it more widely.",
-      "id": "3a0e50a7500bfa08053297fc4caaef0a",
-      "title_zh": "Anthropic 凭借神话般的方法赢得了加拿大人工智能部长的赞誉",
-      "summary_zh": "A Canadian cabinet minister praised Anthropic PBC’s decision to introduce its Mythos model to select companies and allow them to test the technology before releasing it more widely.",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.129160+00:00"
-    },
-    {
-      "title": "OpenAI 推出网络安全专用 AI 模型 GPT-5.4-Cyber，对标 Claude Mythos",
-      "url": "https://www.ithome.com/0/939/167.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-14T22:50:46+00:00",
-      "content": "IT之家 4 月 15 日消息，OpenAI 公司昨日（4 月 14 日）发布公告，宣布扩大网络防御可信访问计划（TAC），向数千名网络安全专家及数百个团队开放 GPT-5.4-Cyber。该模型基于 GPT-5.4 模型，并针对网络安全防御场景专门微调，具有更高的网络权限许可。OpenAI 强调将继续围绕着民主化访问、迭代部署与生态韧性三大核心，推进网络安全战略。IT之家援引博文介绍，在访问机制上，为了让各类合法防御者（包括保护关键基础设施的人员）都能获得先进的防御能力，OpenAI 实施强身份验证等客观标准，避免主观决定访问权限。在生态建设方面，公司自 2023 年起启动网络安全资助计划，今年推出 Codex Security 工具，自动监控代码库并建议修复方案，目前已协助修复超过 3000 个高危及严重漏洞。面对 AI 被攻击者利用的风险，OpenAI 认为防御能力必须与模型能力同步扩展。公司从 GPT-5.2 开始引入网络特定安全训练，并在 GPT-5.4 中将其归类为“高”网络能力等级。GPT-5.4-Cyber 专为合法网络安全工作设计，降低了拒绝边界，支持二进制逆向工程等高级工作流，允许安全专业人员分析编译软件中的恶意软件及漏洞。由于该模型权限更开放，OpenAI 采取有限且迭代的部署策略，仅向经过审查的安全供应商及研究人员开放。个人用户可通过官网验证身份，企业客户可通过代表申请团队访问，所有获批客户将获得在双重用途网络活动中摩擦更低的模型版本，以支持安全教育与漏洞研究。",
-      "id": "8d0af433c3371675294251a80ac82a8e",
-      "title_zh": "OpenAI 推出网络安全专用 AI 模型 GPT-5.4-Cyber，对标 Claude Mythos",
-      "summary_zh": "IT之家 4 月 15 日消息，OpenAI 公司昨日（4 月 14 日）发布公告，宣布扩大网络防御可信访问计划（TAC），向数千名网络安全专家及数百个团队开放 GPT-5.4-Cyber。该模型基于 GPT-5.4 模型，并针对网络安全防御场景专门微调，具有更高的网络权限许可。OpenAI 强调将继续围绕着民主化访问、迭代部署与生态韧性三大核心，推进网络安全战略。IT之家援引博文介绍，在访问机制",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.128392+00:00"
-    },
-    {
-      "title": "Cramer: The market's biggest fears 'just didn't happen' – and that's why you can't leave the game",
-      "url": "https://www.cnbc.com/2026/04/14/jim-cramer-says-the-market-rally-shows-why-you-cant-bail-on-stocks.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-04-14T22:50:38+00:00",
-      "content": "CNBC's Jim Cramer explained why bailing on stocks when things look bleak ends up hurting you in the long run.",
-      "id": "ac539e294d4d6b75a6ef78d919e4a4ec",
-      "title_zh": "克莱默：市场最大的担忧“并没有发生”——这就是为什么你不能离开游戏",
-      "summary_zh": "CNBC's Jim Cramer explained why bailing on stocks when things look bleak ends up hurting you in the long run.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-14T23:26:12.127113+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
+        "title": "停止使用幼稚的 RAG – 添加与 AI 上下文的关系",
+        "summary": "本文探讨了如何改进检索增强生成 (RAG) 技术，使其更智能地理解和利用上下文。",
+        "url": "https://news.ycombinator.com/item?id=47811753",
+        "source": "Hacker News AI",
+        "category": "LLM"
+      },
+      {
+        "rank": 2,
+        "title": "关闭的初创公司正在向人工智能公司出售旧的 Slack 聊天和电子邮件",
+        "summary": "数据是 AI 的燃料，倒闭的初创公司正以新的方式将其变现。",
+        "url": "https://www.fastcompany.com/91528808/shuttered-startups-are-selling-old-slack-chats-and-emails-to-ai-companies",
+        "source": "Hacker News AI",
+        "category": "AI产品"
+      },
+      {
+        "rank": 3,
+        "title": "AI 代理应该浏览您的网站，而不是调用您的 API",
+        "summary": "该技术演示展示了如何让 AI 代理更高效地与网站互动。",
+        "url": "https://www.rtrvr.ai/rover/blog/four-architectures-website-ai-agents",
+        "source": "Hacker News AI",
+        "category": "LLM"
+      },
+      {
+        "rank": 4,
+        "title": "缅因州对新数据中心说不。其他州也竞相效仿",
+        "summary": "AI 数据中心面临环境挑战，一些州开始限制其建设。",
+        "url": "https://www.motherjones.com/environment/2026/04/maine-ai-data-center-moratorium-ban-energy-grid/",
+        "source": "Hacker News",
+        "category": "LLM"
+      },
+      {
+        "rank": 5,
+        "title": "Cerebras 申请 IPO，因对更高效人工智能芯片的需求激增",
+        "summary": "AI 芯片制造商 Cerebras Systems 寻求通过 IPO 融资，以满足日益增长的市场需求。",
+        "url": "https://www.wsj.com/tech/chip-startup-cerebras-files-for-initial-public-offering-4aa27ae3",
+        "source": "Hacker News AI",
+        "category": "AI产品"
+      },
+      {
+        "rank": 6,
         "title": "萨姆·奥尔特曼的世界项目希望扩大其人类验证帝国。第一站：Tinder。",
-        "summary": "OpenAI CEO 萨姆·奥尔特曼的世界项目正在与 Tinder 合作，利用 AI 来验证用户身份。",
+        "summary": "OpenAI CEO Sam Altman 的新项目旨在通过与 Tinder 合作扩展其身份验证系统。",
         "url": "https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/",
         "source": "TechCrunch AI",
         "category": "LLM"
       },
       {
-        "rank": 2,
-        "title": "Cal.com OSS 项目因人工智能而闭源",
-        "summary": "Cal.com，一个流行的开源日程安排工具，由于其对人工智能的依赖，已决定闭源。",
-        "url": "https://cal.com/de/blog/cal-com-goes-closed-source-why",
-        "source": "Hacker News AI",
-        "category": "LLM"
-      },
-      {
-        "rank": 3,
-        "title": "引入 Amazon Bedrock 的精细成本归因",
-        "summary": "AWS 宣布为 Amazon Bedrock 推出精细成本归因功能，以更好地管理 AI 成本。",
-        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-granular-cost-attribution-for-amazon-bedrock/",
-        "source": "AWS AI Blog",
-        "category": "LLM"
-      },
-      {
-        "rank": 4,
-        "title": "Stitch——谷歌的人工智能设计工具",
-        "summary": "谷歌发布了 Stitch，一款旨在通过人工智能辅助设计流程的工具。",
-        "url": "https://stitch.withgoogle.com/",
-        "source": "Hacker News AI",
-        "category": "LLM"
-      },
-      {
-        "rank": 5,
-        "title": "Andreessen Horowitz 投资人工智能平台 Rillet",
-        "summary": "Andreessen Horowitz 领投了对人工智能平台 Rillet 的投资，显示了对该领域的信心。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-17/andreessen-horowitz-invests-in-ai-platform-rillet-video",
-        "source": "Bloomberg Tech",
-        "category": "LLM"
-      },
-      {
-        "rank": 6,
-        "title": "Logfare.ai – 免费法学硕士推理。无授权。无限制",
-        "summary": "Logfare.ai 推出了一款免费的大型语言模型推理工具，无限制使用。",
-        "url": "https://news.ycombinator.com/submit",
-        "source": "Hacker News AI",
-        "category": "LLM"
-      },
-      {
         "rank": 7,
-        "title": "中国团体呼吁建立全球人工智能治理框架 – Chinadaily.com.cn",
-        "summary": "中国呼吁建立一个全球性的人工智能治理框架，以应对 AI 带来的挑战。",
-        "url": "https://www.chinadaily.com.cn/a/202604/14/WS69de4411a310d6866eb43650.html",
-        "source": "Hacker News AI",
-        "category": "研究"
-      },
-      {
-        "rank": 8,
-        "title": "OpenAI 前 Sora 老板即将离职",
-        "summary": "OpenAI 的 Sora 模型前负责人即将离职，引发了对公司内部变动的关注。",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
-        "source": "The Verge AI",
-        "category": "CV"
-      },
-      {
-        "rank": 9,
         "title": "停止向 UGC 创作者烧钱：利用人工智能在几秒钟内生成病毒式广告",
-        "summary": "一项提议展示了如何利用 AI 在几秒钟内生成病毒式广告，从而降低内容创作成本。",
+        "summary": "AI 技术可以帮助用户生成吸引人的广告内容，降低营销成本。",
         "url": "https://ecomscalingpro.substack.com/p/how-i-went-from-0-to-scaling-my-shopify",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
+        "rank": 8,
+        "title": "Cal.com OSS 项目因人工智能而闭源",
+        "summary": "一个开源项目因 AI 相关原因转向闭源模式，引发社区讨论。",
+        "url": "https://cal.com/de/blog/cal-com-goes-closed-source-why",
+        "source": "Hacker News AI",
+        "category": "LLM"
+      },
+      {
+        "rank": 9,
+        "title": "Ryan Mather：我从克劳德设计中获得最佳结果的秘诀",
+        "summary": "分享使用 Claude 设计工具获得出色结果的经验和技巧。",
+        "url": "https://twitter.com/flomerboy/status/2045162321589252458",
+        "source": "Hacker News",
+        "category": "LLM"
+      },
+      {
         "rank": 10,
         "title": "Show HN：Mind-OS – 首个免费在线人工智能依赖性自我评估",
-        "summary": "Mind-OS 推出了一款免费的在线工具，用于评估用户对 AI 的依赖程度。",
+        "summary": "一个新发布的工具，用于在线评估 AI 系统的依赖性。",
         "url": "https://iamalex-afk.github.io/human-os-patch-33-protocols/",
         "source": "Hacker News AI",
         "category": "开源"
@@ -37711,7 +37781,7 @@
       {
         "rank": 1,
         "title": "Payouts King 勒索软件使用 QEMU VM 绕过端点安全",
-        "summary": "Payouts King 勒索软件利用 QEMU 虚拟机来规避端点安全检测。",
+        "summary": "新的勒索软件 Payouts King 利用 QEMU VM 技术逃避安全检测。",
         "url": "https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/",
         "source": "BleepingComputer",
         "category": "攻防"
@@ -37719,7 +37789,7 @@
       {
         "rank": 2,
         "title": "白宫办公厅主任将与 Anthropic 首席执行官就其新人工智能技术进行会面",
-        "summary": "白宫官员将与 Anthropic CEO 讨论其新兴 AI 技术，凸显政府对 AI 安全的关注。",
+        "summary": "白宫高级官员将与 Anthropic CEO 讨论 AI 技术及其潜在影响。",
         "url": "https://www.securityweek.com/white-house-chief-of-staff-to-meet-ith-anthropic-ceo-over-its-new-ai-technology/",
         "source": "SecurityWeek",
         "category": "攻防"
@@ -37727,65 +37797,65 @@
       {
         "rank": 3,
         "title": "由于漏洞过载，NIST 削减了 CVE 分析",
-        "summary": "NIST 由于漏洞数量庞大，不得不削减其 CVE（通用漏洞披露）分析工作。",
+        "summary": "NIST 因漏洞数量激增而调整了 CVE 分析策略。",
         "url": "https://www.csoonline.com/article/4159882/nist-cuts-down-cve-analysis-amid-vulnerability-overload.html",
         "source": "Hacker News",
         "category": "漏洞"
       },
       {
         "rank": 4,
-        "title": "三个 Microsoft Defender 零日漏洞被积极利用；两个还没打补丁",
-        "summary": "三个 Microsoft Defender 零日漏洞被积极利用，其中两个尚未修复，构成严重安全风险。",
-        "url": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
-        "source": "The Hacker News",
-        "category": "漏洞"
-      },
-      {
-        "rank": 5,
-        "title": "地下指南内部：威胁行为者如何审查被盗的信用卡商店",
-        "summary": "一份关于威胁行为者如何审查被盗信用卡商店的地下指南被披露，揭示了网络犯罪的运作方式。",
-        "url": "https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/",
+        "title": "Grinex 交易所将价值 1370 万美元的加密货币黑客攻击归咎于“西方情报机构”",
+        "summary": "Grinex 交易所声称其 1370 万美元的加密货币被盗是由于“西方情报机构”所为。",
+        "url": "https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
+        "rank": 5,
+        "title": "CoChat推出AI协作平台对抗Shadow AI",
+        "summary": "CoChat 发布新的 AI 协作平台，旨在对抗“影子 AI”的风险。",
+        "url": "https://www.securityweek.com/cochat-launches-ai-collaboration-platform-to-combat-shadow-ai/",
+        "source": "SecurityWeek",
+        "category": "攻防"
+      },
+      {
         "rank": 6,
-        "title": "欧盟年龄验证应用程序被黑，2分钟如何发布",
-        "summary": "欧盟的年龄验证应用程序在短时间内被黑客攻破，暴露了其安全漏洞。",
-        "url": "https://xcancel.com/Paul_Reviews/status/2044723123287666921",
+        "title": "布鲁塞尔推出了一款年龄检查应用程序。破解它花了2分钟",
+        "summary": "布鲁塞尔推出的一款年龄验证应用程序被发现存在严重安全漏洞，仅用 2 分钟即被破解。",
+        "url": "https://www.politico.eu/article/eu-brussels-launched-age-checking-app-hackers-say-took-them-2-minutes-break-it/",
         "source": "Hacker News",
         "category": "攻防"
       },
       {
         "rank": 7,
+        "title": "三个 Microsoft Defender 零日漏洞被积极利用；两个还没打补丁",
+        "summary": "Microsoft Defender 存在三个零日漏洞，其中两个尚未修复，已被积极利用。",
+        "url": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
+        "source": "The Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 8,
         "title": "谷歌将于 2025 年屏蔽违反 8.3B 政策的广告，并启动 Android 17 隐私改革",
-        "summary": "谷歌宣布将屏蔽违反其广告政策的广告，并对 Android 17 隐私进行改革。",
+        "summary": "谷歌将实施新的广告政策和 Android 隐私改革，以提高用户数据安全。",
         "url": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
         "source": "The Hacker News",
         "category": "隐私"
       },
       {
-        "rank": 8,
-        "title": "立法者们安静地聚集在一起谈论人工智能。对“毁灭”的焦虑和恐惧随之而来",
-        "summary": "立法者们正在悄悄讨论人工智能，对潜在的“毁灭”及其带来的焦虑和恐惧感到担忧。",
-        "url": "https://www.securityweek.com/lawmakers-gathered-quietly-to-talk-about-ai-angst-and-fears-of-destruction-followed/",
+        "rank": 9,
+        "title": "另一名 DraftKings 黑客被判入狱",
+        "summary": "DraftKings 欺诈案的另一名被告被判处监禁。",
+        "url": "https://www.securityweek.com/another-draftkings-hacker-sentenced-to-prison/",
         "source": "SecurityWeek",
         "category": "攻防"
       },
       {
-        "rank": 9,
-        "title": "CISA 将 Apache ActiveMQ 缺陷标记为在攻击中被积极利用",
-        "summary": "CISA 确认 Apache ActiveMQ 漏洞已被积极利用，并将其标记为关键安全威胁。",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "category": "漏洞"
-      },
-      {
         "rank": 10,
-        "title": "CoChat推出AI协作平台对抗Shadow AI",
-        "summary": "CoChat 发布了对抗“影子 AI”的 AI 协作平台，以增强企业安全。",
-        "url": "https://www.securityweek.com/cochat-launches-ai-collaboration-platform-to-combat-shadow-ai/",
-        "source": "SecurityWeek",
+        "title": "欧盟年龄验证应用程序被黑，2分钟如何发布",
+        "summary": "欧盟推出的年龄验证应用程序在短时间内被黑客攻击，凸显了其安全隐患。",
+        "url": "https://xcancel.com/Paul_Reviews/status/2044723123287666921",
+        "source": "Hacker News",
         "category": "攻防"
       }
     ],
@@ -37793,80 +37863,80 @@
       {
         "rank": 1,
         "title": "视频显示，由于海上航线是否真正开放仍存在困惑，船只驶离霍尔木兹海峡",
-        "summary": "尽管霍尔木兹海峡的航运状况不明，但船只仍在离开，表明对海上航线开放存在困惑。",
+        "summary": "霍尔木兹海峡航运情况不明朗，船只出现驶离现象。",
         "url": "https://www.cnbc.com/2026/04/17/iran-trump-strait-hormuz-oil-tanker-traffic.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
         "rank": 2,
-        "title": "标准普尔 500 指数收于历史新高 |结束钟声",
-        "summary": "标准普尔 500 指数收于历史新高，反映了股市的强劲表现。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-17/s-p-500-closes-at-record-high-closing-bell-video",
-        "source": "Bloomberg Markets",
+        "title": "吉姆·克莱默 (Jim Cramer) 谈市场“显着”反弹——以及未来一周财报值得关注的内容",
+        "summary": "知名财经评论员 Jim Cramer 分析了近期市场的反弹及其对未来公司财报的展望。",
+        "url": "https://www.cnbc.com/2026/04/17/jim-cramer-remarkable-rally-what-to-watch-ahead.html",
+        "source": "CNBC",
         "category": "市场"
       },
       {
         "rank": 3,
-        "title": "随着股市创下历史新高，华尔街急于计算战争损失",
-        "summary": "尽管股市创下新高，华尔街仍在努力评估地缘政治冲突带来的经济损失。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-17/wall-street-rushes-to-price-out-war-damage-as-stocks-hit-records",
+        "title": "蓝猫头鹰联合首席执行官的个人贷款不再由公司股票支持",
+        "summary": "蓝猫头鹰联合首席执行官的个人贷款失去了公司股票的支持。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-17/blue-owl-co-ceos-personal-loans-no-longer-backed-by-firm-shares",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 4,
-        "title": "人工智能芯片制造商 Cerebras Systems 再次公开申请美国 IPO",
-        "summary": "AI 芯片制造商 Cerebras Systems 再次提交了在美国上市的 IPO 申请。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-17/ai-chipmaker-cerebras-systems-files-publicly-again-for-us-ipo",
+        "title": "地热发电公司 Fervo Energy 申请首次公开募股",
+        "summary": "地热能源公司 Fervo Energy 已申请首次公开募股（IPO）。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-17/geothermal-power-firm-fervo-files-for-initial-public-offering",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 5,
-        "title": "罗斯纳谈地缘政治紧张局势下的信贷市场",
-        "summary": "罗斯纳就当前地缘政治紧张局势对信贷市场的影响发表看法。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-17/rosner-on-credit-markets-amid-geopolitical-tension-video",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 6,
         "title": "KKR 支持的紧急服务公司 GMR 申请美国 IPO",
-        "summary": "KKR 支持的紧急服务公司 GMR 正在寻求在美国进行首次公开募股。",
+        "summary": "由 KKR 支持的 GMR 公司申请在美国进行首次公开募股。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-17/kkr-backed-emergency-services-firm-gmr-files-for-us-ipo",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "国际货币基金组织和世界银行应对伊朗战争的经济影响",
-        "summary": "IMF 和世界银行正在评估和应对伊朗局势可能带来的经济影响。",
+        "summary": "IMF 和世界银行正在评估伊朗冲突对全球经济可能产生的影响。",
         "url": "https://www.bloomberg.com/news/videos/2026-04-17/imf-world-bank-navigate-economic-fallout-from-iran-war-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 8,
-        "title": "Blackstone 支持的广告技术公司 Liftoff Mobile 重新申请美国 IPO",
-        "summary": "Blackstone 支持的广告技术公司 Liftoff Mobile 再次申请在美国上市。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-17/blackstone-backed-ad-tech-firm-liftoff-mobile-refiles-for-us-ipo",
+        "rank": 7,
+        "title": "生物技术 Odyssey 和医疗器械公司 Mobia 申请美国首次公开募股",
+        "summary": "Odyssey Biotech 和 Mobia Medical Devices 公司已申请在美国上市。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-17/autoimmune-inflammatory-focused-biotech-odyssey-files-for-ipo",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
+        "rank": 8,
+        "title": "Ray Wang 可能会在 IPO 之前看到 SpaceX 与特斯拉的合并",
+        "summary": "分析师 Ray Wang 预测 SpaceX 可能在 IPO 前与特斯拉合并。",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-17/could-see-a-spacex-tesla-merger-before-the-ipo-ray-wang-video",
+        "source": "Bloomberg Tech",
+        "category": "投融资"
+      },
+      {
         "rank": 9,
         "title": "比利时因未能削减债务而被穆迪评级下调",
-        "summary": "穆迪因未能达到债务削减目标而下调了比利时的信用评级。",
+        "summary": "穆迪因比利时未能有效削减债务而下调其信用评级。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-17/belgium-gets-cut-by-moody-s-in-reproof-at-failure-to-cut-debt",
         "source": "Bloomberg Markets",
         "category": "加密"
       },
       {
         "rank": 10,
-        "title": "地热发电公司 Fervo Energy 申请首次公开募股",
-        "summary": "地热发电公司 Fervo Energy 已提交首次公开募股申请。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-17/geothermal-power-firm-fervo-files-for-initial-public-offering",
+        "title": "人工智能芯片制造商 Cerebras Systems 再次公开申请美国 IPO",
+        "summary": "AI 芯片公司 Cerebras Systems 再次提交了在美国上市的申请。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-17/ai-chipmaker-cerebras-systems-files-publicly-again-for-us-ipo",
         "source": "Bloomberg Markets",
         "category": "市场"
       }
@@ -37874,167 +37944,167 @@
     "科技": [
       {
         "rank": 1,
-        "title": "具有里程碑意义的古代基因组研究显示人类进化的惊人加速",
-        "summary": "一项里程碑式的古代基因组研究揭示了人类进化过程中惊人的加速。",
-        "url": "https://www.nature.com/articles/d41586-026-01204-5",
-        "source": "Hacker News",
-        "category": "互联网"
+        "title": "苹果 2026 款 Mac Studio 前瞻：封顶 256GB 内存、M5 Max / Ultra 芯片",
+        "summary": "对苹果 2026 年新款 Mac Studio 的预测，重点是内存和芯片升级。",
+        "url": "https://www.ithome.com/0/940/618.htm",
+        "source": "IT之家",
+        "category": "硬件"
       },
       {
         "rank": 2,
-        "title": "欧盟采取行动限制儿童使用社交媒体，年龄验证应用程序已准备就绪",
-        "summary": "欧盟正在采取措施限制儿童使用社交媒体，并推出了年龄验证应用程序。",
-        "url": "https://www.reuters.com/world/eu-age-verification-app-ready-europe-moves-curb-childrens-social-media-access-2026-04-15/",
-        "source": "Hacker News",
+        "title": "苹果等厂商强硬立场见效，印度不再强制手机预装 Aadhaar 身份应用",
+        "summary": "苹果等公司成功游说，印度取消了强制预装 Aadhaar 身份应用的规定。",
+        "url": "https://www.ithome.com/0/940/617.htm",
+        "source": "IT之家",
         "category": "软件"
       },
       {
         "rank": 3,
-        "title": "聚焦微波使 3D 打印机能够将电路融合到几乎任何东西上",
-        "summary": "一项新技术利用聚焦微波，使 3D 打印机能够将电路集成到各种材料中。",
-        "url": "https://newatlas.com/electronics/meta-nfc-focused-microwaves-circuits/",
-        "source": "Hacker News",
+        "title": "“砍刀部”出手，微软视频编辑工具 Clipchamp iOS 版 6 月 10 日停止服务",
+        "summary": "微软宣布 Clipchamp iOS 版本将于 6 月 10 日停止服务。",
+        "url": "https://www.ithome.com/0/940/616.htm",
+        "source": "IT之家",
         "category": "软件"
       },
       {
         "rank": 4,
-        "title": "纽约警察局正在教美国如何永远每天追踪每个人",
-        "summary": "报道指出，纽约警察局正在推广一种方法，可以持续追踪每个人。",
-        "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
-        "source": "Hacker News",
-        "category": "互联网"
+        "title": "福特被砍三排座纯电 SUV 原型曝光：主打曲线美，还规划了增程版",
+        "summary": "福特一款被取消的三排座纯电 SUV 原型车曝光，设计和动力配置曝光。",
+        "url": "https://www.ithome.com/0/940/615.htm",
+        "source": "IT之家",
+        "category": "软件"
       },
       {
         "rank": 5,
-        "title": "Instagram 账户@ihackedthegovernment 的男子告诉法官，“我犯了一个错误”",
-        "summary": "一名男子因入侵 Instagram 账户@ihackedthegovernment 而面临法律指控，并承认犯错。",
-        "url": "https://arstechnica.com/tech-policy/2026/04/man-with-ihackedthegovernment-instagram-account-tells-judge-i-made-a-mistake/",
-        "source": "Ars Technica",
-        "category": "软件"
+        "title": "IT早报 0418：7家电商平台涉“幽灵外卖”被罚 35.97亿元；雷军称小米未来几年不做10万元内车型；闲鱼“鱼小铺”调整优惠规则；曝DeepSeek正寻求首轮外部融资...",
+        "summary": "涵盖电商、汽车、二手平台和 AI 融资等科技行业要闻。",
+        "url": "https://www.ithome.com/0/940/614.htm",
+        "source": "IT之家",
+        "category": "硬件"
       },
       {
         "rank": 6,
-        "title": "我们击败了谷歌的量子密码分析零知识证明",
-        "summary": "一项研究声称已攻破了谷歌的量子密码分析零知识证明，具有重要意义。",
-        "url": "https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/",
-        "source": "Hacker News",
-        "category": "互联网"
+        "title": "你也能设计出专业作品：Claude Design 视觉创作工具上线，分钟级转化创意到原型",
+        "summary": "Claude Design 视觉创作工具发布，能够快速将创意转化为原型。",
+        "url": "https://www.ithome.com/0/940/613.htm",
+        "source": "IT之家",
+        "category": "软件"
       },
       {
         "rank": 7,
-        "title": "Fil-C 的简化模型",
-        "summary": "Fil-C 推出了一种简化的模型，可能影响其技术应用。",
-        "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
-        "source": "Hacker News",
-        "category": "互联网"
+        "title": "被 OpenAI 放弃后，视频生成平台 Sora 负责人皮布尔斯离职",
+        "summary": "Sora 项目负责人离开 OpenAI，引发对该视频生成平台未来的关注。",
+        "url": "https://www.ithome.com/0/940/612.htm",
+        "source": "IT之家",
+        "category": "软件"
       },
       {
         "rank": 8,
-        "title": "PBS Artemis II 纪录片正在 YouTube 上播放",
-        "summary": "PBS 发布了关于 Artemis II 任务的纪录片，可在 YouTube 上观看。",
-        "url": "https://www.engadget.com/science/the-pbs-artemis-ii-documentary-is-streaming-on-youtube-210347406.html?src=rss",
-        "source": "Engadget",
-        "category": "软件"
+        "title": "消息称苹果首款折叠 iPhone 将推深靛蓝色，展开最薄处 4.7 毫米",
+        "summary": "传言称苹果首款折叠 iPhone 将采用深靛蓝色，并公布了其超薄设计。",
+        "url": "https://www.ithome.com/0/940/611.htm",
+        "source": "IT之家",
+        "category": "硬件"
       },
       {
         "rank": 9,
-        "title": "很多人恐慌性购买电脑以避免 RAMmagon 2026",
-        "summary": "报道称，许多人因担忧“RAMmagon 2026”而恐慌性购买电脑。",
-        "url": "https://www.engadget.com/computing/a-lot-of-you-panic-bought-pcs-to-avoid-ramaggedon-2026-200237204.html?src=rss",
-        "source": "Engadget",
-        "category": "软件"
+        "title": "使用 NVIDIA Dynamo 进行代理推理的全栈优化",
+        "summary": "NVIDIA Dynamo 提供了代理推理的全栈优化方案。",
+        "url": "https://developer.nvidia.com/blog/full-stack-optimizations-for-agentic-inference-with-nvidia-dynamo/",
+        "source": "NVIDIA Blog",
+        "category": "硬件"
       },
       {
         "rank": 10,
-        "title": "使用 OpenClaw 和 NVIDIA NemoClaw 构建安全、始终在线的本地 AI 代理",
-        "summary": "NVIDIA 发布了关于使用 OpenClaw 和 NemoClaw 构建安全本地 AI 代理的指南。",
-        "url": "https://developer.nvidia.com/blog/build-a-secure-always-on-local-ai-agent-with-nvidia-nemoclaw-and-openclaw/",
-        "source": "NVIDIA Blog",
-        "category": "硬件"
+        "title": "欧盟采取行动限制儿童使用社交媒体，年龄验证应用程序已准备就绪",
+        "summary": "欧盟将推出年龄验证应用程序，以限制儿童使用社交媒体。",
+        "url": "https://www.reuters.com/world/eu-age-verification-app-ready-europe-moves-curb-childrens-social-media-access-2026-04-15/",
+        "source": "Hacker News",
+        "category": "软件"
       }
     ],
     "国际": [
       {
         "rank": 1,
-        "title": "霍尔木兹重新开放，但保险公司尚未准备好解除警报",
-        "summary": "尽管霍尔木兹海峡重新开放，但保险公司仍持谨慎态度，表明潜在风险依然存在。",
-        "url": "https://www.npr.org/2026/04/17/nx-s1-5785167/hormuz-reopens-but-insurers-arent-ready-to-sound-the-all-clear",
-        "source": "NPR World",
+        "title": "NASA X-59 完成首次轮式飞行",
+        "summary": "NASA 的 X-59 飞机完成了其首次带轮飞行任务。",
+        "url": "https://www.nasa.gov/blogs/quesst/2026/04/15/nasas-x-59-shows-streamlined-profile-in-wheels-up-flights/",
+        "source": "Hacker News",
         "category": "科学"
       },
       {
         "rank": 2,
-        "title": "伊朗称海峡“开放”，油价暴跌",
-        "summary": "伊朗宣布霍尔木兹海峡“开放”，导致油价大幅下跌。",
-        "url": "https://www.bbc.com/news/articles/ckg045z73z1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "title": "动物活动家庆祝他们的第一个全球“庇护日”",
+        "summary": "全球动物保护活动家庆祝首个“庇护日”，呼吁关注动物福利。",
+        "url": "https://www.npr.org/2026/04/17/nx-s1-5775921/animal-activists-are-celebrating-their-first-global-sanctuary-day",
+        "source": "NPR World",
         "category": "外交"
       },
       {
         "rank": 3,
-        "title": "与以色列的停火给黎巴嫩带来了喘息之机，但和平的障碍仍然存在",
-        "summary": "黎巴嫩与以色列的停火提供了暂时的缓解，但实现持久和平的挑战依然严峻。",
-        "url": "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
-      },
-      {
-        "rank": 4,
-        "title": "日本公布了酷暑过后 40 摄氏度及更热天气的新名称",
-        "summary": "日本为超过 40 摄氏度的高温天气设定了新的名称，以应对日益严重的气候挑战。",
-        "url": "https://www.bbc.com/news/articles/crr185nx0n9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
-      },
-      {
-        "rank": 5,
-        "title": "爱尔兰逃犯、犯罪嫌疑人丹尼尔·基纳汉在迪拜被捕",
-        "summary": "被指控参与犯罪活动的爱尔兰逃犯丹尼尔·基纳汉在迪拜被捕。",
-        "url": "https://www.bbc.com/news/articles/c4g4yl5dd4do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
-      },
-      {
-        "rank": 6,
         "title": "CSDA 质量评估报告评估 Satellogic NewSat 数据",
-        "summary": "一份质量评估报告对 Satellogic 的 NewSat 数据进行了评估。",
+        "summary": "一份质量评估报告对 Satellogic NewSat 的数据进行了分析。",
         "url": "https://science.nasa.gov/uncategorized/csda-quality-assessment-report-evaluates-satellogic-newsat-data/",
         "source": "NASA",
         "category": "外交"
       },
       {
-        "rank": 7,
-        "title": "86 岁寡妇被 ICE 拘留后返回法国",
-        "summary": "一位 86 岁的寡妇在被 ICE（美国移民及海关执法局）拘留后，已返回法国。",
-        "url": "https://www.bbc.com/news/articles/ce84j0j6622o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "rank": 4,
+        "title": "霍尔木兹重新开放，但保险公司尚未准备好解除警报",
+        "summary": "尽管霍尔木兹海峡重新开放，但保险公司对安全局势仍持谨慎态度。",
+        "url": "https://www.npr.org/2026/04/17/nx-s1-5785167/hormuz-reopens-but-insurers-arent-ready-to-sound-the-all-clear",
+        "source": "NPR World",
         "category": "科学"
       },
       {
+        "rank": 5,
+        "title": "网络研讨会 4/29：NASA CSDA 计划供应商焦点 - MDA Space",
+        "summary": "NASA CSDA 计划将举办网络研讨会，重点介绍供应商 MDA Space。",
+        "url": "https://science.nasa.gov/science-research/earth-science/webinar-4-29-nasa-csda-program-vendor-focus-mda-space/",
+        "source": "NASA",
+        "category": "科学"
+      },
+      {
+        "rank": 6,
+        "title": "特斯拉 Cyber​​truck 销量膨胀：SpaceX 购买了 1,279 辆",
+        "summary": "SpaceX 购买了大量 Cybertruck 车辆，引发对特斯拉销量数据的讨论。",
+        "url": "https://electrek.co/2026/04/16/tesla-cybertruck-spacex-1279-q4-sales-inflated/",
+        "source": "Hacker News",
+        "category": "科学"
+      },
+      {
+        "rank": 7,
+        "title": "未来几天汽油价格可能跌破 4 美元",
+        "summary": "预测未来几天汽油价格可能跌破每加仑 4 美元。",
+        "url": "https://www.npr.org/2026/04/17/nx-s1-5788819/oil-gasoline-cheaper-war-iran",
+        "source": "NPR World",
+        "category": "外交"
+      },
+      {
         "rank": 8,
-        "title": "南非反对派煽动者马莱马被判五年徒刑后，下一步将何去何从？",
-        "summary": "南非反对派领导人马莱马被判处五年徒刑，引发对其未来政治走向的关注。",
-        "url": "https://www.bbc.com/news/articles/cdxkd6rvk0do?at_medium=RSS&at_campaign=rss",
+        "title": "日本公布了酷暑过后 40 摄氏度及更热天气的新名称",
+        "summary": "日本为极端高温天气（40°C及以上）引入了新的官方名称。",
+        "url": "https://www.bbc.com/news/articles/crr185nx0n9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
         "rank": 9,
-        "title": "数千人在喀麦隆与教皇利奥一起庆祝露天弥撒 - 图片中",
-        "summary": "数千人在喀麦隆参加了由教皇利奥主持的露天弥撒，活动现场有精彩图片。",
-        "url": "https://www.bbc.com/news/articles/cdj7kwn1d78o?at_medium=RSS&at_campaign=rss",
+        "title": "坎耶·韦斯特 (Kanye West) 波兰演唱会因反犹太主义言论被取消",
+        "summary": "Kanye West 在波兰的演唱会因其反犹太主义言论而被取消。",
+        "url": "https://www.bbc.com/news/articles/czx95rl4ek5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
         "rank": 10,
-        "title": "未来几天汽油价格可能跌破 4 美元",
-        "summary": "分析预测，未来几天汽油价格有可能跌破每加仑 4 美元。",
-        "url": "https://www.npr.org/2026/04/17/nx-s1-5788819/oil-gasoline-cheaper-war-iran",
-        "source": "NPR World",
-        "category": "外交"
+        "title": "86 岁寡妇被 ICE 拘留后返回法国",
+        "summary": "一名 86 岁的法国寡妇在美国 ICE 拘留后被遣返。",
+        "url": "https://www.bbc.com/news/articles/ce84j0j6622o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "科学"
       }
     ],
-    "generated_at": "2026-04-17T22:50:38.962165+00:00"
+    "generated_at": "2026-04-17T23:45:16.384018+00:00"
   }
 }
