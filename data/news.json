@@ -1,6 +1,118 @@
 {
-  "last_updated": "2026-04-18T17:09:51.258501+00:00",
+  "last_updated": "2026-04-18T18:06:38.731529+00:00",
   "articles": [
+    {
+      "title": "Apple avoids a second import ban for its redesigned smartwatches in latest court ruling",
+      "url": "https://www.engadget.com/wearables/apple-avoids-a-second-import-ban-for-its-redesigned-smartwatches-in-latest-court-ruling-175600668.html?src=rss",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-04-18T17:56:00+00:00",
+      "content": "Apple has secured a major victory for its redesigned smartwatches as per the latest decision from the US International Trade Commission. The federal agency ruled against reinstating an import ban on Apple Watches, allowing the tech giant to continue selling its devices with a reworked blood-oxygen monitoring technology. The ITC decided to terminate the case and refer to a preliminary ruling from one of its judges in March that claimed that Apple's redesigned smartwatches don't infringe on patents held by Masimo, the medical tech company that has long been embroiled in lawsuits surrounding the Apple Watch. Apple thanked the ITC in a statement, adding that \"Masimo has waged a relentless legal campaign against Apple and nearly all of its claims have been rejected.\" We reached out to Masimo for comment and will update the story when we hear back. The latest decision could offer some closure to the longstanding legal feud between Masimo and Apple. The patent battle dates back to 2021 with Masimo's first filing against Apple that requested an import ban on Apple Watches. The ITC ended up ruling that Apple violated Masimo's patents, resulting in the previous import ban and the Apple Watch maker redesigning the blood-oxygen reading feature in certain models. However, Masimo wasn't satisfied with this conclusion and sought another import ban on the updated Apple Watch models. Now that the ITC has ruled against that, Masimo is left with the option to appeal the decision with the US Court of Appeals for the Federal Circuit. While Masimo may currently be on the losing side of this legal battle, it's confronting Apple on multiple fronts. In November, a federal jury sided with Masimo and ruled that Apple has to pay $634 million in a separate patent infringement case.This article originally appeared on Engadget at https://www.engadget.com/wearables/apple-avoids-a-second-import-ban-for-its-redesigned-smartwatches-in-latest-court-ruling-175600668.html?src=rss",
+      "id": "829fd7fd25e87948e847c092c9d1f616",
+      "title_zh": "苹果在最新的法院裁决中避免了对其重新设计的智能手表的第二次进口禁令",
+      "summary_zh": "Apple has secured a major victory for its redesigned smartwatches as per the latest decision from the US International Trade Commission. The federal agency ruled against reinstating an import ban on A",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.267729+00:00"
+    },
+    {
+      "title": "Headless Everything for Personal AI",
+      "url": "https://interconnected.org/home/2026/04/18/headless",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-18T17:49:22+00:00",
+      "content": "Article URL: https://interconnected.org/home/2026/04/18/headless\nComments URL: https://news.ycombinator.com/item?id=47817902\nPoints: 3\n# Comments: 1",
+      "id": "105f06c6907d98bc08004002174c9ebe",
+      "title_zh": "个人人工智能的无头一切",
+      "summary_zh": "Article URL: https://interconnected.org/home/2026/04/18/headless Comments URL: https://news.ycombinator.com/item?id=47817902 Points: 3 # Comments: 1",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.269327+00:00"
+    },
+    {
+      "title": "Salesforce launches Headless 360 turn platform in infrastructure for AI agents",
+      "url": "https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-18T17:36:01+00:00",
+      "content": "Article URL: https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents\nComments URL: https://news.ycombinator.com/item?id=47817787\nPoints: 3\n# Comments: 0",
+      "id": "39a7603189c5143e007a3cbe9f385601",
+      "title_zh": "Salesforce 在人工智能代理基础设施中推出 Headless 360 旋转平台",
+      "summary_zh": "Article URL: https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents Comments URL: https://news.ycombinator.com/item?id=47817787 Point",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.269380+00:00"
+    },
+    {
+      "title": "Show HN: DOMPrompter – click a DOM element, get a structured AI coding prompt",
+      "url": "https://news.ycombinator.com/item?id=47817715",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-18T17:28:12+00:00",
+      "content": "Built this because the hardest part of AI UI coding is not generating a whole page - it is telling the model exactly which element you want to change in the last-mile micro-tuning pass.DOMPrompter is a macOS tool for DOM-based UIs. You click the exact element, inspect the relevant tag / spacing / position context, describe the change, and generate a more structured prompt for Cursor, Claude Code, Copilot, etc.It works with localhost projects, static HTML, and desktop apps built with web technology.GitHub: https://github.com/hooosberg/DOMPrompter\nMac App Store: https://apps.apple.com/us/app/domprompter-ai-coding-prompt/i...Would love feedback from people doing front-end / vibe-coding style workflows.\n\nComments URL: https://news.ycombinator.com/item?id=47817715\nPoints: 3\n# Comments: 0",
+      "id": "634b56bc3076a298b5777f3ff1ebdc4f",
+      "title_zh": "Show HN: DOMPrompter – 单击 DOM 元素，获得结构化 AI 编码提示",
+      "summary_zh": "Built this because the hardest part of AI UI coding is not generating a whole page - it is telling the model exactly which element you want to change in the last-mile micro-tuning pass.DOMPrompter is",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.269540+00:00"
+    },
+    {
+      "title": "List of people imprisoned for editing Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_people_imprisoned_for_editing_Wikipedia",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-18T17:27:31+00:00",
+      "content": "List of people imprisoned for editing Wikipedia. Score: 6, Comments: 0",
+      "id": "cf7d3453d1be35b1c1c380bf0bfc2bc9",
+      "title_zh": "因编辑维基百科而入狱的人员名单",
+      "summary_zh": "List of people imprisoned for editing Wikipedia. Score: 6, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.269178+00:00"
+    },
+    {
+      "title": "The AI stack trap: the hidden cost of overbuilding with AI",
+      "url": "https://www.forbes.com/sites/abdoriani/2026/01/24/the-ai-stack-trap-the-hidden-cost-of-overbuilding-with-ai/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-18T17:23:43+00:00",
+      "content": "Article URL: https://www.forbes.com/sites/abdoriani/2026/01/24/the-ai-stack-trap-the-hidden-cost-of-overbuilding-with-ai/\nComments URL: https://news.ycombinator.com/item?id=47817667\nPoints: 1\n# Comments: 0",
+      "id": "59c8dc2164b65b5accb356dae1e2140b",
+      "title_zh": "人工智能堆栈陷阱：人工智能过度构建的隐性成本",
+      "summary_zh": "Article URL: https://www.forbes.com/sites/abdoriani/2026/01/24/the-ai-stack-trap-the-hidden-cost-of-overbuilding-with-ai/ Comments URL: https://news.ycombinator.com/item?id=47817667 Points: 1 # Commen",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.269589+00:00"
+    },
+    {
+      "title": "Graphs That Explain the State of AI in 2026",
+      "url": "https://spectrum.ieee.org/state-of-ai-index-2026",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-18T17:12:44+00:00",
+      "content": "Article URL: https://spectrum.ieee.org/state-of-ai-index-2026\nComments URL: https://news.ycombinator.com/item?id=47817581\nPoints: 2\n# Comments: 0",
+      "id": "5f52c46ddd6473c3a21a74af1e852387",
+      "title_zh": "解释 2026 年人工智能状况的图表",
+      "summary_zh": "Article URL: https://spectrum.ieee.org/state-of-ai-index-2026 Comments URL: https://news.ycombinator.com/item?id=47817581 Points: 2 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.269629+00:00"
+    },
+    {
+      "title": "Poetical: AI Poetry Feed",
+      "url": "https://apps.apple.com/ro/app/poetical-ai-poetry-feed/id6761653704",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-18T17:12:28+00:00",
+      "content": "Article URL: https://apps.apple.com/ro/app/poetical-ai-poetry-feed/id6761653704\nComments URL: https://news.ycombinator.com/item?id=47817579\nPoints: 1\n# Comments: 0",
+      "id": "f96d3b6c4785faa6ce828f1725699904",
+      "title_zh": "诗意：AI诗歌提要",
+      "summary_zh": "Article URL: https://apps.apple.com/ro/app/poetical-ai-poetry-feed/id6761653704 Comments URL: https://news.ycombinator.com/item?id=47817579 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.269670+00:00"
+    },
     {
       "title": "URLmind – Turn any business URL into structured context for AI agents",
       "url": "https://urlmind.com",
@@ -72,6 +184,20 @@
       "collected": "2026-04-18T17:08:44.004163+00:00"
     },
     {
+      "title": "Georgia's Voting Technology Blunder",
+      "url": "https://pluralistic.net/2026/04/18/dominion-sucks-actually/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-18T16:38:58+00:00",
+      "content": "Georgia's Voting Technology Blunder. Score: 4, Comments: 0",
+      "id": "b2f5ebe529cb743e4b6a8d82b8aafc71",
+      "title_zh": "佐治亚州的投票技术错误",
+      "summary_zh": "Georgia's Voting Technology Blunder. Score: 4, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.268948+00:00"
+    },
+    {
       "title": "Matt Mullenweg Says \"The Wheels Have Fallen Off\" in WordPress",
       "url": "https://www.therepository.email/matt-mullenweg-says-the-wheels-have-fallen-off-in-wide-ranging-wordpress-critique",
       "source": "Hacker News",
@@ -128,6 +254,20 @@
       "collected": "2026-04-18T17:08:44.004726+00:00"
     },
     {
+      "title": "Bloomberg This Weekend 4/18/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-18/bloomberg-this-weekend-4-18-2026-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-18T16:25:10+00:00",
+      "content": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by The Associated Press International Correspondent Philip Crowther, Ulta Chief Technology & Information Officer Mike Maresca, Sephora Senior VP & General Manager Nadine Graham, e.l.f. Beauty Chief Technology & AI Officer Ekta Chopra, Estee Lauder Chief Technology Data & Analytics Officer Brian Franz, The Boston Globe Reporter Emily Sweeney, International Maritme Organization Secretary-General Arsenio Dominguez, Bureau of Near Eastern Affairs Former Acting Principal Deputy Assistant Secretary of State Jennifer Gavito, Former Deputy Assistant Secretary of State for Iraq & Iran Andrew Peek, US Securities & Exchange Commission Former Chair Gary Gensler, Puck Founding Partner William D. Cohan, and JLL President & CEO Christian Ulbrich. (Source: Bloomberg)",
+      "id": "94827abdf4e4deeb760ae2ad79ed1964",
+      "title_zh": "彭博社本周末 2026 年 4 月 18 日",
+      "summary_zh": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.267642+00:00"
+    },
+    {
       "title": "Orban Loss, Meloni Setback Signal Left’s EU Return, Ribera Says",
       "url": "https://www.bloomberg.com/news/articles/2026-04-18/orban-loss-meloni-setback-signals-left-s-eu-return-ribera-says",
       "source": "Bloomberg Markets",
@@ -168,6 +308,20 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-04-18T17:08:44.006334+00:00"
+    },
+    {
+      "title": "Anthropic's Claude Mythos Launch Is Built on Misinformation",
+      "url": "https://www.artificialintelligencemadesimple.com/p/anthropics-claude-mythos-launch-is",
+      "source": "Lobste.rs AI",
+      "domain": "AI",
+      "published": "2026-04-18T16:08:31+00:00",
+      "content": "Comments",
+      "id": "75d494c08cac9aa151dad3ba7a3c1adf",
+      "title_zh": "Anthropic 的 Claude Mythos 发布是基于错误信息",
+      "summary_zh": "Comments",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.269699+00:00"
     },
     {
       "title": "Opus 4.7 to 4.6 Inflation is ~45%",
@@ -252,6 +406,20 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-04-18T16:04:39.339413+00:00"
+    },
+    {
+      "title": "Why scientists are nervous about fungi",
+      "url": "https://text.npr.org/g-s1-117632",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-18T15:44:13+00:00",
+      "content": "Why scientists are nervous about fungi. Score: 7, Comments: 0",
+      "id": "f17c6972a2e6b4f9beb9f4466e63109a",
+      "title_zh": "为什么科学家对真菌感到紧张",
+      "summary_zh": "Why scientists are nervous about fungi. Score: 7, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-18T18:05:34.268999+00:00"
     },
     {
       "title": "At least two dead as gunman opens fire and takes hostages in Kyiv",
@@ -31210,768 +31378,96 @@
       "category": "研究",
       "tags": [],
       "collected": "2026-04-15T18:45:22.547066+00:00"
-    },
-    {
-      "title": "AI Could Democratize One of Tech's Most Valuable Resources",
-      "url": "https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/",
-      "source": "Wired AI",
-      "domain": "AI",
-      "published": "2026-04-15T18:00:00+00:00",
-      "content": "AI is making it easier to design chips and optimize software for different silicon. Some startups envision a revolution in chipmaking.",
-      "id": "58f6e871944232eb600170182856c344",
-      "title_zh": "人工智能可以使科技最有价值的资源之一民主化",
-      "summary_zh": "AI is making it easier to design chips and optimize software for different silicon. Some startups envision a revolution in chipmaking.",
-      "category": "CV",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.534080+00:00"
-    },
-    {
-      "title": "One Token per Highly Selective Frame: Towards Extreme Compression for Long Video Understanding",
-      "url": "http://arxiv.org/abs/2604.14149v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:59:52Z",
-      "content": "Long video understanding is inherently challenging for vision-language models (VLMs) because of the extensive number of frames. With each video frame typically expanding into tens or hundreds of tokens, the limited context length of large language models (LLMs) forces the VLMs to perceive the frames sparsely and lose temporal information. To address this, we explore extreme video token compression towards \\emph{one token per frame} at the final LLM layer. Our key insight is that heuristic-based compression, widely adopted by previous methods, is prone to information loss, and this necessitates supervising LLM layers into \\emph{learnable} and \\emph{progressive} modules for \\emph{token-level compression} (LP-Comp). Such compression enables our VLM to digest 2x-4x more frames with improved performance. To further increase the token efficiency, we investigate \\emph{frame-level compression}, which selects the frames most relevant to the queries via the internal attention scores of the LLM layers, named \\emph{question-conditioned compression} (QC-Comp). As a notable distinction from previous studies, we mitigate the position bias of LLM attention in long contexts, \\emph{i.e.}, the over-concentration on the beginning and end of a sequence, by splitting long videos into short segments and employing local attention. Collectively, our combined \\emph{token-level} and \\emph{frame-level} leads to an e\\textbf{x}treme compression model for long video understanding, named \\textbf{\\name}, achieving a significantly larger compression ratio and enabling denser frame sampling. Our \\name is finetuned from VideoChat-Flash with a data-efficient \\emph{supervised compression tuning} stage that only requires 2.5\\% of the supervised fine-tuning data, yet boosts the accuracy from 42.9\\% to 46.2\\% on LVBench and enhances multiple other long video benchmarks.",
-      "id": "fdc9bda9d6d815f259b17063fcf8cd8f",
-      "title_zh": "每个高选择性帧一个令牌：实现长视频理解的极限压缩",
-      "summary_zh": "Long video understanding is inherently challenging for vision-language models (VLMs) because of the extensive number of frames. With each video frame typically expanding into tens or hundreds of token",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.146956+00:00"
-    },
-    {
-      "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
-      "url": "http://arxiv.org/abs/2604.14148v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:59:40Z",
-      "content": "Seedance 2.0 is a new native multi-modal audio-video generation model, officially released in China in early February 2026. Compared with its predecessors, Seedance 1.0 and 1.5 Pro, Seedance 2.0 adopts a unified, highly efficient, and large-scale architecture for multi-modal audio-video joint generation. This allows it to support four input modalities: text, image, audio, and video, by integrating one of the most comprehensive suites of multi-modal content reference and editing capabilities available in the industry to date. It delivers substantial, well-rounded improvements across all key sub-dimensions of video and audio generation. In both expert evaluations and public user tests, the model has demonstrated performance on par with the leading levels in the field. Seedance 2.0 supports direct generation of audio-video content with durations ranging from 4 to 15 seconds, with native output resolutions of 480p and 720p. For multi-modal inputs as reference, its current open platform supports up to 3 video clips, 9 images, and 3 audio clips. In addition, we provide Seedance 2.0 Fast version, an accelerated variant of Seedance 2.0 designed to boost generation speed for low-latency scenarios. Seedance 2.0 has delivered significant improvements to its foundational generation capabilities and multi-modal generation performance, bringing an enhanced creative experience for end users.",
-      "id": "60e9ff29185e137274673c616a057ee4",
-      "title_zh": "Seedance 2.0：针对世界复杂性推进视频生成",
-      "summary_zh": "Seedance 2.0 is a new native multi-modal audio-video generation model, officially released in China in early February 2026. Compared with its predecessors, Seedance 1.0 and 1.5 Pro, Seedance 2.0 adopt",
-      "category": "CV",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.147109+00:00"
-    },
-    {
-      "title": "ROSE: Retrieval-Oriented Segmentation Enhancement",
-      "url": "http://arxiv.org/abs/2604.14147v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:59:35Z",
-      "content": "Existing segmentation models based on multimodal large language models (MLLMs), such as LISA, often struggle with novel or emerging entities due to their inability to incorporate up-to-date knowledge. To address this challenge, we introduce the Novel Emerging Segmentation Task (NEST), which focuses on segmenting (i) novel entities that MLLMs fail to recognize due to their absence from training data, and (ii) emerging entities that exist within the model's knowledge but demand up-to-date external information for accurate recognition. To support the study of NEST, we construct a NEST benchmark using an automated pipeline that generates news-related data samples for comprehensive evaluation. Additionally, we propose ROSE: Retrieval-Oriented Segmentation Enhancement, a plug-and-play framework designed to augment any MLLM-based segmentation model. ROSE comprises four key components. First, an Internet Retrieval-Augmented Generation module is introduced to employ user-provided multimodal inputs to retrieve real-time web information. Then, a Textual Prompt Enhancer enriches the model with up-to-date information and rich background knowledge, improving the model's perception ability for emerging entities. Furthermore, a Visual Prompt Enhancer is proposed to compensate for MLLMs' lack of exposure to novel entities by leveraging internet-sourced images. To maintain efficiency, a WebSense module is introduced to intelligently decide when to invoke retrieval mechanisms based on user input. Experimental results demonstrate that ROSE significantly boosts performance on the NEST benchmark, outperforming a strong Gemini-2.0 Flash-based retrieval baseline by 19.2 in gIoU.",
-      "id": "b9529e580c31fb0b1ba2003710bf1233",
-      "title_zh": "ROSE：面向检索的分割增强",
-      "summary_zh": "Existing segmentation models based on multimodal large language models (MLLMs), such as LISA, often struggle with novel or emerging entities due to their inability to incorporate up-to-date knowledge.",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.147279+00:00"
-    },
-    {
-      "title": "Signed software abused to deploy antivirus-killing scripts",
-      "url": "https://www.bleepingcomputer.com/news/security/signed-software-abused-to-deploy-antivirus-killing-scripts/",
-      "source": "BleepingComputer",
-      "domain": "安全",
-      "published": "2026-04-15T17:59:30+00:00",
-      "content": "A digitally signed adware tool has deployed payloads running with SYSTEM privileges that disabled antivirus protections on thousands of endpoints, some in the educational, utilities, government, and healthcare sectors. [...]",
-      "id": "ab44c1b7437a53670d82d959c9ceae5b",
-      "title_zh": "滥用签名​​软件部署杀毒脚本",
-      "summary_zh": "A digitally signed adware tool has deployed payloads running with SYSTEM privileges that disabled antivirus protections on thousands of endpoints, some in the educational, utilities, government, and h",
-      "category": "安全工具",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.540047+00:00"
-    },
-    {
-      "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
-      "url": "http://arxiv.org/abs/2604.14144v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:59:12Z",
-      "content": "Spatial reasoning over three-dimensional scenes is a core capability for embodied intelligence, yet continuous model improvement remains bottlenecked by the cost of geometric annotation. The self-evolving paradigm offers a promising path, but its reliance on model consensus to construct pseudo-labels causes training to reinforce rather than correct the model's own geometric errors. We identify a property unique to 3D spatial reasoning that circumvents this limitation: ground truth is a deterministic consequence of the underlying geometry, computable exactly from point clouds and camera poses without any model involvement. Building on this insight, we present SpatialEvo, a self-evolving framework for 3D spatial reasoning, centered on the Deterministic Geometric Environment (DGE). The DGE formalizes 16 spatial reasoning task categories under explicit geometric validation rules and converts unannotated 3D scenes into zero-noise interactive oracles, replacing model consensus with objective physical feedback. A single shared-parameter policy co-evolves across questioner and solver roles under DGE constraints: the questioner generates physically valid spatial questions grounded in scene observations, while the solver derives precise answers against DGE-verified ground truth. A task-adaptive scheduler endogenously concentrates training on the model's weakest categories, producing a dynamic curriculum without manual design. Experiments across nine benchmarks demonstrate that SpatialEvo achieves the highest average score at both 3B and 7B scales, with consistent gains on spatial reasoning benchmarks and no degradation on general visual understanding.",
-      "id": "431af4d57860cb49f653f4c5a4a38a9b",
-      "title_zh": "SpatialEvo：通过确定性几何环境自我进化空间智能",
-      "summary_zh": "Spatial reasoning over three-dimensional scenes is a core capability for embodied intelligence, yet continuous model improvement remains bottlenecked by the cost of geometric annotation. The self-evol",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.147452+00:00"
-    },
-    {
-      "title": "From $P(y|x)$ to $P(y)$: Investigating Reinforcement Learning in Pre-train Space",
-      "url": "http://arxiv.org/abs/2604.14142v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:59:01Z",
-      "content": "While reinforcement learning with verifiable rewards (RLVR) significantly enhances LLM reasoning by optimizing the conditional distribution P(y|x), its potential is fundamentally bounded by the base model's existing output distribution. Optimizing the marginal distribution P(y) in the Pre-train Space addresses this bottleneck by encoding reasoning ability and preserving broad exploration capacity. Yet, conventional pre-training relies on static corpora for passive learning, leading to a distribution shift that hinders targeted reasoning enhancement. In this paper, we introduce PreRL (Pre-train Space RL), which applies reward-driven online updates directly to P(y). We theoretically and empirically validate the strong gradient alignment between log P(y) and log P(y|x), establishing PreRL as a viable surrogate for standard RL. Furthermore, we uncover a critical mechanism: Negative Sample Reinforcement (NSR) within PreRL serves as an exceptionally effective driver for reasoning. NSR-PreRL rapidly prunes incorrect reasoning spaces while stimulating endogenous reflective behaviors, increasing transition and reflection thoughts by 14.89x and 6.54x, respectively. Leveraging these insights, we propose Dual Space RL (DSRL), a Policy Reincarnation strategy that initializes models with NSR-PreRL to expand the reasoning horizon before transitioning to standard RL for fine-grained optimization. Extensive experiments demonstrate that DSRL consistently outperforms strong baselines, proving that pre-train space pruning effectively steers the policy toward a refined correct reasoning subspace.",
-      "id": "1308305a10130ff5fef83e5769079fb9",
-      "title_zh": "从 $P(y|x)$ 到 $P(y)$：研究预训练空间中的强化学习",
-      "summary_zh": "While reinforcement learning with verifiable rewards (RLVR) significantly enhances LLM reasoning by optimizing the conditional distribution P(y|x), its potential is fundamentally bounded by the base m",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.147631+00:00"
-    },
-    {
-      "title": "The musician-turned-biotech-founder waiting to fundraise",
-      "url": "https://techcrunch.com/podcast/the-musician-turned-biotech-founder-waiting-to-fundraise/",
-      "source": "TechCrunch AI",
-      "domain": "AI",
-      "published": "2026-04-15T17:58:28+00:00",
-      "content": "When Grammy-nominated singer-songwriter&#160;Aloe Blacc&#160;got COVID despite being vaccinated and boosted, he tried to fund research for a better solution.&#160;What&#160;he&#160;quickly&#160;found&#160;out? You&#160;can&#8217;t&#160;just write a check in biotech. Regulators require a commercialization plan, and philanthropy&#160;doesn&#8217;t&#160;move science through clinical trials or get you a license on university IP. Now,&#160;he&#8217;s&#160;bootstrapping a cancer drug platform targeting pancreatic cancer, a disease that [&#8230;]",
-      "id": "18f5f5ff318b37a78356bfb0ef9561cc",
-      "title_zh": "这位由音乐家转型为生物技术创始人的人正在等待筹款",
-      "summary_zh": "When Grammy-nominated singer-songwriter&#160;Aloe Blacc&#160;got COVID despite being vaccinated and boosted, he tried to fund research for a better solution.&#160;What&#160;he&#160;quickly&#160;found&",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.531419+00:00"
-    },
-    {
-      "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
-      "url": "http://arxiv.org/abs/2604.14141v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:58:13Z",
-      "content": "Streaming 3D reconstruction aims to recover 3D information, such as camera poses and point clouds, from a video stream, which necessitates geometric accuracy, temporal   consistency, and computational efficiency. Motivated by the principles of Simultaneous Localization and Mapping (SLAM), we introduce LingBot-Map, a feed-forward 3D foundation   model for reconstructing scenes from streaming data, built upon a geometric context transformer (GCT) architecture. A defining aspect of LingBot-Map lies in its carefully   designed attention mechanism, which integrates an anchor context, a pose-reference window, and a trajectory memory to address coordinate grounding, dense geometric cues, and   long-range drift correction, respectively. This design keeps the streaming state compact while retaining rich geometric context, enabling stable efficient inference at around   20 FPS on 518 x 378 resolution inputs over long sequences exceeding 10,000 frames. Extensive evaluations across a variety of benchmarks demonstrate that our approach   achieves superior performance compared to both existing streaming and iterative optimization-based approaches.",
-      "id": "d4ec12a16dbe34afba49afe9179ea83a",
-      "title_zh": "用于流式 3D 重建的几何上下文转换器",
-      "summary_zh": "Streaming 3D reconstruction aims to recover 3D information, such as camera poses and point clouds, from a video stream, which necessitates geometric accuracy, temporal consistency, and computational",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.147759+00:00"
-    },
-    {
-      "title": "FCC exempts Netgear from ban on foreign routers, doesn't explain why",
-      "url": "https://arstechnica.com/tech-policy/2026/04/fcc-exempts-netgear-from-ban-on-foreign-routers-doesnt-explain-why/",
-      "source": "Ars Technica",
-      "domain": "科技",
-      "published": "2026-04-15T17:58:07+00:00",
-      "content": "Trump FCC starts handing out exemptions to its ban on foreign-made routers.",
-      "id": "9f86b8fd5f28e0f9a520f076cde7aff7",
-      "title_zh": "FCC 免除 Netgear 对外国路由器的禁令，但没有解释原因",
-      "summary_zh": "Trump FCC starts handing out exemptions to its ban on foreign-made routers.",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.543514+00:00"
-    },
-    {
-      "title": "LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning",
-      "url": "http://arxiv.org/abs/2604.14140v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:58:05Z",
-      "content": "As language models are increasingly deployed for complex autonomous tasks, their ability to reason accurately over longer horizons becomes critical. An essential component of this ability is planning and managing a long, complex chain-of-thought (CoT). We introduce LongCoT, a scalable benchmark of 2,500 expert-designed problems spanning chemistry, mathematics, computer science, chess, and logic to isolate and directly measure the long-horizon CoT reasoning capabilities of frontier models. Problems consist of a short input with a verifiable answer; solving them requires navigating a graph of interdependent steps that span tens to hundreds of thousands of reasoning tokens. Each local step is individually tractable for frontier models, so failures reflect long-horizon reasoning limitations. At release, the best models achieve <10% accuracy (GPT 5.2: 9.8%; Gemini 3 Pro: 6.1%) on LongCoT, revealing a substantial gap in current capabilities. Overall, LongCoT provides a rigorous measure of long-horizon reasoning, tracking the ability of frontier models to reason reliably over extended periods.",
-      "id": "816f96cf69fda10403c8dfe279afc4a3",
-      "title_zh": "LongCoT：长视野思维链推理基准测试",
-      "summary_zh": "As language models are increasingly deployed for complex autonomous tasks, their ability to reason accurately over longer horizons becomes critical. An essential component of this ability is planning",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.147878+00:00"
-    },
-    {
-      "title": "Anthropic products are operational after brief outage, status page says",
-      "url": "https://www.cnbc.com/2026/04/15/anthropic-outage-elevated-errors-claude-chatbot-code-api.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-04-15T17:57:36+00:00",
-      "content": "Anthropic said it is working to \"fully resolve this issue,\" according to its page showing the status of the Claude chatbot, Claude Code and the API.",
-      "id": "170b7b2bf7409ddf1c98fee35833834c",
-      "title_zh": "状态页面显示，Anthropic 产品在短暂中断后仍可运行",
-      "summary_zh": "Anthropic said it is working to \"fully resolve this issue,\" according to its page showing the status of the Claude chatbot, Claude Code and the API.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.543190+00:00"
-    },
-    {
-      "title": "Sustaining creative aliveness while working a full time job",
-      "url": "https://www.startingfromnix.com/p/sustaining-creative-aliveness-while",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-04-15T17:57:18+00:00",
-      "content": "Sustaining creative aliveness while working a full time job. Score: 5, Comments: 0",
-      "id": "f476a8993f4d8308107b438d08217f4b",
-      "title_zh": "在全职工作的同时保持创造力",
-      "summary_zh": "Sustaining creative aliveness while working a full time job. Score: 5, Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T22:25:06.673290+00:00"
-    },
-    {
-      "title": "From Feelings to Metrics: Understanding and Formalizing How Users Vibe-Test LLMs",
-      "url": "http://arxiv.org/abs/2604.14137v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:57:08Z",
-      "content": "Evaluating LLMs is challenging, as benchmark scores often fail to capture models' real-world usefulness. Instead, users often rely on ``vibe-testing'': informal experience-based evaluation, such as comparing models on coding tasks related to their own workflow. While prevalent, vibe-testing is often too ad hoc and unstructured to analyze or reproduce at scale. In this work, we study how vibe-testing works in practice and then formalize it to support systematic analysis. We first analyze two empirical resources: (1) a survey of user evaluation practices, and (2) a collection of in-the-wild model comparison reports from blogs and social media. Based on these resources, we formalize vibe-testing as a two-part process: users personalize both what they test and how they judge responses. We then introduce a proof-of-concept evaluation pipeline that follows this formulation by generating personalized prompts and comparing model outputs using user-aware subjective criteria. In experiments on coding benchmarks, we find that combining personalized prompts and user-aware evaluation can change which model is preferred, reflecting the role of vibe-testing in practice. These findings suggest that formalized vibe-testing can serve as a useful approach for bridging benchmark scores and real-world experience.",
-      "id": "c5f2e297c90c2b6f7d0763afc0e71a6c",
-      "title_zh": "从感受到指标：理解和形式化用户如何Vibe-Test LLM",
-      "summary_zh": "Evaluating LLMs is challenging, as benchmark scores often fail to capture models' real-world usefulness. Instead, users often rely on ``vibe-testing'': informal experience-based evaluation, such as co",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.148019+00:00"
-    },
-    {
-      "title": "Stopping the Meta AI director's \"OpenClaw failure with an out-of-band killswitch",
-      "url": "https://highflame.com/blogs/why-metas-ai-alignment-director-couldnt-stop-her-own-agent--and-how-to-fix-it",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-15T17:57:01+00:00",
-      "content": "Article URL: https://highflame.com/blogs/why-metas-ai-alignment-director-couldnt-stop-her-own-agent--and-how-to-fix-it\nComments URL: https://news.ycombinator.com/item?id=47782763\nPoints: 3\n# Comments: 3",
-      "id": "a3c69ca366bbd7d5b5ba4f6eeda95ab0",
-      "title_zh": "使用带外终止开关阻止 Meta AI 主管的“OpenClaw 故障”",
-      "summary_zh": "Article URL: https://highflame.com/blogs/why-metas-ai-alignment-director-couldnt-stop-her-own-agent--and-how-to-fix-it Comments URL: https://news.ycombinator.com/item?id=47782763 Points: 3 # Comments:",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.547115+00:00"
-    },
-    {
-      "title": "SantaCon organiser charged with stealing $1m from charity pub crawl",
-      "url": "https://www.bbc.com/news/articles/crl11g21ex8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "domain": "国际",
-      "published": "2026-04-15T17:56:47+00:00",
-      "content": "Prosecutors say Stefan Pildes spent hundreds of thousands of $2.7m raised for charity on personal expenses.",
-      "id": "ebdc94db0e1d3ec7ba46dbb52c406fc3",
-      "title_zh": "SantaCon 组织者被控从慈善串酒吧盗窃 100 万美元",
-      "summary_zh": "Prosecutors say Stefan Pildes spent hundreds of thousands of $2.7m raised for charity on personal expenses.",
-      "category": "外交",
-      "tags": [],
-      "collected": "2026-04-15T20:08:34.688727+00:00"
-    },
-    {
-      "title": "Show HN: Fakecloud – Free, open-source AWS emulator",
-      "url": "https://github.com/faiscadev/fakecloud",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-04-15T17:52:32+00:00",
-      "content": "Show HN: Fakecloud – Free, open-source AWS emulator. Score: 5, Comments: 3",
-      "id": "45cf27c171a21fc1af8bda02e95a435e",
-      "title_zh": "Show HN：Fakecloud – 免费开源 AWS 模拟器",
-      "summary_zh": "Show HN: Fakecloud – Free, open-source AWS emulator. Score: 5, Comments: 3",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-15T20:08:34.690719+00:00"
-    },
-    {
-      "title": "Show HN: Multi-Agent Orchestration on Top of Vercel AI SDK (TypeScript, Next.js)",
-      "url": "https://github.com/JackChen-me/open-multi-agent/tree/main/examples/with-vercel-ai-sdk",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-15T17:52:31+00:00",
-      "content": "Article URL: https://github.com/JackChen-me/open-multi-agent/tree/main/examples/with-vercel-ai-sdk\nComments URL: https://news.ycombinator.com/item?id=47782694\nPoints: 1\n# Comments: 0",
-      "id": "3c1e318b262af79680be908a797026ff",
-      "title_zh": "展示 HN：Vercel AI SDK 之上的多代理编排（TypeScript、Next.js）",
-      "summary_zh": "Article URL: https://github.com/JackChen-me/open-multi-agent/tree/main/examples/with-vercel-ai-sdk Comments URL: https://news.ycombinator.com/item?id=47782694 Points: 1 # Comments: 0",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.547162+00:00"
-    },
-    {
-      "title": "I ran 90 queries through 8 AI models. 86% of findings were unique to one",
-      "url": "https://parallect.ai/blog/divergence-study",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-15T17:52:31+00:00",
-      "content": "Article URL: https://parallect.ai/blog/divergence-study\nComments URL: https://news.ycombinator.com/item?id=47782693\nPoints: 3\n# Comments: 0",
-      "id": "a02d970738ca2e82aaac3621bc96dc9e",
-      "title_zh": "我通过 8 个 AI 模型运行了 90 个查询。 86% 的发现是独一无二的",
-      "summary_zh": "Article URL: https://parallect.ai/blog/divergence-study Comments URL: https://news.ycombinator.com/item?id=47782693 Points: 3 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.547210+00:00"
-    },
-    {
-      "title": "Don't Let the Video Speak: Audio-Contrastive Preference Optimization for Audio-Visual Language Models",
-      "url": "http://arxiv.org/abs/2604.14129v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:51:28Z",
-      "content": "While Audio-Visual Language Models (AVLMs) have achieved remarkable progress over recent years, their reliability is bottlenecked by cross-modal hallucination. A particularly pervasive manifestation is video-driven audio hallucination: models routinely exploit visual shortcuts to hallucinate expected sounds, discarding true auditory evidence. To counteract this deeply ingrained visual dominance, we propose Audio-Contrastive Preference Optimization (ACPO). This dual-axis preference learning framework introduces an output-contrastive objective to penalize visual descriptions masquerading as audio facts, alongside an input-contrastive objective that swaps audio tracks to explicitly penalize generation invariant to the true auditory signal. Extensive experiments demonstrate that ACPO establishes highly faithful audio grounding and mitigates audio hallucination without compromising overarching multimodal capabilities.",
-      "id": "6c90ee87efcb146697ba0228a51a4657",
-      "title_zh": "不要让视频说话：视听语言模型的音频对比偏好优化",
-      "summary_zh": "While Audio-Visual Language Models (AVLMs) have achieved remarkable progress over recent years, their reliability is bottlenecked by cross-modal hallucination. A particularly pervasive manifestation i",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.148133+00:00"
-    },
-    {
-      "title": "The Dark Art of AI Marketing",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-15/opinion-the-dark-art-of-ai-marketing-video",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-04-15T17:51:17+00:00",
-      "content": "When tech CEOs like Sam Altman and Dario Amodei acknowledge the risks of AI, they’re selling you a product, Bloomberg Opinion columnist Parmy Olson says. (Source: Bloomberg)",
-      "id": "47d0dee41bf8ad3aea57eed97cd46b8a",
-      "title_zh": "人工智能营销的黑暗艺术",
-      "summary_zh": "When tech CEOs like Sam Altman and Dario Amodei acknowledge the risks of AI, they’re selling you a product, Bloomberg Opinion columnist Parmy Olson says. (Source: Bloomberg)",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.544807+00:00"
-    },
-    {
-      "title": "Rhetorical Questions in LLM Representations: A Linear Probing Study",
-      "url": "http://arxiv.org/abs/2604.14128v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:50:56Z",
-      "content": "Rhetorical questions are asked not to seek information but to persuade or signal stance. How large language models internally represent them remains unclear. We analyze rhetorical questions in LLM representations using linear probes on two social-media datasets with different discourse contexts, and find that rhetorical signals emerge early and are most stably captured by last-token representations. Rhetorical questions are linearly separable from information-seeking questions within datasets, and remain detectable under cross-dataset transfer, reaching AUROC around 0.7-0.8. However, we demonstrate that transferability does not simply imply a shared representation. Probes trained on different datasets produce different rankings when applied to the same target corpus, with overlap among the top-ranked instances often below 0.2. Qualitative analysis shows that these divergences correspond to distinct rhetorical phenomena: some probes capture discourse-level rhetorical stance embedded in extended argumentation, while others emphasize localized, syntax-driven interrogative acts. Together, these findings suggest that rhetorical questions in LLM representations are encoded by multiple linear directions emphasizing different cues, rather than a single shared direction.",
-      "id": "d072d7c4b7a178aee8474f28e610b1b3",
-      "title_zh": "LLM 表述中的反问句：线性探究研究",
-      "summary_zh": "Rhetorical questions are asked not to seek information but to persuade or signal stance. How large language models internally represent them remains unclear. We analyze rhetorical questions in LLM rep",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.148273+00:00"
-    },
-    {
-      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
-      "url": "http://arxiv.org/abs/2604.14125v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:50:07Z",
-      "content": "While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities inherited from their base Vision-Language Models (VLMs). To resolve this fundamental trade-off, we propose HiVLA, a visual-grounded-centric hierarchical framework that explicitly decouples high-level semantic planning from low-level motor control. In high-level part, a VLM planner first performs task decomposition and visual grounding to generate structured plans, comprising a subtask instruction and a precise target bounding box. Then, to translate this plan into physical actions, we introduce a flow-matching Diffusion Transformer (DiT) action expert in low-level part equipped with a novel cascaded cross-attention mechanism. This design sequentially fuses global context, high-resolution object-centric crops and skill semantics, enabling the DiT to focus purely on robust execution. Our decoupled architecture preserves the VLM's zero-shot reasoning while allowing independent improvement of both components. Extensive experiments in simulation and the real world demonstrate that HiVLA significantly outperforms state-of-the-art end-to-end baselines, particularly excelling in long-horizon skill composition and the fine-grained manipulation of small objects in cluttered scenes.",
-      "id": "3be252e49d48d3994f745b188d431352",
-      "title_zh": "HiVLA：以视觉为中心的分层体现操纵系统",
-      "summary_zh": "While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.148417+00:00"
-    },
-    {
-      "title": "Iran team is 'coming for sure' to 2026 World Cup in U.S., says FIFA President Infantino",
-      "url": "https://www.cnbc.com/2026/04/15/fifa-president-iran-team-coming-for-sure-to-2026-world-cup-in-us.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-04-15T17:48:57+00:00",
-      "content": "Amid war with the U.S., Iran's participation in the World Cup is uncertain. But FIFA President Gianni Infantino tells CNBC they will play in North America.",
-      "id": "18a2dabcc3a3a453f616b8ecf8331082",
-      "title_zh": "国际足联主席因凡蒂诺表示，伊朗队“肯定会”参加 2026 年美国世界杯",
-      "summary_zh": "Amid war with the U.S., Iran's participation in the World Cup is uncertain. But FIFA President Gianni Infantino tells CNBC they will play in North America.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.543234+00:00"
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS – with directed prompts",
-      "url": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-04-15T17:47:08+00:00",
-      "content": "Gemini 3.1 Flash TTS – with directed prompts. Score: 9, Comments: 3",
-      "id": "8cb36a7f43821d1f185b612e9393f057",
-      "title_zh": "Gemini 3.1 Flash TTS – 带定向提示",
-      "summary_zh": "Gemini 3.1 Flash TTS – with directed prompts. Score: 9, Comments: 3",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T22:25:06.673067+00:00"
-    },
-    {
-      "title": "Google ships its most expressive Gemini 3.1 text-to-speech model yet with 70+ language support",
-      "url": "https://the-decoder.com/google-ships-its-most-expressive-gemini-3-1-text-to-speech-model-yet-with-70-language-support/",
-      "source": "The Decoder",
-      "domain": "AI",
-      "published": "2026-04-15T17:45:07+00:00",
-      "content": "Google Gemini 3.1 Flash TTS converts text into natural-sounding speech in over 70 languages, with new audio tags for precise control over style, pace and tone. The article Google ships its most expressive Gemini 3.1 text-to-speech model yet with 70+ language support appeared first on The Decoder.",
-      "id": "48861c07f6aeb03bcf09ed05cbee3948",
-      "title_zh": "Google 推出最具表现力的 Gemini 3.1 文本转语音模型，支持 70 多种语言",
-      "summary_zh": "Google Gemini 3.1 Flash TTS converts text into natural-sounding speech in over 70 languages, with new audio tags for precise control over style, pace and tone. The article Google ships its most expres",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.531730+00:00"
-    },
-    {
-      "title": "Google Broke Its Promise to Me. Now ICE Has My Data",
-      "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-04-15T17:44:26+00:00",
-      "content": "Google Broke Its Promise to Me. Now ICE Has My Data. Score: 207, Comments: 32",
-      "id": "f5b9b3472b5f4037bf29364d48b8a11d",
-      "title_zh": "谷歌违背了对我的承诺。现在 ICE 有了我的数据",
-      "summary_zh": "Google Broke Its Promise to Me. Now ICE Has My Data. Score: 207, Comments: 32",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.545169+00:00"
-    },
-    {
-      "title": "Show HN Deskdrop: An Android Keyboard with Local AI Support (Ollama, LM Studio)",
-      "url": "https://github.com/SvReenen/Deskdrop",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-15T17:44:01+00:00",
-      "content": "Article URL: https://github.com/SvReenen/Deskdrop\nComments URL: https://news.ycombinator.com/item?id=47782560\nPoints: 2\n# Comments: 1",
-      "id": "b98688bc928046151db58ae3669510a1",
-      "title_zh": "显示 HN Deskdrop：具有本地 AI 支持的 Android 键盘（Ollama、LM Studio）",
-      "summary_zh": "Article URL: https://github.com/SvReenen/Deskdrop Comments URL: https://news.ycombinator.com/item?id=47782560 Points: 2 # Comments: 1",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.547254+00:00"
-    },
-    {
-      "title": "Correct Prediction, Wrong Steps? Consensus Reasoning Knowledge Graph for Robust Chain-of-Thought Synthesis",
-      "url": "http://arxiv.org/abs/2604.14121v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:43:10Z",
-      "content": "LLM reasoning traces suffer from complex flaws -- *Step Internal Flaws* (logical errors, hallucinations, etc.) and *Step-wise Flaws* (overthinking, underthinking), which vary by sample. A natural approach would be to provide ground-truth labels to guide LLMs' reasoning. Contrary to intuition, we show that this yields no improvement in reasoning ability. We then propose CRAFT, a unified framework that mitigates both types of Step flaws, which builds a Reasoning Knowledge Graph (RKG) based on the consensus parts of multiple candidate traces, and synthesizes a high-quality trace through topological generation. Our approach improves label-prediction accuracy by 10+% on average, and consistently outperforms all baselines across both logical and mathematical reasoning benchmarks. Further, detailed benchmark evaluation proves that our method also improves the quality of LLMs' reasoning traces in multiple dimensions.",
-      "id": "02b074f6ec2a5a59813e39911e030f56",
-      "title_zh": "预测正确，步骤错误？用于鲁棒思想链综合的共识推理知识图",
-      "summary_zh": "LLM reasoning traces suffer from complex flaws -- *Step Internal Flaws* (logical errors, hallucinations, etc.) and *Step-wise Flaws* (overthinking, underthinking), which vary by sample. A natural appr",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.148537+00:00"
-    },
-    {
-      "title": "Complex Interpolation of Matrices with an application to Multi-Manifold Learning",
-      "url": "http://arxiv.org/abs/2604.14118v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:40:37Z",
-      "content": "Given two symmetric positive-definite matrices $A, B \\in \\mathbb{R}^{n \\times n}$, we study the spectral properties of the interpolation $A^{1-x} B^x$ for $0 \\leq x \\leq 1$. The presence of `common structures' in $A$ and $B$, eigenvectors pointing in a similar direction, can be investigated using this interpolation perspective. Generically, exact log-linearity of the operator norm $\\|A^{1-x} B^x\\|$ is equivalent to the existence of a shared eigenvector in the original matrices; stability bounds show that approximate log-linearity forces principal singular vectors to align with leading eigenvectors of both matrices. These results give rise to and provide theoretical justification for a multi-manifold learning framework that identifies common and distinct latent structures in multiview data.",
-      "id": "4f0ab030612f3d089e13ec5ba208ff59",
-      "title_zh": "矩阵的复杂插值及其在多流形学习中的应用",
-      "summary_zh": "Given two symmetric positive-definite matrices $A, B \\in \\mathbb{R}^{n \\times n}$, we study the spectral properties of the interpolation $A^{1-x} B^x$ for $0 \\leq x \\leq 1$. The presence of `common st",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.148639+00:00"
-    },
-    {
-      "title": "Oracle-Tied $38 Billion Debt Takes Months To Spread Across The Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-15/oracle-tied-38-billion-debt-takes-months-for-market-to-swallow",
-      "source": "Bloomberg Tech",
-      "domain": "经济",
-      "published": "2026-04-15T17:38:55+00:00",
-      "content": "It was an audacious bet by JPMorgan Chase &amp; Co. and Mitsubishi UFJ Financial Group: Taking on a record-shattering $38 billion loan package backing new Oracle Corp. data center projects in Texas and Wisconsin.",
-      "id": "a5073341156d54f0def03ba25f64378e",
-      "title_zh": "与 Oracle 相关的 380 亿美元债务需要数月时间才能在市场上分散",
-      "summary_zh": "It was an audacious bet by JPMorgan Chase &amp; Co. and Mitsubishi UFJ Financial Group: Taking on a record-shattering $38 billion loan package backing new Oracle Corp. data center projects in Texas an",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.544890+00:00"
-    },
-    {
-      "title": "Moss-TTS-Nano: Real-Time Voice AI on CPU (Open-Source TTS Stack)",
-      "url": "https://firethering.com/moss-tts-nano-open-source-tts/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-15T17:38:40+00:00",
-      "content": "Article URL: https://firethering.com/moss-tts-nano-open-source-tts/\nComments URL: https://news.ycombinator.com/item?id=47782479\nPoints: 1\n# Comments: 0",
-      "id": "25da3111c8d93f7e88a6c6900dcc1b92",
-      "title_zh": "Moss-TTS-Nano：CPU 上的实时语音 AI（开源 TTS 堆栈）",
-      "summary_zh": "Article URL: https://firethering.com/moss-tts-nano-open-source-tts/ Comments URL: https://news.ycombinator.com/item?id=47782479 Points: 1 # Comments: 0",
-      "category": "开源",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.547298+00:00"
-    },
-    {
-      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
-      "url": "http://arxiv.org/abs/2604.14116v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:38:06Z",
-      "content": "While Large Language Models (LLMs) have empowered AI research agents to perform isolated scientific tasks, automating complex, real-world workflows, such as LLM training, remains a significant challenge. In this paper, we introduce TREX, a multi-agent system that automates the entire LLM training life-cycle. By orchestrating collaboration between two core modules-the Researcher and the Executor-the system seamlessly performs requirement analysis, open-domain literature and data research, formulation of training strategies, preparation of data recipes, and model training and evaluation. The multi-round experimental process is modeled as a search tree, enabling the system to efficiently plan exploration paths, reuse historical results, and distill high-level insights from iterative trials. To evaluate the capability of automated LLM training, we construct FT-Bench, a benchmark comprising 10 tasks derived from real-world scenarios, ranging from optimizing fundamental model capabilities to enhancing performance on domain-specific tasks. Experimental results demonstrate that the TREX agent consistently optimizes model performance on target tasks.",
-      "id": "2bb092063cf045d5e05ad1512906f831",
-      "title_zh": "TREX：通过代理驱动的基于树的探索自动进行 LLM 微调",
-      "summary_zh": "While Large Language Models (LLMs) have empowered AI research agents to perform isolated scientific tasks, automating complex, real-world workflows, such as LLM training, remains a significant challen",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.148768+00:00"
-    },
-    {
-      "title": "Ask HN : Vibe coders: does AI keep breaking your auth and webhooks?",
-      "url": "https://www.indiehackers.com/post/vibe-coders-does-ai-keep-breaking-your-auth-and-webhooks-b9e86977a0",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-15T17:37:56+00:00",
-      "content": "Article URL: https://www.indiehackers.com/post/vibe-coders-does-ai-keep-breaking-your-auth-and-webhooks-b9e86977a0\nComments URL: https://news.ycombinator.com/item?id=47782469\nPoints: 2\n# Comments: 2",
-      "id": "8e52a8a1e668e920fc9118d9e25926e5",
-      "title_zh": "问 HN：Vibe 编码员：AI 是否会不断破坏您的身份验证和 Webhooks？",
-      "summary_zh": "Article URL: https://www.indiehackers.com/post/vibe-coders-does-ai-keep-breaking-your-auth-and-webhooks-b9e86977a0 Comments URL: https://news.ycombinator.com/item?id=47782469 Points: 2 # Comments: 2",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.547345+00:00"
-    },
-    {
-      "title": "ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation",
-      "url": "http://arxiv.org/abs/2604.14114v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:36:19Z",
-      "content": "Sequential recommendation has become increasingly prominent in both academia and industry, particularly in e-commerce. The primary goal is to extract user preferences from historical interaction sequences and predict items a user is likely to engage with next. Recent advances have leveraged contrastive learning and graph neural networks to learn more expressive representations from interaction histories -- graphs capture relational structure between nodes, while ID-based representations encode item-specific information. However, few studies have explored multi-view contrastive learning between ID and graph perspectives to jointly improve user and item representations, especially in settings where only interaction data is available without auxiliary information.   To address this gap, we propose Multi-View Contrastive learning for sequential recommendation (MVCrec), a framework that integrates complementary signals from both sequential (ID-based) and graph-based views. MVCrec incorporates three contrastive objectives: within the sequential view, within the graph view, and across views. To effectively fuse the learned representations, we introduce a multi-view attention fusion module that combines global and local attention mechanisms to estimate the likelihood of a target user purchasing a target item. Comprehensive experiments on five real-world benchmark datasets demonstrate that MVCrec consistently outperforms 11 state-of-the-art baselines, achieving improvements of up to 14.44\\% in NDCG@10 and 9.22\\% in HitRatio@10 over the strongest baseline. Our code and datasets are available at https://github.com/sword-Lz/MMCrec.",
-      "id": "90410227491a41fb1dc9142a19a3591a",
-      "title_zh": "用于顺序推荐的 ID 和图视图对比学习与多视图注意融合",
-      "summary_zh": "Sequential recommendation has become increasingly prominent in both academia and industry, particularly in e-commerce. The primary goal is to extract user preferences from historical interaction seque",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.148986+00:00"
-    },
-    {
-      "title": "UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding",
-      "url": "http://arxiv.org/abs/2604.14113v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:32:28Z",
-      "content": "GUI grounding, which localizes interface elements from screenshots given natural language queries, remains challenging for small icons and dense layouts. Test-time zoom-in methods improve localization by cropping and re-running inference at higher resolution, but apply cropping uniformly across all instances with fixed crop sizes, ignoring whether the model is actually uncertain on each case. We propose \\textbf{UI-Zoomer}, a training-free adaptive zoom-in framework that treats both the trigger and scale of zoom-in as a prediction uncertainty quantification problem. A confidence-aware gate fuses spatial consensus among stochastic candidates with token-level generation confidence to selectively trigger zoom-in only when localization is uncertain. When triggered, an uncertainty-driven crop sizing module decomposes prediction variance into inter-sample positional spread and intra-sample box extent, deriving a per-instance crop radius via the law of total variance. Extensive experiments on ScreenSpot-Pro, UI-Vision, and ScreenSpot-v2 demonstrate consistent improvements over strong baselines across multiple model architectures, achieving gains of up to +13.4\\%, +10.3\\%, and +4.2\\% respectively, with no additional training required.",
-      "id": "98f0d26d1153e0de85371bd3f9cb6eb2",
-      "title_zh": "UI-Zoomer：用于 GUI 基础的不确定性驱动的自适应放大",
-      "summary_zh": "GUI grounding, which localizes interface elements from screenshots given natural language queries, remains challenging for small icons and dense layouts. Test-time zoom-in methods improve localization",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.149127+00:00"
-    },
-    {
-      "title": "Interpretable Stylistic Variation in Human and LLM Writing Across Genres, Models, and Decoding Strategies",
-      "url": "http://arxiv.org/abs/2604.14111v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:31:21Z",
-      "content": "Large Language Models (LLMs) are now capable of generating highly fluent, human-like text. They enable many applications, but also raise concerns such as large scale spam, phishing, or academic misuse. While much work has focused on detecting LLM-generated text, only limited work has gone into understanding the stylistic differences between human-written and machine-generated text. In this work, we perform a large scale analysis of stylistic variation across human-written text and outputs from 11 LLMs spanning 8 different genres and 4 decoding strategies using Douglas Biber's set of lexicogrammatical and functional features. Our findings reveal insights that can guide intentional LLM usage. First, key linguistic differentiators of LLM-generated text seem robust to generation conditions (e.g., prompt settings to nudge them to generate human-like text, or availability of human-written text to continue the style); second, genre exerts a stronger influence on stylistic features than the source itself; third, chat variants of the models generally appear to be clustered together in stylistic space, and finally, model has a larger effect on the style than decoding strategy, with some exceptions. These results highlight the relative importance of model and genre over prompting and decoding strategies in shaping the stylistic behavior of machine-generated text.",
-      "id": "7690114afec899edccc94197723f8bc2",
-      "title_zh": "人类和法学硕士写作中跨流派、模型和解码策略的可解释的文体变化",
-      "summary_zh": "Large Language Models (LLMs) are now capable of generating highly fluent, human-like text. They enable many applications, but also raise concerns such as large scale spam, phishing, or academic misuse",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.149277+00:00"
-    },
-    {
-      "title": "Momentum Further Constrains Sharpness at the Edge of Stochastic Stability",
-      "url": "http://arxiv.org/abs/2604.14108v1",
-      "source": "arXiv",
-      "domain": "AI",
-      "published": "2026-04-15T17:28:46Z",
-      "content": "Recent work suggests that (stochastic) gradient descent self-organizes near an instability boundary, shaping both optimization and the solutions found. Momentum and mini-batch gradients are widely used in practical deep learning optimization, but it remains unclear whether they operate in a comparable regime of instability. We demonstrate that SGD with momentum exhibits an Edge of Stochastic Stability (EoSS)-like regime with batch-size-dependent behavior that cannot be explained by a single momentum-adjusted stability threshold. Batch Sharpness (the expected directional mini-batch curvature) stabilizes in two distinct regimes: at small batch sizes it converges to a lower plateau $2(1-β)/η$, reflecting amplification of stochastic fluctuations by momentum and favoring flatter regions than vanilla SGD; at large batch sizes it converges to a higher plateau $2(1+β)/η$, where momentum recovers its classical stabilizing effect and favors sharper regions consistent with full-batch dynamics. We further show that this aligns with linear stability thresholds and discuss the implications for hyperparameter tuning and coupling.",
-      "id": "c8ef56fff0dfbabefa77823201d85f9a",
-      "title_zh": "动量进一步限制了随机稳定边缘的锐度",
-      "summary_zh": "Recent work suggests that (stochastic) gradient descent self-organizes near an instability boundary, shaping both optimization and the solutions found. Momentum and mini-batch gradients are widely use",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-04-16T03:58:32.149503+00:00"
-    },
-    {
-      "title": "Show HN: Tier – Adaptive tool routing that makes small LLMs 10pt more accurate",
-      "url": "https://github.com/yantrikos/tier",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-04-15T17:27:00+00:00",
-      "content": "Show HN: Tier – Adaptive tool routing that makes small LLMs 10pt more accurate. Score: 3, Comments: 4",
-      "id": "5d66e3a71eb54812861e2b4a8b8f8807",
-      "title_zh": "显示 HN：Tier – 自适应工具路由，使小型 LLM 准确度提高 10pt",
-      "summary_zh": "Show HN: Tier – Adaptive tool routing that makes small LLMs 10pt more accurate. Score: 3, Comments: 4",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T20:08:34.690820+00:00"
-    },
-    {
-      "title": "Tim Cook buys another $1 million worth of Nike shares — a much-needed vote of confidence",
-      "url": "https://www.cnbc.com/2026/04/15/tim-cook-buys-another-1-million-worth-of-nike-shares-a-much-needed-vote-of-confidence.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-04-15T17:26:54+00:00",
-      "content": "The market and Jim Cramer applauded the move.",
-      "id": "c3c5a2335975ad3bb5044ad17ba86ee7",
-      "title_zh": "蒂姆·库克又购买了价值 100 万美元的耐克股票——这是一次急需的信任投票",
-      "summary_zh": "The market and Jim Cramer applauded the move.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.543285+00:00"
-    },
-    {
-      "title": "The Gemini app is now on Mac",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-04-15T17:25:52+00:00",
-      "content": "The Gemini app is now on Mac. Score: 4, Comments: 0",
-      "id": "4d1fc804b1550681c24fff18d1b5715b",
-      "title_zh": "Gemini 应用程序现已在 Mac 上推出",
-      "summary_zh": "The Gemini app is now on Mac. Score: 4, Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T20:08:34.690873+00:00"
-    },
-    {
-      "title": "SoftBank Raises $3.6 Billion While AI Push Raises Debt Costs",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-15/softbank-raises-3-6-billion-while-ai-push-raises-debt-costs",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-04-15T17:24:35+00:00",
-      "content": "SoftBank Group Corp. sold about $3.6 billion of junk bonds Wednesday, as aggressive investments in artificial intelligence by the Japanese conglomerate has helped fuel a surge in the firm’s funding costs.",
-      "id": "61c34bd2040302baa26fd13d35d24e94",
-      "title_zh": "软银融资 36 亿美元，人工智能推动提高债务成本",
-      "summary_zh": "SoftBank Group Corp. sold about $3.6 billion of junk bonds Wednesday, as aggressive investments in artificial intelligence by the Japanese conglomerate has helped fuel a surge in the firm’s funding co",
-      "category": "投融资",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.542940+00:00"
-    },
-    {
-      "title": "India’s vibe-coding startup Emergent enters OpenClaw-like AI agent space",
-      "url": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
-      "source": "TechCrunch AI",
-      "domain": "AI",
-      "published": "2026-04-15T17:24:18+00:00",
-      "content": "Emergent's Wingman lets users manage and automate tasks through chat on platforms like WhatsApp and Telegram.",
-      "id": "7cb080d8a0d73a2e7cafda6afe4a35ef",
-      "title_zh": "印度振动编码初创公司 Emergent 进入类似 OpenClaw 的人工智能代理领域",
-      "summary_zh": "Emergent's Wingman lets users manage and automate tasks through chat on platforms like WhatsApp and Telegram.",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.531481+00:00"
-    },
-    {
-      "title": "Freedom Forever Files for Bankruptcy as Solar Industry Woes Deepen",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-15/freedom-forever-files-bankruptcy-as-solar-industry-woes-deepen",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-04-15T17:24:15+00:00",
-      "content": "Freedom Forever, a once thriving residential solar installer, joins a growing list of bankruptcies as distress in the US clean energy sector deepens under an unfriendly Trump administration and hopes for buyouts fade.",
-      "id": "c372255dceecaffcc0491ce1cee72824",
-      "title_zh": "随着太阳能行业困境加深，Freedom Forever 申请破产",
-      "summary_zh": "Freedom Forever, a once thriving residential solar installer, joins a growing list of bankruptcies as distress in the US clean energy sector deepens under an unfriendly Trump administration and hopes",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.542971+00:00"
-    },
-    {
-      "title": "'Handing out the blueprint to a bank vault' Why AI led Cal to drop open source",
-      "url": "https://www.zdnet.com/article/ai-security-worries-force-company-to-abandon-open-source/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-15T17:15:04+00:00",
-      "content": "Article URL: https://www.zdnet.com/article/ai-security-worries-force-company-to-abandon-open-source/\nComments URL: https://news.ycombinator.com/item?id=47782110\nPoints: 2\n# Comments: 1",
-      "id": "a806c8e3491595ff468038eb933f7758",
-      "title_zh": "“将蓝图分发到银行金库” 为什么人工智能导致加州放弃开源",
-      "summary_zh": "Article URL: https://www.zdnet.com/article/ai-security-worries-force-company-to-abandon-open-source/ Comments URL: https://news.ycombinator.com/item?id=47782110 Points: 2 # Comments: 1",
-      "category": "开源",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.547392+00:00"
-    },
-    {
-      "title": "Goldman, Morgan Stanley Predict IPO Resilience as Revenue Climbs",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-15/goldman-morgan-stanley-predict-ipo-resilience-as-revenue-climbs",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-04-15T17:14:41+00:00",
-      "content": "Wall Street’s biggest banks kicked off 2026 with strong gains in equity capital markets revenue, even as the war in Iran weighed on IPO activity.",
-      "id": "c668c01a676be8486a3948f6d2e8a4d7",
-      "title_zh": "高盛、摩根士丹利预测随着收入攀升IPO将呈现韧性",
-      "summary_zh": "Wall Street’s biggest banks kicked off 2026 with strong gains in equity capital markets revenue, even as the war in Iran weighed on IPO activity.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.543008+00:00"
-    },
-    {
-      "title": "n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails",
-      "url": "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
-      "source": "The Hacker News",
-      "domain": "安全",
-      "published": "2026-04-15T17:09:00+00:00",
-      "content": "Threat actors&nbsp;have been&nbsp;observed weaponizing n8n, a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious payloads or fingerprint devices by sending automated&nbsp;emails. \"By leveraging trusted infrastructure, these attackers bypass traditional security filters, turning productivity tools into delivery",
-      "id": "e31e7fe15a67f4a0f0b28de9a884eed7",
-      "title_zh": "自 2025 年 10 月起，n8n Webhook 被滥用，通过网络钓鱼电子邮件传播恶意软件",
-      "summary_zh": "Threat actors&nbsp;have been&nbsp;observed weaponizing n8n, a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious pa",
-      "category": "攻防",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.540019+00:00"
-    },
-    {
-      "title": "The next evolution of the Agents SDK",
-      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-04-15T17:08:59+00:00",
-      "content": "The next evolution of the Agents SDK. Score: 13, Comments: 2",
-      "id": "24748be121c25eb38ccf05c7ae5b9fcc",
-      "title_zh": "Agents SDK 的下一步发展",
-      "summary_zh": "The next evolution of the Agents SDK. Score: 13, Comments: 2",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-15T18:45:22.546289+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
-        "title": "URLmind – 将任何业务 URL 转换为 AI 代理的结构化上下文",
-        "summary": "URLmind 创新性地将业务 URL 转化为结构化上下文，赋能 AI 代理。",
-        "url": "https://urlmind.com",
+        "title": "个人人工智能的无头一切",
+        "summary": "探讨了个人人工智能的未来，强调了去中心化和用户控制。",
+        "url": "https://interconnected.org/home/2026/04/18/headless",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 2,
-        "title": "AI 代理的开源隔离运行时",
-        "summary": "发布了一个开源隔离运行时，为 AI 代理提供安全运行环境。",
-        "url": "https://github.com/CelestoAI/SmolVM",
+        "title": "Salesforce 在人工智能代理基础设施中推出 Headless 360 旋转平台",
+        "summary": "Salesforce 推出新平台，旨在简化 AI 代理的集成和管理。",
+        "url": "https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
         "source": "Hacker News AI",
-        "category": "开源"
+        "category": "AI产品"
       },
       {
         "rank": 3,
-        "title": "Despedify——人工智能驱动的规划器将结束 WhatsApp 团体旅行的混乱局面",
-        "summary": "AI 驱动的规划器 Despedify 旨在解决 WhatsApp 群组旅行中的组织混乱。",
-        "url": "https://despedify.es/",
+        "title": "DOMPrompter – 单击 DOM 元素，获得结构化 AI 编码提示",
+        "summary": "一个新工具，可以通过点击 DOM 元素生成结构化的 AI 编码提示。",
+        "url": "https://news.ycombinator.com/item?id=47817715",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 4,
-        "title": "正在玩火的人工智能毁灭者",
-        "summary": "文章探讨了人工智能可能带来的潜在风险和破坏性影响。",
-        "url": "https://gizmodo.com/the-ai-doomers-who-are-playing-with-fire-2000747606",
+        "title": "人工智能堆栈陷阱：人工智能过度构建的隐性成本",
+        "summary": "分析了 AI 过度构建可能带来的隐藏成本和挑战。",
+        "url": "https://www.forbes.com/sites/abdoriani/2026/01/24/the-ai-stack-trap-the-hidden-cost-of-overbuilding-with-ai/",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 5,
-        "title": "“模型”一词如何改变 3D 图形、软件和人工智能的含义",
-        "summary": "探讨了“模型”一词在 3D 图形、软件和 AI 领域不断演变和扩展的含义。",
-        "url": "https://www.youtube.com/watch?v=S7NVbkVXtzo",
+        "title": "解释 2026 年人工智能状况的图表",
+        "summary": "通过图表形式解读 2026 年人工智能发展的现状和趋势。",
+        "url": "https://spectrum.ieee.org/state-of-ai-index-2026",
         "source": "Hacker News AI",
-        "category": "CV"
+        "category": "LLM"
       },
       {
         "rank": 6,
-        "title": "问HN：未来十年人工智能技术将如何发展？",
-        "summary": "Hacker News 社区就未来十年 AI 技术发展方向展开讨论和预测。",
-        "url": "https://news.ycombinator.com/item?id=47816803",
+        "title": "URLmind – 将任何业务 URL 转换为 AI 代理的结构化上下文",
+        "summary": "URLmind 允许将任何业务 URL 转换为 AI 代理可用的结构化上下文。",
+        "url": "https://urlmind.com",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 7,
-        "title": "配音演员在好莱坞的人工智能推动下努力挽救自己的生计",
-        "summary": "AI 技术发展对好莱坞配音演员的生计构成威胁，他们正积极应对。",
-        "url": "https://restofworld.org/2026/ai-voice-actors-hollywood-dubbing/",
+        "title": "AI 代理的开源隔离运行时",
+        "summary": "介绍了一个用于 AI 代理的开源隔离运行时环境。",
+        "url": "https://github.com/CelestoAI/SmolVM",
         "source": "Hacker News AI",
-        "category": "研究"
+        "category": "开源"
       },
       {
         "rank": 8,
-        "title": "您的 RAG 系统检索正确的数据，但仍然产生错误的答案。这就是原因（以及如何解决它）。",
-        "summary": "深入分析 RAG 系统在检索正确数据后仍产生错误答案的原因及解决方案。",
-        "url": "https://towardsdatascience.com/your-rag-system-retrieves-the-right-data-but-still-produces-wrong-answers-heres-why-and-how-to-fix-it/",
-        "source": "Towards Data Science",
-        "category": "AI产品"
+        "title": "Despedify——人工智能驱动的规划器将结束 WhatsApp 团体旅行的混乱局面",
+        "summary": "Despedify 利用 AI 简化 WhatsApp 群组旅行的规划过程。",
+        "url": "https://despedify.es/",
+        "source": "Hacker News AI",
+        "category": "LLM"
       },
       {
         "rank": 9,
-        "title": "Anthropic 与特朗普政府的关系似乎正在解冻",
-        "summary": "AI 公司 Anthropic 与特朗普政府之间的关系出现缓和迹象。",
-        "url": "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
-        "source": "TechCrunch AI",
+        "title": "Anthropic 的 Claude Mythos 发布是基于错误信息",
+        "summary": "文章指出 Anthropic 的 Claude Mythos 发布可能存在信息不准确的问题。",
+        "url": "https://www.artificialintelligencemadesimple.com/p/anthropics-claude-mythos-launch-is",
+        "source": "Lobste.rs AI",
         "category": "LLM"
       },
       {
         "rank": 10,
-        "title": "Jetbrain 的研究：了解 AI 对开发人员工作流程的影响",
-        "summary": "Jetbrain 发布研究报告，分析 AI 技术对软件开发人员工作流程的影响。",
-        "url": "https://blog.jetbrains.com/research/2026/04/ai-impact-developer-workflows/",
+        "title": "问HN：未来十年人工智能技术将如何发展？",
+        "summary": "社区讨论关于未来十年人工智能技术发展方向的预测和观点。",
+        "url": "https://news.ycombinator.com/item?id=47816803",
         "source": "Hacker News AI",
-        "category": "研究"
+        "category": "LLM"
       }
     ],
     "安全": [
       {
         "rank": 1,
         "title": "Protobuf 库中的严重缺陷导致 JavaScript 代码执行",
-        "summary": "Protobuf 库存在严重安全漏洞，可导致 JavaScript 代码被执行。",
+        "summary": "Protobuf 库存在严重漏洞，可导致 JavaScript 代码被执行。",
         "url": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/",
         "source": "BleepingComputer",
         "category": "漏洞"
@@ -31979,7 +31475,7 @@
       {
         "rank": 2,
         "title": "Microsoft Teams 右键粘贴因 Edge 更新错误而损坏",
-        "summary": "Microsoft Teams 的右键粘贴功能因 Edge 浏览器更新错误而失效。",
+        "summary": "Edge 浏览器更新错误导致 Microsoft Teams 的右键粘贴功能失效。",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/",
         "source": "BleepingComputer",
         "category": "攻防"
@@ -31987,7 +31483,7 @@
       {
         "rank": 3,
         "title": "NAKIVO v11.2：勒索软件防御、更快的复制、vSphere 9 和 Proxmox VE 9.0 支持",
-        "summary": "NAKIVO v11.2 发布，增强勒索软件防御，提升数据复制速度，支持新版本虚拟化平台。",
+        "summary": "NAKIVO 备份软件更新，增强勒索软件防护和支持新版本虚拟化平台。",
         "url": "https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/",
         "source": "BleepingComputer",
         "category": "攻防"
@@ -31995,7 +31491,7 @@
       {
         "rank": 4,
         "title": "Claude Code Opus 4.7 不断检查恶意软件",
-        "summary": "Claude Code Opus 4.7 版本持续进行恶意软件扫描，提升安全性。",
+        "summary": "Claude Code Opus 4.7 在代码检查过程中频繁触发恶意软件警报。",
         "url": "https://news.ycombinator.com/item?id=47814832",
         "source": "Hacker News",
         "category": "攻防"
@@ -32003,7 +31499,7 @@
       {
         "rank": 5,
         "title": "Tycoon 2FA 因攻击激增而失去网络钓鱼套件桂冠",
-        "summary": "Tycoon 2FA 因网络钓鱼攻击激增，其作为防护工具的地位受到挑战。",
+        "summary": "Tycoon 2FA 因网络钓鱼攻击激增，其作为钓鱼工具的地位受到挑战。",
         "url": "https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/",
         "source": "SecurityWeek",
         "category": "攻防"
@@ -32011,7 +31507,7 @@
       {
         "rank": 6,
         "title": "情报索赔后，受黑客攻击价值 1374 万美元的 Grinex 交易所被关闭",
-        "summary": "Grinex 交易所因遭受价值 1374 万美元的黑客攻击而被关闭。",
+        "summary": "Grinex 交易所因价值 1374 万美元的黑客攻击事件被关闭，并声称有情报机构介入。",
         "url": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
         "source": "The Hacker News",
         "category": "攻防"
@@ -32019,7 +31515,7 @@
       {
         "rank": 7,
         "title": "Mirai 变体 Nexcorium 利用 CVE-2024-3721 劫持 TBK DVR 以进行 DDoS 僵尸网络",
-        "summary": "Mirai 变种 Nexcorium 利用 CVE-2024-3721 漏洞控制 TBK DVR，构建 DDoS 僵尸网络。",
+        "summary": "Mirai 变种 Nexcorium 利用 CVE-2024-3721 漏洞控制 TBK DVR 构成 DDoS 僵尸网络。",
         "url": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
         "source": "The Hacker News",
         "category": "漏洞"
@@ -32027,7 +31523,7 @@
       {
         "rank": 8,
         "title": "Payouts King 勒索软件使用 QEMU VM 绕过端点安全",
-        "summary": "Payouts King 勒索软件利用 QEMU 虚拟机技术规避端点安全防护。",
+        "summary": "Payouts King 勒索软件利用 QEMU 虚拟机来规避端点安全检测。",
         "url": "https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/",
         "source": "BleepingComputer",
         "category": "攻防"
@@ -32035,7 +31531,7 @@
       {
         "rank": 9,
         "title": "白宫办公厅主任将与 Anthropic 首席执行官就其新人工智能技术进行会面",
-        "summary": "白宫办公厅主任将与 Anthropic CEO 讨论其新的人工智能技术。",
+        "summary": "白宫办公厅主任将与 Anthropic 首席执行官讨论人工智能技术的潜在影响。",
         "url": "https://www.securityweek.com/white-house-chief-of-staff-to-meet-ith-anthropic-ceo-over-its-new-ai-technology/",
         "source": "SecurityWeek",
         "category": "攻防"
@@ -32043,7 +31539,7 @@
       {
         "rank": 10,
         "title": "由于漏洞过载，NIST 削减了 CVE 分析",
-        "summary": "NIST 因漏洞信息过载，缩减了对 CVE 的分析工作。",
+        "summary": "NIST因漏洞信息量过大，缩减了对CVE的分析工作。",
         "url": "https://www.csoonline.com/article/4159882/nist-cuts-down-cve-analysis-amid-vulnerability-overload.html",
         "source": "Hacker News",
         "category": "漏洞"
@@ -32052,88 +31548,104 @@
     "经济": [
       {
         "rank": 1,
-        "title": "里贝拉表示，欧尔班落败、梅洛尼受挫标志着左翼回归欧盟",
-        "summary": "分析指出，欧尔班和梅洛尼的失利可能预示着左翼在欧盟的回归。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-18/orban-loss-meloni-setback-signals-left-s-eu-return-ribera-says",
+        "title": "彭博社本周末 2026 年 4 月 18 日",
+        "summary": "彭博社本周的经济和市场回顾，重点关注 2026 年 4 月 18 日。",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-18/bloomberg-this-weekend-4-18-2026-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 2,
+        "title": "里贝拉表示，欧尔班落败、梅洛尼受挫标志着左翼回归欧盟",
+        "summary": "分析了匈牙利大选结果和梅洛尼的政治动向，预示左翼在欧盟可能的回潮。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-18/orban-loss-meloni-setback-signals-left-s-eu-return-ribera-says",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 3,
         "title": "Opus 4.7 至 4.6 通货膨胀约为 45%",
-        "summary": "文章指出，Opus 4.7 相较于 4.6，通货膨胀率约为 45%。",
+        "summary": "报告指出 Opus 4.7 相对于 4.6 版本，通货膨胀率约为 45%。",
         "url": "https://tokens.billchambers.me/leaderboard",
         "source": "Hacker News",
         "category": "宏观"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "title": "仲量联行如何拥抱人工智能 |最高管理层周六",
-        "summary": "仲量联行（JLL）探讨了如何将人工智能融入其业务运营。",
+        "summary": "探讨了仲量联行（JLL）如何将人工智能融入其业务策略。",
         "url": "https://www.bloomberg.com/news/videos/2026-04-18/how-jll-is-embracing-artificial-intelligence-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "title": "《华尔街日报》称，美国准备在未来几天登上与伊朗有关的船只",
-        "summary": "《华尔街日报》报道称，美国准备在近期登临与伊朗相关的船只。",
+        "summary": "《华尔街日报》报道称，美国准备扣押与伊朗有关的船只，加剧地区紧张局势。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-18/us-preparing-to-board-iran-linked-ships-in-coming-days-wsj-says",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "麻省理工学院教授表示，编写个人理财人工智能提示是一门“艺术”",
-        "summary": "麻省理工学院教授认为，创建有效的个人理财 AI 提示需要技巧和艺术性。",
+        "summary": "麻省理工学院教授认为，有效利用 AI 进行个人理财需要掌握一定的技巧。",
         "url": "https://www.cnbc.com/2026/04/18/ai-prompts-personal-finance-advice.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "伊朗声称“严格控制”霍尔木兹海峡",
-        "summary": "伊朗方面宣称对霍尔木兹海峡拥有“严格的控制权”。",
+        "summary": "伊朗声称对霍尔木兹海峡拥有“严格控制权”，引发市场担忧。",
         "url": "https://www.bloomberg.com/news/videos/2026-04-18/iran-claims-strict-control-of-strait-of-hormuz-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "霍尔木兹海峡关闭，美国封锁加剧，传有枪声",
-        "summary": "霍尔木兹海峡出现关闭迹象，美国封锁加剧，并有枪声传闻。",
+        "summary": "霍尔木兹海峡传出关闭消息，美国封锁加剧，并有枪声报道，市场动荡。",
         "url": "https://www.bloomberg.com/news/videos/2026-04-18/blockade-intensifies-vessels-report-gunfire-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "以下三股力量推动了华尔街创下非凡创纪录的一周",
-        "summary": "文章分析了三股主要因素，助推华尔街创下创纪录的一周。",
+        "summary": "分析了推动华尔街创纪录表现的三大关键经济因素。",
         "url": "https://www.cnbc.com/2026/04/18/the-3-forces-that-drove-a-remarkable-record-setting-week-on-wall-street.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "伊朗战争、4美元汽油，让美国消费经济失去了所有乐趣。只有这么多时间把它带回来",
-        "summary": "受伊朗战争和高油价影响，美国消费经济失去活力。",
+        "summary": "分析了地缘政治冲突和高油价对美国消费经济带来的负面影响。",
         "url": "https://www.cnbc.com/2026/04/18/iran-war-gas-prices-consumer-spending-economy.html",
         "source": "CNBC",
         "category": "宏观"
-      },
-      {
-        "rank": 10,
-        "title": "娜奥米·沃茨希望女性拥有自己的更年期历程：“当我们占人口的一半时，为什么这如此禁忌？”",
-        "summary": "娜奥米·沃茨呼吁关注女性更年期话题，打破社会禁忌。",
-        "url": "https://www.cnbc.com/2026/04/18/naomi-watts-wants-women-to-own-menopause-we-are-half-the-population.html",
-        "source": "CNBC",
-        "category": "市场"
       }
     ],
     "科技": [
       {
         "rank": 1,
+        "title": "苹果在最新的法院裁决中避免了对其重新设计的智能手表的第二次进口禁令",
+        "summary": "苹果公司在最新的法院裁决中成功避免了其智能手表面临第二次进口禁令。",
+        "url": "https://www.engadget.com/wearables/apple-avoids-a-second-import-ban-for-its-redesigned-smartwatches-in-latest-court-ruling-175600668.html?src=rss",
+        "source": "Engadget",
+        "category": "软件"
+      },
+      {
+        "rank": 2,
+        "title": "因编辑维基百科而入狱的人员名单",
+        "summary": "列举了因编辑维基百科内容而入狱的案例，探讨言论自由和信息审查。",
+        "url": "https://en.wikipedia.org/wiki/List_of_people_imprisoned_for_editing_Wikipedia",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 3,
         "title": "白宫调查失踪或死亡的美国科学家浪潮",
         "summary": "白宫正在调查一系列美国科学家失踪或死亡的事件。",
         "url": "https://www.foxnews.com/video/6393235356112",
@@ -32141,74 +31653,58 @@
         "category": "互联网"
       },
       {
-        "rank": 2,
+        "rank": 4,
+        "title": "佐治亚州的投票技术错误",
+        "summary": "探讨了佐治亚州选举中出现的投票技术相关问题。",
+        "url": "https://pluralistic.net/2026/04/18/dominion-sucks-actually/",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 5,
         "title": "Matt Mullenweg 在 WordPress 中表示“车轮已经脱落”",
-        "summary": "WordPress 创始人 Matt Mullenweg 对项目现状表达了担忧，称“车轮已经脱落”。",
+        "summary": "WordPress 创始人 Matt Mullenweg 对项目现状表示担忧，认为“车轮已经脱落”。",
         "url": "https://www.therepository.email/matt-mullenweg-says-the-wheels-have-fallen-off-in-wide-ranging-wordpress-critique",
         "source": "Hacker News",
         "category": "互联网"
       },
       {
-        "rank": 3,
+        "rank": 6,
         "title": "美国农业部的园艺区已经转移。 （互动应用程序和地图）",
-        "summary": "美国农业部的园艺区图谱已更新，并提供互动应用程序和地图。",
+        "summary": "美国农业部的园艺区地图发生了变化，并提供互动应用程序。",
         "url": "https://apps.npr.org/plant-hardiness-garden-map/",
         "source": "Hacker News",
         "category": "软件"
       },
       {
-        "rank": 4,
+        "rank": 7,
         "title": "美国司法部拒绝帮助法国当局对 X 进行刑事调查",
-        "summary": "美国司法部拒绝协助法国当局对 X (Twitter) 进行刑事调查。",
+        "summary": "美国司法部拒绝协助法国当局对 X（推特）进行刑事调查。",
         "url": "https://www.engadget.com/social-media/doj-refuses-to-help-french-authorities-in-criminal-probe-of-x-162654518.html?src=rss",
         "source": "Engadget",
         "category": "软件"
       },
       {
-        "rank": 5,
+        "rank": 8,
         "title": "B-52 轰炸机星跟踪器内的机电角度计算机",
-        "summary": "揭秘 B-52 轰炸机星跟踪器中使用的机电角度计算机。",
+        "summary": "深入介绍 B-52 轰炸机星跟踪器中的机电角度计算器技术。",
         "url": "https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html",
         "source": "Hacker News",
         "category": "互联网"
       },
       {
-        "rank": 6,
+        "rank": 9,
         "title": "彗星被太阳摧毁、数据中心危及波托马克河以及更多科学新闻",
-        "summary": "涵盖了彗星的毁灭、数据中心对波托马克河的威胁等科学新闻。",
+        "summary": "汇集了关于彗星、数据中心对环境影响等科学领域的最新报道。",
         "url": "https://www.engadget.com/science/a-comet-gets-destroyed-by-the-sun-data-centers-endanger-the-potomac-river-and-more-science-news-160000714.html?src=rss",
         "source": "Engadget",
         "category": "软件"
       },
       {
-        "rank": 7,
-        "title": "亚马逊将于 6 月 30 日停止提供 PC 版 Kindle",
-        "summary": "亚马逊宣布将于 6 月 30 日停止提供 PC 版 Kindle 服务。",
-        "url": "https://goodereader.com/blog/kindle/amazon-is-discontinuing-kindle-for-pc-on-june-30th",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 8,
-        "title": "迅雷旗下“光鸭云盘”官宣 4 月 20 日上线：号称免登录、不限速，自带 2TB 免费空间",
-        "summary": "迅雷推出“光鸭云盘”，提供免登录、不限速和 2TB 免费空间。",
-        "url": "https://www.ithome.com/0/940/807.htm",
-        "source": "IT之家",
-        "category": "软件"
-      },
-      {
-        "rank": 9,
-        "title": "国产光纤全球爆单：价格暴涨 650%，企业排产已至明年一季度",
-        "summary": "国产光纤需求强劲，价格暴涨 650%，产能排至明年。",
-        "url": "https://www.ithome.com/0/940/806.htm",
-        "source": "IT之家",
-        "category": "软件"
-      },
-      {
         "rank": 10,
-        "title": "Show HN：MDV – 用于文档、仪表板和数据幻灯片的 Markdown 超集",
-        "summary": "Hacker News 用户展示 MDV，一个支持文档、仪表板和幻灯片的 Markdown 超集。",
-        "url": "https://github.com/drasimwagan/mdv",
+        "title": "亚马逊将于 6 月 30 日停止提供 PC 版 Kindle",
+        "summary": "亚马逊宣布将于 6 月 30 日停止提供 PC 版 Kindle 应用程序。",
+        "url": "https://goodereader.com/blog/kindle/amazon-is-discontinuing-kindle-for-pc-on-june-30th",
         "source": "Hacker News",
         "category": "互联网"
       }
@@ -32217,7 +31713,7 @@
       {
         "rank": 1,
         "title": "HiPP 因担心污染而在奥地利召回罐装婴儿食品",
-        "summary": "奥地利 HiPP 公司因担忧产品污染而召回罐装婴儿食品。",
+        "summary": "奥地利 HiPP 公司因担心产品污染而召回部分罐装婴儿食品。",
         "url": "https://www.bbc.com/news/articles/c4gly4qkx1go?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
@@ -32225,7 +31721,7 @@
       {
         "rank": 2,
         "title": "教皇称“暴君”演讲并非针对特朗普",
-        "summary": "教皇澄清其关于“暴君”的演讲并非针对美国前总统特朗普。",
+        "summary": "教皇澄清，其关于“暴君”的演讲并非特指美国前总统特朗普。",
         "url": "https://www.bbc.com/news/articles/ce84j261kj1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
@@ -32233,7 +31729,7 @@
       {
         "rank": 3,
         "title": "基辅枪手开枪劫持人质 至少两人死亡",
-        "summary": "基辅发生枪击事件，枪手劫持人质，造成至少两人死亡。",
+        "summary": "基辅发生一起枪击人质劫持事件，导致至少两人死亡。",
         "url": "https://www.bbc.com/news/articles/cm25r1vkx4lo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
@@ -32241,15 +31737,15 @@
       {
         "rank": 4,
         "title": "法国维和人员在黎巴嫩南部丧生",
-        "summary": "法国维和部队成员在黎巴嫩南部执行任务时牺牲。",
+        "summary": "一名法国维和人员在黎巴嫩南部执行任务时不幸牺牲。",
         "url": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
         "rank": 5,
-        "title": "数百万人聆听埃塞俄比亚明星抨击政府的歌曲",
-        "summary": "埃塞俄比亚一位明星的歌曲因批评政府而广受欢迎。",
+        "title": "数百万听埃塞俄比亚明星抨击政府的歌曲",
+        "summary": "埃塞俄比亚一位明星的歌曲因抨击政府而受到数百万人的关注。",
         "url": "https://www.bbc.com/news/articles/cqj81g5dxkyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
@@ -32257,7 +31753,7 @@
       {
         "rank": 6,
         "title": "照片：东南亚的过度捕捞如何造成生态和人类危机",
-        "summary": "通过照片展示了东南亚过度捕捞如何引发生态和人道主义危机。",
+        "summary": "通过照片展示东南亚过度捕捞如何引发严峻的生态和人道主义危机。",
         "url": "https://www.npr.org/sections/the-picture-show/2026/04/18/nx-s1-5766110/overfishing-in-southeast-asia",
         "source": "NPR World",
         "category": "外交"
@@ -32265,7 +31761,7 @@
       {
         "rank": 7,
         "title": "媒体报道法国影星娜塔莉·贝伊去世，享年 77 岁",
-        "summary": "据媒体报道，法国著名影星娜塔莉·贝伊（Nathalie Baye）逝世，享年 77 岁。",
+        "summary": "法国著名影星娜塔莉·贝伊（Nathalie Baye）去世，享年 77 岁。",
         "url": "https://www.bbc.com/news/articles/cn9q48y9wr7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
@@ -32273,7 +31769,7 @@
       {
         "rank": 8,
         "title": "为什么低生育率并不一定意味着经济衰退",
-        "summary": "文章探讨了低生育率与经济衰退之间并非必然的联系。",
+        "summary": "探讨低生育率与经济衰退之间并非必然联系的观点。",
         "url": "https://news.un.org/feed/view/en/story/2026/04/1167315",
         "source": "UN News",
         "category": "外交"
@@ -32281,7 +31777,7 @@
       {
         "rank": 9,
         "title": "联合国维和人员在黎巴嫩南部袭击中丧生，三人受伤",
-        "summary": "联合国维和人员在黎巴嫩南部遇袭，导致一人死亡，三人受伤。",
+        "summary": "联合国维和人员在黎巴嫩南部遭受袭击，造成一人死亡，三人受伤。",
         "url": "https://news.un.org/feed/view/en/story/2026/04/1167332",
         "source": "UN News",
         "category": "外交"
@@ -32289,12 +31785,12 @@
       {
         "rank": 10,
         "title": "联合国儿童基金会对加沙运水车司机遇害感到“愤怒”，敦促调查",
-        "summary": "联合国儿童基金会谴责加沙运水车司机遇害事件，并呼吁展开调查。",
+        "summary": "联合国儿童基金会谴责加沙运水车司机遇害事件，呼吁展开调查。",
         "url": "https://news.un.org/feed/view/en/story/2026/04/1167331",
         "source": "UN News",
         "category": "外交"
       }
     ],
-    "generated_at": "2026-04-18T17:09:09.017583+00:00"
+    "generated_at": "2026-04-18T18:05:56.899550+00:00"
   }
 }
