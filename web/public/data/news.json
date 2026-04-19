@@ -1,6 +1,216 @@
 {
-  "last_updated": "2026-04-19T21:07:14.219581+00:00",
+  "last_updated": "2026-04-19T22:03:43.133781+00:00",
   "articles": [
+    {
+      "title": "CEOs admit AI had no impact on employment or productivity",
+      "url": "https://fortune.com/article/why-do-thousands-of-ceos-believe-ai-not-having-impact-productivity-employment-study/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-19T21:56:22+00:00",
+      "content": "CEOs admit AI had no impact on employment or productivity. Score: 3, Comments: 0",
+      "id": "348a377214d1f475d31f7ea09e8a95ce",
+      "title_zh": "首席执行官承认人工智能对就业或生产力没有影响",
+      "summary_zh": "CEOs admit AI had no impact on employment or productivity. Score: 3, Comments: 0",
+      "category": "CV",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.895143+00:00"
+    },
+    {
+      "title": "Show HN: Auxx.ai – Customer Support CRM (Mix of Attio and N8n)",
+      "url": "https://auxx.ai",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-19T21:49:38+00:00",
+      "content": "Hey HN! Markus here. I have been building a Customer Support CRM for the last 12 months to help my dad's business.He was drowning in support messages (dealing with returns, product questions, sales, etc) and didn’t have a good way to organize and attack them, often forgetting to respond.We tried attio, freshworks, n8n for some automations. I liked n8n a lot but I didn’t want to leave to another app to view messages and customer info. Tried to build bridges via Google Sheets and Airtable and then went deep down the rabbit hole and tried building my own solution. At that time I hadn’t programmed in 10 years. I stopped pretty much when Backbone.js and underscore became popular and went on to work in commercial concrete, building many of the high rises in San Francisco and Downtown Los Angeles (including the one with lots of graffiti on it).The goal of the app is to automate as much of customer support as possible, from triage to drafting responses to keeping track of history.\nFeatures inc",
+      "id": "0658844655c0011d20e7805464de6448",
+      "title_zh": "Show HN：Auxx.ai – 客户支持 CRM（Attio 和 N8n 的混合）",
+      "summary_zh": "Hey HN! Markus here. I have been building a Customer Support CRM for the last 12 months to help my dad's business.He was drowning in support messages (dealing with returns, product questions, sales, e",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.900659+00:00"
+    },
+    {
+      "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
+      "url": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "domain": "国际",
+      "published": "2026-04-19T21:39:43+00:00",
+      "content": "Tehran has not commented on the incident, which comes as the US prepares for a second round of talks.",
+      "id": "fcaea04d2bfa7ca17e3c7fb9afb8a091",
+      "title_zh": "特朗普称美国拦截并扣押了悬挂伊朗国旗的货船",
+      "summary_zh": "Tehran has not commented on the incident, which comes as the US prepares for a second round of talks.",
+      "category": "外交",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.893122+00:00"
+    },
+    {
+      "title": "AI Agent Traps",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-19T21:39:09+00:00",
+      "content": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438\nComments URL: https://news.ycombinator.com/item?id=47827863\nPoints: 2\n# Comments: 0",
+      "id": "11fc93943ed4452a60c635b5c66f2160",
+      "title_zh": "AI代理陷阱",
+      "summary_zh": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438 Comments URL: https://news.ycombinator.com/item?id=47827863 Points: 2 # Comments: 0",
+      "category": "研究",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.900703+00:00"
+    },
+    {
+      "title": "Here are things going right for stocks despite new Iran war setbacks",
+      "url": "https://www.cnbc.com/2026/04/19/jim-cramer-here-are-things-going-right-for-stocks-despite-new-iran-war-setbacks.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-19T21:36:49+00:00",
+      "content": "The big stock rally Friday had as much to do with bond yields going down as it did with oil plunging. The Mag 7 are also back.",
+      "id": "b4d5faaf6afb5502c64160c939ea4379",
+      "title_zh": "尽管伊朗战争遭遇新的挫折，但股市仍处于良好状态",
+      "summary_zh": "The big stock rally Friday had as much to do with bond yields going down as it did with oil plunging. The Mag 7 are also back.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.891852+00:00"
+    },
+    {
+      "title": "Show HN: Nyx – multi-turn, adaptive, offensive testing harness for AI agents",
+      "url": "https://fabraix.com",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-19T21:32:44+00:00",
+      "content": "We built Nyx to solve a problem we kept hitting while building agents: AI agents break in ways traditional software doesn't. Logic bugs, reasoning failures, edge cases that manual testing and static benchmarks never explore.Nyx is an autonomous testing harness that probes your AI agents to find failure modes before users do. It’s used to find logic bugs, instruction following failures, edge cases in agent behavior, and for red-team security testing (jailbreaks, prompt injection, tool hijacking)Technical approach:\n* Pure blackbox (no special access needed - test like your users interact)\n* Multi-turn adaptive conversations\n*  Multi-modal testing (voice, text, images, documents, browser interactions)\n*  Massively parallel by defaultInstead of spending time writing static evals for the key failure modes of your AI agents, point Nyx at any system and it autonomously discovers failure modes that matter. We typically find issues in under 10 minutes that manual audits take hours to surface.Th",
+      "id": "3100d295fce4124a5d522cf19cc9191a",
+      "title_zh": "Show HN：Nyx – 用于 AI 代理的多轮、自适应、进攻性测试工具",
+      "summary_zh": "We built Nyx to solve a problem we kept hitting while building agents: AI agents break in ways traditional software doesn't. Logic bugs, reasoning failures, edge cases that manual testing and static b",
+      "category": "研究",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.900912+00:00"
+    },
+    {
+      "title": "OpenAI’s existential questions",
+      "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+      "source": "TechCrunch AI",
+      "domain": "AI",
+      "published": "2026-04-19T21:24:06+00:00",
+      "content": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+      "id": "e0862fe090921b310024dd1fd83f769f",
+      "title_zh": "OpenAI 的存在问题",
+      "summary_zh": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.879232+00:00"
+    },
+    {
+      "title": "AI startup Cursor in talks to raise $2 billion funding round at valuation of over $50 billion",
+      "url": "https://www.cnbc.com/2026/04/19/cursor-ai-2-billion-funding-round.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-19T21:19:57+00:00",
+      "content": "Artificial intelligence startup Cursor in talks to raise a $2 billion fundraising round at an over $50 billion valuation, which does not include the investment.",
+      "id": "31d4f3eb95e2d227c4f681cb6012145d",
+      "title_zh": "AI初创公司Cursor正在洽谈融资20亿美元，估值超过500亿美元",
+      "summary_zh": "Artificial intelligence startup Cursor in talks to raise a $2 billion fundraising round at an over $50 billion valuation, which does not include the investment.",
+      "category": "投融资",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.891828+00:00"
+    },
+    {
+      "title": "The NSA is reportedly using Anthropic's new model Mythos",
+      "url": "https://www.engadget.com/ai/the-nsa-is-reportedly-using-anthropics-new-model-mythos-211502787.html?src=rss",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-04-19T21:15:02+00:00",
+      "content": "Despite the months-long feud between Anthropic and the Pentagon, the National Security Agency is using the AI company's new Mythos Preview, according to Axios, which spoke to two sources with knowledge of the matter. Anthropic announced Mythos Preview at the beginning of April, describing it as a general-purpose language model that is \"strikingly capable at computer security tasks.\" But back in February, Trump ordered all government agencies to stop using Anthropic's services after the company refused to budge on certain safeguards for military uses during contract talks.&nbsp; The news comes days after Anthropic CEO Dario Amodei met with White House chief of staff Susie Wiles and other officials, reportedly to discuss Mythos. The White House later said the meeting on Friday was \"productive and constructive,\" though President Trump said he had \"no idea\" about it when asked by reporters, Reuters reports. According to Axios' sources, the NSA is one of the roughly 40 organizations Anthropic gave access to Mythos Preview, and one said it's \"being used more widely within the department\" too.&nbsp;The company is still embroiled in a legal battle with the US government. Anthropic filed lawsuits against the Department of Defense in two courts in March after the Trump administration labeled it a \"supply chain risk,\" and the Pentagon filed a response shortly after. While Anthropic was granted a preliminary injunction by one court to temporarily block this designation, federal judges in the other denied its motion to lift the label.&nbsp;This article originally appeared on Engadget at https://www.engadget.com/ai/the-nsa-is-reportedly-using-anthropics-new-model-mythos-211502787.html?src=rss",
+      "id": "6c1949d6a8f09cbfe98e6433424bd4e6",
+      "title_zh": "据报道，NSA 正在使用 Anthropic 的新模型 Mythos",
+      "summary_zh": "Despite the months-long feud between Anthropic and the Pentagon, the National Security Agency is using the AI company's new Mythos Preview, according to Axios, which spoke to two sources with knowledg",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.891940+00:00"
+    },
+    {
+      "title": "How are you handling security for AI agents that use MCP tools?",
+      "url": "https://news.ycombinator.com/item?id=47827684",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-19T21:11:02+00:00",
+      "content": "Curious how others are thinking about approaching agentic security for MCP connected agents. External tools processing raw data from websites or other APIs with no sanitization. \nThere is no distinction between system instructions and whatever the tool pulled back. Wondering if there is an existing tool or service that fills that gap.Are you doing anything to monitor or filter tool response traffic before it hits the model? Running in isolated environments? Treating all tool output as untrusted?Building something in this space and trying to understand how the community is approaching this (if at all?)\n\nComments URL: https://news.ycombinator.com/item?id=47827684\nPoints: 2\n# Comments: 1",
+      "id": "7673c41b4f6050e7cb3de9851790f868",
+      "title_zh": "您如何处理使用 MCP 工具的 AI 代理的安全性？",
+      "summary_zh": "Curious how others are thinking about approaching agentic security for MCP connected agents. External tools processing raw data from websites or other APIs with no sanitization. There is no distincti",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.901015+00:00"
+    },
+    {
+      "title": "The demand for local AI could shape a new business model for Apple",
+      "url": "https://9to5mac.com/2026/04/19/apple-local-ai-server-hosting-new-business-model/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-19T21:10:57+00:00",
+      "content": "Article URL: https://9to5mac.com/2026/04/19/apple-local-ai-server-hosting-new-business-model/\nComments URL: https://news.ycombinator.com/item?id=47827682\nPoints: 2\n# Comments: 0",
+      "id": "9ca2613d8bc56d4f7b5eea0274c390ae",
+      "title_zh": "对本地人工智能的需求可能会为苹果塑造新的商业模式",
+      "summary_zh": "Article URL: https://9to5mac.com/2026/04/19/apple-local-ai-server-hosting-new-business-model/ Comments URL: https://news.ycombinator.com/item?id=47827682 Points: 2 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.901065+00:00"
+    },
+    {
+      "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
+      "url": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "domain": "国际",
+      "published": "2026-04-19T21:09:06+00:00",
+      "content": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
+      "id": "ccde1f01aade10be9758b37273ffa0b7",
+      "title_zh": "伊朗高级政治家告诉 BBC，德黑兰永远不会放弃对霍尔木兹海峡的控制",
+      "summary_zh": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.893147+00:00"
+    },
+    {
+      "title": "U.S. says it seized an Iranian cargo ship, ceasefire expires soon",
+      "url": "https://www.npr.org/2026/04/19/nx-s1-5790487/u-s-says-it-seized-an-iranian-cargo-ship-ceasefire-expires-soon",
+      "source": "NPR World",
+      "domain": "国际",
+      "published": "2026-04-19T21:01:39+00:00",
+      "content": "The two-week ceasefire between the US and Iran is set to expire Wednesday. And the two sides seem far from a resolution. President Trump says the US has taken custody of an Iranian vessel.",
+      "id": "0569939b30d8147fed944565298863fe",
+      "title_zh": "美国称扣押一艘伊朗货船 停火即将到期",
+      "summary_zh": "The two-week ceasefire between the US and Iran is set to expire Wednesday. And the two sides seem far from a resolution. President Trump says the US has taken custody of an Iranian vessel.",
+      "category": "外交",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.893173+00:00"
+    },
+    {
+      "title": "Context.ai seemingly cause of Vercel breach",
+      "url": "https://twitter.com/jaimeblascob/status/2045960143209152981",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-19T21:01:37+00:00",
+      "content": "Article URL: https://twitter.com/jaimeblascob/status/2045960143209152981\nComments URL: https://news.ycombinator.com/item?id=47827611\nPoints: 2\n# Comments: 0",
+      "id": "9caade20bc92d3e4ca78ecfc4371d351",
+      "title_zh": "Context.ai 似乎是 Vercel 泄露的原因",
+      "summary_zh": "Article URL: https://twitter.com/jaimeblascob/status/2045960143209152981 Comments URL: https://news.ycombinator.com/item?id=47827611 Points: 2 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.901108+00:00"
+    },
+    {
+      "title": "C++26: Reflection, Memory Safety, Contracts, and a New Async Model",
+      "url": "https://www.infoq.com/news/2026/04/cpp-26-reflection-safety-async/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-19T21:00:49+00:00",
+      "content": "C++26: Reflection, Memory Safety, Contracts, and a New Async Model. Score: 6, Comments: 0",
+      "id": "c700d6cf26a3502b9e0f7f0271e49971",
+      "title_zh": "C++26：反射、内存安全、契约和新的异步模型",
+      "summary_zh": "C++26: Reflection, Memory Safety, Contracts, and a New Async Model. Score: 6, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.894099+00:00"
+    },
     {
       "title": "Hedge Fund Pay Spirals Even Higher in New Trader-Poaching Strategy",
       "url": "https://www.bloomberg.com/news/features/2026-04-19/hedge-funds-frenzied-job-market-sends-pay-spiraling-higher",
@@ -14,6 +224,34 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-04-19T21:06:05.895981+00:00"
+    },
+    {
+      "title": "Point72, BlackRock-Backed Contest Seeks Japanese Banking Talent",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-19/point72-blackrock-backed-contest-seeks-japanese-banking-talent",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-19T21:00:00+00:00",
+      "content": "Scores of Japanese college students have been obsessing over sales of toothpaste, diapers and chocolate. They have visited supermarkets and drugstores to photograph shelves, scrutinized price tags and noted which brands sit at eye level for maximum exposure.",
+      "id": "9358ce00c04c6a0a8f6eb0cc8c41b411",
+      "title_zh": "Point72，贝莱德支持的竞赛寻找日本银行业人才",
+      "summary_zh": "Scores of Japanese college students have been obsessing over sales of toothpaste, diapers and chocolate. They have visited supermarkets and drugstores to photograph shelves, scrutinized price tags and",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.891802+00:00"
+    },
+    {
+      "title": "'Meow, meow': Pilots scolded after animal noises heard on air traffic radio",
+      "url": "https://abcnews.com/US/meow-meow-pilots-scolded-after-animal-noises-heard/story?id=132076661",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-19T20:56:41+00:00",
+      "content": "'Meow, meow': Pilots scolded after animal noises heard on air traffic radio. Score: 4, Comments: 2",
+      "id": "a9fc041033cb535021c1b88f31c23f3d",
+      "title_zh": "“喵，喵”：空中交通广播中听到动物噪音后飞行员被责骂",
+      "summary_zh": "'Meow, meow': Pilots scolded after animal noises heard on air traffic radio. Score: 4, Comments: 2",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.894461+00:00"
     },
     {
       "title": "Trump says U.S. struck and seized Iranian-flagged cargo ship in Gulf of Oman",
@@ -184,6 +422,20 @@
       "collected": "2026-04-19T20:03:24.277631+00:00"
     },
     {
+      "title": "NSA using Anthropic's Mythos despite blacklist",
+      "url": "https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-19T19:42:35+00:00",
+      "content": "NSA using Anthropic's Mythos despite blacklist. Score: 7, Comments: 1",
+      "id": "22601ffb700cb242c3c8bcea4173362f",
+      "title_zh": "尽管列入黑名单，美国国家安全局仍使用人类的神话",
+      "summary_zh": "NSA using Anthropic's Mythos despite blacklist. Score: 7, Comments: 1",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.895263+00:00"
+    },
+    {
       "title": "MAGA Is Winning Its War Against U.S. Science",
       "url": "https://paulkrugman.substack.com/p/maga-is-winning-its-war-against-us",
       "source": "Hacker News",
@@ -336,6 +588,20 @@
       "category": "宏观",
       "tags": [],
       "collected": "2026-04-19T19:25:54.563342+00:00"
+    },
+    {
+      "title": "Six Levels of Dark Mode",
+      "url": "https://cssence.com/2024/six-levels-of-dark-mode/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-19T18:36:00+00:00",
+      "content": "Six Levels of Dark Mode. Score: 5, Comments: 0",
+      "id": "81a30b75a50885f99fede94a2297b7b8",
+      "title_zh": "六级黑暗模式",
+      "summary_zh": "Six Levels of Dark Mode. Score: 5, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-19T22:02:37.894147+00:00"
     },
     {
       "title": "Epistemic Suicide: Why AI Is Collapsing into Mediocrity",
@@ -21630,432 +21896,96 @@
       "category": "攻防",
       "tags": [],
       "collected": "2026-04-16T22:49:40.437076+00:00"
-    },
-    {
-      "title": "Oil Drops as Trump Strikes Upbeat Tone on Outlook for Iran Deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-16/latest-oil-market-news-and-analysis-for-april-17",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-04-16T22:01:57+00:00",
-      "content": "Oil fell as President Donald Trump struck an optimistic tone on prospects for a permanent ceasefire between the US and Iran.",
-      "id": "412f65f9ff398643de680b63c9e704f2",
-      "title_zh": "特朗普对伊朗协议前景表示乐观，油价下跌",
-      "summary_zh": "Oil fell as President Donald Trump struck an optimistic tone on prospects for a permanent ceasefire between the US and Iran.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-16T22:49:40.439822+00:00"
-    },
-    {
-      "title": "Six months after ceasefire with Israel, people in Gaza say recovery hasn't even begun",
-      "url": "https://www.npr.org/2026/04/16/nx-s1-5786615/six-months-after-ceasefire-with-israel-people-in-gaza-say-recovery-hasnt-even-begun",
-      "source": "NPR World",
-      "domain": "国际",
-      "published": "2026-04-16T22:01:09+00:00",
-      "content": "Six months into a ceasefire that promised an end to the war and a surge of aid for Gaza, people say recovery hasn't even yet begun.",
-      "id": "993295af8221ebbe7fe2528000fd5814",
-      "title_zh": "与以色列停火六个月后，加沙人民表示恢复尚未开始",
-      "summary_zh": "Six months into a ceasefire that promised an end to the war and a surge of aid for Gaza, people say recovery hasn't even yet begun.",
-      "category": "外交",
-      "tags": [],
-      "collected": "2026-04-16T22:49:40.439943+00:00"
-    },
-    {
-      "title": "Luma launches AI-powered production studio with faith-focused Wonder Project",
-      "url": "https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/",
-      "source": "TechCrunch AI",
-      "domain": "AI",
-      "published": "2026-04-16T21:58:08+00:00",
-      "content": "The studio's first project will be about Moses and star Academy Award-winner Ben Kingsley, to be released this spring on Prime Video.",
-      "id": "02b113e7cb508d86e87ba278675c480f",
-      "title_zh": "Luma 推出人工智能驱动的制作工作室，推出以信仰为中心的 Wonder Project",
-      "summary_zh": "The studio's first project will be about Moses and star Academy Award-winner Ben Kingsley, to be released this spring on Prime Video.",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-04-16T22:49:40.428444+00:00"
-    },
-    {
-      "title": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
-      "url": "https://github.com/gainsec/autoprober",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-04-16T21:56:37+00:00",
-      "content": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine. Score: 34, Comments: 3",
-      "id": "5d5fc51994d5f46380b895853576610d",
-      "title_zh": "盖伊用胶带、旧凸轮和数控机床打造人工智能驱动的硬件黑客手臂",
-      "summary_zh": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine. Score: 34, Comments: 3",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T22:49:40.440337+00:00"
-    },
-    {
-      "title": "Objection – The AI Tribunal of Truth",
-      "url": "https://objection.ai/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-16T21:54:00+00:00",
-      "content": "Article URL: https://objection.ai/\nComments URL: https://news.ycombinator.com/item?id=47800004\nPoints: 1\n# Comments: 0",
-      "id": "104dff1f87004b68bebf8995a00dfd5f",
-      "title_zh": "异议——人工智能真理法庭",
-      "summary_zh": "Article URL: https://objection.ai/ Comments URL: https://news.ycombinator.com/item?id=47800004 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T22:49:40.441398+00:00"
-    },
-    {
-      "title": "The Dangerous Illusion of AI Coding [video]",
-      "url": "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-16T21:49:16+00:00",
-      "content": "Article URL: https://www.youtube.com/watch?v=dHBEQ-Ryo24\nComments URL: https://news.ycombinator.com/item?id=47799954\nPoints: 1\n# Comments: 0",
-      "id": "aa1fcba5b19ba78b2b8d49e1166966c7",
-      "title_zh": "人工智能编码的危险幻想[视频]",
-      "summary_zh": "Article URL: https://www.youtube.com/watch?v=dHBEQ-Ryo24 Comments URL: https://news.ycombinator.com/item?id=47799954 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T22:49:40.441443+00:00"
-    },
-    {
-      "title": "Show HN: Runtime security for AI agents(injection,tool abuse, data exfiltration)",
-      "url": "https://news.ycombinator.com/item?id=47799856",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-16T21:39:58+00:00",
-      "content": "Hi HNI’ve been working on an open-source project to explore a problem I keep running into with LLM systems in production:We give models the ability to call tools, access data, and make decisions…\nbut we don’t have a real runtime security layer around them.So I built a system that acts as a control plane for AI behavior, not just infrastructure.GitHub: https://github.com/dshapi/AI-SPMWhat it doesThe system sits around an LLM pipeline and enforces decisions in real time:Detects and blocks prompt injection (including obfuscation attempts)\nForces structured tool calls (no direct execution from the model)\nValidates tool usage against policies\nPrevents data leakage (PII / sensitive outputs)\nStreams all activity for detection + audit\nArchitecture (high-level)\nGateway layer for request control\nContext inspection (prompt analysis + normalization)\nPolicy engine (using Open Policy Agent)\nRuntime enforcement (tool validation + sandboxing)\nStreaming pipeline (Apache Kafka + Apache Flink)\nOutput fil",
-      "id": "fc34f609b6b22d6d19492cb54d5723a7",
-      "title_zh": "Show HN：AI 代理的运行时安全（注入、工具滥用、数据泄露）",
-      "summary_zh": "Hi HNI’ve been working on an open-source project to explore a problem I keep running into with LLM systems in production:We give models the ability to call tools, access data, and make decisions… but",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-04-16T22:49:40.441657+00:00"
-    },
-    {
-      "title": "UN looks for a short-term solution for moving fertilizer through the Strait of Hormuz",
-      "url": "https://www.npr.org/2026/04/16/nx-s1-5787688/un-looks-for-a-short-term-solution-for-moving-fertilizer-through-the-strait-of-hormuz",
-      "source": "NPR World",
-      "domain": "国际",
-      "published": "2026-04-16T21:38:38+00:00",
-      "content": "The U.N. looks for a quick solution to get cargo ships with fertilizer through the Strait of Hormuz, to prevent a global food crisis.",
-      "id": "d1a2107195e12fd2eac4e26c3b6f90a5",
-      "title_zh": "联合国寻求通过霍尔木兹海峡运送化肥的短期解决方案",
-      "summary_zh": "The U.N. looks for a quick solution to get cargo ships with fertilizer through the Strait of Hormuz, to prevent a global food crisis.",
-      "category": "外交",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.669608+00:00"
-    },
-    {
-      "title": "Kent Beck: Parkinson's",
-      "url": "https://tidyfirst.substack.com/p/parkinsons",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-04-16T21:37:15+00:00",
-      "content": "Kent Beck: Parkinson's. Score: 5, Comments: 0",
-      "id": "8eadabb402464602bb1deb75cf6f285f",
-      "title_zh": "肯特·贝克：帕金森病",
-      "summary_zh": "Kent Beck: Parkinson's. Score: 5, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-16T22:49:40.440948+00:00"
-    },
-    {
-      "title": "Intel refreshes non-Ultra Core CPUs with new silicon for the first time",
-      "url": "https://arstechnica.com/gadgets/2026/04/intels-non-ultra-core-cpus-are-new-silicon-this-year-for-a-change/",
-      "source": "Ars Technica",
-      "domain": "科技",
-      "published": "2026-04-16T21:33:33+00:00",
-      "content": "For the first time in a while, the benefits of new Intel tech will trickle down.",
-      "id": "381a51d06c1c2ef97e05fb4c7e531d8b",
-      "title_zh": "英特尔首次用新芯片更新非超核 CPU",
-      "summary_zh": "For the first time in a while, the benefits of new Intel tech will trickle down.",
-      "category": "硬件",
-      "tags": [],
-      "collected": "2026-04-16T23:48:00.225574+00:00"
-    },
-    {
-      "title": "Musk Asks Suppliers to Move at ‘Light Speed’ on Terafab Plan",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-16/musk-asks-suppliers-to-move-fast-on-terafab-plan-video",
-      "source": "Bloomberg Tech",
-      "domain": "国际",
-      "published": "2026-04-16T21:32:04+00:00",
-      "content": "Elon Musk’s lieutenants have reached out to chip industry suppliers including Applied Materials Inc., Tokyo Electron Ltd. and Lam Research Corp. for his envisioned Terafab, early steps in an audacious and likely arduous attempt to break into the production of cutting-edge chips. Staff working for the joint venture between Tesla Inc. and SpaceX have sought price quotes and delivery times for an array of chipmaking gear, people familiar with the matter said. In past weeks, they’ve contacted makers of photomasks, substrates, etchers, depositors, cleaning devices, testers and other tools, according to the people, who asked not to be named disclosing private discussions. Bloomberg's Ed Ludlow joins to discuss. (Source: Bloomberg)",
-      "id": "11bffe83629cc5c4f95e3835c6989dc6",
-      "title_zh": "马斯克要求供应商以“光速”推进 Terafab 计划",
-      "summary_zh": "Elon Musk’s lieutenants have reached out to chip industry suppliers including Applied Materials Inc., Tokyo Electron Ltd. and Lam Research Corp. for his envisioned Terafab, early steps in an audacious",
-      "category": "科学",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.670196+00:00"
-    },
-    {
-      "title": "Reed Hastings is leaving Netflix after 29 years",
-      "url": "https://www.engadget.com/entertainment/streaming/reed-hastings-is-leaving-netflix-after-29-years-213136444.html?src=rss",
-      "source": "Engadget",
-      "domain": "科技",
-      "published": "2026-04-16T21:31:36+00:00",
-      "content": "Netflix co-founder and current chairman Reed Hastings is leaving the streaming company’s board in June to focus on &quot;his philanthropy and other pursuits,&quot; according to a shareholder letter released alongside Netflix's Q1 earnings. Hastings has served as chairman of Netflix's board since 2023, a role he assumed after stepping down as co-CEO and promoting Greg Peters in his place.&quot;Netflix changed my life in so many ways, and my all‑time favorite memory was January 2016, when we enabled nearly the entire planet to enjoy our service,&quot; Hastings said in a statement. &quot;My real contribution at Netflix wasn’t a single decision; it was a focus on member joy, building a culture that others could inherit and improve, and building a company that could be both beloved by members and wildly successful for generations to come. A special thanks to Greg and Ted, whose commitment to Netflix’s greatness is so strong that I can now focus on new things.&quot;Hastings founded Netflix in 1997 as a DVD-by-mail rental service with his co-founder and the company's first CEO Marc Randolph. In 1999, Hastings became CEO, and eventually led the company through its transformation into a streaming service in 2007. Netflix started producing its own television series and movies in 2013, and in 2020, the company's board named Ted Sarandos as Hasting's co-CEO, in part to oversee its growing production business. Hastings stepped down as co-CEO in 2023 to become Netflix’s executive chairman, as then COO Greg Peters was promoted to co-CEO. Among his other contributions, Hasting is also the architect of Netflix's infamous &quot;culture memo,&quot; which codified the company's high-performance culture.While he'll no longer be on Netflix's board, Hastings still has a seat on the board of AI startup Anthropic and media and financial software company Bloomberg. Netflix, for its part, is continuing to expand outside of the television and film business Hastings helped build, by offering a ",
-      "id": "ef42ea0c8b98fb6a6dcfa83f0d10d0de",
-      "title_zh": "里德·黑斯廷斯 (Reed Hastings) 离开 Netflix 29 年后",
-      "summary_zh": "Netflix co-founder and current chairman Reed Hastings is leaving the streaming company’s board in June to focus on &quot;his philanthropy and other pursuits,&quot; according to a shareholder letter re",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.669443+00:00"
-    },
-    {
-      "title": "Netflix Earnings Forecast Misses, Reed Hastings Steps Down",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-16/netflix-earnings-forecast-misses-hastings-steps-down-video-mo1zezb2",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-04-16T21:18:57+00:00",
-      "content": "Netflix gave a forecast for the second quarter that fell short of analysts expectations, sending the shares down in extended trading. The streaming pioneer also announced that chairman and co-founder Reed Hastings is stepping down from the board after 29 years to pursue philanthropy and personal interests. (Source: Bloomberg)",
-      "id": "dd08bcecbfaf024e5a88b3a680aa7acd",
-      "title_zh": "Netflix 盈利预测未达预期，里德·黑斯廷斯辞职",
-      "summary_zh": "Netflix gave a forecast for the second quarter that fell short of analysts expectations, sending the shares down in extended trading. The streaming pioneer also announced that chairman and co-founder",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.669053+00:00"
-    },
-    {
-      "title": "OpenAI starts offering a biology-tuned LLM",
-      "url": "https://arstechnica.com/science/2026/04/openai-starts-offering-a-biology-tuned-llm/",
-      "source": "Ars Technica",
-      "domain": "科技",
-      "published": "2026-04-16T21:17:47+00:00",
-      "content": "GPT-Rosalind is an LLM trained on biology workflows, available in closed access.",
-      "id": "77903f4c62f452e9315bfa3b0d8e233f",
-      "title_zh": "OpenAI 开始提供生物学调整的法学硕士",
-      "summary_zh": "GPT-Rosalind is an LLM trained on biology workflows, available in closed access.",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.669470+00:00"
-    },
-    {
-      "title": "SpaceX Moves Up Vesting Schedule for Employee Shares Before IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-16/spacex-moves-up-vesting-schedule-for-employee-shares-before-ipo",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-04-16T21:16:49+00:00",
-      "content": "SpaceX has moved up a scheduled vesting date for shares awarded to employees to as soon as next week, according to people familiar with the matter, ahead of an IPO targeted to value the company at more than $2 trillion.",
-      "id": "43e0c5473202aaa7806c216ba12d210c",
-      "title_zh": "SpaceX 提前 IPO 前员工股票的行权时间表",
-      "summary_zh": "SpaceX has moved up a scheduled vesting date for shares awarded to employees to as soon as next week, according to people familiar with the matter, ahead of an IPO targeted to value the company at mor",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.669084+00:00"
-    },
-    {
-      "title": "The Ad World Revolves Around Live Sports: EDO CEO",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-16/the-ad-world-revolves-around-live-sports-edo-ceo-video",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-04-16T21:16:12+00:00",
-      "content": "EDO President & CEO Kevin Krim discusses Netflix’s big push into broadcasting live events, especially live sports, referring to them as ‘the engine that powers the whole ecosystem.’ He talks with Romaine Bostick and Katie Greifeld on “The Close.” (Source: Bloomberg)",
-      "id": "630fc660ec7fb39e9a5aaa160a01a30c",
-      "title_zh": "广告世界围绕体育直播：EDO 首席执行官",
-      "summary_zh": "EDO President & CEO Kevin Krim discusses Netflix’s big push into broadcasting live events, especially live sports, referring to them as ‘the engine that powers the whole ecosystem.’ He talks with Roma",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.669132+00:00"
-    },
-    {
-      "title": "The Case for AI \"Cooperatives\"",
-      "url": "https://www.nunodonato.com/the-case-for-ai-cooperatives/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-16T21:15:20+00:00",
-      "content": "Article URL: https://www.nunodonato.com/the-case-for-ai-cooperatives/\nComments URL: https://news.ycombinator.com/item?id=47799588\nPoints: 2\n# Comments: 0",
-      "id": "09591a727552bbfbe09eda1fe507ccd3",
-      "title_zh": "人工智能“合作社”案例",
-      "summary_zh": "Article URL: https://www.nunodonato.com/the-case-for-ai-cooperatives/ Comments URL: https://news.ycombinator.com/item?id=47799588 Points: 2 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.672184+00:00"
-    },
-    {
-      "title": "Netflix Will Be Top Player in Entertainment Forever, Ross Gerber Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-16/netflix-is-in-a-phenomenal-position-ross-gerber-says-video",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-04-16T21:14:26+00:00",
-      "content": "Ross Gerber, Gerber Kawasaki Wealth and Investment Management co-founder, president and CEO, says Netflix is in a phenomenal position and just \"keeps printing money.\" Netflix gave a forecast for the second quarter that fell short of analysts expectations. Gerber speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
-      "id": "cb8060485c47b4ed58ae1b016f7ab933",
-      "title_zh": "罗斯·格伯表示 Netflix 将永远成为娱乐领域的顶级玩家",
-      "summary_zh": "Ross Gerber, Gerber Kawasaki Wealth and Investment Management co-founder, president and CEO, says Netflix is in a phenomenal position and just \"keeps printing money.\" Netflix gave a forecast for the s",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.670326+00:00"
-    },
-    {
-      "title": "A Better R Programming Experience Thanks to Tree-sitter",
-      "url": "https://ropensci.org/blog/2026/04/02/tree-sitter-overview/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-04-16T21:14:02+00:00",
-      "content": "A Better R Programming Experience Thanks to Tree-sitter. Score: 17, Comments: 0",
-      "id": "3734a360ed18a41ddc1a8cc0269d316d",
-      "title_zh": "Tree-sitter 带来更好的 R 编程体验",
-      "summary_zh": "A Better R Programming Experience Thanks to Tree-sitter. Score: 17, Comments: 0",
-      "category": "开发",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.670811+00:00"
-    },
-    {
-      "title": "AI's Next Frontier: People Skills",
-      "url": "https://www.theatlantic.com/technology/2026/04/chatbot-ai-race-emotional-intelligence/686830/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-16T21:13:28+00:00",
-      "content": "Article URL: https://www.theatlantic.com/technology/2026/04/chatbot-ai-race-emotional-intelligence/686830/\nComments URL: https://news.ycombinator.com/item?id=47799571\nPoints: 1\n# Comments: 1",
-      "id": "ab08979ce8fe5b17246a8b694231cdc5",
-      "title_zh": "人工智能的下一个前沿：人际交往能力",
-      "summary_zh": "Article URL: https://www.theatlantic.com/technology/2026/04/chatbot-ai-race-emotional-intelligence/686830/ Comments URL: https://news.ycombinator.com/item?id=47799571 Points: 1 # Comments: 1",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.672230+00:00"
-    },
-    {
-      "title": "I built a game: convince an AI bouncer you're also an AI in 3 messages",
-      "url": "https://www.clankerpass.com/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-16T21:13:01+00:00",
-      "content": "Article URL: https://www.clankerpass.com/\nComments URL: https://news.ycombinator.com/item?id=47799564\nPoints: 3\n# Comments: 0",
-      "id": "6035d19974af1e746c2fc6f1633e25fa",
-      "title_zh": "我做了一个游戏：用 3 条消息让人工智能保镖相信你也是人工智能",
-      "summary_zh": "Article URL: https://www.clankerpass.com/ Comments URL: https://news.ycombinator.com/item?id=47799564 Points: 3 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.672272+00:00"
-    },
-    {
-      "title": "School shootings a new trauma for Turkey as nation mourns",
-      "url": "https://www.bbc.com/news/articles/cwyv21q9y1go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "domain": "国际",
-      "published": "2026-04-16T21:09:34+00:00",
-      "content": "An expert tells the BBC the attack in Kahramanmaras was a tragedy but \"not a surprise\".",
-      "id": "cb424c9d6214bda8efd49c01d9a5b1e8",
-      "title_zh": "全国哀悼校园枪击事件给土耳其带来新的创伤",
-      "summary_zh": "An expert tells the BBC the attack in Kahramanmaras was a tragedy but \"not a surprise\".",
-      "category": "外交",
-      "tags": [],
-      "collected": "2026-04-17T07:57:11.993899+00:00"
-    },
-    {
-      "title": "New AI Paradigm: Communitized RL",
-      "url": "https://audn.substack.com/p/from-personalized-to-communitized",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-16T21:09:26+00:00",
-      "content": "Article URL: https://audn.substack.com/p/from-personalized-to-communitized\nComments URL: https://news.ycombinator.com/item?id=47799529\nPoints: 2\n# Comments: 2",
-      "id": "55a00d1c09a7461a3ee1cbc8f319e37b",
-      "title_zh": "新的人工智能范式：社区化强化学习",
-      "summary_zh": "Article URL: https://audn.substack.com/p/from-personalized-to-communitized Comments URL: https://news.ycombinator.com/item?id=47799529 Points: 2 # Comments: 2",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.672315+00:00"
-    },
-    {
-      "title": "How AI Is Being Used To Detect Cancer at The Earliest Stage",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-16/how-ai-is-being-used-to-detect-cancer-at-early-stages-video",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-04-16T21:06:21+00:00",
-      "content": "Dr. Bea Bakshi, CEO & Co-Founder of C the Signs joins Bloomberg Businessweek to discuss the future of cancer detection and how AI is part of the solution even in the early stages. (Source: Bloomberg)",
-      "id": "f36741514848fa1c2d252b23605452c9",
-      "title_zh": "如何利用人工智能在早期阶段检测癌症",
-      "summary_zh": "Dr. Bea Bakshi, CEO & Co-Founder of C the Signs joins Bloomberg Businessweek to discuss the future of cancer detection and how AI is part of the solution even in the early stages. (Source: Bloomberg)",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-16T21:51:18.670430+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
-        "title": "问 HN：给予 AI 代理数据库访问权限是新的 BI 工具问题吗？",
-        "summary": "探讨 AI 代理访问数据库的潜在风险，及其与传统 BI 工具的相似性。",
-        "url": "https://news.ycombinator.com/item?id=47827486",
+        "title": "首席执行官承认人工智能对就业或生产力没有影响",
+        "summary": "一家科技公司的CEO公开表示，当前的人工智能技术并未对就业市场或生产力产生显著影响。",
+        "url": "https://fortune.com/article/why-do-thousands-of-ceos-believe-ai-not-having-impact-productivity-employment-study/",
+        "source": "Hacker News",
+        "category": "CV"
+      },
+      {
+        "rank": 2,
+        "title": "Auxx.ai – 客户支持 CRM（Attio 和 N8n 的混合）",
+        "summary": "Hacker News 用户展示了一个名为 Auxx.ai 的新产品，这是一个集成了 Attio 和 N8n 功能的客户支持 CRM 系统。",
+        "url": "https://auxx.ai",
         "source": "Hacker News AI",
         "category": "AI产品"
       },
       {
-        "rank": 2,
-        "title": "我们遭受大量 AI 垃圾的时代已经一去不复返了",
-        "summary": "文章认为，AI 生成内容的泛滥时代即将结束，内容质量将受到更多关注。",
-        "url": "https://lists.haxx.se/pipermail/daniel/2026-April/000153.html",
-        "source": "Hacker News AI",
-        "category": "LLM"
-      },
-      {
         "rank": 3,
-        "title": "Autoloom – 基于tinyloom构建的自主人工智能代理",
-        "summary": "介绍 Autoloom，一个基于 tinyloom 构建的自主 AI 代理项目。",
-        "url": "https://github.com/thresher-sh/autoloom",
+        "title": "AI代理陷阱",
+        "summary": "该研究探讨了在构建和部署AI代理时可能遇到的潜在陷阱和挑战。",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438",
         "source": "Hacker News AI",
-        "category": "开源"
+        "category": "研究"
       },
       {
         "rank": 4,
-        "title": "人工智能辅助会降低持久性并损害独立绩效",
-        "summary": "探讨 AI 辅助工具可能带来的负面影响，如降低用户的主动性和独立思考能力。",
-        "url": "https://arxiv.org/abs/2604.04721",
+        "title": "Nyx – 用于 AI 代理的多轮、自适应、进攻性测试工具",
+        "summary": "Hacker News 展示了一个名为 Nyx 的新工具，用于对 AI 代理进行多轮、自适应和进攻性测试。",
+        "url": "https://fabraix.com",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "研究"
       },
       {
         "rank": 5,
-        "title": "对人工智能感到恐惧的《经济学人》刚刚找到了一个罕见的希望理由",
-        "summary": "《经济学人》杂志在一篇分析中，对 AI 的发展前景提出了谨慎的乐观态度。",
-        "url": "https://fortune.com/2026/04/19/alex-imas-human-jobs-ai-economy-chicago-economist-substack-doomsday-scenario/",
-        "source": "Hacker News AI",
-        "category": "LLM"
-      },
-      {
-        "rank": 6,
-        "title": "12个月的窗口期",
-        "summary": "暗示 AI 技术发展存在一个关键的、有限的时间窗口期，需抓住机会。",
-        "url": "https://techcrunch.com/2026/04/19/the-12-month-window/",
+        "title": "OpenAI 的存在问题",
+        "summary": "TechCrunch 文章深入探讨了 OpenAI 公司目前面临的生存和发展挑战。",
+        "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
         "source": "TechCrunch AI",
         "category": "AI产品"
       },
       {
+        "rank": 6,
+        "title": "您如何处理使用 MCP 工具的 AI 代理的安全性？",
+        "summary": "Hacker News 上的讨论聚焦于如何确保使用 MCP 工具的 AI 代理的安全性问题。",
+        "url": "https://news.ycombinator.com/item?id=47827684",
+        "source": "Hacker News AI",
+        "category": "AI产品"
+      },
+      {
         "rank": 7,
-        "title": "停止创建 AI 斜坡 [视频]",
-        "summary": "呼吁停止不负责任地发展和部署 AI 技术，强调潜在风险。",
-        "url": "https://www.youtube.com/watch?v=Yxxk0LCeP3s",
+        "title": "对本地人工智能的需求可能会为苹果塑造新的商业模式",
+        "summary": "文章分析了对本地运行AI的需求，以及这如何可能为苹果公司开辟新的商业模式。",
+        "url": "https://9to5mac.com/2026/04/19/apple-local-ai-server-hosting-new-business-model/",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 8,
-        "title": "什么是AI女友",
-        "summary": "探讨 AI 女友的概念、技术实现及其引发的社会和伦理问题。",
-        "url": "https://news.ycombinator.com/item?id=47826685",
+        "title": "Context.ai 似乎是 Vercel 泄露的原因",
+        "summary": "Hacker News 报道称，Context.ai 可能是导致 Vercel 数据泄露的根源。",
+        "url": "https://twitter.com/jaimeblascob/status/2045960143209152981",
         "source": "Hacker News AI",
-        "category": "研究"
+        "category": "LLM"
       },
       {
         "rank": 9,
-        "title": "认知自杀：人工智能为何陷入平庸",
-        "summary": "分析人工智能发展中可能遇到的瓶颈和挑战，导致其性能停滞不前。",
-        "url": "https://medium.com/@erinacius4455/full-linkedin-article-english-version-6611a87d02c5",
-        "source": "Hacker News AI",
-        "category": "CV"
+        "title": "“喵，喵”：空中交通广播中听到动物噪音后飞行员被责骂",
+        "summary": "一起奇特的事件中，飞行员因在空中交通广播中发出动物叫声而被责骂。",
+        "url": "https://abcnews.com/US/meow-meow-pilots-scolded-after-animal-noises-heard/story?id=132076661",
+        "source": "Hacker News",
+        "category": "LLM"
       },
       {
         "rank": 10,
-        "title": "Cardynal – 企业人工智能支持代理，无代码，WhatsApp 和网络聊天",
-        "summary": "介绍 Cardynal，一个支持企业、无代码、基于 AI 的 WhatsApp 和网页聊天代理。",
-        "url": "https://cardynal.io",
+        "title": "问 HN：给予 AI 代理数据库访问权限是新的 BI 工具问题吗？",
+        "summary": "Hacker News 用户提问，授予AI代理数据库访问权限是否会引发新的商业智能工具相关问题。",
+        "url": "https://news.ycombinator.com/item?id=47827486",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "AI产品"
       }
     ],
     "安全": [
       {
         "rank": 1,
         "title": "Vercel 确认违规，黑客声称出售被盗数据",
-        "summary": "云开发平台 Vercel 确认遭遇安全事件，黑客声称窃取并出售用户数据。",
+        "summary": "Vercel 确认了其系统遭到入侵，黑客声称正在出售窃取的数据。",
         "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
         "source": "BleepingComputer",
         "category": "攻防"
@@ -22063,7 +21993,7 @@
       {
         "rank": 2,
         "title": "Apple 帐户变更警报被滥用来发送网络钓鱼电子邮件",
-        "summary": "攻击者利用 Apple 账户变更通知，进行针对性的网络钓鱼攻击。",
+        "summary": "攻击者利用 Apple 账户变更的提醒功能，将其伪装成网络钓鱼邮件进行传播。",
         "url": "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
         "source": "BleepingComputer",
         "category": "攻防"
@@ -22071,7 +22001,7 @@
       {
         "rank": 3,
         "title": "Vercel 表示内部系统遭到破坏",
-        "summary": "Vercel 官方确认其内部系统遭到破坏，安全事件持续发酵。",
+        "summary": "开发平台 Vercel 报告称，其内部系统遭受了安全破坏事件。",
         "url": "https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/",
         "source": "Hacker News",
         "category": "漏洞"
@@ -22079,7 +22009,7 @@
       {
         "rank": 4,
         "title": "Discord 阅读回执利用：何时、多久一次、多长时间",
-        "summary": "分析 Discord 阅读回执功能被利用的可能性及其频率。",
+        "summary": "文章分析了 Discord 阅读回执功能被利用的情况，包括时间、频率和持续时长。",
         "url": "https://paul.koeck.dev/writeups/discord-read-receipts",
         "source": "Hacker News",
         "category": "漏洞"
@@ -22087,7 +22017,7 @@
       {
         "rank": 5,
         "title": "由于数量增加，NIST 将停止对非优先缺陷进行评级",
-        "summary": "NIST 因漏洞数量激增，决定停止对非优先性安全缺陷进行评级。",
+        "summary": "NIST 宣布将不再对数量庞大的非优先级安全缺陷进行评级。",
         "url": "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
         "source": "BleepingComputer",
         "category": "攻防"
@@ -22095,7 +22025,7 @@
       {
         "rank": 6,
         "title": "Vercel 2026 年 4 月安全事件",
-        "summary": "记录 Vercel 在 2026 年 4 月发生的安全事件，引发关注。",
+        "summary": "报道了 Vercel 在 2026 年 4 月发生的安全事件。",
         "url": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
         "source": "Hacker News",
         "category": "漏洞"
@@ -22103,7 +22033,7 @@
       {
         "rank": 7,
         "title": "价值 2.9 亿美元的加密货币黑客事件引发 DeFi 蔓延冲击",
-        "summary": "一起价值 2.9 亿美元的加密货币被盗事件，对 DeFi 领域造成连锁反应。",
+        "summary": "一起价值 2.9 亿美元的加密货币被盗事件，引发了去中心化金融领域的连锁反应。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-19/crypto-hack-worth-290-million-triggers-defi-contagion-shock",
         "source": "Bloomberg Tech",
         "category": "漏洞"
@@ -22111,7 +22041,7 @@
       {
         "rank": 8,
         "title": "欧盟年龄验证应用：“无忧套餐”存在安全漏洞",
-        "summary": "欧盟的年龄验证应用“无忧套餐”被发现存在严重安全漏洞。",
+        "summary": "欧盟的一款年龄验证应用程序，被称为“无忧套餐”，被发现存在安全漏洞。",
         "url": "https://www.heise.de/en/news/EU-age-verification-app-Worry-free-package-with-security-vulnerabilities-11262921.html",
         "source": "Hacker News",
         "category": "攻防"
@@ -22119,7 +22049,7 @@
       {
         "rank": 9,
         "title": "假冒克劳德网站安装恶意软件，使攻击者能够访问您的计算机",
-        "summary": "攻击者通过假冒 Claude 网站传播恶意软件，以窃取用户计算机访问权限。",
+        "summary": "欺诈网站伪装成 Claude，诱使用户下载恶意软件，从而获得对计算机的访问权限。",
         "url": "https://www.malwarebytes.com/blog/scams/2026/04/fake-claude-site-installs-malware-that-gives-attackers-access-to-your-computer",
         "source": "Hacker News",
         "category": "攻防"
@@ -22127,7 +22057,7 @@
       {
         "rank": 10,
         "title": "Protobuf 库中的严重缺陷导致 JavaScript 代码执行",
-        "summary": "Protobuf 库中发现严重漏洞，可能导致 JavaScript 代码被恶意执行。",
+        "summary": "Protobuf 库中发现了一个严重漏洞，可能导致 JavaScript 代码被执行。",
         "url": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/",
         "source": "BleepingComputer",
         "category": "漏洞"
@@ -22136,249 +22066,249 @@
     "经济": [
       {
         "rank": 1,
+        "title": "尽管伊朗战争遭遇新的挫折，但股市仍处于良好状态",
+        "summary": "尽管与伊朗的冲突出现新情况，股市表现依然稳健。",
+        "url": "https://www.cnbc.com/2026/04/19/jim-cramer-here-are-things-going-right-for-stocks-despite-new-iran-war-setbacks.html",
+        "source": "CNBC",
+        "category": "市场"
+      },
+      {
+        "rank": 2,
+        "title": "AI初创公司Cursor正在洽谈融资20亿美元，估值超过500亿美元",
+        "summary": "AI初创公司Cursor正就高达20亿美元的融资进行谈判，公司估值预计将超过500亿美元。",
+        "url": "https://www.cnbc.com/2026/04/19/cursor-ai-2-billion-funding-round.html",
+        "source": "CNBC",
+        "category": "投融资"
+      },
+      {
+        "rank": 3,
         "title": "新的交易员挖角策略使对冲基金薪酬飙升",
-        "summary": "新的挖角策略推高了对冲基金交易员的薪酬水平。",
+        "summary": "通过新的交易员招聘策略，对冲基金行业的薪酬水平正在迅速上升。",
         "url": "https://www.bloomberg.com/news/features/2026-04-19/hedge-funds-frenzied-job-market-sends-pay-spiraling-higher",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 2,
+        "rank": 4,
+        "title": "Point72，贝莱德支持的竞赛寻找日本银行业人才",
+        "summary": "Point72 和贝莱德等公司正在积极寻找日本银行业的顶尖人才。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-19/point72-blackrock-backed-contest-seeks-japanese-banking-talent",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 5,
         "title": "特朗普称美国在阿曼湾袭击并扣押了悬挂伊朗国旗的货船",
-        "summary": "美国军方在阿曼湾扣押了一艘悬挂伊朗国旗的货船，引发地缘政治紧张。",
+        "summary": "前总统特朗普声称，美国军方在阿曼湾袭击并扣押了一艘悬挂伊朗国旗的货船。",
         "url": "https://www.cnbc.com/2026/04/19/trump-navy-iran-ship-gulf-of-oman.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
-        "rank": 3,
+        "rank": 6,
         "title": "《华尔街日报》称，阿联酋正在与美国就可能的金融生命线进行谈判",
-        "summary": "据报道，阿联酋正与美国就潜在的金融援助进行谈判。",
+        "summary": "据《华尔街日报》报道，阿联酋正在与美国就潜在的金融援助进行商讨。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-19/uae-in-talks-with-us-for-possible-financial-lifeline-wsj-says",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 4,
+        "rank": 7,
         "title": "交易员准备迎接霍尔木兹对峙再次陷入混乱",
-        "summary": "交易员们为霍尔木兹海峡可能再次发生的对峙及其带来的市场混乱做准备。",
+        "summary": "交易员们正在为霍尔木兹海峡潜在的紧张对峙可能再次引发的市场混乱做好准备。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-19/traders-brace-for-renewed-turmoil-on-hormuz-standoff-markets-wrap",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 5,
+        "rank": 8,
         "title": "特朗普称美国军方在阿曼湾扣押了一艘伊朗船只",
-        "summary": "特朗普总统宣布美国军方在阿曼湾扣押了一艘伊朗船只。",
+        "summary": "前总统特朗普表示，美国军方在阿曼湾扣押了一艘伊朗船只。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-19/trump-says-us-military-seized-an-iranian-vessel-in-gulf-of-oman",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 6,
+        "rank": 9,
         "title": "联邦调查局局长卡什·帕特尔发誓要起诉《大西洋月刊》，因为该报发表了一篇声称他酗酒的文章",
-        "summary": "联邦调查局局长起诉《大西洋月刊》，因其发表一篇关于他饮酒的文章。",
+        "summary": "FBI局长 Kash Patel 威胁要起诉《大西洋月刊》，因其发布一篇指控其酗酒的文章。",
         "url": "https://www.cnbc.com/2026/04/19/kash-patel-atlantic-lawsuit-alcohol.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
-        "rank": 7,
+        "rank": 10,
         "title": "国债的下一个催化剂被命名为凯文·沃什 (Kevin Warsh)",
-        "summary": "凯文·沃什被认为是影响国债市场的下一个关键因素。",
+        "summary": "前美联储理事 Kevin Warsh 被认为是影响美国国债市场走势的关键因素。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-19/kevin-warsh-fed-hearings-will-be-treasury-bonds-next-catalyst",
         "source": "Bloomberg Markets",
         "category": "宏观"
-      },
-      {
-        "rank": 8,
-        "title": "银行辩论采访：Umar Farooq 和 Shahmir Khaliq",
-        "summary": "对银行界人士 Umar Farooq 和 Shahmir Khaliq 的采访，讨论行业话题。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-19/bank-debate-interview-umar-farooq-and-shahmir-khaliq-video",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 9,
-        "title": "长期回避政治后，大宗商品交易员开始向特朗普示好",
-        "summary": "过去回避政治的大宗商品交易员开始对特朗普表现出支持。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-19/after-long-avoiding-politics-commodity-traders-cosy-up-to-trump",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 10,
-        "title": "本周市场上我们关注的一件大事与伊朗一样重要",
-        "summary": "分析师认为本周市场上的一个重要事件与伊朗局势同等重要。",
-        "url": "https://www.cnbc.com/2026/04/19/1-big-thing-were-watching-in-this-weeks-market-just-as-important-as-iran.html",
-        "source": "CNBC",
-        "category": "市场"
       }
     ],
     "科技": [
       {
         "rank": 1,
+        "title": "据报道，NSA 正在使用 Anthropic 的新模型 Mythos",
+        "summary": "有报道称，美国国家安全局（NSA）正在使用 Anthropic 最新开发的大型语言模型 Mythos。",
+        "url": "https://www.engadget.com/ai/the-nsa-is-reportedly-using-anthropics-new-model-mythos-211502787.html?src=rss",
+        "source": "Engadget",
+        "category": "软件"
+      },
+      {
+        "rank": 2,
+        "title": "C++26：反射、内存安全、契约和新的异步模型",
+        "summary": "C++26 标准将引入反射、内存安全、契约以及新的异步编程模型。",
+        "url": "https://www.infoq.com/news/2026/04/cpp-26-reflection-safety-async/",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 3,
         "title": "伊斯兰医学 (2018)",
-        "summary": "一篇关于伊斯兰医学在 2018 年的研究或发展。",
+        "summary": "一篇发表于 2018 年关于伊斯兰医学的文章。",
         "url": "https://hekint.org/2018/11/19/islamic-medicine/",
         "source": "Hacker News",
         "category": "互联网"
       },
       {
-        "rank": 2,
+        "rank": 4,
         "title": "瑞士当局希望减少对微软的依赖",
-        "summary": "瑞士政府正寻求减少对微软软件和服务的依赖。",
+        "summary": "瑞士政府部门正寻求减少对微软软件产品的依赖。",
         "url": "https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532",
         "source": "Hacker News",
         "category": "软件"
       },
       {
-        "rank": 3,
+        "rank": 5,
         "title": "A. J. Ayer – 《我死后所见》（1988）",
-        "summary": "一篇关于哲学家 A. J. Ayer 的著作《我死后所见》的讨论。",
+        "summary": "哲学家 A. J. Ayer 的作品《我死后所见》的介绍。",
         "url": "https://www.philosopher.eu/others-writings/a-j-ayer-what-i-saw-when-i-was-dead/",
         "source": "Hacker News",
         "category": "互联网"
       },
       {
-        "rank": 4,
+        "rank": 6,
         "title": "我用自己的编程语言编写了一个 CHIP-8 模拟器",
-        "summary": "开发者分享了使用自创编程语言编写 CHIP-8 模拟器的经历。",
+        "summary": "一位开发者分享了使用自创编程语言实现 CHIP-8 模拟器的经历。",
         "url": "https://github.com/navid-m/chip8emu",
         "source": "Hacker News",
         "category": "硬件"
       },
       {
-        "rank": 5,
+        "rank": 7,
         "title": "北京机器人半程马拉松第二年回归，成绩远不那么尴尬",
-        "summary": "北京机器人半程马拉松赛事圆满结束，相比去年表现有所提升。",
+        "summary": "北京机器人半程马拉松迎来了第二届，本次比赛的表现比去年有所改善。",
         "url": "https://www.engadget.com/ai/beijings-robot-half-marathon-is-back-for-its-second-year-with-far-less-embarassing-results-191308396.html?src=rss",
         "source": "Engadget",
         "category": "软件"
       },
       {
-        "rank": 6,
+        "rank": 8,
+        "title": "六级黑暗模式",
+        "summary": "关于“六级黑暗模式”的讨论，具体内容未详。",
+        "url": "https://cssence.com/2024/six-levels-of-dark-mode/",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 9,
         "title": "Palantir 发布了一份宣言，读起来就像漫画书中恶棍的胡言乱语",
-        "summary": "Palantir 发布的一份宣言，其内容被比作漫画反派的言论。",
+        "summary": "Palantir 发布的一份公开声明被评论为风格奇特，如同漫画反派的独白。",
         "url": "https://www.engadget.com/big-tech/palantir-posted-a-manifesto-that-reads-like-the-ramblings-of-a-comic-book-villain-181947361.html?src=rss",
         "source": "Engadget",
         "category": "软件"
       },
       {
-        "rank": 7,
+        "rank": 10,
         "title": "蓝色起源的火箭再利用成就因上级故障而受到损害",
-        "summary": "蓝色起源的火箭重复使用技术取得进展，但因上级发动机故障受到影响。",
+        "summary": "蓝色起源在火箭重复使用方面的成就，因一次上级故障而受到一定影响。",
         "url": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/",
         "source": "Ars Technica",
         "category": "互联网"
-      },
-      {
-        "rank": 8,
-        "title": "显示 HN: Faceoff – 以下 NHL 游戏的终端 UI",
-        "summary": "展示了一个为 NHL 游戏设计的终端用户界面（UI）。",
-        "url": "https://www.vincentgregoire.com/faceoff/",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 9,
-        "title": "溴的瓶颈：冲突如何阻止世界存储芯片的生产",
-        "summary": "地缘政治冲突对溴的供应造成影响，进而阻碍全球存储芯片的生产。",
-        "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
-        "source": "Hacker News",
-        "category": "硬件"
-      },
-      {
-        "rank": 10,
-        "title": "下一个 Mac Studio 和 MacBook Pro 的发布可能会推迟几个月",
-        "summary": "由于供应链问题，新款 Mac Studio 和 MacBook Pro 的发布可能推迟。",
-        "url": "https://www.engadget.com/computing/the-next-mac-studio-and-macbook-pro-releases-could-be-postponed-by-several-months-173120187.html?src=rss",
-        "source": "Engadget",
-        "category": "软件"
       }
     ],
     "国际": [
       {
         "rank": 1,
+        "title": "特朗普称美国拦截并扣押了悬挂伊朗国旗的货船",
+        "summary": "前总统特朗普表示，美国军方在阿曼湾拦截并扣押了一艘悬挂伊朗国旗的货船。",
+        "url": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "外交"
+      },
+      {
+        "rank": 2,
+        "title": "伊朗高级政治家告诉 BBC，德黑兰永远不会放弃对霍尔木兹海峡的控制",
+        "summary": "一位伊朗高级政治家向 BBC 表示，德黑兰绝不会放弃对霍尔木兹海峡的控制权。",
+        "url": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "科学"
+      },
+      {
+        "rank": 3,
+        "title": "美国称扣押一艘伊朗货船 停火即将到期",
+        "summary": "美国方面宣布扣押一艘伊朗货船，而停火协议即将到期。",
+        "url": "https://www.npr.org/2026/04/19/nx-s1-5790487/u-s-says-it-seized-an-iranian-cargo-ship-ceasefire-expires-soon",
+        "source": "NPR World",
+        "category": "外交"
+      },
+      {
+        "rank": 4,
         "title": "安大略省省长道格·福特在强烈抗议后同意出售价值 2100 万美元的私人飞机",
-        "summary": "面对公众强烈抗议，安大略省省长同意出售价值 2100 万美元的私人飞机。",
+        "summary": "安大略省省长道格·福特在面临强烈公众抗议后，同意出售其价值 2100 万美元的私人飞机。",
         "url": "https://www.bbc.com/news/articles/cdxd8g47wnlo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "科学"
       },
       {
-        "rank": 2,
+        "rank": 5,
         "title": "乌克兰警察局长因涉嫌逃离致命枪击事件而辞职",
-        "summary": "乌克兰一名警察局长因涉嫌在致命枪击事件后逃离而辞职。",
+        "summary": "乌克兰一名警察局长因被指控逃离一场致命枪击事件而选择辞职。",
         "url": "https://www.bbc.com/news/articles/c8ejn778j4do?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
-        "rank": 3,
+        "rank": 6,
         "title": "警方称路易斯安那州枪击事件中八名儿童丧生",
-        "summary": "路易斯安那州发生枪击事件，导致八名儿童死亡。",
+        "summary": "警方通报，路易斯安那州发生一起枪击事件，造成八名儿童死亡。",
         "url": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
-        "rank": 4,
+        "rank": 7,
         "title": "二战炸弹爆炸 数千巴黎人撤离",
-        "summary": "一枚二战时期的炸弹在巴黎爆炸，导致数千居民撤离。",
+        "summary": "一枚二战时期的炸弹在巴黎爆炸，导致数千名居民被疏散。",
         "url": "https://www.bbc.com/news/articles/c4gxv3874vjo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
-        "rank": 5,
+        "rank": 8,
         "title": "俄罗斯的兴奋剂计划是由毒害纳瓦尔尼的同一个俄罗斯联邦安全局团队负责的",
-        "summary": "报道指出，俄罗斯的兴奋剂计划与毒害纳瓦尔尼的团队有联系。",
+        "summary": "一份报告指出，俄罗斯的兴奋剂计划与毒害纳瓦尔尼的俄罗斯联邦安全局（FSB）团队有关。",
         "url": "https://theins.press/en/inv/291614",
         "source": "Hacker News",
         "category": "外交"
       },
       {
-        "rank": 6,
+        "rank": 9,
         "title": "为什么灰鲸会在旧金山水域死亡？美国科学家寻找线索",
-        "summary": "美国科学家正在调查灰鲸在旧金山水域死亡的原因。",
+        "summary": "美国科学家正在调查灰鲸在旧金山水域异常死亡的原因。",
         "url": "https://www.bbc.com/news/articles/c9qdd8qvrplo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "气候"
       },
       {
-        "rank": 7,
+        "rank": 10,
         "title": "奥地利警方称在 HiPP 喜宝婴儿食品罐中发现老鼠药",
-        "summary": "奥地利警方在 HiPP 婴儿食品罐中发现了老鼠药。",
+        "summary": "奥地利警方报告称，在 HiPP 婴儿食品罐中发现了老鼠药。",
         "url": "https://www.bbc.com/news/articles/cvg07lq5ql4o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
-      },
-      {
-        "rank": 8,
-        "title": "北约盟国努力重新开放霍尔木兹海峡引发特朗普的愤怒",
-        "summary": "北约盟国试图重新开放霍尔木兹海峡的努力激怒了特朗普总统。",
-        "url": "https://www.npr.org/2026/04/19/nx-s1-5788656/nato-allies-working-to-reopen-the-strait-of-hormuz-spark-fury-from-trump",
-        "source": "NPR World",
-        "category": "外交"
-      },
-      {
-        "rank": 9,
-        "title": "伊朗与美国达成和平协议的长期目标是什么？",
-        "summary": "探讨伊朗与美国之间达成和平协议的长远目标和可能性。",
-        "url": "https://www.npr.org/2026/04/19/nx-s1-5786637/what-are-irans-longterm-goals-for-a-peace-deal-with-the-u-s",
-        "source": "NPR World",
-        "category": "外交"
-      },
-      {
-        "rank": 10,
-        "title": "美伊停火协议本周到期，目前尚未达成任何协议",
-        "summary": "美伊之间的停火协议即将到期，但双方尚未达成新的协议。",
-        "url": "https://www.npr.org/2026/04/19/nx-s1-5790378/iran-us-hormuz-closed-impossible",
-        "source": "NPR World",
-        "category": "外交"
       }
     ],
-    "generated_at": "2026-04-19T21:06:26.240137+00:00"
+    "generated_at": "2026-04-19T22:03:01.101146+00:00"
   }
 }
