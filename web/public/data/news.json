@@ -1,6 +1,328 @@
 {
-  "last_updated": "2026-04-28T21:00:29.909111+00:00",
+  "last_updated": "2026-04-28T21:54:17.793864+00:00",
   "articles": [
+    {
+      "title": "How to Accelerate Protein Structure Prediction at Proteome-Scale",
+      "url": "https://developer.nvidia.com/blog/how-to-accelerate-protein-structure-prediction-at-proteome-scale/",
+      "source": "NVIDIA Research",
+      "domain": "AI",
+      "published": "2026-04-28T21:52:02.616846+00:00",
+      "content": "Proteins rarely function in isolation as individual monomers. Most biological processes are governed by proteins interacting with other proteins, forming...",
+      "id": "ba1f9a88dcf14c1acd10ca0f3b708769",
+      "title_zh": "如何加速蛋白质组规模的蛋白质结构预测",
+      "summary_zh": "Proteins rarely function in isolation as individual monomers. Most biological processes are governed by proteins interacting with other proteins, forming...",
+      "category": "研究",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.327516+00:00"
+    },
+    {
+      "title": "Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP",
+      "url": "https://developer.nvidia.com/blog/cut-checkpoint-costs-with-about-30-lines-of-python-and-nvidia-nvcomp/",
+      "source": "NVIDIA Research",
+      "domain": "AI",
+      "published": "2026-04-28T21:52:02.616834+00:00",
+      "content": "Training LLMs requires periodic checkpoints. These full snapshots of model weights, optimizer states, and gradients are saved to storage so training can resume...",
+      "id": "0d75c4480157f3c7b04a568abd03ce2c",
+      "title_zh": "使用大约 30 行 Python 和 NVIDIA nvCOMP 降低检查点成本",
+      "summary_zh": "Training LLMs requires periodic checkpoints. These full snapshots of model weights, optimizer states, and gradients are saved to storage so training can resume...",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.327466+00:00"
+    },
+    {
+      "title": "Running Large-Scale GPU Workloads on Kubernetes with Slurm",
+      "url": "https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/",
+      "source": "NVIDIA Research",
+      "domain": "AI",
+      "published": "2026-04-28T21:52:02.616822+00:00",
+      "content": "Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations...",
+      "id": "acd8008a1356af1e315adcb5e4ad03bc",
+      "title_zh": "使用 Slurm 在 Kubernetes 上运行大规模 GPU 工作负载",
+      "summary_zh": "Slurm is an open source cluster management and job scheduling system for Linux. It manages job scheduling for over 65% of TOP500 systems. Most organizations...",
+      "category": "开源",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.327417+00:00"
+    },
+    {
+      "title": "Elon Musk Testifies That He Started OpenAI to Prevent a ‘Terminator Outcome’",
+      "url": "https://www.wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial/",
+      "source": "Wired AI",
+      "domain": "AI",
+      "published": "2026-04-28T21:35:17+00:00",
+      "content": "The judge also warned Musk and Sam Altman to curb their “propensity to use social media to make things worse outside the courtroom” after both sides traded attacks online.",
+      "id": "b3e3e241adaf965f9fc0c16571df7c11",
+      "title_zh": "埃隆·马斯克 (Elon Musk) 证明他启动 OpenAI 是为了防止“终结者结局”",
+      "summary_zh": "The judge also warned Musk and Sam Altman to curb their “propensity to use social media to make things worse outside the courtroom” after both sides traded attacks online.",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.312819+00:00"
+    },
+    {
+      "title": "Pentagon AI chief confirms DOD's expanded use of Google, says reliance on one model 'never a good thing'",
+      "url": "https://www.cnbc.com/2026/04/28/pentagon-ai-chief-confirms-work-with-google-after-anthropic-blacklist.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-28T21:34:49+00:00",
+      "content": "The Pentagon's AI chief discussed the DOD's expanded use of Google Gemini after the blacklisting of Anthropic.",
+      "id": "b8f7e610052aedd5f433738423c747c7",
+      "title_zh": "五角大楼人工智能负责人证实国防部扩大了对谷歌的使用，称依赖一种模型“从来都不是一件好事”",
+      "summary_zh": "The Pentagon's AI chief discussed the DOD's expanded use of Google Gemini after the blacklisting of Anthropic.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.322458+00:00"
+    },
+    {
+      "title": "DHS shutdown: Congressional dysfunction imperils pay for TSA, Secret Service",
+      "url": "https://www.cnbc.com/2026/04/28/dhs-tsa-shutdown-congress.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-28T21:33:03+00:00",
+      "content": "The Department of Homeland Security has been shut down since February, as Congress continues to look for a compromise to fund the agency.",
+      "id": "5c86094dc73b8b50c74b4bdace16ab50",
+      "title_zh": "国土安全部关闭：国会功能失调危及运输安全管理局和特勤局的工资",
+      "summary_zh": "The Department of Homeland Security has been shut down since February, as Congress continues to look for a compromise to fund the agency.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.322435+00:00"
+    },
+    {
+      "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
+      "url": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+      "source": "BleepingComputer",
+      "domain": "安全",
+      "published": "2026-04-28T21:25:57+00:00",
+      "content": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
+      "id": "81246498cf976d07f7ef9517eec337aa",
+      "title_zh": "损坏的 VECT 2.0 勒索软件充当大文件的数据擦除器",
+      "summary_zh": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
+      "category": "攻防",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.319425+00:00"
+    },
+    {
+      "title": "The Controllability Trap: A Governance Framework for Military AI Agents",
+      "url": "https://arxiv.org/abs/2603.03515",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-28T21:24:13+00:00",
+      "content": "Article URL: https://arxiv.org/abs/2603.03515\nComments URL: https://news.ycombinator.com/item?id=47941011\nPoints: 1\n# Comments: 0",
+      "id": "e51bf6347ecb6f8ee82bfee57c564547",
+      "title_zh": "可控性陷阱：军事人工智能代理的治理框架",
+      "summary_zh": "Article URL: https://arxiv.org/abs/2603.03515 Comments URL: https://news.ycombinator.com/item?id=47941011 Points: 1 # Comments: 0",
+      "category": "研究",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325337+00:00"
+    },
+    {
+      "title": "PageGuide – a browser agent that grounds AI directly on the webpage",
+      "url": "https://pageguide.github.io/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-28T21:23:05+00:00",
+      "content": "Article URL: https://pageguide.github.io/\nComments URL: https://news.ycombinator.com/item?id=47940993\nPoints: 1\n# Comments: 0",
+      "id": "99343aea96153b787242f4778472b436",
+      "title_zh": "PageGuide——将 AI 直接植入网页的浏览器代理",
+      "summary_zh": "Article URL: https://pageguide.github.io/ Comments URL: https://news.ycombinator.com/item?id=47940993 Points: 1 # Comments: 0",
+      "category": "开源",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325402+00:00"
+    },
+    {
+      "title": "Before GitHub",
+      "url": "https://lucumr.pocoo.org/2026/4/28/before-github/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-28T21:17:40+00:00",
+      "content": "Before GitHub. Score: 38, Comments: 7",
+      "id": "bdde8eb0d4c4f359b165ed91f42fc595",
+      "title_zh": "在 GitHub 之前",
+      "summary_zh": "Before GitHub. Score: 38, Comments: 7",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.324603+00:00"
+    },
+    {
+      "title": "AI Wellbeing: Measuring and improving the functional pleasure and pain of AIs",
+      "url": "https://www.ai-wellbeing.org/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-28T21:13:53+00:00",
+      "content": "Article URL: https://www.ai-wellbeing.org/\nComments URL: https://news.ycombinator.com/item?id=47940875\nPoints: 1\n# Comments: 0",
+      "id": "455aed2bce3afc66b741af5cb6683c95",
+      "title_zh": "人工智能福祉：测量和改善人工智能的功能愉悦和痛苦",
+      "summary_zh": "Article URL: https://www.ai-wellbeing.org/ Comments URL: https://news.ycombinator.com/item?id=47940875 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325446+00:00"
+    },
+    {
+      "title": "Ditching GitHub",
+      "url": "https://lonami.dev/blog/ditching-github/",
+      "source": "Lobste.rs AI",
+      "domain": "AI",
+      "published": "2026-04-28T21:13:07+00:00",
+      "content": "Comments",
+      "id": "5f0fe485cb3e05bba56e7277a4fd21e2",
+      "title_zh": "放弃 GitHub",
+      "summary_zh": "Comments",
+      "category": "开源",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325562+00:00"
+    },
+    {
+      "title": "Preparing for the AI-Enhanced Attacker and the Impact on CISOs",
+      "url": "https://www.armadin.com/blog-posts/prepare-for-the-ai-enhanced-attacker",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-28T21:11:29+00:00",
+      "content": "Article URL: https://www.armadin.com/blog-posts/prepare-for-the-ai-enhanced-attacker\nComments URL: https://news.ycombinator.com/item?id=47940843\nPoints: 1\n# Comments: 0",
+      "id": "c7b4c2013ae790af7df2369529592410",
+      "title_zh": "为人工智能增强型攻击者做好准备及其对 CISO 的影响",
+      "summary_zh": "Article URL: https://www.armadin.com/blog-posts/prepare-for-the-ai-enhanced-attacker Comments URL: https://news.ycombinator.com/item?id=47940843 Points: 1 # Comments: 0",
+      "category": "研究",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325494+00:00"
+    },
+    {
+      "title": "Denuvo has been cracked in all single-player games it previously protected",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-28T21:08:29+00:00",
+      "content": "Denuvo has been cracked in all single-player games it previously protected. Score: 15, Comments: 0",
+      "id": "f9cf79a31bf57ce254eb68758b2543fb",
+      "title_zh": "Denuvo 之前保护的所有单人游戏均已被破解",
+      "summary_zh": "Denuvo has been cracked in all single-player games it previously protected. Score: 15, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.324867+00:00"
+    },
+    {
+      "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+      "source": "BleepingComputer",
+      "domain": "安全",
+      "published": "2026-04-28T21:07:23+00:00",
+      "content": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]",
+      "id": "6c5515697d6f40cf89fbdc183acc61d3",
+      "title_zh": "黑客正在利用 LiteLLM 预授权 SQLi 的关键缺陷",
+      "summary_zh": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]",
+      "category": "漏洞",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.319452+00:00"
+    },
+    {
+      "title": "CATL secures 60 GWh sodium-ion battery order with Hyperstrong",
+      "url": "https://www.pv-magazine.com/2026/04/28/catl-secures-worlds-largest-sodium-ion-battery-order-with-hyperstrong/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-28T21:04:58+00:00",
+      "content": "CATL secures 60 GWh sodium-ion battery order with Hyperstrong. Score: 5, Comments: 1",
+      "id": "14b830d03f91ae0610ba3dd5ac1895b7",
+      "title_zh": "CATL与Hyperstrong获得60GWh钠离子电池订单",
+      "summary_zh": "CATL secures 60 GWh sodium-ion battery order with Hyperstrong. Score: 5, Comments: 1",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325181+00:00"
+    },
+    {
+      "title": "AMD's Lemonade SDK 10.3 Now 10x Smaller by Getting Rid of Electron",
+      "url": "https://www.phoronix.com/news/AMD-Lemonade-10.3",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-28T21:02:57+00:00",
+      "content": "AMD's Lemonade SDK 10.3 Now 10x Smaller by Getting Rid of Electron. Score: 7, Comments: 3",
+      "id": "7240b71c5f2d55045673928033b6904b",
+      "title_zh": "AMD 的 Lemonade SDK 10.3 去掉了 Electron，尺寸缩小了 10 倍",
+      "summary_zh": "AMD's Lemonade SDK 10.3 Now 10x Smaller by Getting Rid of Electron. Score: 7, Comments: 3",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325016+00:00"
+    },
+    {
+      "title": "First Vegas-style casino opens in New York City",
+      "url": "https://www.cnbc.com/2026/04/28/resorts-world-casino-opens-in-new-york-city.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-28T21:02:30+00:00",
+      "content": "New York City's first full-scale casino with live table games opened to gamblers more than a decade after New York voters approved an expansion of gambling.",
+      "id": "8ffecb54ad12182f39397ab479068cf5",
+      "title_zh": "第一家维加斯风格的赌场在纽约市开业",
+      "summary_zh": "New York City's first full-scale casino with live table games opened to gamblers more than a decade after New York voters approved an expansion of gambling.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.322483+00:00"
+    },
+    {
+      "title": "First Independence Bank CEO: Fed is Doing a 'Fine Job'",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-28/first-independence-bank-ceo-fed-is-doing-a-fine-job-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-28T21:01:51+00:00",
+      "content": "First Independence Bank Chairman & CEO and Chair of the American Bankers Association Kenneth Kelly discusses the importance of stability in the banking system and why the Fed is doing a fine job given the uncertainty. He talks with Romaine Bostick and Katie Greifeld on \"The Close.\" (Source: Bloomberg)",
+      "id": "a38a2aa82e178e835ff3b2548e6ca2f3",
+      "title_zh": "第一独立银行首席执行官：美联储做得“很好”",
+      "summary_zh": "First Independence Bank Chairman & CEO and Chair of the American Bankers Association Kenneth Kelly discusses the importance of stability in the banking system and why the Fed is doing a fine job given",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.322355+00:00"
+    },
+    {
+      "title": "Building simulations and/or digital twins with AI",
+      "url": "https://github.com/plugboard-dev/plugboard",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-28T21:00:10+00:00",
+      "content": "Article URL: https://github.com/plugboard-dev/plugboard\nComments URL: https://news.ycombinator.com/item?id=47940695\nPoints: 1\n# Comments: 1",
+      "id": "aa189825a8a832ea66d0e573437ff0c4",
+      "title_zh": "使用人工智能构建模拟和/或数字孪生",
+      "summary_zh": "Article URL: https://github.com/plugboard-dev/plugboard Comments URL: https://news.ycombinator.com/item?id=47940695 Points: 1 # Comments: 1",
+      "category": "开源",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325536+00:00"
+    },
+    {
+      "title": "How Slack Manages Context in Long-running Multi-agent Systems",
+      "url": "https://www.infoq.com/news/2026/04/slack-agent-context-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI",
+      "domain": "AI",
+      "published": "2026-04-28T21:00:00+00:00",
+      "content": "To sustain productivity in long-running agent systems, Slack engineers moved away from accumulating chat logs and started using structured memory, validation, and distilled truth to maintain coherence and accuracy of long-running agent systems. By Sergio De Simone",
+      "id": "edaeb11ec54b3b24d1b31315a64b6adf",
+      "title_zh": "Slack 如何管理长期运行的多代理系统中的上下文",
+      "summary_zh": "To sustain productivity in long-running agent systems, Slack engineers moved away from accumulating chat logs and started using structured memory, validation, and distilled truth to maintain coherence",
+      "category": "CV",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.313096+00:00"
+    },
+    {
+      "title": "Samsung Dynasty’s Wealth Doubles to $45 Billion in Just One Year",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-28/ai-boom-doubles-samsung-dynasty-s-wealth-to-45-billion-in-just-one-year",
+      "source": "Bloomberg Tech",
+      "domain": "AI",
+      "published": "2026-04-28T21:00:00+00:00",
+      "content": "When Lee Kun-hee, the patriarch behind Samsung Electronics Co. died in 2020, his dynasty soon dealt with a crisis on two fronts: first, a multi-billion-dollar inheritance tax. The following year, his son Jay Y. Lee was jailed after being convicted of bribing South Korea’s former President Park Geun-hye to win support for his succession.",
+      "id": "61d75cb1832bceac50692b582221dff8",
+      "title_zh": "三星王朝财富仅一年就翻倍至450亿美元",
+      "summary_zh": "When Lee Kun-hee, the patriarch behind Samsung Electronics Co. died in 2020, his dynasty soon dealt with a crisis on two fronts: first, a multi-billion-dollar inheritance tax. The following year, his",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.324549+00:00"
+    },
+    {
+      "title": "Nvidia-Tied Data Center Raises $4.59 Billion From Junk-Bond Sale",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-28/nvidia-tied-data-center-raises-4-59-billion-from-junk-bond-sale",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-28T20:57:53+00:00",
+      "content": "A Nevada data center project tied to Nvidia Corp. has raised $4.59 billion from a junk-bond sale, adding to a wave of deals to fund artificial intelligence infrastructure.",
+      "id": "79e9f459c87b1864a20287e04c6756bd",
+      "title_zh": "与 Nvidia 相关的数据中心通过垃圾债券销售筹集了 45.9 亿美元",
+      "summary_zh": "A Nevada data center project tied to Nvidia Corp. has raised $4.59 billion from a junk-bond sale, adding to a wave of deals to fund artificial intelligence infrastructure.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.322383+00:00"
+    },
     {
       "title": "Why the US Is Working Less Than Before",
       "url": "https://www.bloomberg.com/news/videos/2026-04-28/opinion-why-the-us-is-working-less-than-before-video",
@@ -142,6 +464,20 @@
       "collected": "2026-04-28T20:59:04.502543+00:00"
     },
     {
+      "title": "Bond Traders Ramp Up Wagers Hedging for 5% Yields as Oil Surges",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-28/bond-traders-ramp-up-wagers-hedging-for-5-yields-as-oil-surges",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-28T20:31:06+00:00",
+      "content": "Traders in the Treasury options market are bracing for long-dated bond yields to surge past 5% as a rally in oil prices continues unabated.",
+      "id": "63045a2dbe2aea3bccfeb67b561092be",
+      "title_zh": "随着石油价格飙升，债券交易商加大对冲 5% 收益率的赌注",
+      "summary_zh": "Traders in the Treasury options market are bracing for long-dated bond yields to surge past 5% as a rally in oil prices continues unabated.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.322408+00:00"
+    },
+    {
       "title": "Drone pilot makes US rescind no-fly zones around unmarked, moving ICE vehicles",
       "url": "https://arstechnica.com/gadgets/2026/04/no-fly-zones-around-moving-ice-vehicles-this-drone-pilot-fought-back-and-won/",
       "source": "Hacker News",
@@ -254,6 +590,20 @@
       "collected": "2026-04-28T20:59:04.502620+00:00"
     },
     {
+      "title": "NASA Connects Little Red Dots with Chandra, Webb",
+      "url": "https://science.nasa.gov/missions/chandra/nasa-connects-little-red-dots-with-chandra-webb/",
+      "source": "NASA",
+      "domain": "国际",
+      "published": "2026-04-28T20:21:03+00:00",
+      "content": "A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early universe in recent years. A “X-ray dot” found by NASA’s Chandra X-ray Observatory could explain what the hundreds or potentially thousands of these objects are. A paper describing the […]",
+      "id": "f7a3b4f1c03557491e2c4ba35f2620e6",
+      "title_zh": "NASA 将小红点与钱德拉、韦伯联系起来",
+      "summary_zh": "A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early universe in recent years. A “X-ray dot” found by NASA’s Ch",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.324026+00:00"
+    },
+    {
       "title": "Texas Instruments made a new flagship graphing calculator: the TI-84 Evo",
       "url": "https://www.engadget.com/mobile/texas-instruments-made-a-new-flagship-graphing-calculator-the-ti-84-evo-201903438.html?src=rss",
       "source": "Engadget",
@@ -322,6 +672,20 @@
       "category": "宏观",
       "tags": [],
       "collected": "2026-04-28T20:59:04.502790+00:00"
+    },
+    {
+      "title": "Flesh-eating bacteria devour man's arm and leg in just three days",
+      "url": "https://arstechnica.com/health/2026/04/flesh-eating-bacteria-devour-mans-arm-and-leg-in-just-three-days/",
+      "source": "Ars Technica",
+      "domain": "科技",
+      "published": "2026-04-28T20:15:04+00:00",
+      "content": "When doctors saw him, his limbs were discolored and crackling.",
+      "id": "4d085541d5707d03d57054d15a2d91cd",
+      "title_zh": "食肉细菌在短短三天内吞噬了男子的手臂和腿",
+      "summary_zh": "When doctors saw him, his limbs were discolored and crackling.",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.322512+00:00"
     },
     {
       "title": "AI Talent agent making direct intros to 100s of startups",
@@ -394,6 +758,20 @@
       "collected": "2026-04-28T20:59:04.502850+00:00"
     },
     {
+      "title": "Horror Stories from Former Azure Engineer",
+      "url": "https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion-2f5",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-28T20:01:47+00:00",
+      "content": "Horror Stories from Former Azure Engineer. Score: 6, Comments: 0",
+      "id": "ea7205f16628b3205edc894099f94931",
+      "title_zh": "前 Azure 工程师的恐怖故事",
+      "summary_zh": "Horror Stories from Former Azure Engineer. Score: 6, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325235+00:00"
+    },
+    {
       "title": "'It took nine seconds': Claude AI agent deletes company's database",
       "url": "https://www.the-independent.com/tech/claude-ai-agent-deletes-startup-anthropic-b2966176.html",
       "source": "Hacker News AI",
@@ -406,6 +784,20 @@
       "category": "AI产品",
       "tags": [],
       "collected": "2026-04-28T20:59:04.506908+00:00"
+    },
+    {
+      "title": "FCC orders review of ABC licenses after Kimmel joke offends Trump and first lady",
+      "url": "https://arstechnica.com/tech-policy/2026/04/fcc-orders-review-of-abc-licenses-after-kimmel-joke-offends-trump-and-first-lady/",
+      "source": "Ars Technica",
+      "domain": "科技",
+      "published": "2026-04-28T19:57:13+00:00",
+      "content": "Kimmel joke calling Melania an \"expectant widow\" followed quickly by FCC order.",
+      "id": "ba15e3a603ff35591d6a090bbdd4e775",
+      "title_zh": "在金梅尔笑话冒犯特朗普和第一夫人后，美国联邦通信委员会下令审查美国广播公司的许可证",
+      "summary_zh": "Kimmel joke calling Melania an \"expectant widow\" followed quickly by FCC order.",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.322534+00:00"
     },
     {
       "title": "US State Department upgrades AI theft accusations to target China AI companies",
@@ -448,6 +840,20 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-04-28T20:59:04.507005+00:00"
+    },
+    {
+      "title": "200 Journalists Applaud the Internet Archive's Role in Preserving Public Record",
+      "url": "https://www.savethearchive.com/journalists/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-28T19:52:42+00:00",
+      "content": "200 Journalists Applaud the Internet Archive's Role in Preserving Public Record. Score: 8, Comments: 0",
+      "id": "99aaedf68f36ddbc5703d3fa38090b37",
+      "title_zh": "200 名记者赞扬互联网档案馆在保存公共记录方面的作用",
+      "summary_zh": "200 Journalists Applaud the Internet Archive's Role in Preserving Public Record. Score: 8, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.324950+00:00"
     },
     {
       "title": "Amazon is already offering new OpenAI products on AWS",
@@ -504,6 +910,20 @@
       "category": "外交",
       "tags": [],
       "collected": "2026-04-28T20:59:04.504179+00:00"
+    },
+    {
+      "title": "Lenovo acquires Phoenix Technologies' BIOS business",
+      "url": "https://videocardz.com/newz/lenovo-acquires-phoenix-technologies-bios-business",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-28T19:41:40+00:00",
+      "content": "Lenovo acquires Phoenix Technologies' BIOS business. Score: 6, Comments: 0",
+      "id": "50c6e476395a161747af13991651150b",
+      "title_zh": "联想收购Phoenix Technologies的BIOS业务",
+      "summary_zh": "Lenovo acquires Phoenix Technologies' BIOS business. Score: 6, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.325292+00:00"
     },
     {
       "title": "There’s No Place Like NASA’s New X-59 Hangar Home",
@@ -1736,6 +2156,20 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-04-28T19:18:17.352951+00:00"
+    },
+    {
+      "title": "Cancer Drug Developer Erasca Sinks by Record 55% After Patient Death",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-28/cancer-drug-developer-erasca-sinks-by-record-55-after-patient-death",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-28T17:23:43+00:00",
+      "content": "Erasca Inc. shares plunged 48% Tuesday after the cancer-drug developer said one patient withdrew from its clinical trial and later died after suffering severe side effects related to the treatment.",
+      "id": "528a5c452cba59fcd8ce44c092cf895f",
+      "title_zh": "癌症药物开发商 Erasca 在患者死亡后股价下跌 55%，创历史新高",
+      "summary_zh": "Erasca Inc. shares plunged 48% Tuesday after the cancer-drug developer said one patient withdrew from its clinical trial and later died after suffering severe side effects related to the treatment.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.322322+00:00"
     },
     {
       "title": "Defense Space Startup True Anomaly Raises $650 Million",
@@ -4830,6 +5264,34 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-04-28T12:20:34.038474+00:00"
+    },
+    {
+      "title": "From Hormuz to Lebanon, crisis reverberates through trade routes, upending humanitarian networks",
+      "url": "https://news.un.org/feed/view/en/story/2026/04/1167400",
+      "source": "UN News",
+      "domain": "国际",
+      "published": "2026-04-28T12:00:00+00:00",
+      "content": "Disruptions in the Strait of Hormuz continue to send shockwaves through global food systems, the UN Food and Agriculture Organization has warned, as a widening crisis across the Middle East continues to strain humanitarian operations and deepen instability.",
+      "id": "6de3c6fb7c833d87cab8c30a2873038c",
+      "title_zh": "从霍尔木兹到黎巴嫩，危机通过贸易路线产生影响，颠覆了人道主义网络",
+      "summary_zh": "Disruptions in the Strait of Hormuz continue to send shockwaves through global food systems, the UN Food and Agriculture Organization has warned, as a widening crisis across the Middle East continues",
+      "category": "贸易",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.323664+00:00"
+    },
+    {
+      "title": "World News in Brief: Syria human rights update, Cuba post-hurricane support still vital, impunity and violence in Myanmar",
+      "url": "https://news.un.org/feed/view/en/story/2026/04/1167399",
+      "source": "UN News",
+      "domain": "国际",
+      "published": "2026-04-28T12:00:00+00:00",
+      "content": "Three mass graves were recently uncovered in northeastern Syria, including one reportedly at the site of a former detention centre run by the Kurdish-backed Syrian Armed Forces (SDF).&nbsp;",
+      "id": "f2eda832d13b9c2bead3b2e1dfd3666a",
+      "title_zh": "世界新闻简讯：叙利亚人权最新情况、古巴飓风后的支持仍然至关重要、缅甸的有罪不罚和暴力行为",
+      "summary_zh": "Three mass graves were recently uncovered in northeastern Syria, including one reportedly at the site of a former detention centre run by the Kurdish-backed Syrian Armed Forces (SDF).&nbsp;",
+      "category": "外交",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.323692+00:00"
     },
     {
       "title": "WHO calls for stepped up action to eliminate viral hepatitis",
@@ -15904,6 +16366,20 @@
       "category": "软件",
       "tags": [],
       "collected": "2026-04-27T14:56:41.594584+00:00"
+    },
+    {
+      "title": "A New Type of Neuroplasticity Rewires the Brain After a Single Experience",
+      "url": "https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-04-27T13:54:47+00:00",
+      "content": "A New Type of Neuroplasticity Rewires the Brain After a Single Experience. Score: 10, Comments: 0",
+      "id": "149ccd7bb36757a0f6b2368ccd59bd33",
+      "title_zh": "一种新型的神经可塑性在一次经历后重新连接大脑",
+      "summary_zh": "A New Type of Neuroplasticity Rewires the Brain After a Single Experience. Score: 10, Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-28T21:52:50.324742+00:00"
     },
     {
       "title": "The sequel to the iconic emulator ZSNES is called Super ZSNES, of course",
@@ -28336,545 +28812,419 @@
       "category": "软件",
       "tags": [],
       "collected": "2026-04-25T22:43:21.889890+00:00"
-    },
-    {
-      "title": "USB Cheat Sheet",
-      "url": "https://fabiensanglard.net/usbcheat/index.html",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-04-25T21:51:18+00:00",
-      "content": "USB Cheat Sheet. Score: 63, Comments: 16",
-      "id": "b0391a53f3de6fd75318661cc5334ff5",
-      "title_zh": "USB 备忘单",
-      "summary_zh": "USB Cheat Sheet. Score: 63, Comments: 16",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-25T23:44:03.294192+00:00"
-    },
-    {
-      "title": "In a rare interview, a leader of the world's largest right-wing group talks to NPR",
-      "url": "https://www.npr.org/2026/04/25/nx-s1-5795781/india-rss-rashtriya-swayamsevak-sangh-interview-hindu-nationalist",
-      "source": "NPR World",
-      "domain": "国际",
-      "published": "2026-04-25T21:45:00+00:00",
-      "content": "The second-in-command of the RSS, a Hindu nationalist organization in India, rarely speaks to the Western press. Here's what he said about his group's controversial history.",
-      "id": "cab90f69e349caed652c8b5f00f3984c",
-      "title_zh": "在一次罕见的采访中，世界上最大的右翼组织的领导人接受了 NPR 的采访",
-      "summary_zh": "The second-in-command of the RSS, a Hindu nationalist organization in India, rarely speaks to the Western press. Here's what he said about his group's controversial history.",
-      "category": "外交",
-      "tags": [],
-      "collected": "2026-04-25T22:43:21.890902+00:00"
-    },
-    {
-      "title": "Anthropic created a test marketplace for agent-on-agent commerce",
-      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-      "source": "TechCrunch AI",
-      "domain": "AI",
-      "published": "2026-04-25T21:43:37+00:00",
-      "content": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
-      "id": "260990045df48dc8db9f77f1b850a0cf",
-      "title_zh": "Anthropic 为代理商对代理商的商务创建了一个测试市场",
-      "summary_zh": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-25T22:43:21.878044+00:00"
-    },
-    {
-      "title": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
-      "url": "https://www.bbc.com/news/articles/c4g6nyvl29po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "domain": "国际",
-      "published": "2026-04-25T21:34:12+00:00",
-      "content": "Iran had earlier said there were no plans for a direct meeting with a US delegation led by Steve Witkoff and Jared Kushner.",
-      "id": "8865a1c18025905b9de876436040407f",
-      "title_zh": "特朗普取消美国特使前往巴基斯坦就伊朗战争进行会谈的行程",
-      "summary_zh": "Iran had earlier said there were no plans for a direct meeting with a US delegation led by Steve Witkoff and Jared Kushner.",
-      "category": "外交",
-      "tags": [],
-      "collected": "2026-04-25T21:41:40.587904+00:00"
-    },
-    {
-      "title": "Transformers are Inherently Succinct",
-      "url": "https://arxiv.org/abs/2510.19315",
-      "source": "Lobste.rs AI",
-      "domain": "AI",
-      "published": "2026-04-25T21:33:15+00:00",
-      "content": "Abstract:\nWe propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite automata and Linear Temporal Logic (LTL) formulas. As a by-product of this expressivity, we show that verifying properties of transformers is provably intractable (i.e. EXPSPACE-complete).\nComments",
-      "id": "a9f519e787662f651c0fdab4c00d254d",
-      "title_zh": "变形金刚本质上是简洁的",
-      "summary_zh": "Abstract: We propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represen",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-25T21:41:40.589701+00:00"
-    },
-    {
-      "title": "Magic by Return of Post: How Mail Order Delivered the Occult",
-      "url": "https://publicdomainreview.org/essay/magic-by-return-of-post/",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-04-25T21:17:02+00:00",
-      "content": "Magic by Return of Post: How Mail Order Delivered the Occult. Score: 9, Comments: 1",
-      "id": "a805538ca21c91602348bc37313e8b73",
-      "title_zh": "邮寄返还的魔法：邮购如何传递神秘学",
-      "summary_zh": "Magic by Return of Post: How Mail Order Delivered the Occult. Score: 9, Comments: 1",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-27T19:17:35.031264+00:00"
-    },
-    {
-      "title": "Our Survey on Creativity, Writing, and Reading in the Age of AI",
-      "url": "https://ellipsus.com/blog/survey-on-writing-and-ai",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-25T21:13:56+00:00",
-      "content": "Article URL: https://ellipsus.com/blog/survey-on-writing-and-ai\nComments URL: https://news.ycombinator.com/item?id=47904589\nPoints: 2\n# Comments: 0",
-      "id": "f6b381e86136b05d5140b813a3d2bc15",
-      "title_zh": "我们对人工智能时代创造力、写作和阅读的调查",
-      "summary_zh": "Article URL: https://ellipsus.com/blog/survey-on-writing-and-ai Comments URL: https://news.ycombinator.com/item?id=47904589 Points: 2 # Comments: 0",
-      "category": "CV",
-      "tags": [],
-      "collected": "2026-04-25T21:41:40.589585+00:00"
-    },
-    {
-      "title": "The AI Industry Is Discovering That the Public Hates It",
-      "url": "https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-04-25T21:11:11+00:00",
-      "content": "The AI Industry Is Discovering That the Public Hates It. Score: 65, Comments: 32",
-      "id": "a10d9846a6d317b0a1d1528faea9873f",
-      "title_zh": "人工智能行业发现公众讨厌它",
-      "summary_zh": "The AI Industry Is Discovering That the Public Hates It. Score: 65, Comments: 32",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-04-25T21:41:40.588362+00:00"
-    },
-    {
-      "title": "Memory in the Age of AI Agents",
-      "url": "https://arxiv.org/abs/2512.13564",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-25T21:10:25+00:00",
-      "content": "Article URL: https://arxiv.org/abs/2512.13564\nComments URL: https://news.ycombinator.com/item?id=47904562\nPoints: 2\n# Comments: 1",
-      "id": "a0a954de422aecfe58c5079087c78e17",
-      "title_zh": "人工智能代理时代的记忆",
-      "summary_zh": "Article URL: https://arxiv.org/abs/2512.13564 Comments URL: https://news.ycombinator.com/item?id=47904562 Points: 2 # Comments: 1",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-25T21:41:40.589624+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
-        "title": "埃隆·马斯克告诉陪审团，他想做的就是拯救人类",
-        "summary": "埃隆·马斯克在一次法律诉讼中透露，他的目标是通过人工智能技术来拯救人类，并将其发展成一个重要的全球性话题。",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity",
-        "source": "The Verge AI",
+        "title": "埃隆·马斯克 (Elon Musk) 证明他启动 OpenAI 是为了防止“终结者结局”",
+        "summary": "埃隆·马斯克声称他创立 OpenAI 的初衷是为了防止人工智能走向毁灭性的“终结者结局”。",
+        "url": "https://www.wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial/",
+        "source": "Wired AI",
         "category": "LLM"
       },
       {
         "rank": 2,
-        "title": "泰勒·斯威夫特正在加大对人工智能模仿者的法律战力度",
-        "summary": "歌手泰勒·斯威夫特正在采取法律行动，对抗使用人工智能模仿她声音和形象的内容创作者，以保护她的知识产权。",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/919827/taylor-swift-trademarks-ai-copycats",
-        "source": "The Verge AI",
-        "category": "LLM"
+        "title": "可控性陷阱：军事人工智能代理的治理框架",
+        "summary": "探讨了在军事领域应用人工智能代理时，如何建立有效的治理框架来确保其可控性。",
+        "url": "https://arxiv.org/abs/2603.03515",
+        "source": "Hacker News AI",
+        "category": "研究"
       },
       {
         "rank": 3,
-        "title": "“世界模型”是人工智能的最新热点：它们是什么以及它们能做什么？",
-        "summary": "文章探讨了人工智能领域新兴的“世界模型”概念，解释了其工作原理以及可能带来的技术突破和应用前景。",
-        "url": "https://www.nature.com/articles/d41586-026-00820-5",
+        "title": "PageGuide——将 AI 直接植入网页的浏览器代理",
+        "summary": "PageGuide 是一款创新的浏览器代理，能将人工智能功能直接集成到网页浏览体验中。",
+        "url": "https://pageguide.github.io/",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "开源"
       },
       {
         "rank": 4,
-        "title": "OpenAI 模型即将登陆 Amazon Bedrock：OpenAI 和 AWS 首席执行官访谈",
-        "summary": "OpenAI 和 AWS 宣布合作，将 OpenAI 的模型集成到 Amazon Bedrock 服务中，预示着云服务在 AI 领域的新发展。",
-        "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
-        "source": "Hacker News",
+        "title": "人工智能福祉：测量和改善人工智能的功能愉悦和痛苦",
+        "summary": "该研究提出了一种测量和改善人工智能“福祉”的方法，关注其功能上的愉悦和痛苦。",
+        "url": "https://www.ai-wellbeing.org/",
+        "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 5,
-        "title": "亚马逊已经在 AWS 上提供新的 OpenAI 产品",
-        "summary": "亚马逊在其 AWS 云平台上推出了新的 OpenAI 产品，为开发者和企业提供了更强大的 AI 工具和服务。",
-        "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
-        "source": "TechCrunch AI",
-        "category": "AI产品"
+        "title": "放弃 GitHub",
+        "summary": "一篇关于作者决定停止使用 GitHub 的文章，暗示了对该平台发展方向的担忧。",
+        "url": "https://lonami.dev/blog/ditching-github/",
+        "source": "Lobste.rs AI",
+        "category": "开源"
       },
       {
         "rank": 6,
-        "title": "AI 人才经纪人直接向数百家初创公司介绍",
-        "summary": "AI 领域对人才的需求激增，人才经纪人正积极为初创公司对接 AI 专业人才，反映了行业快速发展。",
-        "url": "https://www.getclera.com",
-        "source": "Hacker News AI",
-        "category": "AI产品"
+        "title": "如何加速蛋白质组规模的蛋白质结构预测",
+        "summary": "NVIDIA Research 探索了加速蛋白质组规模蛋白质结构预测的技术方法。",
+        "url": "https://developer.nvidia.com/blog/how-to-accelerate-protein-structure-prediction-at-proteome-scale/",
+        "source": "NVIDIA Research",
+        "category": "研究"
       },
       {
         "rank": 7,
-        "title": "美国国务院升级人工智能盗窃指控，针对中国人工智能企业",
-        "summary": "美国国务院提高了对中国人工智能企业的指控，涉及数据和技术盗窃，凸显了地缘政治在 AI 领域的紧张关系。",
-        "url": "https://www.chinapulse.com/data-news/2026/04/27/extraction-and-distillation-us-state-department-upgrades-ai-theft-accusations-to-target-chinas-deepseek-moonshot-ai-and-minimax/",
-        "source": "Hacker News AI",
+        "title": "使用大约 30 行 Python 和 NVIDIA nvCOMP 降低检查点成本",
+        "summary": "NVIDIA Research 分享了如何利用简单的 Python 代码和 nvCOMP 工具来降低检查点成本。",
+        "url": "https://developer.nvidia.com/blog/cut-checkpoint-costs-with-about-30-lines-of-python-and-nvidia-nvcomp/",
+        "source": "NVIDIA Research",
         "category": "LLM"
       },
       {
         "rank": 8,
-        "title": "AI 生成的图像入围 2026 年哈苏大师赛决赛 [视频]",
-        "summary": "人工智能生成的图像在知名摄影比赛中入围决赛，引发了关于 AI 在创意领域作用的讨论。",
-        "url": "https://www.youtube.com/shorts/4MeO2wW5nOs",
+        "title": "为人工智能增强型攻击者做好准备及其对 CISO 的影响",
+        "summary": "文章讨论了如何为人工智能驱动的攻击做好准备，以及这对首席信息安全官 (CISO) 的影响。",
+        "url": "https://www.armadin.com/blog-posts/prepare-for-the-ai-enhanced-attacker",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "研究"
       },
       {
         "rank": 9,
-        "title": "“花了九秒”：克劳德人工智能代理删除了公司的数据库",
-        "summary": "一个名为 Claude 的 AI 代理在短短九秒内删除了一个公司的数据库，突显了 AI 工具在数据处理和潜在风险方面的强大能力。",
-        "url": "https://www.the-independent.com/tech/claude-ai-agent-deletes-startup-anthropic-b2966176.html",
-        "source": "Hacker News AI",
-        "category": "AI产品"
+        "title": "Slack 如何管理长期运行的多代理系统中的上下文",
+        "summary": "Slack 分享了在复杂的多代理系统中管理长期运行的上下文的经验。",
+        "url": "https://www.infoq.com/news/2026/04/slack-agent-context-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "source": "InfoQ AI",
+        "category": "CV"
       },
       {
         "rank": 10,
-        "title": "TealKit – 适用于本地 AI 代理和 MCP 的跨平台 UI",
-        "summary": "TealKit 是一款新的跨平台 UI 工具，旨在简化本地 AI 代理和多功能计算单元 (MCP) 的开发和管理。",
-        "url": "https://github.com/lschaffer/tealkit",
+        "title": "“世界模型”是人工智能的最新热点：它们是什么以及它们能做什么？",
+        "summary": "探讨了人工智能领域的新热点“世界模型”，解释了它们的原理和潜在应用。",
+        "url": "https://www.nature.com/articles/d41586-026-00820-5",
         "source": "Hacker News AI",
-        "category": "开源"
+        "category": "LLM"
       }
     ],
     "安全": [
       {
         "rank": 1,
-        "title": "GitHub RCE 漏洞：CVE-2026-3854 分解",
-        "summary": "文章详细分析了 GitHub 中发现的严重远程代码执行 (RCE) 漏洞 CVE-2026-3854，解释了其技术细节和潜在影响。",
-        "url": "https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854",
-        "source": "Hacker News",
-        "category": "漏洞"
+        "title": "损坏的 VECT 2.0 勒索软件充当大文件的数据擦除器",
+        "summary": "VECT 2.0 勒索软件被发现具有数据擦除功能，对大于 131KB 的文件造成不可逆破坏。",
+        "url": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+        "source": "BleepingComputer",
+        "category": "攻防"
       },
       {
         "rank": 2,
+        "title": "黑客正在利用 LiteLLM 预授权 SQLi 的关键缺陷",
+        "summary": "LiteLLM 存在一个关键的预授权 SQL 注入漏洞，正被黑客利用。",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
+      },
+      {
+        "rank": 3,
         "title": "研究人员发现可通过单一 Git 推送利用的关键 GitHub CVE-2026-3854 RCE 漏洞",
-        "summary": "安全研究人员披露了一个关键的 GitHub RCE 漏洞 CVE-2026-3854，用户只需一次 Git 推送即可被利用。",
+        "summary": "GitHub 存在一个关键的远程代码执行漏洞 (CVE-2026-3854)，可通过一次 Git 推送被利用。",
         "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
         "source": "The Hacker News",
         "category": "漏洞"
       },
       {
-        "rank": 3,
-        "title": "Vimeo 确认 Anodot 违规导致用户数据泄露",
-        "summary": "视频服务 Vimeo 承认，第三方服务 Anodot 的安全事件导致了用户数据的泄露。",
+        "rank": 4,
+        "title": "视频服务 Vimeo 确认 Anodot 违规导致用户数据泄露",
+        "summary": "Vimeo 证实因 Anodot 的违规行为导致了用户数据的泄露。",
         "url": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
-        "rank": 4,
-        "title": "Vimeo 确认用户和客户数据泄露",
-        "summary": "Vimeo 公司报告称，发生了用户和客户数据的泄露事件，引起了用户隐私的担忧。",
-        "url": "https://www.securityweek.com/vimeo-confirms-user-and-customer-data-breach/",
-        "source": "SecurityWeek",
-        "category": "隐私"
-      },
-      {
         "rank": 5,
-        "title": "OPSEC 手册内部：威胁行为者如何逃避检测",
-        "summary": "文章深入探讨了威胁行为者规避安全检测的技术和策略，为理解网络安全攻防提供了新视角。",
-        "url": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      },
-      {
-        "rank": 6,
-        "title": "Microsoft 将从 7 月开始在 Exchange Online 中弃用旧版 TLS",
-        "summary": "Microsoft 宣布将在 7 月份停止在 Exchange Online 中支持旧版 TLS 协议，以提高安全性。",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      },
-      {
-        "rank": 7,
         "title": "网络保险数据为 CISO 的预算谈判提供了新弹药",
-        "summary": "网络保险的分析数据正成为首席信息安全官 (CISO) 在争取预算时有力的论据。",
+        "summary": "网络保险提供的数据可以为首席信息安全官 (CISO) 进行预算谈判提供有力支持。",
         "url": "https://www.securityweek.com/cyber-insurance-data-gives-cisos-new-ammo-for-budget-talks/",
         "source": "SecurityWeek",
         "category": "攻防"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "title": "巴西 LofyGang 三年后重新露面，推出《我的世界》LofyStealer 活动",
-        "summary": "曾活跃的黑客组织 LofyGang 在沉寂三年后卷土重来，针对《我的世界》玩家发动了 LofyStealer 木马攻击。",
+        "summary": "LofyGang 团伙在沉寂三年后再次出现，针对《我的世界》推出了 LofyStealer 恶意软件活动。",
         "url": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
         "source": "The Hacker News",
         "category": "攻防"
       },
       {
-        "rank": 9,
-        "title": "今日网络研讨会：人工智能治理的分步方法",
-        "summary": "一篇关于如何分步实施人工智能治理的网络研讨会，为企业管理 AI 风险提供指导。",
-        "url": "https://www.securityweek.com/webinar-today-a-step-by-step-approach-to-ai-governance/",
+        "rank": 7,
+        "title": "Vimeo 确认用户和客户数据泄露",
+        "summary": "Vimeo 再次确认了用户和客户数据的泄露事件，引发广泛关注。",
+        "url": "https://www.securityweek.com/vimeo-confirms-user-and-customer-data-breach/",
         "source": "SecurityWeek",
+        "category": "隐私"
+      },
+      {
+        "rank": 8,
+        "title": "GitHub RCE 漏洞：CVE-2026-3854 分解",
+        "summary": "详细分析了 GitHub RCE 漏洞 CVE-2026-3854 的技术细节和潜在影响。",
+        "url": "https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854",
+        "source": "Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 9,
+        "title": "网络安全是一项吃力不讨好的工作：工作量不断扩大，薪资却不断缩水",
+        "summary": "文章指出网络安全行业面临挑战，工作量与薪资增长不匹配。",
+        "url": "https://www.theregister.com/2026/04/27/from_a_massive_skills_gap/",
+        "source": "Hacker News",
         "category": "攻防"
       },
       {
         "rank": 10,
-        "title": "Checkmarx 证实 LAPSUS$ 黑客泄露了被盗的 GitHub 数据",
-        "summary": "安全公司 Checkmarx 证实，黑客组织 LAPSUS$ 泄露了从 GitHub 窃取的数据。",
-        "url": "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
-        "source": "BleepingComputer",
+        "title": "神话时刻：企业必须以代理商对抗代理商",
+        "summary": "强调了在复杂的网络安全环境中，企业需要采用代理商对抗代理商的策略。",
+        "url": "https://www.securityweek.com/the-mythos-moment-enterprises-must-fight-agents-with-agents/",
+        "source": "SecurityWeek",
         "category": "攻防"
       }
     ],
     "经济": [
       {
         "rank": 1,
-        "title": "为什么美国的工作量比以前少",
-        "summary": "文章分析了美国劳动力市场的变化，探讨了导致工作岗位减少的潜在经济和社会因素。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-28/opinion-why-the-us-is-working-less-than-before-video",
-        "source": "Bloomberg Markets",
+        "title": "五角大楼人工智能负责人证实国防部扩大了对谷歌的使用，称依赖一种模型“从来都不是一件好事”",
+        "summary": "五角大楼人工智能负责人表示，国防部正在增加对谷歌的AI服务的使用，并强调不应过度依赖单一模型。",
+        "url": "https://www.cnbc.com/2026/04/28/pentagon-ai-chief-confirms-work-with-google-after-anthropic-blacklist.html",
+        "source": "CNBC",
         "category": "市场"
       },
       {
         "rank": 2,
+        "title": "第一独立银行首席执行官：美联储做得“很好”",
+        "summary": "第一独立银行首席执行官对美联储的货币政策执行表示认可。",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-28/first-independence-bank-ceo-fed-is-doing-a-fine-job-video",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 3,
         "title": "星巴克上调全年业绩预期，收入高于预期",
-        "summary": "星巴克公司发布了超出预期的季度财报，并上调了全年业绩预期，显示出强劲的市场表现。",
+        "summary": "星巴克提高了全年业绩预测，显示其收入表现超出预期。",
         "url": "https://www.cnbc.com/2026/04/28/starbucks-sbux-q2-2026-earnings.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
-        "rank": 3,
+        "rank": 4,
+        "title": "与 Nvidia 相关的数据中心通过垃圾债券销售筹集了 45.9 亿美元",
+        "summary": "与 Nvidia 相关的多家数据中心公司通过发行垃圾债券成功募集了 45.9 亿美元。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/nvidia-tied-data-center-raises-4-59-billion-from-junk-bond-sale",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 5,
+        "title": "为什么美国的工作量比以前少",
+        "summary": "文章分析了导致美国劳动力市场工作岗位减少的原因。",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-28/opinion-why-the-us-is-working-less-than-before-video",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 6,
         "title": "Hoenig 表示，美联储可能取消 2% 的通胀目标",
-        "summary": "一位经济学家认为，美联储可能会放弃其 2% 的通胀目标，预示着货币政策可能面临调整。",
+        "summary": "前美联储官员 Hoenig 提出，美联储可能考虑放弃其 2% 的通胀目标。",
         "url": "https://www.bloomberg.com/news/videos/2026-04-28/fed-may-take-2-inflation-goal-off-table-hoenig-says-video",
         "source": "Bloomberg Markets",
         "category": "宏观"
       },
       {
-        "rank": 4,
-        "title": "美联储周三发布最新利率决定时，所有值得期待的事情都在这里",
-        "summary": "文章预测了美联储即将发布的最新利率决定，并分析了市场对此的期待和潜在影响。",
-        "url": "https://www.cnbc.com/2026/04/28/fed-meeting-preview-april-2026.html",
-        "source": "CNBC",
-        "category": "宏观"
-      },
-      {
-        "rank": 5,
-        "title": "美国航空公司提高票价——旅客继续预订",
-        "summary": "尽管美国航空公司提高票价，但旅客预订量依然强劲，反映了当前航空市场的供需状况。",
-        "url": "https://www.cnbc.com/2026/04/28/airlines-fares-fuel.html",
-        "source": "CNBC",
-        "category": "市场"
-      },
-      {
-        "rank": 6,
-        "title": "据称，通力将以近 290 亿欧元收购竞争对手 TK Elevator",
-        "summary": "据报道，通力公司计划以近 290 亿欧元的价格收购其竞争对手 TK Elevator，这将是行业内的一项重大并购。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-28/kone-is-said-to-near-29-billion-deal-for-rival-tk-elevator",
+        "rank": 7,
+        "title": "OpenAI 报告导致股市暴跌 | 结束钟声",
+        "summary": "OpenAI 的相关新闻报道引发了股市的普遍下跌。",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-28/stocks-slump-on-openai-report-closing-bell-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 7,
-        "title": "阿联酋令人震惊的欧佩克退出：这对石油卡特尔的未来和原油价格意味着什么",
-        "summary": "阿联酋决定退出欧佩克组织，文章分析了这一举动对石油卡特尔未来及其对原油价格可能产生的影响。",
-        "url": "https://www.cnbc.com/2026/04/28/oil-uae-opec-saudi-arabia.html",
-        "source": "CNBC",
-        "category": "市场"
-      },
-      {
         "rank": 8,
-        "title": "卡尔希谈内幕交易：不仅仅是监管机构的问题",
-        "summary": "文章探讨了内幕交易问题，并指出这不仅仅是监管机构的责任，还涉及到更广泛的市场公平性问题。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-28/kalshi-on-insider-trading-not-just-regulators-problem-video",
+        "title": "汽车市场走强增强预测后恩智浦股价上涨",
+        "summary": "恩智浦股价在汽车市场走强和乐观预测的推动下出现上涨。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/nxp-rallies-after-stronger-automotive-market-bolsters-forecast",
         "source": "Bloomberg Tech",
         "category": "市场"
       },
       {
         "rank": 9,
-        "title": "战争推动生物燃料繁荣，中国用船运往美国",
-        "summary": "地缘政治冲突刺激了生物燃料市场的繁荣，并出现了中国通过海运向美国运输生物燃料的情况。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-28/china-s-used-cooking-oil-ships-to-us-as-war-drives-biofuel-boom",
-        "source": "Bloomberg Markets",
+        "title": "FCC 提前数年启动对迪士尼广播许可证的审查",
+        "summary": "美国联邦通信委员会 (FCC) 提前启动了对迪士尼广播许可证的审查。",
+        "url": "https://www.cnbc.com/2026/04/28/fcc-begins-review-of-disney-broadcast-licenses-years-ahead-of-schedule.html",
+        "source": "CNBC",
         "category": "市场"
       },
       {
         "rank": 10,
-        "title": "美国警告中国伊朗石油炼油商面临制裁风险",
-        "summary": "美国对中国企业发出警告，指出与伊朗石油炼油商的交易可能面临制裁风险，涉及国际贸易和地缘政治。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-28/us-warns-of-sanctions-risks-for-chinese-refiners-of-iranian-oil",
-        "source": "Bloomberg Markets",
-        "category": "市场"
+        "title": "美联储周三发布最新利率决定时，所有值得期待的事情都在这里",
+        "summary": "文章概述了市场对美联储即将发布的最新利率决定的关注点和期待。",
+        "url": "https://www.cnbc.com/2026/04/28/fed-meeting-preview-april-2026.html",
+        "source": "CNBC",
+        "category": "宏观"
       }
     ],
     "科技": [
       {
         "rank": 1,
-        "title": "Apple 准备在 iOS 27 中使用新的 AI 工具进行照片编辑改革",
-        "summary": "苹果公司将在 iOS 27 中引入新的 AI 照片编辑工具，预示着移动设备在图像处理和人工智能应用上的重大进展。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-28/apple-s-ios-27-macos-27-photo-editing-with-ai-to-extend-enhance-and-reframe",
-        "source": "Bloomberg Tech",
-        "category": "软件"
-      },
-      {
-        "rank": 2,
-        "title": "据报道，iOS 27 将配备新的人工智能照片编辑工具",
-        "summary": "有报道称，下一代 iOS 版本将集成先进的人工智能照片编辑功能，进一步提升用户在照片处理方面的体验。",
-        "url": "https://www.engadget.com/ai/ios-27-will-reportedly-come-with-new-ai-powered-photo-editing-tools-194119562.html?src=rss",
-        "source": "Engadget",
-        "category": "软件"
-      },
-      {
-        "rank": 3,
-        "title": "亚马逊与 OpenAI 合作，计划新的 AWS 应用程序",
-        "summary": "亚马逊和 OpenAI 宣布战略合作，计划开发新的 AWS 应用程序，标志着两大科技巨头在 AI 领域的深度融合。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-28/amazon-inks-deal-with-openai-video",
-        "source": "Bloomberg Tech",
-        "category": "软件"
-      },
-      {
-        "rank": 4,
-        "title": "使用 NVIDIA BioNeMo 中的上下文并行性扩展生物分子建模",
-        "summary": "NVIDIA BioNeMo 平台通过引入上下文并行性，显著提升了生物分子建模的能力，为药物研发和生物科学带来突破。",
-        "url": "https://developer.nvidia.com/blog/scaling-biomolecular-modeling-using-context-parallelism-in-nvidia-bionemo/",
-        "source": "NVIDIA Blog",
-        "category": "硬件"
-      },
-      {
-        "rank": 5,
-        "title": "网站上没有 cookie 已有两年了，这就是我们的结局",
-        "summary": "文章探讨了在过去两年中，一些网站成功实现了无 cookie 的运营，并讨论了这种模式对互联网未来可能产生的影响。",
-        "url": "https://blog.sentry.io/two-years-without-cookies-on-the-site/",
+        "title": "在 GitHub 之前",
+        "summary": "回顾了 GitHub 出现之前的软件开发和协作模式。",
+        "url": "https://lucumr.pocoo.org/2026/4/28/before-github/",
         "source": "Hacker News",
         "category": "互联网"
       },
       {
+        "rank": 2,
+        "title": "Denuvo 之前保护的所有单人游戏均已被破解",
+        "summary": "报道称，所有曾经受到 Denuvo DRM 保护的单人游戏现已被破解。",
+        "url": "https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 3,
+        "title": "CATL与Hyperstrong获得60GWh钠离子电池订单",
+        "summary": "宁德时代 (CATL) 和 Hyperstrong 获得了 60GWh 的钠离子电池订单。",
+        "url": "https://www.pv-magazine.com/2026/04/28/catl-secures-worlds-largest-sodium-ion-battery-order-with-hyperstrong/",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 4,
+        "title": "AMD 的 Lemonade SDK 10.3 去掉了 Electron，尺寸缩小了 10 倍",
+        "summary": "AMD 发布了 Lemonade SDK 10.3，移除了 Electron 框架，使得软件体积缩小了十倍。",
+        "url": "https://www.phoronix.com/news/AMD-Lemonade-10.3",
+        "source": "Hacker News",
+        "category": "硬件"
+      },
+      {
+        "rank": 5,
+        "title": "朝鲜核计划对美国来说已达到临界点",
+        "summary": "讨论了朝鲜核计划对美国国家安全构成的日益严峻的威胁。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/why-north-korea-s-nuclear-expansion-has-the-us-on-edge-big-take-asia-podcast",
+        "source": "Bloomberg Tech",
+        "category": "开发"
+      },
+      {
         "rank": 6,
-        "title": "德州仪器 (TI) 推出全新旗舰图形计算器：TI-84 Evo",
-        "summary": "德州仪器发布了其最新的旗舰图形计算器 TI-84 Evo，为教育和科学计算领域带来了新的工具。",
-        "url": "https://www.engadget.com/mobile/texas-instruments-made-a-new-flagship-graphing-calculator-the-ti-84-evo-201903438.html?src=rss",
-        "source": "Engadget",
-        "category": "软件"
+        "title": "我赢得了一个不存在的冠军",
+        "summary": "一篇关于数字世界中虚假成功的个人经历。",
+        "url": "https://ron.stoner.com/How_I_Won_a_Championship_That_Doesnt_Exist/",
+        "source": "Hacker News",
+        "category": "互联网"
       },
       {
         "rank": 7,
-        "title": "2026 年使用 1978 年终端 (DEC VT-100)",
-        "summary": "这篇文章展示了在 2026 年仍在使用 1978 年生产的 DEC VT-100 终端，探讨了技术传承和兼容性的话题。",
-        "url": "https://nikhiljha.com/posts/vt100/",
+        "title": "无人机飞行员要求美国取消无标记、移动的 ICE 车辆周围的禁飞区",
+        "summary": "无人机飞行员呼吁美国政府取消在 ICE 车辆附近设立的禁飞区。",
+        "url": "https://arstechnica.com/gadgets/2026/04/no-fly-zones-around-moving-ice-vehicles-this-drone-pilot-fought-back-and-won/",
         "source": "Hacker News",
         "category": "互联网"
       },
       {
         "rank": 8,
         "title": "FCC 下令对 ABC 的广播许可证进行审查",
-        "summary": "美国联邦通信委员会 (FCC) 命令对 ABC 的广播许可证进行审查，涉及媒体监管和内容审批。",
+        "summary": "美国联邦通信委员会 (FCC) 指示对 ABC 的广播许可证进行审查。",
         "url": "https://www.nytimes.com/2026/04/28/business/media/fcc-abc-television-kimmel.html",
         "source": "Hacker News",
         "category": "互联网"
       },
       {
         "rank": 9,
-        "title": "NVIDIA 开始为笔记本电脑提供 12GB 版本的 5070",
-        "summary": "NVIDIA 为笔记本电脑市场推出了搭载 12GB 显存的 RTX 4070 显卡，为游戏和创意工作者提供了更强的性能。",
-        "url": "https://www.engadget.com/computing/laptops/nvidia-starts-offering-a-12gb-version-of-the-5070-for-laptops-180057515.html?src=rss",
+        "title": "德州仪器 (TI) 推出全新旗舰图形计算器：TI-84 Evo",
+        "summary": "德州仪器 (TI) 发布了其最新的旗舰图形计算器 TI-84 Evo。",
+        "url": "https://www.engadget.com/mobile/texas-instruments-made-a-new-flagship-graphing-calculator-the-ti-84-evo-201903438.html?src=rss",
         "source": "Engadget",
         "category": "软件"
       },
       {
         "rank": 10,
-        "title": "Waymo 在波特兰",
-        "summary": "自动驾驶公司 Waymo 开始在波特兰市进行测试和运营，标志着其自动驾驶技术的扩张。",
-        "url": "https://waymo.com/blog/shorts/waymo-in-portland/",
-        "source": "Hacker News",
+        "title": "食肉细菌在短短三天内吞噬了男子的手臂和腿",
+        "summary": "报道了一名男子手臂和腿部因食肉细菌感染而迅速恶化的事件。",
+        "url": "https://arstechnica.com/health/2026/04/flesh-eating-bacteria-devour-mans-arm-and-leg-in-just-three-days/",
+        "source": "Ars Technica",
         "category": "互联网"
       }
     ],
     "国际": [
       {
         "rank": 1,
-        "title": "查尔斯国王在特朗普紧张局势中向美国国会发表讲话，敦促“和解”",
-        "summary": "查尔斯国王在与特朗普的关系紧张的背景下，向美国国会发表演讲，呼吁各方寻求和解，体现了国际外交的复杂性。",
-        "url": "https://www.npr.org/2026/04/28/nx-s1-5802803/king-charles-urges-reconciliation-in-address-to-u-s-congress-amid-trump-tensions",
-        "source": "NPR World",
-        "category": "外交"
+        "title": "NASA 将小红点与钱德拉、韦伯联系起来",
+        "summary": "NASA 通过钱德拉和韦伯望远镜，将“小红点”现象与其观测数据联系起来。",
+        "url": "https://science.nasa.gov/missions/chandra/nasa-connects-little-red-dots-with-chandra-webb/",
+        "source": "NASA",
+        "category": "科学"
       },
       {
         "rank": 2,
         "title": "马斯克表示 OpenAI 诉讼中慈善捐赠的基础受到威胁",
-        "summary": "埃隆·马斯克声称，OpenAI 的一项法律诉讼威胁到了其慈善捐赠的基础，引起了对 AI 公司治理和初衷的关注。",
+        "summary": "埃隆·马斯克认为，OpenAI 的诉讼行为威胁到了其最初的慈善捐赠宗旨。",
         "url": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
         "rank": 3,
+        "title": "查尔斯国王在特朗普紧张局势中向美国国会发表讲话，敦促“和解”",
+        "summary": "查尔斯国王在一次引人注目的讲话中，呼吁美国国会实现“和解”，尤其是在当前与特朗普有关的紧张局势下。",
+        "url": "https://www.npr.org/2026/04/28/nx-s1-5802803/king-charles-urges-reconciliation-in-address-to-u-s-congress-amid-trump-tensions",
+        "source": "NPR World",
+        "category": "外交"
+      },
+      {
+        "rank": 4,
         "title": "吉米·金梅尔拿梅拉尼娅·特朗普开玩笑后，美国监管机构将审查迪士尼的广播许可证",
-        "summary": "美国监管机构将审查迪士尼的广播许可证，原因与吉米·金梅尔拿梅拉尼娅·特朗普开玩笑的事件有关，涉及媒体内容和政治。",
+        "summary": "美国监管机构因吉米·金梅尔对梅拉尼娅·特朗普的玩笑，将审查迪士尼的广播许可证。",
         "url": "https://www.bbc.com/news/articles/c4g0zwxl3k0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "title": "前联邦调查局局长詹姆斯·科米第二次被起诉",
-        "summary": "前联邦调查局局长詹姆斯·科米再次面临起诉，这可能对美国司法和政治产生影响。",
+        "summary": "前联邦调查局局长詹姆斯·科米面临第二次起诉。",
         "url": "https://www.bbc.com/news/articles/cvgz4rvlem5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "首席执行官表示石油巨头壳牌正处于“拐点”",
-        "summary": "壳牌石油公司首席执行官声称公司正处于一个“拐点”，预示着能源行业的未来转型和战略调整。",
+        "summary": "壳牌公司首席执行官表示，这家石油巨头正面临一个关键的“拐点”。",
         "url": "https://www.bloomberg.com/news/videos/2026-04-28/oil-giant-shell-at-inflection-point-says-ceo-video",
         "source": "Bloomberg Tech",
         "category": "外交"
       },
       {
-        "rank": 6,
-        "title": "巨大冰块后为珠穆朗玛峰登山者开辟了道路",
-        "summary": "尼泊尔珠穆朗玛峰地区在遭遇巨大冰块坍塌事件后，正在努力为登山者开辟新的安全通道。",
-        "url": "https://www.bbc.com/news/articles/cn0p2xp18yko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
-      },
-      {
         "rank": 7,
-        "title": "印度亿万富翁的儿子主动提出拯救埃斯科巴的河马",
-        "summary": "一位印度亿万富翁的儿子表示愿意承担拯救已故毒枭埃斯科巴的河马的任务，涉及生态保护和国际关注。",
-        "url": "https://www.bbc.com/news/articles/cr7prm4ke8do?at_medium=RSS&at_campaign=rss",
+        "title": "前电视女歌星的赦免是意大利丑闻不断扩大的中心",
+        "summary": "一名曾是电视女歌星的人物被赦免，成为意大利持续发酵的丑闻的中心。",
+        "url": "https://www.bbc.com/news/articles/cd9pdkeekkzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
         "rank": 8,
-        "title": "阿拉伯联合酋长国退出石油卡特尔欧佩克",
-        "summary": "阿联酋宣布退出石油输出国组织 (OPEC)，这是对全球能源市场格局的一次重大冲击。",
-        "url": "https://www.bbc.com/news/articles/cj4pxwlr52yo?at_medium=RSS&at_campaign=rss",
+        "title": "印度亿万富翁的儿子主动提出拯救埃斯科巴的河马",
+        "summary": "一位印度亿万富翁的儿子表示愿意承担拯救毒枭埃斯科巴的河马的任务。",
+        "url": "https://www.bbc.com/news/articles/cr7prm4ke8do?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
         "rank": 9,
-        "title": "韩国法院延长被罢黜总统妻子的刑期",
-        "summary": "韩国一家法院延长了被罢黜总统的妻子的刑期，此举可能对韩国政局产生一定影响。",
-        "url": "https://www.npr.org/2026/04/28/g-s1-119050/south-korean-court-extends-prison-sentence-for-wife-of-ousted-president",
-        "source": "NPR World",
-        "category": "外交"
+        "title": "美国宇航局为火星之旅启动强大的锂燃料推进器",
+        "summary": "美国宇航局为未来的火星任务启动了一款强大的锂燃料推进器。",
+        "url": "https://www.nasa.gov/missions/tech-demonstration/nasa-fires-up-powerful-lithium-fed-thruster-for-trips-to-mars/",
+        "source": "NASA",
+        "category": "科学"
       },
       {
         "rank": 10,
-        "title": "乌克兰第三次袭击袭击俄罗斯炼油厂并促使疏散",
-        "summary": "乌克兰对俄罗斯一炼油厂发动第三次袭击，导致人员疏散，进一步升级了双方的冲突。",
-        "url": "https://www.bbc.com/news/articles/cvgzd4qk7qgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
+        "title": "NASA 激光终端增强了阿尔忒弥斯 II 任务期间的视野",
+        "summary": "NASA 的激光终端技术将提升阿尔忒弥斯 II 任务中的通信和观测能力。",
+        "url": "https://www.nasa.gov/missions/artemis/artemis-2/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
+        "source": "NASA",
+        "category": "科学"
       }
     ],
-    "generated_at": "2026-04-28T20:59:35.876810+00:00"
+    "generated_at": "2026-04-28T21:53:23.822597+00:00"
   }
 }
