@@ -1,6 +1,258 @@
 {
-  "last_updated": "2026-04-29T22:46:38.472717+00:00",
+  "last_updated": "2026-04-29T23:44:40.178255+00:00",
   "articles": [
+    {
+      "title": "苹果发布 AI 框架 LaDiR：突破单一思维，并行探索多条推理路径",
+      "url": "https://www.ithome.com/0/945/247.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T23:41:02+00:00",
+      "content": "IT之家 4 月 30 日消息，苹果公司携手加州大学圣迭戈分校团队，在新版论文《LaDiR：潜在扩散增强 LLM 文本推理》中提出新框架，让大语言模型（LLM）在回答前并行探索多条推理路径，再用自回归方式输出提高结果质量。IT之家援引博文介绍，该框架并非新模型，而是叠加在现有模型之上的通用框架，重点改变模型思考问题的方式。LaDiR 结合扩散（Diffusion）和自回归（Autoregression）两种主流生成范式，在推理阶段采用扩散模型，在最终输出阶段使用自回归模型。这种混合架构有效提升了模型处理复杂问题的能力，既保留了扩散模型并行处理的优势，又延续了自回归模型生成的连贯性。LaDiR 的独特之处在于其并行推理机制。系统在推理时会同时启动多条独立的推理路径，每条路径从随机噪声开始，通过扩散过程逐步优化成连贯的推理步骤。为防止所有路径过早收敛于同一结论，框架引入了特殊的多样性鼓励机制，确保每条路径能探索不同的解题思路，从而生成多样化的候选答案池。研究团队在 Meta 的 LLaMA 3.1 8B 和 Qwen3-8B-Base 上部署测试。在数学基准测试中，LaDiR 取得了比现有方法更高的准确率，在面对更困难的分布外任务时表现尤为突出。在代码生成测试 HumanEval 中，该框架生成的代码更加可靠，在难题上的表现明显优于标准微调方法。在谜题规划任务中，LaDiR 能探索更广泛的解空间，找到正确解的概率高于所有通用基准模型。不过，在单次尝试准确率上，它仍略逊于专门针对特定任务优化的专用模型。这表明通用框架在追求广泛适用性的同时，在极致专精领域仍有提升空间。IT之家附上参考地址LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning",
+      "id": "9e073a13ceaed40d0b62564efa441c59",
+      "title_zh": "苹果发布 AI 框架 LaDiR：突破单一思维，并行探索多条推理路径",
+      "summary_zh": "IT之家 4 月 30 日消息，苹果公司携手加州大学圣迭戈分校团队，在新版论文《LaDiR：潜在扩散增强 LLM 文本推理》中提出新框架，让大语言模型（LLM）在回答前并行探索多条推理路径，再用自回归方式输出提高结果质量。IT之家援引博文介绍，该框架并非新模型，而是叠加在现有模型之上的通用框架，重点改变模型思考问题的方式。LaDiR 结合扩散（Diffusion）和自回归（Autoregressi",
+      "category": "开发",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875010+00:00"
+    },
+    {
+      "title": "Hong Kong’s Local Debt Market Becomes Surprise Funding Hotspot",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/hong-kong-s-local-debt-market-becomes-surprise-funding-hotspot",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-29T23:30:00+00:00",
+      "content": "Hong Kong’s once-quiet local currency bond market is quickly becoming one of Asia’s hottest funding venues, as corporate issuers seek stability in a city looking to lure more debt offerings.",
+      "id": "360a5d721232692d44517b187e3754ee",
+      "title_zh": "香港本地债务市场意外成为融资热点",
+      "summary_zh": "Hong Kong’s once-quiet local currency bond market is quickly becoming one of Asia’s hottest funding venues, as corporate issuers seek stability in a city looking to lure more debt offerings.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.874101+00:00"
+    },
+    {
+      "title": "华为路由 X3 Pro 日照金山双母典藏版预售：透明天线、凌霄 PLC 千兆组网，2408 元",
+      "url": "https://www.ithome.com/0/945/246.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T23:28:09+00:00",
+      "content": "IT之家 4 月 30 日消息，华为路由 X3 Pro 日照金山双母典藏版今日 10:08 开启预售，5 月 15 日 10:08 首销，预售价 2408 元，政府补贴价 2289.5 元。这款路由器采用“日照金山”美学设计，宣称把自然之美置于居家日常；行业首发透明天线，以微米级工艺在透明材质上蚀刻电路，将天线藏于雪山造型内。X3 Pro 采用了华为自研凌霄芯片，搭配 4 颗高性能信号放大器，支持 Wi-Fi 7+ 自研芯片级网络协同，支持 2.4GHz 与 5GHz 双频段无缝切换。该路由采用华为第三代 PLC 技术，搭载全新凌霄 PLC 芯片，利用电线传输信号，子路由房内插上电，即可实现自动组网，无需布线。华为表示，一个母路由最多可连接 15 个子路由，不惧隔断，无惧穿墙，适配平层、复式、别墅等多种户型，让每个房间都有满格信号。IT之家附单个母路由详细参数如下：提供 6 根 Wi-Fi 天线（含透明天线），1 根星闪天线2 个 10/100/1000/2500 兆自适应速率的以太网接口，支持 WAN / LAN 自适应；提供 1 个 10/100/1000 兆自适应速率的以太网口，支持电源输入适用于 90m² 以内两房间京东华为路由 X3 Pro 日照金山 双母典藏 2408 元直达链接",
+      "id": "3034d65326c4305ea4f664c3d3d2a25c",
+      "title_zh": "华为路由 X3 Pro 日照金山双母典藏版预售：透明天线、凌霄 PLC 千兆组网，2408 元",
+      "summary_zh": "IT之家 4 月 30 日消息，华为路由 X3 Pro 日照金山双母典藏版今日 10:08 开启预售，5 月 15 日 10:08 首销，预售价 2408 元，政府补贴价 2289.5 元。这款路由器采用“日照金山”美学设计，宣称把自然之美置于居家日常；行业首发透明天线，以微米级工艺在透明材质上蚀刻电路，将天线藏于雪山造型内。X3 Pro 采用了华为自研凌霄芯片，搭配 4 颗高性能信号放大器，支持",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875067+00:00"
+    },
+    {
+      "title": "IT早报 0430：微信朋友圈灰度改版；追觅回应造车质疑称我们不可能是乐视；小米自研芯片玄戒 O3 曝光；DeepSeek 灰度“识图模式”...",
+      "url": "https://www.ithome.com/0/945/245.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T23:26:54+00:00",
+      "content": "“IT早报”时间，大家好，现在是 2026 年 4 月 30 日星期四，今天的重要科技资讯有：1、微信朋友圈灰度改版：文字移至配图上方，新增“时间轴相册”入口微信朋友圈界面迎来新调整，文字描述移至配图上方，日期显示更精简，并新增“朋友圈相册”入口，支持按时间轴浏览历史动态。音频播放界面也同步优化，新增“原文”和“评论”入口。目前改动仍在灰度测试中，部分用户已尝鲜。&gt;&gt; 查看详情2、我们不可能是乐视！追觅首次回应造车：启动时间与小米同步，采用“华为模式”走高端路线追觅在美国硅谷发布高端新能源品牌“星空计划”，首款概念车零百加速 0.9 秒。公司回应资金链与乐视质疑，称启动时间与小米同步，采用“华为模式”合作造车，聚焦高端市场，量产车将于 2027 年上市。&gt;&gt; 查看详情3、小米自研芯片玄戒 O3 曝光：主频突破 4GHz、能效核频率飙升 68%、GPU 频率提升约 25%科技媒体 ximitime 4 月 28 日发布博文，通过挖掘 Mi Code 数据库，揭示了小米下一代自研芯片“玄戒 O3”（XRING O3）的相关信息。&gt;&gt; 查看详情4、DeepSeek 终于能“看图”了！灰度“识图模式”，图片理解功能内测DeepSeek 正在灰度测试“识图模式”，该模式和“快速模式”“专家模式”并列，并非简单的 OCR 文字，而是终于具备了多模态识别能力。&gt;&gt; 查看详情5、“全球首款闪充纯电大方盒”比亚迪方程豹钛 7 EV 闪充版上市，19.98 万 / 20.98 万元4 月 29 日晚间，比亚迪宣布方程豹钛 7 EV 闪充版正式上市，提供 675km 后驱闪充版、755km 后驱闪充版两款车型。在 755km 后驱车型的基础上，用户还可再加 30000 元选装“天神之眼 B+ 四驱”选装包。&gt;&gt; 查看详情6、6.76 秒，福特改装版 Mustang Cobra Jet 创下全美 400 米加速最快电车纪录这辆车名为福特 Mustang Cobra Jet 2200。在 NHRA 夏洛特赛事中，该车只用 6.76 秒就跑完四分之一英里，尾速达到约 357km/h。&gt;&gt; 查看详情7、消息称一加、realme 合并，OPPO 新成立子系列事业部雷峰网消息称，此次新成立的子系列事业部，OPPO 高级副总裁（SVP）李炳忠（Sky）为该事业部负责人，其中包含的一加和 realme 的营销服体系，由原 realme 营销服总裁徐起负责，任命为子系列事业部营销服负责人。&gt;&gt; 查看详情8、比亚迪李云飞：仰望 U9 Xtreme 单台售价超两千万元，是本届北京车展上成交的最贵车型在 2026 北京国际车展上，仰望 U9 Xtreme 量产版发布。比亚迪集团-品牌及公关处总经理李云飞昨晚透露，该车单台售价超两千万元，是本届北京车展上成交的最贵车型，全球限量 30 台。&gt;&gt; 查看详情9、高德地图 × 迪迦奥特曼达成联动，堵车时可以释放哉佩利敖光线据介绍，高德地图 × 迪迦奥特曼导航联动套装包含哉佩利敖光线车标、浩瀚星云皮肤等。落实到具体效果就是开启导航后，车模会显示为迪迦奥特曼，导航时可以“起飞”。&gt;&gt; 查看详情10、为什么有些列车车票“开售即候补”？国铁集团回应国铁集团发布“候补购票十问十答”，解释火车票发售遵循“长途优先、兼顾中短途”原则，热门车次因需求远超运力而快速售罄。12306 候补功能可让旅客网上排队“捡漏”，成功率超 70%。&gt;&gt; 查看详情11、香港地区明起禁止民众在公众场合持有电子烟，游客携带将面临 3000 港币罚款自 4 月 30 日起，香港将全面禁止在公众地方管有（持有）电子烟油、烟弹、加热烟烟枪等另类吸烟产品。访港旅客严禁携带入境，违者面临最高 5 万港元罚款及 6 个月监禁。新规意味着香港已形成“禁售卖、禁吸食、禁管有”的全面管控闭环。&gt;&gt; 查看详情12、大众 Polo 进入纯电时代：ID.Polo 正式发布，2.5 万欧元起售、可选按摩座椅全新 ID. Polo 基于 MEB+ 纯电平台打造，采用前驱布局，最高续航 455 公里，起售价也控制在相对亲民的水平。&gt;&gt; 查看详情13、腾讯混元开源手机端离线翻译模型 Hy-MT1.5-1.8B-1.25bit，仅 440MB腾讯混元开源了手机端离线翻译模型 Hy-MT1.5-1.8B-1.25bit，将支持 33 种语言的翻译大模型压缩至仅 440MB，无需联网即可在手机本地运行，翻译质量宣称优于谷歌翻译。模型采用极致量化压缩技术，兼顾性能与隐私保护。&gt;&gt; 查看详情14、华为 Mate X5、nova 14、畅享 70X 等机型鸿",
+      "id": "54c5839ef3b11468063d9d9af9cc14e5",
+      "title_zh": "IT早报 0430：微信朋友圈灰度改版；追觅回应造车质疑称我们不可能是乐视；小米自研芯片玄戒 O3 曝光；DeepSeek 灰度“识图模式”...",
+      "summary_zh": "“IT早报”时间，大家好，现在是 2026 年 4 月 30 日星期四，今天的重要科技资讯有：1、微信朋友圈灰度改版：文字移至配图上方，新增“时间轴相册”入口微信朋友圈界面迎来新调整，文字描述移至配图上方，日期显示更精简，并新增“朋友圈相册”入口，支持按时间轴浏览历史动态。音频播放界面也同步优化，新增“原文”和“评论”入口。目前改动仍在灰度测试中，部分用户已尝鲜。&gt;&gt; 查看详情2、我们",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875201+00:00"
+    },
+    {
+      "title": "消息称苹果已搁置研发 Vision Pro 头显，重心转向 Siri 和 AI 眼镜",
+      "url": "https://www.ithome.com/0/945/244.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T23:23:12+00:00",
+      "content": "IT之家 4 月 30 日消息，科技媒体 MacRumors 昨日（4 月 29 日）发布博文，报道称 Vision Pro 头显在升级 M5 芯片之后，仍未扭转市场冷淡局面，因此苹果公司内部已搁置研发新款 Vision Pro，团队重心转向 Siri 和 AI 智能眼镜。这款设备的争议集中在价格与佩戴体验。Vision Pro 售价为 3499 美元，机身重量超过 1.3 磅。新头带可分散重量，但长时间佩戴仍吃力。报道称，Vision Pro 自发布以来热度不足，总销量约 60 万台。内部消息人士还称，该产品退货比例异常偏高，超过近年其他苹果硬件产品。M5 版本未能改善需求，也让后续路线承压。IT之家注：苹果公司于 2025 年 10 月升级 Vision Pro 头显，芯片方面升级到 M5 芯片，并加入更舒适的 Dual Knit Band，但外观与核心硬件没有其他变化。苹果据称已经停止新款 Vision Pro 相关工作，并把原团队成员分配至其他部门。苹果仍保留关键基础。visionOS（苹果空间计算操作系统）仍由 Mike Rockwell 监督，即便短期没有硬件改版，系统更新仍会延续。",
+      "id": "600c32f3311518adcc7eeb01632fb693",
+      "title_zh": "消息称苹果已搁置研发 Vision Pro 头显，重心转向 Siri 和 AI 眼镜",
+      "summary_zh": "IT之家 4 月 30 日消息，科技媒体 MacRumors 昨日（4 月 29 日）发布博文，报道称 Vision Pro 头显在升级 M5 芯片之后，仍未扭转市场冷淡局面，因此苹果公司内部已搁置研发新款 Vision Pro，团队重心转向 Siri 和 AI 智能眼镜。这款设备的争议集中在价格与佩戴体验。Vision Pro 售价为 3499 美元，机身重量超过 1.3 磅。新头带可分散重量，",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875257+00:00"
+    },
+    {
+      "title": "We're raising our price target on Amazon after its all-around killer quarter",
+      "url": "https://www.cnbc.com/2026/04/29/were-raising-our-price-target-on-amazon-by-50-after-killer-quarter.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-29T23:22:41+00:00",
+      "content": "The stock's April rally set a high bar heading into Wednesday's print. But the company's results resoundingly cleared it.",
+      "id": "9606fa9ed4756db66aaa11b5e6415d8e",
+      "title_zh": "在经历了全面杀手季度后，我们提高了亚马逊的价格目标",
+      "summary_zh": "The stock's April rally set a high bar heading into Wednesday's print. But the company's results resoundingly cleared it.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.874278+00:00"
+    },
+    {
+      "title": "比亚迪李云飞：仰望 U9 Xtreme 单台售价超两千万元，是本届北京车展上成交的最贵车型",
+      "url": "https://www.ithome.com/0/945/243.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T23:19:20+00:00",
+      "content": "IT之家 4 月 30 日消息，在 4 月 24 日的 2026 北京国际车展上，比亚迪发布了纽北创纪录车型 —— 仰望 U9 Xtreme 的量产版。IT之家注意到，比亚迪集团-品牌及公关处总经理李云飞昨晚发文透露，仰望 U9 Xtreme 单台售价超两千万元，是本届北京车展上成交的最贵车型，全球限量 30 台，获得全球顶级圈层认可。据IT之家此前报道，在 2025 年 11 月 21 日举行的 2025 广州车展上，比亚迪宣布仰望 U9 Xtreme 刷新株洲国际赛车场、珠海国际赛车场、成都天府国际赛车场、上海国际赛车场四大专业赛车场圈速纪录，成为四大专业赛道量产圈速第一。仰望汽车还在 2025 年 10 月 21 日官宣，仰望 U9 Xtreme 正式以 6:59.157 的成绩登陆纽北官方圈速榜单，成功刷新量产电车圈速纪录，实现「极速 + 圈速双第一」目标。",
+      "id": "5deaac578afc68f1a600050cddeaa656",
+      "title_zh": "比亚迪李云飞：仰望 U9 Xtreme 单台售价超两千万元，是本届北京车展上成交的最贵车型",
+      "summary_zh": "IT之家 4 月 30 日消息，在 4 月 24 日的 2026 北京国际车展上，比亚迪发布了纽北创纪录车型 —— 仰望 U9 Xtreme 的量产版。IT之家注意到，比亚迪集团-品牌及公关处总经理李云飞昨晚发文透露，仰望 U9 Xtreme 单台售价超两千万元，是本届北京车展上成交的最贵车型，全球限量 30 台，获得全球顶级圈层认可。据IT之家此前报道，在 2025 年 11 月 21 日举行的",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875305+00:00"
+    },
+    {
+      "title": "Claude Code and AI Agent Skills: 12 Prompts That Became Production Skills",
+      "url": "https://medium.com/nginity/claude-code-ai-agent-skills-12-prompts-that-became-production-skills-7d5e789acc3d",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-29T23:15:15+00:00",
+      "content": "Article URL: https://medium.com/nginity/claude-code-ai-agent-skills-12-prompts-that-became-production-skills-7d5e789acc3d\nComments URL: https://news.ycombinator.com/item?id=47955948\nPoints: 1\n# Comments: 0",
+      "id": "f45b920a776595657199d04f964874e5",
+      "title_zh": "Claude Code 和 AI 代理技能：成为生产技能的 12 个提示",
+      "summary_zh": "Article URL: https://medium.com/nginity/claude-code-ai-agent-skills-12-prompts-that-became-production-skills-7d5e789acc3d Comments URL: https://news.ycombinator.com/item?id=47955948 Points: 1 # Commen",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.876586+00:00"
+    },
+    {
+      "title": "新华三 H3C MegaBook Air 14 英寸笔记本上架：酷睿 Ultra 5 226V/228V、重量小于 1kg，7999 元起",
+      "url": "https://www.ithome.com/0/945/242.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T23:14:28+00:00",
+      "content": "IT之家 4 月 30 日消息，新华三 H3C 上架了一款名为 MegaBook Air 的笔记本电脑，搭载英特尔 Lunar Lake 处理器，活动到手价 7999 元起：酷睿 Ultra 5 226V+16GB+1TB：7999 元酷睿 Ultra 5 228V+32GB+1TB：8999 元据介绍，这款笔记本电脑搭载 14 英寸 16:10 比例 LCD 屏幕，分辨率 2240×1400，支持约 178 度开合；搭载 8 核 8 线程酷睿 Ultra 5 226V/228V 处理器，电池容量 60Wh。MegaBook Air 的 A/C/D 面采用镁合金，机身厚度 15.95mm，重量小于 1kg（参数页未提供具体数据）；有 USB-C、USB-A、HDMI 2.1、3.5mm 音频等接口，支持指纹识别，另配有 Kensington 安全锁孔。IT之家附这台电脑的官方参数如下：京东 H3C 新华三 MegaBook Air 笔记本电脑 7999 元直达链接",
+      "id": "cda8c459095a5bda1d0a29e75f4079e2",
+      "title_zh": "新华三 H3C MegaBook Air 14 英寸笔记本上架：酷睿 Ultra 5 226V/228V、重量小于 1kg，7999 元起",
+      "summary_zh": "IT之家 4 月 30 日消息，新华三 H3C 上架了一款名为 MegaBook Air 的笔记本电脑，搭载英特尔 Lunar Lake 处理器，活动到手价 7999 元起：酷睿 Ultra 5 226V+16GB+1TB：7999 元酷睿 Ultra 5 228V+32GB+1TB：8999 元据介绍，这款笔记本电脑搭载 14 英寸 16:10 比例 LCD 屏幕，分辨率 2240×1400，支",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875358+00:00"
+    },
+    {
+      "title": "Building a Product or Infrastructure: Are AI Startups Choosing Both?",
+      "url": "https://twitter.com/rishabhkaul/status/2049444064433500499",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-04-29T23:13:39+00:00",
+      "content": "Article URL: https://twitter.com/rishabhkaul/status/2049444064433500499\nComments URL: https://news.ycombinator.com/item?id=47955931\nPoints: 1\n# Comments: 0",
+      "id": "a6b2ebbce78b41cb27fe9cefda54fe46",
+      "title_zh": "构建产品或基础设施：人工智能初创公司会选择两者吗？",
+      "summary_zh": "Article URL: https://twitter.com/rishabhkaul/status/2049444064433500499 Comments URL: https://news.ycombinator.com/item?id=47955931 Points: 1 # Comments: 0",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.876632+00:00"
+    },
+    {
+      "title": "苹果 AI 眼镜曝光：内置 2 颗摄像头、支持 Siri 智能交互、可手势控制",
+      "url": "https://www.ithome.com/0/945/241.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T23:10:42+00:00",
+      "content": "IT之家 4 月 30 日消息，科技媒体 MacRumors 昨日（4 月 29 日）发布博文，报道称苹果内部正在加速研发其首款智能眼镜，预估上市后将会和 Meta Ray-Bans 等产品竞争。而最新内部消息称，该产品的定位并非直接切入完整 AR 眼镜赛道，而是把拍摄、语音助手和手势控制作为核心能力。硬件规格方面，消息称苹果智能眼镜配备 2 颗摄像头。其中高分辨率摄像头用于拍摄照片和视频，内容可分享至社交平台；另 1 颗低分辨率广角镜头，则负责读取手部动作，并为 Siri 提供环境视觉信息。IT之家援引博文介绍，首代苹果智能眼镜不会内置显示屏，也不会配备 LiDAR、3D 摄像头等模块。报道指出，这些功能耗电较高，不符合首代产品对续航、重量和外观的要求。设计方面，苹果据称正在测试多种款式，并计划采用醋酸纤维材料。这种植物基材料比普通塑料更轻，也更有弹性。苹果希望通过轻薄外观和佩戴舒适度，让智能眼镜更接近日常眼镜，而非笨重设备。在手势控制方面，苹果已在 Vision Pro 上采用手势输入，传闻中的 AirPods Pro 也可能加入低分辨率摄像头和手势支持。对于没有屏幕的眼镜来说，手势比触控更自然，也更适合轻量设备。苹果公司在 2020 年的一项专利中展示了智能眼镜的手势控制功能系统方面，这款眼镜将搭载更智能的 Siri，相关能力预计随 iOS 27 亮相。用户可拍照、录视频、打电话，也能向 Siri 询问周围环境。苹果可能在 2026 年晚些时候预览该产品，正式上市时间或落在 2027 年。",
+      "id": "067912c3563013c52dcbfbbd59dcc314",
+      "title_zh": "苹果 AI 眼镜曝光：内置 2 颗摄像头、支持 Siri 智能交互、可手势控制",
+      "summary_zh": "IT之家 4 月 30 日消息，科技媒体 MacRumors 昨日（4 月 29 日）发布博文，报道称苹果内部正在加速研发其首款智能眼镜，预估上市后将会和 Meta Ray-Bans 等产品竞争。而最新内部消息称，该产品的定位并非直接切入完整 AR 眼镜赛道，而是把拍摄、语音助手和手势控制作为核心能力。硬件规格方面，消息称苹果智能眼镜配备 2 颗摄像头。其中高分辨率摄像头用于拍摄照片和视频，内容可",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875418+00:00"
+    },
+    {
+      "title": "华为乾崑 | 奕境 X9 汽车官宣搭载 HUAWEI XSCENE 车载激光投影，将支持单人 / 多人 / 灵动岛模式",
+      "url": "https://www.ithome.com/0/945/240.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T23:06:32+00:00",
+      "content": "IT之家 4 月 30 日消息，华为乾崑 | 奕境汽车官方昨晚发布视频，宣布奕境 X9 大六座 SUV 将搭载 HUAWEI XSCENE 车载激光投影。据介绍，奕境 X9 上的 HUAWEI XSCENE 车载激光投影支持行业最高的 2000:1 对比度、98% D3-P3 广色域，并通过德国莱茵蓝光认证。另外，还支持单人模式、多人模式和灵动岛模式（灵动岛的效果暂未得到展示）。值得一提的是，奕境 X9 此前还宣布行业首发后排吸顶柔光屏，号称“强光也清晰”。根据官方信息来看，这块吸顶屏采用柔光设计，具备强光不反光的特性。由此来看，奕境 X9 可自行选配二排吸顶屏或者投影仪。IT之家了解到，作为品牌开山之作，奕境 X9 首发搭载华为乾崑智驾 ADS 5 智能驾驶系统，全系标配 896 线双光路图像级激光雷达，具备 L3 级软硬件冗余能力。据规划，奕境品牌未来三年将推出 5 款新车，逐步构建完整的高端产品矩阵。奕境 X9 首批搭载鸿蒙座舱 Harmony Space 6，前排配备双 17.2 英寸蝶羽双联屏，支持双屏 NFC 独立交互；小艺智能体与 AI 多模态感知系统同步上车，可实现舱内防夹、儿童遗留提醒等功能。新车全系标配基于 HUAWEI XMC 乾崑数字底盘引擎赋能的赤兔平台，搭载全铝底盘并由欧洲大师团队参与调校。奕境 X9 搭载华为乾崑 CAS 5.0 全维安全系统，车身采用 2400MPa 超高强度热成型钢，并配备三层防弹级电池装甲设计。奕境 X9 车长 5301mm、宽 2015mm、轴距 3120mm，是目前大六座 SUV 中少有的车长超过 5.3 米的旗舰车型，预计售价在 50 万元左右。",
+      "id": "2357a175c88e7fd27ad7da15648308f5",
+      "title_zh": "华为乾崑 | 奕境 X9 汽车官宣搭载 HUAWEI XSCENE 车载激光投影，将支持单人 / 多人 / 灵动岛模式",
+      "summary_zh": "IT之家 4 月 30 日消息，华为乾崑 | 奕境汽车官方昨晚发布视频，宣布奕境 X9 大六座 SUV 将搭载 HUAWEI XSCENE 车载激光投影。据介绍，奕境 X9 上的 HUAWEI XSCENE 车载激光投影支持行业最高的 2000:1 对比度、98% D3-P3 广色域，并通过德国莱茵蓝光认证。另外，还支持单人模式、多人模式和灵动岛模式（灵动岛的效果暂未得到展示）。值得一提的是，奕境",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875481+00:00"
+    },
+    {
+      "title": "Microsoft says it has over 20M paid Copilot users, and they really are using it",
+      "url": "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
+      "source": "TechCrunch AI",
+      "domain": "AI",
+      "published": "2026-04-29T23:02:23+00:00",
+      "content": "Despite the lingering perception that no one really uses Copilot, Microsoft said on Wednesday that the number of users and engagement is growing.",
+      "id": "0ab605f52bd65743ea4538e555324e08",
+      "title_zh": "微软称其拥有超过 2000 万付费 Copilot 用户，而且他们确实在使用它",
+      "summary_zh": "Despite the lingering perception that no one really uses Copilot, Microsoft said on Wednesday that the number of users and engagement is growing.",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.863974+00:00"
+    },
+    {
+      "title": "Mark Zuckerberg says Meta is working on AI agents for personal and business use",
+      "url": "https://www.engadget.com/2160792/mark-zuckerberg-says-meta-is-working-on-ai-agents-for-personal-and-business-use/",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-04-29T23:00:36+00:00",
+      "content": "The CEO wants to make an agent so easy even his mom can use it.",
+      "id": "2dbb8fb4dbc6dd0decba25119f054c7a",
+      "title_zh": "马克·扎克伯格表示 Meta 正在开发供个人和商业使用的人工智能代理",
+      "summary_zh": "The CEO wants to make an agent so easy even his mom can use it.",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.874304+00:00"
+    },
+    {
+      "title": "AI-Led Rally in Asia Stocks Masks Deeper Damage from Iran War",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/ai-led-rally-in-asia-stocks-masks-deeper-damage-from-iran-war",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-29T23:00:00+00:00",
+      "content": "Asia’s artificial intelligence-fueled rally is masking signs of strain, with gains in tech names overshadowing the impact of the US-Iran war on the broader market.",
+      "id": "f9b750048fd39aa38535e4d943aa6fb2",
+      "title_zh": "人工智能引领的亚洲股市上涨掩盖了伊朗战争造成的更严重损害",
+      "summary_zh": "Asia’s artificial intelligence-fueled rally is masking signs of strain, with gains in tech names overshadowing the impact of the US-Iran war on the broader market.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.874139+00:00"
+    },
+    {
+      "title": "小米米家智能燃气热水器 2 恒温 1 级能效 16L 开售，新品首发价 1763 元",
+      "url": "https://www.ithome.com/0/945/239.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T22:48:54+00:00",
+      "content": "IT之家 4 月 30 日消息，小米“米家智能燃气热水器 2 恒温 1 级能效 16L”现已正式开售，建议零售价 1999 元，新品首发价 1763 元。据介绍，这款新品为超国标 1 级能效标准，采用智能算法精准恒温，不怕水温忽冷忽热；支持全屋零冷水，热水即开即热不用久等。这款热水器采用白色家族式设计，正面配有圆形数显屏，最小负载运行状态下的噪音为 45dB(A)；支持无级变频水伺服，确保全家同时用水水温恒定；支持 TSI 增压技术，除菌率高达 99.9%；支持小米澎湃智联。IT之家附这款新品详细参数如下：京东米家小米智能燃气热水器 2 恒温 16L1763 元直达链接",
+      "id": "6e8e3d2b635342438ef8f59d2b58a22a",
+      "title_zh": "小米米家智能燃气热水器 2 恒温 1 级能效 16L 开售，新品首发价 1763 元",
+      "summary_zh": "IT之家 4 月 30 日消息，小米“米家智能燃气热水器 2 恒温 1 级能效 16L”现已正式开售，建议零售价 1999 元，新品首发价 1763 元。据介绍，这款新品为超国标 1 级能效标准，采用智能算法精准恒温，不怕水温忽冷忽热；支持全屋零冷水，热水即开即热不用久等。这款热水器采用白色家族式设计，正面配有圆形数显屏，最小负载运行状态下的噪音为 45dB(A)；支持无级变频水伺服，确保全家同时",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875607+00:00"
+    },
+    {
+      "title": "Jim Cramer reveals the secret to finding a winning tech stock in this market",
+      "url": "https://www.cnbc.com/2026/04/29/jim-cramer-secret-winning-tech-stock.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-04-29T22:45:30+00:00",
+      "content": "CNBC's Jim Cramer said tech stocks need more than an earnings beat to rally right now. They need a shortage.",
+      "id": "5a6c7a0319ab9527848fc64df1bd7fbc",
+      "title_zh": "吉姆·克莱默揭示了在这个市场上找到获胜科技股的秘诀",
+      "summary_zh": "CNBC's Jim Cramer said tech stocks need more than an earnings beat to rally right now. They need a shortage.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.874255+00:00"
+    },
+    {
+      "title": "Official SAP npm packages compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "source": "BleepingComputer",
+      "domain": "安全",
+      "published": "2026-04-29T22:43:44+00:00",
+      "content": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]",
+      "id": "3c4eeead680be50f0ced9cef6bcfe67b",
+      "title_zh": "官方 SAP npm 软件包被盗以窃取凭证",
+      "summary_zh": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]",
+      "category": "攻防",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.871447+00:00"
+    },
     {
       "title": "View transactions sent to a Monero address",
       "url": "https://localmonero.co/blocks/search/47xmhbRuYpSYSrVZx2RsPBhaAQByZq3ucAT6ULxHvDAu8c853ErpLHqBdDmpVzcmWFdZFCWrfZYwp3rqs14zxXx95S7Fyv2",
@@ -14,6 +266,20 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-04-29T22:45:20.171949+00:00"
+    },
+    {
+      "title": "> Be Alexandra Elbakyan",
+      "url": "https://nitter.space/MushtaqBilalPhD/status/2049057344013881523#m",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-29T22:39:34+00:00",
+      "content": "> Be Alexandra Elbakyan. Score: 12, Comments: 0",
+      "id": "2f428fe5ff48d851c797256a4a64571c",
+      "title_zh": "> 亚历山德拉·艾尔巴金",
+      "summary_zh": "> Be Alexandra Elbakyan. Score: 12, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.876262+00:00"
     },
     {
       "title": "Qualcomm shares soar 16% on CEO comments about China orders, hyperscaler customer",
@@ -30,6 +296,34 @@
       "collected": "2026-04-29T22:45:20.170611+00:00"
     },
     {
+      "title": "Gold Steadies After Fed Holds Rates and Signals Inflation Risks",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/gold-steadies-after-fed-holds-rates-and-signals-inflation-risks",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-29T22:32:15+00:00",
+      "content": "Gold held losses after the US Federal Reserve kept interest rates steady and said the war in Iran was clouding the economic outlook.",
+      "id": "8cce083a605910775a1d62273b9a06c8",
+      "title_zh": "美联储维持利率不变并发出通胀风险信号后金价企稳",
+      "summary_zh": "Gold held losses after the US Federal Reserve kept interest rates steady and said the war in Iran was clouding the economic outlook.",
+      "category": "宏观",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.874168+00:00"
+    },
+    {
+      "title": "Bloomberg Surveillance: The Fed Decides 4/29/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-29/bloomberg-surveillance-the-fed-decides-4-29-2026-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-04-29T22:31:33+00:00",
+      "content": "Jon Ferro, Lisa Abramowicz and Tom Keene host a special edition of \"Bloomberg Surveillance\" covering Federal Reserve chair Jerome Powell's remarks. Federal Reserve officials left interest rates unchanged, but revealed a deepening division over the outlook for policy around the conflict in the Middle East. Jerome Powell said he intends to remain at the central bank as a member of its Board of Governors, and will not leave until a controversial criminal investigation into the central bank is \"well and truly over with transparency and finality.\" (Source: Bloomberg)",
+      "id": "6a73579d29037a4c5b0367e938345e8e",
+      "title_zh": "彭博社监测：美联储决定 2026 年 4 月 29 日",
+      "summary_zh": "Jon Ferro, Lisa Abramowicz and Tom Keene host a special edition of \"Bloomberg Surveillance\" covering Federal Reserve chair Jerome Powell's remarks. Federal Reserve officials left interest rates unchan",
+      "category": "宏观",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.874204+00:00"
+    },
+    {
       "title": "Starwood’s SREIT Suspends Redemptions While It Waits for Growth",
       "url": "https://www.bloomberg.com/news/articles/2026-04-29/starwood-s-sreit-suspends-redemptions-while-it-waits-for-growth",
       "source": "Bloomberg Markets",
@@ -42,6 +336,20 @@
       "category": "宏观",
       "tags": [],
       "collected": "2026-04-29T22:45:20.170442+00:00"
+    },
+    {
+      "title": "Vegas 2026: The DOJ's Developer Exemptions",
+      "url": "https://www.therage.co/blanche-vegas/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-29T22:21:45+00:00",
+      "content": "Vegas 2026: The DOJ's Developer Exemptions. Score: 3, Comments: 0",
+      "id": "f26c7af7f73e93c8ab9f763ada139488",
+      "title_zh": "Vegas 2026：司法部的开发商豁免",
+      "summary_zh": "Vegas 2026: The DOJ's Developer Exemptions. Score: 3, Comments: 0",
+      "category": "开发",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.876534+00:00"
     },
     {
       "title": "Google Cloud surpasses $20B but says growth was capacity-constrained",
@@ -70,6 +378,20 @@
       "category": "攻防",
       "tags": [],
       "collected": "2026-04-29T22:45:20.167587+00:00"
+    },
+    {
+      "title": "German Bundeswehr does not intend to use Palantir software",
+      "url": "https://www.zeit.de/politik/deutschland/2026-04/palantir-bundeswehr-nato-software-gxe",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-29T22:12:30+00:00",
+      "content": "German Bundeswehr does not intend to use Palantir software. Score: 7, Comments: 0",
+      "id": "7ae84a2628f28560001aef8bb1261fbf",
+      "title_zh": "德国联邦国防军不打算使用 Palantir 软件",
+      "summary_zh": "German Bundeswehr does not intend to use Palantir software. Score: 7, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.876323+00:00"
     },
     {
       "title": "Oil Extends Rally as Hormuz Stays Shut With Blockade to Continue",
@@ -238,6 +560,20 @@
       "category": "研究",
       "tags": [],
       "collected": "2026-04-29T22:45:20.172700+00:00"
+    },
+    {
+      "title": "Vera: a programming language designed for machines to write",
+      "url": "https://github.com/aallan/vera",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-29T21:41:32+00:00",
+      "content": "Vera: a programming language designed for machines to write. Score: 17, Comments: 5",
+      "id": "b13272dae478ea16c969236be3dcf8d8",
+      "title_zh": "Vera：一种专为机器编写的编程语言",
+      "summary_zh": "Vera: a programming language designed for machines to write. Score: 17, Comments: 5",
+      "category": "开发",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.876149+00:00"
     },
     {
       "title": "Anthropic Considering Funding Offers at Over $900 Billion Value",
@@ -420,6 +756,20 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-04-29T21:51:09.383425+00:00"
+    },
+    {
+      "title": "I accidentally made law enforcement shut down their fake honeypot",
+      "url": "https://lina.sh/blog/ddos-honeypot",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-29T21:04:38+00:00",
+      "content": "I accidentally made law enforcement shut down their fake honeypot. Score: 32, Comments: 7",
+      "id": "2a5bcfa86008b9f9e161781135d02061",
+      "title_zh": "我不小心让执法部门关闭了他们的假蜜罐",
+      "summary_zh": "I accidentally made law enforcement shut down their fake honeypot. Score: 32, Comments: 7",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.876212+00:00"
     },
     {
       "title": "Carvana stock pops as used car retailer reports record first-quarter results",
@@ -784,6 +1134,20 @@
       "category": "软件",
       "tags": [],
       "collected": "2026-04-29T22:45:20.171306+00:00"
+    },
+    {
+      "title": "微软 2026 财年第三财季净利润 317.78 亿美元，同比增长 23%",
+      "url": "https://www.ithome.com/0/945/237.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-04-29T20:10:01+00:00",
+      "content": "IT之家 4 月 30 日消息，微软今日发布 2026 财年第三财季（截至 2026 年 3 月 31 日）报告：营业总收入： 828.86 亿美元，同比增长 18%归母净利润： 317.78 亿美元，同比增长 23%经营现金流： 466.79 亿美元基本每股收益： 4.28 美元 / 股，同比增长 23.33%稀释每股收益： 4.27 美元 / 股，同比增长 23.41%🤖 AI 解读微软 2026 财年第三季度（截至 2026 年 3 月 31 日）实现 828.86 亿美元营业收入，同比增长 18%（固定汇率下增长 15%）；归属于股东的净利润为 317.78 亿美元，GAAP 口径下同比增长 23%，non-GAAP 口径下增长 20%；稀释每股收益为 4.27 美元 / 股，GAAP 口径下同比增长 23%，non-GAAP 口径下增长 21%。分业务板块来看，生产力与业务流程板块营收 350.13 亿美元，同比增长 17%，其中微软 365 商业云收入增长 19%，消费者云收入增长 33%，LinkedIn 增长 12%，Dynamics 365 增长 22%；智能云板块营收 346.81 亿美元，同比增长 30%，其中 Azure 及其他云服务收入增长 40%；更多个人计算板块营收 131.92 亿美元，同比下降 1%。整体云计算业务表现亮眼，微软云整体营收达到 545 亿美元，同比增长 29%，AI 业务年度年化营收已突破 370 亿美元，同比增长 123%。本季度微软通过分红和股票回购向股东回报了 102 亿美元资金，云计算和 AI 业务的高速增长带动整体业绩超出市场预期，展现出在智能计算时代较强的增长动能。相关阅读： 《Alphabet 2026 财年第一财季净利润 625.78 亿美元，同比增长 81%》风险提示：本文内容由 AI 自动分析生成，仅供参考，不代表IT之家观点。如有出入请以证监会指定上市公司信息披露平台为准。本文内容不构成投资建议，如有投资者据此操作，风险自担，IT之家对此不承担任何责任。",
+      "id": "beec3691be91bf2f3c028737888a5a85",
+      "title_zh": "微软 2026 财年第三财季净利润 317.78 亿美元，同比增长 23%",
+      "summary_zh": "IT之家 4 月 30 日消息，微软今日发布 2026 财年第三财季（截至 2026 年 3 月 31 日）报告：营业总收入： 828.86 亿美元，同比增长 18%归母净利润： 317.78 亿美元，同比增长 23%经营现金流： 466.79 亿美元基本每股收益： 4.28 美元 / 股，同比增长 23.33%稀释每股收益： 4.27 美元 / 股，同比增长 23.41%🤖 AI 解读微软 20",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.875562+00:00"
     },
     {
       "title": "Alphabet Sales Beat Estimates on Google Cloud, AI Customers",
@@ -3668,6 +4032,20 @@
       "category": "AI产品",
       "tags": [],
       "collected": "2026-04-29T15:53:11.931408+00:00"
+    },
+    {
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "source": "OpenAI Blog",
+      "domain": "AI",
+      "published": "2026-04-29T15:00:00+00:00",
+      "content": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "id": "8740c4948a13b99d12c5df72d3103753",
+      "title_zh": "构建智能时代的计算基础设施",
+      "summary_zh": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.866422+00:00"
     },
     {
       "title": "You can now book a hotel via the Uber app",
@@ -18228,6 +18606,20 @@
       "category": "研究",
       "tags": [],
       "collected": "2026-04-28T15:17:22.786377+00:00"
+    },
+    {
+      "title": "DRAM Crunch: Lessons for System Design",
+      "url": "https://www.eetimes.com/what-the-dram-crunch-teaches-us-about-system-design/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-04-28T12:07:55+00:00",
+      "content": "DRAM Crunch: Lessons for System Design. Score: 12, Comments: 0",
+      "id": "790a962531cc2d3ec57b3c16774bfa04",
+      "title_zh": "DRAM 紧缩：系统设计的经验教训",
+      "summary_zh": "DRAM Crunch: Lessons for System Design. Score: 12, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-04-29T23:43:33.876086+00:00"
     },
     {
       "title": "Warren Presses Bank Regulators on Trump’s Call to Cap Card Rates",
@@ -36568,643 +36960,419 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-04-27T01:26:43.158574+00:00"
-    },
-    {
-      "title": "全球首台重型商用车高压直喷纯氨内燃机成功点火",
-      "url": "https://www.ithome.com/0/943/758.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-26T23:25:38+00:00",
-      "content": "IT之家 4 月 27 日消息，玉柴集团宣布，由玉柴股份牵头的国家重点研发计划“重型商用车混合动力专用氨内燃机关键技术开发及应用”项目中期会议昨日在江苏常熟召开。项目开发的首台纯氨（单一氨燃料内燃机）样机实现成功点火并稳定运行，标志着项目取得里程碑式进展。据介绍，此次全球首台大排量混动专用高压直喷纯氨内燃机的成功点火，是玉柴在零碳动力研究的历史性突破，实现了与高压氨制氢系统协同运行以及预燃室射流点火引燃高压直喷液氨技术的落地与验证。该内燃机集成了蓬顶燃烧室、主动预燃室、液氨缸内高压直喷、低温高效多氮基产物转化的后处理耦合及多氢基燃料协同喷射智能控制等多项关键先进核心技术，热效率与现有重型柴油机最高热效率持平。在控制器方面，本项目针对性地开发了混合动力专用氨内燃机控制器，填补了玉柴在混合动力专用氨内燃机核心控制软件领域自主化的空白。该款自主控制器搭载高算力多核处理器与大容量存储模块，核心控制逻辑自主可控，可精准调控预燃室点火、氨氢混合气和液氨喷射需求。IT之家注意到，本次点火搭载的氨制氢系统，采用了催化裂解高压制氢的技术路线，打破低温与高压条件下氨制氢的高效催化转化技术壁垒。系统还搭载新型低温钌基催化剂，在 400℃～450℃ 低温范围内即可实现氨气高效制氢。",
-      "id": "5f65c36e918e8dfc7e187695a1f932f4",
-      "title_zh": "全球首台重型商用车高压直喷纯氨内燃机成功点火",
-      "summary_zh": "IT之家 4 月 27 日消息，玉柴集团宣布，由玉柴股份牵头的国家重点研发计划“重型商用车混合动力专用氨内燃机关键技术开发及应用”项目中期会议昨日在江苏常熟召开。项目开发的首台纯氨（单一氨燃料内燃机）样机实现成功点火并稳定运行，标志着项目取得里程碑式进展。据介绍，此次全球首台大排量混动专用高压直喷纯氨内燃机的成功点火，是玉柴在零碳动力研究的历史性突破，实现了与高压氨制氢系统协同运行以及预燃室射流点",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.332233+00:00"
-    },
-    {
-      "title": "极米 2026 新品发布会定档 4 月 29 日，X50 Ultra 系列等四款产品登场",
-      "url": "https://www.ithome.com/0/943/757.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-26T23:20:41+00:00",
-      "content": "IT之家 4 月 27 日消息，极米 2026 新品发布会定档 4 月 29 日 20:00，四大旗舰投影新品，联袂登场。IT之家附具体产品：画质旗舰专业机 X50 Ultra 系列全能旗舰水桶机 RS30 系列影院级护眼家庭巨幕 AURA3 系列护眼艺术激光电视 MIRA 4K 系列目前，官方暂未公布新品的具体规格以及价格信息，感兴趣的朋友可以关注IT之家后续报道。",
-      "id": "b697cd5fbba8311b1699b32aa540ad92",
-      "title_zh": "极米 2026 新品发布会定档 4 月 29 日，X50 Ultra 系列等四款产品登场",
-      "summary_zh": "IT之家 4 月 27 日消息，极米 2026 新品发布会定档 4 月 29 日 20:00，四大旗舰投影新品，联袂登场。IT之家附具体产品：画质旗舰专业机 X50 Ultra 系列全能旗舰水桶机 RS30 系列影院级护眼家庭巨幕 AURA3 系列护眼艺术激光电视 MIRA 4K 系列目前，官方暂未公布新品的具体规格以及价格信息，感兴趣的朋友可以关注IT之家后续报道。",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.332270+00:00"
-    },
-    {
-      "title": "谷歌 Gmail 邮箱、日历、云端硬盘等 Workspace 应用被曝更新渐变色图标",
-      "url": "https://www.ithome.com/0/943/756.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-26T23:12:16+00:00",
-      "content": "IT之家 4 月 27 日消息，谷歌于去年 9 月宣布，该公司将渐变色“G”标志定为全公司新标识。▲ 谷歌的旧 Logo（左）与新 Logo（右）据 9to5Google 当地时间 4 月 26 日报道，知情人士透露，所有 Google Workspace 应用图标都将迎来重大改版，完成渐变效果的更新。在谷歌“G”标志、Gemini、Home、照片（Photos）和地图（Maps）中都能看到的渐变效果将无处不在，以体现 AI 功能的存在。谷歌通过让每个图标在颜色和形状上更具辨识度，回应了此前用户对旧版图标集的主要批评。上一代设计中“必须在每个图标里包含公司全部四种颜色”的硬性要求显然已不复存在。大多数应用的“页面容器”（外框）也被移除，从而为更大、更独特的图标腾出了空间。IT之家附部分应用前后对比如下：▲ 旧 Logo（上）与新 Logo（下）Google 云端硬盘（Google Drive）Drive 不再包含红色，只保留了与三个编辑器应用相匹配的经典绿、黄、蓝三色。外廓是一个非常圆润、近乎臃肿的三角形，但在中心位置保留了一个锐利的三角形。Google 文档、表格、幻灯片（Docs、Sheets、Slides）与之前一样，谷歌的这几款编辑器应用各自使用一种主导色。Docs 图标依然是一张纵向的纸，但 Sheets 和 Slides 转为了横向，呼应了这些应用在实际使用中的界面布局。Google Meet 和 Chat这款视频通话应用（Meet）的设计与现行版本大相径庭。虽然仍保留了摄像机形状，但黄色成为了主导色。Google Chat 也经历了同样的改版，采用了药丸状的消息气泡，并带有一个亲切的微笑。Gmail新版 Gmail 图标的“M”信封形状与目前的版本差别不大，只是更加圆润了一些。红色是主导色，仅保留了极少量的黄、绿、蓝。报道称在所有新图标中，Gmail 是唯一一个保留了谷歌四种颜色的图标。Google 日历（Google Calendar）日历图标回归了旧版设计，采用了对翻页式实物的拟物化表达。四色的外框容器消失了，经典的蓝色回归。Google 任务（Google Tasks）Tasks 依然保留了一个对勾符号，它可能代表完成提醒任务后点击的按钮。与日历一样，蓝色是其主色调。Google Keep谷歌移除了背景页面，将视觉重点放在了灯泡上，灯泡的细节刻画比较丰富。Google VoiceVoice 保留了之前的形状，但整体更加圆润。电话标志反映了该应用主要面向通话和商务客户，而非普通消费者。即便如此，它使用的淡绿色与 Google Chat 保持了色调一致。Google 表单和协作平台（Forms and Sites）Forms 图标弃用了纸张主题，改用多选气泡设计，不过紫色依然是主色。而 Sites（协作平台）则从深蓝色转变为浅蓝色，横向的设计转变反映了其桌面网页的属性。",
-      "id": "c38e605daed84525892ff71c8ce62462",
-      "title_zh": "谷歌 Gmail 邮箱、日历、云端硬盘等 Workspace 应用被曝更新渐变色图标",
-      "summary_zh": "IT之家 4 月 27 日消息，谷歌于去年 9 月宣布，该公司将渐变色“G”标志定为全公司新标识。▲ 谷歌的旧 Logo（左）与新 Logo（右）据 9to5Google 当地时间 4 月 26 日报道，知情人士透露，所有 Google Workspace 应用图标都将迎来重大改版，完成渐变效果的更新。在谷歌“G”标志、Gemini、Home、照片（Photos）和地图（Maps）中都能看到的渐变",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.332361+00:00"
-    },
-    {
-      "title": "2026 北京国际车展第三天，小鹏汇天陆地航母单日订单破 90 台",
-      "url": "https://www.ithome.com/0/943/755.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-26T23:10:26+00:00",
-      "content": "IT之家 4 月 27 日消息，2026 北京车展已于 4 月 24 日开幕。小鹏汇天陆地航母也“空降”本次车展，用户亲临展位可进行 VR 沉浸式飞行体验、观看分离结合现场演示。IT之家注意到，汇天飞行汽车昨日宣布，在北京国际车展第三天，汇天陆地航母单日订单破 90 台。这意味着在车展期间，汇天陆地航母也在持续接单，并且单日订单已接近百台。值得一提的是，在 4 月 24 日的发布会上，小鹏集团董事长兼 CEO 何小鹏表示，小鹏汇天研发的分体式飞行汽车“陆地航母”已累计获得 7000 台预售订单，计划于 2026 年内启动规模化量产。IT之家注：“陆地航母”是全球首款量产的分体式飞行汽车，售价控制在 200 万元以内。该产品采用分体式设计，陆行体为三轴六轮六驱全地形大空间车型，搭载航空级增程系统；飞行器可完全收纳进陆行体的后备箱，在陆地行驶时整体即为一辆大型 SUV。飞行器具备垂直起降能力，兼顾低空通勤安全稳定性与轻量化设计。",
-      "id": "b6f01303976c56672e2f0c69f5f8e151",
-      "title_zh": "2026 北京国际车展第三天，小鹏汇天陆地航母单日订单破 90 台",
-      "summary_zh": "IT之家 4 月 27 日消息，2026 北京车展已于 4 月 24 日开幕。小鹏汇天陆地航母也“空降”本次车展，用户亲临展位可进行 VR 沉浸式飞行体验、观看分离结合现场演示。IT之家注意到，汇天飞行汽车昨日宣布，在北京国际车展第三天，汇天陆地航母单日订单破 90 台。这意味着在车展期间，汇天陆地航母也在持续接单，并且单日订单已接近百台。值得一提的是，在 4 月 24 日的发布会上，小鹏集团董事",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.332407+00:00"
-    },
-    {
-      "title": "Canada's Carney has enjoyed a long political honeymoon. Now comes the test",
-      "url": "https://www.bbc.com/news/articles/c70d249rd0go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "domain": "国际",
-      "published": "2026-04-26T23:04:19+00:00",
-      "content": "Global acclaim and domestic political gains have defined Mark Carney's first year as Canada's PM. He now faces pressure to deliver on his bold promises.",
-      "id": "33fec68338547e0861fad21aa2381727",
-      "title_zh": "加拿大的卡尼享受了漫长的政治蜜月期。现在考验来了",
-      "summary_zh": "Global acclaim and domestic political gains have defined Mark Carney's first year as Canada's PM. He now faces pressure to deliver on his bold promises.",
-      "category": "外交",
-      "tags": [],
-      "collected": "2026-04-27T10:05:06.714870+00:00"
-    },
-    {
-      "title": "China’s Tech-Heavy EVs Dominate Beijing’s Auto Show",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-26/china-s-tech-heavy-evs-dominate-beijing-s-auto-show-video",
-      "source": "Bloomberg Tech",
-      "domain": "经济",
-      "published": "2026-04-26T23:03:01+00:00",
-      "content": "Legacy foreign automakers once held the keys to China’s car market, but the 2026 Beijing Auto Show reveals a dramatic power shift. From onboard cinemas to built-in toilets, domestic EV makers are winning over consumers with rapid-fire tech innovation and aggressive pricing. From the show floor in Beijing, Bloomberg’s Stephen Engle finds that as Western brands scramble to partner with local rivals to survive, China is now firmly in the driver’s seat. (Source: Bloomberg)",
-      "id": "d8036d2e36627e5bc7cc420a654d9e98",
-      "title_zh": "中国科技含量高的电动汽车主导北京车展",
-      "summary_zh": "Legacy foreign automakers once held the keys to China’s car market, but the 2026 Beijing Auto Show reveals a dramatic power shift. From onboard cinemas to built-in toilets, domestic EV makers are winn",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.333533+00:00"
-    },
-    {
-      "title": "Warner Bros. Approved the Paramount Deal. Here’s What Comes Next.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-04-26/comcast-s-peacock-problem-11-billion-in-losses-rising-cancellations",
-      "source": "Bloomberg Tech",
-      "domain": "科技",
-      "published": "2026-04-26T23:00:01+00:00",
-      "content": "The company’s streaming service has lost more than $11 billion and can’t keep customers form canceling",
-      "id": "c5f5a7813ba0f8a115c970470b62a6cd",
-      "title_zh": "华纳兄弟批准了派拉蒙交易。接下来会发生什么。",
-      "summary_zh": "The company’s streaming service has lost more than $11 billion and can’t keep customers form canceling",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.333631+00:00"
-    },
-    {
-      "title": "Asia’s Busiest Earnings Week May Offer Early Taste of War Impact",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-26/asia-s-busiest-earnings-week-may-offer-early-taste-of-war-impact",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-04-26T23:00:00+00:00",
-      "content": "Asian companies are heading into the busiest week of the current earnings season, offering investors an early glimpse of how the Iran war has affected financial results.",
-      "id": "03431f55234833670fed373eead9138c",
-      "title_zh": "亚洲最繁忙的财报周可能会让您尝到战争影响的早期滋味",
-      "summary_zh": "Asian companies are heading into the busiest week of the current earnings season, offering investors an early glimpse of how the Iran war has affected financial results.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.331192+00:00"
-    },
-    {
-      "title": "I Learned to Stop Worrying and Love Coding with AI",
-      "url": "https://jeffield.net/blog/claude-strangelove-or-how-i-learned-to-stop-worrying-and-love-coding-with-ai/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-26T22:57:11+00:00",
-      "content": "Article URL: https://jeffield.net/blog/claude-strangelove-or-how-i-learned-to-stop-worrying-and-love-coding-with-ai/\nComments URL: https://news.ycombinator.com/item?id=47915677\nPoints: 1\n# Comments: 0",
-      "id": "54b7bde4f33bcb4e4879fe76400b5043",
-      "title_zh": "我学会了停止担忧并喜欢使用人工智能编码",
-      "summary_zh": "Article URL: https://jeffield.net/blog/claude-strangelove-or-how-i-learned-to-stop-worrying-and-love-coding-with-ai/ Comments URL: https://news.ycombinator.com/item?id=47915677 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.339564+00:00"
-    },
-    {
-      "title": "支付宝小荷包上线“承诺券”：不怕朋友放鸽子",
-      "url": "https://www.ithome.com/0/943/754.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-26T22:55:55+00:00",
-      "content": "IT之家 4 月 27 日消息，4 月 26 日起，支付宝小荷包电子版“承诺券”正式上线，官方宣称“再也不怕朋友放鸽子、搭子没动力、自己的计划又落空”。IT之家从官方介绍获悉，用户可以在支付宝小荷包创建任意名义的「承诺券」，并转入一笔承诺金，这张承诺券就存在你的小荷包里。此外，用户还可以生成「承诺券」领取二维码，并分享给想送的人，对方扫码收下并加入你的小荷包，承诺金平均分配给荷包内用户，大家就可以一起用承诺金去兑现承诺。它可以是“周末吃大餐承诺券”、“冷战和好承诺券”、“一起旅行承诺券”、“健身监督承诺券”…… 你可以创建后送给对象、crush、家人、朋友或搭子，给予对方“承诺”的同时，共建专属小荷包。即日起至 5 月 21 日，上支付宝搜「小荷包」，去创建「承诺券」，还能参加「送 TA 一诺赢千金！」抽奖活动，最高赢 1000 元红包。",
-      "id": "080936381fba87b42c403897e3286156",
-      "title_zh": "支付宝小荷包上线“承诺券”：不怕朋友放鸽子",
-      "summary_zh": "IT之家 4 月 27 日消息，4 月 26 日起，支付宝小荷包电子版“承诺券”正式上线，官方宣称“再也不怕朋友放鸽子、搭子没动力、自己的计划又落空”。IT之家从官方介绍获悉，用户可以在支付宝小荷包创建任意名义的「承诺券」，并转入一笔承诺金，这张承诺券就存在你的小荷包里。此外，用户还可以生成「承诺券」领取二维码，并分享给想送的人，对方扫码收下并加入你的小荷包，承诺金平均分配给荷包内用户，大家就可以",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.332447+00:00"
-    },
-    {
-      "title": "FreeBSD Device Drivers Book",
-      "url": "https://github.com/ebrandi/FDD-book",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-04-26T22:53:06+00:00",
-      "content": "FreeBSD Device Drivers Book. Score: 7, Comments: 0",
-      "id": "53cacfbbc77ad18dd342657992993a11",
-      "title_zh": "FreeBSD 设备驱动程序书籍",
-      "summary_zh": "FreeBSD Device Drivers Book. Score: 7, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-27T01:26:43.157710+00:00"
-    },
-    {
-      "title": "Jaeger adopts OpenTelemetry at its core to solve the AI agent observability gap",
-      "url": "https://thenewstack.io/jaeger-v2-ai-observability/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-26T22:52:15+00:00",
-      "content": "Article URL: https://thenewstack.io/jaeger-v2-ai-observability/\nComments URL: https://news.ycombinator.com/item?id=47915620\nPoints: 1\n# Comments: 0",
-      "id": "fc3474f7e05002c13dc9e3c27bbbb3bf",
-      "title_zh": "Jaeger 采用 OpenTelemetry 为核心，解决 AI 代理可观测性差距",
-      "summary_zh": "Article URL: https://thenewstack.io/jaeger-v2-ai-observability/ Comments URL: https://news.ycombinator.com/item?id=47915620 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.339610+00:00"
-    },
-    {
-      "title": "赵长江解释为何王传福亲临智界展台自己没在现场接待和介绍 V9：真不是故意的，当时刚好不在",
-      "url": "https://www.ithome.com/0/943/753.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-26T22:50:14+00:00",
-      "content": "IT之家 4 月 27 日消息，智界汽车执行董事及执行副总裁赵长江昨晚发文回应了王传福（比亚迪董事长兼总裁）亲临智界展台，为何自己没在现场接待和介绍 V9。他表示：其实真不是故意的，当时刚好不在展台，等我火急火燎赶回来，王总一行已经移步其他展馆了，非常遗憾。如果再有机会，我一定会跟王总详细介绍智界 V9 的极致产品力。据IT之家此前报道，去年 10 月，赵长江在微博官宣离职，他曾担任比亚迪腾势品牌总经理、腾势方程豹直营事业部总经理。今年 1 月，赵长江宣布正式加入鸿蒙智行-智界汽车。",
-      "id": "08e943fdfd518790f5be4cf6b28055dd",
-      "title_zh": "赵长江解释为何王传福亲临智界展台自己没在现场接待和介绍 V9：真不是故意的，当时刚好不在",
-      "summary_zh": "IT之家 4 月 27 日消息，智界汽车执行董事及执行副总裁赵长江昨晚发文回应了王传福（比亚迪董事长兼总裁）亲临智界展台，为何自己没在现场接待和介绍 V9。他表示：其实真不是故意的，当时刚好不在展台，等我火急火燎赶回来，王总一行已经移步其他展馆了，非常遗憾。如果再有机会，我一定会跟王总详细介绍智界 V9 的极致产品力。据IT之家此前报道，去年 10 月，赵长江在微博官宣离职，他曾担任比亚迪腾势品牌",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.332483+00:00"
-    },
-    {
-      "title": "Australian Toll Operator Surges on Takeover Bid at A$7.4 Billion Valuation",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-26/ifm-investors-to-launch-bid-for-atlas-arteria-afr-reports",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-04-26T22:48:03+00:00",
-      "content": "IFM Investors Pty. has launched a takeover bid for toll road operator Atlas Arteria Ltd., arguing the Sydney-listed group it already partly owns has underperformed on returns, strategy and operations.",
-      "id": "c874242bcd00cb293565d92a4fd0bdc0",
-      "title_zh": "澳大利亚收费运营商收购报价飙升至 74 亿澳元",
-      "summary_zh": "IFM Investors Pty. has launched a takeover bid for toll road operator Atlas Arteria Ltd., arguing the Sydney-listed group it already partly owns has underperformed on returns, strategy and operations.",
-      "category": "投融资",
-      "tags": [],
-      "collected": "2026-04-27T07:33:50.518438+00:00"
-    },
-    {
-      "title": "Show HN: CheckThisOut – a filtered directory of side hustles and AI tools",
-      "url": "https://checkthisout.com/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-04-26T22:47:12+00:00",
-      "content": "Article URL: https://checkthisout.com/\nComments URL: https://news.ycombinator.com/item?id=47915576\nPoints: 1\n# Comments: 0",
-      "id": "7219f665dd770e9c5a40ff2b060f6619",
-      "title_zh": "Show HN：CheckThisOut – 副业和人工智能工具的过滤目录",
-      "summary_zh": "Article URL: https://checkthisout.com/ Comments URL: https://news.ycombinator.com/item?id=47915576 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.339673+00:00"
-    },
-    {
-      "title": "吉利旗下芯擎科技发布 5 纳米车规级 AI 座舱芯片“龍鹰二号”",
-      "url": "https://www.ithome.com/0/943/752.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-04-26T22:46:30+00:00",
-      "content": "IT之家 4 月 27 日消息，据芯擎科技昨日消息，在 2026 北京国际车展上，芯擎科技发布 5nm 车规级 AI 座舱芯片“龍鹰二号”，计划于 2027 年第一季度启动适配。官方表示，“龍鹰二号”可覆盖 AI 座舱、舱驾融合全场景需求，采用柔性架构，适配主机厂从入门级到旗舰级的中央计算平台演进。IT之家查询获悉，湖北芯擎科技有限公司成立于 2018 年，由吉利投资的亿咖通科技有限公司与安谋科技 (中国) 有限公司共同出资成立，基于 ARM 架构进行产品开发。“龍鹰二号”AI 算力可达 200 TOPS，原生支持 7B+ 多模态大模型，具备主动意图感知能力，内置多核 CPU 360KDMIPS，GPU 2800GFLOPS，带宽可达 518GB/s，支持 LPDDR6/5X/5，官方宣称彻底消除了多屏交互与 AI 计算的数据瓶颈。安全方面，“龍鹰二号”芯片内部集成了专用车控处理单元与安全岛，支持 CAN-FD，严苛的硬件分区设计与独立冗余架构可实现舱驾业务的物理隔离。",
-      "id": "8ca0148e83f0eab35095b9bf0ad107a2",
-      "title_zh": "吉利旗下芯擎科技发布 5 纳米车规级 AI 座舱芯片“龍鹰二号”",
-      "summary_zh": "IT之家 4 月 27 日消息，据芯擎科技昨日消息，在 2026 北京国际车展上，芯擎科技发布 5nm 车规级 AI 座舱芯片“龍鹰二号”，计划于 2027 年第一季度启动适配。官方表示，“龍鹰二号”可覆盖 AI 座舱、舱驾融合全场景需求，采用柔性架构，适配主机厂从入门级到旗舰级的中央计算平台演进。IT之家查询获悉，湖北芯擎科技有限公司成立于 2018 年，由吉利投资的亿咖通科技有限公司与安谋科技",
-      "category": "硬件",
-      "tags": [],
-      "collected": "2026-04-26T23:29:51.332530+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
-        "title": "谷歌云超过 $20B 但表示增长受到容量限制",
-        "summary": "谷歌云季度收入突破200亿美元，但增长因产能限制而受到影响。",
-        "url": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
+        "title": "微软称其拥有超过 2000 万付费 Copilot 用户，而且他们确实在使用它",
+        "summary": "微软 Copilot 拥有超过 2000 万付费用户，表明其 AI 产品已成功融入企业工作流。",
+        "url": "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
         "source": "TechCrunch AI",
-        "category": "研究"
+        "category": "AI产品"
       },
       {
         "rank": 2,
-        "title": "Anthropic 考虑提供价值超过 9000 亿美元的融资",
-        "summary": "AI初创公司Anthropic正在考虑进行一项可能超过9000亿美元的融资。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/anthropic-considering-funding-offers-at-over-900-billion-value",
-        "source": "Bloomberg Tech",
-        "category": "AI产品"
+        "title": "Claude Code 和 AI 代理技能：成为生产技能的 12 个提示",
+        "summary": "文章提供了使用 Claude Code 和 AI 代理提升生产力的实用技巧。",
+        "url": "https://medium.com/nginity/claude-code-ai-agent-skills-12-prompts-that-became-production-skills-7d5e789acc3d",
+        "source": "Hacker News AI",
+        "category": "LLM"
       },
       {
         "rank": 3,
-        "title": "AI代理在几秒钟内删除公司数据库",
-        "summary": "一个AI代理在几秒钟内成功删除了一个公司的数据库，引发安全担忧。",
-        "url": "https://www.msn.com/en-us/news/technology/ai-agent-deletes-company-s-entire-database-in-seconds/ar-AA21UbLU",
-        "source": "Hacker News AI",
-        "category": "AI产品"
-      },
-      {
-        "rank": 4,
         "title": "Shopify 的 AI 优先工程手册",
-        "summary": "Shopify 发布了其AI优先的工程手册，展示了公司在AI整合方面的策略。",
+        "summary": "Shopify 分享其 AI 优先的工程实践，展示了 AI 在产品开发中的核心地位。",
         "url": "https://www.bvp.com/atlas/inside-shopifys-ai-first-engineering-playbook",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
-        "rank": 5,
-        "title": "100 亿初创公司培训 AI 来完成你的工作",
-        "summary": "一家估值100亿美元的初创公司正专注于训练AI来替代人类工作。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-29/the-10-billion-startup-training-ai-to-do-your-job",
+        "rank": 4,
+        "title": "Anthropic 考虑提供价值超过 9000 亿美元的融资",
+        "summary": "AI 独角兽 Anthropic 考虑进行巨额融资，凸显了 AI 领域的巨大投资潜力。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/anthropic-considering-funding-offers-at-over-900-billion-value",
         "source": "Bloomberg Tech",
         "category": "AI产品"
       },
       {
+        "rank": 5,
+        "title": "AI代理在几秒钟内删除公司数据库",
+        "summary": "AI 代理的强大能力带来安全隐患，一个案例展示了其删除公司数据库的惊人速度。",
+        "url": "https://www.msn.com/en-us/news/technology/ai-agent-deletes-company-s-entire-database-in-seconds/ar-AA21UbLU",
+        "source": "Hacker News AI",
+        "category": "AI产品"
+      },
+      {
         "rank": 6,
-        "title": "亚马逊报告称，人工智能需求推动云销售额实现 2022 年以来最大增幅",
-        "summary": "亚马逊云服务销售额因AI需求激增，创下2022年以来最大增长。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/amazon-reports-biggest-cloud-sales-jump-since-2022-on-ai-demand",
-        "source": "Bloomberg Tech",
-        "category": "LLM"
+        "title": "构建产品或基础设施：人工智能初创公司会选择两者吗？",
+        "summary": "探讨 AI 初创公司在构建产品和基础设施之间的战略选择，以及其对行业的影响。",
+        "url": "https://twitter.com/rishabhkaul/status/2049444064433500499",
+        "source": "Hacker News AI",
+        "category": "AI产品"
       },
       {
         "rank": 7,
+        "title": "谷歌云超过 $20B 但表示增长受到容量限制",
+        "summary": "谷歌云营收强劲但增长受限，显示出 AI 基础设施的供需挑战。",
+        "url": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
+        "source": "TechCrunch AI",
+        "category": "研究"
+      },
+      {
+        "rank": 8,
         "title": "美国指责中国工业规模AI模型蒸馏，将分享英特尔",
-        "summary": "美国指责中国进行工业规模的AI模型蒸馏，并表示将分享情报。",
+        "summary": "美国指责中国进行工业规模的 AI 模型蒸馏，并表示将分享相关信息。",
         "url": "https://thenextweb.com/news/us-white-house-ai-model-distillation-china-theft",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
-        "rank": 8,
-        "title": "无人机和人工智能将打破国际秩序",
-        "summary": "文章探讨了无人机和人工智能如何可能重塑现有的国际秩序。",
-        "url": "https://www.thenewatlantis.com/publications/a-shakeup-is-coming-for-the-nation-state",
-        "source": "Hacker News AI",
-        "category": "LLM"
-      },
-      {
         "rank": 9,
-        "title": "具有欧洲价值观的人工智能",
-        "summary": "讨论了如何在AI开发中融入并体现欧洲的价值观。",
-        "url": "https://hostedai.eu",
-        "source": "Hacker News AI",
-        "category": "LLM"
+        "title": "100 亿初创公司培训 AI 来完成你的工作",
+        "summary": "一家价值百亿美元的初创公司正利用 AI 自动化工作，预示着就业市场的潜在变革。",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-29/the-10-billion-startup-training-ai-to-do-your-job",
+        "source": "Bloomberg Tech",
+        "category": "AI产品"
       },
       {
         "rank": 10,
-        "title": "泰勒·斯威夫特想将她的肖像注册为商标。这些 TikTok Deepfake 广告说明了原因",
-        "summary": "Deepfake技术的滥用促使名人如泰勒·斯威夫特考虑保护其肖像权。",
-        "url": "https://www.wired.com/story/taylor-swift-rihanna-tiktok-deepfake-ads/",
-        "source": "Wired AI",
+        "title": "无人机和人工智能将打破国际秩序",
+        "summary": "文章预测无人机和 AI 将对现有国际秩序产生颠覆性影响。",
+        "url": "https://www.thenewatlantis.com/publications/a-shakeup-is-coming-for-the-nation-state",
+        "source": "Hacker News AI",
         "category": "LLM"
       }
     ],
     "安全": [
       {
         "rank": 1,
-        "title": "流行的 WordPress 重定向插件隐藏了多年的休眠后门",
-        "summary": "一个流行的WordPress插件被发现隐藏了多年的休眠后门，存在安全隐患。",
-        "url": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+        "title": "官方 SAP npm 软件包被盗以窃取凭证",
+        "summary": "官方 SAP npm 软件包被恶意利用，用于窃取用户凭证，构成严重安全威胁。",
+        "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
         "rank": 2,
-        "title": "黑客利用青龙任务调度程序中的 RCE 缺陷进行加密挖矿",
-        "summary": "黑客利用青龙任务调度程序中的远程代码执行（RCE）漏洞进行加密货币挖矿。",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
-        "source": "BleepingComputer",
-        "category": "漏洞"
-      },
-      {
-        "rank": 3,
         "title": "SAP npm 软件包受到“Mini Shai-Hulud”凭据窃取恶意软件的危害",
-        "summary": "SAP的npm软件包被名为“Mini Shai-Hulud”的凭据窃取恶意软件感染。",
+        "summary": "SAP npm 软件包成为“Mini Shai-Hulud”恶意软件的目标，该软件专门用于窃取凭证。",
         "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
         "source": "The Hacker News",
         "category": "攻防"
       },
       {
+        "rank": 3,
+        "title": "黑客利用青龙任务调度程序中的 RCE 缺陷进行加密挖矿",
+        "summary": "攻击者利用青龙任务调度程序中的远程代码执行漏洞进行加密货币挖矿。",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
+      },
+      {
         "rank": 4,
+        "title": "流行的 WordPress 重定向插件隐藏了多年的休眠后门",
+        "summary": "一个流行的 WordPress 插件被发现隐藏了多年的后门，暴露了潜在的安全风险。",
+        "url": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      },
+      {
+        "rank": 5,
         "title": "cPanel、WHM 紧急更新修复了关键的身份验证绕过错误",
-        "summary": "cPanel和WHM紧急发布更新，修复了一个关键的身份验证绕过漏洞。",
+        "summary": "cPanel 和 WHM 发布紧急更新，修复了影响身份验证的关键漏洞。",
         "url": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "朝鲜新一波攻击使用人工智能插入的 npm 恶意软件、假冒公司和 RAT",
-        "summary": "朝鲜发动新一轮攻击，利用AI插入的npm恶意软件、虚假公司和RAT。",
+        "summary": "朝鲜发动新一轮攻击，利用 AI 插入的 npm 恶意软件、虚假公司和远程访问工具。",
         "url": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
         "source": "The Hacker News",
         "category": "攻防"
       },
       {
-        "rank": 6,
-        "title": "从 Vercel 漏洞中吸取教训：影子 AI 和 OAuth 蔓延",
-        "summary": "文章从Vercel的漏洞中吸取教训，讨论了影子AI和OAuth蔓延的风险。",
-        "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
-        "source": "BleepingComputer",
-        "category": "漏洞"
-      },
-      {
         "rank": 7,
         "title": "GitHub 修复了可访问数百万私人存储库的 RCE 漏洞",
-        "summary": "GitHub已修复一个可能导致数百万私人存储库被访问的RCE漏洞。",
+        "summary": "GitHub 成功修复了一个允许攻击者访问数百万私有存储库的远程代码执行漏洞。",
         "url": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
         "rank": 8,
-        "title": "数百个面向互联网的 VNC 服务器暴露 ICS/OT",
-        "summary": "数以百计的面向互联网的VNC服务器暴露了工业控制系统（ICS）和运营技术（OT）。",
-        "url": "https://www.securityweek.com/hundreds-of-internet-facing-vnc-servers-expose-ics-ot/",
-        "source": "SecurityWeek",
-        "category": "攻防"
+        "title": "从 Vercel 漏洞中吸取教训：影子 AI 和 OAuth 蔓延",
+        "summary": "文章分析了 Vercel 漏洞的教训，重点关注了影子 AI 和 OAuth 权限蔓延问题。",
+        "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
       },
       {
         "rank": 9,
-        "title": "网络研讨会：如何自动进行曝光验证以匹配人工智能攻击的速度",
-        "summary": "网络研讨会讨论了如何自动化风险暴露验证，以应对AI驱动的攻击速度。",
-        "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
-        "source": "The Hacker News",
+        "title": "欧洲警方捣毁价值 5000 万欧元的加密投资诈骗团伙",
+        "summary": "欧洲警方成功打击了一个价值 5000 万欧元的加密投资诈骗团伙。",
+        "url": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
+        "source": "BleepingComputer",
         "category": "攻防"
       },
       {
         "rank": 10,
-        "title": "Checkmarx 确认供应链攻击中数据被盗",
-        "summary": "Checkmarx证实了在其供应链攻击中发生了数据泄露事件。",
-        "url": "https://www.securityweek.com/checkmarx-confirms-data-stolen-in-supply-chain-attack/",
-        "source": "SecurityWeek",
-        "category": "攻防"
+        "title": "CISA 命令联邦政府修补被用作零日漏洞的 Windows 漏洞",
+        "summary": "CISA 命令联邦政府紧急修补被用作零日漏洞的 Windows 漏洞。",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
       }
     ],
     "经济": [
       {
         "rank": 1,
-        "title": "首席执行官对中国订单和超大规模客户的评论导致高通股价飙升 16%",
-        "summary": "高通CEO对中国订单和超大规模客户的积极评论，推动股价飙升16%。",
-        "url": "https://www.cnbc.com/2026/04/29/qualcomm-qcom-stock-earnings-china.html",
-        "source": "CNBC",
-        "category": "市场"
-      },
-      {
-        "rank": 2,
-        "title": "霍尔木兹海峡因封锁继续而关闭，油价延续涨势",
-        "summary": "霍尔木兹海峡因持续封锁导致油价继续上涨。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/latest-oil-market-news-and-analysis-for-april-30",
+        "title": "人工智能引领的亚洲股市上涨掩盖了伊朗战争造成的更严重损害",
+        "summary": "AI 驱动的亚洲股市上涨，但未能完全抵消伊朗战争带来的经济冲击。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/ai-led-rally-in-asia-stocks-masks-deeper-damage-from-iran-war",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
+        "rank": 2,
+        "title": "美联储维持利率不变并发出通胀风险信号后金价企稳",
+        "summary": "美联储维持利率不变并警告通胀风险，促使金价企稳。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/gold-steadies-after-fed-holds-rates-and-signals-inflation-risks",
+        "source": "Bloomberg Markets",
+        "category": "宏观"
+      },
+      {
         "rank": 3,
         "title": "由于油价上涨打击市场情绪，亚洲股市下跌：市场结束",
-        "summary": "油价上涨打击了市场情绪，导致亚洲股市下跌。",
+        "summary": "受油价上涨影响，亚洲股市下跌，市场情绪受到打击。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-29/stock-market-today-dow-s-p-live-updates",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 4,
+        "title": "首席执行官对中国订单和超大规模客户的评论导致高通股价飙升 16%",
+        "summary": "高通 CEO 的积极评论推动公司股价飙升 16%，显示市场对其前景的乐观。",
+        "url": "https://www.cnbc.com/2026/04/29/qualcomm-qcom-stock-earnings-china.html",
+        "source": "CNBC",
+        "category": "市场"
+      },
+      {
+        "rank": 5,
         "title": "日本创纪录的欧元债券销售显示历史性的资金转移",
-        "summary": "日本创纪录的欧元债券销售表明了历史性的资金转移趋势。",
+        "summary": "日本创纪录的欧元债券发行量表明了历史性的资金流向变化。",
         "url": "https://www.bloomberg.com/news/articles/2026-04-29/japan-s-record-sales-of-euro-bonds-show-historic-funding-shift",
         "source": "Bloomberg Markets",
         "category": "投融资"
       },
       {
-        "rank": 5,
-        "title": "沃什暗示在阿联酋讨论期间将对美联储互换额度的权力进行新的解读",
-        "summary": "沃什暗示在阿联酋讨论期间，可能对美联储互换额度的权力有新的解读。",
-        "url": "https://www.cnbc.com/2026/04/29/fed-warsh-bessent-uae-swap-lines.html",
+        "rank": 6,
+        "title": "霍尔木兹海峡因封锁继续而关闭，油价延续涨势",
+        "summary": "霍尔木兹海峡持续关闭导致油价上涨。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/latest-oil-market-news-and-analysis-for-april-30",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 7,
+        "title": "在经历了全面杀手季度后，我们提高了亚马逊的价格目标",
+        "summary": "亚马逊表现强劲，分析师上调其价格目标。",
+        "url": "https://www.cnbc.com/2026/04/29/were-raising-our-price-target-on-amazon-by-50-after-killer-quarter.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "title": "鲍威尔领导下的股票投资者表现非常好。债券投资者，没有那么多",
-        "summary": "在鲍威尔任期内，股票投资者表现优异，而债券投资者则表现不佳。",
+        "summary": "分析显示，在鲍威尔任期内，股票投资者表现优于债券投资者。",
         "url": "https://www.cnbc.com/2026/04/29/stock-investors-fared-very-well-under-powell-bond-investors-not-so-much.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
-        "rank": 7,
-        "title": "沙特阿拉伯 PIF 将在本赛季结束后终止对 LIV 高尔夫联赛的资助",
-        "summary": "沙特阿拉伯公共投资基金（PIF）将在本赛季结束后停止对LIV高尔夫联赛的资助。",
-        "url": "https://www.cnbc.com/2026/04/29/saudi-pif-to-end-funding-liv-golf.html",
-        "source": "CNBC",
-        "category": "投融资"
-      },
-      {
-        "rank": 8,
+        "rank": 9,
         "title": "印度本土10亿美元高速交易独角兽走向全球",
-        "summary": "印度一家估值10亿美元的交易独角兽企业正走向国际市场。",
+        "summary": "一家印度本土的独角兽公司正以 10 亿美元的估值走向全球化。",
         "url": "https://www.bloomberg.com/news/features/2026-04-29/india-s-hft-unicorn-graviton-goes-global-as-foreign-rivals-dial-up-competition",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 9,
-        "title": "亚马逊云部门销售额增长 28%，超出预期",
-        "summary": "亚马逊的云服务部门销售额增长28%，超出市场预期。",
-        "url": "https://www.cnbc.com/2026/04/29/aws-earnings-q1-2026.html",
-        "source": "CNBC",
-        "category": "宏观"
-      },
-      {
         "rank": 10,
-        "title": "贝莱德罗森伯格表示，美联储可能会继续分裂",
-        "summary": "贝莱德的罗森伯格认为，美联储在政策决策上可能会继续保持分歧。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-29/divided-fed-likely-to-continue-blackrock-s-rosenberg-video",
+        "title": "香港本地债务市场意外成为融资热点",
+        "summary": "香港本地债务市场出人意料地成为融资的热门区域。",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/hong-kong-s-local-debt-market-becomes-surprise-funding-hotspot",
         "source": "Bloomberg Markets",
-        "category": "宏观"
+        "category": "市场"
       }
     ],
     "科技": [
       {
         "rank": 1,
-        "title": "索尼为 PlayStation 推出 30 天 DRM 签入 – 保持在线或失去访问权限",
-        "summary": "索尼为PlayStation引入30天DRM验证，用户需保持在线才能访问。",
-        "url": "https://www.tomshardware.com/video-games/playstation/sony-rolls-out-30-day-online-drm-check-in-for-playstation-digital-games-players-could-temporarily-lose-access-if-they-dont-keep-their-consoles-online",
-        "source": "Hacker News",
-        "category": "软件"
+        "title": "苹果发布 AI 框架 LaDiR：突破单一思维，并行探索多条推理路径",
+        "summary": "苹果推出新的 AI 框架 LaDiR，旨在突破单一思维模式，实现多路径并行推理。",
+        "url": "https://www.ithome.com/0/945/247.htm",
+        "source": "IT之家",
+        "category": "开发"
       },
       {
         "rank": 2,
-        "title": "苹果和英伟达的最新科技盈利信号是什么",
-        "summary": "分析苹果和英伟达最新的财报，解读科技行业的未来信号。",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-29/what-latest-tech-earnings-signal-for-apple-nvidia-video",
-        "source": "Bloomberg Tech",
+        "title": "消息称苹果已搁置研发 Vision Pro 头显，重心转向 Siri 和 AI 眼镜",
+        "summary": "传闻苹果暂停 Vision Pro 头显研发，将重心转移到 Siri 和 AI 眼镜的开发上。",
+        "url": "https://www.ithome.com/0/945/244.htm",
+        "source": "IT之家",
         "category": "软件"
       },
       {
         "rank": 3,
-        "title": "Meta 2026 财年第一财季净利润 267.73 亿美元，同比增长 61%",
-        "summary": "Meta公布2026财年第一季度净利润267.73亿美元，同比增长61%。",
-        "url": "https://www.ithome.com/0/945/238.htm",
+        "title": "苹果 AI 眼镜曝光：内置 2 颗摄像头、支持 Siri 智能交互、可手势控制",
+        "summary": "苹果的 AI 眼镜被曝光，具备双摄像头、Siri 交互和手势控制功能。",
+        "url": "https://www.ithome.com/0/945/241.htm",
         "source": "IT之家",
         "category": "软件"
       },
       {
         "rank": 4,
-        "title": "Alphabet 谷歌云、人工智能客户的销售额超出预期",
-        "summary": "Alphabet的谷歌云和AI客户销售额超出了预期。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/alphabet-sales-beat-estimates-on-google-cloud-ai-customers",
-        "source": "Bloomberg Tech",
+        "title": "马克·扎克伯格表示 Meta 正在开发供个人和商业使用的人工智能代理",
+        "summary": "Meta 的马克·扎克伯格透露公司正在开发面向个人和商业使用的人工智能代理。",
+        "url": "https://www.engadget.com/2160792/mark-zuckerberg-says-meta-is-working-on-ai-agents-for-personal-and-business-use/",
+        "source": "Engadget",
         "category": "互联网"
       },
       {
         "rank": 5,
-        "title": "Gemini 现在可以生成文件，包括 Microsoft Word 和 LaTeX 文档",
-        "summary": "Google Gemini 现在能够生成包括Microsoft Word和LaTeX在内的多种文档。",
-        "url": "https://www.engadget.com/2160619/gemini-can-now-generate-files-including-microsoft-word-and-latex-documents/",
-        "source": "Engadget",
-        "category": "软件"
-      },
-      {
-        "rank": 6,
-        "title": "微软云计算的增长未能缓解投资者对人工智能的担忧",
-        "summary": "尽管微软云计算业务增长，但投资者对AI的担忧并未因此缓解。",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/microsoft-posts-strong-expansion-in-azure-cloud-computing-unit",
-        "source": "Bloomberg Tech",
-        "category": "软件"
-      },
-      {
-        "rank": 7,
-        "title": "五角大楼在无人机上的支出一年内从 2.25 亿美元跃升至 55B 美元",
-        "summary": "五角大楼在无人机上的支出一年内从2.25亿美元飙升至550亿美元。",
-        "url": "https://www.foxnews.com/politics/pentagon-jumps-from-225m-55b-drones-cheap-attacks-overwhelm-us-defenses",
-        "source": "Hacker News",
+        "title": "华为乾崑 | 奕境 X9 汽车官宣搭载 HUAWEI XSCENE 车载激光投影，将支持单人 / 多人 / 灵动岛模式",
+        "summary": "华为 XSCENE 车载激光投影技术将搭载于奕境 X9 汽车，支持多种模式。",
+        "url": "https://www.ithome.com/0/945/240.htm",
+        "source": "IT之家",
         "category": "互联网"
       },
       {
+        "rank": 6,
+        "title": "IT早报 0430：微信朋友圈灰度改版；追觅回应造车质疑称我们不可能是乐视；小米自研芯片玄戒 O3 曝光；DeepSeek 灰度“识图模式”...",
+        "summary": "IT 早报汇总了微信改版、追觅造车回应、小米芯片曝光等科技动态。",
+        "url": "https://www.ithome.com/0/945/245.htm",
+        "source": "IT之家",
+        "category": "硬件"
+      },
+      {
+        "rank": 7,
+        "title": "华为路由 X3 Pro 日照金山双母典藏版预售：透明天线、凌霄 PLC 千兆组网，2408 元",
+        "summary": "华为发布 X3 Pro 路由器典藏版，具备透明天线和千兆组网功能。",
+        "url": "https://www.ithome.com/0/945/246.htm",
+        "source": "IT之家",
+        "category": "硬件"
+      },
+      {
         "rank": 8,
-        "title": "Show HN：一次思想成长的尝试——构建具有内在生命的软件",
-        "summary": "一个名为“思想成长”的项目，旨在构建具有内在生命力的软件。",
-        "url": "https://www.momentbymoment.app/",
+        "title": "索尼为 PlayStation 推出 30 天 DRM 签入 – 保持在线或失去访问权限",
+        "summary": "索尼为 PlayStation 引入 DRM 机制，要求 30 天内联网才能保持游戏访问权限。",
+        "url": "https://www.tomshardware.com/video-games/playstation/sony-rolls-out-30-day-online-drm-check-in-for-playstation-digital-games-players-could-temporarily-lose-access-if-they-dont-keep-their-consoles-online",
         "source": "Hacker News",
         "category": "软件"
       },
       {
         "rank": 9,
-        "title": "人形机器人将在东京机场担任行李搬运工",
-        "summary": "人形机器人将在东京的机场承担行李搬运的任务。",
-        "url": "https://www.engadget.com/2160602/humanoid-robots-will-work-as-baggage-handlers-at-tokyo-airport/",
-        "source": "Engadget",
-        "category": "互联网"
+        "title": "Vera：一种专为机器编写的编程语言",
+        "summary": "介绍 Vera 编程语言，一种专为机器编写而设计的语言。",
+        "url": "https://github.com/aallan/vera",
+        "source": "Hacker News",
+        "category": "开发"
       },
       {
         "rank": 10,
-        "title": "京都樱花绽放时间比 1,200 年来任何时候都早",
-        "summary": "京都的樱花提前绽放，是1200年来最早的一次，可能与气候变化有关。",
-        "url": "https://jivx.com/kyoto-bloom",
-        "source": "Hacker News",
+        "title": "苹果和英伟达的最新科技盈利信号是什么",
+        "summary": "文章分析了苹果和英伟达的财报，解读了科技行业的最新盈利信号。",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-29/what-latest-tech-earnings-signal-for-apple-nvidia-video",
+        "source": "Bloomberg Tech",
         "category": "软件"
       }
     ],
     "国际": [
       {
         "rank": 1,
-        "title": "匈牙利下一任总理表示冻结的欧盟资金将很快支付",
-        "summary": "匈牙利当选总理承诺，之前被冻结的欧盟资金将很快得到支付。",
-        "url": "https://www.bbc.com/news/articles/c392ln77w30o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
-      },
-      {
-        "rank": 2,
         "title": "伊朗战争现在已经标明了代价（250亿美元），但仍然没有结束日期",
-        "summary": "伊朗冲突已造成250亿美元的代价，但战争仍无明确的结束日期。",
+        "summary": "伊朗战争的经济代价已达 250 亿美元，且战争仍无明确结束日期。",
         "url": "https://www.npr.org/2026/04/29/g-s1-119333/the-iran-war-now-has-a-price-tag-25-billion-but-still-no-end-date",
         "source": "NPR World",
         "category": "外交"
       },
       {
+        "rank": 2,
+        "title": "有报道称伊朗“延长”封锁后油价跃升至 117 美元上方",
+        "summary": "伊朗“延长”封锁的报道引发油价飙升至 117 美元以上。",
+        "url": "https://www.bbc.com/news/articles/cj4pxr0gr02o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "外交"
+      },
+      {
         "rank": 3,
         "title": "美印航天器捕捉到墨西哥城的下沉",
-        "summary": "美国和印度合作的航天器捕捉到了墨西哥城地面下沉的详细图像。",
+        "summary": "美印联合航天器捕捉到了墨西哥城地表沉降的现象。",
         "url": "https://science.nasa.gov/photojournal/us-indian-spacecraft-captures-mexico-city-subsidence/",
         "source": "NASA",
         "category": "科学"
       },
       {
         "rank": 4,
+        "title": "匈牙利下一任总理表示冻结的欧盟资金将很快支付",
+        "summary": "匈牙利候任总理表示，被冻结的欧盟资金即将支付。",
+        "url": "https://www.bbc.com/news/articles/c392ln77w30o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "外交"
+      },
+      {
+        "rank": 5,
         "title": "美印太空任务绘制了墨西哥城极端沉降的地图",
-        "summary": "美印联合太空任务绘制了墨西哥城地面极端沉降的详细地图。",
+        "summary": "美印太空任务成功绘制了墨西哥城极端地表沉降的详细地图。",
         "url": "https://www.nasa.gov/missions/nisar/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
         "source": "NASA",
         "category": "科学"
       },
       {
-        "rank": 5,
-        "title": "马达加斯加因涉嫌策划煽动骚乱而拘留法国国民",
-        "summary": "马达加斯加拘留了数名法国国民，指控他们策划煽动骚乱。",
-        "url": "https://www.bbc.com/news/articles/c7v96615e99o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
-      },
-      {
         "rank": 6,
-        "title": "有报道称伊朗“延长”封锁后油价跃升至 117 美元上方",
-        "summary": "据报道，伊朗延长封锁导致油价飙升至每桶117美元以上。",
-        "url": "https://www.bbc.com/news/articles/cj4pxr0gr02o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "title": "来自叙利亚的问候，战后收获的橄榄给人们带来了久违的家的味道",
+        "summary": "叙利亚战后收获的橄榄，为当地居民带来了家的味道和希望。",
+        "url": "https://www.npr.org/2026/04/29/g-s1-118663/syria-olive-harvest-homs",
+        "source": "NPR World",
         "category": "外交"
       },
       {
         "rank": 7,
-        "title": "美国最高法院限制在绘制选举地图时使用种族因素",
-        "summary": "美国最高法院裁定，在绘制选举地图时对种族因素的使用受到限制。",
-        "url": "https://www.bbc.com/news/articles/clyw3p7xv4wo?at_medium=RSS&at_campaign=rss",
+        "title": "搁浅的鲸鱼用驳船从德国水域运出",
+        "summary": "一头搁浅的鲸鱼被用驳船从德国水域运出。",
+        "url": "https://www.bbc.com/news/articles/clyp559l06no?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
         "rank": 8,
-        "title": "逃离疗养院的奥地利修女现已抵达罗马并访问了梵蒂冈",
-        "summary": "此前逃离疗养院的奥地利修女已抵达罗马并参观了梵蒂冈。",
-        "url": "https://www.npr.org/2026/04/29/g-s1-119191/austria-nuns-vatican-rome",
-        "source": "NPR World",
-        "category": "科学"
+        "title": "美国最高法院限制在绘制选举地图时使用种族因素",
+        "summary": "美国最高法院裁定限制在绘制选举地图时考虑种族因素。",
+        "url": "https://www.bbc.com/news/articles/clyw3p7xv4wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "外交"
       },
       {
         "rank": 9,
-        "title": "好   奇心博客，Sols 4873-4878：欢迎来到阿塔卡马钻探目标",
-        "summary": "“好奇号”火星车在其博客中介绍了其在阿塔卡马地区的钻探目标。",
-        "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4873-4878-welcome-to-the-atacama-drill-target/",
-        "source": "NASA",
-        "category": "科学"
+        "title": "法国调查与 Pelicot 犯罪相关的网站再次出现",
+        "summary": "法国警方再次调查与 Pelicot 犯罪相关的网站。",
+        "url": "https://www.bbc.com/news/articles/c0m2ndp2042o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "外交"
       },
       {
         "rank": 10,
-        "title": "来自叙利亚的问候，战后收获的橄榄给人们带来了久违的家的味道",
-        "summary": "叙利亚的战后橄榄收获，给人们带来了久违的家乡的味道。",
-        "url": "https://www.npr.org/2026/04/29/g-s1-118663/syria-olive-harvest-homs",
+        "title": "逃离疗养院的奥地利修女现已抵达罗马并访问了梵蒂冈",
+        "summary": "逃离疗养院的奥地利修女已抵达罗马并参观了梵蒂冈。",
+        "url": "https://www.npr.org/2026/04/29/g-s1-119191/austria-nuns-vatican-rome",
         "source": "NPR World",
-        "category": "外交"
+        "category": "科学"
       }
     ],
-    "generated_at": "2026-04-29T22:45:45.347389+00:00"
+    "generated_at": "2026-04-29T23:43:58.448550+00:00"
   }
 }
