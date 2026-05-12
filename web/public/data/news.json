@@ -1,6 +1,454 @@
 {
-  "last_updated": "2026-05-12T20:29:54.610435+00:00",
+  "last_updated": "2026-05-12T22:04:02.834009+00:00",
   "articles": [
+    {
+      "title": "Apple reportedly has a lot of changes planned for the Camera app",
+      "url": "https://www.engadget.com/2171448/apple-reportedly-has-a-lot-of-changes-planned-for-the-camera-app/",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-05-12T21:53:39+00:00",
+      "content": "iOS 27 may integrate Visual Intelligence into the Camera and make it more customizable.",
+      "id": "a983b6382d910329f1b16ebc85edee33",
+      "title_zh": "据报道，苹果计划对相机应用程序进行很多更改",
+      "summary_zh": "iOS 27 may integrate Visual Intelligence into the Camera and make it more customizable.",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259410+00:00"
+    },
+    {
+      "title": "Long AI Short AGI",
+      "url": "https://1984.substack.com/p/long-ai-short-agi",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-12T21:46:54+00:00",
+      "content": "Article URL: https://1984.substack.com/p/long-ai-short-agi\nComments URL: https://news.ycombinator.com/item?id=48115043\nPoints: 1\n# Comments: 0",
+      "id": "a1b15ffafc17fae70323b64c5dd7726f",
+      "title_zh": "做多AI 做空AGI",
+      "summary_zh": "Article URL: https://1984.substack.com/p/long-ai-short-agi Comments URL: https://news.ycombinator.com/item?id=48115043 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.262713+00:00"
+    },
+    {
+      "title": "Patch Tuesday, May 2026 Edition",
+      "url": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+      "source": "Krebs on Security",
+      "domain": "安全",
+      "published": "2026-05-12T21:46:45+00:00",
+      "content": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
+      "id": "5070bf3d82edfb1122908158d66effa1",
+      "title_zh": "2026 年 5 月星期二补丁版",
+      "summary_zh": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code",
+      "category": "漏洞",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.256475+00:00"
+    },
+    {
+      "title": "CME to Create Futures Market for AI Computing Power",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-12/cme-to-create-futures-market-for-ai-computing-power-video",
+      "source": "Bloomberg Tech",
+      "domain": "AI",
+      "published": "2026-05-12T21:45:51+00:00",
+      "content": "Bloomberg reporters Silla Brush and Katherine Doherty break down how US derivatives exchange CME Group index provider Silicon Data are teaming up to create a futures market for the computing power that backs artificial intelligence infrastructure. Brush and Doherty report that a futures market would functionally set a price for computing power and say that the move signals to the rest of the industry that it is set to be a 'serious asset class.' (Source: Bloomberg)",
+      "id": "a99b789c6d169c074a3c49fd9054707d",
+      "title_zh": "CME将打造人工智能算力期货市场",
+      "summary_zh": "Bloomberg reporters Silla Brush and Katherine Doherty break down how US derivatives exchange CME Group index provider Silicon Data are teaming up to create a futures market for the computing power tha",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.260933+00:00"
+    },
+    {
+      "title": "Mexico Rating Outlook Revised to Negative at S&amp;P as Debts Mount",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/mexico-rating-outlook-revised-to-negative-at-s-p-as-debts-mount",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T21:40:00+00:00",
+      "content": "S&amp;P Global Ratings revised Mexico’s credit outlook to negative from stable, citing persistently weak fiscal results, rising debt levels and weak economic growth.",
+      "id": "0c057bafa9f2163fc884cf45d036214a",
+      "title_zh": "由于债务增加，标准普尔将墨西哥评级展望下调为负面",
+      "summary_zh": "S&amp;P Global Ratings revised Mexico’s credit outlook to negative from stable, citing persistently weak fiscal results, rising debt levels and weak economic growth.",
+      "category": "宏观",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259042+00:00"
+    },
+    {
+      "title": "The Emotional Cost of AI-Assisted Coding",
+      "url": "https://news.ycombinator.com/item?id=48114954",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-12T21:37:58+00:00",
+      "content": "This post doesn’t have a blog or article; it is a blog itself (kind of). I’m just sharing how coding agents feel.A little about me: I started CS in 2020. I liked being able to instruct and interact with the world through code. I especially liked how code runs on hardware, and how software plus hardware can make machines learn patterns.Coding in the pre-LLM era felt like real engineering. I don’t have the words for it, but things felt grounded, discrete math, fundamentals, networking protocols, it felt like hard engineering. A simple web server on a Sunday morning felt like an intellectual endeavour. After reading docs, architecture patterns, and obscure engineer blogs, you actually learned something that stayed with you, plus a small proud GitHub project (think Sophomore CS grad perspective). Life was simpler.Fast forward 6 years. People are obsessed with AI. Obsessed with results, not process or learning. Not a day goes by without “cracked builders”, “token maxing”, “AI first”. Non-te",
+      "id": "5519b7ea2f8602cd621bc6d0550252b2",
+      "title_zh": "人工智能辅助编码的情感成本",
+      "summary_zh": "This post doesn’t have a blog or article; it is a blog itself (kind of). I’m just sharing how coding agents feel.A little about me: I started CS in 2020. I liked being able to instruct and interact wi",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.262903+00:00"
+    },
+    {
+      "title": "Anthropic's Computer Use API: How AI Is Navigating Your Desktop Now",
+      "url": "https://www.aigridnews.com/anthropics-computer-use-api-how-ai-is-navigating-your-desktop-now",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-12T21:28:05+00:00",
+      "content": "Article URL: https://www.aigridnews.com/anthropics-computer-use-api-how-ai-is-navigating-your-desktop-now\nComments URL: https://news.ycombinator.com/item?id=48114849\nPoints: 1\n# Comments: 0",
+      "id": "9c9fa6fc25d7b23755dbbc3c215c6a50",
+      "title_zh": "Anthropic 的计算机使用 API：人工智能现在如何导航您的桌面",
+      "summary_zh": "Article URL: https://www.aigridnews.com/anthropics-computer-use-api-how-ai-is-navigating-your-desktop-now Comments URL: https://news.ycombinator.com/item?id=48114849 Points: 1 # Comments: 0",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.262953+00:00"
+    },
+    {
+      "title": "Anthropic publicly releases AI tool that can take over the ' mouse cursor(2024)",
+      "url": "https://arstechnica.com/ai/2024/10/anthropic-publicly-releases-ai-tool-that-can-take-over-the-users-mouse-cursor/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-12T21:25:26+00:00",
+      "content": "Article URL: https://arstechnica.com/ai/2024/10/anthropic-publicly-releases-ai-tool-that-can-take-over-the-users-mouse-cursor/\nComments URL: https://news.ycombinator.com/item?id=48114822\nPoints: 1\n# Comments: 0",
+      "id": "5b2604cdb14bd1e0ab313537f8513bb4",
+      "title_zh": "Anthropic公开发布可以接管鼠标光标的AI工具（2024）",
+      "summary_zh": "Article URL: https://arstechnica.com/ai/2024/10/anthropic-publicly-releases-ai-tool-that-can-take-over-the-users-mouse-cursor/ Comments URL: https://news.ycombinator.com/item?id=48114822 Points: 1 # C",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.263004+00:00"
+    },
+    {
+      "title": "Most-Shorted US Stocks Led the Rally, S3's Sloan Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-12/most-shorted-us-stocks-led-the-rally-s3-s-sloan-says-video",
+      "source": "Bloomberg Tech",
+      "domain": "经济",
+      "published": "2026-05-12T21:19:16+00:00",
+      "content": "\"Risk is on and at higher levels,\" Bob Sloan, managing partner at S3 Partners, says when discusses short covering in US stocks on \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "id": "e3a2734d286f5d3f1e1cd3a7fc4c5885",
+      "title_zh": "S3 的斯隆表示，做空最多的美国股票领涨",
+      "summary_zh": "\"Risk is on and at higher levels,\" Bob Sloan, managing partner at S3 Partners, says when discusses short covering in US stocks on \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.261007+00:00"
+    },
+    {
+      "title": "How Americans see China now",
+      "url": "https://www.npr.org/2026/05/12/nx-s1-5761387/how-americans-see-china-now",
+      "source": "NPR World",
+      "domain": "国际",
+      "published": "2026-05-12T21:18:16+00:00",
+      "content": "As President Trump heads to China this week, a new NPR-Chicago Council-Ipsos poll finds most Americans think U.S. tariffs have hurt both economies, and that the Iran war is bad for America.",
+      "id": "888f1c64988e9d1ce4b7594eec1cd9e2",
+      "title_zh": "美国人现在如何看待中国",
+      "summary_zh": "As President Trump heads to China this week, a new NPR-Chicago Council-Ipsos poll finds most Americans think U.S. tariffs have hurt both economies, and that the Iran war is bad for America.",
+      "category": "贸易",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.260463+00:00"
+    },
+    {
+      "title": "DOJ extracts $30m settlement from PayPal over minority-owned business program",
+      "url": "https://www.engadget.com/2171401/doj-extracts-30m-settlement-from-paypal-over-minority-owned-business-program/",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-05-12T21:14:52+00:00",
+      "content": "The federal retaliation against corporate DEI efforts marches on.",
+      "id": "e72edd64d95d21703f6c9ea03f59d97a",
+      "title_zh": "DOJ 就少数族裔拥有的商业计划向 PayPal 收取 3000 万美元和解金",
+      "summary_zh": "The federal retaliation against corporate DEI efforts marches on.",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259431+00:00"
+    },
+    {
+      "title": "Trump's Goal In China? Keep It Simple",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-12/opinion-trump-s-goal-in-china-keep-it-simple-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T21:13:34+00:00",
+      "content": "Expectations are running high for the US-China summit in Beijing, but Trump’s main goal should be to not make things worse, the Editorial Board writes. (Source: Bloomberg)",
+      "id": "e6354d5ab763a04008e7d2c33177d873",
+      "title_zh": "特朗普在中国的目标是什么？保持简单",
+      "summary_zh": "Expectations are running high for the US-China summit in Beijing, but Trump’s main goal should be to not make things worse, the Editorial Board writes. (Source: Bloomberg)",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259079+00:00"
+    },
+    {
+      "title": "Nvidia CEO Pay Package Shrinks 27% on Smaller Stock Awards",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/nvidia-ceo-pay-package-shrinks-27-on-smaller-stock-awards",
+      "source": "Bloomberg Tech",
+      "domain": "经济",
+      "published": "2026-05-12T21:13:10+00:00",
+      "content": "The total pay package for Nvidia Corp. Chief Executive Officer Jensen Huang decreased 27% to $36.3 million in fiscal 2026 after the value of his stock awards declined.",
+      "id": "202262b8d6d970cfd9c2ce28eb9e7ab6",
+      "title_zh": "因股票奖励减少，Nvidia CEO 薪酬缩减 27%",
+      "summary_zh": "The total pay package for Nvidia Corp. Chief Executive Officer Jensen Huang decreased 27% to $36.3 million in fiscal 2026 after the value of his stock awards declined.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.261081+00:00"
+    },
+    {
+      "title": "I've been running an AI editorial pipeline on the Iran-US war for 75 days",
+      "url": "https://worldwarwatcher.com",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-12T21:11:44+00:00",
+      "content": "Article URL: https://worldwarwatcher.com\nComments URL: https://news.ycombinator.com/item?id=48114647\nPoints: 1\n# Comments: 0",
+      "id": "7253339ece065b995243570666f0d2cc",
+      "title_zh": "我已经运行有关伊朗-美国战争的人工智能编辑流程 75 天了",
+      "summary_zh": "Article URL: https://worldwarwatcher.com Comments URL: https://news.ycombinator.com/item?id=48114647 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.263047+00:00"
+    },
+    {
+      "title": "Anthropic In Talks to Raise $30 Billion at $900 Billion Valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+      "source": "Bloomberg Tech",
+      "domain": "AI",
+      "published": "2026-05-12T21:08:04+00:00",
+      "content": "Anthropic PBC is in early talks with investors to raise at least $30 billion in fresh financing, according to people familiar with the matter, setting the stage for what could be its largest funding round yet.",
+      "id": "dbdb3c413f63e605d0749a60348e34b6",
+      "title_zh": "Anthropic 正在洽谈融资 300 亿美元，估值达 9000 亿美元",
+      "summary_zh": "Anthropic PBC is in early talks with investors to raise at least $30 billion in fresh financing, according to people familiar with the matter, setting the stage for what could be its largest funding r",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.261186+00:00"
+    },
+    {
+      "title": "What Satellite Images Reveal About Iran's Attacks on U.S. Bases [video]",
+      "url": "https://www.youtube.com/watch?v=JRnoi3repjo",
+      "source": "Hacker News",
+      "domain": "国际",
+      "published": "2026-05-12T21:05:45+00:00",
+      "content": "What Satellite Images Reveal About Iran's Attacks on U.S. Bases [video]. Score: 4, Comments: 0",
+      "id": "546963001d73618cf45a45e6b7e7d2a8",
+      "title_zh": "卫星图像揭示了伊朗对美国基地的袭击[视频]",
+      "summary_zh": "What Satellite Images Reveal About Iran's Attacks on U.S. Bases [video]. Score: 4, Comments: 0",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.262181+00:00"
+    },
+    {
+      "title": "AI Strategy Has a Blind Spot: The Network",
+      "url": "https://www.kentik.com/blog/your-ai-strategy-has-a-blind-spot-the-network/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-12T21:05:24+00:00",
+      "content": "Article URL: https://www.kentik.com/blog/your-ai-strategy-has-a-blind-spot-the-network/\nComments URL: https://news.ycombinator.com/item?id=48114554\nPoints: 1\n# Comments: 0",
+      "id": "85ffae75727dc1b0c7da926d631d4185",
+      "title_zh": "AI策略有一个盲点：网络",
+      "summary_zh": "Article URL: https://www.kentik.com/blog/your-ai-strategy-has-a-blind-spot-the-network/ Comments URL: https://news.ycombinator.com/item?id=48114554 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.263090+00:00"
+    },
+    {
+      "title": "Japan’s Sojitz Eyes Southeast Asia for New Rare Earths Supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/japan-s-sojitz-eyes-southeast-asia-for-new-rare-earths-supply",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T21:00:00+00:00",
+      "content": "Japanese trading house Sojitz Corp. is looking to Southeast Asia and other regions as new potential sources of rare earths outside Australia, as it aims to boost output and diversify its supply chain of the highly sought-after materials.",
+      "id": "b228ad5e59209be8b84dbf575ebc8365",
+      "title_zh": "日本双日着眼于东南亚寻找新的稀土供应",
+      "summary_zh": "Japanese trading house Sojitz Corp. is looking to Southeast Asia and other regions as new potential sources of rare earths outside Australia, as it aims to boost output and diversify its supply chain",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259123+00:00"
+    },
+    {
+      "title": "China’s Manufacturing Heartland Tested by Iran War Energy Shock",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/china-s-manufacturing-heartland-tested-by-iran-war-energy-shock",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T21:00:00+00:00",
+      "content": "Economic activity in China’s most important manufacturing hub is heaping pressure on power supplies, sparking an energy stress test as the Iran war chokes shipments of fuel.",
+      "id": "2256b1882d305017f68b4babc08e481b",
+      "title_zh": "中国制造业腹地经受伊朗战争能源冲击考验",
+      "summary_zh": "Economic activity in China’s most important manufacturing hub is heaping pressure on power supplies, sparking an energy stress test as the Iran war chokes shipments of fuel.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259161+00:00"
+    },
+    {
+      "title": "Meta employees protest against mouse tracking tech at US offices",
+      "url": "https://www.reuters.com/sustainability/society-equity/meta-us-employees-organize-protest-against-mouse-tracking-tech-2026-05-12/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-05-12T20:58:18+00:00",
+      "content": "Meta employees protest against mouse tracking tech at US offices. Score: 28, Comments: 13",
+      "id": "394b0feb06dd541a1a3bb01a3e6487ea",
+      "title_zh": "Meta 员工抗议美国办公室的鼠标追踪技术",
+      "summary_zh": "Meta employees protest against mouse tracking tech at US offices. Score: 28, Comments: 13",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.261688+00:00"
+    },
+    {
+      "title": "Show HN: GitGlimpse – CLI for understanding AI-generated Git diffs",
+      "url": "https://gitglimpse.com",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-12T20:53:55+00:00",
+      "content": "Built GitGlimpse — a CLI that helps you understand AI-generated code changes faster.Coding agents can generate huge diffs quickly, but reviewing those changes is getting harder — especially in PRs where the author used an agent and already has the context in their head.GitGlimpse analyzes git diffs and generates contextual summaries of what changed and why, making PR reviews easier and faster.It can also:* generate standups/changelogs\n* summarize commits and branches\n* run in CI pipelines and automatically post PR context/commentsGitHub: https://github.com/dino-zecevic/gitglimpseWould love feedback from people dealing with AI-generated PRs/code reviews.\n\nComments URL: https://news.ycombinator.com/item?id=48114398\nPoints: 1\n# Comments: 0",
+      "id": "a4b41065f6ddb97221726742c93a58bd",
+      "title_zh": "Show HN：GitGlimpse – 用于理解 AI 生成的 Git 差异的 CLI",
+      "summary_zh": "Built GitGlimpse — a CLI that helps you understand AI-generated code changes faster.Coding agents can generate huge diffs quickly, but reviewing those changes is getting harder — especially in PRs whe",
+      "category": "开源",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.263251+00:00"
+    },
+    {
+      "title": "Swatch Internet Time",
+      "url": "https://en.wikipedia.org/wiki/Swatch_Internet_Time",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-12T20:53:44+00:00",
+      "content": "Swatch Internet Time. Score: 3, Comments: 0",
+      "id": "d115de539ec9aaaeb7a1a3f222f002e2",
+      "title_zh": "斯沃琪互联网时间",
+      "summary_zh": "Swatch Internet Time. Score: 3, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.262229+00:00"
+    },
+    {
+      "title": "CommScope Sued by Lenders for at Least $150 Million Over Alleged Breach",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/commscope-sued-by-lenders-for-at-least-150-million-over-alleged-breach",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T20:53:16+00:00",
+      "content": "CommScope Holding Co. was sued by a group of lenders who allege the telecommunications provider breached a debt agreement by failing to pay a prescribed premium of at least $150 million following a key asset sale.",
+      "id": "34ca2824be63cb9bc8b878e32cafbfae",
+      "title_zh": "康普因涉嫌违规被贷方起诉至少 1.5 亿美元",
+      "summary_zh": "CommScope Holding Co. was sued by a group of lenders who allege the telecommunications provider breached a debt agreement by failing to pay a prescribed premium of at least $150 million following a ke",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259190+00:00"
+    },
+    {
+      "title": "S&P 500 & NASDAQ Fall as Oil Jumps | Closing Bell",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-12/s-p-500-nasdaq-fall-as-oil-jumps-closing-bell-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T20:44:34+00:00",
+      "content": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+      "id": "de6f45ab91c64b63036872dde4d07698",
+      "title_zh": "随着油价上涨，标普 500 指数和纳斯达克指数下跌 |结束钟声",
+      "summary_zh": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloom",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259216+00:00"
+    },
+    {
+      "title": "Paper introduces Positive Alignment framework for AI",
+      "url": "https://twitter.com/RubenLaukkonen/status/2054215967584944599",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-12T20:35:48+00:00",
+      "content": "Article URL: https://twitter.com/RubenLaukkonen/status/2054215967584944599\nComments URL: https://news.ycombinator.com/item?id=48114167\nPoints: 1\n# Comments: 0",
+      "id": "f206a35e407f4f7f1b4a90b6c279f59f",
+      "title_zh": "论文介绍了人工智能的正向对齐框架",
+      "summary_zh": "Article URL: https://twitter.com/RubenLaukkonen/status/2054215967584944599 Comments URL: https://news.ycombinator.com/item?id=48114167 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.263294+00:00"
+    },
+    {
+      "title": "Meta won’t let you block its AI account on Threads",
+      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+      "source": "The Verge AI",
+      "domain": "AI",
+      "published": "2026-05-12T20:35:23+00:00",
+      "content": "Meta announced on Tuesday that it's testing a Threads feature that lets users tag a Meta AI account to get answers to questions or context about a conversation on the platform. If you've spent any time looking at replies on X as of late, this new feature sounds a lot like Meta's take on people [&#8230;]",
+      "id": "eed543b4bdb576ca577b23f19807f876",
+      "title_zh": "Meta 不会让你在 Threads 上屏蔽其 AI 帐户",
+      "summary_zh": "Meta announced on Tuesday that it's testing a Threads feature that lets users tag a Meta AI account to get answers to questions or context about a conversation on the platform. If you've spent any tim",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.246856+00:00"
+    },
+    {
+      "title": "Bond Bears Reload Fed Rate Hike Wagers on Stubborn Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/bond-bears-reload-fed-rate-hike-wagers-on-stubborn-inflation",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T20:32:54+00:00",
+      "content": "Traders have renewed bearish bets on US Treasuries, lifting expectations that the Federal Reserve will raise interest rates as oil prices and inflation push higher.",
+      "id": "1be62010fc6e14211dc97a6beaa71ac1",
+      "title_zh": "债券空头因通胀顽固而重新押注美联储加息",
+      "summary_zh": "Traders have renewed bearish bets on US Treasuries, lifting expectations that the Federal Reserve will raise interest rates as oil prices and inflation push higher.",
+      "category": "宏观",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259314+00:00"
+    },
+    {
+      "title": "Trump Says US Inflation Is 'Short Term'",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-12/trump-says-us-inflation-is-short-term-video",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T20:31:44+00:00",
+      "content": "President Donald Trump says inflation in the US is only \"short term.\" He spoke before leaving for Beijing on Tuesday. US inflation accelerated in April due to rising gasoline and grocery costs, exceeding wage growth. (Source: Bloomberg)",
+      "id": "ee1ec120b70925e0897b791a0a52ac2e",
+      "title_zh": "特朗普称美国通胀是“短期的”",
+      "summary_zh": "President Donald Trump says inflation in the US is only \"short term.\" He spoke before leaving for Beijing on Tuesday. US inflation accelerated in April due to rising gasoline and grocery costs, exceed",
+      "category": "宏观",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259358+00:00"
+    },
+    {
+      "title": "NBA The Run hits the streets on June 9",
+      "url": "https://www.engadget.com/2171357/nba-the-run-hits-the-streets-on-june-9/",
+      "source": "Engadget",
+      "domain": "科技",
+      "published": "2026-05-12T20:30:30+00:00",
+      "content": "The game is sort of a spiritual sequel to NBA Street and NBA Jam.",
+      "id": "86889e563f38b0d1af49e8a4bef3e43b",
+      "title_zh": "NBA The Run 将于 6 月 9 日登陆街头",
+      "summary_zh": "The game is sort of a spiritual sequel to NBA Street and NBA Jam.",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259452+00:00"
+    },
+    {
+      "title": "Spar [KILL]: AI distribution agent for startups that identifies warm intro paths",
+      "url": "https://sparit.vc/spar/d/BPCf3D6XsY",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-12T20:28:23+00:00",
+      "content": "Article URL: https://sparit.vc/spar/d/BPCf3D6XsY\nComments URL: https://news.ycombinator.com/item?id=48114062\nPoints: 1\n# Comments: 0",
+      "id": "365e9c3478586d6a249d76041b52a5fb",
+      "title_zh": "Spar [KILL]：用于初创公司的 AI 分发代理，可识别热介绍路径",
+      "summary_zh": "Article URL: https://sparit.vc/spar/d/BPCf3D6XsY Comments URL: https://news.ycombinator.com/item?id=48114062 Points: 1 # Comments: 0",
+      "category": "CV",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.263358+00:00"
+    },
+    {
+      "title": "American Electric Power Utility Offers $2.6 Billion in Stock",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/american-electric-power-utility-offers-2-6-billion-in-shares",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T20:23:52+00:00",
+      "content": "American Electric Power Co., one of the biggest utilities in the US, is seeking to raise $2.6 billion in a share sale as artificial intelligence technology drives booming demand for electricity.",
+      "id": "5e880a58a8ab8834b7abb513bbbb45b9",
+      "title_zh": "美国电力公司出售价值 26 亿美元的股票",
+      "summary_zh": "American Electric Power Co., one of the biggest utilities in the US, is seeking to raise $2.6 billion in a share sale as artificial intelligence technology drives booming demand for electricity.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259289+00:00"
+    },
+    {
+      "title": "AI Dividend Proposal Roils Korean Market | Bloomberg Tech 5/12/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-12/bloomberg-tech-5-12-2026-video",
+      "source": "Bloomberg Tech",
+      "domain": "AI",
+      "published": "2026-05-12T20:22:24+00:00",
+      "content": "Bloomberg’s Caroline Hyde and Ed Ludlow discuss comments by a South Korean policymaker that the country should pay citizens a “dividend” using taxes on AI profits. Plus, the largest US derivatives exchange, CME, is planning to create a futures market for computing power, one of the key drivers of the AI boom. And, the CEO of SAP talks about the company’s push into AI agents across business operations. (Source: Bloomberg)",
+      "id": "ffed659653cef0aa934e1480d239ab6c",
+      "title_zh": "人工智能股息提案搅动韩国市场 |彭博科技 2026 年 5 月 12 日",
+      "summary_zh": "Bloomberg’s Caroline Hyde and Ed Ludlow discuss comments by a South Korean policymaker that the country should pay citizens a “dividend” using taxes on AI profits. Plus, the largest US derivatives exc",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.261434+00:00"
+    },
     {
       "title": "New York City Mayor Zohran Mamdani's pied-à-terre property tax is moving ahead. But will it work?",
       "url": "https://www.cnbc.com/2026/05/12/mayor-mamdani-new-york-pied-terre-property-tax-real-estate.html",
@@ -156,6 +604,20 @@
       "collected": "2026-05-12T20:28:35.924799+00:00"
     },
     {
+      "title": "OpenAI Hit with Overdose Suit Targeting ChatGPT Drug Advice (1)",
+      "url": "https://news.bloomberglaw.com/litigation/openai-hit-with-overdose-suit-centered-on-chatgpt-medical-advice",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-05-12T20:00:51+00:00",
+      "content": "OpenAI Hit with Overdose Suit Targeting ChatGPT Drug Advice (1). Score: 7, Comments: 1",
+      "id": "7640b61915f618ec6f0d0ca003f3b82f",
+      "title_zh": "OpenAI 针对 ChatGPT 药物建议提出过量诉讼 (1)",
+      "summary_zh": "OpenAI Hit with Overdose Suit Targeting ChatGPT Drug Advice (1). Score: 7, Comments: 1",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.262489+00:00"
+    },
+    {
       "title": "Metroid Dread developer MercurySteam announces layoffs",
       "url": "https://www.engadget.com/2171294/metroid-dread-developer-mercurysteam-announces-layoffs/",
       "source": "Engadget",
@@ -238,6 +700,20 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-05-12T20:28:35.927104+00:00"
+    },
+    {
+      "title": "Beyond Semantic Similarity",
+      "url": "https://arxiv.org/abs/2605.05242",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-12T19:51:41+00:00",
+      "content": "Beyond Semantic Similarity. Score: 20, Comments: 2",
+      "id": "11893549d211fead19972ada74c1dc16",
+      "title_zh": "超越语义相似性",
+      "summary_zh": "Beyond Semantic Similarity. Score: 20, Comments: 2",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.261491+00:00"
     },
     {
       "title": "Kash Patel Touts AI Overhaul of FBI Crime-Fighting Operations",
@@ -380,6 +856,34 @@
       "collected": "2026-05-12T20:28:35.924674+00:00"
     },
     {
+      "title": "A Hackers Guide to Circumventing Internet Shutdowns",
+      "url": "https://www.eff.org/deeplinks/2026/05/hackers-guide-circumventing-internet-shutdowns",
+      "source": "Hacker News",
+      "domain": "安全",
+      "published": "2026-05-12T19:32:25+00:00",
+      "content": "A Hackers Guide to Circumventing Internet Shutdowns. Score: 5, Comments: 0",
+      "id": "44b2224639b452509f4e688579e118ce",
+      "title_zh": "绕过互联网关闭的黑客指南",
+      "summary_zh": "A Hackers Guide to Circumventing Internet Shutdowns. Score: 5, Comments: 0",
+      "category": "攻防",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.262406+00:00"
+    },
+    {
+      "title": "Bullshit Machines",
+      "url": "https://thebullshitmachines.com",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-12T19:27:04+00:00",
+      "content": "Bullshit Machines. Score: 10, Comments: 2",
+      "id": "b5fe54a3d7be21264e27d6c87ef176b9",
+      "title_zh": "废话机器",
+      "summary_zh": "Bullshit Machines. Score: 10, Comments: 2",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.261783+00:00"
+    },
+    {
       "title": "Android gets AI agents that book trips, fill forms, and clean up your texts",
       "url": "https://the-decoder.com/gemini-intelligence-makes-autofill-chrome-and-gboard-on-android-smarter/",
       "source": "The Decoder",
@@ -406,6 +910,34 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-05-12T20:28:35.924755+00:00"
+    },
+    {
+      "title": "An under-the-radar AI stock just delivered the best quarter of the chip sector",
+      "url": "https://www.cnbc.com/2026/05/12/an-under-the-radar-stock-delivered-the-best-quarter-of-the-chip-sector.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-05-12T19:20:49+00:00",
+      "content": "Qnity is in a great position to keep grabbing market share, not only as chips get smaller but also as the industry shifts more toward stacking.",
+      "id": "85c9dddb9506bb51d2b68a4610ed2d12",
+      "title_zh": "一只不为人知的人工智能股票刚刚创造了芯片行业最好的季度业绩",
+      "summary_zh": "Qnity is in a great position to keep grabbing market share, not only as chips get smaller but also as the industry shifts more toward stacking.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259384+00:00"
+    },
+    {
+      "title": "Curl and Mythos",
+      "url": "https://anderegg.ca/2026/05/11/on-curl-and-mythos",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-12T19:19:08+00:00",
+      "content": "Curl and Mythos. Score: 7, Comments: 1",
+      "id": "e81854e31162b31a59afdd95cdfecac9",
+      "title_zh": "卷曲与神话",
+      "summary_zh": "Curl and Mythos. Score: 7, Comments: 1",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.262587+00:00"
     },
     {
       "title": "The Rise of the Bullshittery",
@@ -504,6 +1036,20 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-05-12T20:28:35.928912+00:00"
+    },
+    {
+      "title": "Twin brothers wipe 96 gov't databases minutes after being fired",
+      "url": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
+      "source": "Ars Technica",
+      "domain": "科技",
+      "published": "2026-05-12T19:12:07+00:00",
+      "content": "A case study in why credentials are revoked before firings.",
+      "id": "b8681bffb3260524bb0754100345c924",
+      "title_zh": "双胞胎兄弟被解雇几分钟后就擦除了 96 个政府数据库",
+      "summary_zh": "A case study in why credentials are revoked before firings.",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259472+00:00"
     },
     {
       "title": "Why is Anthropic's training data disclosure AI-generated?",
@@ -2018,6 +2564,20 @@
       "collected": "2026-05-12T18:33:10.213229+00:00"
     },
     {
+      "title": "Is this why science advances one funeral at a time?",
+      "url": "https://nautil.us/is-this-why-science-advances-one-funeral-at-a-time-1280650",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-12T17:16:59+00:00",
+      "content": "Is this why science advances one funeral at a time?. Score: 12, Comments: 11",
+      "id": "60c2f8fb6f2c69b6e64bf89f988a00fe",
+      "title_zh": "这就是科学一次推进一场葬礼的原因吗？",
+      "summary_zh": "Is this why science advances one funeral at a time?. Score: 12, Comments: 11",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.261549+00:00"
+    },
+    {
       "title": "谷歌推出 Googlebooks 高端安卓笔记本品类：宏碁、联想等首发，今秋上线",
       "url": "https://www.ithome.com/0/949/542.htm",
       "source": "IT之家",
@@ -2212,6 +2772,20 @@
       "category": "软件",
       "tags": [],
       "collected": "2026-05-12T18:33:10.215829+00:00"
+    },
+    {
+      "title": "Debt, Inflation, Politics: UK Bonds Are Taking a Triple Hit",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/debt-inflation-and-politics-uk-bonds-are-taking-a-triple-hit",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-12T17:00:00+00:00",
+      "content": "As UK Prime Minister Keir Starmer slowly loses allies in government and fights for his survival, the escalating political drama is heaping fresh pressure onto a bond market already battered by the country’s deep-rooted fiscal and economic problems.",
+      "id": "4ce977bdcdb43b74fdba247511837047",
+      "title_zh": "债务、通胀、政治：英国债券遭受三重打击",
+      "summary_zh": "As UK Prime Minister Keir Starmer slowly loses allies in government and fights for his survival, the escalating political drama is heaping fresh pressure onto a bond market already battered by the cou",
+      "category": "宏观",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.259260+00:00"
     },
     {
       "title": "Google brings agentic AI and vibe-coded widgets to Android",
@@ -3444,6 +4018,20 @@
       "category": "宏观",
       "tags": [],
       "collected": "2026-05-12T16:12:38.938732+00:00"
+    },
+    {
+      "title": "How finance teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-finance-teams-use-codex",
+      "source": "OpenAI Blog",
+      "domain": "AI",
+      "published": "2026-05-12T15:00:00+00:00",
+      "content": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "id": "420b6ee922a427e442c0a94f763a5f84",
+      "title_zh": "财务团队如何使用 Codex",
+      "summary_zh": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.250461+00:00"
     },
     {
       "title": "US Household Debt Delinquencies Stay Flat in First Quarter",
@@ -5110,6 +5698,20 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-05-12T13:50:28.168950+00:00"
+    },
+    {
+      "title": "Chad’s refugee crisis overwhelms maternity care in east, UN agency warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/05/1167494",
+      "source": "UN News",
+      "domain": "国际",
+      "published": "2026-05-12T12:00:00+00:00",
+      "content": "Many women in eastern Chad are being forced to give birth in overcrowded clinics with limited medicine, minimal equipment and severe shortages of anesthesia, as a worsening humanitarian crisis overwhelms the country’s fragile healthcare system, the UN reproductive health agency, UNFPA, warned on Tuesday.",
+      "id": "9cfb3c326d54c9fb336ac8c3e4a13b31",
+      "title_zh": "联合国机构警告乍得难民危机压垮了东部地区的产妇护理",
+      "summary_zh": "Many women in eastern Chad are being forced to give birth in overcrowded clinics with limited medicine, minimal equipment and severe shortages of anesthesia, as a worsening humanitarian crisis overwhe",
+      "category": "科学",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.260212+00:00"
     },
     {
       "title": "Guterres highlights Africa’s leadership in speech to summit in Nairobi",
@@ -10660,6 +11262,20 @@
       "category": "外交",
       "tags": [],
       "collected": "2026-05-12T01:49:52.193398+00:00"
+    },
+    {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "url": "https://openai.com/index/nvidia",
+      "source": "OpenAI Blog",
+      "domain": "AI",
+      "published": "2026-05-12T00:00:00+00:00",
+      "content": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "id": "efdc3d87f1cd000b273fcc7b93fecbb0",
+      "title_zh": "NVIDIA 工程师和研究人员如何使用 Codex 进行构建",
+      "summary_zh": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.250501+00:00"
     },
     {
       "title": "What Parameter Golf taught us about AI-assisted research",
@@ -21716,6 +22332,20 @@
       "collected": "2026-05-11T01:55:30.732695+00:00"
     },
     {
+      "title": "A Preview of the Future",
+      "url": "https://unsung.aresluna.org/a-preview-of-the-future/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-11T00:13:51+00:00",
+      "content": "A Preview of the Future. Score: 16, Comments: 2",
+      "id": "94831ca94ddc9ab365f5957d272754ef",
+      "title_zh": "未来的预览",
+      "summary_zh": "A Preview of the Future. Score: 16, Comments: 2",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-12T22:02:36.261831+00:00"
+    },
+    {
       "title": "Make America AI ready: Strengths, weaknesses, and recommendations",
       "url": "https://blog.citp.princeton.edu/2026/05/05/make-america-ai-ready-strengths-weaknesses-and-recommendations/",
       "source": "Hacker News",
@@ -27244,458 +27874,234 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-05-09T22:32:31.368510+00:00"
-    },
-    {
-      "title": "Traders Looking for Next Leg in Global Stocks Rally Bet on Asia",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-09/traders-looking-for-next-leg-in-global-stocks-rally-bet-on-asia",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-09T22:00:00+00:00",
-      "content": "As the focus moves away from the Iran war, investors and strategists alike are looking for the next leg up in equities. Many are turning to Asia.",
-      "id": "b1dd0a197534c718cd068331d2af4735",
-      "title_zh": "寻找全球股市下一波反弹的交易员押注亚洲",
-      "summary_zh": "As the focus moves away from the Iran war, investors and strategists alike are looking for the next leg up in equities. Many are turning to Asia.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-09T22:32:31.367074+00:00"
-    },
-    {
-      "title": "Getting Arrested in Japan",
-      "url": "https://sundaicity.com/blogs/getting-arrested-in-japan",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-09T21:56:19+00:00",
-      "content": "Getting Arrested in Japan. Score: 94, Comments: 64",
-      "id": "a52dd94b751ae264db6ff5d5ac002032",
-      "title_zh": "在日本被捕",
-      "summary_zh": "Getting Arrested in Japan. Score: 94, Comments: 64",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-09T23:36:32.015408+00:00"
-    },
-    {
-      "title": "Rust but Lisp",
-      "url": "https://github.com/ThatXliner/rust-but-lisp",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-09T21:46:27+00:00",
-      "content": "Rust but Lisp. Score: 28, Comments: 8",
-      "id": "290864bea4ed979d715b7b9f0be14411",
-      "title_zh": "Rust 但 Lisp",
-      "summary_zh": "Rust but Lisp. Score: 28, Comments: 8",
-      "category": "开发",
-      "tags": [],
-      "collected": "2026-05-09T23:36:32.015197+00:00"
-    },
-    {
-      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
-      "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "source": "TechCrunch AI",
-      "domain": "AI",
-      "published": "2026-05-09T21:45:00+00:00",
-      "content": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "id": "f09c2bde499d66e5119af980abad6f2e",
-      "title_zh": "所以你已经听过这些人工智能术语并且点点头；让我们解决这个问题",
-      "summary_zh": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-09T22:32:31.355691+00:00"
-    },
-    {
-      "title": "The 90 Day disclosure policy is dead",
-      "url": "https://blog.himanshuanand.com/2026/05/the-90-day-disclosure-policy-is-dead/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-09T21:42:50+00:00",
-      "content": "The 90 Day disclosure policy is dead. Score: 6, Comments: 1",
-      "id": "c3e9a6e965671de8b1a2dbb240bb2784",
-      "title_zh": "90 天披露政策已失效",
-      "summary_zh": "The 90 Day disclosure policy is dead. Score: 6, Comments: 1",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-05-09T22:32:31.367753+00:00"
-    },
-    {
-      "title": "The Rise of Emotional Surveillance",
-      "url": "https://www.theatlantic.com/culture/2026/05/worker-surveillance-emotion-ai/687029/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-09T21:33:00+00:00",
-      "content": "The Rise of Emotional Surveillance. Score: 7, Comments: 1",
-      "id": "2db303d65d134c13011a6774c09fbf45",
-      "title_zh": "情绪监控的兴起",
-      "summary_zh": "The Rise of Emotional Surveillance. Score: 7, Comments: 1",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-09T23:36:32.016342+00:00"
-    },
-    {
-      "title": "Feedback on my local-first AI assistant project?",
-      "url": "https://github.com/joshuatic/voxel",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-09T21:21:24+00:00",
-      "content": "Article URL: https://github.com/joshuatic/voxel\nComments URL: https://news.ycombinator.com/item?id=48078376\nPoints: 1\n# Comments: 0",
-      "id": "7f807e0d4d3bcd49df6b3f3dfc33386c",
-      "title_zh": "对我的本地优先人工智能助理项目有何反馈？",
-      "summary_zh": "Article URL: https://github.com/joshuatic/voxel Comments URL: https://news.ycombinator.com/item?id=48078376 Points: 1 # Comments: 0",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.517279+00:00"
-    },
-    {
-      "title": "Mideast war worsens conflict between elephants and villagers in Sri Lanka",
-      "url": "https://www.npr.org/2026/05/09/nx-s1-5809389/mideast-war-worsens-conflict-between-elephants-and-villagers-in-sri-lanka",
-      "source": "NPR World",
-      "domain": "国际",
-      "published": "2026-05-09T21:09:43+00:00",
-      "content": "Conflict between farmers and elephants in Sri Lanka has grown worse as food and fuel are scarcer due to war in the Middle East.",
-      "id": "3ee6d9daa0d1b028aa01c33c52489725",
-      "title_zh": "中东战争加剧斯里兰卡大象与村民之间的冲突",
-      "summary_zh": "Conflict between farmers and elephants in Sri Lanka has grown worse as food and fuel are scarcer due to war in the Middle East.",
-      "category": "外交",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.516120+00:00"
-    },
-    {
-      "title": "Consumer AI's ARPU Problem",
-      "url": "https://twitter.com/SashaKaletsky/status/2051366803897766236",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-09T21:04:09+00:00",
-      "content": "Article URL: https://twitter.com/SashaKaletsky/status/2051366803897766236\nComments URL: https://news.ycombinator.com/item?id=48078239\nPoints: 1\n# Comments: 0",
-      "id": "5bc441026ddeda3c75b6cbc43b6098e4",
-      "title_zh": "消费者人工智能的 ARPU 问题",
-      "summary_zh": "Article URL: https://twitter.com/SashaKaletsky/status/2051366803897766236 Comments URL: https://news.ycombinator.com/item?id=48078239 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.517316+00:00"
-    },
-    {
-      "title": "Can I Copyright a Song I Made with AI?",
-      "url": "https://www.musicologize.com/can-i-copyright-a-song-i-made-with-ai/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-09T21:01:21+00:00",
-      "content": "Article URL: https://www.musicologize.com/can-i-copyright-a-song-i-made-with-ai/\nComments URL: https://news.ycombinator.com/item?id=48078223\nPoints: 1\n# Comments: 0",
-      "id": "12484c2ba126f26a69fc3f6f364abd74",
-      "title_zh": "我可以对我用人工智能制作的歌曲进行版权保护吗？",
-      "summary_zh": "Article URL: https://www.musicologize.com/can-i-copyright-a-song-i-made-with-ai/ Comments URL: https://news.ycombinator.com/item?id=48078223 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.517352+00:00"
-    },
-    {
-      "title": "Show HN: AI Design Taste – Design.md Generator",
-      "url": "https://chromewebstore.google.com/detail/ai-design-taste-designmd/peclkdlolmcclhhgpoehpikgknbmkknc",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-09T20:52:59+00:00",
-      "content": "Article URL: https://chromewebstore.google.com/detail/ai-design-taste-designmd/peclkdlolmcclhhgpoehpikgknbmkknc\nComments URL: https://news.ycombinator.com/item?id=48078149\nPoints: 1\n# Comments: 0",
-      "id": "8e42be0a5aab6bd77b625e017e461c0d",
-      "title_zh": "Show HN：AI 设计品味 – Design.md 生成器",
-      "summary_zh": "Article URL: https://chromewebstore.google.com/detail/ai-design-taste-designmd/peclkdlolmcclhhgpoehpikgknbmkknc Comments URL: https://news.ycombinator.com/item?id=48078149 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.517410+00:00"
-    },
-    {
-      "title": "Why do Oregon farms plant red clover every spring?",
-      "url": "https://a.wholelottanothing.org/why-do-oregon-farms-plant-red-clover-every-spring/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-09T20:43:19+00:00",
-      "content": "Why do Oregon farms plant red clover every spring?. Score: 5, Comments: 1",
-      "id": "ca9e10f26619ba445de70778a70ae8e8",
-      "title_zh": "为什么俄勒冈州农场每年春天都要种植红三叶草？",
-      "summary_zh": "Why do Oregon farms plant red clover every spring?. Score: 5, Comments: 1",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.516719+00:00"
-    },
-    {
-      "title": "NASA is set to begin training with a prototype of Blue Origin's crew moon lander",
-      "url": "https://www.engadget.com/2168702/nasa-is-set-to-begin-training-with-a-prototype-of-blue-origin-crew-moon-lander/",
-      "source": "Engadget",
-      "domain": "科技",
-      "published": "2026-05-09T20:37:58+00:00",
-      "content": "The space agency is planning to put astronauts on the moon in 2028.",
-      "id": "312b836eb50acd1235f4f6f77368f968",
-      "title_zh": "美国宇航局将开始使用蓝色起源的载人月球着陆器原型进行训练",
-      "summary_zh": "The space agency is planning to put astronauts on the moon in 2028.",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.515926+00:00"
-    },
-    {
-      "title": "The Atari 800 – By Paul Lefebvre",
-      "url": "https://www.goto10retro.com/p/inside-the-atari-800",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-09T20:35:54+00:00",
-      "content": "The Atari 800 – By Paul Lefebvre. Score: 4, Comments: 0",
-      "id": "8b66e5bc14c3fdb05d12fc84112160f6",
-      "title_zh": "Atari 800 – 作者：Paul Lefebvre",
-      "summary_zh": "The Atari 800 – By Paul Lefebvre. Score: 4, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.516825+00:00"
-    },
-    {
-      "title": "FreeBSD: Local Privilege Escalation via Execve()",
-      "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
-      "source": "Hacker News",
-      "domain": "安全",
-      "published": "2026-05-09T20:31:21+00:00",
-      "content": "FreeBSD: Local Privilege Escalation via Execve(). Score: 31, Comments: 15",
-      "id": "b487b0728bb63bdba3f89758a143efa2",
-      "title_zh": "FreeBSD：通过 Execve() 进行本地权限升级",
-      "summary_zh": "FreeBSD: Local Privilege Escalation via Execve(). Score: 31, Comments: 15",
-      "category": "漏洞",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.516406+00:00"
-    },
-    {
-      "title": "I caught the car",
-      "url": "https://undecidability.net/senior/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-09T20:31:07+00:00",
-      "content": "I caught the car. Score: 12, Comments: 1",
-      "id": "cbf8f1252181744379750192ba2991e5",
-      "title_zh": "我抓到了车",
-      "summary_zh": "I caught the car. Score: 12, Comments: 1",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-09T21:34:04.516447+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
-        "title": "问 HN：如果人工智能让工程师变得更有效率，为什么一切都感觉更糟？",
-        "summary": "探讨人工智能提升工程师效率但导致整体感受变差的现象。",
-        "url": "https://news.ycombinator.com/item?id=48113873",
-        "source": "Hacker News AI",
-        "category": "LLM"
+        "title": "Anthropic 正在洽谈融资 300 亿美元，估值达 9000 亿美元",
+        "summary": "AI 巨头 Anthropic 接近完成一轮高达 300 亿美元的融资，估值可能达到 9000 亿美元，显示出对 AI 领域的巨大投资热情。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+        "source": "Bloomberg Tech",
+        "category": "AI产品"
       },
       {
         "rank": 2,
-        "title": "三星正在利用谷歌人工智能升级其智能冰箱以识别食物",
-        "summary": "三星智能冰箱将集成谷歌AI技术，以实现更智能的食物识别功能。",
-        "url": "https://qz.com/samsung-bespoke-fridge-google-gemini-ai-food-recognition-051126",
-        "source": "Hacker News AI",
-        "category": "LLM"
+        "title": "CME 将打造人工智能算力期货市场",
+        "summary": "芝加哥商品交易所（CME）计划建立人工智能算力期货市场，预示着对 AI 算力需求的金融化和标准化。",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-12/cme-to-create-futures-market-for-ai-computing-power-video",
+        "source": "Bloomberg Tech",
+        "category": "AI产品"
       },
       {
         "rank": 3,
-        "title": "OCL Nexus – 具有本机 MCP 的 AI 代理的自动化计算层",
-        "summary": "介绍OCL Nexus，一个为AI代理提供自动化计算和本地MCP的层。",
-        "url": "https://oclnexus.com",
+        "title": "Anthropic 公开发布可以接管鼠标光标的 AI 工具（2024）",
+        "summary": "Anthropic 发布了能够控制鼠标光标的 AI 工具，标志着 AI 在人机交互方面迈出了重要一步，引发了对其应用场景的广泛讨论。",
+        "url": "https://arstechnica.com/ai/2024/10/anthropic-publicly-releases-ai-tool-that-can-take-over-the-users-mouse-cursor/",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "AI产品"
       },
       {
         "rank": 4,
-        "title": "莫里哀《机械姬》：人工智能用于创作深受喜爱的法国剧作家的“新作品”",
-        "summary": "AI被用于创作莫里哀风格的新剧本，探索AI在文学创作中的应用。",
-        "url": "https://www.theguardian.com/stage/2026/may/11/moliere-ex-machina-ai-create-new-work-france-equivalent-shakespeare",
+        "title": "做多 AI 做空 AGI",
+        "summary": "这篇文章探讨了在当前 AI 快速发展时期，应该抓住 AI 技术的实际应用机会，而非过度关注遥远的通用人工智能（AGI）。",
+        "url": "https://1984.substack.com/p/long-ai-short-agi",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 5,
-        "title": "Android 使用人工智能代理来预订旅行、填写表格和清理文本",
-        "summary": "Android系统引入AI代理，用于自动化旅行预订、表单填写和文本处理。",
-        "url": "https://the-decoder.com/gemini-intelligence-makes-autofill-chrome-and-gboard-on-android-smarter/",
-        "source": "The Decoder",
+        "title": "AI 策略有一个盲点：网络",
+        "summary": "该文指出，许多 AI 策略未能充分考虑网络安全的重要性，强调了将网络安全融入 AI 发展中的必要性。",
+        "url": "https://www.kentik.com/blog/your-ai-strategy-has-a-blind-spot-the-network/",
+        "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 6,
-        "title": "Qxotic.ai – JVM 的人工智能主权",
-        "summary": "Qxotic.ai 旨在为 JVM 提供人工智能主权解决方案。",
-        "url": "https://qxotic.ai/",
+        "title": "人工智能辅助编码的情感成本",
+        "summary": "探讨了 AI 工具在辅助编码过程中，可能对开发者情感和工作体验带来的潜在负面影响。",
+        "url": "https://news.ycombinator.com/item?id=48114954",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 7,
-        "title": "Show HN：Ralph Workflow - 基于 Ralph 的简单与代理无关的 AI Orchestrator。",
-        "summary": "演示Ralph Workflow，一个简单且与代理无关的AI编排工具。",
-        "url": "https://codeberg.org/RalphWorkflow/Ralph-Workflow",
-        "source": "Hacker News AI",
+        "title": "Meta 员工抗议美国办公室的鼠标追踪技术",
+        "summary": "Meta 员工因公司部署的鼠标追踪技术而进行抗议，反映了员工对工作隐私和监控的担忧。",
+        "url": "https://www.reuters.com/sustainability/society-equity/meta-us-employees-organize-protest-against-mouse-tracking-tech-2026-05-12/",
+        "source": "Hacker News",
         "category": "LLM"
       },
       {
         "rank": 8,
-        "title": "欧盟法律下的人工智能代理",
-        "summary": "探讨欧盟法律框架下，人工智能代理的法律地位和监管问题。",
-        "url": "https://arxiv.org/abs/2604.04604",
+        "title": "Spar [KILL]：用于初创公司的 AI 分发代理，可识别热介绍路径",
+        "summary": "Spar [KILL] 是一款面向初创公司的 AI 分发代理，能够识别潜在的高价值介绍路径，提高业务拓展效率。",
+        "url": "https://sparit.vc/spar/d/BPCf3D6XsY",
         "source": "Hacker News AI",
-        "category": "研究"
+        "category": "CV"
       },
       {
         "rank": 9,
-        "title": "美国银行首席执行官谈人工智能在劳动力中的受欢迎程度",
-        "summary": "美国银行CEO就人工智能在劳动力市场中的接受度和影响发表看法。",
-        "url": "https://www.wsj.com/video/us-bank-ceo-on-ai-popularity-in-the-workforce/6AFB369E-2EF3-4804-B1BF-4D64DE29AABC",
+        "title": "OCL Nexus – 具有本机 MCP 的 AI 代理的自动化计算层",
+        "summary": "OCL Nexus 提出了一种新型自动化计算层，为具有本机 MCP 的 AI 代理提供支持。",
+        "url": "https://oclnexus.com",
         "source": "Hacker News AI",
-        "category": "研究"
+        "category": "LLM"
       },
       {
         "rank": 10,
-        "title": "为什么 Anthropic 的训练数据披露是由 AI 生成的？",
-        "summary": "分析Anthropic公司训练数据披露文件由AI生成的原因和影响。",
-        "url": "https://twitter.com/TheMidasProj/status/2054276553622851818",
-        "source": "Hacker News AI",
+        "title": "OpenAI 针对 ChatGPT 药物建议提出过量诉讼",
+        "summary": "OpenAI 因 ChatGPT 提供的药物建议可能导致过量事件而面临诉讼，突显了 AI 在敏感领域的风险和责任问题。",
+        "url": "https://news.bloomberglaw.com/litigation/openai-hit-with-overdose-suit-centered-on-chatgpt-medical-advice",
+        "source": "Hacker News",
         "category": "LLM"
       }
     ],
     "安全": [
       {
         "rank": 1,
-        "title": "英国因泄露 66.4 万客户数据而罚款水供应商 130 万美元",
-        "summary": "因客户数据泄露，一家英国水供应商被处以130万美元罚款。",
-        "url": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      },
-      {
-        "rank": 2,
-        "title": "网络研讨会：修复网络事件响应中的差距",
-        "summary": "探讨网络事件响应中的不足之处，并提供改进建议。",
-        "url": "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      },
-      {
-        "rank": 3,
-        "title": "Signal 增加了针对社会工程、网络钓鱼攻击的安全警告",
-        "summary": "Signal 消息应用加强了对社会工程和网络钓鱼攻击的安全防护。",
-        "url": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      },
-      {
-        "rank": 4,
-        "title": "微软发布Windows 10 KB5087544扩展安全更新",
-        "summary": "微软为Windows 10发布了KB5087544扩展安全更新。",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/",
-        "source": "BleepingComputer",
-        "category": "漏洞"
-      },
-      {
-        "rank": 5,
-        "title": "Fortinet 警告 FortiSandbox 和 FortiAuthenticator 中存在严重 RCE 缺陷",
-        "summary": "Fortinet 披露 FortiSandbox 和 FortiAuthenticator 的严重远程代码执行漏洞。",
-        "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
-        "source": "BleepingComputer",
-        "category": "漏洞"
-      },
-      {
-        "rank": 6,
-        "title": "CERT 针对 dnsmasq 中的严重安全漏洞发布了 6 个 CVE",
-        "summary": "CERT发布了针对dnsmasq严重安全漏洞的6个CVE编号。",
-        "url": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
-        "source": "Hacker News",
-        "category": "漏洞"
-      },
-      {
-        "rank": 7,
-        "title": "Windows 11 KB5089549 & KB5087420 累积更新发布",
-        "summary": "微软发布了Windows 11的KB5089549和KB5087420累积更新。",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      },
-      {
-        "rank": 8,
         "title": "微软 2026 年 5 月补丁星期二修复了 120 个缺陷，无零日漏洞",
-        "summary": "微软五月补丁星期二修复了120个漏洞，未涉及零日漏洞。",
+        "summary": "微软在 2026 年 5 月的补丁星期二发布中修复了大量安全漏洞，值得注意的是，此次更新中没有发现零日漏洞。",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
-        "rank": 9,
+        "rank": 2,
         "title": "微软修补了 137 个漏洞",
-        "summary": "微软最新补丁修复了137个安全漏洞。",
+        "summary": "微软发布了重要的安全更新，修补了高达 137 个安全漏洞，进一步巩固了其系统的安全性。",
         "url": "https://www.securityweek.com/microsoft-patches-137-vulnerabilities/",
         "source": "SecurityWeek",
         "category": "漏洞"
       },
       {
-        "rank": 10,
+        "rank": 3,
         "title": "Exaforce 为 Agentic SOC 平台融资 1.25 亿美元",
-        "summary": "Exaforce 获得 1.25 亿美元融资，用于发展其 Agentic SOC 平台。",
+        "summary": "Exaforce 成功融资 1.25 亿美元，用于开发其 Agentic SOC 平台，表明了对 AI 在安全运营中心（SOC）领域应用的信心。",
         "url": "https://www.securityweek.com/exaforce-raises-125-million-for-agentic-soc-platform/",
         "source": "SecurityWeek",
         "category": "漏洞"
+      },
+      {
+        "rank": 4,
+        "title": "White Circle 为人工智能控制平台融资 1100 万美元",
+        "summary": "White Circle 获得 1100 万美元融资，用于其人工智能控制平台，预示着 AI 在网络安全态势感知和控制方面的进步。",
+        "url": "https://www.securityweek.com/white-circle-raises-11-million-for-ai-control-platform/",
+        "source": "SecurityWeek",
+        "category": "攻防"
+      },
+      {
+        "rank": 5,
+        "title": "CERT 针对 dnsmasq 中的严重安全漏洞发布了 6 个 CVE",
+        "summary": "CERT 发布了针对 dnsmasq 中 6 个严重安全漏洞的 CVE 编号，呼吁用户立即采取防护措施。",
+        "url": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+        "source": "Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 6,
+        "title": "Fortinet 警告 FortiSandbox 和 FortiAuthenticator 中存在严重 RCE 缺陷",
+        "summary": "Fortinet 针对其 FortiSandbox 和 FortiAuthenticator 产品发出了严重远程代码执行（RCE）漏洞警告，需紧急处理。",
+        "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
+      },
+      {
+        "rank": 7,
+        "title": "英国因泄露 66.4 万客户数据而罚款水供应商 130 万美元",
+        "summary": "英国一家水供应商因客户数据泄露被处以 130 万美元罚款，再次强调了数据保护的重要性。",
+        "url": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      },
+      {
+        "rank": 8,
+        "title": "Signal 增加了针对社会工程、网络钓鱼攻击的安全警告",
+        "summary": "Signal 平台加强了对社会工程和网络钓鱼攻击的安全警告功能，以保护用户免受欺诈。",
+        "url": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      },
+      {
+        "rank": 9,
+        "title": "Android 17 扩大银行诈骗电话和隐私保护",
+        "summary": "Android 17 系统更新将增强对银行诈骗电话的识别和拦截能力，并提供更强的隐私保护功能。",
+        "url": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
+        "source": "BleepingComputer",
+        "category": "隐私"
+      },
+      {
+        "rank": 10,
+        "title": "斯柯达警告网上商店遭黑客攻击后客户数据泄露",
+        "summary": "斯柯达（Skoda）在线商店遭到黑客攻击，导致客户数据泄露，品牌在此类事件后发出警告。",
+        "url": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
+        "source": "BleepingComputer",
+        "category": "攻防"
       }
     ],
     "经济": [
       {
         "rank": 1,
-        "title": "纽约市市长佐兰·马姆达尼 (Zohran Mamdani) 的临时住所财产税正在推进。但这会起作用吗？",
-        "summary": "探讨纽约市临时住所财产税的推进及其有效性。",
-        "url": "https://www.cnbc.com/2026/05/12/mayor-mamdani-new-york-pied-terre-property-tax-real-estate.html",
-        "source": "CNBC",
+        "title": "S3 的斯隆表示，做空最多的美国股票领涨",
+        "summary": "S3 Partners 的分析师表示，做空比例最高的美国股票反而出现了领涨现象，这是一种不同寻常的市场动态。",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-12/most-shorted-us-stocks-led-the-rally-s3-s-sloan-says-video",
+        "source": "Bloomberg Tech",
         "category": "市场"
       },
       {
         "rank": 2,
-        "title": "随着特朗普前往北京，汽车州立法者寻求将中国电动汽车零部件排除在美国之外",
-        "summary": "美国汽车州立法者希望限制中国电动汽车零部件的进口。",
-        "url": "https://www.cnbc.com/2026/05/12/trump-congress-china-evs-byd.html",
-        "source": "CNBC",
+        "title": "因股票奖励减少，Nvidia CEO 薪酬缩减 27%",
+        "summary": "由于股票奖励的减少，英伟达 CEO 的薪酬在本季度缩减了 27%，反映了公司薪酬结构的变化。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/nvidia-ceo-pay-package-shrinks-27-on-smaller-stock-awards",
+        "source": "Bloomberg Tech",
         "category": "市场"
       },
       {
         "rank": 3,
-        "title": "芯片股拖累市场走低，势头押注令人担忧",
-        "summary": "芯片类股票下跌拖累市场，势头押注面临担忧。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/chip-stocks-drag-market-lower-in-worrying-sign-for-momentum-bet",
-        "source": "Bloomberg Tech",
-        "category": "市场"
-      },
-      {
-        "rank": 4,
-        "title": "Waymo 因故障导致部分车辆“驶入积水”，召回 3,800 辆机器人出租车",
-        "summary": "Waymo因部分自动驾驶车辆驶入积水，召回3800辆机器人出租车。",
-        "url": "https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html",
-        "source": "CNBC",
-        "category": "市场"
-      },
-      {
-        "rank": 5,
-        "title": "股票飙升 900% 后家族办公室增持利基矿业公司股份",
-        "summary": "在股票飙升后，家族办公室增加了对利基矿业公司的投资。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/family-offices-build-stake-in-niche-miner-after-stock-soars-900",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 6,
-        "title": "10 年期国债的 5% 逆向押注正在赢得可信度",
-        "summary": "对10年期国债5%收益率的逆向押注正逐渐获得市场认可。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/contrarian-5-bet-on-10-year-treasuries-is-gaining-credibility",
-        "source": "Bloomberg Tech",
-        "category": "市场"
-      },
-      {
-        "rank": 7,
-        "title": "小企业称招聘仍然残酷",
-        "summary": "小企业普遍反映，招聘市场依然严峻且充满挑战。",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-05-12/small-businesses-say-hiring-is-still-brutal",
+        "title": "债券空头因通胀顽固而重新押注美联储加息",
+        "summary": "由于通胀持续存在，债券市场的空头投资者正在重新调整策略，押注美联储可能需要进一步加息。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/bond-bears-reload-fed-rate-hike-wagers-on-stubborn-inflation",
         "source": "Bloomberg Markets",
         "category": "宏观"
       },
       {
+        "rank": 4,
+        "title": "日本双日着眼于东南亚寻找新的稀土供应",
+        "summary": "日本的双日公司正在将目光投向东南亚，以寻求新的稀土供应来源，这对于关键矿产的供应链多元化至关重要。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/japan-s-sojitz-eyes-southeast-asia-for-new-rare-earths-supply",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 5,
+        "title": "特朗普称美国通胀是“短期的”",
+        "summary": "美国前总统特朗普表示，当前的美国通胀是“短期的”，对未来经济走势发表了看法。",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-12/trump-says-us-inflation-is-short-term-video",
+        "source": "Bloomberg Markets",
+        "category": "宏观"
+      },
+      {
+        "rank": 6,
+        "title": "中国制造业腹地经受伊朗战争能源冲击考验",
+        "summary": "文章分析了中国制造业腹地如何应对由伊朗战争引发的能源价格波动和冲击。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/china-s-manufacturing-heartland-tested-by-iran-war-energy-shock",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 7,
+        "title": "康普因涉嫌违规被贷方起诉至少 1.5 亿美元",
+        "summary": "康普公司因涉嫌违规行为，被贷方提起诉讼，涉及金额高达至少 1.5 亿美元。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/commscope-sued-by-lenders-for-at-least-150-million-over-alleged-breach",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
         "rank": 8,
-        "title": "参议院正在讨论加密货币法案，使用稳定币进行支付。 |彭博加密货币 2026 年 5 月 12 日",
-        "summary": "参议院讨论加密货币法案，并关注稳定币支付的应用。",
+        "title": "参议院正在讨论加密货币法案，使用稳定币进行支付。",
+        "summary": "美国参议院正在审议关于加密货币的法案，其中可能包括对稳定币支付的规定。",
         "url": "https://www.bloomberg.com/news/videos/2026-05-12/bloomberg-crypto-5-12-2026-video",
         "source": "Bloomberg Tech",
         "category": "市场"
@@ -27703,184 +28109,184 @@
       {
         "rank": 9,
         "title": "随着人工智能推动成本飙升，交易员很快就能押注计算机芯片价格",
-        "summary": "AI发展推高成本，交易员将能押注计算机芯片价格。",
+        "summary": "由于人工智能的成本驱动效应，交易员们正准备对计算机芯片价格进行押注。",
         "url": "https://www.cnbc.com/2026/05/12/new-futures-market-for-semiconductors-comes-as-ai-drives-costs-skyward.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
         "rank": 10,
-        "title": "特朗普希望减免汽油税。但司机储蓄微薄可能会给重要的联邦基金带来压力",
-        "summary": "特朗普提议减免汽油税，可能对联邦基金造成压力。",
-        "url": "https://www.cnbc.com/2026/05/12/trump-gas-tax-suspension.html",
-        "source": "CNBC",
+        "title": "股票飙升 900% 后家族办公室增持利基矿业公司股份",
+        "summary": "在一家利基矿业公司股票飙升 900% 后，家族办公室对其股票进行了增持。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/family-offices-build-stake-in-niche-miner-after-stock-soars-900",
+        "source": "Bloomberg Markets",
         "category": "市场"
       }
     ],
     "科技": [
       {
         "rank": 1,
-        "title": "三星 One UI 9 测试版将于本周向 Galaxy S26 用户推出",
-        "summary": "三星One UI 9测试版即将面向Galaxy S26用户开放。",
-        "url": "https://www.engadget.com/2171333/samsungs-one-ui-9-beta-will-roll-out-for-galaxy-s26-owners-this-week/",
-        "source": "Engadget",
-        "category": "软件"
-      },
-      {
-        "rank": 2,
-        "title": "如何让你的文字看起来未来感十足",
-        "summary": "分享让文字设计呈现未来感的技巧和方法。",
-        "url": "https://typesetinthefuture.com/2016/02/18/futuristic/",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 3,
-        "title": "《银河战士恐惧》开发商 MercurySteam 宣布裁员",
-        "summary": "《银河战士恐惧》开发商MercurySteam宣布进行裁员。",
-        "url": "https://www.engadget.com/2171294/metroid-dread-developer-mercurysteam-announces-layoffs/",
-        "source": "Engadget",
-        "category": "软件"
-      },
-      {
-        "rank": 4,
-        "title": "Snowflake Postgres、Lakebase、Horizo​​nDB：选择您想要的锁定",
-        "summary": "比较Snowflake Postgres、Lakebase和Horizo​​nDB，讨论技术锁定。",
-        "url": "https://thebuild.com/blog/2026/05/12/snowflake-postgres-lakebase-horizondb-picking-the-lock-in-you-want/",
-        "source": "Hacker News",
-        "category": "软件"
-      },
-      {
-        "rank": 5,
-        "title": "苹果计划为专业人士定制相机，iOS 27 中 Siri 设计发生变化",
-        "summary": "苹果计划为专业用户定制相机，iOS 27 将更新Siri设计。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/ios-27-apple-plans-customizable-iphone-camera-app-siri-overhaul",
-        "source": "Bloomberg Tech",
-        "category": "软件"
-      },
-      {
-        "rank": 6,
-        "title": "废话的兴起",
-        "summary": "探讨网络信息环境中“废话”现象的兴起及其影响。",
-        "url": "https://xn--gckvb8fzb.com/the-rise-of-the-bullshittery/",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 7,
-        "title": "高等数学教育学问题",
-        "summary": "讨论高等数学教育领域存在的问题和挑战。",
-        "url": "https://susam.net/advanced-mathematics-pedagogy.html",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 8,
-        "title": "Cloudflare 裁员 20% 和“裁员清洗”的兴起",
-        "summary": "Cloudflare裁员20%，并分析“裁员清洗”现象。",
-        "url": "https://www.salary.run/en/blog/cloudflare-20-percent-cut-layoff-washing-2026",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 9,
         "title": "谷歌安卓 17 新增系统验证功能：Pixel 10 等手机首发，识别恶意仿冒系统",
-        "summary": "Android 17新增系统验证功能，用于识别恶意仿冒系统。",
+        "summary": "Android 17 将引入系统验证功能，旨在识别和防范恶意仿冒系统，Pixel 10 等设备将率先支持。",
         "url": "https://www.ithome.com/0/949/552.htm",
         "source": "IT之家",
         "category": "软件"
       },
       {
-        "rank": 10,
-        "title": "《铁拳》导演原田胜宏带着 SNK 旗下自己的工作室回归",
-        "summary": "《铁拳》导演原田胜宏携SNK工作室回归。",
-        "url": "https://www.engadget.com/2171217/tekken-director-katsuhiro-harada-is-back-with-his-own-studio-under-snk/",
+        "rank": 2,
+        "title": "苹果计划为专业人士定制相机，iOS 27 中 Siri 设计发生变化",
+        "summary": "苹果正计划为专业用户定制相机功能，并对 iOS 17 中的 Siri 设计进行调整。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/ios-27-apple-plans-customizable-iphone-camera-app-siri-overhaul",
+        "source": "Bloomberg Tech",
+        "category": "软件"
+      },
+      {
+        "rank": 3,
+        "title": "DOJ 就少数族裔拥有的商业计划向 PayPal 收取 3000 万美元和解金",
+        "summary": "美国司法部就一项旨在支持少数族裔拥有的企业的计划，与 PayPal 达成 3000 万美元的和解协议。",
+        "url": "https://www.engadget.com/2171401/doj-extracts-30m-settlement-from-paypal-over-minority-owned-business-program/",
         "source": "Engadget",
         "category": "互联网"
+      },
+      {
+        "rank": 4,
+        "title": "“我会没事吗？”诉讼称，ChatGPT 混合致命毒品后，青少年死亡",
+        "summary": "一项诉讼指控 ChatGPT 协助青少年混合出致命毒品，导致其死亡，引发了对 AI 风险的担忧。",
+        "url": "https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says/",
+        "source": "Ars Technica",
+        "category": "开发"
+      },
+      {
+        "rank": 5,
+        "title": "三星 One UI 9 测试版将于本周向 Galaxy S26 用户推出",
+        "summary": "三星 One UI 9 的测试版将于本周面向 Galaxy S26 用户发布，标志着新软件的到来。",
+        "url": "https://www.engadget.com/2171333/samsungs-one-ui-9-beta-will-roll-out-for-galaxy-s26-owners-this-week/",
+        "source": "Engadget",
+        "category": "软件"
+      },
+      {
+        "rank": 6,
+        "title": "Cloudflare 裁员 20% 和“裁员清洗”的兴起",
+        "summary": "Cloudflare 宣布裁员 20%，这反映了科技行业“裁员清洗”的趋势愈演愈烈。",
+        "url": "https://www.salary.run/en/blog/cloudflare-20-percent-cut-layoff-washing-2026",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 7,
+        "title": "Snowflake Postgres、Lakebase、Horizo​​nDB：选择您想要的锁定",
+        "summary": "文章对比了 Snowflake、Postgres、Lakebase 和 Horizo​​nDB 等数据平台，探讨了选择时的“锁定”因素。",
+        "url": "https://thebuild.com/blog/2026/05/12/snowflake-postgres-lakebase-horizondb-picking-the-lock-in-you-want/",
+        "source": "Hacker News",
+        "category": "软件"
+      },
+      {
+        "rank": 8,
+        "title": "斯沃琪互联网时间",
+        "summary": "探讨了斯沃琪（Swatch）在互联网时代的时间概念和相关产品。",
+        "url": "https://en.wikipedia.org/wiki/Swatch_Internet_Time",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 9,
+        "title": "如何让你的文字看起来未来感十足",
+        "summary": "提供关于如何设计和呈现文本，使其具有未来主义风格的建议。",
+        "url": "https://typesetinthefuture.com/2016/02/18/futuristic/",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 10,
+        "title": "卷曲与神话",
+        "summary": "这篇文章可能探讨了 curl 工具的实际应用，并对比其与一些常见的“神话”或误解。",
+        "url": "https://anderegg.ca/2026/05/11/on-curl-and-mythos",
+        "source": "Hacker News",
+        "category": "软件"
       }
     ],
     "国际": [
       {
         "rank": 1,
-        "title": "NASA 兰利工程师参加 FAA 培训",
-        "summary": "NASA兰利研究中心工程师参加FAA的航空安全培训。",
-        "url": "https://www.nasa.gov/general/nasa-langley-engineer-attends-faa-training/",
-        "source": "NASA",
-        "category": "科学"
-      },
-      {
-        "rank": 2,
-        "title": "以色列政府预计将因极端正统军事征兵而垮台",
-        "summary": "以色列政府面临因极端正统派兵役问题而垮台的风险。",
-        "url": "https://www.npr.org/2026/05/12/g-s1-121631/israel-military-ultra-orthodox-netanyahu-coalition",
-        "source": "NPR World",
-        "category": "外交"
-      },
-      {
-        "rank": 3,
-        "title": "大理船舶运营商因巴尔的摩大桥倒塌事故被指控",
-        "summary": "大理船舶运营商因巴尔的摩大桥倒塌事故被指控。",
-        "url": "https://www.bbc.com/news/articles/cnvpm67ner6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
-      },
-      {
-        "rank": 4,
-        "title": "新自拍中的毅力令人惊叹",
-        "summary": "NASA的“毅力号”火星车拍摄了一张令人惊叹的自拍照。",
-        "url": "https://www.nasa.gov/image-article/perseverance-stuns-in-new-selfie/",
-        "source": "NASA",
-        "category": "科学"
-      },
-      {
-        "rank": 5,
-        "title": "黎巴嫩称以色列空袭造成 10 人死亡，其中 2 名护理人员",
-        "summary": "黎巴嫩方面表示，以色列空袭造成10人死亡，包括2名护理人员。",
-        "url": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "科学"
-      },
-      {
-        "rank": 6,
         "title": "以色列调查称哈马斯在 10 月 7 日袭击中将性暴力“武器化”",
-        "summary": "以色列的调查报告指出，哈马斯在10月7日的袭击中使用了性暴力。",
+        "summary": "以色列的调查报告指出，哈马斯在 10 月 7 日的袭击中使用了性暴力作为“武器”，引发了国际社会的关注。",
         "url": "https://www.bbc.com/news/articles/cvgz9k7pzggo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
-        "rank": 7,
-        "title": "美国宇航局的毅力号火星车在火星西部边境自拍",
-        "summary": "NASA的“毅力号”火星车在火星西部拍摄了自拍照。",
-        "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-snaps-selfie-in-mars-western-frontier/",
-        "source": "NASA",
+        "rank": 2,
+        "title": "大理船舶运营商因巴尔的摩大桥倒塌事故被指控",
+        "summary": "新加坡的 Dali 轮船只运营商因巴尔的摩大桥的倒塌事故面临指控，事件的法律和责任追究正在进行中。",
+        "url": "https://www.bbc.com/news/articles/cnvpm67ner6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "外交"
+      },
+      {
+        "rank": 3,
+        "title": "伊朗战争导致能源成本飙升，美国通胀率跃升至 3.8%",
+        "summary": "伊朗与以色列的冲突导致全球能源成本飙升，并推高了美国通胀率至 3.8%。",
+        "url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "外交"
+      },
+      {
+        "rank": 4,
+        "title": "黎巴嫩称以色列空袭造成 10 人死亡，其中 2 名护理人员",
+        "summary": "黎巴嫩方面称，以色列的空袭导致 10 人死亡，其中包括 2 名医疗护理人员，冲突造成人道主义损失。",
+        "url": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "科学"
       },
       {
+        "rank": 5,
+        "title": "以色列政府预计将因极端正统军事征兵而垮台",
+        "summary": "以色列政府面临可能因一项关于极端正统派教徒免服兵役的争议性法案而垮台的风险。",
+        "url": "https://www.npr.org/2026/05/12/g-s1-121631/israel-military-ultra-orthodox-netanyahu-coalition",
+        "source": "NPR World",
+        "category": "外交"
+      },
+      {
+        "rank": 6,
+        "title": "美国人现在如何看待中国",
+        "summary": "这篇文章探讨了当前美国公众对中国的看法和态度，分析了双边关系的影响。",
+        "url": "https://www.npr.org/2026/05/12/nx-s1-5761387/how-americans-see-china-now",
+        "source": "NPR World",
+        "category": "贸易"
+      },
+      {
+        "rank": 7,
+        "title": "乌克兰腐败调查升级，泽伦斯基前幕僚长出庭",
+        "summary": "乌克兰的腐败调查正在升级，前总统泽连斯基的幕僚长被传唤出庭，显示出反腐努力的推进。",
+        "url": "https://www.bbc.com/news/articles/c4g48kj40lwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "外交"
+      },
+      {
         "rank": 8,
-        "title": "NASA 的毅力捕捉到了“Arbot”的全景",
-        "summary": "NASA的“毅力号”火星车捕捉到了“Arbot”的全景图像。",
-        "url": "https://science.nasa.gov/photojournal/nasas-perseverance-captures-panorama-at-arbot/",
-        "source": "NASA",
+        "title": "报道称，谷歌正在洽谈使用 SpaceX 发射太空数据中心",
+        "summary": "有报道称，谷歌正与 SpaceX 洽谈，计划使用其火箭技术将数据中心发射到太空。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/google-in-talks-to-use-spacex-to-launch-space-data-centers-wsj",
+        "source": "Bloomberg Tech",
         "category": "科学"
       },
       {
         "rank": 9,
-        "title": "美国宇航局的毅力号漫游车在最西端拍摄了一张自拍照",
-        "summary": "NASA的“毅力号”漫游车在火星最西端拍摄了自拍照。",
-        "url": "https://science.nasa.gov/photojournal/nasas-perseverance-rover-snaps-westernmost-selfie/",
-        "source": "NASA",
+        "title": "卫星图像揭示了伊朗对美国基地的袭击[视频]",
+        "summary": "通过卫星图像，揭示了伊朗对美国基地的袭击事件，并附有视频证据。",
+        "url": "https://www.youtube.com/watch?v=JRnoi3repjo",
+        "source": "Hacker News",
         "category": "科学"
       },
       {
         "rank": 10,
-        "title": "南非最高法院禁止重复庇护申请",
-        "summary": "南非最高法院裁定禁止重复提出庇护申请。",
-        "url": "https://www.bbc.com/news/articles/cy42yx1kn90o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
+        "title": "联合国机构警告乍得难民危机压垮了东部地区的产妇护理",
+        "summary": "联合国机构警告称，乍得的难民危机正在给当地产妇护理系统带来巨大压力，需要紧急援助。",
+        "url": "https://news.un.org/feed/view/en/story/2026/05/1167494",
+        "source": "UN News",
+        "category": "科学"
       }
     ],
-    "generated_at": "2026-05-12T20:29:00.408144+00:00"
+    "generated_at": "2026-05-12T22:03:08.429088+00:00"
   }
 }
