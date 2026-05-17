@@ -1,6 +1,202 @@
 {
-  "last_updated": "2026-05-17T21:45:23.539048+00:00",
+  "last_updated": "2026-05-17T22:43:57.335136+00:00",
   "articles": [
+    {
+      "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
+      "source": "BleepingComputer",
+      "domain": "安全",
+      "published": "2026-05-17T22:30:08+00:00",
+      "content": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Windows systems. [...]",
+      "id": "98faa7d9a6a59ceeb0a12c70f89010e8",
+      "title_zh": "PoC 发布，新的 Windows“MiniPlasma”零日漏洞可提供系统访问权限",
+      "summary_zh": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Windows s",
+      "category": "漏洞",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.153256+00:00"
+    },
+    {
+      "title": "EPI – forensic evidence containers for AI agentSCITT-compatible, EU AI Act-ready",
+      "url": "https://github.com/mohdibrahimaiml/epi-recorder",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-17T22:27:54+00:00",
+      "content": "Article URL: https://github.com/mohdibrahimaiml/epi-recorder\nComments URL: https://news.ycombinator.com/item?id=48173736\nPoints: 1\n# Comments: 0",
+      "id": "4391f3575a266b80cd3a6be34ccb7a9b",
+      "title_zh": "EPI – 用于 AI 代理的法医证据容器 SCITT 兼容，欧盟 AI 法案就绪",
+      "summary_zh": "Article URL: https://github.com/mohdibrahimaiml/epi-recorder Comments URL: https://news.ycombinator.com/item?id=48173736 Points: 1 # Comments: 0",
+      "category": "研究",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.163937+00:00"
+    },
+    {
+      "title": "AI's insatiable appetite for electricity could revive a forsaken energy source",
+      "url": "https://www.cnbc.com/2026/05/17/cramer-ais-appetite-for-electricity-could-revive-a-forsaken-energy-.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-05-17T22:22:05+00:00",
+      "content": "President Trump and Energy Secretary Chris Wright are working hard to keep coal alive as part of a robust grid.",
+      "id": "c70c680b63ceec66e8f3dca4faaa93a6",
+      "title_zh": "人工智能对电力的永不满足的需求可能会复兴被遗弃的能源",
+      "summary_zh": "President Trump and Energy Secretary Chris Wright are working hard to keep coal alive as part of a robust grid.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.156036+00:00"
+    },
+    {
+      "title": "YouTube and Netflix Are Starting to Sound a Lot Like Normal TV",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-17/youtube-and-netflix-are-starting-to-sound-a-lot-like-normal-tv",
+      "source": "Bloomberg Tech",
+      "domain": "科技",
+      "published": "2026-05-17T22:20:01+00:00",
+      "content": "YouTube is pitching advertisers on a new slate of shows -- just like a TV network.",
+      "id": "290724190e4d9916329add05f260f5f5",
+      "title_zh": "YouTube 和 Netflix 开始听起来很像普通电视",
+      "summary_zh": "YouTube is pitching advertisers on a new slate of shows -- just like a TV network.",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.157978+00:00"
+    },
+    {
+      "title": "Oil Climbs as Iran War Shows No Sign of Ending: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-17T22:18:10+00:00",
+      "content": "Oil extended gains from last week as the US and Iran remained deadlocked over a deal to end weeks of conflict and restore shipping through the crucial Strait of Hormuz.",
+      "id": "66370b1a4451ff168bae56b89c8a37ee",
+      "title_zh": "伊朗战争没有结束迹象，油价攀升：市场总结",
+      "summary_zh": "Oil extended gains from last week as the US and Iran remained deadlocked over a deal to end weeks of conflict and restore shipping through the crucial Strait of Hormuz.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.155937+00:00"
+    },
+    {
+      "title": "Grounding AI shopping agents using personas learned from raw clickstream data",
+      "url": "https://arxiv.org/abs/2605.14205",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-17T22:17:51+00:00",
+      "content": "Article URL: https://arxiv.org/abs/2605.14205\nComments URL: https://news.ycombinator.com/item?id=48173669\nPoints: 1\n# Comments: 0",
+      "id": "5e76cc4d6ff456ba787d7a795ec2299d",
+      "title_zh": "使用从原始点击流数据中学习到的角色来奠定人工智能购物代理的基础",
+      "summary_zh": "Article URL: https://arxiv.org/abs/2605.14205 Comments URL: https://news.ycombinator.com/item?id=48173669 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.163982+00:00"
+    },
+    {
+      "title": "LeakyLM: AI Assistants Are Leaking Your Conversations",
+      "url": "https://leakylm.github.io/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-17T22:11:40+00:00",
+      "content": "Article URL: https://leakylm.github.io/\nComments URL: https://news.ycombinator.com/item?id=48173635\nPoints: 1\n# Comments: 0",
+      "id": "cbaf5021b80774f4f521f7c35531c368",
+      "title_zh": "LeakyLM：人工智能助理正在泄露你的对话",
+      "summary_zh": "Article URL: https://leakylm.github.io/ Comments URL: https://news.ycombinator.com/item?id=48173635 Points: 1 # Comments: 0",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.164023+00:00"
+    },
+    {
+      "title": "Shipping my first mobile app with AI",
+      "url": "https://blog.foundingengineer.com/p/what-i-learned-building-my-first",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-17T22:07:01+00:00",
+      "content": "Article URL: https://blog.foundingengineer.com/p/what-i-learned-building-my-first\nComments URL: https://news.ycombinator.com/item?id=48173605\nPoints: 2\n# Comments: 0",
+      "id": "3773787d60b46eebeb4c5489634d1d31",
+      "title_zh": "发布我的第一个带有 AI 的移动应用程序",
+      "summary_zh": "Article URL: https://blog.foundingengineer.com/p/what-i-learned-building-my-first Comments URL: https://news.ycombinator.com/item?id=48173605 Points: 2 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.164066+00:00"
+    },
+    {
+      "title": "Oil Extends Gains as Trump Says Clock Is Ticking for Iran Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-17/latest-oil-market-news-and-analysis-for-may-18",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-17T22:04:47+00:00",
+      "content": "Oil rose for a third day as the US and Iran remained far apart on a deal to end weeks of war and reopen the crucial Strait of Hormuz.",
+      "id": "63635892b41a1f774fca119ed52a3505",
+      "title_zh": "特朗普表示伊朗协议的时间已到，油价扩大涨幅",
+      "summary_zh": "Oil rose for a third day as the US and Iran remained far apart on a deal to end weeks of war and reopen the crucial Strait of Hormuz.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.155962+00:00"
+    },
+    {
+      "title": "German Finance Chief Urges Supply-Chain Resilience Ahead of G-7",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-17/german-finance-chief-urges-supply-chain-resilience-ahead-of-g-7",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-17T22:00:00+00:00",
+      "content": "German Finance Minister Lars Klingbeil urged partners to deepen cooperation on raw materials, energy and supply chains to reduce vulnerability in face of challenges such as the Iran war.",
+      "id": "d7a74cc6ada272680c1ce63ddcce76e8",
+      "title_zh": "德国财政部长敦促七国集团峰会前增强供应链弹性",
+      "summary_zh": "German Finance Minister Lars Klingbeil urged partners to deepen cooperation on raw materials, energy and supply chains to reduce vulnerability in face of challenges such as the Iran war.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.155988+00:00"
+    },
+    {
+      "title": "AI Agents Ran 27,000 Experiments. Their Biggest Discovery",
+      "url": "https://medium.com/@vektormemory/660-ai-agents-ran-27-000-experiments-their-biggest-discovery-was-a-2015-textbook-result-f0a152799e87",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-17T21:56:45+00:00",
+      "content": "Article URL: https://medium.com/@vektormemory/660-ai-agents-ran-27-000-experiments-their-biggest-discovery-was-a-2015-textbook-result-f0a152799e87\nComments URL: https://news.ycombinator.com/item?id=48173548\nPoints: 1\n# Comments: 2",
+      "id": "ce250073a6b06fc552c1e8ca63dd09a5",
+      "title_zh": "AI 代理进行了 27,000 次实验。他们最大的发现",
+      "summary_zh": "Article URL: https://medium.com/@vektormemory/660-ai-agents-ran-27-000-experiments-their-biggest-discovery-was-a-2015-textbook-result-f0a152799e87 Comments URL: https://news.ycombinator.com/item?id=48",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.164117+00:00"
+    },
+    {
+      "title": "ThinkPad: From IBM's Bento Box to Lenovo's AI Workstations",
+      "url": "https://www.jdhodges.com/blog/thinkpad-history/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-17T21:56:40+00:00",
+      "content": "Article URL: https://www.jdhodges.com/blog/thinkpad-history/\nComments URL: https://news.ycombinator.com/item?id=48173547\nPoints: 1\n# Comments: 0",
+      "id": "ed22c4ad8964bcb15104b8605fda2442",
+      "title_zh": "ThinkPad：从IBM的Bento Box到联想的AI工作站",
+      "summary_zh": "Article URL: https://www.jdhodges.com/blog/thinkpad-history/ Comments URL: https://news.ycombinator.com/item?id=48173547 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.164159+00:00"
+    },
+    {
+      "title": "AI Wearables Are Coming but They'll Need to Pass the Coffee Shop Test to Survive",
+      "url": "https://www.inc.com/connor-jewiss/ai-wearables-are-coming-but-theyll-need-to-pass-this-crucial-coffee-shop-test-to-survive/91345526",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-05-17T21:49:44+00:00",
+      "content": "AI Wearables Are Coming but They'll Need to Pass the Coffee Shop Test to Survive. Score: 5, Comments: 0",
+      "id": "430846c29983017213fbc0c47aaea64f",
+      "title_zh": "人工智能可穿戴设备即将到来，但它们需要通过咖啡店测试才能生存",
+      "summary_zh": "AI Wearables Are Coming but They'll Need to Pass the Coffee Shop Test to Survive. Score: 5, Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.158301+00:00"
+    },
+    {
+      "title": "What motivated Chinese-born Uyghers to fight in Syria's civil war",
+      "url": "https://www.npr.org/2026/05/17/nx-s1-5550919/what-motivated-chinese-born-uyghers-to-fight-in-syrias-civil-war",
+      "source": "NPR World",
+      "domain": "国际",
+      "published": "2026-05-17T21:45:01+00:00",
+      "content": "Thousands of Chinese-born Uyghur fighters fled China to fight in the Syrian civil war. They say generations of political persecution in China motivated them to take up arms.",
+      "id": "733ccdab886de1673a9ff8973f91d3d1",
+      "title_zh": "是什么促使中国出生的维吾尔人参加叙利亚内战",
+      "summary_zh": "Thousands of Chinese-born Uyghur fighters fled China to fight in the Syrian civil war. They say generations of political persecution in China motivated them to take up arms.",
+      "category": "外交",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.157164+00:00"
+    },
     {
       "title": "An AI Hate Wave Is Here",
       "url": "https://www.axios.com/2026/05/17/ai-backlash-polling-sentiment",
@@ -28,6 +224,20 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-05-17T21:44:18.275941+00:00"
+    },
+    {
+      "title": "Prolog Coding Horror",
+      "url": "https://www.metalevel.at/prolog/horror",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-17T21:15:51+00:00",
+      "content": "Prolog Coding Horror. Score: 26, Comments: 4",
+      "id": "c458a0eb97b76ba693eb05657315471a",
+      "title_zh": "Prolog 编码恐怖",
+      "summary_zh": "Prolog Coding Horror. Score: 26, Comments: 4",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.158030+00:00"
     },
     {
       "title": "Ask HN: Why aren't more people worried about AI impersonation in code reviews?",
@@ -70,6 +280,20 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-05-17T21:44:18.267512+00:00"
+    },
+    {
+      "title": "FTC tells platforms to comply with Take It Down Act by May 19",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-17T20:58:49+00:00",
+      "content": "FTC tells platforms to comply with Take It Down Act by May 19. Score: 3, Comments: 0",
+      "id": "bdc0076ea24883e7028fc63dd645a3c7",
+      "title_zh": "FTC 要求平台在 5 月 19 日之前遵守《Take It Down Act》",
+      "summary_zh": "FTC tells platforms to comply with Take It Down Act by May 19. Score: 3, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.158727+00:00"
     },
     {
       "title": "Fortnite players get a 10-minute sneak peek of The Mandalorian and Grogu on May 19",
@@ -168,6 +392,20 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-05-17T20:49:21.845362+00:00"
+    },
+    {
+      "title": "Where OpenClaw Security Is Heading",
+      "url": "https://openclaw.ai/blog/where-openclaw-security-is-heading",
+      "source": "Hacker News",
+      "domain": "安全",
+      "published": "2026-05-17T20:32:21+00:00",
+      "content": "Where OpenClaw Security Is Heading. Score: 14, Comments: 8",
+      "id": "0e9d4e6de41d1049d31575f13498ed7c",
+      "title_zh": "OpenClaw 安全的发展方向",
+      "summary_zh": "Where OpenClaw Security Is Heading. Score: 14, Comments: 8",
+      "category": "攻防",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.158412+00:00"
     },
     {
       "title": "The Psychopathy Jailbreak: What a Broken AI Teaches Us About Human Manipulation",
@@ -1358,6 +1596,20 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-05-17T15:49:24.424700+00:00"
+    },
+    {
+      "title": "One of the market's hottest stock themes is buying everything AI can't replace",
+      "url": "https://www.cnbc.com/2026/05/17/ai-stock-market-trade-halo-investing.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-05-17T14:21:26+00:00",
+      "content": "The search for HALO stocks is a hot theme in the stock market. There is now an ETF to invest in it.",
+      "id": "5f162fb9592405b033e2c4c1db2fdec6",
+      "title_zh": "市场最热门的股票主题之一是购买人工智能无法取代的一切",
+      "summary_zh": "The search for HALO stocks is a hot theme in the stock market. There is now an ETF to invest in it.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-17T22:42:57.156014+00:00"
     },
     {
       "title": "PC 连续三年超越主机，成卡普空游戏销量最高平台",
@@ -21082,451 +21334,87 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-05-15T00:00:33.147293+00:00"
-    },
-    {
-      "title": "More than half of U.S. faces worst drought in decades",
-      "url": "https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T22:38:18+00:00",
-      "content": "More than half of U.S. faces worst drought in decades. Score: 39, Comments: 5",
-      "id": "aed7e8515d3ca1ce3e76e68b85b1cf8f",
-      "title_zh": "美国一半以上面临数十年来最严重干旱",
-      "summary_zh": "More than half of U.S. faces worst drought in decades. Score: 39, Comments: 5",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-15T00:00:33.147367+00:00"
-    },
-    {
-      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
-      "url": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-05-14T22:37:40+00:00",
-      "content": "Ontario auditors find doctors' AI note takers routinely blow basic facts. Score: 7, Comments: 0",
-      "id": "fe3a9184c5bbc4d72fd07c962d6b70f4",
-      "title_zh": "安大略省审计人员发现医生的人工智能记录员经常歪曲基本事实",
-      "summary_zh": "Ontario auditors find doctors' AI note takers routinely blow basic facts. Score: 7, Comments: 0",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.919724+00:00"
-    },
-    {
-      "title": "Tech Stocks Power Wall Street Gains | The Close 5/14/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-14/the-close-5-14-2026-video",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-05-14T22:35:16+00:00",
-      "content": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are SoFI Investment strategy head Liz Thomas, Dow Chair & CEO Jim Fitterling, Meredith Whitney Advisory Group CEO Meredith Whitney, VF Corporation CEO Bracken Darrell, Morgan Stanley’s Michelle Weaver, UC San Diego’s Caroline Freund, Bain Capital Partner Angelo Rufino, Invesco President & CEO Andrew Schlossberg, Once Upon A Farm Co-Founder & CEO John Foraker (Source: Bloomberg)",
-      "id": "9364e104f5353c5c65a29c21387e71f2",
-      "title_zh": "科技股推动华尔街上涨收盘价 2026 年 5 月 14 日",
-      "summary_zh": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are SoFI Investment strategy h",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-05-15T00:00:33.147227+00:00"
-    },
-    {
-      "title": "Roman Letters",
-      "url": "https://romanletters.org/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T22:34:32+00:00",
-      "content": "Roman Letters. Score: 21, Comments: 3",
-      "id": "25b45c8af1bfbeb9f355a4ff001016c6",
-      "title_zh": "罗马字母",
-      "summary_zh": "Roman Letters. Score: 21, Comments: 3",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-17T10:17:13.353210+00:00"
-    },
-    {
-      "title": "Colossus: The Forbin Project",
-      "url": "https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T22:30:16+00:00",
-      "content": "Colossus: The Forbin Project. Score: 42, Comments: 4",
-      "id": "c8ee491489ac31f41d94090ec9c0bb6f",
-      "title_zh": "巨像：福宾计划",
-      "summary_zh": "Colossus: The Forbin Project. Score: 42, Comments: 4",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-05-17T05:40:43.436712+00:00"
-    },
-    {
-      "title": "A Few Words on DS4",
-      "url": "https://antirez.com/news/165",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T22:29:12+00:00",
-      "content": "A Few Words on DS4. Score: 14, Comments: 1",
-      "id": "fdd684c677df0d5553b7426e21c187aa",
-      "title_zh": "关于 DS4 的几句话",
-      "summary_zh": "A Few Words on DS4. Score: 14, Comments: 1",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.919058+00:00"
-    },
-    {
-      "title": "Rally in Top Space Stocks Sets Short Sellers Up for Squeeze",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/rally-in-top-space-stocks-sets-short-sellers-up-for-squeeze",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-05-14T22:28:08+00:00",
-      "content": "Two top performing space stocks have been on blistering rallies that risk soon burning short sellers betting against the highfliers, according to data provider S3 Partners.",
-      "id": "8d3c0a3350c7188b98680e9fb422018c",
-      "title_zh": "顶级空间股的反弹使卖空者面临挤压",
-      "summary_zh": "Two top performing space stocks have been on blistering rallies that risk soon burning short sellers betting against the highfliers, according to data provider S3 Partners.",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.918897+00:00"
-    },
-    {
-      "title": "Apollo’s West Technology Is in Talks to Sell Remaining Business",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/apollo-s-west-technology-is-in-talks-to-sell-remaining-business",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-14T22:25:05+00:00",
-      "content": "Apollo Global Management Inc.-backed West Technology is engaged in exclusive talks to sell its remaining operating business to a counter-party, according to people familiar with the matter.",
-      "id": "4d3dbe993dcd3c28b94a8111bf77e2ad",
-      "title_zh": "Apollo 的 West Technology 正在洽谈出售剩余业务",
-      "summary_zh": "Apollo Global Management Inc.-backed West Technology is engaged in exclusive talks to sell its remaining operating business to a counter-party, according to people familiar with the matter.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.917375+00:00"
-    },
-    {
-      "title": "Gemini surges after Winklevoss Capital Fund invests $100 million in the crypto exchange",
-      "url": "https://www.cnbc.com/2026/05/14/gemini-surges-after-winklevoss-capital-invests-100-million-in-the-crypto-exchange.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-14T22:23:40+00:00",
-      "content": "The company also topped revenue expectations for the quarter and posted a narrower-than-expected loss than analysts anticipated, according to FactSet.",
-      "id": "26193725bc5e90c33cbb48866d46337a",
-      "title_zh": "Winklevoss Capital Fund 向加密货币交易所投资 1 亿美元后，Gemini 股价飙升",
-      "summary_zh": "The company also topped revenue expectations for the quarter and posted a narrower-than-expected loss than analysts anticipated, according to FactSet.",
-      "category": "加密",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.917497+00:00"
-    },
-    {
-      "title": "Cramer urges investors to be more selective in the AI frenzy",
-      "url": "https://www.cnbc.com/2026/05/14/cramer-urges-investors-to-be-more-selective-in-the-ai-frenzy.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-14T22:22:42+00:00",
-      "content": "CNBC’s Jim Cramer said investors should be more selective when investing in the semiconductor rally.",
-      "id": "d4b33a3b357e55e15548f7a710d1758c",
-      "title_zh": "克莱默敦促投资者在人工智能热潮中更加谨慎",
-      "summary_zh": "CNBC’s Jim Cramer said investors should be more selective when investing in the semiconductor rally.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-15T00:00:33.146082+00:00"
-    },
-    {
-      "title": "Closing time",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis",
-      "source": "The Verge AI",
-      "domain": "AI",
-      "published": "2026-05-14T22:21:46+00:00",
-      "content": "Today was closing arguments in the Musk v. Altman trial, and I almost feel bad writing about the unbelievable demolition derby I just witnessed. Steven Molo, Musk's lawyer, stumbled over his words. He at one point called Greg Brockman - a co-defendant - Greg Altman. He erroneously claimed that Musk wasn't asking for money and [&#8230;]",
-      "id": "1d0c2f9f5af6ea933b20974d33fd0633",
-      "title_zh": "关门时间",
-      "summary_zh": "Today was closing arguments in the Musk v. Altman trial, and I almost feel bad writing about the unbelievable demolition derby I just witnessed. Steven Molo, Musk's lawyer, stumbled over his words. He",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.906594+00:00"
-    },
-    {
-      "title": "The political polarization of health outcomes in the USA",
-      "url": "https://www.nature.com/articles/s41562-026-02474-9",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T22:18:49+00:00",
-      "content": "The political polarization of health outcomes in the USA. Score: 5, Comments: 0",
-      "id": "858990c69b091f942cf385ebaf0f3cb2",
-      "title_zh": "美国健康结果的政治两极分化",
-      "summary_zh": "The political polarization of health outcomes in the USA. Score: 5, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.920079+00:00"
-    },
-    {
-      "title": "Musk, Altman Make Final Pitches to Jury in Battle Over OpenAI",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/musk-altman-make-final-pitches-to-jury-in-battle-over-openai",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-05-14T22:14:07+00:00",
-      "content": "A jury will soon cast a vote and a judge will ultimately decide the outcome of a high-stakes showdown between Elon Musk and Sam Altman over OpenAI, the artificial intelligence startup they founded together more than a decade ago.",
-      "id": "f210652ce09bf58632e26d98f2e4a92e",
-      "title_zh": "马斯克和奥特曼在 OpenAI 之争中向陪审团提出最后建议",
-      "summary_zh": "A jury will soon cast a vote and a judge will ultimately decide the outcome of a high-stakes showdown between Elon Musk and Sam Altman over OpenAI, the artificial intelligence startup they founded tog",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.919008+00:00"
-    },
-    {
-      "title": "Scientists ID 'corkscrew killer' behind gruesome seal deaths",
-      "url": "https://www.science.org/content/article/scientists-id-corkscrew-killer-behind-gruesome-seal-deaths",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T22:12:45+00:00",
-      "content": "Scientists ID 'corkscrew killer' behind gruesome seal deaths. Score: 6, Comments: 0",
-      "id": "45d1d0a4716a1ff9c4436d6abbca4ddc",
-      "title_zh": "科学家发现可怕的海豹死亡背后的“开瓶器杀手”",
-      "summary_zh": "Scientists ID 'corkscrew killer' behind gruesome seal deaths. Score: 6, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-15T05:46:43.707722+00:00"
-    },
-    {
-      "title": "10x more AI code is shipping on GitHub today than last year at this same time",
-      "url": "https://loopiq.com/blog/compliance-automation",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-14T22:09:31+00:00",
-      "content": "Article URL: https://loopiq.com/blog/compliance-automation\nComments URL: https://news.ycombinator.com/item?id=48141933\nPoints: 3\n# Comments: 0",
-      "id": "0d8264b45914139fb66aa5041b40a508",
-      "title_zh": "今天 GitHub 上发布的 AI 代码比去年同期多了 10 倍",
-      "summary_zh": "Article URL: https://loopiq.com/blog/compliance-automation Comments URL: https://news.ycombinator.com/item?id=48141933 Points: 3 # Comments: 0",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.920180+00:00"
-    },
-    {
-      "title": "Oil Heads for Weekly Advance With Iran War Resolution at Impasse",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/latest-oil-market-news-and-analysis-for-may-15",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-14T22:07:41+00:00",
-      "content": "Oil headed for a weekly gain as the crucial Strait of Hormuz remains effectively closed with efforts to end the war in limbo, prolonging disruptions that have upended global markets.",
-      "id": "abf51ec240b0e9183719f9a6e67bfc1c",
-      "title_zh": "伊朗战争解决陷入僵局，石油价格每周上涨",
-      "summary_zh": "Oil headed for a weekly gain as the crucial Strait of Hormuz remains effectively closed with efforts to end the war in limbo, prolonging disruptions that have upended global markets.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.917402+00:00"
-    },
-    {
-      "title": "Asian Stocks to Rise as AI Rally Spurs Wall Street: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/asian-stocks-to-rise-as-ai-rally-spurs-wall-street-markets-wrap",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-14T22:06:03+00:00",
-      "content": "Asian stocks were set to rise Friday after Wall Street hit fresh records, buoyed by a rally in artificial intelligence shares, strong corporate earnings and further signs of resilience in the US consumer.",
-      "id": "dbd541e325c0bffd151e145bbc9d4dd0",
-      "title_zh": "人工智能涨势刺激华尔街，亚洲股市上涨：市场结束",
-      "summary_zh": "Asian stocks were set to rise Friday after Wall Street hit fresh records, buoyed by a rally in artificial intelligence shares, strong corporate earnings and further signs of resilience in the US consu",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.917430+00:00"
-    },
-    {
-      "title": "Show HN: GridTravel- A community based travel app for users to share routes",
-      "url": "https://www.gridtravel.app",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T22:05:30+00:00",
-      "content": "Show HN: GridTravel- A community based travel app for users to share routes. Score: 20, Comments: 3",
-      "id": "658a6a467e3fcbcf1b26efe4b290b797",
-      "title_zh": "Show HN：GridTravel - 一款基于社区的旅行应用程序，供用户共享路线",
-      "summary_zh": "Show HN: GridTravel- A community based travel app for users to share routes. Score: 20, Comments: 3",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-05-15T01:56:55.684131+00:00"
-    },
-    {
-      "title": "Group led by Egon Durban to buy 25% of Las Vegas Raiders at $9.9 billion valuation, sources say",
-      "url": "https://www.cnbc.com/2026/05/14/group-led-by-egon-durban-to-buy-25percent-of-las-vegas-raiders-at-9point9-billion-valuation-sources.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-14T22:02:48+00:00",
-      "content": "First Football is selling its 25% stake in the team to a group led by Egon Durban at a $9.9 billion valuation.",
-      "id": "f301147b1a168d11e77620094fcb5fd3",
-      "title_zh": "消息人士称，埃贡·德班 (Egon Durban) 牵头的集团将以 99 亿美元估值收购拉斯维加斯突袭者队 (Las Vegas Raiders) 25% 的股份",
-      "summary_zh": "First Football is selling its 25% stake in the team to a group led by Egon Durban at a $9.9 billion valuation.",
-      "category": "投融资",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.917520+00:00"
-    },
-    {
-      "title": "Foreign Investors Fear Retreat in Japan’s Governance Reforms",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/foreign-investors-fear-retreat-in-japan-s-governance-reforms",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-14T22:00:11+00:00",
-      "content": "Investor concern is mounting over a possible rollback of Japan’s corporate governance reforms, a key driver of foreign investment, threatening a rally that pushed equities to record levels.",
-      "id": "855dff478e772ecdb3a79f46cf20cc98",
-      "title_zh": "外国投资者担心日本治理改革退缩",
-      "summary_zh": "Investor concern is mounting over a possible rollback of Japan’s corporate governance reforms, a key driver of foreign investment, threatening a rally that pushed equities to record levels.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.917472+00:00"
-    },
-    {
-      "title": "British PM Keir Starmer's job is in jeopardy after his party was trounced in elections",
-      "url": "https://www.npr.org/2026/05/14/nx-s1-5822391/british-pm-keir-starmers-job-is-in-jeopardy-after-his-party-was-trounced-in-elections",
-      "source": "NPR World",
-      "domain": "国际",
-      "published": "2026-05-14T21:57:14+00:00",
-      "content": "After a victory for the far right in municipal elections, Britain's center-left ruling party is in turmoil over whether to replace the unpopular prime minister, Keir Starmer — and with whom.",
-      "id": "1ab330e64c6a26fa14a642d0e93ba5fb",
-      "title_zh": "英国首相凯尔·斯塔默的政党在选举中惨败，其工作面临危险",
-      "summary_zh": "After a victory for the far right in municipal elections, Britain's center-left ruling party is in turmoil over whether to replace the unpopular prime minister, Keir Starmer — and with whom.",
-      "category": "科学",
-      "tags": [],
-      "collected": "2026-05-14T22:00:15.651166+00:00"
-    },
-    {
-      "title": "Xbox Elite Controller 3 leaked by Brazilian regulator",
-      "url": "https://www.engadget.com/2173365/xbox-elite-controller-3-leaked-by-brazilian-regulator/",
-      "source": "Engadget",
-      "domain": "科技",
-      "published": "2026-05-14T21:55:48+00:00",
-      "content": "It's a tough day to work at Microsoft PR.",
-      "id": "d7b6cb511c864009dd5b4f9810ac9a67",
-      "title_zh": "Xbox Elite Controller 3 被巴西监管机构泄露",
-      "summary_zh": "It's a tough day to work at Microsoft PR.",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-05-14T22:00:15.650311+00:00"
-    },
-    {
-      "title": "PyTorch simulator refutes an 18-year-old quantum theorem",
-      "url": "https://github.com/lizbeth307/quantum-superactivation-refutation",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T21:54:11+00:00",
-      "content": "PyTorch simulator refutes an 18-year-old quantum theorem. Score: 4, Comments: 0",
-      "id": "694f7dc78bebd21f4a17ed35789c628e",
-      "title_zh": "PyTorch 模拟器反驳了 18 年前的量子定理",
-      "summary_zh": "PyTorch simulator refutes an 18-year-old quantum theorem. Score: 4, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-15T00:00:33.148003+00:00"
-    },
-    {
-      "title": "Court bans Kars4Kids ads in California for violating false advertising law",
-      "url": "https://www.sfgate.com/bayarea/article/kars4kids-california-false-advertising-22259298.php",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T21:53:53+00:00",
-      "content": "Court bans Kars4Kids ads in California for violating false advertising law. Score: 12, Comments: 2",
-      "id": "3b5d9824e58e924100d3dd5e966748be",
-      "title_zh": "法院因违反虚假广告法而在加州禁止 Kars4Kids 广告",
-      "summary_zh": "Court bans Kars4Kids ads in California for violating false advertising law. Score: 12, Comments: 2",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.919843+00:00"
-    },
-    {
-      "title": "Supreme Court allows mail-order of abortion pill mifepristone pending appeal",
-      "url": "https://www.cnbc.com/2026/05/14/supreme-court-abortion-mifepristone-mail-order-appeal.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-14T21:51:12+00:00",
-      "content": "",
-      "id": "bcd3c0c0733c45be074b36731957a4ca",
-      "title_zh": "最高法院允许在上诉期间邮购堕胎药米非司酮",
-      "summary_zh": "",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-14T22:00:15.650201+00:00"
-    },
-    {
-      "title": "OVMS: Open source electric vehicle remote monitoring, diagnosis and control",
-      "url": "https://www.openvehicles.com/home",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-14T21:50:17+00:00",
-      "content": "OVMS: Open source electric vehicle remote monitoring, diagnosis and control. Score: 11, Comments: 2",
-      "id": "763a96242e5c5b93a36a2caa36503e2f",
-      "title_zh": "OVMS：开源电动汽车远程监控、诊断和控制",
-      "summary_zh": "OVMS: Open source electric vehicle remote monitoring, diagnosis and control. Score: 11, Comments: 2",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-05-14T22:56:21.919226+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
-        "title": "微软人工智能首席执行官预测 18 个月内将出现人类水平的人工智能",
-        "summary": "微软人工智能首席执行官预测，在未来 18 个月内，人工智能将达到人类水平。",
-        "url": "https://twitter.com/kimmonismus/status/2055952702908355012",
-        "source": "Hacker News",
-        "category": "LLM"
+        "title": "EPI – 用于 AI 代理的法医证据容器 SCITT 兼容，欧盟 AI 法案就绪",
+        "summary": "欧盟 AI 法案即将生效，EPI 为 AI 代理提供法医证据容器，符合 SCITT 标准。",
+        "url": "https://github.com/mohdibrahimaiml/epi-recorder",
+        "source": "Hacker News AI",
+        "category": "研究"
       },
       {
         "rank": 2,
-        "title": "Citadel 人工智能代理在几天内完成博士任务",
-        "summary": "Ken Griffin 表示，Citadel 的人工智能代理在短短几天内就完成了博士级别的任务。",
-        "url": "https://twitter.com/TFTC21/status/2055978848764784662",
+        "title": "使用从原始点击流数据中学习到的角色来奠定人工智能购物代理的基础",
+        "summary": "利用点击流数据训练 AI 角色，为打造更智能的购物代理奠定基础。",
+        "url": "https://arxiv.org/abs/2605.14205",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 3,
-        "title": "Git-surgeon 为 AI 代理提供手术控制，无需交互式提示",
-        "summary": "Git-surgeon 允许 AI 代理在无需人工提示的情况下执行 Git 操作。",
-        "url": "https://github.com/raine/git-surgeon",
+        "title": "LeakyLM：人工智能助理正在泄露你的对话",
+        "summary": "研究发现 AI 助理可能泄露用户对话，揭示隐私风险。",
+        "url": "https://leakylm.github.io/",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "AI产品"
       },
       {
         "rank": 4,
-        "title": "Vercel 的零：专为 AI 代理设计的编程语言",
-        "summary": "Vercel 推出了名为 '零' 的新编程语言，专为 AI 代理的需求而设计。",
-        "url": "https://firethering.com/vercel-zero-programming-language-ai-agents/",
+        "title": "AI 代理进行了 27,000 次实验。他们最大的发现",
+        "summary": "AI 代理通过大量实验，在特定领域取得了重大发现。",
+        "url": "https://medium.com/@vektormemory/660-ai-agents-ran-27-000-experiments-their-biggest-discovery-was-a-2015-textbook-result-f0a152799e87",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 5,
-        "title": "Apple 的 Siri 改造可能包括自动删除聊天记录",
-        "summary": "据报道，苹果公司对其 Siri 产品进行重大改造，可能会增加自动删除聊天记录的功能。",
-        "url": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
-        "source": "TechCrunch AI",
-        "category": "AI产品"
+        "title": "ThinkPad：从IBM的Bento Box到联想的AI工作站",
+        "summary": "ThinkPad 品牌演变，从传统笔记本到面向 AI 的工作站。",
+        "url": "https://www.jdhodges.com/blog/thinkpad-history/",
+        "source": "Hacker News AI",
+        "category": "LLM"
       },
       {
         "rank": 6,
-        "title": "OpenAI 开源 Symphony，用于自主编码代理编排",
-        "summary": "OpenAI 发布了 Symphony，一个用于协调自主编码代理的开源平台。",
-        "url": "https://www.infoq.com/news/2026/05/openai-symphony-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-        "source": "InfoQ AI",
-        "category": "研究"
+        "title": "人工智能可穿戴设备即将到来，但它们需要通过咖啡店测试才能生存",
+        "summary": "AI 可穿戴设备面临市场挑战，需通过实际场景测试才能普及。",
+        "url": "https://www.inc.com/connor-jewiss/ai-wearables-are-coming-but-theyll-need-to-pass-this-crucial-coffee-shop-test-to-survive/91345526",
+        "source": "Hacker News",
+        "category": "LLM"
       },
       {
         "rank": 7,
-        "title": "为什么信任是 Elon Musk-OpenAI 试验中的一个大问题",
-        "summary": "埃隆·马斯克与 OpenAI 的合作引发了关于信任和潜在风险的担忧。",
-        "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
-        "source": "TechCrunch AI",
+        "title": "AI 急需 PDF",
+        "summary": "AI 技术在处理 PDF 文件方面存在挑战，亟待改进。",
+        "url": "https://mkotlikov.substack.com/p/your-ai-is-starving-for-pdfs",
+        "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 8,
-        "title": "人工智能需要更好的隐喻",
-        "summary": "文章探讨了人工智能领域需要更有效的隐喻来理解和沟通其能力。",
-        "url": "https://metedata.substack.com/p/011-ai-needs-better-metaphors",
+        "title": "问 HN：为什么没有更多的人担心代码审查中的人工智能模仿？",
+        "summary": "讨论 AI 在代码审查中模仿行为可能带来的潜在风险。",
+        "url": "https://news.ycombinator.com/item?id=48173182",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "研究"
       },
       {
         "rank": 9,
-        "title": "人工智能仇恨浪潮已经到来",
-        "summary": "文章讨论了人工智能日益增长的负面情绪和潜在的仇恨浪潮。",
-        "url": "https://www.axios.com/2026/05/17/ai-backlash-polling-sentiment",
-        "source": "Hacker News AI",
+        "title": "微软人工智能首席执行官预测 18 个月内将出现人类水平的人工智能",
+        "summary": "微软 AI CEO 预测，18 个月内将实现达到人类水平的人工智能。",
+        "url": "https://twitter.com/kimmonismus/status/2055952702908355012",
+        "source": "Hacker News",
         "category": "LLM"
       },
       {
         "rank": 10,
-        "title": "AI 急需 PDF",
-        "summary": "探讨了人工智能在处理和理解 PDF 文件方面的迫切需求和挑战。",
-        "url": "https://mkotlikov.substack.com/p/your-ai-is-starving-for-pdfs",
+        "title": "Ken Griffin 表示 Citadel 人工智能代理在几天内完成博士任务",
+        "summary": "Citadel 的 AI 代理在极短时间内完成了博士级别的任务，展示了其强大能力。",
+        "url": "https://twitter.com/TFTC21/status/2055978848764784662",
         "source": "Hacker News AI",
         "category": "LLM"
       }
@@ -21534,245 +21422,245 @@
     "安全": [
       {
         "rank": 1,
+        "title": "PoC 发布，新的 Windows“MiniPlasma”零日漏洞可提供系统访问权限",
+        "summary": "Windows 出现新的“MiniPlasma”零日漏洞，PoC 已发布，可提供系统访问权限。",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
+      },
+      {
+        "rank": 2,
         "title": "Tycoon2FA 通过设备代码网络钓鱼劫持 Microsoft 365 帐户",
-        "summary": "Tycoon2FA 采用网络钓鱼技术，利用设备代码劫持 Microsoft 365 帐户。",
+        "summary": "Tycoon2FA 利用设备代码网络钓鱼技术，成功劫持 Microsoft 365 账户。",
         "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "title": "安全研究人员称微软构建了 Bitlocker 后门并发布了漏洞",
-        "summary": "安全研究人员声称，微软在 Bitlocker 中存在后门，并已公开了相关漏洞。",
+        "summary": "安全研究人员声称微软 Bitlocker 存在后门漏洞，并已公开。",
         "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
         "source": "Hacker News",
         "category": "漏洞"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "title": "NGINX CVE-2026-42945 被广泛利用，导致 Worker 崩溃和可能的 RCE",
-        "summary": "NGINX 的 CVE-2026-42945 漏洞被广泛利用，导致服务中断和潜在的远程代码执行。",
+        "summary": "NGINX 关键漏洞 CVE-2026-42945 被广泛利用，可导致 Worker 崩溃和远程代码执行。",
         "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
         "source": "The Hacker News",
         "category": "漏洞"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "title": "Grafana GitHub 令牌泄露导致代码库下载和勒索尝试",
-        "summary": "Grafana 的 GitHub 令牌泄露导致代码库被下载，并出现勒索企图。",
+        "summary": "Grafana GitHub 令牌泄露，攻击者得以下载代码库并进行勒索。",
         "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
         "source": "The Hacker News",
         "category": "攻防"
       },
       {
-        "rank": 5,
-        "title": "微软拒绝 Azure 关键漏洞报告，未发布 CVE",
-        "summary": "微软拒绝了有关 Azure 关键漏洞的报告，并且未为此发布 CVE。",
+        "rank": 6,
+        "title": "Mozilla 致英国监管机构：VPN 是重要的隐私和安全工具",
+        "summary": "Mozilla 向英国监管机构强调 VPN 在保护隐私和安全方面的重要性。",
+        "url": "https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/",
+        "source": "Hacker News",
+        "category": "隐私"
+      },
+      {
+        "rank": 7,
+        "title": "微软拒绝Azure关键漏洞报告，未发布CVE",
+        "summary": "微软拒绝处理 Azure 关键漏洞报告，并未发布相应的 CVE。",
         "url": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
-        "rank": 6,
-        "title": "漏斗生成器缺陷被积极利用，导致 WooCommerce 结账窃取",
-        "summary": "Funnel Builder 插件的缺陷被积极利用，导致 WooCommerce 结账过程中发生信息窃取。",
+        "rank": 8,
+        "title": "漏斗生成器缺陷被积极利用，导致 WooCommerce 结帐窃取",
+        "summary": "WooCommerce 的 Funnel Builder 插件存在缺陷，被用于窃取结账信息。",
         "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
         "source": "The Hacker News",
         "category": "漏洞"
       },
       {
-        "rank": 7,
+        "rank": 9,
         "title": "俄罗斯黑客将 Kazuar 后门变成模块化 P2P 僵尸网络",
-        "summary": "俄罗斯黑客将 Kazuar 后门改造为模块化的 P2P 僵尸网络。",
+        "summary": "俄罗斯黑客将 Kazuar 后门转化为模块化 P2P 僵尸网络，用于长期控制。",
         "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
-        "rank": 8,
+        "rank": 10,
         "title": "针对 NGINX 关键漏洞发布的 PoC 代码",
-        "summary": "针对 NGINX 的关键漏洞，已发布了概念验证 (PoC) 代码。",
+        "summary": "针对 NGINX 关键漏洞，已发布概念验证（PoC）代码。",
         "url": "https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/",
         "source": "SecurityWeek",
         "category": "漏洞"
-      },
-      {
-        "rank": 9,
-        "title": "CVE-2026-40369 – Windows 内核特权提升漏洞",
-        "summary": "Windows 内核中发现 CVE-2026-40369 漏洞，可导致特权提升。",
-        "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40369",
-        "source": "Hacker News",
-        "category": "漏洞"
-      },
-      {
-        "rank": 10,
-        "title": "Funnel Builder WordPress 插件漏洞被用来窃取信用卡",
-        "summary": "Funnel Builder WordPress 插件中的漏洞被用于窃取信用卡信息。",
-        "url": "https://www.cnn.com/2026/05/15/politics/iran-hackers-tank-readers-gas-stations",
-        "source": "Hacker News",
-        "category": "攻防"
       }
     ],
     "经济": [
       {
         "rank": 1,
+        "title": "人工智能对电力的永不满足的需求可能会复兴被遗弃的能源",
+        "summary": "AI 对电力的巨大需求有望重振被遗弃的能源项目。",
+        "url": "https://www.cnbc.com/2026/05/17/cramer-ais-appetite-for-electricity-could-revive-a-forsaken-energy-.html",
+        "source": "CNBC",
+        "category": "市场"
+      },
+      {
+        "rank": 2,
+        "title": "伊朗战争没有结束迹象，油价攀升：市场总结",
+        "summary": "伊朗战争持续，油价受此影响攀升，市场动态引人关注。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 3,
+        "title": "特朗普表示伊朗协议的时间已到，油价扩大涨幅",
+        "summary": "特朗普对伊朗协议的表态导致油价进一步上涨。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/latest-oil-market-news-and-analysis-for-may-18",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 4,
+        "title": "德国财政部长敦促七国集团峰会前增强供应链弹性",
+        "summary": "德国财长呼吁 G7 峰会加强供应链韧性。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/german-finance-chief-urges-supply-chain-resilience-ahead-of-g-7",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 5,
         "title": "一只对冲基金掌握着乌克兰战时工业的钥匙",
-        "summary": "一家对冲基金持有乌克兰战时工业的关键股份。",
+        "summary": "一家对冲基金在乌克兰的战时工业中扮演着关键角色。",
         "url": "https://www.bloomberg.com/news/features/2026-05-17/hedge-fund-vr-capital-holds-sway-in-ukraine-s-wartime-economy",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 2,
+        "rank": 6,
         "title": "NextEra 表示将讨论以每股约 76 美元的价格收购 Dominion",
-        "summary": "NextEra 确认正在就以每股约 76 美元的价格收购 Dominion 进行谈判。",
+        "summary": "NextEra 考虑以每股约 76 美元收购 Dominion。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-17/nextera-said-to-discuss-paying-about-76-per-share-for-dominion",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 3,
+        "rank": 7,
         "title": "债券发出通胀警报后，股票成为焦点",
-        "summary": "在债券市场发出通胀警告后，投资者注意力转向股票市场。",
+        "summary": "债券市场发出通胀警告，市场焦点转向股票。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-17/stocks-in-focus-after-bonds-send-inflation-alarm-markets-wrap",
         "source": "Bloomberg Markets",
         "category": "宏观"
       },
       {
-        "rank": 4,
-        "title": "随着战争逆风迫近，英国经济加速超过美国",
-        "summary": "在战争逆风的影响下，英国经济增长速度超过了美国。",
-        "url": "https://www.wsj.com/economy/u-k-economy-accelerated-at-start-of-year-7c70878b",
-        "source": "Hacker News",
-        "category": "宏观"
-      },
-      {
-        "rank": 5,
-        "title": "冈拉克表示美联储降息“根本不可能”",
-        "summary": "冈拉克认为美联储大幅降息的可能性微乎其微。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/gundlach-says-it-s-just-not-possible-for-the-fed-to-cut-rates",
-        "source": "Bloomberg Markets",
-        "category": "宏观"
-      },
-      {
-        "rank": 6,
-        "title": "NVIDIA 盈利预期受供应限制和中国市场的不确定性影响",
-        "summary": "NVIDIA 的盈利预期受到供应短缺和中国市场不确定性的影响。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-17/nvidia-earnings-anticipated-on-wednesday-video",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 7,
-        "title": "科技泡沫恐惧吸引投资者利用奇异期权进行对冲",
-        "summary": "对科技泡沫的担忧促使投资者利用奇异期权进行风险对冲。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/tech-bubble-fear-lures-investors-to-hedge-with-exotic-options",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
         "rank": 8,
-        "title": "特朗普的道德档案揭示了异常的高科技股票交易",
-        "summary": "特朗普的道德披露文件显示其存在异常的高科技股票交易。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-17/trump-ethics-filings-reveal-high-tech-stock-trades-video",
+        "title": "数百家 Swarm 样本店发布“Royal Pop”",
+        "summary": "Swarm 样本店推出新款产品“Royal Pop”。",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/hundreds-swarm-swatch-stores-for-royal-pop-release-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 9,
-        "title": "为什么你的“固定”抵押贷款付款不断增加",
-        "summary": "文章解释了为什么固定抵押贷款的付款正在上涨。",
-        "url": "https://www.cnbc.com/2026/05/17/mortgage-escrow-shortages.html",
+        "title": "特朗普警告伊朗“行动起来”，否则“将一无所有”",
+        "summary": "特朗普对伊朗发出严厉警告，可能影响地缘政治和经济。",
+        "url": "https://www.cnbc.com/2026/05/17/trump-warns-iran-wont-be-anything-left.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
         "rank": 10,
-        "title": "离开美国的美国人数量创历史新高，并花费数百美元学习如何离开美国",
-        "summary": "离开美国的美国公民人数创下历史新高，许多人花费大量金钱研究移民。",
-        "url": "https://www.cnbc.com/2026/05/17/americans-are-leaving-the-united-states-in-record-numbers-spending-hundreds-to-learn-how.html",
-        "source": "CNBC",
-        "category": "市场"
+        "title": "随着战争逆风迫近，英国经济加速超过美国",
+        "summary": "英国经济增长加速，在战争逆风下表现优于美国。",
+        "url": "https://www.wsj.com/economy/u-k-economy-accelerated-at-start-of-year-7c70878b",
+        "source": "Hacker News",
+        "category": "宏观"
       }
     ],
     "科技": [
       {
         "rank": 1,
-        "title": "5 月 19 日，《堡垒之夜》玩家可以先睹为快 10 分钟《曼达洛人和格罗古》",
-        "summary": "《堡垒之夜》玩家将有机会在 5 月 19 日抢先观看《曼达洛人和格罗古》的 10 分钟片段。",
-        "url": "https://www.engadget.com/2175044/fortnite-players-get-a-10-minute-sneak-peek-of-the-mandalorian-and-grogu-on-may-19/",
-        "source": "Engadget",
+        "title": "YouTube 和 Netflix 开始听起来很像普通电视",
+        "summary": "YouTube 和 Netflix 的内容和体验正变得越来越像传统电视。",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-17/youtube-and-netflix-are-starting-to-sound-a-lot-like-normal-tv",
+        "source": "Bloomberg Tech",
         "category": "互联网"
       },
       {
         "rank": 2,
-        "title": "被解雇的 Atlassian 工程师发布了他构建的每个系统的详细信息",
-        "summary": "一位被解雇的 Atlassian 工程师公开了他曾经构建过的所有系统的详细信息。",
-        "url": "https://twitter.com/polydao/status/2055197994635424038",
+        "title": "Prolog 编码恐怖",
+        "summary": "文章探讨了使用 Prolog 编程语言可能遇到的挑战和“恐怖”。",
+        "url": "https://www.metalevel.at/prolog/horror",
         "source": "Hacker News",
-        "category": "软件"
+        "category": "互联网"
       },
       {
         "rank": 3,
-        "title": "Fwd：[multicians] 彼得·诺依曼去世",
-        "summary": "通知彼得·诺依曼逝世的邮件。",
-        "url": "https://lwn.net/ml/all/CAEoi9W7rpLzdJzYJ3-F0KVJo-wQXa7UawUYtUoUUYy36m5e_3Q@mail.gmail.com/",
+        "title": "FTC 要求平台在 5 月 19 日之前遵守《Take It Down Act》",
+        "summary": "FTC 要求各平台在 5 月 19 日前遵守《Take It Down Act》。",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act",
         "source": "Hacker News",
         "category": "互联网"
       },
       {
         "rank": 4,
+        "title": "5 月 19 日，《堡垒之夜》玩家可以先睹为快 10 分钟《曼达洛人和格罗古》",
+        "summary": "《堡垒之夜》将于 5 月 19 日提供《曼达洛人和格罗古》的 10 分钟预览。",
+        "url": "https://www.engadget.com/2175044/fortnite-players-get-a-10-minute-sneak-peek-of-the-mandalorian-and-grogu-on-may-19/",
+        "source": "Engadget",
+        "category": "互联网"
+      },
+      {
+        "rank": 5,
+        "title": "被解雇的 Atlassian 工程师发布了他构建的每个系统的详细信息",
+        "summary": "一位被解雇的 Atlassian 工程师公开了他曾构建的系统细节。",
+        "url": "https://twitter.com/polydao/status/2055197994635424038",
+        "source": "Hacker News",
+        "category": "软件"
+      },
+      {
+        "rank": 6,
+        "title": "Fwd：[multicians] 彼得·诺依曼去世",
+        "summary": "讣告：彼得·诺依曼（Multics 项目的贡献者）去世。",
+        "url": "https://lwn.net/ml/all/CAEoi9W7rpLzdJzYJ3-F0KVJo-wQXa7UawUYtUoUUYy36m5e_3Q@mail.gmail.com/",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 7,
         "title": "VoIP 将老式公用电话带回佛蒙特州乡村",
-        "summary": "VoIP 技术正在将传统的公用电话重新引入佛蒙特州的乡村地区。",
+        "summary": "VoIP 技术让老式公用电话在佛蒙特州乡村地区得以重现。",
         "url": "https://spectrum.ieee.org/payphone-voip",
         "source": "Hacker News",
         "category": "硬件"
       },
       {
-        "rank": 5,
+        "rank": 8,
+        "title": "保罗·埃尔多斯",
+        "summary": "关于数学家保罗·埃尔多斯及其对计算机科学可能产生的影响的讨论。",
+        "url": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
+        "source": "Hacker News",
+        "category": "软件"
+      },
+      {
+        "rank": 9,
         "title": "亚马逊因在“非法”关税后未向客户退款而面临集体诉讼",
-        "summary": "亚马逊因未能向客户退还在“非法”关税下的款项而面临集体诉讼。",
+        "summary": "亚马逊因未在“非法”关税后退款给客户而面临集体诉讼。",
         "url": "https://www.engadget.com/2174992/amazon-facing-class-action-lawsuit-for-not-refunding-its-customers-after-unlawful-tariffs/",
         "source": "Engadget",
         "category": "互联网"
       },
       {
-        "rank": 6,
-        "title": "泰拉瑞亚开发商确认跨平台游戏即将到来并预告 15 周年纪念收藏品",
-        "summary": "《泰拉瑞亚》的开发商证实游戏将支持跨平台游玩，并预告了 15 周年纪念收藏品。",
-        "url": "https://www.engadget.com/2174984/terraria-developer-confirms-cross-play-is-coming-and-teases-15th-anniversary-collector-items/",
-        "source": "Engadget",
-        "category": "软件"
-      },
-      {
-        "rank": 7,
-        "title": "科学家用储存太阳能的液体电池“装进太阳”",
-        "summary": "科学家们开发了一种液体电池，能够储存太阳能。",
-        "url": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 8,
-        "title": "据报道，1047 Games 的《泰坦天降》精神继承者将被称为 Empulse",
-        "summary": "据报道，1047 Games 开发的《泰坦天降》精神继承者名为 Empulse。",
-        "url": "https://www.engadget.com/2174946/1047-games-spiritual-successor-to-titanfall-will-reportedly-be-called-empulse/",
-        "source": "Engadget",
-        "category": "软件"
-      },
-      {
-        "rank": 9,
-        "title": "欧盟考虑限制使用美国云平台处理敏感政府数据",
-        "summary": "欧盟正考虑限制使用美国云平台来处理敏感的政府数据。",
-        "url": "https://www.osnews.com/story/144943/eu-weighs-restricting-use-of-us-cloud-platforms-to-process-sensitive-government-data/",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
         "rank": 10,
-        "title": "据报道，苹果新的 Siri 应用程序将提供自动删除聊天选项",
-        "summary": "据报道，苹果的新 Siri 应用将允许用户自动删除聊天记录。",
-        "url": "https://www.engadget.com/2174928/apple-new-siri-app-will-reportedly-offer-auto-deleting-chat-options/",
+        "title": "泰拉瑞亚开发商确认跨平台游戏即将到来并预告 15 周年纪念收藏品",
+        "summary": "《泰拉瑞亚》开发商确认支持跨平台游戏，并预告 15 周年纪念品。",
+        "url": "https://www.engadget.com/2174984/terraria-developer-confirms-cross-play-is-coming-and-teases-15th-anniversary-collector-items/",
         "source": "Engadget",
         "category": "软件"
       }
@@ -21780,85 +21668,85 @@
     "国际": [
       {
         "rank": 1,
+        "title": "是什么促使中国出生的维吾尔人参加叙利亚内战",
+        "summary": "探讨中国出生的维吾尔族人参与叙利亚内战的原因。",
+        "url": "https://www.npr.org/2026/05/17/nx-s1-5550919/what-motivated-chinese-born-uyghers-to-fight-in-syrias-civil-war",
+        "source": "NPR World",
+        "category": "外交"
+      },
+      {
+        "rank": 2,
         "title": "阿联酋报告阿布扎比核电站附近发生袭击",
-        "summary": "阿联酋报告称，阿布扎比核电站附近发生了一起袭击事件。",
+        "summary": "阿联酋报告称阿布扎比核电站附近发生袭击事件。",
         "url": "https://www.bbc.com/news/articles/cwy27pkj1l1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "外交"
       },
       {
-        "rank": 2,
+        "rank": 3,
+        "title": "航行者号宇宙飞船代码",
+        "summary": "文章讨论了航行者号宇宙飞船使用的代码。",
+        "url": "https://spacedaily.com/nasa-still-maintains-some-of-the-voyager-spacecraft-code-in-a-1970s-era-programming-language-that-almost-nobody-on-earth-fully-understands-anymore-and-the-handful-of-engineers-who-do-are-now-in-their/",
+        "source": "Hacker News",
+        "category": "科学"
+      },
+      {
+        "rank": 4,
         "title": "乌克兰对俄罗斯发动大规模无人机袭击 造成4人死亡、12人受伤",
-        "summary": "乌克兰对俄罗斯发动大规模无人机袭击，造成 4 人死亡，12 人受伤。",
+        "summary": "乌克兰对俄罗斯发动无人机袭击，造成人员伤亡。",
         "url": "https://www.npr.org/2026/05/17/nx-s1-5824987/ukrainian-drone-strikes-on-russia-kill-4-moscow",
         "source": "NPR World",
         "category": "外交"
       },
       {
-        "rank": 3,
+        "rank": 5,
         "title": "刚果民主共和国的埃博拉疫情有多令人担忧？",
-        "summary": "文章评估了刚果民主共和国埃博拉疫情的担忧程度。",
+        "summary": "评估刚果民主共和国埃博拉疫情的严重程度和潜在风险。",
         "url": "https://www.bbc.com/news/articles/c9q311nj5r3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "科学"
       },
       {
-        "rank": 4,
+        "rank": 6,
         "title": "世界卫生组织宣布埃博拉疫情为全球卫生紧急事件",
-        "summary": "世界卫生组织已宣布刚果民主共和国的埃博拉疫情为全球卫生紧急事件。",
+        "summary": "世界卫生组织宣布刚果（金）埃博拉疫情构成全球卫生紧急事件。",
         "url": "https://www.nytimes.com/2026/05/17/world/africa/ebola-congo-uganda-who-public-health-emergency.html",
         "source": "Hacker News",
         "category": "科学"
       },
       {
-        "rank": 5,
+        "rank": 7,
+        "title": "去年美国处决人数几乎翻了一番，海外处决人数激增",
+        "summary": "美国死刑执行人数大幅增加，海外处决人数也显著上升。",
+        "url": "https://www.npr.org/2026/05/17/nx-s1-5824521/executions-amnesty-international-report",
+        "source": "NPR World",
+        "category": "贸易"
+      },
+      {
+        "rank": 8,
         "title": "中部非洲埃博拉疫情宣布为“国际关注的突发公共卫生事件”",
-        "summary": "中部非洲的埃博拉疫情已被宣布为“国际关注的突发公共卫生事件”。",
+        "summary": "世界卫生组织宣布中部非洲的埃博拉疫情为“国际关注的突发公共卫生事件”。",
         "url": "https://news.un.org/feed/view/en/story/2026/05/1167531",
         "source": "UN News",
         "category": "科学"
       },
       {
-        "rank": 6,
+        "rank": 9,
         "title": "11亿人生活在贫民窟。他们能得到有尊严的安置吗？",
-        "summary": "文章探讨了全球 11 亿贫民窟居民的住房困境和尊严安置问题。",
+        "summary": "探讨全球 11 亿贫民窟居民的居住困境及尊严安置的可能性。",
         "url": "https://news.un.org/feed/view/en/story/2026/05/1167530",
         "source": "UN News",
         "category": "外交"
       },
       {
-        "rank": 7,
-        "title": "俄罗斯称乌克兰大规模无人机袭击莫斯科地区造成三人死亡",
-        "summary": "俄罗斯表示，乌克兰对莫斯科地区的大规模无人机袭击造成三人死亡。",
-        "url": "https://www.bbc.com/news/articles/c5ye480kxpmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
-      },
-      {
-        "rank": 8,
-        "title": "特朗普支持的挑战者击败投票判定总统有罪的共和党参议员",
-        "summary": "一位得到特朗普支持的挑战者击败了一位投票判定总统有罪的共和党参议员。",
-        "url": "https://www.bbc.com/news/articles/cx21d4pxq23o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "科学"
-      },
-      {
-        "rank": 9,
-        "title": "世界卫生组织宣布刚果民主共和国埃博拉疫情构成全球卫生紧急事件",
-        "summary": "世界卫生组织正式宣布刚果民主共和国的埃博拉疫情构成全球卫生紧急事件。",
-        "url": "https://www.bbc.com/news/articles/c2l2p0wwzzdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "科学"
-      },
-      {
         "rank": 10,
-        "title": "秘密警察和宣传：中国特工监视在美国的外国人",
-        "summary": "报道称，中国特工在美国进行秘密监视和宣传活动。",
-        "url": "https://www.bbc.com/news/articles/cm2p8z261ylo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "外交"
+        "title": "帮助推翻阿萨德的外国战士——以及为什么中国担心他们",
+        "summary": "分析曾帮助推翻阿萨德的外国战士，以及中国对此的担忧。",
+        "url": "https://www.npr.org/2026/05/17/g-s1-113270/uyghurs-china-syria-war-fighters-rebels-bashar-al-assad",
+        "source": "NPR World",
+        "category": "科学"
       }
     ],
-    "generated_at": "2026-05-17T21:44:41.857086+00:00"
+    "generated_at": "2026-05-17T22:43:15.935573+00:00"
   }
 }
