@@ -63,21 +63,7 @@ DOMAIN_KEYWORDS: dict[str, list[str]] = {
         "开源", "github", "开发者", "编程", "框架",
         "服务器", "数据中心", "互联网", "平台",
     ],
-    "国际": [
-        # English
-        "united nations", "un ", "nato", "g7", "g20", "summit",
-        "diplomat", "diplomacy", "treaty", "sanction", "tariff",
-        "trade war", "bilateral", "multilateral", "geopolitic",
-        "climate", "carbon", "emission", "cop", "paris agreement",
-        "who", "world health", "pandemic", "vaccine",
-        "space", "nasa", "esa", "spacex", "rocket", "satellite",
-        "middle east", "ukraine", "russia", "china", "taiwan",
-        # Chinese
-        "联合国", "峰会", "外交", "贸易", "关税", "制裁",
-        "气候", "碳排放", "世卫", "国际", "全球",
-        "太空", "航天", "卫星", "火箭", "中东", "乌克兰",
-        "欧盟", "东盟", "非洲", "美国", "英国", "日本", "韩国",
-    ],
+
 }
 
 # ── Category keywords (sub-classification per domain) ─────────────
@@ -210,29 +196,7 @@ CATEGORY_KEYWORDS: dict[str, dict[str, list[str]]] = {
             "javascript", "python", "rust", "java", "前端", "后端",
         ],
     },
-    "国际": {
-        "外交": [
-            "diplomat", "diplomacy", "summit", "bilateral",
-            "ambassador", "外交", "峰会", "会晤", "大使",
-            "访问", "协议", "条约", "谈判",
-        ],
-        "贸易": [
-            "trade", "tariff", "sanction", "export", "import",
-            "wto", "贸易", "关税", "制裁", "出口", "进口",
-            "贸易战", "进出口", "关税壁垒",
-        ],
-        "气候": [
-            "climate", "carbon", "emission", "renewable", "solar",
-            "wind energy", "cop", "气候", "碳", "排放",
-            "可再生", "新能源", "碳中和", "绿色能源",
-        ],
-        "科学": [
-            "space", "nasa", "esa", "spacex", "rocket", "satellite",
-            "who", "health", "vaccine", "太空", "航天",
-            "卫星", "火箭", "世卫", "疫苗",
-            "月球", "火星", "探测器", "轨道",
-        ],
-    },
+
 }
 
 # Domain-level fallback categories (used when no sub-keywords match)
@@ -242,7 +206,6 @@ DOMAIN_DEFAULT_CATEGORY: dict[str, str] = {
     "安全": "攻防",
     "经济": "市场",
     "科技": "互联网",
-    "国际": "外交",
 }
 
 
