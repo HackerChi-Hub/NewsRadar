@@ -1,6 +1,244 @@
 {
-  "last_updated": "2026-05-25T20:20:37.166143+00:00",
+  "last_updated": "2026-05-25T22:02:53.010770+00:00",
   "articles": [
+    {
+      "title": "Pope calls for robust regulation of AI in manifesto re: the future of humanity",
+      "url": "https://apnews.com/article/pope-ai-tech-trump-vatican-anthropic-d92d0108730d146baa46da041b8523da",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T21:49:56+00:00",
+      "content": "Article URL: https://apnews.com/article/pope-ai-tech-trump-vatican-anthropic-d92d0108730d146baa46da041b8523da\nComments URL: https://news.ycombinator.com/item?id=48272392\nPoints: 1\n# Comments: 0",
+      "id": "8e461453ebe47aaeb4c78dd10d14982c",
+      "title_zh": "教皇在宣言中呼吁对人工智能进行强有力的监管：人类的未来",
+      "summary_zh": "Article URL: https://apnews.com/article/pope-ai-tech-trump-vatican-anthropic-d92d0108730d146baa46da041b8523da Comments URL: https://news.ycombinator.com/item?id=48272392 Points: 1 # Comments: 0",
+      "category": "CV",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.547488+00:00"
+    },
+    {
+      "title": "Pope Leo says AI could warp humanity",
+      "url": "https://www.axios.com/2026/05/25/pope-leo-xiv-ai-humanity-war-jobs-warning",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T21:48:18+00:00",
+      "content": "Article URL: https://www.axios.com/2026/05/25/pope-leo-xiv-ai-humanity-war-jobs-warning\nComments URL: https://news.ycombinator.com/item?id=48272381\nPoints: 1\n# Comments: 0",
+      "id": "3cdc53dd6d4cd7a94bcb6bc29e588062",
+      "title_zh": "教皇利奥表示人工智能可能扭曲人类",
+      "summary_zh": "Article URL: https://www.axios.com/2026/05/25/pope-leo-xiv-ai-humanity-war-jobs-warning Comments URL: https://news.ycombinator.com/item?id=48272381 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.547531+00:00"
+    },
+    {
+      "title": "AI deskilling is a structural problem",
+      "url": "https://link.springer.com/article/10.1007/s00146-025-02686-z",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T21:48:11+00:00",
+      "content": "Article URL: https://link.springer.com/article/10.1007/s00146-025-02686-z\nComments URL: https://news.ycombinator.com/item?id=48272379\nPoints: 1\n# Comments: 0",
+      "id": "46c78f574fbe932a8305fc2b230384bb",
+      "title_zh": "人工智能去技能化是一个结构性问题",
+      "summary_zh": "Article URL: https://link.springer.com/article/10.1007/s00146-025-02686-z Comments URL: https://news.ycombinator.com/item?id=48272379 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.547577+00:00"
+    },
+    {
+      "title": "Show HN: Unsiloed AI – #1 on OlmOCR-Bench,Beats Reducto, LlamaParse and GPT-5.5",
+      "url": "https://news.ycombinator.com/item?id=48271937",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T21:35:03+00:00",
+      "content": "Most of the document parsers fail on real world challenges like complex tables, handwritten documents, historical document scans, equations, multi-column layouts, complex reading order, etc. We built Unsiloed Parser to handle exactly these cases.Our latest parser v3.1 achieved #1 rank and scored 88.0 strict pass-rate on olmOCR-Bench. We ran the evaluation across 1,403 PDFs and 8,413 unit tests using the unmodified upstream Allen AI scorer (olmocr==0.4.27) and found Unsiloed beats 18 other OCR services, including GPT-5.5, Claude Opus 4.7, LlamaParse, Reducto, Azure Document Intelligence, AWS Textract, and Unstructured.When we dug deeper into the failure cases, we found many errors were not OCR errors but things like \\frac vs \\dfrac, whitespace differences, or equivalent LaTeX renderings. We ran a secondary LLM-as-Judge evaluation to classify real misses vs semantic equivalents, which lifts the corrected score to 94.8 (explained deeply in the blog post).Blog with full methodology and exa",
+      "id": "6431cfda39e04604dde7252392229bdf",
+      "title_zh": "Show HN：Unsiloed AI – OlmOCR-Bench、Beats Reducto、LlamaParse 和 GPT-5.5 上排名第一",
+      "summary_zh": "Most of the document parsers fail on real world challenges like complex tables, handwritten documents, historical document scans, equations, multi-column layouts, complex reading order, etc. We built",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.547784+00:00"
+    },
+    {
+      "title": "Ferrari Luce, Maranello's first ever electric car",
+      "url": "https://www.topgear.com/car-news/electric/its-finally-here-meet-ferrari-luce-maranellos-first-ever-fully-electric-car",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-25T21:34:40+00:00",
+      "content": "Ferrari Luce, Maranello's first ever electric car. Score: 6, Comments: 2",
+      "id": "915f229d6332bed6fb512cf96fdd3e0a",
+      "title_zh": "法拉利 Luce，马拉内罗第一辆电动汽车",
+      "summary_zh": "Ferrari Luce, Maranello's first ever electric car. Score: 6, Comments: 2",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.546357+00:00"
+    },
+    {
+      "title": "Russia strikes Kyiv with drones and hypersonic missile, in photos",
+      "url": "https://apnews.com/photo-gallery/russia-strikes-kyiv-with-drones-hypersonic-missile-photos-cbb89c34b1aa486d89faa5bc2050c8f9",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-25T21:21:41+00:00",
+      "content": "Russia strikes Kyiv with drones and hypersonic missile, in photos. Score: 8, Comments: 0",
+      "id": "328faf09e375b78fb7d49a13786df8fd",
+      "title_zh": "照片中，俄罗斯用无人机和高超音速导弹袭击基辅",
+      "summary_zh": "Russia strikes Kyiv with drones and hypersonic missile, in photos. Score: 8, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.546767+00:00"
+    },
+    {
+      "title": "Scholarly Futures: AI and the practical scientist",
+      "url": "https://scholarlyfutures.substack.com/p/ai-and-the-practical-scientist",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T21:19:52+00:00",
+      "content": "Article URL: https://scholarlyfutures.substack.com/p/ai-and-the-practical-scientist\nComments URL: https://news.ycombinator.com/item?id=48271800\nPoints: 3\n# Comments: 0",
+      "id": "8410dd1e1a95f26f5b1c38c7006fd931",
+      "title_zh": "学术未来：人工智能和实践科学家",
+      "summary_zh": "Article URL: https://scholarlyfutures.substack.com/p/ai-and-the-practical-scientist Comments URL: https://news.ycombinator.com/item?id=48271800 Points: 3 # Comments: 0",
+      "category": "研究",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.547831+00:00"
+    },
+    {
+      "title": "Show HN: AI skills for program / project / delivery managers",
+      "url": "https://news.ycombinator.com/item?id=48271766",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T21:16:06+00:00",
+      "content": "A Claude Code and OpenCode skill library that covers the full project and engagement lifecycle through 10 stage-aligned agents and 62 workflows:* Shaping: MEDDIC qualification, ROM estimate, SoW draft* Mobilisation: Charter, RACI, governance, kickoff* Planning: Plan, capacity, budget baseline, estimate challenge* Execution: Weekly status, RAID, standup digests, blocker triage* Governance: Steering packs, exec summaries, stakeholder updates, escalation memos* Risk and change: Risk deep-dives, change requests, mitigation, escalations* Technical-quality oversight: SDLC, QA, systems engineering, secure-SDLC health checks* Commercial: Budget tracking, margin analysis, change orders, invoice backup* People: Team health, attrition risk, ramp plans, one-to-one prep* Closure: Checklist, retrospective, lessons, case study, handoverOutputs are audit-ready markdown, each linked back to its charter revision, source documents, model, and prompt hash.The engagement charter is a 'living constitution' ",
+      "id": "fe2cec61473c1c7df2760acf9838ae7f",
+      "title_zh": "展示 HN：项目/项目/交付经理的 AI 技能",
+      "summary_zh": "A Claude Code and OpenCode skill library that covers the full project and engagement lifecycle through 10 stage-aligned agents and 62 workflows:* Shaping: MEDDIC qualification, ROM estimate, SoW draft",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.547943+00:00"
+    },
+    {
+      "title": "Show HN: Built a tool to create brand-consistent images using AI",
+      "url": "https://inktag.io",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T20:55:18+00:00",
+      "content": "Hello folks,Over the past months I found it extremely hard to find photos for my blog that looked like MY brand.I was tired of using stock photos and also did not want to spend time on canva creating graphics. The AI images also looked very off-brand and I always had to copy paste my brand instructions to create graphics for my blog.It led me to create [InkTag.io](http://inktag.io/) - it let's users add color palette, brand style, negative words, logo for watermark etc and get consistent looking photos that look like your brand.Initially I was thinking to release it as a react library but did know if devs will find this useful. Released it as a normal UI that people can use for their brand.If anyone is interested in tech deep dive -- let me know in the comments.I have had great fun building this. I hope you enjoy it as well.-Gautam\n\nComments URL: https://news.ycombinator.com/item?id=48271566\nPoints: 3\n# Comments: 0",
+      "id": "4726c3032d60b9ab87c86a79a557b499",
+      "title_zh": "Show HN：构建了一个使用 AI 创建品牌一致图像的工具",
+      "summary_zh": "Hello folks,Over the past months I found it extremely hard to find photos for my blog that looked like MY brand.I was tired of using stock photos and also did not want to spend time on canva creating",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.548051+00:00"
+    },
+    {
+      "title": "Starbucks Drops AI as Meta and Intuit Cut 11,000 Jobs",
+      "url": "https://www.forbes.com/sites/sandycarter/2026/05/22/starbucks-drops-ai-as-meta-and-intuit-cut-11000-jobs/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T20:52:39+00:00",
+      "content": "Article URL: https://www.forbes.com/sites/sandycarter/2026/05/22/starbucks-drops-ai-as-meta-and-intuit-cut-11000-jobs/\nComments URL: https://news.ycombinator.com/item?id=48271543\nPoints: 4\n# Comments: 0",
+      "id": "75dbac0ea4bf6b7202610df8f2eb2eda",
+      "title_zh": "Meta 和 Intuit 裁员 11,000 人，星巴克放弃人工智能",
+      "summary_zh": "Article URL: https://www.forbes.com/sites/sandycarter/2026/05/22/starbucks-drops-ai-as-meta-and-intuit-cut-11000-jobs/ Comments URL: https://news.ycombinator.com/item?id=48271543 Points: 4 # Comments:",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.548099+00:00"
+    },
+    {
+      "title": "The AI Bubble",
+      "url": "https://nooneshappy.com/article/the-ai-bubble/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T20:52:05+00:00",
+      "content": "Article URL: https://nooneshappy.com/article/the-ai-bubble/\nComments URL: https://news.ycombinator.com/item?id=48271537\nPoints: 2\n# Comments: 0",
+      "id": "81134f0de2c2f2d5effb935d64b5bdde",
+      "title_zh": "人工智能泡沫",
+      "summary_zh": "Article URL: https://nooneshappy.com/article/the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=48271537 Points: 2 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.548137+00:00"
+    },
+    {
+      "title": "Show HN: Bae – AI companion built around persistent memory architecture",
+      "url": "https://bae.ppl.studio",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T20:39:21+00:00",
+      "content": "Article URL: https://bae.ppl.studio\nComments URL: https://news.ycombinator.com/item?id=48271424\nPoints: 1\n# Comments: 0",
+      "id": "2407c58e901706a2b6c7649529ddbd07",
+      "title_zh": "Show HN：Bae – 围绕持久内存架构构建的人工智能伴侣",
+      "summary_zh": "Article URL: https://bae.ppl.studio Comments URL: https://news.ycombinator.com/item?id=48271424 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.548201+00:00"
+    },
+    {
+      "title": "An AI safety safe harbor [pdf]",
+      "url": "https://www.williamrinehart.com/data/An_AI_Safety_Safety_Harbor.pdf",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T20:30:44+00:00",
+      "content": "Article URL: https://www.williamrinehart.com/data/An_AI_Safety_Safety_Harbor.pdf\nComments URL: https://news.ycombinator.com/item?id=48271332\nPoints: 1\n# Comments: 0",
+      "id": "6f0d65e1e066a5e1f1652ffb4c23e34a",
+      "title_zh": "人工智能安全港 [pdf]",
+      "summary_zh": "Article URL: https://www.williamrinehart.com/data/An_AI_Safety_Safety_Harbor.pdf Comments URL: https://news.ycombinator.com/item?id=48271332 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.548242+00:00"
+    },
+    {
+      "title": "Yoti age checks share facial photos and device fingerprints with third parties",
+      "url": "https://techxplore.com/news/2026-05-online-age-pointless-privacy.html",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-25T20:30:25+00:00",
+      "content": "Yoti age checks share facial photos and device fingerprints with third parties. Score: 36, Comments: 8",
+      "id": "2ca0aef7fbe97283ff83acf83edf3ec5",
+      "title_zh": "Yoti 年龄检查与第三方共享面部照片和设备指纹",
+      "summary_zh": "Yoti age checks share facial photos and device fingerprints with third parties. Score: 36, Comments: 8",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.546179+00:00"
+    },
+    {
+      "title": "Anthropic to release Mythos-class models to the public",
+      "url": "https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-05-25T20:29:27+00:00",
+      "content": "Anthropic to release Mythos-class models to the public. Score: 11, Comments: 0",
+      "id": "179cb318bc5f6e097cafd0aecd5bcb7b",
+      "title_zh": "Anthropic 将向公众发布 Mythos 级模型",
+      "summary_zh": "Anthropic to release Mythos-class models to the public. Score: 11, Comments: 0",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.546646+00:00"
+    },
+    {
+      "title": "Concerning Law Enforcement Exemptions in Draft AI Act Transparency Guidelines",
+      "url": "https://blog.avas.space/le-exempt-draft-aiact/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T20:22:19+00:00",
+      "content": "Article URL: https://blog.avas.space/le-exempt-draft-aiact/\nComments URL: https://news.ycombinator.com/item?id=48271245\nPoints: 2\n# Comments: 0",
+      "id": "d67c8e40564c810ac6079455fa2ed9c3",
+      "title_zh": "关于《人工智能法案透明度指南》草案中的执法豁免",
+      "summary_zh": "Article URL: https://blog.avas.space/le-exempt-draft-aiact/ Comments URL: https://news.ycombinator.com/item?id=48271245 Points: 2 # Comments: 0",
+      "category": "研究",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.548286+00:00"
+    },
+    {
+      "title": "How to tame AI's voracious appetite for energy – Knowable Magazine",
+      "url": "https://knowablemagazine.org/content/article/technology/2026/lowering-energy-use-artificial-intelligence-datacenters",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-25T20:13:57+00:00",
+      "content": "Article URL: https://knowablemagazine.org/content/article/technology/2026/lowering-energy-use-artificial-intelligence-datacenters\nComments URL: https://news.ycombinator.com/item?id=48271141\nPoints: 2\n# Comments: 0",
+      "id": "0f0c27161f2daefcc722a964598691aa",
+      "title_zh": "如何抑制人工智能对能源的贪婪胃口 – Knowable 杂志",
+      "summary_zh": "Article URL: https://knowablemagazine.org/content/article/technology/2026/lowering-energy-use-artificial-intelligence-datacenters Comments URL: https://news.ycombinator.com/item?id=48271141 Points: 2",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.548362+00:00"
+    },
     {
       "title": "Ferrari Luce unveiled: Here's the first car from Jony Ive's design house",
       "url": "https://www.engadget.com/2180674/ferrari-luce-first-look-jony-ive/",
@@ -154,6 +392,20 @@
       "category": "软件",
       "tags": [],
       "collected": "2026-05-25T20:19:13.256642+00:00"
+    },
+    {
+      "title": "Exposing fake Canadians pushing to join the US [video]",
+      "url": "https://www.youtube.com/watch?v=NXafC7tlqt0",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-25T18:34:23+00:00",
+      "content": "Exposing fake Canadians pushing to join the US [video]. Score: 9, Comments: 0",
+      "id": "fbbffed0f0e3bc31b2c64c7ce0a1454f",
+      "title_zh": "揭露假加拿大人推动加入美国[视频]",
+      "summary_zh": "Exposing fake Canadians pushing to join the US [video]. Score: 9, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-05-25T22:01:31.546859+00:00"
     },
     {
       "title": "Alaska's oil revival sparks a new energy rush Into the Arctic",
@@ -15852,591 +16104,87 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-05-23T05:31:57.343282+00:00"
-    },
-    {
-      "title": "Atomic Monster President on Business of Horror Films",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-22/atomic-monster-president-on-business-of-horror-films-video",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-22T21:58:48+00:00",
-      "content": "Atomic Monster President Michael Clear discusses the business of horror films and how they keep people going to theaters. He speaks with Romaine Bostick on “The Close.” (Source: Bloomberg)",
-      "id": "7c75118238bc6f47f06f428bb66cab31",
-      "title_zh": "原子怪兽总裁谈恐怖电影业务",
-      "summary_zh": "Atomic Monster President Michael Clear discusses the business of horror films and how they keep people going to theaters. He speaks with Romaine Bostick on “The Close.” (Source: Bloomberg)",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.638389+00:00"
-    },
-    {
-      "title": "ReconForge – Open-Source Security Reconnaissance Toolkit",
-      "url": "https://github.com/ferasbusiness666/ReconForge",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-05-22T21:56:20+00:00",
-      "content": "ReconForge – Open-Source Security Reconnaissance Toolkit. Score: 5, Comments: 0",
-      "id": "fc9068a25e40badf906e7525bacb154d",
-      "title_zh": "ReconForge – 开源安全侦察工具包",
-      "summary_zh": "ReconForge – Open-Source Security Reconnaissance Toolkit. Score: 5, Comments: 0",
-      "category": "开源",
-      "tags": [],
-      "collected": "2026-05-23T05:31:57.343123+00:00"
-    },
-    {
-      "title": "Space Capital CEO on What’s Next For Space Industry",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-22/space-capital-ceo-on-what-s-next-for-space-industry-video",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-22T21:53:48+00:00",
-      "content": "Space Capital Founder and CEO Chad Anderson discusses what’s next for the industry of space exploration. He speaks with Romaine Bostick and Isabelle Lee on “The Close.” (Source: Bloomberg)",
-      "id": "d5dca00f60defb9b8714a0e4db0603ae",
-      "title_zh": "太空资本首席执行官谈航天工业的下一步发展",
-      "summary_zh": "Space Capital Founder and CEO Chad Anderson discusses what’s next for the industry of space exploration. He speaks with Romaine Bostick and Isabelle Lee on “The Close.” (Source: Bloomberg)",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.638427+00:00"
-    },
-    {
-      "title": "Battle over WiseTech AI job cuts intensifies amid China staff accusations",
-      "url": "https://www.afr.com/technology/wisetech-ai-redundancy-fight-worsens-with-china-accusations-20260521-p5zzm8",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T21:53:07+00:00",
-      "content": "Article URL: https://www.afr.com/technology/wisetech-ai-redundancy-fight-worsens-with-china-accusations-20260521-p5zzm8\nComments URL: https://news.ycombinator.com/item?id=48242158\nPoints: 2\n# Comments: 0",
-      "id": "bcaf1f1eea389a6d6a70c65f36102328",
-      "title_zh": "慧咨科技人工智能裁员之争因中国员工指控而愈演愈烈",
-      "summary_zh": "Article URL: https://www.afr.com/technology/wisetech-ai-redundancy-fight-worsens-with-china-accusations-20260521-p5zzm8 Comments URL: https://news.ycombinator.com/item?id=48242158 Points: 2 # Comments",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.640153+00:00"
-    },
-    {
-      "title": "Stellantis, Qualcomm Expand Partnership for Vehicle Tech",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-22/stellantis-qualcomm-expand-partnership-for-vehicle-tech-video",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-05-22T21:49:23+00:00",
-      "content": "Qualcomm's head of Automotive, Robotics and IoT Businesses Nakul Duggal said that the new vehicle technology partnership the semiconductor company announced with Stellantis will allow the automaker to modernize technology across the board and move fast as the automation and self-driving landscape grows. Duggal said that the automotive industry is moving quickly and he sees more intelligent cars becoming out over the next few years. (Source: Bloomberg)",
-      "id": "4953ed6ae523a2fcf112c5a8f5b01ad8",
-      "title_zh": "Stellantis 与高通扩大汽车技术合作伙伴关系",
-      "summary_zh": "Qualcomm's head of Automotive, Robotics and IoT Businesses Nakul Duggal said that the new vehicle technology partnership the semiconductor company announced with Stellantis will allow the automaker to",
-      "category": "机器人",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.639452+00:00"
-    },
-    {
-      "title": "US Weighs Chip Tariffs to Spur Domestic Growth, Trade Chief Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-22/us-weighs-chip-tariffs-to-spur-domestic-growth-trade-chief-says",
-      "source": "Bloomberg Tech",
-      "domain": "科技",
-      "published": "2026-05-22T21:46:58+00:00",
-      "content": "The Trump administration continues to weigh US tariffs on imported semiconductors to boost domestic chip manufacturing, though there are no immediate plans to impose any new levies, US Trade Representative Jamieson Greer said.",
-      "id": "90d8ba32c4f70c03625043b519c54283",
-      "title_zh": "贸易主管表示，美国正在考虑征收芯片关税以刺激国内增长",
-      "summary_zh": "The Trump administration continues to weigh US tariffs on imported semiconductors to boost domestic chip manufacturing, though there are no immediate plans to impose any new levies, US Trade Represent",
-      "category": "硬件",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.639524+00:00"
-    },
-    {
-      "title": "Provenance: A survival toolkit for an AI dominant information landscape",
-      "url": "https://vinchenkov.substack.com/p/provenance",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T21:46:03+00:00",
-      "content": "Article URL: https://vinchenkov.substack.com/p/provenance\nComments URL: https://news.ycombinator.com/item?id=48242096\nPoints: 1\n# Comments: 0",
-      "id": "fc0f66eac9f06705e32ac2c00da10446",
-      "title_zh": "Provenance：人工智能主导信息环境的生存工具包",
-      "summary_zh": "Article URL: https://vinchenkov.substack.com/p/provenance Comments URL: https://news.ycombinator.com/item?id=48242096 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.640197+00:00"
-    },
-    {
-      "title": "Departing Meta Staffer Posts Biting Anti-AI Video Internally Amid Mass Layoffs",
-      "url": "https://www.motherjones.com/politics/2026/05/meta-video-ai-training-layoffs-video-exclusive-mci-bosworth-frenk/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T21:44:28+00:00",
-      "content": "Article URL: https://www.motherjones.com/politics/2026/05/meta-video-ai-training-layoffs-video-exclusive-mci-bosworth-frenk/\nComments URL: https://news.ycombinator.com/item?id=48242077\nPoints: 1\n# Comments: 0",
-      "id": "bbf064883cb685f21c4a596324c57c7f",
-      "title_zh": "在大规模裁员期间，即将离职的 Meta 员工在内部发布了尖锐的反人工智能视频",
-      "summary_zh": "Article URL: https://www.motherjones.com/politics/2026/05/meta-video-ai-training-layoffs-video-exclusive-mci-bosworth-frenk/ Comments URL: https://news.ycombinator.com/item?id=48242077 Points: 1 # Com",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.963937+00:00"
-    },
-    {
-      "title": "First-generation Chromecast users stressed by devices suddenly failing",
-      "url": "https://arstechnica.com/gadgets/2026/05/original-chromecast-lives-devices-back-on-after-mysteriously-breaking-this-week/",
-      "source": "Ars Technica",
-      "domain": "科技",
-      "published": "2026-05-22T21:42:59+00:00",
-      "content": "Google tells Ars it fixed the first-gen Chromecast bug.",
-      "id": "95214c72365addc158fe32c08d9bd0b2",
-      "title_zh": "第一代 Chromecast 用户因设备突然故障而感到压力",
-      "summary_zh": "Google tells Ars it fixed the first-gen Chromecast bug.",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.638476+00:00"
-    },
-    {
-      "title": "Grocery Stores Feel Crunch of Fuel, Labor Costs Ahead of Memorial Day",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-22/stores-feel-crunch-of-costs-ahead-of-memorial-day-video",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-22T21:40:23+00:00",
-      "content": "Stew Leonard Jr., president and CEO of Stew Leonard's, said that customers are still buying food ahead of Memorial Day celebrations, but they're also complaining about the squeeze they feel when they go to the store. Leonard said that while he believes fuel prices will eventually come down once conflict in the Middle East is resolved, labor costs for the store will remain high, making it difficult to keep prices from going up. (Source: Bloomberg)",
-      "id": "08c37ff4be9f311f7ce4d516eef57010",
-      "title_zh": "阵亡将士纪念日前夕，杂货店感受到燃料和劳动力成本的紧缩",
-      "summary_zh": "Stew Leonard Jr., president and CEO of Stew Leonard's, said that customers are still buying food ahead of Memorial Day celebrations, but they're also complaining about the squeeze they feel when they",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.962538+00:00"
-    },
-    {
-      "title": "Shipping a Laptop to a Refugee Camp in Uganda",
-      "url": "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda",
-      "source": "Hacker News",
-      "domain": "安全",
-      "published": "2026-05-22T21:36:55+00:00",
-      "content": "Shipping a Laptop to a Refugee Camp in Uganda. Score: 26, Comments: 3",
-      "id": "b7e8bedbaff3786e2cd5802c745a00e2",
-      "title_zh": "将笔记本电脑运送到乌干达难民营",
-      "summary_zh": "Shipping a Laptop to a Refugee Camp in Uganda. Score: 26, Comments: 3",
-      "category": "攻防",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.639572+00:00"
-    },
-    {
-      "title": "Cloudflare's Matthew Prince says AI has made a category of workers obsolete",
-      "url": "https://fortune.com/2026/05/21/cloudflare-ceo-matthew-prince-layoffs-ai-automation-measurers/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T21:35:30+00:00",
-      "content": "Article URL: https://fortune.com/2026/05/21/cloudflare-ceo-matthew-prince-layoffs-ai-automation-measurers/\nComments URL: https://news.ycombinator.com/item?id=48241973\nPoints: 3\n# Comments: 0",
-      "id": "a32ea366612d0f18a3986797cd45c0c6",
-      "title_zh": "Cloudflare 的 Matthew Prince 表示人工智能已经让一类工人变得过时",
-      "summary_zh": "Article URL: https://fortune.com/2026/05/21/cloudflare-ceo-matthew-prince-layoffs-ai-automation-measurers/ Comments URL: https://news.ycombinator.com/item?id=48241973 Points: 3 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.963991+00:00"
-    },
-    {
-      "title": "Bezos’ Blue Origin Plans $600 Million Expansion in Florida",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-22/bezos-blue-origin-plans-600-million-expansion-in-florida",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-05-22T21:29:59+00:00",
-      "content": "Blue Origin, the aerospace company founded by billionaire Jeff Bezos, will invest $600 million to expand its Rocket Park campus in Cape Canaveral, Florida, according to a statement from Governor Ron DeSantis.",
-      "id": "2356a057baf4e70eeded8bd82b6179e7",
-      "title_zh": "贝佐斯的蓝色起源计划斥资 6 亿美元在佛罗里达州扩张",
-      "summary_zh": "Blue Origin, the aerospace company founded by billionaire Jeff Bezos, will invest $600 million to expand its Rocket Park campus in Cape Canaveral, Florida, according to a statement from Governor Ron D",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.963247+00:00"
-    },
-    {
-      "title": "Green card seekers must leave U.S. to apply, Trump administration says",
-      "url": "https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-22T21:27:12+00:00",
-      "content": "Green card seekers must leave U.S. to apply, Trump administration says. Score: 71, Comments: 363",
-      "id": "35c2148d40f56eda639103a0bc40087b",
-      "title_zh": "特朗普政府表示绿卡申请者必须离开美国才能申请",
-      "summary_zh": "Green card seekers must leave U.S. to apply, Trump administration says. Score: 71, Comments: 363",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-05-23T18:52:32.768191+00:00"
-    },
-    {
-      "title": "Judge dismisses human smuggling charges against Kilmar Abrego Garcia",
-      "url": "https://apnews.com/article/kilmar-abrego-garcia-el-salvador-deportation-smuggling-035a2b2ded3ede65e77566cdf12b107f",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-05-22T21:19:47+00:00",
-      "content": "Judge dismisses human smuggling charges against Kilmar Abrego Garcia. Score: 20, Comments: 0",
-      "id": "def0df594be19be34915637f4a99ef4c",
-      "title_zh": "法官驳回对基尔马·阿布雷戈·加西亚的人口走私指控",
-      "summary_zh": "Judge dismisses human smuggling charges against Kilmar Abrego Garcia. Score: 20, Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.639804+00:00"
-    },
-    {
-      "title": "Trump FCC asks public to comment on whether ABC's The View is a news show",
-      "url": "https://arstechnica.com/tech-policy/2026/05/trump-fcc-asks-public-to-comment-on-whether-abcs-the-view-is-a-news-show/",
-      "source": "Ars Technica",
-      "domain": "科技",
-      "published": "2026-05-22T21:10:46+00:00",
-      "content": "FCC seeks opinions on whether ABC show's decisions are \"based on newsworthiness.\"",
-      "id": "c1c7074fa99b6b22021b998556b5cf65",
-      "title_zh": "特朗普 FCC 要求公众就 ABC 的《The View》是否为新闻节目发表评论",
-      "summary_zh": "FCC seeks opinions on whether ABC show's decisions are \"based on newsworthiness.\"",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-22T22:48:25.638497+00:00"
-    },
-    {
-      "title": "Google goes for the glitter with disco-ball icons: ‘Are y’all sure you still want this?’",
-      "url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/",
-      "source": "TechCrunch AI",
-      "domain": "AI",
-      "published": "2026-05-22T21:02:36+00:00",
-      "content": "You can now disco ball-ify your entire Pixel homescreen, says Google.",
-      "id": "d4ba36838dce5e468e4e8faa0f833bc0",
-      "title_zh": "谷歌喜欢带有迪斯科舞会图标的闪光：“你们确定还想要这个吗？”",
-      "summary_zh": "You can now disco ball-ify your entire Pixel homescreen, says Google.",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.951203+00:00"
-    },
-    {
-      "title": "Show HN: Mneme – Open-protocol AI memory that lives on your device",
-      "url": "https://github.com/ppserapiao/mneme",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T20:59:50+00:00",
-      "content": "Hey guys, so I use AI a lot, and I mean a lot, specially for my job and just as a hobby, I've got ADHD so creating is somethign I love, but I always got annoyed that every AI memory product wants to host my data on their servers, in their schema, locked to their product. Sooooo I built mneme memory that lives on your device, encrypted with keys only you hold, with an open protocol that works across Claude,Cursor, ChatGPT, Gemini.Apache 2.0, on npm.https://github.com/ppserapiao/mneme · https://mneme-web-zeta.vercel.appLet me know your thoughts ;)\n\nComments URL: https://news.ycombinator.com/item?id=48241602\nPoints: 2\n# Comments: 0",
-      "id": "94d9fa07dcbfbcd6c6ac5282eca9e4b8",
-      "title_zh": "显示 HN：Mneme – 驻留在您设备上的开放协议 AI 内存",
-      "summary_zh": "Hey guys, so I use AI a lot, and I mean a lot, specially for my job and just as a hobby, I've got ADHD so creating is somethign I love, but I always got annoyed that every AI memory product wants to h",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.964143+00:00"
-    },
-    {
-      "title": "Qualcomm's stock pop shows investors are 'waking up' to boom in AI devices",
-      "url": "https://www.cnbc.com/2026/05/22/qualcomms-stock-pop-shows-investors-waking-up-to-boom-in-ai-devices.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-22T20:52:39+00:00",
-      "content": "Qualcomm is on a big run, powered by investor bullishness that the company will be at the center of a boom in AI devices.",
-      "id": "010c480abc4fc782fe0b2ba6dee58390",
-      "title_zh": "高通的股价上涨表明投资者正在“觉醒”到人工智能设备的繁荣",
-      "summary_zh": "Qualcomm is on a big run, powered by investor bullishness that the company will be at the center of a boom in AI devices.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.962614+00:00"
-    },
-    {
-      "title": "Nasdaq Gets Approval From SEC to List Bitcoin Index Options",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-22/nasdaq-bitcoin-index-options-granted-approval-by-sec",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-22T20:49:43+00:00",
-      "content": "The Securities and Exchange Commission has given the go-ahead for Nasdaq Inc. to list index options based on the price of Bitcoin, the latest sign that Wall Street is becoming more tightly integrated with the world of digital assets.",
-      "id": "d210ca07bf66a96e644e99772e131b9b",
-      "title_zh": "纳斯达克获得 SEC 批准上市比特币指数期权",
-      "summary_zh": "The Securities and Exchange Commission has given the go-ahead for Nasdaq Inc. to list index options based on the price of Bitcoin, the latest sign that Wall Street is becoming more tightly integrated",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.962568+00:00"
-    },
-    {
-      "title": "How VCs and founders use inflated ‘ARR’ to crown AI startups",
-      "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
-      "source": "TechCrunch AI",
-      "domain": "AI",
-      "published": "2026-05-22T20:40:48+00:00",
-      "content": "Some AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware.",
-      "id": "6c669bd48f01884ea1da6cc606e170d9",
-      "title_zh": "风险投资家和创始人如何利用膨胀的“ARR”来为人工智能初创公司加冕",
-      "summary_zh": "Some AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware.",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.951270+00:00"
-    },
-    {
-      "title": "Google&#8217;s AI search is so broken it can &#8216;disregard&#8217; what you&#8217;re looking for",
-      "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
-      "source": "The Verge AI",
-      "domain": "AI",
-      "published": "2026-05-22T20:39:54+00:00",
-      "content": "Google's AI Overviews are running into an interesting problem right now. Earlier on Friday, if you searched for the term \"disregard,\" the AI Overview section would include a response like what you'd see from a more traditional AI chatbot instead of the typical AI summary, as spotted on X. As you can see in the [&#8230;]",
-      "id": "955ca9a5f55f1ce3cf222e3f07200b06",
-      "title_zh": "谷歌的人工智能搜索太糟糕了，以至于无法“忽视”搜索结果。你在找什么",
-      "summary_zh": "Google's AI Overviews are running into an interesting problem right now. Earlier on Friday, if you searched for the term \"disregard,\" the AI Overview section would include a response like what you'd s",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-25T18:23:29.840434+00:00"
-    },
-    {
-      "title": "Hengefinder: Finding When the Sun Aligns with Your Street",
-      "url": "https://victoriaritvo.com/blog/hengefinder/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-22T20:39:42+00:00",
-      "content": "Hengefinder: Finding When the Sun Aligns with Your Street. Score: 9, Comments: 0",
-      "id": "a82fff79a9b67a4c40d91ed84da41e7c",
-      "title_zh": "Hengefinder：寻找太阳何时与您的街道对齐",
-      "summary_zh": "Hengefinder: Finding When the Sun Aligns with Your Street. Score: 9, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-23T17:53:31.691711+00:00"
-    },
-    {
-      "title": "Judge tosses Kilmar Abrego Garcia charges, calls Trump administration prosecution 'vindictive'",
-      "url": "https://www.cnbc.com/2026/05/22/kilmar-abrego-garcia-charges-dropped-trump-doj-case-vindictive.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-22T20:37:38+00:00",
-      "content": "A judge found Trump’s DOJ targeted Kilmar Abrego Garcia after he challenged his mistaken deportation to El Salvador.",
-      "id": "871cab5a1b118ea897b4f51134b5710d",
-      "title_zh": "法官驳回基尔马·阿布雷戈·加西亚的指控，称特朗普政府的起诉是“报复性的”",
-      "summary_zh": "A judge found Trump’s DOJ targeted Kilmar Abrego Garcia after he challenged his mistaken deportation to El Salvador.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.962686+00:00"
-    },
-    {
-      "title": "No child deaths definitively linked to Covid shots, FDA says",
-      "url": "https://www.nbcnews.com/health/health-news/no-child-deaths-definitively-linked-covid-shots-fda-says-rcna346514",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-22T20:35:24+00:00",
-      "content": "No child deaths definitively linked to Covid shots, FDA says. Score: 19, Comments: 2",
-      "id": "32eb43f1e11870de6c69b42203199143",
-      "title_zh": "FDA 表示，没有儿童死亡与新冠疫苗接种明确相关",
-      "summary_zh": "No child deaths definitively linked to Covid shots, FDA says. Score: 19, Comments: 2",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.963600+00:00"
-    },
-    {
-      "title": "Two top Walmart executives leave company under new CEO John Furner",
-      "url": "https://www.cnbc.com/2026/05/22/walmart-executives-depart-under-ceo-john-furner.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-22T20:33:19+00:00",
-      "content": "The chief operating officer of Walmart's warehouse Sam's Club, Tom Ward, is retiring while Walmart's EVP of store operations, Cedric Clark, is leaving.",
-      "id": "74548e62f123afe7ac8a3a0a8bd3fff9",
-      "title_zh": "沃尔玛两名高管在新任首席执行官约翰·弗纳 (John Furner) 的领导下离开公司",
-      "summary_zh": "The chief operating officer of Walmart's warehouse Sam's Club, Tom Ward, is retiring while Walmart's EVP of store operations, Cedric Clark, is leaving.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.962649+00:00"
-    },
-    {
-      "title": "AI-native-founder-playbook-skills",
-      "url": "https://github.com/Hades-HY-LI/ai-native-founder-playbook-skills",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T20:32:41+00:00",
-      "content": "Article URL: https://github.com/Hades-HY-LI/ai-native-founder-playbook-skills\nComments URL: https://news.ycombinator.com/item?id=48241254\nPoints: 1\n# Comments: 1",
-      "id": "80d0ad6ff6cd49d215fb9c1b0e25c900",
-      "title_zh": "AI 原生创始人剧本技能",
-      "summary_zh": "Article URL: https://github.com/Hades-HY-LI/ai-native-founder-playbook-skills Comments URL: https://news.ycombinator.com/item?id=48241254 Points: 1 # Comments: 1",
-      "category": "开源",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.964190+00:00"
-    },
-    {
-      "title": "AI is minting new billionaires, and workers want their share",
-      "url": "https://restofworld.org/2026/samsung-south-korea-union-ai-profits/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T20:31:58+00:00",
-      "content": "Article URL: https://restofworld.org/2026/samsung-south-korea-union-ai-profits/\nComments URL: https://news.ycombinator.com/item?id=48241247\nPoints: 9\n# Comments: 0",
-      "id": "6db852f035e6f1ffb51d8f45e003e843",
-      "title_zh": "人工智能正在创造新的亿万富翁，工人们想要分享",
-      "summary_zh": "Article URL: https://restofworld.org/2026/samsung-south-korea-union-ai-profits/ Comments URL: https://news.ycombinator.com/item?id=48241247 Points: 9 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.964238+00:00"
-    },
-    {
-      "title": "you_can::turn_off_the_borrow_checker",
-      "url": "https://docs.rs/you-can/latest/you_can/attr.turn_off_the_borrow_checker.html",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-22T20:31:04+00:00",
-      "content": "you_can::turn_off_the_borrow_checker. Score: 45, Comments: 16",
-      "id": "5c02b2880edc7941ce14c6776f6399b3",
-      "title_zh": "you_can::turn_off_the_borrow_checker",
-      "summary_zh": "you_can::turn_off_the_borrow_checker. Score: 45, Comments: 16",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-25T14:30:07.303038+00:00"
-    },
-    {
-      "title": "Google is currently struggling to define words like disregard, stop and ignore",
-      "url": "https://www.engadget.com/2179762/google-is-currently-struggling-to-define-words-like-disregard-stop-and-ignore/",
-      "source": "Engadget",
-      "domain": "科技",
-      "published": "2026-05-22T20:29:21+00:00",
-      "content": "The search engine's definitions have been replaced with AI Overviews.",
-      "id": "1fb2a3ebc284e4b05d625dfbea969fad",
-      "title_zh": "谷歌目前正在努力定义诸如忽视、停止和忽略等词",
-      "summary_zh": "The search engine's definitions have been replaced with AI Overviews.",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.962716+00:00"
-    },
-    {
-      "title": "AI keeps inventing fake cases. Lawyers keep citing them",
-      "url": "https://www.scientificamerican.com/article/why-lawyers-keep-citing-fake-cases-invented-by-ai/",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-05-22T20:26:29+00:00",
-      "content": "AI keeps inventing fake cases. Lawyers keep citing them. Score: 14, Comments: 0",
-      "id": "8d98b4e532b392303aa221f0bd3c0f13",
-      "title_zh": "人工智能不断发明假案件。律师不断引用他们的话",
-      "summary_zh": "AI keeps inventing fake cases. Lawyers keep citing them. Score: 14, Comments: 0",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.963545+00:00"
-    },
-    {
-      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
-      "url": "https://github.com/anomalyco/models.dev",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-05-22T20:26:07+00:00",
-      "content": "Models.dev: open-source database of AI model specs, pricing, and capabilities. Score: 56, Comments: 10",
-      "id": "b32ded445064f0421fb97e4d7c5be806",
-      "title_zh": "Models.dev：人工智能模型规格、定价和功能的开源数据库",
-      "summary_zh": "Models.dev: open-source database of AI model specs, pricing, and capabilities. Score: 56, Comments: 10",
-      "category": "开源",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.963379+00:00"
-    },
-    {
-      "title": "Kommodo.ai Covered by Indiehackers",
-      "url": "https://www.indiehackers.com/post/tech/pivoting-to-reach-a-wider-audience-and-hitting-a-5-figure-mrr-BsyblK2pmWMVfkex10nU",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T20:24:17+00:00",
-      "content": "Article URL: https://www.indiehackers.com/post/tech/pivoting-to-reach-a-wider-audience-and-hitting-a-5-figure-mrr-BsyblK2pmWMVfkex10nU\nComments URL: https://news.ycombinator.com/item?id=48241147\nPoints: 1\n# Comments: 2",
-      "id": "f4ba4e0f7eeef04fa8ae19ba72196875",
-      "title_zh": "Kommodo.ai 被 Indiehackers 覆盖",
-      "summary_zh": "Article URL: https://www.indiehackers.com/post/tech/pivoting-to-reach-a-wider-audience-and-hitting-a-5-figure-mrr-BsyblK2pmWMVfkex10nU Comments URL: https://news.ycombinator.com/item?id=48241147 Point",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T21:55:59.964291+00:00"
-    },
-    {
-      "title": "Show HN: Datapoint AI – Make Something People Want, but Ask Them First",
-      "url": "https://trydatapoint.com",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T20:23:27+00:00",
-      "content": "Article URL: https://trydatapoint.com\nComments URL: https://news.ycombinator.com/item?id=48241139\nPoints: 1\n# Comments: 0",
-      "id": "84be903efda5b1496d1ce17610c5fb9b",
-      "title_zh": "Show HN：Datapoint AI – 制造人们想要的东西，但首先询问他们",
-      "summary_zh": "Article URL: https://trydatapoint.com Comments URL: https://news.ycombinator.com/item?id=48241139 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T20:28:16.104219+00:00"
-    },
-    {
-      "title": "China: What I Learned from the AI Labs, Robotics Startups and Academia",
-      "url": "https://matthewdwhite.substack.com/p/eight-days-in-china-what-i-learned",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T20:22:49+00:00",
-      "content": "Article URL: https://matthewdwhite.substack.com/p/eight-days-in-china-what-i-learned\nComments URL: https://news.ycombinator.com/item?id=48241130\nPoints: 1\n# Comments: 0",
-      "id": "bac4924b1432ae0636c55290984026c1",
-      "title_zh": "中国：我从人工智能实验室、机器人初创公司和学术界学到了什么",
-      "summary_zh": "Article URL: https://matthewdwhite.substack.com/p/eight-days-in-china-what-i-learned Comments URL: https://news.ycombinator.com/item?id=48241130 Points: 1 # Comments: 0",
-      "category": "机器人",
-      "tags": [],
-      "collected": "2026-05-22T20:28:16.104272+00:00"
-    },
-    {
-      "title": "Show HN: Slophunt.ai – Come post your vibe coded projects",
-      "url": "https://slophunt.ai/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-22T20:22:47+00:00",
-      "content": "Article URL: https://slophunt.ai/\nComments URL: https://news.ycombinator.com/item?id=48241128\nPoints: 1\n# Comments: 0",
-      "id": "36a61a9f208558d5976aa9250fc1786e",
-      "title_zh": "Show HN：Slophunt.ai – 来发布您的氛围编码项目",
-      "summary_zh": "Article URL: https://slophunt.ai/ Comments URL: https://news.ycombinator.com/item?id=48241128 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-22T20:28:16.104334+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
-        "title": "Demis Hassabis 取得疯狂的人工智能突破 [视频]",
-        "summary": "DeepMind 创始人 Demis Hassabis 分享了人工智能领域的重大进展。",
-        "url": "https://www.youtube.com/watch?v=huAwz_BR8WM",
+        "title": "教皇在宣言中呼吁对人工智能进行强有力的监管：人类的未来",
+        "summary": "教皇呼吁对人工智能进行强力监管，强调其对人类未来的深远影响。",
+        "url": "https://apnews.com/article/pope-ai-tech-trump-vatican-anthropic-d92d0108730d146baa46da041b8523da",
         "source": "Hacker News AI",
-        "category": "研究"
+        "category": "CV"
       },
       {
         "rank": 2,
-        "title": "教皇利奥表示，人工智能必须在第一次重大教学中“解除武装”",
-        "summary": "教皇利奥十四世呼吁人工智能在首次重大教义中被“解除武装”。",
-        "url": "https://www.bbc.com/news/articles/cedppn6002jo",
+        "title": "教皇利奥表示人工智能可能扭曲人类",
+        "summary": "教皇利奥指出人工智能可能对人类价值观和认知产生扭曲作用。",
+        "url": "https://www.axios.com/2026/05/25/pope-leo-xiv-ai-humanity-war-jobs-warning",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 3,
-        "title": "挪威2PB华为闪存及LLM培训",
-        "summary": "挪威部署了 2PB 华为闪存以支持大型语言模型（LLM）的培训。",
-        "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
-        "source": "Hacker News",
+        "title": "人工智能去技能化是一个结构性问题",
+        "summary": "文章探讨人工智能对劳动力技能的影响，认为去技能化是系统性问题。",
+        "url": "https://link.springer.com/article/10.1007/s00146-025-02686-z",
+        "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 4,
-        "title": "Agentic AI 改变了 CPU/GPU 等式",
-        "summary": "Agentic AI 的出现正在改变 CPU 和 GPU 的现有格局。",
-        "url": "https://www.amd.com/en/blogs/2026/agentic-ai-changes-the-cpu-gpu-equation.html",
+        "title": "Show HN：Unsiloed AI – OlmOCR-Bench、Beats Reducto、LlamaParse 和 GPT-5.5 上排名第一",
+        "summary": "展示了一个名为 Unsiloed AI 的新工具，在多个 AI 基准测试中表现出色。",
+        "url": "https://news.ycombinator.com/item?id=48271937",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 5,
-        "title": "AI 数据中心是为 GPU 构建的。卸下 GPU 后会发生什么？",
-        "summary": "探讨了 AI 数据中心依赖 GPU 的现状，以及移除 GPU 后的潜在影响。",
-        "url": "https://almartis.xyz/gpu-free-datacenter.html",
+        "title": "学术未来：人工智能和实践科学家",
+        "summary": "探讨人工智能在学术研究中的应用及其对实践科学家的影响。",
+        "url": "https://scholarlyfutures.substack.com/p/ai-and-the-practical-scientist",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "研究"
       },
       {
         "rank": 6,
-        "title": "大型大学系统正在拥抱人工智能。学生/教师并非全部都在船上",
-        "summary": "大型大学系统积极采用 AI，但学生和教师的接受度不一。",
-        "url": "https://text.npr.org/nx-s1-5772820",
+        "title": "Meta 和 Intuit 裁员 11,000 人，星巴克放弃人工智能",
+        "summary": "科技巨头 Meta 和 Intuit 大规模裁员，星巴克也暂停了其人工智能项目。",
+        "url": "https://www.forbes.com/sites/sandycarter/2026/05/22/starbucks-drops-ai-as-meta-and-intuit-cut-11000-jobs/",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 7,
-        "title": "我们使用相同的太阳能数据测试了 6 个人工智能助手",
-        "summary": "比较了六个人工智能助手在处理相同太阳能数据时的表现。",
-        "url": "https://heliopeak.app/blog/we-tested-6-ai-assistants-on-solar-data",
+        "title": "人工智能泡沫",
+        "summary": "分析当前人工智能领域的投资热潮，警示潜在的泡沫风险。",
+        "url": "https://nooneshappy.com/article/the-ai-bubble/",
         "source": "Hacker News AI",
-        "category": "AI产品"
+        "category": "LLM"
       },
       {
         "rank": 8,
-        "title": "戳破我的人工智能泡沫",
-        "summary": "对当前人工智能的炒作和现实进行了反思，指出可能存在的泡沫。",
-        "url": "https://indecisiorama.bearblog.dev/bursting-my-ai-bubble/",
-        "source": "Hacker News AI",
-        "category": "LLM"
+        "title": "Anthropic 将向公众发布 Mythos 级模型",
+        "summary": "AI 安全公司 Anthropic 宣布将向公众开放其先进的 Mythos 模型。",
+        "url": "https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596",
+        "source": "Hacker News",
+        "category": "AI产品"
       },
       {
         "rank": 9,
-        "title": "人工智能正在将工程师变成农民、医生和园丁",
-        "summary": "AI 的发展可能导致工程师的角色转变，承担更多类似农民、医生或园丁的职责。",
-        "url": "https://aswinmohan.me/ai-doctors-engineers",
+        "title": "关于《人工智能法案透明度指南》草案中的执法豁免",
+        "summary": "文章讨论了《人工智能法案》草案中关于执法豁免的关键问题。",
+        "url": "https://blog.avas.space/le-exempt-draft-aiact/",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "研究"
       },
       {
         "rank": 10,
-        "title": "AI 数据中心是为 GPU 构建的。卸下 GPU 后会发生什么？",
-        "summary": "深入分析了 AI 数据中心对 GPU 的依赖性，并探讨了移除 GPU 后的影响。",
-        "url": "https://almartis.xyz/gpu-free-datacenter.html",
+        "title": "如何抑制人工智能对能源的贪婪胃口 – Knowable 杂志",
+        "summary": "探讨人工智能技术巨大的能源消耗问题，并提出抑制策略。",
+        "url": "https://knowablemagazine.org/content/article/technology/2026/lowering-energy-use-artificial-intelligence-datacenters",
         "source": "Hacker News AI",
         "category": "LLM"
       }
@@ -16445,81 +16193,81 @@
       {
         "rank": 1,
         "title": "⚡ 每周回顾：Linux 缺陷、Defender 0-Days、路由器僵尸网络和供应链混乱",
-        "summary": "本周安全回顾涵盖 Linux 漏洞、Defender 0-days、路由器僵尸网络及供应链安全问题。",
+        "summary": "每周安全简报，涵盖 Linux 漏洞、Defender 0-day 攻击、路由器僵尸网络和供应链威胁。",
         "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
         "source": "The Hacker News",
         "category": "漏洞"
       },
       {
         "rank": 2,
-        "title": "Ghost CMS 漏洞被利用攻击 700 多个网站",
-        "summary": "Ghost CMS 漏洞被利用，导致超过 700 个网站受到攻击。",
-        "url": "https://www.securityweek.com/ghost-cms-vulnerability-exploited-to-hack-over-700-websites/",
-        "source": "SecurityWeek",
-        "category": "漏洞"
-      },
-      {
-        "rank": 3,
         "title": "FBI 警告 Kali365 网络钓鱼服务针对 Microsoft 365 帐户",
-        "summary": "FBI 警告称，Kali365 网络钓鱼服务正针对 Microsoft 365 账户。",
+        "summary": "FBI 发布警告，指出 Kali365 网络钓鱼服务正针对 Microsoft 365 用户。",
         "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
         "source": "BleepingComputer",
         "category": "攻防"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "title": "Anthropic：Mythos 在 1,000 个 OSS 项目中检测到 23,000 个潜在漏洞",
-        "summary": "Anthropic 的 Mythos 工具在 1000 个开源项目中发现了 23000 个潜在漏洞。",
+        "summary": "Anthropic 的 Mythos 模型在 1000 个开源项目中发现了 23000 个潜在安全漏洞。",
         "url": "https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects/",
         "source": "SecurityWeek",
         "category": "攻防"
       },
       {
-        "rank": 5,
-        "title": "Laravel-Lang 软件包因恶意软件传播而中毒",
-        "summary": "Laravel-Lang 软件包被投毒，用于传播恶意软件。",
-        "url": "https://www.securityweek.com/laravel-lang-packages-poisoned-for-malware-delivery/",
-        "source": "SecurityWeek",
-        "category": "攻防"
-      },
-      {
-        "rank": 6,
+        "rank": 4,
         "title": "超过 5,500 个 GitHub 存储库在“Megalodon”供应链攻击中受到感染",
-        "summary": "在“Megalodon”供应链攻击中，超过 5500 个 GitHub 存储库被感染。",
+        "summary": "大规模“Megalodon”供应链攻击感染了超过 5500 个 GitHub 代码库。",
         "url": "https://www.securityweek.com/over-5500-github-repositories-infected-in-megalodon-supply-chain-attack/",
         "source": "SecurityWeek",
         "category": "攻防"
       },
       {
-        "rank": 7,
+        "rank": 5,
         "title": "TrapDoor 供应链攻击通过 npm、PyPI 和 CratesIO 传播窃取凭证的恶意软件",
-        "summary": "TrapDoor 供应链攻击利用 npm、PyPI 和 CratesIO 传播窃取凭证的恶意软件。",
+        "summary": "TrapDoor 供应链攻击利用 npm、PyPI 和 CratesIO 分发窃取凭证的恶意软件。",
         "url": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
         "source": "The Hacker News",
         "category": "攻防"
       },
       {
-        "rank": 8,
-        "title": "Ghost CMS SQL 注入漏洞在大规模 ClickFix 活动中被利用",
-        "summary": "Ghost CMS 的 SQL 注入漏洞已被用于大规模的 ClickFix 活动。",
-        "url": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-        "source": "BleepingComputer",
-        "category": "漏洞"
-      },
-      {
-        "rank": 9,
+        "rank": 6,
         "title": "npm 添加了针对供应链攻击的 2FA 门控发布和包安装控制",
-        "summary": "npm 引入了 2FA 门控发布和包安装控制，以防御供应链攻击。",
+        "summary": "npm 引入了双因素认证和包安装控制，以应对供应链攻击。",
         "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
         "source": "The Hacker News",
         "category": "攻防"
       },
       {
-        "rank": 10,
-        "title": "Lazarus 针对金融和加密公司部署 RemotePE 仅内存 RAT",
-        "summary": "Lazarus 组织正在针对金融和加密公司部署 RemotePE 内存 RAT。",
-        "url": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
+        "rank": 7,
+        "title": "Ghost CMS 漏洞被利用攻击 700 多个网站",
+        "summary": "Ghost CMS 的一个漏洞被大规模利用，影响了 700 多个网站。",
+        "url": "https://www.securityweek.com/ghost-cms-vulnerability-exploited-to-hack-over-700-websites/",
+        "source": "SecurityWeek",
+        "category": "漏洞"
+      },
+      {
+        "rank": 8,
+        "title": "Ghost CMS CVE-2026-26980 被利用劫持 700 多个站点进行 ClickFix 攻击",
+        "summary": "Ghost CMS 的 CVE-2026-26980 漏洞被利用，导致 700 多个网站遭受 ClickFix 攻击。",
+        "url": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
         "source": "The Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 9,
+        "title": "Ghost CMS SQL 注入漏洞在大规模 ClickFix 活动中被利用",
+        "summary": "Ghost CMS 的 SQL 注入漏洞在大规模 ClickFix 活动中被利用。",
+        "url": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
+      },
+      {
+        "rank": 10,
+        "title": "Laravel Lang 软件包被劫持以部署窃取凭据的恶意软件",
+        "summary": "Laravel Lang 软件包被劫持，用于传播窃取用户凭据的恶意软件。",
+        "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+        "source": "BleepingComputer",
         "category": "攻防"
       }
     ],
@@ -16527,7 +16275,7 @@
       {
         "rank": 1,
         "title": "匈牙利总理马扎尔表示，匈牙利将于 5 月 28 日与欧盟就冻结资金达成协议",
-        "summary": "匈牙利总理马扎尔宣布，将于 5 月 28 日与欧盟就冻结资金问题达成协议。",
+        "summary": "匈牙利总理表示，匈牙利将在 5 月 28 日与欧盟就冻结资金问题达成协议。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-25/hungary-sees-may-28-deal-with-eu-on-frozen-funds-pm-magyar-says",
         "source": "Bloomberg Markets",
         "category": "市场"
@@ -16542,8 +16290,8 @@
       },
       {
         "rank": 3,
-        "title": "警惕的欧洲央行尚未看到第二轮影响",
-        "summary": "欧洲央行行长维勒鲁瓦表示，央行仍需保持警惕，尚未看到第二轮影响。",
+        "title": "维勒鲁瓦表示，警惕的欧洲央行尚未看到第二轮影响",
+        "summary": "欧洲央行官员表示，虽然警惕，但尚未观察到明显的二次通胀效应。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-25/vigilant-ecb-hasn-t-yet-seen-second-round-effects-villeroy-says",
         "source": "Bloomberg Markets",
         "category": "宏观"
@@ -16551,7 +16299,7 @@
       {
         "rank": 4,
         "title": "战争紧张局势一触即发，墨西哥将接待伊朗球员参加世界杯",
-        "summary": "在地缘政治紧张局势升级的背景下，墨西哥将接待伊朗球员参加世界杯。",
+        "summary": "在紧张的国际局势下，墨西哥将作为东道主迎接伊朗球队参加世界杯。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-25/mexico-to-host-iran-players-for-world-cup-as-war-tensions-simmer",
         "source": "Bloomberg Markets",
         "category": "市场"
@@ -16559,161 +16307,13 @@
       {
         "rank": 5,
         "title": "加纳将从 6 月开始购买大型金矿 30% 的产出",
-        "summary": "加纳计划从 6 月开始购买大型金矿 30% 的产出。",
+        "summary": "加纳计划从 6 月份开始购买其主要金矿 30% 的黄金产量。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-25/ghana-to-start-buying-30-of-large-gold-mines-ouput-from-june",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 6,
-        "title": "捷克总理敦促降息，应对通胀风险加大",
-        "summary": "捷克总理呼吁降息，以应对不断增加的通胀风险。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/czech-premier-urges-interest-rate-cut-as-inflation-risks-grow",
-        "source": "Bloomberg Markets",
-        "category": "宏观"
-      },
-      {
-        "rank": 7,
-        "title": "几内亚顶级铝土矿生产国将于六月公布出口管制",
-        "summary": "作为主要的铝土矿生产国，几内亚将于 6 月公布其出口管制措施。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/top-bauxite-producer-guinea-to-unveil-export-controls-in-june",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 8,
-        "title": "尼日利亚第一季度国内生产总值因石油行业放缓而放缓",
-        "summary": "尼日利亚第一季度的 GDP 增长因石油行业的放缓而受到影响。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/nigeria-s-first-quarter-growth-eases-on-slowdown-in-oil-sector",
-        "source": "Bloomberg Markets",
-        "category": "宏观"
-      },
-      {
-        "rank": 9,
-        "title": "能源、芯片领涨 意大利股市创 26 年来首次新高",
-        "summary": "受能源和芯片行业推动，意大利股市创下 26 年来的新高。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/italian-stocks-hit-first-record-in-26-years-led-by-energy-chips",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 10,
-        "title": "Zepto 计划 6 月公开申请 10 亿美元印度 IPO",
-        "summary": "Zepto 计划在 6 月份提交其 10 亿美元印度 IPO 的公开申请。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/zepto-said-to-plan-june-public-filing-for-1-billion-india-ipo",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      }
-    ],
-    "科技": [
-      {
-        "rank": 1,
-        "title": "法拉利 Luce 揭幕：这是 Jony Ive 设计室的第一辆汽车",
-        "summary": "法拉利 Luce 揭幕，这是 Jony Ive 设计工作室设计的第一辆汽车。",
-        "url": "https://www.engadget.com/2180674/ferrari-luce-first-look-jony-ive/",
-        "source": "Engadget",
-        "category": "互联网"
-      },
-      {
-        "rank": 2,
-        "title": "日本新型高超音速发动机可使2小时飞往美国的航班成为现实",
-        "summary": "日本研发的新型高超音速发动机有望实现 2 小时飞往美国的航班。",
-        "url": "https://www.bgr.com/2178211/japan-hypersonic-engine-ramjet-2-hour-flights-to-us/",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 3,
-        "title": "Epic Games 首次展示了经过火箭联盟改造的虚幻引擎 6",
-        "summary": "Epic Games 首次展示了经过《火箭联盟》改造的虚幻引擎 6。",
-        "url": "https://www.engadget.com/2180662/epic-games-reveals-first-look-at-unreal-engine-6-with-rocket-league-makeover/",
-        "source": "Engadget",
-        "category": "软件"
-      },
-      {
-        "rank": 4,
-        "title": "华为声称到2031年将制造尖端半导体",
-        "summary": "华为表示，计划到 2031 年生产尖端半导体。",
-        "url": "https://www.engadget.com/2180617/huawei-claims-it-will-make-cutting-edge-semiconductors-by-2031/",
-        "source": "Engadget",
-        "category": "硬件"
-      },
-      {
-        "rank": 5,
-        "title": "盲人 Waymo 用户陶醉于独自骑行的乐趣",
-        "summary": "盲人 Waymo 用户对独自出行的体验感到欣喜。",
-        "url": "https://www.nytimes.com/2026/05/24/us/waymo-robot-taxis-blind.html",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 6,
-        "title": "推出适用于 Linux 的 USB4STREAM 协议 – 为 USB4 带来一些巧妙的用途",
-        "summary": "为 Linux 推出了 USB4STREAM 协议，为 USB4 提供了新颖的应用。",
-        "url": "https://www.phoronix.com/news/Intel-Linux-USB4STREAM",
-        "source": "Hacker News",
-        "category": "软件"
-      },
-      {
-        "rank": 7,
-        "title": "在强烈反对后，加州决定将 Linux 排除在年龄验证法之外",
-        "summary": "在收到强烈反对后，加州决定将 Linux 系统排除在年龄验证法之外。",
-        "url": "https://www.tomshardware.com/software/linux/california-moves-to-exempt-linux-from-its-upcoming-age-verification-law-after-backlash-over-forcing-operating-systems-to-collect-users-ages-amendment-proposed-by-the-same-lawmaker-who-wrote-the-original-law",
-        "source": "Hacker News",
-        "category": "软件"
-      },
-      {
-        "rank": 8,
-        "title": "Tether 将在格鲁吉亚推出与当地货币挂钩的“官方”稳定币",
-        "summary": "Tether 计划在格鲁吉亚推出一种与当地货币挂钩的“官方”稳定币。",
-        "url": "https://www.engadget.com/2180540/tether-will-launch-an-official-stablecoin-in-georgia-tied-to-local-currency/",
-        "source": "Engadget",
-        "category": "互联网"
-      },
-      {
-        "rank": 9,
-        "title": "Bootstrapper 的 EU 堆栈每月费用不到 10 欧元",
-        "summary": "Bootstrapper 的 EU 堆栈每月成本低于 10 欧元。",
-        "url": "https://eualternative.eu/guides/bootstrapper-free-tier-eu-stack/",
-        "source": "Hacker News",
-        "category": "软件"
-      },
-      {
-        "rank": 10,
-        "title": "小米米家洗衣机 Pro 波轮 10kg 开售：1.28 洗净比、9 重减震降噪，899 元",
-        "summary": "小米米家洗衣机 Pro 10kg 开售，具有高洗净比和减震降噪功能。",
-        "url": "https://www.ithome.com/0/955/073.htm",
-        "source": "IT之家",
-        "category": "软件"
-      }
-    ],
-    "国际": [
-      {
-        "rank": 1,
-        "title": "匈牙利总理马扎尔表示，匈牙利将于 5 月 28 日与欧盟就冻结资金达成协议",
-        "summary": "匈牙利总理马扎尔表示，匈牙利将于 5 月 28 日与欧盟就冻结资金问题达成协议。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/hungary-sees-may-28-deal-with-eu-on-frozen-funds-pm-magyar-says",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 2,
-        "title": "战争紧张局势一触即发，墨西哥将接待伊朗球员参加世界杯",
-        "summary": "在地缘政治紧张局势加剧的背景下，墨西哥将接待伊朗球员参加世界杯。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/mexico-to-host-iran-players-for-world-cup-as-war-tensions-simmer",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 3,
-        "title": "加纳将从 6 月开始购买大型金矿 30% 的产出",
-        "summary": "加纳计划从 6 月开始购买大型金矿 30% 的产出。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/ghana-to-start-buying-30-of-large-gold-mines-ouput-from-june",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 4,
         "title": "考克斯集团 (Cox Group) 为收购墨西哥 Iberdrola 交易获得 54% 过桥贷款",
         "summary": "考克斯集团为收购墨西哥 Iberdrola 获得了 54% 的过桥贷款。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-25/cox-group-took-54-bridge-loan-for-deal-to-buy-iberdrola-mexico",
@@ -16721,54 +16321,202 @@
         "category": "投融资"
       },
       {
-        "rank": 5,
+        "rank": 7,
         "title": "捷克总理敦促降息，应对通胀风险加大",
-        "summary": "捷克总理呼吁降息，以应对日益增加的通胀风险。",
+        "summary": "捷克总理呼吁降息，以应对日益增长的通胀风险。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-25/czech-premier-urges-interest-rate-cut-as-inflation-risks-grow",
         "source": "Bloomberg Markets",
         "category": "宏观"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "title": "几内亚顶级铝土矿生产国将于六月公布出口管制",
-        "summary": "作为铝土矿主要生产国，几内亚将于 6 月公布其出口管制措施。",
+        "summary": "几内亚，重要的铝土矿生产国，将在六月宣布出口管制措施。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-25/top-bauxite-producer-guinea-to-unveil-export-controls-in-june",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 7,
+        "rank": 9,
+        "title": "以下是未来一周我们在股市中关注的三件大事",
+        "summary": "文章列举了未来一周股市投资者应关注的三大重要事件。",
+        "url": "https://www.cnbc.com/2026/05/25/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "source": "CNBC",
+        "category": "市场"
+      },
+      {
+        "rank": 10,
         "title": "尼日利亚第一季度国内生产总值因石油行业放缓而放缓",
-        "summary": "尼日利亚第一季度 GDP 增长因石油行业放缓而减速。",
+        "summary": "由于石油行业表现疲软，尼日利亚第一季度的 GDP 增长放缓。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-25/nigeria-s-first-quarter-growth-eases-on-slowdown-in-oil-sector",
         "source": "Bloomberg Markets",
         "category": "宏观"
+      }
+    ],
+    "科技": [
+      {
+        "rank": 1,
+        "title": "法拉利 Luce，马拉内罗第一辆电动汽车",
+        "summary": "介绍法拉利推出的首款电动汽车，标志着其在电动化领域的新尝试。",
+        "url": "https://www.topgear.com/car-news/electric/its-finally-here-meet-ferrari-luce-maranellos-first-ever-fully-electric-car",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 2,
+        "title": "法拉利 Luce 揭幕：这是 Jony Ive 设计室的第一辆汽车",
+        "summary": "法拉利首款电动汽车 Luce 揭幕，由 Jony Ive 的设计团队操刀。",
+        "url": "https://www.engadget.com/2180674/ferrari-luce-first-look-jony-ive/",
+        "source": "Engadget",
+        "category": "互联网"
+      },
+      {
+        "rank": 3,
+        "title": "Yoti 年龄检查与第三方共享面部照片和设备指纹",
+        "summary": "Yoti 的年龄验证服务被发现与第三方共享用户面部照片和设备信息。",
+        "url": "https://techxplore.com/news/2026-05-online-age-pointless-privacy.html",
+        "source": "Hacker News",
+        "category": "软件"
+      },
+      {
+        "rank": 4,
+        "title": "日本新型高超音速发动机可使2小时飞往美国的航班成为现实",
+        "summary": "日本开发的新型高超音速发动机，有望实现两小时飞抵美国的航班。",
+        "url": "https://www.bgr.com/2178211/japan-hypersonic-engine-ramjet-2-hour-flights-to-us/",
+        "source": "Hacker News",
+        "category": "互联网"
+      },
+      {
+        "rank": 5,
+        "title": "Bootstrapper 的 EU 堆栈每月费用不到 10 欧元",
+        "summary": "介绍一个名为 Bootstrapper 的 EU 堆栈，其每月成本低于 10 欧元。",
+        "url": "https://eualternative.eu/guides/bootstrapper-free-tier-eu-stack/",
+        "source": "Hacker News",
+        "category": "软件"
+      },
+      {
+        "rank": 6,
+        "title": "在强烈反对后，加州决定将 Linux 排除在年龄验证法之外",
+        "summary": "加州迫于公众压力，将 Linux 系统从年龄验证法案的强制要求中移除。",
+        "url": "https://www.tomshardware.com/software/linux/california-moves-to-exempt-linux-from-its-upcoming-age-verification-law-after-backlash-over-forcing-operating-systems-to-collect-users-ages-amendment-proposed-by-the-same-lawmaker-who-wrote-the-original-law",
+        "source": "Hacker News",
+        "category": "软件"
+      },
+      {
+        "rank": 7,
+        "title": "Epic Games 首次展示了经过火箭联盟改造的虚幻引擎 6",
+        "summary": "Epic Games 展示了使用《火箭联盟》技术打造的虚幻引擎 6。",
+        "url": "https://www.engadget.com/2180662/epic-games-reveals-first-look-at-unreal-engine-6-with-rocket-league-makeover/",
+        "source": "Engadget",
+        "category": "软件"
       },
       {
         "rank": 8,
-        "title": "非洲顶级交易所将收紧算法交易和市场准入规则",
-        "summary": "非洲主要交易所将收紧算法交易和市场准入规则。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/top-africa-bourse-to-tighten-algo-trading-market-access-rules",
+        "title": "华为声称到2031年将制造尖端半导体",
+        "summary": "华为表示，目标是到 2031 年生产出先进的半导体芯片。",
+        "url": "https://www.engadget.com/2180617/huawei-claims-it-will-make-cutting-edge-semiconductors-by-2031/",
+        "source": "Engadget",
+        "category": "硬件"
+      },
+      {
+        "rank": 9,
+        "title": "推出适用于 Linux 的 USB4STREAM 协议 – 为 USB4 带来一些巧妙的用途",
+        "summary": "为 Linux 推出了 USB4STREAM 协议，为 USB4 接口带来新的应用。",
+        "url": "https://www.phoronix.com/news/Intel-Linux-USB4STREAM",
+        "source": "Hacker News",
+        "category": "软件"
+      },
+      {
+        "rank": 10,
+        "title": "盲人 Waymo 用户陶醉于独自骑行的乐趣",
+        "summary": "盲人 Waymo 用户体验到独立出行的乐趣，展现了自动驾驶技术的潜力。",
+        "url": "https://www.nytimes.com/2026/05/24/us/waymo-robot-taxis-blind.html",
+        "source": "Hacker News",
+        "category": "互联网"
+      }
+    ],
+    "国际": [
+      {
+        "rank": 1,
+        "title": "教皇在宣言中呼吁对人工智能进行强有力的监管：人类的未来",
+        "summary": "教皇呼吁加强对人工智能的监管，强调其对人类未来的影响。",
+        "url": "https://apnews.com/article/pope-ai-tech-trump-vatican-anthropic-d92d0108730d146baa46da041b8523da",
+        "source": "Hacker News AI",
+        "category": "CV"
+      },
+      {
+        "rank": 2,
+        "title": "教皇利奥表示人工智能可能扭曲人类",
+        "summary": "教皇利奥警告称，人工智能可能对人类的认知和价值观产生扭曲。",
+        "url": "https://www.axios.com/2026/05/25/pope-leo-xiv-ai-humanity-war-jobs-warning",
+        "source": "Hacker News AI",
+        "category": "LLM"
+      },
+      {
+        "rank": 3,
+        "title": "Meta 和 Intuit 裁员 11,000 人，星巴克放弃人工智能",
+        "summary": "科技公司 Meta 和 Intuit 进行大规模裁员，星巴克暂停了人工智能项目。",
+        "url": "https://www.forbes.com/sites/sandycarter/2026/05/22/starbucks-drops-ai-as-meta-and-intuit-cut-11000-jobs/",
+        "source": "Hacker News AI",
+        "category": "LLM"
+      },
+      {
+        "rank": 4,
+        "title": "匈牙利总理马扎尔表示，匈牙利将于 5 月 28 日与欧盟就冻结资金达成协议",
+        "summary": "匈牙利总理称，匈牙利将在 5 月 28 日与欧盟就冻结资金问题达成协议。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/hungary-sees-may-28-deal-with-eu-on-frozen-funds-pm-magyar-says",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
+        "rank": 5,
+        "title": "维勒鲁瓦表示，警惕的欧洲央行尚未看到第二轮影响",
+        "summary": "欧洲央行官员称，尽管保持警惕，但尚未出现明显的二次通胀效应。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/vigilant-ecb-hasn-t-yet-seen-second-round-effects-villeroy-says",
+        "source": "Bloomberg Markets",
+        "category": "宏观"
+      },
+      {
+        "rank": 6,
+        "title": "战争紧张局势一触即发，墨西哥将接待伊朗球员参加世界杯",
+        "summary": "在国际局势紧张之际，墨西哥将主办伊朗球队参加世界杯。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/mexico-to-host-iran-players-for-world-cup-as-war-tensions-simmer",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 7,
+        "title": "加纳将从 6 月开始购买大型金矿 30% 的产出",
+        "summary": "加纳计划从 6 月起收购其主要金矿 30% 的黄金产量。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/ghana-to-start-buying-30-of-large-gold-mines-ouput-from-june",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 8,
+        "title": "捷克总理敦促降息，应对通胀风险加大",
+        "summary": "捷克总理呼吁降低利率以应对不断上升的通胀风险。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/czech-premier-urges-interest-rate-cut-as-inflation-risks-grow",
+        "source": "Bloomberg Markets",
+        "category": "宏观"
+      },
+      {
         "rank": 9,
-        "title": "伊朗战争挤压印度天然气电力供应，需求创历史新高",
-        "summary": "伊朗冲突影响印度天然气和电力供应，需求达到历史新高。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/iran-war-squeezes-india-s-gas-power-supply-as-demand-hits-record",
+        "title": "几内亚顶级铝土矿生产国将于六月公布出口管制",
+        "summary": "几内亚，作为主要的铝土矿生产国，将在六月宣布出口管制措施。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/top-bauxite-producer-guinea-to-unveil-export-controls-in-june",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 10,
-        "title": "瑞士贸易商在通过霍尔木兹海峡运送伊拉克石油方面发挥着有利可图的作用",
-        "summary": "瑞士贸易商在通过霍尔木兹海峡运输伊拉克石油方面扮演着有利可图的角色。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/swiss-trader-had-lucrative-role-getting-iraqi-oil-through-hormuz",
+        "title": "尼日利亚第一季度国内生产总值因石油行业放缓而放缓",
+        "summary": "由于石油行业下滑，尼日利亚第一季度 GDP 增长放缓。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/nigeria-s-first-quarter-growth-eases-on-slowdown-in-oil-sector",
         "source": "Bloomberg Markets",
-        "category": "市场"
+        "category": "宏观"
       }
     ],
-    "generated_at": "2026-05-25T20:19:38.822835+00:00"
+    "generated_at": "2026-05-25T22:01:59.527102+00:00"
   }
 }
