@@ -1,6 +1,132 @@
 {
-  "last_updated": "2026-05-31T21:47:38.381349+00:00",
+  "last_updated": "2026-05-31T22:47:57.215472+00:00",
   "articles": [
+    {
+      "title": "古尔曼重申苹果 iOS 27 聚焦于小修小补，明年 20 周年款 iPhone 预装的 iOS 28 将更有看点",
+      "url": "https://www.ithome.com/0/957/904.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-05-31T22:40:14+00:00",
+      "content": "IT之家 6 月 1 日消息，彭博社的马克・古尔曼在最新一周时事通讯中重申苹果 iOS27 主要聚焦于小修小补，而 iOS 28 将会“比 iOS 27 更加重要”，其内部代号为“Bell”，预计将更加着重于界面调整。值得一提的是，iOS 28 也将是苹果 20 周年纪念款 iPhone 预装的系统，此前消息显示 20 周年纪念款 iPhone 将采用四曲面设计，令其看起来像用户手中一块“流动的液态玻璃”，考虑到苹果公司产品通常采用软硬结合策略，因此 iOS 28 很有可能为 20 周年版 iPhone 进一步优化界面体验。相比之下，即将于今年 WWDC 登场的 iOS 27 主要是提升系统稳定性，并改善 Siri 与 Apple 智能功能，此外还将改进灵动岛，新增“搜索或提问”（Search or Ask）功能。相关阅读：《苹果 iOS 27 系统前瞻：卫星通信新增多项功能、全新虚拟键盘，预计 WWDC 26 亮相》",
+      "id": "fb129a1fcb94fd75858485a507344954",
+      "title_zh": "古尔曼重申苹果 iOS 27 聚焦于小修小补，明年 20 周年款 iPhone 预装的 iOS 28 将更有看点",
+      "summary_zh": "IT之家 6 月 1 日消息，彭博社的马克・古尔曼在最新一周时事通讯中重申苹果 iOS27 主要聚焦于小修小补，而 iOS 28 将会“比 iOS 27 更加重要”，其内部代号为“Bell”，预计将更加着重于界面调整。值得一提的是，iOS 28 也将是苹果 20 周年纪念款 iPhone 预装的系统，此前消息显示 20 周年纪念款 iPhone 将采用四曲面设计，令其看起来像用户手中一块“流动的液",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.264223+00:00"
+    },
+    {
+      "title": "Tell HN: Meta's AI support feature allows Instagram accounts to be stolen",
+      "url": "https://news.ycombinator.com/item?id=48350239",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-31T22:11:40+00:00",
+      "content": "If the AI support option is enabled for your Instagram account (it appears to be A/B tested for only a percentage of accounts), anyone can hijack it with little effort. Simply get on a proxy or VPN close to the account's region, then ask the agent to send a code to an arbitrary email address. Once you receive the code, pass it forward to the agent, and it'll provide you with a password reset link which you can then use to sign into the account.Posting here for any Meta employees who may be reading. This flaw has been around for at least a few days and has been used to hijack over 100 high-value Instagram accounts. The correct patch would be to disable the AI support feature entirely for the time being until this is sorted and revert accounts and usernames that have been hijacked over the last few days. This is a pretty important flaw and it's currently being exploited in blackhat circles. The steps above are public knowledge in these circles and can be found trivially on Telegram.\n\nCom",
+      "id": "c7a78d2203468109f1d85fe1ca113ce0",
+      "title_zh": "告诉 HN：Meta 的 AI 支持功能允许 Instagram 帐户被盗",
+      "summary_zh": "If the AI support option is enabled for your Instagram account (it appears to be A/B tested for only a percentage of accounts), anyone can hijack it with little effort. Simply get on a proxy or VPN cl",
+      "category": "研究",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.270507+00:00"
+    },
+    {
+      "title": "Oil Climbs as US-Iran Ceasefire Remains Elusive: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-31/oil-climbs-as-us-iran-ceasefire-remains-elusive-markets-wrap",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-31T22:10:32+00:00",
+      "content": "Oil climbed as tensions remained elevated in the Middle East, with negotiations over a permanent US-Iran ceasefire showing little sign of a breakthrough.",
+      "id": "b049f40b73f3963ddd135336a1f9dd1f",
+      "title_zh": "美伊停火仍难以实现，油价攀升：市场总结",
+      "summary_zh": "Oil climbed as tensions remained elevated in the Middle East, with negotiations over a permanent US-Iran ceasefire showing little sign of a breakthrough.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.262862+00:00"
+    },
+    {
+      "title": "Can I just say f*** AI, f*** AI, f*** AI? [video]",
+      "url": "https://www.youtube.com/shorts/0z7Q0Bg9TAY",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-31T22:10:02+00:00",
+      "content": "Article URL: https://www.youtube.com/shorts/0z7Q0Bg9TAY\nComments URL: https://news.ycombinator.com/item?id=48350223\nPoints: 1\n# Comments: 0",
+      "id": "b5e135476ad12eb699551c88c8c396f6",
+      "title_zh": "我可以说f*** AI，f*** AI，f*** AI吗？ [视频]",
+      "summary_zh": "Article URL: https://www.youtube.com/shorts/0z7Q0Bg9TAY Comments URL: https://news.ycombinator.com/item?id=48350223 Points: 1 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.270550+00:00"
+    },
+    {
+      "title": "Oil Rises From Six-Week Low Amid Uncertainty Over US-Iran Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-31/latest-oil-market-news-and-analysis-for-june-1",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-31T22:02:15+00:00",
+      "content": "Oil rose from a six-week low amid uncertainty over the outlook for a peace deal to end the war in Iran.",
+      "id": "2ac41122cee6d46ba95b95c10bb924e2",
+      "title_zh": "由于美伊协议的不确定性，油价从六周低点上涨",
+      "summary_zh": "Oil rose from a six-week low amid uncertainty over the outlook for a peace deal to end the war in Iran.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.262886+00:00"
+    },
+    {
+      "title": "It's Not Just X. It's Y",
+      "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-31T21:57:48+00:00",
+      "content": "It's Not Just X. It's Y. Score: 17, Comments: 1",
+      "id": "163990983d2fbb6fac1573f937ff1597",
+      "title_zh": "这不只是 X，还有 Y",
+      "summary_zh": "It's Not Just X. It's Y. Score: 17, Comments: 1",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.264368+00:00"
+    },
+    {
+      "title": "Atherton spent $145K to delay train electrification. The rest of us paid $400M",
+      "url": "https://peninsulaforeveryone.org/blog/atherton-spent-145k-to-delay-caltrain-electrification-the-rest-of-us-paid-400-million-and-waited-3-extra-years/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-05-31T21:55:33+00:00",
+      "content": "Atherton spent $145K to delay train electrification. The rest of us paid $400M. Score: 54, Comments: 7",
+      "id": "6058a90cbb2f50cadc0a4830afc59e72",
+      "title_zh": "阿瑟顿花费了 14.5 万美元来推迟火车电气化。我们其他人支付了 4 亿美元",
+      "summary_zh": "Atherton spent $145K to delay train electrification. The rest of us paid $400M. Score: 54, Comments: 7",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.264321+00:00"
+    },
+    {
+      "title": "G7 Agrees on Shared Language Around Open-Source AI, Open Weights AI",
+      "url": "https://www.phoronix.com/news/G7-On-Open-Source-AI",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-05-31T21:49:33+00:00",
+      "content": "Article URL: https://www.phoronix.com/news/G7-On-Open-Source-AI\nComments URL: https://news.ycombinator.com/item?id=48350096\nPoints: 1\n# Comments: 0",
+      "id": "0953d6f2a1da88995379078045570b4b",
+      "title_zh": "G7 就开源人工智能、开放权重人工智能的共享语言达成一致",
+      "summary_zh": "Article URL: https://www.phoronix.com/news/G7-On-Open-Source-AI Comments URL: https://news.ycombinator.com/item?id=48350096 Points: 1 # Comments: 0",
+      "category": "开源",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.270598+00:00"
+    },
+    {
+      "title": "Petrobras Cuts Diesel Prices Amid Federal Subsidy Plan",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-31/petrobras-cuts-diesel-prices-amid-federal-subsidy-plan",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-05-31T21:35:03+00:00",
+      "content": "Brazil’s state-controlled oil giant Petroleo Brasileiro SA is reducing domestic diesel prices starting Monday as part of a government subsidy program to shield consumers from the war in the Middle East.",
+      "id": "442f64bc989af35564a85452e36bce50",
+      "title_zh": "巴西国家石油公司在联邦补贴计划中下调柴油价格",
+      "summary_zh": "Brazil’s state-controlled oil giant Petroleo Brasileiro SA is reducing domestic diesel prices starting Monday as part of a government subsidy program to shield consumers from the war in the Middle Eas",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.262931+00:00"
+    },
     {
       "title": "We Built a Real-Time AI Research Collaborator into Our Jot Writing Tool",
       "url": "https://medium.com/@vektormemory/we-built-a-real-time-ai-research-collaborator-into-our-jot-writing-tool-3643596ec2e6",
@@ -56,6 +182,20 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-05-31T21:46:21.560702+00:00"
+    },
+    {
+      "title": "US healthcare still stupidly expensive, with pathetic outcomes, study finds",
+      "url": "https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-31T20:41:10+00:00",
+      "content": "US healthcare still stupidly expensive, with pathetic outcomes, study finds. Score: 56, Comments: 27",
+      "id": "e9bd2d94c6e0d336c6b7c0c6c66375d5",
+      "title_zh": "研究发现，美国医疗保健仍然极其昂贵，结果悲惨",
+      "summary_zh": "US healthcare still stupidly expensive, with pathetic outcomes, study finds. Score: 56, Comments: 27",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.264529+00:00"
     },
     {
       "title": "Berkshire Hathaway to Buy Taylor Morrison for $6.8 Billion",
@@ -210,6 +350,20 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-05-31T21:46:21.563232+00:00"
+    },
+    {
+      "title": "Nearly Half of Home Insurance Claims Result in Zero Payout",
+      "url": "https://www.wsj.com/finance/the-home-insurance-coin-flip-nearly-half-of-claims-result-in-zero-payout-4b49acaf",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-05-31T19:45:54+00:00",
+      "content": "Nearly Half of Home Insurance Claims Result in Zero Payout. Score: 9, Comments: 1",
+      "id": "c6024cc742b1ef463890ad40b577cf26",
+      "title_zh": "近一半的家庭保险索赔导致零赔付",
+      "summary_zh": "Nearly Half of Home Insurance Claims Result in Zero Payout. Score: 9, Comments: 1",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.264985+00:00"
     },
     {
       "title": "The UI problem of AI coding agents",
@@ -2394,6 +2548,20 @@
       "category": "LLM",
       "tags": [],
       "collected": "2026-05-31T13:08:22.090201+00:00"
+    },
+    {
+      "title": "A hotly debated lung cancer drug cut the risk of death by 34% in a late-stage trial in China",
+      "url": "https://www.cnbc.com/2026/05/31/asco-summit-akeso-ivonescimab-improves-survival-in-harmoni-6-trial.html",
+      "source": "CNBC",
+      "domain": "经济",
+      "published": "2026-05-31T12:00:02+00:00",
+      "content": "An experimental lung cancer drug from Akeso and Summit Therapeutics reduced the risk of death by 34% in a late-stage trial, according to data released Sunday.",
+      "id": "c1ad70b3afd42cd8bdbfe10d15582e45",
+      "title_zh": "在中国进行的一项后期试验中，一种备受争议的肺癌药物可将死亡风险降低 34%",
+      "summary_zh": "An experimental lung cancer drug from Akeso and Summit Therapeutics reduced the risk of death by 34% in a late-stage trial, according to data released Sunday.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.262958+00:00"
     },
     {
       "title": "Why Trump reversed course to fast-track psychedelic drugs for mental healthcare",
@@ -13712,6 +13880,20 @@
       "collected": "2026-05-29T14:35:52.165710+00:00"
     },
     {
+      "title": "New Beam Spring Keyboards",
+      "url": "https://www.modelfkeyboards.com/product/beam-spring-b104-keyboard/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-05-29T13:39:41+00:00",
+      "content": "New Beam Spring Keyboards. Score: 14, Comments: 6",
+      "id": "f977c21172df232641bf6119c0dbd941",
+      "title_zh": "新型梁弹簧键盘",
+      "summary_zh": "New Beam Spring Keyboards. Score: 14, Comments: 6",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-05-31T22:46:43.264472+00:00"
+    },
+    {
       "title": "Show HN: AISlop, a CLI for catching AI generated code smells",
       "url": "https://github.com/scanaislop/aislop",
       "source": "Hacker News",
@@ -20230,423 +20412,87 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-05-29T00:01:09.912229+00:00"
-    },
-    {
-      "title": "Clawd-on-Desk: a pixel desktop pet watching your AI coding agents",
-      "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-28T22:46:14+00:00",
-      "content": "Article URL: https://github.com/rullerzhou-afk/clawd-on-desk\nComments URL: https://news.ycombinator.com/item?id=48316607\nPoints: 1\n# Comments: 0",
-      "id": "c28a2d1b3d151750cf06bb6e5cdd81f6",
-      "title_zh": "Clawd-on-Desk：观察您的 AI 编码代理的像素桌面宠物",
-      "summary_zh": "Article URL: https://github.com/rullerzhou-afk/clawd-on-desk Comments URL: https://news.ycombinator.com/item?id=48316607 Points: 1 # Comments: 0",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-05-29T00:01:09.913992+00:00"
-    },
-    {
-      "title": "Claude Opus 4.8 + AI medical diagnosis examples",
-      "url": "https://github.com/joelparkerhenderson/ai-medical-diagnosis-examples",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-28T22:33:20+00:00",
-      "content": "Article URL: https://github.com/joelparkerhenderson/ai-medical-diagnosis-examples\nComments URL: https://news.ycombinator.com/item?id=48316470\nPoints: 3\n# Comments: 0",
-      "id": "6bb7f0b7fc1c0227aed1dabe077791d0",
-      "title_zh": "Claude Opus 4.8 + AI医疗诊断实例",
-      "summary_zh": "Article URL: https://github.com/joelparkerhenderson/ai-medical-diagnosis-examples Comments URL: https://news.ycombinator.com/item?id=48316470 Points: 3 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-29T00:01:09.914036+00:00"
-    },
-    {
-      "title": "Gustav Klimt and Egon Schiele in Conversation (2018)",
-      "url": "https://www.theparisreview.org/blog/2018/01/31/the-drawings-of-klimt-and-schiele/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-28T22:29:31+00:00",
-      "content": "Gustav Klimt and Egon Schiele in Conversation (2018). Score: 18, Comments: 2",
-      "id": "82c53d8bbd19109b07a493bb5b4a90c4",
-      "title_zh": "古斯塔夫·克里姆特与埃贡·席勒的对话 (2018)",
-      "summary_zh": "Gustav Klimt and Egon Schiele in Conversation (2018). Score: 18, Comments: 2",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-31T02:07:05.705821+00:00"
-    },
-    {
-      "title": "Jim Cramer says these 3 mistakes are keeping investors out of AI winners",
-      "url": "https://www.cnbc.com/2026/05/28/jim-cramer-says-these-3-mistakes-are-keeping-investors-out-of-ai-winners.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-28T22:28:55+00:00",
-      "content": "CNBC’s Jim Cramer pointed to three reasons investors may be missing some of the market’s biggest AI winners.",
-      "id": "8e86b5007d795b2b22f0bba7778e6225",
-      "title_zh": "吉姆·克莱默 (Jim Cramer) 表示，这 3 个错误让投资者远离人工智能赢家",
-      "summary_zh": "CNBC’s Jim Cramer pointed to three reasons investors may be missing some of the market’s biggest AI winners.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-29T11:19:11.980847+00:00"
-    },
-    {
-      "title": "Starbucks to Take AI Usage into Account in Tech Workers' Bonuses",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/starbucks-to-take-ai-usage-into-account-in-tech-workers-bonuses",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-05-28T22:25:50+00:00",
-      "content": "Starbucks to Take AI Usage into Account in Tech Workers' Bonuses. Score: 7, Comments: 0",
-      "id": "e6670309b68f9a3a60845f5fe30b1de9",
-      "title_zh": "星巴克将人工智能的使用纳入技术员工的奖金中",
-      "summary_zh": "Starbucks to Take AI Usage into Account in Tech Workers' Bonuses. Score: 7, Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-29T00:01:09.913343+00:00"
-    },
-    {
-      "title": "Exxon warns oil inventories will hit dangerously low levels in weeks, forcing prices to shoot higher",
-      "url": "https://www.cnbc.com/2026/05/28/oil-inventory-exxon-strait-hormuz-iran-war.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-28T22:25:04+00:00",
-      "content": "The price of physical Brent oil cargoes will spike to $150 to $160 per barrel once inventories hit all-time lows, Exxon executive Neil Chapman said.",
-      "id": "daa203c7f905f3e5c46f5f91338c34f3",
-      "title_zh": "埃克森美孚警告称，石油库存将在数周内降至危险的低水平，迫使油价上涨",
-      "summary_zh": "The price of physical Brent oil cargoes will spike to $150 to $160 per barrel once inventories hit all-time lows, Exxon executive Neil Chapman said.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-29T11:19:11.980808+00:00"
-    },
-    {
-      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-      "url": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-      "source": "BleepingComputer",
-      "domain": "安全",
-      "published": "2026-05-28T22:24:49+00:00",
-      "content": "A likely Russian threat cluster tracked as GreyVibe has been targeting Ukrainian entities with AI-generated lures and a rich set of custom malware tools. [...]",
-      "id": "ea211a7d3587782cb55d129300cff8b4",
-      "title_zh": "GreyVibe 黑客利用 ChatGPT、Gemini 发起网络攻击",
-      "summary_zh": "A likely Russian threat cluster tracked as GreyVibe has been targeting Ukrainian entities with AI-generated lures and a rich set of custom malware tools. [...]",
-      "category": "攻防",
-      "tags": [],
-      "collected": "2026-05-29T00:01:09.907148+00:00"
-    },
-    {
-      "title": "Stocks & Bonds Rise After US-Iran Deal Reports | The Close 5/28/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-28/the-close-5-28-2026-video",
-      "source": "Bloomberg Tech",
-      "domain": "经济",
-      "published": "2026-05-28T22:16:51+00:00",
-      "content": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Wells Fargo Chief Equity Strategist Ohsung Kwon, Hormel Foods President John Ghingo, Tola Capital Founder & Managing Director Sheila Gulati, Former LVMH North America Chair Pauline Brown, StoneX Group Chief Market Strategist & Chief Economist Kathryn Rooney Vera, Founder ETFs Portfolio Manager Michael Monaghan, Evercore Equity Analyst Peter Levine, Alex Mill Chairman Mickey Drexler, & Kearney Consumer Institute Lead Katie Thomas. (Source: Bloomberg)",
-      "id": "ffb299810ec85e332d0672e52243d0e4",
-      "title_zh": "美伊协议报道后股票和债券上涨|收盘价 2026 年 5 月 28 日",
-      "summary_zh": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Wells Fargo Chief Equity S",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-29T00:01:09.912413+00:00"
-    },
-    {
-      "title": "Disney's ABC files early broadcast licenses renewal 'under protest' against the FCC",
-      "url": "https://www.cnbc.com/2026/05/28/disney-fcc-broadcast-licenses-renewal.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-28T22:16:43+00:00",
-      "content": "Disney said it filed renewals for eight broadcast station licenses \"under protest,\" after the FCC launched an early review years ahead of schedule.",
-      "id": "56117658259de674799d97ac435b296d",
-      "title_zh": "迪士尼 ABC 在“抗议”联邦通信委员会的情况下提早续签广播许可证",
-      "summary_zh": "Disney said it filed renewals for eight broadcast station licenses \"under protest,\" after the FCC launched an early review years ahead of schedule.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.931103+00:00"
-    },
-    {
-      "title": "Taking Children from Their Parents Without a Court Order",
-      "url": "https://www.newyorker.com/news/our-local-correspondents/taking-children-from-their-parents-without-a-court-order",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-28T22:14:55+00:00",
-      "content": "Taking Children from Their Parents Without a Court Order. Score: 4, Comments: 0",
-      "id": "06dee2a10a32ea852968faab30e1d7ff",
-      "title_zh": "未经法院命令将孩子从父母身边带走",
-      "summary_zh": "Taking Children from Their Parents Without a Court Order. Score: 4, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-29T00:01:09.913642+00:00"
-    },
-    {
-      "title": "Rockstar developers go public with first union",
-      "url": "https://www.engadget.com/2183358/rockstar-developers-go-public-with-first-union/",
-      "source": "Engadget",
-      "domain": "科技",
-      "published": "2026-05-28T22:11:20+00:00",
-      "content": "The Rockstar Game Workers Union has members across the developer's UK offices.",
-      "id": "3d955e016bab9dd154fe85efa22f8e88",
-      "title_zh": "Rockstar 开发商公开成立第一个工会",
-      "summary_zh": "The Rockstar Game Workers Union has members across the developer's UK offices.",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.931202+00:00"
-    },
-    {
-      "title": "American Eagle's Aerie is booming, but its namesake brand is lagging despite Sydney Sweeney ads",
-      "url": "https://www.cnbc.com/2026/05/28/american-eagle-aeo-earnings-q1-2026.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-28T22:06:47+00:00",
-      "content": "American Eagle beat Wall Street's expectations but sales at its namesake banner fell short of estimates after its latest Sydney Sweeney campaign.",
-      "id": "2eb3122ce4d4d2044ab2600cd8bbae88",
-      "title_zh": "美国之鹰 (American Eagle) 的 Aerie 正在蓬勃发展，但尽管有悉尼·斯威尼 (Sydney Sweeney) 的广告，其同名品牌却落后了",
-      "summary_zh": "American Eagle beat Wall Street's expectations but sales at its namesake banner fell short of estimates after its latest Sydney Sweeney campaign.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.931173+00:00"
-    },
-    {
-      "title": "Dell CFO Kennedy Sees AI Server Demand Driving Sales Growth",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-28/dell-cfo-kennedy-sees-ai-demand-driving-sales-growth-video",
-      "source": "Bloomberg Tech",
-      "domain": "AI",
-      "published": "2026-05-28T22:04:29+00:00",
-      "content": "Dell CFO David Kennedy says the increase in AI server demand is why the company boosted its annual sales forecast. Speaking with Ed Ludlow on \"Balance of Power: Evening Edition,\" Kennedy also comments on Dell's $9.7 billion Pentagon software deal. (Source: Bloomberg)",
-      "id": "02ed7ee75d999f29b05c999bdb318f83",
-      "title_zh": "戴尔首席财务官肯尼迪认为人工智能服务器需求推动销售增长",
-      "summary_zh": "Dell CFO David Kennedy says the increase in AI server demand is why the company boosted its annual sales forecast. Speaking with Ed Ludlow on \"Balance of Power: Evening Edition,\" Kennedy also comments",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.932945+00:00"
-    },
-    {
-      "title": "Okta jumps 8%, tops first-quarter results on agentic AI demand",
-      "url": "https://www.cnbc.com/2026/05/28/okta-okta-earnings-q1-2027.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-28T22:04:22+00:00",
-      "content": "CEO Todd McKinnon said Okta is \"playing a long game\" on AI and is allocating more resources to agentic tools.",
-      "id": "68b780ecc880407ae16419bb127e0277",
-      "title_zh": "Okta 上涨 8%，因人工智能需求强劲而领先第一季度业绩",
-      "summary_zh": "CEO Todd McKinnon said Okta is \"playing a long game\" on AI and is allocating more resources to agentic tools.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.931125+00:00"
-    },
-    {
-      "title": "Asian Stocks to Rise on Firming US-Iran Sentiment: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/asian-stocks-to-rise-on-firming-us-iran-sentiment-markets-wrap",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-28T22:02:27+00:00",
-      "content": "Asian equities were poised to advance after gains in US stocks and Treasuries, as reports suggested Washington and Tehran were nearing an agreement to extend a ceasefire.",
-      "id": "816607f626fae0abaf0cf61b16affba3",
-      "title_zh": "亚洲股市因美伊关系坚挺而上涨：市场结束",
-      "summary_zh": "Asian equities were poised to advance after gains in US stocks and Treasuries, as reports suggested Washington and Tehran were nearing an agreement to extend a ceasefire.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.930703+00:00"
-    },
-    {
-      "title": "Oil Edges Lower at Open on Tentative Deal to Extend Iran Truce",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/oil-edges-lower-at-open-on-tentative-deal-to-extend-iran-truce",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-05-28T22:02:15+00:00",
-      "content": "Oil edged lower after the US and Iran tentatively agreed to extend their ceasefire by 60 days, potentially allowing traffic to restart through the critical Strait of Hormuz.",
-      "id": "c5b57bb13732e7813334136c109696ba",
-      "title_zh": "因延长伊朗停战协议的临时协议，油价开盘小幅走低",
-      "summary_zh": "Oil edged lower after the US and Iran tentatively agreed to extend their ceasefire by 60 days, potentially allowing traffic to restart through the critical Strait of Hormuz.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.930731+00:00"
-    },
-    {
-      "title": "2027 Audi RS5 first drive: A performance PHEV with split personalities",
-      "url": "https://arstechnica.com/cars/2026/05/2027-audi-rs5-first-drive-a-performance-phev-with-split-personalities/",
-      "source": "Ars Technica",
-      "domain": "科技",
-      "published": "2026-05-28T22:01:02+00:00",
-      "content": "Audi has developed an entirely new electric torque-vectoring rear differential.",
-      "id": "33bf4a0d57a75682da227d74a7028376",
-      "title_zh": "2027款奥迪RS5首驾：性格分裂的高性能插电式混合动力汽车",
-      "summary_zh": "Audi has developed an entirely new electric torque-vectoring rear differential.",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-29T00:01:09.910431+00:00"
-    },
-    {
-      "title": "Gap shares tumble 14% as retailer cuts sales guidance after disappointing Old Navy performance",
-      "url": "https://www.cnbc.com/2026/05/28/gap-gap-earnings-q1-2026.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-05-28T22:01:01+00:00",
-      "content": "Gap issued mixed results as sales at its largest brand, Old Navy, fell short of estimates.",
-      "id": "bd276d88d412de612504a3ec247bcfea",
-      "title_zh": "Old Navy 业绩令人失望后，零售商下调销售指引，Gap 股价下跌 14%",
-      "summary_zh": "Gap issued mixed results as sales at its largest brand, Old Navy, fell short of estimates.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.931148+00:00"
-    },
-    {
-      "title": "Troops' phones gave away location data to foreign adversaries",
-      "url": "https://www.theregister.com/security/2026/05/28/troops-phones-leaked-location-data-to-foreign-adversaries/5248108",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-28T22:00:11+00:00",
-      "content": "Troops' phones gave away location data to foreign adversaries. Score: 7, Comments: 1",
-      "id": "7df5b00c0273d2f4957c353a6a819e78",
-      "title_zh": "部队手机将位置数据泄露给外国对手",
-      "summary_zh": "Troops' phones gave away location data to foreign adversaries. Score: 7, Comments: 1",
-      "category": "硬件",
-      "tags": [],
-      "collected": "2026-05-29T00:01:09.913181+00:00"
-    },
-    {
-      "title": "Preservatives linked to high blood pressure and heart disease in new study",
-      "url": "https://scitechdaily.com/study-warns-widely-used-food-preservatives-linked-to-high-blood-pressure-and-heart-disease/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-28T21:59:17+00:00",
-      "content": "Preservatives linked to high blood pressure and heart disease in new study. Score: 9, Comments: 4",
-      "id": "233d2723a111ebe016fb76e6890f207b",
-      "title_zh": "新研究发现防腐剂与高血压和心脏病有关",
-      "summary_zh": "Preservatives linked to high blood pressure and heart disease in new study. Score: 9, Comments: 4",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-29T00:01:09.913088+00:00"
-    },
-    {
-      "title": "CFTC wants to reverse course on penalty against Winklevoss twins' crypto business",
-      "url": "https://www.engadget.com/2183352/cftc-wants-to-reverse-course-on-penalty-against-winklevoss-twins-crypto-business/",
-      "source": "Engadget",
-      "domain": "科技",
-      "published": "2026-05-28T21:56:21+00:00",
-      "content": "The Gemini exchange already paid a $5 million fine following the agency's lawsuit.",
-      "id": "2aafc9617a6251810b4c757b6cd2cf4c",
-      "title_zh": "CFTC 希望扭转对 Winklevoss 双胞胎加密业务的处罚",
-      "summary_zh": "The Gemini exchange already paid a $5 million fine following the agency's lawsuit.",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.931226+00:00"
-    },
-    {
-      "title": "Training Azerbaijani language models on Amazon SageMaker AI",
-      "url": "https://aws.amazon.com/blogs/machine-learning/training-azerbaijani-language-models-on-amazon-sagemaker-ai/",
-      "source": "AWS AI Blog",
-      "domain": "AI",
-      "published": "2026-05-28T21:54:06+00:00",
-      "content": "Azercell Telecom LLC, Azerbaijan's leading telecommunications provider, wanted to build an Azerbaijani large language model (LLM) on Amazon SageMaker AI for telecom use cases and a customer-facing chatbot. The challenge: adapting foundation models (FMs) to a morphologically rich language with limited training data and no existing blueprint for efficient LLM training in Azerbaijani. In a six-week collaboration, Azercell worked with the AWS Generative AI Innovation Center to establish a production-ready framework on Amazon SageMaker AI.",
-      "id": "8e318485caa60d0253d3e6f27e02312e",
-      "title_zh": "在 Amazon SageMaker AI 上训练阿塞拜疆语语言模型",
-      "summary_zh": "Azercell Telecom LLC, Azerbaijan's leading telecommunications provider, wanted to build an Azerbaijani large language model (LLM) on Amazon SageMaker AI for telecom use cases and a customer-facing cha",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.927568+00:00"
-    },
-    {
-      "title": "The Case Against the AI Thought Partner",
-      "url": "https://personalaisafety.com/p/the-case-against-the-ai-thought-partner",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-05-28T21:52:46+00:00",
-      "content": "Article URL: https://personalaisafety.com/p/the-case-against-the-ai-thought-partner\nComments URL: https://news.ycombinator.com/item?id=48316037\nPoints: 1\n# Comments: 0",
-      "id": "8692561db09dc95c2e257b31cfc47541",
-      "title_zh": "针对人工智能思想合作伙伴的案例",
-      "summary_zh": "Article URL: https://personalaisafety.com/p/the-case-against-the-ai-thought-partner Comments URL: https://news.ycombinator.com/item?id=48316037 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-05-28T22:25:59.935538+00:00"
-    },
-    {
-      "title": "Why Gentoo?",
-      "url": "https://blogs.gentoo.org/mgorny/2026/05/28/why-gentoo/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-05-28T21:47:22+00:00",
-      "content": "Why Gentoo?. Score: 27, Comments: 19",
-      "id": "de3719eaf30103afd7ab06299876416e",
-      "title_zh": "为什么是 Gentoo？",
-      "summary_zh": "Why Gentoo?. Score: 27, Comments: 19",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-05-29T03:40:47.894022+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
-        "title": "我们在我们的笔记写作工具中内置了一个实时人工智能研究合作者",
-        "summary": "将AI研究助手集成到笔记工具，提供实时协作体验。",
-        "url": "https://medium.com/@vektormemory/we-built-a-real-time-ai-research-collaborator-into-our-jot-writing-tool-3643596ec2e6",
+        "title": "G7 就开源人工智能、开放权重人工智能的共享语言达成一致",
+        "summary": "G7国家就人工智能治理达成初步共识，重点关注开源和开放权重模型。",
+        "url": "https://www.phoronix.com/news/G7-On-Open-Source-AI",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "开源"
       },
       {
         "rank": 2,
+        "title": "Meta 的 AI 支持功能允许 Instagram 帐户被盗",
+        "summary": "Meta AI客服功能存在漏洞，导致Instagram用户账户被盗。",
+        "url": "https://news.ycombinator.com/item?id=48350239",
+        "source": "Hacker News AI",
+        "category": "研究"
+      },
+      {
+        "rank": 3,
         "title": "研究人员让人工智能模型运行模拟社会",
-        "summary": "AI模型被用于模拟社会行为，探索复杂互动。",
+        "summary": "研究人员利用AI模型模拟社会运行，探索复杂社会动态。",
         "url": "https://fortune.com/2026/05/28/ai-model-simulation-claude-chatgpt-grok-gemini/",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
-        "rank": 3,
-        "title": "Headroom会压缩AI代理在到达LLM之前读取的所有内容",
-        "summary": "Headroom技术压缩AI代理处理的信息，提高效率。",
-        "url": "https://pypi.org/project/headroom-ai/",
-        "source": "Hacker News AI",
-        "category": "LLM"
-      },
-      {
         "rank": 4,
-        "title": "Web-AI-SDK 0.5：编写器、重写器、校对器和提示API改进",
-        "summary": "Web-AI-SDK 0.5更新，增强内容生成、改写和提示API。",
-        "url": "https://web-ai-sdk.dev/",
+        "title": "GEDD – 找出您的 AI 代理出错的地方（在您的用户之前）",
+        "summary": "GEDD是一款开源工具，能帮助开发者在用户之前发现AI代理的错误。",
+        "url": "https://github.com/aws-samples/sample-GEDD",
         "source": "Hacker News AI",
-        "category": "LLM"
+        "category": "开源"
       },
       {
         "rank": 5,
         "title": "ChatGPT for Google Sheets 窃取工作簿",
-        "summary": "报告指出ChatGPT for Google Sheets存在安全漏洞，可能窃取工作簿。",
+        "summary": "一款用于Google Sheets的ChatGPT插件被发现存在数据窃取问题。",
         "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
         "source": "Hacker News",
         "category": "LLM"
       },
       {
         "rank": 6,
-        "title": "显示HN：GEDD – 找出您的AI代理出错的地方（在您的用户之前）",
-        "summary": "GEDD开源工具，帮助开发者在用户发现前定位AI代理错误。",
-        "url": "https://github.com/aws-samples/sample-GEDD",
+        "title": "Headroom 会压缩 AI 代理在到达 LLM 之前读取的所有内容",
+        "summary": "Headroom技术能压缩AI代理输入LLM的信息，提高效率。",
+        "url": "https://pypi.org/project/headroom-ai/",
         "source": "Hacker News AI",
-        "category": "开源"
+        "category": "LLM"
       },
       {
         "rank": 7,
-        "title": "尊重使用人工智能的指南",
-        "summary": "提供关于如何负责任地使用人工智能的指导原则。",
-        "url": "https://www.elidedbranches.com/",
+        "title": "Web-AI-SDK 0.5：编写器、重写器、校对器和提示 API 改进",
+        "summary": "Web-AI-SDK 0.5版本在内容生成和API方面进行了多项改进。",
+        "url": "https://web-ai-sdk.dev/",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 8,
-        "title": "沙盒和工作树：我的安全代理AI设置",
-        "summary": "分享关于设置安全代理AI的沙盒和工作树配置。",
-        "url": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+        "title": "AI 坡度是一种选择",
+        "summary": "探讨AI模型在决策中的“坡度”选择问题，引发技术伦理讨论。",
+        "url": "https://building138.com/ai-slop-is-a-choice",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 9,
-        "title": "中国的人工智能抢劫",
-        "summary": "探讨中国在人工智能领域面临的挑战和潜在风险。",
-        "url": "https://www.foreignaffairs.com/china/chinas-ai-heist",
+        "title": "AI编码代理的UI问题",
+        "summary": "讨论AI编程助手在用户界面设计和交互方面存在的挑战。",
+        "url": "https://cate.cero-ai.com/blog/ui-problem-ai-coding-agents",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 10,
-        "title": "授权悖论：谁拥有人工智能的钥匙？",
-        "summary": "讨论人工智能的控制权和所有权问题，即“授权悖论”。",
-        "url": "https://www.youtube.com/watch?v=5UUpxgcGKXk",
+        "title": "尊重使用人工智能的指南",
+        "summary": "发布一份关于如何负责任地使用人工智能的指导性文件。",
+        "url": "https://www.elidedbranches.com/",
         "source": "Hacker News AI",
         "category": "LLM"
       }
@@ -20654,116 +20500,116 @@
     "安全": [
       {
         "rank": 1,
-        "title": "印度考试委员会承认青少年发现网络安全漏洞",
-        "summary": "印度考试机构承认青少年发现了其系统中的网络安全漏洞。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-31/indian-exam-board-fixes-cybersecurity-flaws-found-by-teen",
-        "source": "Bloomberg Tech",
-        "category": "攻防"
-      },
-      {
-        "rank": 2,
         "title": "WP Maps Pro 漏洞被利用在 WordPress 网站上创建管理员帐户",
-        "summary": "WP Maps Pro插件中的漏洞已被利用，允许攻击者创建管理员账户。",
+        "summary": "WP Maps Pro插件的漏洞被利用，允许攻击者在WordPress网站上创建管理员账户。",
         "url": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
-        "rank": 3,
-        "title": "荷兰当局拆除了与 1700 万台受感染设备相关的僵尸网络",
-        "summary": "荷兰警方成功捣毁一个涉及1700万台受感染设备的僵尸网络。",
-        "url": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-        "source": "The Hacker News",
-        "category": "攻防"
-      },
-      {
-        "rank": 4,
+        "rank": 2,
         "title": "Palo Alto GlobalProtect VPN 身份验证绕过漏洞现已在攻击中被利用",
-        "summary": "Palo Alto GlobalProtect VPN中存在的身份验证绕过漏洞已被主动利用。",
+        "summary": "Palo Alto GlobalProtect VPN的身份验证绕过漏洞正被积极利用。",
         "url": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
         "source": "BleepingComputer",
         "category": "漏洞"
       },
       {
-        "rank": 5,
-        "title": "针对关键 Flowise RCE 漏洞发布的利用代码",
-        "summary": "针对Flowise关键远程代码执行(RCE)漏洞的利用代码已被发布。",
-        "url": "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/",
-        "source": "SecurityWeek",
-        "category": "漏洞"
-      },
-      {
-        "rank": 6,
-        "title": "新的 CIFSwitch Linux 漏洞可在多个发行版上获得 root 权限",
-        "summary": "CIFSwitch Linux中发现的新漏洞允许在多个发行版上获得root权限。",
-        "url": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
-        "source": "BleepingComputer",
-        "category": "漏洞"
-      },
-      {
-        "rank": 7,
+        "rank": 3,
         "title": "PAN-OS GlobalProtect 身份验证绕过 (CVE-2026-0257) 正在被积极利用",
-        "summary": "CVE-2026-0257，PAN-OS GlobalProtect的身份验证绕过漏洞，正被积极攻击。",
+        "summary": "PAN-OS GlobalProtect认证绕过漏洞（CVE-2026-0257）已被攻击者利用。",
         "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
         "source": "The Hacker News",
         "category": "漏洞"
       },
       {
-        "rank": 8,
+        "rank": 4,
         "title": "黑客现在使用 ChatGPT 共享链接来传播恶意软件",
-        "summary": "攻击者利用ChatGPT分享链接，以传播恶意软件。",
+        "summary": "攻击者利用ChatGPT生成的链接来传播恶意软件。",
         "url": "https://www.neowin.net/news/hackers-are-now-using-chatgpt-share-links-to-deliver-malware/",
         "source": "Hacker News",
         "category": "攻防"
       },
       {
+        "rank": 5,
+        "title": "ChatGPT 共享链接被滥用来托管虚假中断页面以传播恶意软件",
+        "summary": "ChatGPT生成的链接被用于托管虚假中断页面，以传播恶意软件。",
+        "url": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      },
+      {
+        "rank": 6,
+        "title": "ChatGPhish 漏洞将 ChatGPT Web 摘要变成网络钓鱼界面",
+        "summary": "ChatGPhish漏洞将ChatGPT的网页摘要功能转化为网络钓鱼工具。",
+        "url": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+        "source": "The Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 7,
+        "title": "攻击者在 Marimo CVE-2026-39987 漏洞利用后使用 LLM 代理进行后利用",
+        "summary": "攻击者利用Marimo CVE-2026-39987漏洞后，使用LLM代理进行进一步的攻击。",
+        "url": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
+        "source": "The Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 8,
+        "title": "新 CIFSwitch Linux 漏洞可在多个发行版上获得 root 权限",
+        "summary": "新发现的CIFSwitch Linux漏洞允许在多个发行版上获得root权限。",
+        "url": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
+      },
+      {
         "rank": 9,
-        "title": "随着研究人员威胁再次利用漏洞转储，微软 0day 争端升级",
-        "summary": "微软0day漏洞争端升级，因研究人员威胁再次利用。",
-        "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
-        "source": "Hacker News",
+        "title": "针对关键 Flowise RCE 漏洞发布的利用代码",
+        "summary": "针对Flowise关键远程代码执行(RCE)漏洞的利用代码已被公开。",
+        "url": "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/",
+        "source": "SecurityWeek",
         "category": "漏洞"
       },
       {
         "rank": 10,
-        "title": "ChatGPT 共享链接被滥用来托管虚假中断页面以传播恶意软件",
-        "summary": "ChatGPT分享链接被用于托管虚假中断页面，以传播恶意软件。",
-        "url": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
-        "source": "BleepingComputer",
+        "title": "印度考试委员会承认青少年发现网络安全漏洞",
+        "summary": "印度考试委员会承认青少年发现了其网络安全漏洞。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/indian-exam-board-fixes-cybersecurity-flaws-found-by-teen",
+        "source": "Bloomberg Tech",
         "category": "攻防"
       }
     ],
     "经济": [
       {
         "rank": 1,
+        "title": "SpaceX 将估值下调至 1.8 万亿美元，仍有望实现全球最大规模 IPO",
+        "summary": "SpaceX下调估值至1.8万亿美元，但仍有望成为全球最大IPO。",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-31/spacex-cuts-valuation-to-1-8-trillion-from-2-trillion-video",
+        "source": "Bloomberg Markets",
+        "category": "投融资"
+      },
+      {
+        "rank": 2,
         "title": "SpaceX 首次公开募股迫使华尔街围绕其进行重组",
-        "summary": "SpaceX的IPO计划迫使华尔街进行战略调整。",
+        "summary": "SpaceX的IPO计划迫使华尔街进行相应的调整和重组。",
         "url": "https://www.bloomberg.com/news/features/2026-05-31/spacex-s-ipo-led-by-elon-musk-forces-index-funds-and-retail-to-change-the-rules",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "title": "伯克希尔哈撒韦公司将以 68 亿美元收购泰勒莫里森",
-        "summary": "伯克希尔哈撒韦宣布以68亿美元收购泰勒莫里森。",
+        "summary": "伯克希尔哈撒韦公司将以68亿美元收购房屋建筑商泰勒莫里森。",
         "url": "https://www.bloomberg.com/news/articles/2026-05-31/berkshire-hathaway-to-buy-taylor-morrison-for-6-8-billion",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 3,
-        "title": "墨西哥 Fibra MTY 将以 17 亿美元收购 Fibra Macquarie",
-        "summary": "墨西哥的Fibra MTY计划以17亿美元收购Fibra Macquarie。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-31/mexico-s-fibra-mty-to-buy-fibra-macquarie-in-1-7-billion-deal",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
         "rank": 4,
-        "title": "华尔街风险反弹推动战争僵局过去",
-        "summary": "华尔街风险偏好回升，忽视了地缘政治僵局。",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-31/wall-street-risk-rally-powers-past-war-stalemate-markets-wrap",
-        "source": "Bloomberg Markets",
+        "title": "大公司重新考虑人工智能成本",
+        "summary": "大型企业正在重新评估和控制人工智能的开发和运营成本。",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-31/major-companies-reconsider-ai-costs-video",
+        "source": "Bloomberg Tech",
         "category": "市场"
       },
       {
@@ -20776,41 +20622,41 @@
       },
       {
         "rank": 6,
-        "title": "我的 SpaceX、OpenAI 和 Anthropic 首次公开募股指南 - 包括我真正想购买的",
-        "summary": "为SpaceX、OpenAI和Anthropic的IPO提供了购买指南。",
-        "url": "https://www.cnbc.com/2026/05/31/my-guide-to-the-ipos-of-spacex-openai-and-anthropic-including-the-one-i-really-want-to-buy.html",
-        "source": "CNBC",
+        "title": "美伊停火仍难以实现，油价攀升：市场总结",
+        "summary": "美伊停火前景不明，导致油价上涨。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/oil-climbs-as-us-iran-ceasefire-remains-elusive-markets-wrap",
+        "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 7,
-        "title": "大公司重新考虑人工智能成本",
-        "summary": "大型企业开始重新评估其在人工智能领域的投入成本。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/major-companies-reconsider-ai-costs-video",
-        "source": "Bloomberg Tech",
+        "title": "由于美伊协议的不确定性，油价从六周低点上涨",
+        "summary": "美伊协议的不确定性促使油价从近期低点回升。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/latest-oil-market-news-and-analysis-for-june-1",
+        "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 8,
-        "title": "SpaceX 将估值下调至 1.8 万亿美元，仍有望实现全球最大规模 IPO",
-        "summary": "SpaceX降低估值至1.8万亿美元，但仍是潜在的最大IPO。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/spacex-cuts-valuation-to-1-8-trillion-from-2-trillion-video",
+        "title": "华尔街风险反弹推动战争僵局过去",
+        "summary": "华尔街风险偏好回升，市场对地缘政治僵局的担忧减弱。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/wall-street-risk-rally-powers-past-war-stalemate-markets-wrap",
         "source": "Bloomberg Markets",
-        "category": "投融资"
+        "category": "市场"
       },
       {
         "rank": 9,
-        "title": "尼克斯队决赛前门票价格创下历史新高",
-        "summary": "尼克斯队决赛门票价格达到历史新高。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/knicks-tickets-reach-record-prices-ahead-of-finals-video",
+        "title": "巴西国家石油公司在联邦补贴计划中下调柴油价格",
+        "summary": "巴西国家石油公司在联邦补贴计划下调柴油价格。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/petrobras-cuts-diesel-prices-amid-federal-subsidy-plan",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 10,
-        "title": "深入了解埃博拉疫情爆发中心",
-        "summary": "对埃博拉疫情爆发的中心区域进行深入分析。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/a-look-inside-the-epicenter-of-the-ebola-outbreak-video",
+        "title": "Z 世代将杠铃换成杠铃",
+        "summary": "Z世代的投资行为出现转变，从高风险资产转向更稳健的投资。",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-31/gen-z-swaps-bars-for-barbells-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       }
@@ -20818,81 +20664,81 @@
     "科技": [
       {
         "rank": 1,
-        "title": "太阳能海水淡化新突破使淡水不含有毒盐水",
-        "summary": "一项新的太阳能海水淡化技术能生产不含盐分的淡水。",
-        "url": "https://www.sciencedaily.com/releases/2026/05/260530053418.htm",
+        "title": "为什么 Julia 的 GPU 加速 Ode 求解器比 Jax 和 PyTorch 快 20 倍到 100 倍",
+        "summary": "Julia语言的GPU加速ODE求解器在性能上远超Jax和PyTorch。",
+        "url": "https://www.stochasticlifestyle.com/why-julias-gpu-accelerated-ode-solvers-are-20x-100x-faster-than-jax-and-pytorch/",
         "source": "Hacker News",
-        "category": "互联网"
+        "category": "硬件"
       },
       {
         "rank": 2,
+        "title": "Meta 推出 Instagram、Facebook 和 WhatsApp 订阅",
+        "summary": "Meta推出了Instagram、Facebook和WhatsApp的订阅服务。",
+        "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+        "source": "Hacker News",
+        "category": "软件"
+      },
+      {
+        "rank": 3,
+        "title": "古尔曼重申苹果 iOS 27 聚焦于小修小补，明年 20 周年款 iPhone 预装的 iOS 28 将更有看点",
+        "summary": "苹果iOS 17的更新将侧重小修小补，而iOS 18有望带来重大更新。",
+        "url": "https://www.ithome.com/0/957/904.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 4,
         "title": "微星 Claw 8 EX AI+ 手持设备将于 6 月 23 日上市",
-        "summary": "微星Claw 8 EX AI+手持设备将于6月23日发布。",
+        "summary": "微星Claw 8 EX AI+掌上游戏设备将于6月23日上市。",
         "url": "https://www.engadget.com/2184461/msi-claw-8-ex-ai-handheld-comes-out-on-june-23/",
         "source": "Engadget",
         "category": "互联网"
       },
       {
-        "rank": 3,
-        "title": "Steam Deck 北美涨价24小时内售空",
+        "rank": 5,
+        "title": "Steam Deck 北美涨价 24 小时内售空",
         "summary": "Steam Deck在北美地区涨价后24小时内售罄。",
         "url": "https://arstechnica.com/gaming/2026/05/despite-price-hike-steam-deck-is-already-sold-out-in-north-america/",
         "source": "Hacker News",
         "category": "互联网"
       },
       {
-        "rank": 4,
+        "rank": 6,
         "title": "Twitch 创作者很快就能同时以水平和垂直格式进行直播",
-        "summary": "Twitch将允许创作者同时进行横屏和竖屏直播。",
+        "summary": "Twitch平台将支持创作者同时进行横屏和竖屏直播。",
         "url": "https://www.engadget.com/2184452/twitch-creators-will-soon-be-able-to-stream-in-horizontal-and-vertical-formats-simultaneously/",
         "source": "Engadget",
         "category": "软件"
       },
       {
-        "rank": 5,
+        "rank": 7,
         "title": "据报道，苹果智能眼镜要到 2027 年底才会首次亮相",
-        "summary": "据报道，苹果的智能眼镜产品最早可能在2027年底发布。",
+        "summary": "消息称苹果智能眼镜预计将在2027年底发布。",
         "url": "https://www.engadget.com/2184438/apple-smart-glasses-reportedly-wont-make-their-debut-until-end-of-2027/",
         "source": "Engadget",
         "category": "软件"
       },
       {
-        "rank": 6,
-        "title": "为什么 Julia 的 GPU 加速 Ode 求解器比 Jax 和 PyTorch 快 20 倍到 100 倍",
-        "summary": "分析Julia的GPU加速ODE求解器性能远超Jax和PyTorch的原因。",
-        "url": "https://www.stochasticlifestyle.com/why-julias-gpu-accelerated-ode-solvers-are-20x-100x-faster-than-jax-and-pytorch/",
-        "source": "Hacker News",
-        "category": "硬件"
-      },
-      {
-        "rank": 7,
+        "rank": 8,
         "title": "Show HN：Streambed – 将 Postgres 流式传输到 S3 上的 Iceberg，支持 Postgres Wire",
-        "summary": "Streambed项目展示了将Postgres流式传输到S3上的Iceberg，支持Postgres Wire。",
+        "summary": "Streambed允许将Postgres数据流式传输到S3上的Iceberg，并支持Postgres Wire。",
         "url": "https://github.com/viggy28/streambed",
         "source": "Hacker News",
         "category": "软件"
       },
       {
-        "rank": 8,
-        "title": "Meta 推出 Instagram、Facebook 和 WhatsApp 订阅",
-        "summary": "Meta公司推出了Instagram、Facebook和WhatsApp的订阅服务。",
-        "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
-        "source": "Hacker News",
-        "category": "软件"
-      },
-      {
         "rank": 9,
-        "title": "Deflock 在美国的 ALPR 达到 10 万",
-        "summary": "Deflock在美国的ALPR（自动车牌识别）系统已达10万安装量。",
-        "url": "https://deflock.org/",
+        "title": "100 美元给 Debian 开发者，他可以将新编辑器引入 Trixie",
+        "summary": "一项提议以100美元奖励Debian开发者，将新编辑器集成到Trixie版本。",
+        "url": "https://news.ycombinator.com/item?id=48347180",
         "source": "Hacker News",
-        "category": "软件"
+        "category": "开发"
       },
       {
         "rank": 10,
-        "title": "GrapheneOS的服务器基础设施分析",
-        "summary": "对GrapheneOS的服务器基础设施进行了详细分析。",
-        "url": "https://write.as/hcbg2iz91vzqh",
+        "title": "Deflock 在美国的 ALPR 达到 10 万",
+        "summary": "Deflock的美国ALPR（自动车牌识别）系统已达到10万次记录。",
+        "url": "https://deflock.org/",
         "source": "Hacker News",
         "category": "软件"
       }
@@ -20900,85 +20746,85 @@
     "国际": [
       {
         "rank": 1,
-        "title": "艾琳·布罗科维奇 (Erin Brockovich) 致力于数据中心保密",
-        "summary": "知名环保活动家艾琳·布罗科维奇关注数据中心保密问题。",
-        "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
-        "source": "TechCrunch AI",
-        "category": "研究"
+        "title": "G7 就开源人工智能、开放权重人工智能的共享语言达成一致",
+        "summary": "G7国家在AI治理上达成共识，强调开源和开放权重模型。",
+        "url": "https://www.phoronix.com/news/G7-On-Open-Source-AI",
+        "source": "Hacker News AI",
+        "category": "开源"
       },
       {
         "rank": 2,
-        "title": "官员称，随着制裁的影响，俄罗斯间谍正在积极寻求西方技术",
-        "summary": "据官员称，俄罗斯情报部门正因制裁压力积极寻求西方技术。",
-        "url": "https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/",
-        "source": "SecurityWeek",
-        "category": "攻防"
+        "title": "美伊停火仍难以实现，油价攀升：市场总结",
+        "summary": "美伊停火进展缓慢，市场担忧导致油价上涨。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/oil-climbs-as-us-iran-ceasefire-remains-elusive-markets-wrap",
+        "source": "Bloomberg Markets",
+        "category": "市场"
       },
       {
         "rank": 3,
-        "title": "特鲁多称，随着抗议活动进入第二周，他仍在考虑是否寻求全国性大流行病授权",
-        "summary": "特鲁多总理考虑是否在抗议活动持续第二周时寻求全国性大流行病授权。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/trump-requests-edits-to-iran-deal-video",
+        "title": "由于美伊协议的不确定性，油价从六周低点上涨",
+        "summary": "美伊协议前景不明朗，推高了油价。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/latest-oil-market-news-and-analysis-for-june-1",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 4,
+        "title": "官员称，随着制裁的影响，俄罗斯间谍正在积极寻求西方技术",
+        "summary": "官员表示，受制裁影响，俄罗斯间谍正积极寻求西方技术。",
+        "url": "https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/",
+        "source": "SecurityWeek",
+        "category": "攻防"
+      },
+      {
+        "rank": 5,
         "title": "特朗普要求修改伊朗协议",
-        "summary": "美国前总统特朗普呼吁修改与伊朗达成的协议。",
+        "summary": "特朗普呼吁修改针对伊朗的协议。",
         "url": "https://www.bloomberg.com/news/videos/2026-05-31/trump-requests-edits-to-iran-deal-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "博尔顿谈伊朗：我们会回到起点",
-        "summary": "约翰·博尔顿表示，在伊朗问题上，局势可能回到原点。",
+        "summary": "博尔顿就伊朗局势发表评论，暗示可能重回原点。",
         "url": "https://www.bloomberg.com/news/videos/2026-05-31/bolton-on-iran-we-ll-be-right-back-where-we-started-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 6,
+        "rank": 7,
+        "title": "英国银行仍然缺乏神话访问权限",
+        "summary": "英格兰银行行长表示，英国银行在获取关键信息方面仍存在困难。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-29/bank-of-england-s-bailey-says-uk-banks-still-lack-mythos-access",
+        "source": "Bloomberg Tech",
+        "category": "安全工具"
+      },
+      {
+        "rank": 8,
         "title": "特朗普表示他不“着急”，美国和伊朗仍未达成结束战争的协议",
-        "summary": "特朗普称不“着急”，美伊之间尚未就结束冲突达成协议。",
+        "summary": "特朗普表示不着急，美伊两国在结束冲突的协议上仍无进展。",
         "url": "https://www.cnbc.com/2026/05/31/still-no-deal-to-end-us-iran-war-trump-says-hes-not-in-a-hurry.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
-        "rank": 7,
-        "title": "巴克莱银行前首席执行官 Jes Staley 同意 7 月 23 日接受监督小组关于杰弗里·爱泼斯坦 (Jeffrey Epstein) 的采访",
-        "summary": "巴克莱银行前CEO Jes Staley同意接受关于杰弗里·爱泼斯坦的监督小组采访。",
-        "url": "https://www.cnbc.com/2026/05/31/jes-staley-jeffrey-epstein-interview-house-jpmorgan-chase-barclays.html",
-        "source": "CNBC",
-        "category": "市场"
-      },
-      {
-        "rank": 8,
-        "title": "英国脱欧如何改变了英国、欧洲和西方",
-        "summary": "分析英国脱欧对英国、欧洲及西方世界产生的影响。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/how-britain-europe-and-the-west-were-changed-by-brexit-video",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
         "rank": 9,
-        "title": "乌克兰的无人机战争重新定义了战场动态",
-        "summary": "分析乌克兰无人机战争如何重塑了战场格局。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/ukraine-s-drone-warfare-redefines-battlefield-dynamics-video",
-        "source": "Bloomberg Markets",
-        "category": "加密"
+        "title": "中国的人工智能抢劫",
+        "summary": "文章探讨了中国在人工智能领域可能面临的挑战或“抢劫”问题。",
+        "url": "https://www.foreignaffairs.com/china/chinas-ai-heist",
+        "source": "Hacker News AI",
+        "category": "LLM"
       },
       {
         "rank": 10,
-        "title": "红线依然坚定，伊朗谈判未取得突破",
-        "summary": "关于伊朗的谈判未取得进展，关键分歧依然存在。",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/no-breakthrough-in-iran-talks-as-red-lines-remain-firm-video",
+        "title": "深入了解埃博拉疫情爆发中心",
+        "summary": "对埃博拉疫情爆发的中心地带进行深入调查和分析。",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-31/a-look-inside-the-epicenter-of-the-ebola-outbreak-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       }
     ],
-    "generated_at": "2026-05-31T21:46:45.281028+00:00"
+    "generated_at": "2026-05-31T22:47:03.571336+00:00"
   }
 }
