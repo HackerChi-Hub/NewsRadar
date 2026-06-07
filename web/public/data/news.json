@@ -1,6 +1,440 @@
 {
-  "last_updated": "2026-06-06T23:57:16.694325+00:00",
+  "last_updated": "2026-06-07T02:13:19.600269+00:00",
   "articles": [
+    {
+      "title": "泰坦军团推出“C32A1S+”31.5 英寸曲面显示器：2K 275Hz HVA 面板，1550 元",
+      "url": "https://www.ithome.com/0/961/027.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T02:05:31+00:00",
+      "content": "IT之家 6 月 7 日消息，泰坦军团现已在京东上架一款型号为“C32A1S+”的 31.5 英寸曲面显示器，该机主打 2K 275Hz，定价为 1550 元，部分地区国补后低至 1395 元。该机配备一块 2560x1440 分辨率 275Hz HVA 面板，曲率 1500R，显示器亮度 300 尼特，静态对比度 4000:1，显示器支持 8-Bit 色彩，覆盖 90% DCI-P3、99% sRGB、88% Adobe RGB 色域。该机支架支持俯仰，显示器本体支持 VESA 100x100mm 壁挂，同时带有红色氛围灯，提供了 2 个 HDMI 2.0、1 个 DP 1.4、1 个 3.5mm 音频接口。IT之家附显示器参数：京东泰坦军团“C32A1S+”显示器 1550 元直达链接京东 618 无门槛红包 面额至高 26618 元，每天抽 3 次：点此抽红包淘宝 618 无门槛红包 面额至高 26888 元，每天抽 1 次：点此抽红包",
+      "id": "36dd000aa469869463512417a8f9b9ea",
+      "title_zh": "泰坦军团推出“C32A1S+”31.5 英寸曲面显示器：2K 275Hz HVA 面板，1550 元",
+      "summary_zh": "IT之家 6 月 7 日消息，泰坦军团现已在京东上架一款型号为“C32A1S+”的 31.5 英寸曲面显示器，该机主打 2K 275Hz，定价为 1550 元，部分地区国补后低至 1395 元。该机配备一块 2560x1440 分辨率 275Hz HVA 面板，曲率 1500R，显示器亮度 300 尼特，静态对比度 4000:1，显示器支持 8-Bit 色彩，覆盖 90% DCI-P3、99% s",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.570965+00:00"
+    },
+    {
+      "title": "华为鸿蒙 HarmonyOS API 设备量占比最新数据公布，6.1.0 以下版本合计不足 10%",
+      "url": "https://www.ithome.com/0/961/026.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T02:02:58+00:00",
+      "content": "IT之家 6 月 7 日消息，华为开发者官网更新了存量设备 API 版本使用数量参考，截止 2026 年 6 月 2 日，HarmonyOS 设备各 API 版本使用量占比如下（数据约 15 天进行一次更新，开发者可根据占比来为应用合理定义需要兼容的 API 版本）：API 版本设备量占比6.1.1(24)16.62%6.1.0(23)76.20%6.0.2(22)5.20%6.0.1(21)0.83%6.0.0(20)0.11%5.1.1(19)0.23%5.1.0(18)0.12%5.0.5(17)0.48%5.0.4(16)0.01%5.0.3(15)＜0.01%5.0.2(14)＜0.01%5.0.1(13)0%5.0.0(12)0%从华为官方数据可以看到，HarmonyOS 6.1.0 (23) 设备量占比跌至 76.20%，主要原因是 6.1.1 (24) 的占比升至了 16.62%。值得一提的是，6.1.0 (23) 和 6.1.1 (24) 版本设备量占比达到了 92.82%。这意味着 6.1 以下版本（不含 6.1）的占比已经不足 10%。目前，HarmonyOS 5.X 版本目前设备量占比几近归零，5.1.1 (19) 为其中版本号最高的版本，但占比仅有 0.23%。同时，5.0.0 (12) 和 5.0.1 (13) 版本的设备量占比已降至 0%。作为参考，华为鸿蒙 HarmonyOS 6.1.1 (24) 的 API 版本已于 5 月 26 日迎来 Release，代表 API 24 迎来转正，脱离 Beta 阶段。该版本在 6.1.0 (23) 的基础上，开发能力得到进一步增强：Ability Kit 增强了 AbilityStage 上下文能力以支持动态加载资源；ArkUI 增强了平行视界状态获取、自定义组件跨 Ability 迁移、动态布局容器等能力，新增多个组件的 C API；ArkTS 增强了虚拟机维测能力，支持 taskpool 任务超时设置；ArkWeb 增强了下载任务回调能力，新增 URL 白名单和安全控制接口；Camera Kit 新增延迟预览输出、影随人动能力，同时开放相机基础参数的获取和设置；Audio Kit 新增 MIDI C API 支持外接设备；FAST Kit 新增并发哈希表、向量运算和滤波器功能；Performance Analysis Kit 增强了资源采集和崩溃日志分析能力；新增 Content Embed Kit（内容嵌入服务）和 Enterprise Threat Protection Kit（企业威胁防护服务）等等。",
+      "id": "b1f9d1ed2b48b93ac6ff2f9e843d32bb",
+      "title_zh": "华为鸿蒙 HarmonyOS API 设备量占比最新数据公布，6.1.0 以下版本合计不足 10%",
+      "summary_zh": "IT之家 6 月 7 日消息，华为开发者官网更新了存量设备 API 版本使用数量参考，截止 2026 年 6 月 2 日，HarmonyOS 设备各 API 版本使用量占比如下（数据约 15 天进行一次更新，开发者可根据占比来为应用合理定义需要兼容的 API 版本）：API 版本设备量占比6.1.1(24)16.62%6.1.0(23)76.20%6.0.2(22)5.20%6.0.1(21)0.",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571060+00:00"
+    },
+    {
+      "title": "乘联分会崔东树：2025 年以来全国乘用车行业促销与降级均回归理性",
+      "url": "https://www.ithome.com/0/961/025.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:58:11+00:00",
+      "content": "IT之家 6 月 7 日消息，乘联分会崔东树发文称，2025 年以来全国乘用车行业促销与降级均回归理性，市场秩序明显改善。由于新能源车购税恢复征收，指导价对消费者购车交税影响体现。2026 年 5 月降价规模 20 款，较同期多 7 款。其中纯燃油车型 7 款，较同期多 5 款；插混车型 7 款，较同期多 4 款。燃油车和狭义插混的压力太大，价格调整可以理解。2026 年降价规模 77 款，较同期少 4 款，其中常规燃油车降价 32 款，较同期增 13 款；混合动力燃油车降价 4 款，较同期增加 1 款；插混燃油车降价 16 款，较同期持平；增程式车型降价 3 款，较同期减少 4 款；纯电动车型降价 22 款，较同期减少 14 款。2026 年 5 月份，新能源车新车降价车型均价 21.5 万元的降价力度算术平均达到 2.1 万元，降价力度达到 9.6% 的较高水平。2026 年 1~5 月份，新能源车新车降价车型均价 24.9 万元的降价力度算术平均达到 3.1 万元，降价力度达到 12.5%。2026 年 5 月份，常规燃油车新车降价车型均价 16.6 万元的降价力度算术平均达到 2.5 万元，降价力度达到 14.9%。2026 年 1~5 月份，常规燃油车新车降价车型均价 22.3 万元的降价力度算术平均达到 3.3 万元，降价力度达到 14.6%。2026 年 5 月份，总体乘用车市场新车降价车型均价 20.2 万元的降价力度算术平均达到 2.2 万元，降价幅度达到 10.8%。2026 年 1~5 月份，总体乘用车市场新车降价车型均价 24.1 万元的降价力度算术平均达到 3.2 万元，降价力度达到 13.1%。2026 年 5 月的新能源车的促销下降到 9.8% 的中高位，较同期促销持平，较上月降 1.1%。2026 年 5 月传统燃油车的促销回升到 22.5% 的水平，较上月微增 0.4 个百分点，较同期持平，燃油车促销连续 1 年多维持在 23% 左右。2026 年 5 月豪华车的促销逐步达到 25.2% 的中高位，较上月回升 1.2 个点，较同期下降 0.5 个百分点。2026 年 5 月合资燃油车的促销逐步达到 22.3% 的低位，较上月下降 0.1 个点，较同期少 0.2 个百分点。2026 年 5 月自主燃油车的促销逐步达到 18.8% 的中高位，较同期增加 1 个百分点。",
+      "id": "84564ad7b75d494616ef488939c1446a",
+      "title_zh": "乘联分会崔东树：2025 年以来全国乘用车行业促销与降级均回归理性",
+      "summary_zh": "IT之家 6 月 7 日消息，乘联分会崔东树发文称，2025 年以来全国乘用车行业促销与降级均回归理性，市场秩序明显改善。由于新能源车购税恢复征收，指导价对消费者购车交税影响体现。2026 年 5 月降价规模 20 款，较同期多 7 款。其中纯燃油车型 7 款，较同期多 5 款；插混车型 7 款，较同期多 4 款。燃油车和狭义插混的压力太大，价格调整可以理解。2026 年降价规模 77 款，较同期",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571143+00:00"
+    },
+    {
+      "title": "ASML CEO 富凯：欧盟不应该干预企业战略项目",
+      "url": "https://www.ithome.com/0/961/024.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:52:32+00:00",
+      "content": "IT之家 6 月 7 日消息，欧洲顶尖科技企业阿斯麦（ASML）首席执行官于当地时间本周五表态，对欧盟委员会本周为提升欧洲科技自主能力提出的大部分提案表示认可，但同时提醒，欧盟不宜插手指导或监管可获得国家补贴的战略性项目。克里斯托弗 · 富凯在领英发文称，这类项目“本质上需要贴合行业实际需求”，交由企业自主提出会更为妥当。他表示：“我们要避免流程过度繁琐、官僚主义滋生，同时充分发挥私营领域的专业能力。”IT之家注意到，这份政策方案是欧盟为缩小与美、亚地区科技差距推出的核心举措，而富凯也是欧洲业界首位对此公开发声的高层人士之一。该方案出台多项举措，旨在拉动欧洲本土芯片与本土云服务的市场需求。富凯认为，欧盟委员会如今转向以需求为导向的政策思路，是一项积极转变。",
+      "id": "5797294edb6e5a4c5398cc28e67035de",
+      "title_zh": "ASML CEO 富凯：欧盟不应该干预企业战略项目",
+      "summary_zh": "IT之家 6 月 7 日消息，欧洲顶尖科技企业阿斯麦（ASML）首席执行官于当地时间本周五表态，对欧盟委员会本周为提升欧洲科技自主能力提出的大部分提案表示认可，但同时提醒，欧盟不宜插手指导或监管可获得国家补贴的战略性项目。克里斯托弗 · 富凯在领英发文称，这类项目“本质上需要贴合行业实际需求”，交由企业自主提出会更为妥当。他表示：“我们要避免流程过度繁琐、官僚主义滋生，同时充分发挥私营领域的专业能",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571185+00:00"
+    },
+    {
+      "title": "国际空间站俄舱段维修，专家称漏气问题加剧但仍安全",
+      "url": "https://www.ithome.com/0/961/023.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:45:02+00:00",
+      "content": "IT之家 6 月 7 日消息，据央视新闻今日报道，由于国际空间站空气泄漏问题加剧，两名俄罗斯宇航员在 5 日展开维修行动。与此同时，另外 5 名宇航员一度进入“龙”飞船避险。而在维修行动停止后，避险宇航员又重新回到国际空间站。专家表示，这是出于谨慎考虑，以前也进行过类似的操作。英国科学博物馆航天部主管利比 · 杰克逊介绍，这种情况以前也发生过。当太空碎片接近空间站，达到令人不安的距离时，宇航员们也曾经进入过附近的飞船。所以这一切都是出于万无一失的考虑。据了解，国际空间站的漏气问题最早可以追溯到 2019 年，之后多年来一直存在，漏气的程度时高时低。在过去几个月里，针对这处长期存在漏气问题的舱段，美俄双方一直就漏气的原因和维修方案展开争论。专家表示，尽管空气泄漏加剧，但是空间站目前仍然是安全的。利比 · 杰克逊表示，国际空间站俄罗斯舱段“星辰”号服务舱内发生的泄漏是非常缓慢的。它已经存在了一段时间，最近恶化了，但还没有到危及空间站的程度。显然俄方正在关注它，看看能如何改善情况。空间站的部分舱段已经运行了接近 30 年，正在接近其生命周期的终点。我们预计，在 2030 年前，下一代商业空间站将能开始运行。据IT之家此前报道，NASA 于美东时间周五上午 9 时 04 分下令国际空间站上五名宇航员穿戴航天服进入停靠在站上的 SpaceX 载人龙飞船内避险，以应对俄罗斯舱段持续加剧的空气泄漏问题。约两小时后，随着俄方暂停维修作业，NASA 解除了这一安全避难指令，宇航员返回站内恢复计划内工作。NASA 发言人贝瑟尼 · 史蒂文斯证实，接到指令的五人包括 Crew-12 任务组的四名宇航员 ——NASA 宇航员杰西卡 · 梅尔和杰克 · 哈撒韦、欧空局宇航员索菲 · 阿德诺以及俄罗斯国家航天集团宇航员安德烈 · 费佳耶夫，另有一名美国宇航员也一同进入龙飞船。此次泄漏发生在俄罗斯星辰号服务舱的过渡舱段。一位不愿具名的 NASA 高级官员透露，近几个月来该舱段的空气泄漏量一直维持在相对较低水平，但周五当天突然翻倍。",
+      "id": "7e075b1d87c367e08f7063731f7b9ffc",
+      "title_zh": "国际空间站俄舱段维修，专家称漏气问题加剧但仍安全",
+      "summary_zh": "IT之家 6 月 7 日消息，据央视新闻今日报道，由于国际空间站空气泄漏问题加剧，两名俄罗斯宇航员在 5 日展开维修行动。与此同时，另外 5 名宇航员一度进入“龙”飞船避险。而在维修行动停止后，避险宇航员又重新回到国际空间站。专家表示，这是出于谨慎考虑，以前也进行过类似的操作。英国科学博物馆航天部主管利比 · 杰克逊介绍，这种情况以前也发生过。当太空碎片接近空间站，达到令人不安的距离时，宇航员们也",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571258+00:00"
+    },
+    {
+      "title": "机械师“MZQ27F540E”27 英寸显示器发售：2K 540Hz/720P 720Hz 双模 WOLED，4799 元",
+      "url": "https://www.ithome.com/0/961/022.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:44:08+00:00",
+      "content": "IT之家 6 月 7 日消息，机械师旗下型号为“MZQ27F540E”的 27 英寸显示器现已在京东发售，该机主打 2K 540Hz/720P 720Hz 双模，定价为 4799 元。京东机械师“MZQ27F540E”27 英寸显示器 4799 元直达链接该机配备的 LG WOLED 面板支持以 2560x1440 分辨率 540Hz 或 1280x720 分辨率 720Hz 显示，其 GtG 响应速度 0.02ms，亮度 1500 尼特，显示器支持原生 10-Bit 色彩，覆盖 99.5% DCI-P3 色域。该机支架支持升降 / 倾斜 / 旋转，显示器本体支持 VESA 75x75mm 壁挂，提供 2 个 HDMI 2.1、1 个 DP 1.4、1 个 USB-C、1 个 3.5mm 音频接口。IT之家附显示器参数：京东 618 无门槛红包 面额至高 26618 元，每天抽 3 次：点此抽红包淘宝 618 无门槛红包 面额至高 26888 元，每天抽 1 次：点此抽红包",
+      "id": "85cf61f1cf4d11acc5450196aa9ee6b3",
+      "title_zh": "机械师“MZQ27F540E”27 英寸显示器发售：2K 540Hz/720P 720Hz 双模 WOLED，4799 元",
+      "summary_zh": "IT之家 6 月 7 日消息，机械师旗下型号为“MZQ27F540E”的 27 英寸显示器现已在京东发售，该机主打 2K 540Hz/720P 720Hz 双模，定价为 4799 元。京东机械师“MZQ27F540E”27 英寸显示器 4799 元直达链接该机配备的 LG WOLED 面板支持以 2560x1440 分辨率 540Hz 或 1280x720 分辨率 720Hz 显示，其 GtG 响",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571314+00:00"
+    },
+    {
+      "title": "智界郭锐透露 V9 超 80% 用户选择 Ultra 高阶版，称首批交付仪式是智界 2.0 时代重要里程碑",
+      "url": "https://www.ithome.com/0/961/021.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:42:36+00:00",
+      "content": "IT之家 6 月 7 日消息，鸿蒙智行首款旗舰 MPV —— 智界 V9 已于昨日开启全国首批交付仪式。据官方透露，这款 MPV 上市 21 天，大定订单突破 18000 台。智界汽车董事长兼首席执行官郭锐昨日发文谈及了此次交付。他透露，智界 V9 超 80% 用户选择 Ultra 高阶版本。通过大定 18000 台的数据进行估算，智界 V9 约有 14400 名用户购买了 Ultra 高阶版本，而 Ultra 版本的起售价为 45.98 万元。智界 V9 Max：38.98 万元智界 V9 Max+：42.98 万元智界 V9 Ultra：45.98 万元智界 V9 Ultra+：51.98 万元郭锐还提及了“智界 2.0”。他称此次交付也是智界 2.0 时代的重要里程碑。参考IT之家此前报道，去年 8 月，奇瑞汽车与华为在深圳进行了智界品牌战略 2.0 合作协议签约。随后，智界汽车官方微博发文宣布：智界品牌正式进入 2.0 阶段。全国首家鸿蒙智行智界用户中心・武汉白沙洲大道店也于去年 9 月揭幕。据介绍，智界进入 2.0 时代后，将打造“智界的三个‘专属’”，首先是设立专属智界双设计中心；其次是建立专属智界双研发中心；第三是建立专属智界用户中心。回顾智界 V9，该车于 5 月 15 日上市，售价区间 38.98 万-51.98 万元，尺寸为 5359×2009×1879mm、轴距达 3250mm，拥有辉光紫、雪域白、深海蓝、鎏金黑四款外观配色，以及绒霞紫、韶华杏、赤茶橘三款内饰配色。新车全系标配 38 个传感器，是行业首款搭载 896 线激光雷达的 MPV。座舱方面，智界 V9 车内配备 12.3 英寸液晶仪表盘、双 17.2 英寸智能中控大屏以及 21.4 英寸吸顶屏，首发全域 NFC 座座皆可碰功能。新车 4 块智能隐私光幕玻璃支持毫秒级响应，开启后遮光率≥99.6%；一键隐私模式启动后，位置信息、麦克风、摄像头、网络等全面隔绝；全车采用静音设计，支持全维主动降噪 RNC。",
+      "id": "aed1d563e9e7b667bad2c7d998f8815c",
+      "title_zh": "智界郭锐透露 V9 超 80% 用户选择 Ultra 高阶版，称首批交付仪式是智界 2.0 时代重要里程碑",
+      "summary_zh": "IT之家 6 月 7 日消息，鸿蒙智行首款旗舰 MPV —— 智界 V9 已于昨日开启全国首批交付仪式。据官方透露，这款 MPV 上市 21 天，大定订单突破 18000 台。智界汽车董事长兼首席执行官郭锐昨日发文谈及了此次交付。他透露，智界 V9 超 80% 用户选择 Ultra 高阶版本。通过大定 18000 台的数据进行估算，智界 V9 约有 14400 名用户购买了 Ultra 高阶版本，",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571392+00:00"
+    },
+    {
+      "title": "米哈游主力游戏《绝区零》6 月 17 日登陆 Steam 但锁国区，3.0 版本“某个梦游者的自白”同步上线",
+      "url": "https://www.ithome.com/0/961/020.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:40:49+00:00",
+      "content": "IT之家 6 月 7 日消息，米哈游旗下都市幻想 ARPG《绝区零》的 Steam 商店页面显示，本作将于 6 月 17 日正式登陆 Steam 平台，该作的发行商为“COGNOSPHERE PTE. LTD.”，产品处于“锁国区”状态，主要是给海外玩家游玩。在此之前，《崩坏 3》于 2021 年 11 月 4 日在 Steam 上架，而《原神》《崩坏：星穹铁道》暂未在 Steam 平台上架，目前主要通过官网、Epic Games Store 或第三方平台进行游玩。另参考IT之家先前报道，米哈游在 6 月 6 日《绝区零》3.0 版本“某个梦游者的自白”将于 6 月 17 日上线，同步支持 NVIDIA DLSS 帧生成与光线追踪技术，登录可领 1600 菲林，免费赠送主角代理人「佩洛伊斯」、专属音擎及其影画，以及全新主角时装 &amp; 配饰。",
+      "id": "28c59c99dc68f1b712ddb40bc0f0c9a0",
+      "title_zh": "米哈游主力游戏《绝区零》6 月 17 日登陆 Steam 但锁国区，3.0 版本“某个梦游者的自白”同步上线",
+      "summary_zh": "IT之家 6 月 7 日消息，米哈游旗下都市幻想 ARPG《绝区零》的 Steam 商店页面显示，本作将于 6 月 17 日正式登陆 Steam 平台，该作的发行商为“COGNOSPHERE PTE. LTD.”，产品处于“锁国区”状态，主要是给海外玩家游玩。在此之前，《崩坏 3》于 2021 年 11 月 4 日在 Steam 上架，而《原神》《崩坏：星穹铁道》暂未在 Steam 平台上架，目前",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571442+00:00"
+    },
+    {
+      "title": "韩国劳动部长呼吁科技巨头分享 AI 超额利润，以缩小社会贫富差距",
+      "url": "https://www.ithome.com/0/961/019.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:40:25+00:00",
+      "content": "IT之家 6 月 7 日消息，据路透社报道，韩国劳动部长呼吁本国各大科技企业分享巨额意外利润，并警告称，人工智能热潮带动芯片行业迎来空前盈利，可能会进一步加剧社会贫富差距。韩国劳动部长金英勋（Kim Young-hoon）在接受采访时表示，三星电子等业绩远超盈利目标的企业，在依法纳税后，应当考虑将超额收益分给供应商、分包商以及全体员工，毕竟这些群体都为企业发展作出了贡献。他提出，韩国政府、企业、工会和供应商应开展公开对话，探讨如何分配这类超额利润，缩小大型财阀与中小供应商之间的差距。金英勋曾是劳工活动人士，由韩国左翼总统李在明任命出任现职。此前三星与工会谈判陷入僵局、大规模罢工一触即发之际，他出面斡旋促成薪酬协议，不仅成功避免罢工发生，还为存储芯片部门员工争取到了高额奖金。此番采访是他促成三星劳资协议后，首次接受境外媒体采访。其提出的利润分配方案，也反映出韩国高层政策制定者当下的思路：面对全球人工智能浪潮为本国带来的巨额红利，他们正在考量一系列非常规应对举措。“我们应当通过社会对话，建立全新的收益分配规则。”金英勋说道，“三星能取得如今的亮眼成绩，离不开劳资双方的共同付出，这一点毋庸置疑。但与此同时，为其配套的供应商多达 1700 家，当地社区也持续提供水电等基础保障，同样功不可没。”受人工智能应用普及拉动，存储芯片需求激增，三星及同业企业 SK 海力士的利润随之大幅飙升。三星已作出承诺：若 2026 至 2028 财年期间年营业利润突破 200 万亿韩元（IT之家注：现汇率约合 8838 亿元人民币），将向全体员工发放特别奖金。金英勋早在五月下旬就率先提议，就企业超额利润的处置问题开展公开讨论，后续还表示计划就此举办专题论坛。此次接受路透社采访，他首次详细阐释了超额利润的界定以及分配思路，其中就包括上调供应商合作价格等方案。不过，韩国在野保守派国民力量党对其提出批评，称该主张是危险的国家干预行为，会动摇自由市场经济的根基。韩国总统府暂未就此报道作出回应。此前府方曾表示，金英勋的言论提出了值得全国探讨的重要议题，并乐见各界展开讨论。上月，韩国一名高层官员也曾提议，将人工智能产业利润带来的额外税收以“全民分红”的形式发放给民众。针对国民力量党称其提案等同于“推行平均主义”的指责，金英勋予以驳斥。他表示，该方案本质是对供应链进行再投资，既能提升产业竞争力，也有助于韩国破解经济低速增长的困境。“我所说的收益分配，是把利润分享给合作供应商，这本质上就是产业再投资。”他解释道。他认为，调整与供应商的合作定价，可以纳入讨论范畴。此外，超额利润还可用于培养中小供应商的专业人才。受薪资、福利等差距影响，韩国求职者大多倾向于进入三星这类大型财阀企业，而非中小型公司。随着人工智能红利让大企业员工拿到高额绩效奖金，两类企业间的人才鸿沟还会进一步拉大。“这一现状令人担忧。”金英勋说道。韩国官方数据显示，今年第一季度，该国收入水平前 20% 与后 20% 家庭的贫富差距，创下六年以来最大增幅。金英勋直言，贫富分化加剧，将会拖累这个亚洲第四大经济体的增长步伐。韩国劳动部长直接介入企业与工会谈判，这种情况并不多见。金英勋介绍，当时三星劳资双方谈判屡次破裂，一场为期 18 天的罢工蓄势待发，一旦爆发，将对韩国经济和股市造成严重冲击。应三星管理层与工会双方请求，他才出面调停。他补充道，三星长期奉行无工会制度，劳资双方都缺乏谈判经验；同时，如何在企业内部各大利益相关方之间分配这笔前所未有的巨额利润，也是一大难题。“我向李在明总统表示，我会利用自己常年从事劳工运动的资历，搭建沟通桥梁。”分析人士认为，此次三星劳资协议达成，可能会鼓舞其他企业的工会，推动其纷纷要求提高薪酬待遇。金英勋表示，自己无意介入每一场劳资谈判，因此他认为韩国需要建立一套常态化机制，为今后企业与工会的协商提供支撑。眼下三星仍面临不少难题。金英勋称，公司内部因存储芯片部门与非存储芯片部门薪资差距过大，不满情绪滋生，甚至可能导致部分晶圆厂员工离职。“当然，必须对短期业绩给予奖励。”他说，“但企业也必须着眼中长期，加大投入、留住并激励核心战略人才。”",
+      "id": "0c66a923bb0b9233280710f5579ea931",
+      "title_zh": "韩国劳动部长呼吁科技巨头分享 AI 超额利润，以缩小社会贫富差距",
+      "summary_zh": "IT之家 6 月 7 日消息，据路透社报道，韩国劳动部长呼吁本国各大科技企业分享巨额意外利润，并警告称，人工智能热潮带动芯片行业迎来空前盈利，可能会进一步加剧社会贫富差距。韩国劳动部长金英勋（Kim Young-hoon）在接受采访时表示，三星电子等业绩远超盈利目标的企业，在依法纳税后，应当考虑将超额收益分给供应商、分包商以及全体员工，毕竟这些群体都为企业发展作出了贡献。他提出，韩国政府、企业、工",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571571+00:00"
+    },
+    {
+      "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+      "url": "https://arxiv.org/abs/2601.14470",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-06-07T01:37:11+00:00",
+      "content": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering. Score: 4, Comments: 0",
+      "id": "39eea90dbdc29a33debf6955e38e9f0c",
+      "title_zh": "代币经济学：量化代币在代理软件工程中的使用情况",
+      "summary_zh": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering. Score: 4, Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572592+00:00"
+    },
+    {
+      "title": "漫步者 HECATE G3 MAX 头戴式耳机磁吸底座版本发售，首发价 373.5 元",
+      "url": "https://www.ithome.com/0/961/018.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:33:06+00:00",
+      "content": "IT之家 6 月 7 日消息，漫步者旗下 HECATE G3 MAX 头戴式耳机新增的磁吸底座版本目前已在京东发售，定价为 499 元，首发价 373.5 元。京东漫步者 HECATE G3 MAX 底座版 373.5 元直达链接该版本耳机可选星际黑、机甲白、复古军绿、青光粉四种配色，其配备同色系 RGB 灯效磁吸充电底座，支持放下即充。该耳机本体重量 280g，使用人体工程学头梁，耳罩部分支持 90 度转动，采用 53mm 动圈单元，支持 THX 空间音效、预设多种 EQ 调音，同时搭载 Flash Speed 传输技术。耳机内置 2000mAh 电池，至高提供 227 小时续航。IT之家附产品参数：京东 618 无门槛红包 面额至高 26618 元，每天抽 3 次：点此抽红包淘宝 618 无门槛红包 面额至高 26888 元，每天抽 1 次：点此抽红包",
+      "id": "3b1ee540c36465504698970244194bfd",
+      "title_zh": "漫步者 HECATE G3 MAX 头戴式耳机磁吸底座版本发售，首发价 373.5 元",
+      "summary_zh": "IT之家 6 月 7 日消息，漫步者旗下 HECATE G3 MAX 头戴式耳机新增的磁吸底座版本目前已在京东发售，定价为 499 元，首发价 373.5 元。京东漫步者 HECATE G3 MAX 底座版 373.5 元直达链接该版本耳机可选星际黑、机甲白、复古军绿、青光粉四种配色，其配备同色系 RGB 灯效磁吸充电底座，支持放下即充。该耳机本体重量 280g，使用人体工程学头梁，耳罩部分支持",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571620+00:00"
+    },
+    {
+      "title": "卡普空《生化危机：代号维罗妮卡》重制版支持中文配音，Steam 页面公开",
+      "url": "https://www.ithome.com/0/961/017.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:31:18+00:00",
+      "content": "IT之家 6 月 7 日消息，2026 夏日游戏节（Summer Game Fest）昨日举行，卡普空正式公布《生化危机：代号维罗妮卡》重制版，定档 2027 年发售。IT之家注意到，这款新作已经在 Steam 平台上架，确认支持中文配音、界面、字幕。据介绍，该作是以 2000 年推出的《生化危机：代号维罗妮卡》为蓝本打造的完全重制作品。该作在保留原作精髓的同时，带来了现代化的操作手感、重新构筑的剧情演出，以及全面进化的画面表现。这份疯狂与阴谋交织、爱意与憎恨纠缠的生存恐怖作品，于 2027 年获得重生。与里昂 ·S· 肯尼迪、雪莉 · 柏金一同幸存下来的克莱尔 · 雷德菲尔德，为了寻找兄长克里斯 · 雷德菲尔德，踏上了前往法国的旅程。然而等待她的并非兄妹重逢，而是引发浣熊市事件的幕后元凶 —— 保护伞公司的特殊部队。克莱尔被俘，并被带往一座与世隔绝的孤岛 —— 岩堡岛。如今，这座岛屿早已因生物灾难沦为人间炼狱。克莱尔孤注一掷的逃亡，就此开始。《生化危机》系列游戏诞生于 1996 年，距今已有三十载。期间贯穿多个主机世代，长期保持极高影响力。卡普空 2026 财年财报显示，《生化危机》系列游戏销量已突破 2 亿份，系列最新作《生化危机：安魂曲》表现强劲，成为突破门槛重要推手。",
+      "id": "8c9b40df8f9c0d70b17dafc0d27b0f82",
+      "title_zh": "卡普空《生化危机：代号维罗妮卡》重制版支持中文配音，Steam 页面公开",
+      "summary_zh": "IT之家 6 月 7 日消息，2026 夏日游戏节（Summer Game Fest）昨日举行，卡普空正式公布《生化危机：代号维罗妮卡》重制版，定档 2027 年发售。IT之家注意到，这款新作已经在 Steam 平台上架，确认支持中文配音、界面、字幕。据介绍，该作是以 2000 年推出的《生化危机：代号维罗妮卡》为蓝本打造的完全重制作品。该作在保留原作精髓的同时，带来了现代化的操作手感、重新构筑的",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571676+00:00"
+    },
+    {
+      "title": "神舟战神 P7R9 台式机发售：R7 9850X3D + 32G + 1T + RTX5070 售 17999 元",
+      "url": "https://www.ithome.com/0/961/015.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:25:50+00:00",
+      "content": "IT之家 6 月 7 日消息，神舟现已在京东上架一款战神 P7R9 台式机，该机采用“锐龙 7 9850X3D + 32GB RAM + 1TB SSD + RTX5070”规格，定价为 17999 元。该机采用侧透机箱，整体尺寸为 434 x 205 x 420mm，主板配有显示屏，能够自由配置显示内容。机箱整体采用电竞机甲风格造型，正面配备了大面积网孔，辅以 RGB 风扇，顶部提供了 2 个 USB-A 3.2 Gen 1 接口、2 个 USB-A 2.0 接口、2 个 3.5mm 音频接口。该机搭载 8 核心 16 线程 AMD 锐龙 7 9850X3D 处理器，配备 32GB DDR5 5600MHz RAM 和 1TB M.2 SSD，搭载 RTX5070 显卡，辅以 240 水冷散热，支持 Wi-Fi 7 和蓝牙 5.4，不过官方未提及具体电源功率。IT之家附台式机参数：京东神舟 战神 P7R9 17999 元直达链接京东 618 无门槛红包 面额至高 26618 元，每天抽 3 次：点此抽红包淘宝 618 无门槛红包 面额至高 26888 元，每天抽 1 次：点此抽红包",
+      "id": "16c3bcccc4358ca305d8ce924cc1cdd2",
+      "title_zh": "神舟战神 P7R9 台式机发售：R7 9850X3D + 32G + 1T + RTX5070 售 17999 元",
+      "summary_zh": "IT之家 6 月 7 日消息，神舟现已在京东上架一款战神 P7R9 台式机，该机采用“锐龙 7 9850X3D + 32GB RAM + 1TB SSD + RTX5070”规格，定价为 17999 元。该机采用侧透机箱，整体尺寸为 434 x 205 x 420mm，主板配有显示屏，能够自由配置显示内容。机箱整体采用电竞机甲风格造型，正面配备了大面积网孔，辅以 RGB 风扇，顶部提供了 2 个",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571733+00:00"
+    },
+    {
+      "title": "Ask HN: Where do you get the latest updates about AI?",
+      "url": "https://news.ycombinator.com/item?id=48430864",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-06-07T01:24:55+00:00",
+      "content": "Besides hacker news, of course.\n\nComments URL: https://news.ycombinator.com/item?id=48430864\nPoints: 2\n# Comments: 1",
+      "id": "070af40b136eca10d2ff3e1f3c4d4dc9",
+      "title_zh": "问 HN：您从哪里获得有关人工智能的最新动态？",
+      "summary_zh": "Besides hacker news, of course. Comments URL: https://news.ycombinator.com/item?id=48430864 Points: 2 # Comments: 1",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.573570+00:00"
+    },
+    {
+      "title": "An Ohio Valley 100k-Watt FM Signal Is Severed in Broad Daylight – Radio World",
+      "url": "https://www.radioworld.com/news-and-business/headlines/an-ohio-valley-100000-watt-fm-signal-is-severed-in-broad-daylight",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-06-07T01:24:15+00:00",
+      "content": "An Ohio Valley 100k-Watt FM Signal Is Severed in Broad Daylight – Radio World. Score: 10, Comments: 0",
+      "id": "9c1a5964119af3180058e571ca3d7c82",
+      "title_zh": "俄亥俄谷 10 万瓦 FM 信号光天化日之下被切断 – 广播世界",
+      "summary_zh": "An Ohio Valley 100k-Watt FM Signal Is Severed in Broad Daylight – Radio World. Score: 10, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572445+00:00"
+    },
+    {
+      "title": "美国全面推进 AI 军事应用，特朗普要求 90 天内修订自主武器规则",
+      "url": "https://www.ithome.com/0/961/014.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:18:44+00:00",
+      "content": "IT之家 6 月 7 日消息，据路透社报道，美国政府当地时间周五表示，将加快人工智能在国家安全领域的研发与应用，同时强调该技术不得用于非法监控活动。IT之家注意到，美国政府本周早些时候称，鉴于华盛顿方面对新型强大人工智能系统的安全担忧日益加剧，将要求头部人工智能开发商在向公众发布其最高性能模型前，自愿提交给政府开展网络安全测试。特朗普在一份国家安全备忘录中写道：“在本届政府的领导下，美国能够也必将本着美国价值观，负责任地加快人工智能在情报与作战领域的应用。”特朗普指示美国国防部长皮特 · 赫格塞斯在 90 天内，修订现有关于武器系统自主性的指令，“确保审慎采用尊重指挥链的人工智能系统”。特朗普补充道，国家安全部门不得开发或使用人工智能技术来“审查言论自由…… 或开展未经授权的非法监控活动”。白宫科学和技术政策办公室主任迈克尔 · 克拉特西斯在社交媒体发帖称，这份备忘录“推动采用多家供应商的人工智能技术，以避免出现单一故障点；更新国防部关于自主武器系统的指导方针，紧跟前沿技术发展；确保未经事先批准，任何实体都无法禁用或削弱我方作战人员所依赖的人工智能系统”。该备忘录发布之际，正值人工智能实验室 Anthropic 与五角大楼发生冲突。今年 3 月，五角大楼正式将 Anthropic 列为供应链风险实体。此前，该公司拒绝解除对其 Claude 人工智能模型的两项禁令 —— 禁止该模型用于自主武器系统及美国国内大规模监控。五角大楼方面则表示，只要符合美国法律，军方有权根据需要使用这项技术。据路透社报道，这一认定是本届政府对一家美国科技企业的罕见公开斥责。此前，五角大楼一直依赖该公司支持包括伊朗行动在内的军事任务。相关阅读：《特朗普签署行政令：AI 模型在上线前可提交给政府进行安全评估》",
+      "id": "911e51aed46d2ca92037bfee80c4f0e5",
+      "title_zh": "美国全面推进 AI 军事应用，特朗普要求 90 天内修订自主武器规则",
+      "summary_zh": "IT之家 6 月 7 日消息，据路透社报道，美国政府当地时间周五表示，将加快人工智能在国家安全领域的研发与应用，同时强调该技术不得用于非法监控活动。IT之家注意到，美国政府本周早些时候称，鉴于华盛顿方面对新型强大人工智能系统的安全担忧日益加剧，将要求头部人工智能开发商在向公众发布其最高性能模型前，自愿提交给政府开展网络安全测试。特朗普在一份国家安全备忘录中写道：“在本届政府的领导下，美国能够也必将",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571798+00:00"
+    },
+    {
+      "title": "When Can Amazon Block an Agentic AI Service?–Amazon vs. Perplexity",
+      "url": "https://blog.ericgoldman.org/archives/2026/06/when-can-amazon-block-an-agentic-ai-service-amazon-v-perplexity-guest-blog-post.htm",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-06-07T01:17:47+00:00",
+      "content": "Article URL: https://blog.ericgoldman.org/archives/2026/06/when-can-amazon-block-an-agentic-ai-service-amazon-v-perplexity-guest-blog-post.htm\nComments URL: https://news.ycombinator.com/item?id=48430822\nPoints: 3\n# Comments: 0",
+      "id": "b3056cf8bc9828c1318f7a14991e13ef",
+      "title_zh": "亚马逊何时可以阻止代理人工智能服务？——亚马逊 vs. Perplexity",
+      "summary_zh": "Article URL: https://blog.ericgoldman.org/archives/2026/06/when-can-amazon-block-an-agentic-ai-service-amazon-v-perplexity-guest-blog-post.htm Comments URL: https://news.ycombinator.com/item?id=484308",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.573651+00:00"
+    },
+    {
+      "title": "网易单机游戏《归唐》公布 19 分钟完整实机演示，展现安史之乱后“无名英雄”的归唐路",
+      "url": "https://www.ithome.com/0/961/013.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T01:06:59+00:00",
+      "content": "IT之家 6 月 7 日消息，继昨日公布全新预告片之后，网易旗下游戏《归唐》今日带来了 19 分钟完整实机演示。 官方提示，该游戏片段发生在流程早期，由开发团队操作录制。目前作品仍在开发中，视频内容不代表实际上线品质。该作是由网易雷火旗下 24 工作室出品的叙事型单机动作冒险游戏，在游戏中，玩家成为送信者中的一员，扮演“无名英雄”，可为石匠、农夫、僧侣，可为老者、壮士、孩童，踏入漫天黄沙，拯救河西、回归大唐。IT之家附游戏介绍：安史之乱后，中土破碎，河西沦丧，沙州在血色统治中蜷伏六十余载。直到公元 848 年，不堪压迫的义士们奋起挥干戈，将沙州光复。为将捷报告知长安，十队信使毅然东行。他们将穿越血腥残忍的人间炼狱，踏过戈壁，翻越冰川，与沙暴、朔风、暴雪共舞，以血肉铺就三千里归唐绝路 —— 此去非为生还，只为在黑暗里点燃希望的星火。十队信使，他们或为石匠、农夫、僧侣，或为老者、壮士、孩童。他们未曾留名青史，却以凡人之躯筑起黄沙中的最后一缕忠魂。玩家将成为送信者中的一员，踏入漫天黄沙，拯救河西、回归大唐。",
+      "id": "49d0e4e5a979a67c329ae7196f305002",
+      "title_zh": "网易单机游戏《归唐》公布 19 分钟完整实机演示，展现安史之乱后“无名英雄”的归唐路",
+      "summary_zh": "IT之家 6 月 7 日消息，继昨日公布全新预告片之后，网易旗下游戏《归唐》今日带来了 19 分钟完整实机演示。 官方提示，该游戏片段发生在流程早期，由开发团队操作录制。目前作品仍在开发中，视频内容不代表实际上线品质。该作是由网易雷火旗下 24 工作室出品的叙事型单机动作冒险游戏，在游戏中，玩家成为送信者中的一员，扮演“无名英雄”，可为石匠、农夫、僧侣，可为老者、壮士、孩童，踏入漫天黄沙，拯救河西",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571848+00:00"
+    },
+    {
+      "title": "红魔姜超谈新品 PAD：目前内部还没定具体发布日期，但本月上市目标没有变",
+      "url": "https://www.ithome.com/0/961/012.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T00:58:30+00:00",
+      "content": "IT之家 6 月 7 日消息，红魔游戏手机产品总经理姜超昨日发文谈及了新品 PAD 以及和平精英封号的问题。1.关于新品 PAD（1）我每天都在跟进，知道大家着急，我也着急。的确也没法跟大家一一回复所有疑惑或质疑，很多人问上市时间，目前内部确实还没定具体日期，后续以官方消息为准。（我即使知道，个人也没法私自公布，有规章制度要求），虽然困难和阻力重重，但我身后有 n 多研发和生产供应链同事在不分昼夜的全力推进中，截止目前，本月上市的目标没有变。（2）价格问题，我觉得无需多说，手机行业任何品牌在今年任何时候上市的任何新品，只要不偷工减料不降配涨价都是必然的，涨价跟 PAD 上市时间没有任何关联，只跟存储及供应链整体成本剧增有关。我能做的就是让大家花钱买到自己喜欢的产品，让价值和体验对等，让情绪价值拉满。2.和平精英封号的问题近期我们与游戏工作室在持续进行研判，一些调整的策略也在进行中，手机硬件本身没有问题，大家放心使用，自认为多次被误封的用户，如果遇到问题可以给腾讯客服反馈或者我们客服协助推进处理。（我是指没有使用外挂的用户，坚决反对任何外挂形式破坏游戏公平竞技环境）请大家相信我们团队的努力程度，解决问题需要时间，做产品也不是变戏法，在 6 月内能达成什么样的结果是未知数，但努力到无能为力是我们一贯的坚持。据IT之家此前报道，一款型号为 NP06J 努比亚平板入网。据博主 @数码闲聊站 透露，该机为红魔游戏平板 5 Pro，支持 80W 快充，6 月发布。工程机参数如下：9 英寸 185Hz OLED 小平板骁龙 8 Elite Gen5液冷循环散热系统电池 8300mAh±12GB+256GB/16GB+512GB/16GB+1TB/24GB+1TBRGB 灯和透明设计内置豆包大模型",
+      "id": "22f7825c4341ca9a024f226a1431d771",
+      "title_zh": "红魔姜超谈新品 PAD：目前内部还没定具体发布日期，但本月上市目标没有变",
+      "summary_zh": "IT之家 6 月 7 日消息，红魔游戏手机产品总经理姜超昨日发文谈及了新品 PAD 以及和平精英封号的问题。1.关于新品 PAD（1）我每天都在跟进，知道大家着急，我也着急。的确也没法跟大家一一回复所有疑惑或质疑，很多人问上市时间，目前内部确实还没定具体日期，后续以官方消息为准。（我即使知道，个人也没法私自公布，有规章制度要求），虽然困难和阻力重重，但我身后有 n 多研发和生产供应链同事在不分昼夜",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571913+00:00"
+    },
+    {
+      "title": "消息称 Meta 拟通过股票发行募资数百亿美元，为 AI 业务扩张提供资金",
+      "url": "https://www.ithome.com/0/961/011.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T00:58:29+00:00",
+      "content": "IT之家 6 月 7 日消息，据英国《金融时报》当地时间周五报道，Meta 正考虑通过股票发行募资数百亿美元，为其人工智能业务布局提供资金支持。此前，谷歌母公司 Alphabet 已通过超额配售的股票发行筹集了 847.5 亿美元（IT之家注：现汇率约合 5755.9 亿元人民币）。各大科技巨头争相建设数据中心，抢抓人工智能市场增长机遇。《金融时报》援引三位知情人士消息称，随着计划大幅增加人工智能相关开支，Meta 管理层一直在探索各类灵活的募资方式。报道还表示，受本周 Alphabet 股权融资顺利落地的影响，Meta 内部相关讨论也愈发密集。消息传出后，这家社交媒体巨头股价下跌 6.6%。全球头部科技企业如今越来越多地借助债权和股权市场，为人工智能基础设施建设输血，一改以往主要依靠自有现金开展投资的传统模式。去年 10 月，Meta 推出史上最大规模债券发行计划，募资上限达 300 亿美元，同时还与 Blue Owl Capital 达成了 270 亿美元的融资协议。今年 4 月，这家 Facebook 和 Instagram 的母公司将全年资本支出预期上调至 1250 亿至 1450 亿美元。报道补充道，Meta 目前尚未聘请承销银行，最终也有可能放弃增发股票。现阶段断言公司已敲定方案还为时过早，所有融资方式都仍在考量范围内。",
+      "id": "65964b23051fa8949981d5512afdfa5e",
+      "title_zh": "消息称 Meta 拟通过股票发行募资数百亿美元，为 AI 业务扩张提供资金",
+      "summary_zh": "IT之家 6 月 7 日消息，据英国《金融时报》当地时间周五报道，Meta 正考虑通过股票发行募资数百亿美元，为其人工智能业务布局提供资金支持。此前，谷歌母公司 Alphabet 已通过超额配售的股票发行筹集了 847.5 亿美元（IT之家注：现汇率约合 5755.9 亿元人民币）。各大科技巨头争相建设数据中心，抢抓人工智能市场增长机遇。《金融时报》援引三位知情人士消息称，随着计划大幅增加人工智能",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.571972+00:00"
+    },
+    {
+      "title": "AI Criticism",
+      "url": "https://dennisforbes.ca/blog/microblog/2026/06/on_ai_criticism/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-06-07T00:57:01+00:00",
+      "content": "Article URL: https://dennisforbes.ca/blog/microblog/2026/06/on_ai_criticism/\nComments URL: https://news.ycombinator.com/item?id=48430722\nPoints: 2\n# Comments: 0",
+      "id": "6eb921d1d895ef1b53d740f6a067d86d",
+      "title_zh": "人工智能批评",
+      "summary_zh": "Article URL: https://dennisforbes.ca/blog/microblog/2026/06/on_ai_criticism/ Comments URL: https://news.ycombinator.com/item?id=48430722 Points: 2 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.573695+00:00"
+    },
+    {
+      "title": "“驼峰”1500H 重载无人机在重庆首飞：最大起飞 1.5 吨、载重 700 公斤",
+      "url": "https://www.ithome.com/0/961/010.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T00:53:02+00:00",
+      "content": "IT之家 6 月 7 日消息，6 月 5 日，“驼峰”1500H 重载无人机首飞仪式在重庆市江津区团结湖数字经济产业园举行。在江津区团结湖试飞场，“驼峰”1500H 顺利完成智能飞控、导航系统、航向性能、自主飞行等关键科目验证，最后精准平稳着陆，圆满完成首飞任务。此次飞行全程采用多余度飞控系统主导，飞行姿态稳定，标志着我国 1.5 吨级重载无人机实现重要突破。IT之家从官方介绍获悉，“驼峰”1500H 是驼航科技面向国家应急体系建设、低空经济发展、高原与远海物资投送等重大需求推出的核心装备，最大起飞重量 1.5 吨，最大载重 700 公斤，最大速度 160km/h，具备全自主起降、自主巡航、空中悬停、一键返航等核心能力。搭载 500 公斤载荷续航时间 6 小时以上，可广泛应用于应急救援、高原物流、海岛补给、消防灭火、工程运输、电力建设、特种投送等领域。“驼峰”1500H 专为复杂环境设计，可抵御零下 25℃ 严寒与 55℃ 高温，起降抗风 6 级、空中抗风 8 级，6000 米高升限满足高原作业。在极端环境下，“驼峰”1500H 续航能力几乎不受影响，适合高原、高寒、长航时等严苛任务场景。",
+      "id": "9ef9a9a2721c910c4e6f2662f6d5dc3d",
+      "title_zh": "“驼峰”1500H 重载无人机在重庆首飞：最大起飞 1.5 吨、载重 700 公斤",
+      "summary_zh": "IT之家 6 月 7 日消息，6 月 5 日，“驼峰”1500H 重载无人机首飞仪式在重庆市江津区团结湖数字经济产业园举行。在江津区团结湖试飞场，“驼峰”1500H 顺利完成智能飞控、导航系统、航向性能、自主飞行等关键科目验证，最后精准平稳着陆，圆满完成首飞任务。此次飞行全程采用多余度飞控系统主导，飞行姿态稳定，标志着我国 1.5 吨级重载无人机实现重要突破。IT之家从官方介绍获悉，“驼峰”150",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572025+00:00"
+    },
+    {
+      "title": "Show HN: DomainTasker – avoid losing domains and surprise renewals",
+      "url": "https://domaintasker.com/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-06-07T00:50:13+00:00",
+      "content": "Show HN: DomainTasker – avoid losing domains and surprise renewals. Score: 9, Comments: 5",
+      "id": "527db8862ad0bdcd50ea28d0a78ed0c6",
+      "title_zh": "显示 HN：DomainTasker – 避免丢失域名和意外续订",
+      "summary_zh": "Show HN: DomainTasker – avoid losing domains and surprise renewals. Score: 9, Comments: 5",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572742+00:00"
+    },
+    {
+      "title": "华硕“VG27AQMEL5F”27 英寸显示器发售：2K 255Hz + 双扬，1349 元",
+      "url": "https://www.ithome.com/0/961/008.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T00:49:03+00:00",
+      "content": "IT之家 6 月 7 日消息，华硕旗下“VG27AQMEL5F”27 英寸显示器现已在京东发售，该机主打 2K 255Hz，定价为 1349 元。目前，官方尚未更新具体商品页型号信息，参考华硕官网，该机配备一块 2560x1440 分辨率 255Hz 超频 Fast IPS 面板，显示器 HDR 峰值亮度 400 尼特，静态对比度 1300:1，显示器支持 10-Bit 色彩（8-Bit + FRC），覆盖 95% DCI-P3 色域。该机支架支持升降 / 倾斜 / 旋转，显示器本体支持 VESA 100x100mm 壁挂，同时内置双 2W 扬声器，提供 1 个 DP 1.4、2 个 HDMI 2.1、1 个 3.5mm 音频接口。",
+      "id": "41ae79d4661e952f9d456047af3b1ee2",
+      "title_zh": "华硕“VG27AQMEL5F”27 英寸显示器发售：2K 255Hz + 双扬，1349 元",
+      "summary_zh": "IT之家 6 月 7 日消息，华硕旗下“VG27AQMEL5F”27 英寸显示器现已在京东发售，该机主打 2K 255Hz，定价为 1349 元。目前，官方尚未更新具体商品页型号信息，参考华硕官网，该机配备一块 2560x1440 分辨率 255Hz 超频 Fast IPS 面板，显示器 HDR 峰值亮度 400 尼特，静态对比度 1300:1，显示器支持 10-Bit 色彩（8-Bit + FR",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572071+00:00"
+    },
+    {
+      "title": "特斯拉 Grok 车载 AI 助手全球版图再扩张，登陆智利、马来西亚等市场",
+      "url": "https://www.ithome.com/0/961/007.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T00:47:57+00:00",
+      "content": "IT之家 6 月 7 日消息，特斯拉正在持续扩大其车载人工智能助手的全球覆盖范围。根据 2026.20 版本软件更新日志显示，由 xAI 研发的 Grok 聊天机器人已在特斯拉车载系统中应用近一年，如今正式登陆多个全新海外市场。IT之家注意到，2026.20 版本更新于上周开始逐步推送给车主。本次更新除了让 Grok 服务落地更多国家和地区外，还新增多项功能：行车记录仪视频片段自动加密以强化隐私保护，同时上线全新家长管控功能，可限制应用使用权限。Grok 最初率先在美国车载系统上线，随后拓展至加拿大。完成首轮推送后，特斯拉在欧洲地区推出了支持导航指令的 Grok，之后又将这款聊天机器人引入澳大利亚与新西兰。借助 2026.20 版本更新，该智能助手进一步拓展服务区域，本次新增智利、马来西亚、菲律宾以及中国香港等地，本轮推送或许还涵盖其他地区。尽管特斯拉一直在加速推广，但目前仍有部分地区暂未开通该服务，例如挪威和捷克。本次全球扩容，让上述新地区用户可使用 Grok 的全部功能。该聊天机器人支持常规开放式问答、导航指令，同时支持 2026 年春季软件更新（2026.14 及以上版本）推出的语音唤醒指令“嘿，Grok”，以及基于地理位置的提醒功能。用户可通过应用启动栏、长按方向盘语音按键，或是说出“嘿，Grok”来唤醒该助手。车主还能自定义助手的语音音色与对话风格，可选“故事讲述者”“随性模式”等趣味人设。切换至标准助手模式后，Grok 可添加、修改导航目的地。其还具备高阶地理位置提醒功能，用户可以通过语音设置提醒，例如“到家附近时提醒我买牛奶”“到家后提醒我把前备箱的食材拿出来”。使用该功能需要订阅特斯拉高级联网服务，或设备连接稳定的 Wi-Fi 网络。目前 Grok 仍处于早期测试版阶段。除基础路线规划外，该系统暂不支持通过语音指令控制车辆其他功能。不过特斯拉计划在后续持续增添新能力。未来的软件更新中，用户有望通过 Grok 操控空调、车灯等车辆核心设备，还可借助其使用 FSD 功能，让这款聊天机器人成为全方位的车载智能管家。",
+      "id": "f26a8ca6a7cb7f1895959c3339e3b95b",
+      "title_zh": "特斯拉 Grok 车载 AI 助手全球版图再扩张，登陆智利、马来西亚等市场",
+      "summary_zh": "IT之家 6 月 7 日消息，特斯拉正在持续扩大其车载人工智能助手的全球覆盖范围。根据 2026.20 版本软件更新日志显示，由 xAI 研发的 Grok 聊天机器人已在特斯拉车载系统中应用近一年，如今正式登陆多个全新海外市场。IT之家注意到，2026.20 版本更新于上周开始逐步推送给车主。本次更新除了让 Grok 服务落地更多国家和地区外，还新增多项功能：行车记录仪视频片段自动加密以强化隐私保",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572144+00:00"
+    },
+    {
+      "title": "2026 年全国高考今日开考，多地启用 AI 智能巡查系统严防考试作弊",
+      "url": "https://www.ithome.com/0/961/006.htm",
+      "source": "IT之家",
+      "domain": "科技",
+      "published": "2026-06-07T00:38:05+00:00",
+      "content": "IT之家 6 月 7 日消息，据央视新闻报道，2026 高考期间，各地运用智能巡查系统和智能安检门等科技手段，严防作弊。IT之家参考报道获悉，多地考场今年投入使用 AI 智能巡查系统。考试过程中，AI 智能巡查系统能够运用视觉分析算法精准定位入场考生，捕捉考场异常行为，自动标记交头接耳、翻阅资料等作弊迹象，一旦 AI 识别出考生或监考员有异常行为，监控系统会自动截取异常行为前后的录像片段，供审核员进一步确认。同时，今年各地考场明确禁止携带智能眼镜进入考点，考务人员会重点关注考生佩戴眼镜的大小、形状等，考生进入考场安检时，须在视频监控下自行摘下眼镜并将其放在台面上，由监考员实施专项检查。参考 6 月 5 日教育部官网发布的《2026 年高考十问十答》，其中明确：考生如携带手机、智能手表（手环）、智能眼镜等具有发送或者接收信息功能的设备进入考场，无论使用与否，均将认定为考试作弊。考试过程中使用手机等设备拍摄试题、答题卡等，通过 QQ、微信及其他网络平台发布信息、传播试题及答案，均涉嫌犯罪，将移送司法机关追究法律责任。",
+      "id": "f04800ed713b52fe894e8c021aae4805",
+      "title_zh": "2026 年全国高考今日开考，多地启用 AI 智能巡查系统严防考试作弊",
+      "summary_zh": "IT之家 6 月 7 日消息，据央视新闻报道，2026 高考期间，各地运用智能巡查系统和智能安检门等科技手段，严防作弊。IT之家参考报道获悉，多地考场今年投入使用 AI 智能巡查系统。考试过程中，AI 智能巡查系统能够运用视觉分析算法精准定位入场考生，捕捉考场异常行为，自动标记交头接耳、翻阅资料等作弊迹象，一旦 AI 识别出考生或监考员有异常行为，监控系统会自动截取异常行为前后的录像片段，供审核员",
+      "category": "硬件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572193+00:00"
+    },
+    {
+      "title": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
+      "url": "https://persist.chat",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-06-07T00:35:01+00:00",
+      "content": "Hi HN,I am co-founder of Persist AI.Meet Persist.chat an AI sales agent that follows up to prospects till you secure a sale. It can help you find prospects for your product with our extensive lists of Linkedin and email lists and also you can bring your own list of customers with their email/phone_number,linkedin/x handle It sends a personalized email/text messages with a continuous loop. Our agent can help you launch a campaign with different tasks to different groups of customers.I personally struggled getting traction and converting customers. I have found myself a better chance using this product as a step foot from 0 to 1 instead of spending 10,000+ on ads that do not target the right audience. The feature of persistent reach out with out it being a spam is the greatest one. You a configure it as a sequence, on every email/text it sends different personalized state aware messages. Front onboarding walking thru potential customers till you secure a sale. Consider it after building ",
+      "id": "d5d63e19013fa634d63d8a0f3d0c0548",
+      "title_zh": "Show HN：坚持——一个人工智能代理，跟踪累积的渠道直到他们回复",
+      "summary_zh": "Hi HN,I am co-founder of Persist AI.Meet Persist.chat an AI sales agent that follows up to prospects till you secure a sale. It can help you find prospects for your product with our extensive lists of",
+      "category": "AI产品",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.573910+00:00"
+    },
+    {
+      "title": "Is AI Anxiety Causing the Vibecession? An Investigation",
+      "url": "https://kevinonthemargin.com/is-ai-anxiety-causing-the-vibecession-an-investigation/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-06-07T00:32:04+00:00",
+      "content": "Article URL: https://kevinonthemargin.com/is-ai-anxiety-causing-the-vibecession-an-investigation/\nComments URL: https://news.ycombinator.com/item?id=48430602\nPoints: 2\n# Comments: 0",
+      "id": "4fd9a7b7460c4ee6f54cd6b51067015a",
+      "title_zh": "人工智能焦虑是否导致了 Vibecession？一项调查",
+      "summary_zh": "Article URL: https://kevinonthemargin.com/is-ai-anxiety-causing-the-vibecession-an-investigation/ Comments URL: https://news.ycombinator.com/item?id=48430602 Points: 2 # Comments: 0",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.573960+00:00"
+    },
+    {
+      "title": "Public Domain Image Archive",
+      "url": "https://pdimagearchive.org/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-06-07T00:22:51+00:00",
+      "content": "Public Domain Image Archive. Score: 15, Comments: 2",
+      "id": "2449056cf32121ae90795c0199a56cd6",
+      "title_zh": "公共领域图像档案",
+      "summary_zh": "Public Domain Image Archive. Score: 15, Comments: 2",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572504+00:00"
+    },
+    {
+      "title": "AI is the greatest money-wasting scheme humanity has ever invented",
+      "url": "https://www.telegraph.co.uk/news/2026/06/04/ai-is-the-greatest-money-wasting-scheme-humanity-has-ever-i/",
+      "source": "Hacker News AI",
+      "domain": "AI",
+      "published": "2026-06-07T00:08:50+00:00",
+      "content": "Article URL: https://www.telegraph.co.uk/news/2026/06/04/ai-is-the-greatest-money-wasting-scheme-humanity-has-ever-i/\nComments URL: https://news.ycombinator.com/item?id=48430447\nPoints: 6\n# Comments: 0",
+      "id": "6fe5d690235692b0956b321d709a8e4d",
+      "title_zh": "人工智能是人类发明的最浪费钱的方案",
+      "summary_zh": "Article URL: https://www.telegraph.co.uk/news/2026/06/04/ai-is-the-greatest-money-wasting-scheme-humanity-has-ever-i/ Comments URL: https://news.ycombinator.com/item?id=48430447 Points: 6 # Comments:",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.574012+00:00"
+    },
+    {
+      "title": "World’s Hottest Market Has Korea Bulls Reaching for Protection",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-07/world-s-hottest-market-korea-has-bulls-reaching-for-protection",
+      "source": "Bloomberg Markets",
+      "domain": "经济",
+      "published": "2026-06-07T00:00:00+00:00",
+      "content": "A wave of optimism over South Korean stocks is giving way to growing caution, as some investors hedge positions and pare back crowded trades on concerns that the rally has run too hot, too fast.",
+      "id": "3cea2249f523d27ccfdb14f8a99d861b",
+      "title_zh": "全球最热门的市场让韩国多头寻求保护",
+      "summary_zh": "A wave of optimism over South Korean stocks is giving way to growing caution, as some investors hedge positions and pare back crowded trades on concerns that the rally has run too hot, too fast.",
+      "category": "市场",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.570091+00:00"
+    },
     {
       "title": "疑似三星 Galaxy Watch9/Watch Ultra 2 通过 3C 认证，充电速度依旧为 10W",
       "url": "https://www.ithome.com/0/960/998.htm",
@@ -86,6 +520,20 @@
       "collected": "2026-06-06T23:56:03.268100+00:00"
     },
     {
+      "title": "Context Sculpting",
+      "url": "https://perceptiontheory.bearblog.dev/context-sculpting/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-06-06T23:20:01+00:00",
+      "content": "Context Sculpting. Score: 9, Comments: 3",
+      "id": "45606cce6454c6e344d558a0ed63c321",
+      "title_zh": "情境塑造",
+      "summary_zh": "Context Sculpting. Score: 9, Comments: 3",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572974+00:00"
+    },
+    {
       "title": "AI Can now control your desktop",
       "url": "https://clawdcursor.com",
       "source": "Hacker News AI",
@@ -98,6 +546,20 @@
       "category": "研究",
       "tags": [],
       "collected": "2026-06-06T23:56:03.269276+00:00"
+    },
+    {
+      "title": "Show HN: Keybench – Scriptable, extensible performance tool for key value stores",
+      "url": "https://github.com/guycipher/keybench",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-06-06T23:06:06+00:00",
+      "content": "Show HN: Keybench – Scriptable, extensible performance tool for key value stores. Score: 8, Comments: 0",
+      "id": "cb2044b1e254bde9f52a8bcd597cfe23",
+      "title_zh": "显示 HN：Keybench – 用于键值存储的可编写脚本、可扩展的性能工具",
+      "summary_zh": "Show HN: Keybench – Scriptable, extensible performance tool for key value stores. Score: 8, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572825+00:00"
     },
     {
       "title": "大疆储能官宣 6 月 8 日发布新品：“高能尽显”",
@@ -226,6 +688,20 @@
       "collected": "2026-06-06T21:55:01.024308+00:00"
     },
     {
+      "title": "The Dictionary of Obscure Sorrows",
+      "url": "https://www.thedictionaryofobscuresorrows.com",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-06-06T21:43:37+00:00",
+      "content": "The Dictionary of Obscure Sorrows. Score: 7, Comments: 1",
+      "id": "6cdd09e7a31c0c73a70e22a597a354c5",
+      "title_zh": "隐晦悲伤词典",
+      "summary_zh": "The Dictionary of Obscure Sorrows. Score: 7, Comments: 1",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.573196+00:00"
+    },
+    {
       "title": "Gothic 1 Remake",
       "url": "https://store.steampowered.com/app/1297900/Gothic_1_Remake/",
       "source": "Hacker News",
@@ -352,6 +828,20 @@
       "collected": "2026-06-06T20:53:24.028800+00:00"
     },
     {
+      "title": "WindowSwap: Someone else's window view from anywhere in the world",
+      "url": "https://www.window-swap.com/",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-06-06T20:37:02+00:00",
+      "content": "WindowSwap: Someone else's window view from anywhere in the world. Score: 4, Comments: 0",
+      "id": "8adf6d7ea23d311b29da1cd8ed67fe60",
+      "title_zh": "WindowSwap：世界任何地方的其他人的窗口视图",
+      "summary_zh": "WindowSwap: Someone else's window view from anywhere in the world. Score: 4, Comments: 0",
+      "category": "软件",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.573247+00:00"
+    },
+    {
       "title": "New U.S. college grads now have higher unemployment than the average worker",
       "url": "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/",
       "source": "Hacker News",
@@ -380,6 +870,20 @@
       "collected": "2026-06-06T20:53:24.015722+00:00"
     },
     {
+      "title": "I am giving up on VM Gaming",
+      "url": "https://deployonfri.day/posts/i-am-giving-up-on-vm-gaming",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-06-06T20:31:43+00:00",
+      "content": "I am giving up on VM Gaming. Score: 5, Comments: 0",
+      "id": "b6454823ba8c36c067c3ac56f40e4739",
+      "title_zh": "我要放弃 VM Gaming",
+      "summary_zh": "I am giving up on VM Gaming. Score: 5, Comments: 0",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.573287+00:00"
+    },
+    {
       "title": "The Case for Space Datacenters",
       "url": "https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters",
       "source": "Hacker News",
@@ -392,6 +896,20 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-06-06T21:55:01.025036+00:00"
+    },
+    {
+      "title": "Elfeed 4.0 (Emacs)",
+      "url": "https://github.com/emacs-elfeed/elfeed/blob/main/NEWS.org",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-06-06T20:24:56+00:00",
+      "content": "Elfeed 4.0 (Emacs). Score: 18, Comments: 1",
+      "id": "1c3e25addf7dc73d20e394cdb7d8631b",
+      "title_zh": "Elfeed 4.0 (Emacs)",
+      "summary_zh": "Elfeed 4.0 (Emacs). Score: 18, Comments: 1",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.573326+00:00"
     },
     {
       "title": "Computex 2026: Are We Heading for the Agentic PC Era Yet? – EE Times",
@@ -7490,6 +8008,20 @@
       "category": "开源",
       "tags": [],
       "collected": "2026-06-05T19:29:15.434404+00:00"
+    },
+    {
+      "title": "Harness engineering: Leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering/",
+      "source": "Hacker News",
+      "domain": "AI",
+      "published": "2026-06-05T18:20:06+00:00",
+      "content": "Harness engineering: Leveraging Codex in an agent-first world. Score: 67, Comments: 30",
+      "id": "cddfa4a4dcc6d85598d3b6d4f40a061f",
+      "title_zh": "线束工程：在代理优先的世界中利用 Codex",
+      "summary_zh": "Harness engineering: Leveraging Codex in an agent-first world. Score: 67, Comments: 30",
+      "category": "LLM",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572278+00:00"
     },
     {
       "title": "Florida's lawsuit against OpenAI and CEO Altman treats ChatGPT as a defective product and public nuisance",
@@ -15306,6 +15838,20 @@
       "collected": "2026-06-05T05:09:29.042931+00:00"
     },
     {
+      "title": "Unicode Fonts and Tools for X11",
+      "url": "https://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-06-05T00:58:15+00:00",
+      "content": "Unicode Fonts and Tools for X11. Score: 17, Comments: 3",
+      "id": "d4e942642db8de9b90f136eb7fbd2370",
+      "title_zh": "X11 的 Unicode 字体和工具",
+      "summary_zh": "Unicode Fonts and Tools for X11. Score: 17, Comments: 3",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572637+00:00"
+    },
+    {
       "title": "Broadcom Is Eschewing Acquisitions in Favor of AI Organic Growth",
       "url": "https://www.bloomberg.com/news/articles/2026-06-05/broadcom-is-eschewing-acquisitions-in-favor-of-ai-organic-growth",
       "source": "Bloomberg Tech",
@@ -15808,6 +16354,20 @@
       "category": "互联网",
       "tags": [],
       "collected": "2026-06-05T00:06:44.782752+00:00"
+    },
+    {
+      "title": "Introducing Boron Buckyballs: Theory that B80 cages can’t be made is disproved",
+      "url": "https://cen.acs.org/materials/nanomaterials/buckyballs-boron-buckminster-fullerene-nanomaterials/104/web/2026/06",
+      "source": "Hacker News",
+      "domain": "科技",
+      "published": "2026-06-04T22:58:48+00:00",
+      "content": "Introducing Boron Buckyballs: Theory that B80 cages can’t be made is disproved. Score: 31, Comments: 1",
+      "id": "5ec76032da139815fa7c33bc4e610b27",
+      "title_zh": "硼巴基球简介：B80 保持架无法制造的理论被推翻",
+      "summary_zh": "Introducing Boron Buckyballs: Theory that B80 cages can’t be made is disproved. Score: 31, Comments: 1",
+      "category": "互联网",
+      "tags": [],
+      "collected": "2026-06-07T02:12:01.572363+00:00"
     },
     {
       "title": "White House will dump $700M of public funds into costly, unreliable coal again",
@@ -25642,951 +26202,419 @@
       "category": "市场",
       "tags": [],
       "collected": "2026-06-04T05:32:44.058259+00:00"
-    },
-    {
-      "title": "Father of VR: The best AI future nobody is talking about – Jaron Lanier [video]",
-      "url": "https://www.youtube.com/watch?v=v8f73ueeSTw",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-06-04T02:05:54+00:00",
-      "content": "Article URL: https://www.youtube.com/watch?v=v8f73ueeSTw\nComments URL: https://news.ycombinator.com/item?id=48392762\nPoints: 2\n# Comments: 0",
-      "id": "89aa71a8d11d839c8732eccba7d56fef",
-      "title_zh": "VR 之父：无人谈论的最佳人工智能未来 – Jaron Lanier [视频]",
-      "summary_zh": "Article URL: https://www.youtube.com/watch?v=v8f73ueeSTw Comments URL: https://news.ycombinator.com/item?id=48392762 Points: 2 # Comments: 0",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.080103+00:00"
-    },
-    {
-      "title": "When IPOs go wrong: SpaceX, AI firms face a delicate process",
-      "url": "https://www.reuters.com/legal/transactional/when-ipos-go-wrong-spacex-ai-firms-face-delicate-process-2026-06-03/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-06-04T02:01:22+00:00",
-      "content": "Article URL: https://www.reuters.com/legal/transactional/when-ipos-go-wrong-spacex-ai-firms-face-delicate-process-2026-06-03/\nComments URL: https://news.ycombinator.com/item?id=48392735\nPoints: 2\n# Comments: 1",
-      "id": "39e12d7d94370f55bd78940eb8e9b143",
-      "title_zh": "当 IPO 出错时：SpaceX、人工智能公司面临一个微妙的过程",
-      "summary_zh": "Article URL: https://www.reuters.com/legal/transactional/when-ipos-go-wrong-spacex-ai-firms-face-delicate-process-2026-06-03/ Comments URL: https://news.ycombinator.com/item?id=48392735 Points: 2 # Co",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.080152+00:00"
-    },
-    {
-      "title": "AI Conversations Are Not Yours. Yet",
-      "url": "https://medium.com/@vektormemory/your-ai-conversations-are-not-yours-yet-cd1b7925e9cf",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-06-04T01:56:24+00:00",
-      "content": "Article URL: https://medium.com/@vektormemory/your-ai-conversations-are-not-yours-yet-cd1b7925e9cf\nComments URL: https://news.ycombinator.com/item?id=48392696\nPoints: 2\n# Comments: 0",
-      "id": "d521c04b67635a7c6e53bc95142eae37",
-      "title_zh": "人工智能对话不属于你。然而",
-      "summary_zh": "Article URL: https://medium.com/@vektormemory/your-ai-conversations-are-not-yours-yet-cd1b7925e9cf Comments URL: https://news.ycombinator.com/item?id=48392696 Points: 2 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.080195+00:00"
-    },
-    {
-      "title": "Show HN: A rich, HTML-native document canvas for human <> AI collaboration",
-      "url": "https://app.productnow.ai/app/home",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-06-04T01:55:36+00:00",
-      "content": "We've spent the last several months iterating on a rich, HTML-native document canvas. We kept finding we wanted a shared space where we could work on a written artifact with our team while getting some AI assistance along the way.Lots of interesting and challenging problems when designing a document editor that allows many humans and agents to understand and edit simultaneously. Especially one that supports things like Mermaid diagrams and XYZ flow charts out of the box!We're officially GA, would love for people to give it a shot and tell us what they think. Feedback is greatly appreciated! If people want more credit, shoot us a note (hello@productnow.ai), we're happy to support :)\n\nComments URL: https://news.ycombinator.com/item?id=48392691\nPoints: 2\n# Comments: 0",
-      "id": "d04756ba59d86a3d8b01196d92aa8878",
-      "title_zh": "Show HN：用于人类 <> AI 协作的丰富的 HTML 原生文档画布",
-      "summary_zh": "We've spent the last several months iterating on a rich, HTML-native document canvas. We kept finding we wanted a shared space where we could work on a written artifact with our team while getting som",
-      "category": "AI产品",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.080291+00:00"
-    },
-    {
-      "title": "A Famous Math Problem Stumped Humans for 80 Years. AI Just Cracked It",
-      "url": "https://www.wsj.com/tech/ai/ai-math-solves-erdos-problem-openai-c4029e84",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-06-04T01:45:33+00:00",
-      "content": "Article URL: https://www.wsj.com/tech/ai/ai-math-solves-erdos-problem-openai-c4029e84\nComments URL: https://news.ycombinator.com/item?id=48392638\nPoints: 2\n# Comments: 1",
-      "id": "e695c2e11f76497edde839168017a82d",
-      "title_zh": "一道著名的数学难题困扰了人类 80 年。人工智能刚刚破解了它",
-      "summary_zh": "Article URL: https://www.wsj.com/tech/ai/ai-math-solves-erdos-problem-openai-c4029e84 Comments URL: https://news.ycombinator.com/item?id=48392638 Points: 2 # Comments: 1",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.080335+00:00"
-    },
-    {
-      "title": "Bitcoin Falls to Pre-Iran Conflict Low as Crypto Slide Extends",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/bitcoin-btc-falls-to-pre-iran-conflict-low-as-crypto-slide-extends",
-      "source": "Bloomberg Tech",
-      "domain": "经济",
-      "published": "2026-06-04T01:18:51+00:00",
-      "content": "Bitcoin sank to its lowest level since the outset of the Iran conflict as renewed clashes in the Middle East weighed on wider market sentiment.",
-      "id": "b37172df9bb43b1e974182d0d9abd85f",
-      "title_zh": "随着加密货币下滑的扩大，比特币跌至伊朗冲突前的低点",
-      "summary_zh": "Bitcoin sank to its lowest level since the outset of the Iran conflict as renewed clashes in the Middle East weighed on wider market sentiment.",
-      "category": "加密",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.060788+00:00"
-    },
-    {
-      "title": "CrowdStrike is a buy, just not yet. Here's why",
-      "url": "https://www.cnbc.com/2026/06/03/crowdstrike-is-a-buy-just-not-yet-heres-why.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-06-04T01:16:47+00:00",
-      "content": "On top of the beat-and-raise, CrowdStrike announced a 4-for-1 stock split. But short-term thinkers sold the stock.",
-      "id": "b74e782b612cb58be126385bce6c47ea",
-      "title_zh": "CrowdStrike 值得购买，只是还没有。这就是为什么",
-      "summary_zh": "On top of the beat-and-raise, CrowdStrike announced a 4-for-1 stock split. But short-term thinkers sold the stock.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.058282+00:00"
-    },
-    {
-      "title": "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons",
-      "url": "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/",
-      "source": "Wired AI",
-      "domain": "AI",
-      "published": "2026-06-04T01:01:00+00:00",
-      "content": "Leading AI labs, executives, and scientists are sending a letter to lawmakers urging them to improve tracking of synthetic DNA sequences that could be used for bioweapons.",
-      "id": "ff32318a0d2da7243f85ee848025a165",
-      "title_zh": "OpenAI 和 Anthropic 签署信件以防止人工智能开发的生物武器",
-      "summary_zh": "Leading AI labs, executives, and scientists are sending a letter to lawmakers urging them to improve tracking of synthetic DNA sequences that could be used for bioweapons.",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.050015+00:00"
-    },
-    {
-      "title": "Why Amazon Has Struggled to Crack India",
-      "url": "https://www.bloomberg.com/news/features/2026-06-04/amazon-has-struggled-to-crack-the-world-s-most-populous-nation",
-      "source": "Bloomberg Tech",
-      "domain": "科技",
-      "published": "2026-06-04T01:00:14+00:00",
-      "content": "More than a decade after entering the country, the company is battling Walmart’s Flipkart and other incumbents.",
-      "id": "e64b9124477c75263b190907fb29d26c",
-      "title_zh": "亚马逊为何难以攻克印度市场",
-      "summary_zh": "More than a decade after entering the country, the company is battling Walmart’s Flipkart and other incumbents.",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.060884+00:00"
-    },
-    {
-      "title": "Won Falls to Lowest Since 2009 Even as Korea Pledges Action",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/krw-usd-south-korea-vows-action-in-case-of-excessive-move-as-won-weakens",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-06-04T00:58:27+00:00",
-      "content": "The South Korean won fell to the lowest since 2009 even as the government pledged to curb excessive volatility, underscoring the pressure some Asian currencies face as the Iran war drags on.",
-      "id": "cfcc9068126c6f5f6e33560ac83461cb",
-      "title_zh": "尽管韩国承诺采取行动，韩元仍跌至 2009 年以来的最低水平",
-      "summary_zh": "The South Korean won fell to the lowest since 2009 even as the government pledged to curb excessive volatility, underscoring the pressure some Asian currencies face as the Iran war drags on.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-06-04T09:40:40.910336+00:00"
-    },
-    {
-      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-06-04T00:56:32+00:00",
-      "content": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it. Score: 119, Comments: 47",
-      "id": "dda31ab4713f31dc36969a831bdcbb09",
-      "title_zh": "我构建了一个易受攻击的应用程序并花了 1,500 美元看看法学硕士是否可以破解它",
-      "summary_zh": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it. Score: 119, Comments: 47",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.061102+00:00"
-    },
-    {
-      "title": "Review of the MoErgo Go60 Keyboard",
-      "url": "https://arslan.io/2026/06/02/review-of-the-moergo-go60-keyboard/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-06-04T00:55:53+00:00",
-      "content": "Review of the MoErgo Go60 Keyboard. Score: 4, Comments: 0",
-      "id": "1ff7a06fe361a27e4b96edc874677ce2",
-      "title_zh": "MoErgo Go60 键盘评测",
-      "summary_zh": "Review of the MoErgo Go60 Keyboard. Score: 4, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.062155+00:00"
-    },
-    {
-      "title": "Klaser Cards, a printable personal collection",
-      "url": "https://klaser.cards/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-06-04T00:55:25+00:00",
-      "content": "Klaser Cards, a printable personal collection. Score: 6, Comments: 4",
-      "id": "6d2db8fd6e932db10e47a16660c1d4ea",
-      "title_zh": "Klaser Cards，可打印的个人收藏",
-      "summary_zh": "Klaser Cards, a printable personal collection. Score: 6, Comments: 4",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.062203+00:00"
-    },
-    {
-      "title": "The Star Blazers Page",
-      "url": "https://kevinmccorrytv.ca/blazers.html",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-06-04T00:49:26+00:00",
-      "content": "The Star Blazers Page. Score: 6, Comments: 0",
-      "id": "add2c9b7b688e66827e09a3a18e8fe46",
-      "title_zh": "明星开拓者队页面",
-      "summary_zh": "The Star Blazers Page. Score: 6, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.062245+00:00"
-    },
-    {
-      "title": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse",
-      "url": "https://e360.yale.edu/digest/trump-ooi-amoc",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-06-04T00:44:13+00:00",
-      "content": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse. Score: 360, Comments: 235",
-      "id": "38e0b5cc162212e13090095e5d072b09",
-      "title_zh": "美国将拆除有崩溃风险的大西洋洋流追踪系统",
-      "summary_zh": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse. Score: 360, Comments: 235",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.061338+00:00"
-    },
-    {
-      "title": "Dumbphone 2",
-      "url": "https://dumb.co/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-06-04T00:41:09+00:00",
-      "content": "Dumbphone 2. Score: 20, Comments: 4",
-      "id": "b784fe46aaa57b921a535e4aae882464",
-      "title_zh": "哑音电话2",
-      "summary_zh": "Dumbphone 2. Score: 20, Comments: 4",
-      "category": "硬件",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.061549+00:00"
-    },
-    {
-      "title": "Blackstone-Backed Liftoff Raises $437 Million in Revived US IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/blackstone-backed-liftoff-raises-437-million-in-revived-us-ipo",
-      "source": "Bloomberg Tech",
-      "domain": "经济",
-      "published": "2026-06-04T00:34:46+00:00",
-      "content": "Liftoff Mobile Inc. raised $437 million in a US initial public offering that priced above its marketed range, in the company’s second attempt at going public this year.",
-      "id": "74c62eaec6d3d72b9f52ea3d5e6fb5ed",
-      "title_zh": "Blackstone 支持的 Liftoff 在恢复美国 IPO 中筹集 4.37 亿美元",
-      "summary_zh": "Liftoff Mobile Inc. raised $437 million in a US initial public offering that priced above its marketed range, in the company’s second attempt at going public this year.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.060981+00:00"
-    },
-    {
-      "title": "The ways we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-06-04T00:27:52+00:00",
-      "content": "The ways we contain Claude across products. Score: 84, Comments: 37",
-      "id": "e5ea6e2bc04bb575036825380b9d129b",
-      "title_zh": "我们跨产品遏制 Claude 的方式",
-      "summary_zh": "The ways we contain Claude across products. Score: 84, Comments: 37",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.061165+00:00"
-    },
-    {
-      "title": "The Social Science Research Network Has Jumped the Shark",
-      "url": "https://www.stephenbainbridge.com/p/the-social-science-research-network",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-06-04T00:24:54+00:00",
-      "content": "The Social Science Research Network Has Jumped the Shark. Score: 8, Comments: 0",
-      "id": "3790320a88f7450b66ec7adf81805a1e",
-      "title_zh": "社会科学研究网络已经超越了鲨鱼",
-      "summary_zh": "The Social Science Research Network Has Jumped the Shark. Score: 8, Comments: 0",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.061640+00:00"
-    },
-    {
-      "title": "Inside India newsletter: Why Taiwan and South Korea's stock markets have surged past India within a week",
-      "url": "https://www.cnbc.com/2026/06/04/why-taiwan-and-south-koreas-stock-markets-have-surged-past-india.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-06-04T00:24:11+00:00",
-      "content": "The Indian equity market is losing favour with global investors, as its domestic consumption story weakens and the country lags in AI.",
-      "id": "1b029972f3f6e44278e9503388d5f800",
-      "title_zh": "印度内部通讯：为什么台湾和韩国股市一周内飙升超过印度",
-      "summary_zh": "The Indian equity market is losing favour with global investors, as its domestic consumption story weakens and the country lags in AI.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.058244+00:00"
-    },
-    {
-      "title": "微软加速 Arm 生态补缺，用 AI 推进 Win11 原生应用适配",
-      "url": "https://www.ithome.com/0/959/603.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-06-04T00:18:54+00:00",
-      "content": "IT之家 6 月 4 日消息，科技媒体 Windows Central 今天（6 月 4 日）发布博文，报道称在 2026 年 Build 开发者大会上，微软设立了专题环节，展示如何利用 AI 智能体，帮助开发者把 x86 应用转换为 Windows on Arm 原生应用。通过 RTX Spark 芯片以及 Surface Laptop Ultra 等诸多产品，微软正携手英伟达扩展 Windows on Arm 生态。微软客户体验工程公司副总裁迈克 · 亚当斯表示：“Arm 应用生态系统持续扩展，在所有 Windows on Arm 用户应用使用时长中，原生 Arm 版本占比达到 90%，对我们的客户而言，Arm 生态能为其最重要的场景中提供高效、高性能的体验”。谷歌 Chrome 浏览器已原生支持 Arm 架构不过微软也表示剩余缺口仍影响部分用户和企业部署，未原生适配的应用需要依靠 Prism（微软仿真层）运行。原生应用加仿真已覆盖较大软件库，但这并不等于完整覆盖。部分旧版应用、企业软件和特定工具仍可能运行不佳，甚至无法启动。IT之家援引博文介绍，在本次专题活动中，微软提到包括调试器、性能分析器和编译器相关工具，AI 智能体可承担重复代码处理、转换检查和兼容性验证任务。",
-      "id": "fc97173e64884b6da6e4c9afd732b4b3",
-      "title_zh": "微软加速 Arm 生态补缺，用 AI 推进 Win11 原生应用适配",
-      "summary_zh": "IT之家 6 月 4 日消息，科技媒体 Windows Central 今天（6 月 4 日）发布博文，报道称在 2026 年 Build 开发者大会上，微软设立了专题环节，展示如何利用 AI 智能体，帮助开发者把 x86 应用转换为 Windows on Arm 原生应用。通过 RTX Spark 芯片以及 Surface Laptop Ultra 等诸多产品，微软正携手英伟达扩展 Window",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.385185+00:00"
-    },
-    {
-      "title": "Show HN: Bio Glyph – Turn Your Face into a One-Line Drawing",
-      "url": "https://bio.bairui.dev/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-06-04T00:18:38+00:00",
-      "content": "Show HN: Bio Glyph – Turn Your Face into a One-Line Drawing. Score: 9, Comments: 2",
-      "id": "0588578858e05b7ed707d727bc84aa30",
-      "title_zh": "Show HN：Bio Glyph – 将你的脸变成一幅线条画",
-      "summary_zh": "Show HN: Bio Glyph – Turn Your Face into a One-Line Drawing. Score: 9, Comments: 2",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.061873+00:00"
-    },
-    {
-      "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
-      "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-06-04T00:18:02+00:00",
-      "content": "Article URL: https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html\nComments URL: https://news.ycombinator.com/item?id=48392004\nPoints: 1\n# Comments: 0",
-      "id": "66eba240bc52d5911c9f3b6ada6408a3",
-      "title_zh": "随着人工智能的使用，伯克利计算机科学课程中数学技能的下降，不及格成绩飙升",
-      "summary_zh": "Article URL: https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.htm",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.387396+00:00"
-    },
-    {
-      "title": "京东方：玻璃基封装载板试验线良率尚未达到量产水平",
-      "url": "https://www.ithome.com/0/959/602.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-06-04T00:17:39+00:00",
-      "content": "IT之家 6 月 4 日消息，京东方 6 月 3 日发布投资者关系活动记录表，对玻璃基封装载板业务进行了披露。据介绍，该公司于 2024 年投资 9.93 亿元建设玻璃基封装载板试验线。目前已给部分国内客户送样，部分客户已通过概念认证，并进入技术测试阶段。截至目前，公司还未实现批量生产，该业务尚未实现量产营收，公司试验线良率尚未达到量产水平，何时达到具有重大不确定性。新业务合作方面，该公司近日与康宁公司签署了合作备忘录。公司在显示器件、显示模组、先进制造、工艺开发、应用创新及产业化落地等方面具备领先能力，康宁公司在玻璃材料、半导体应用先进材料与解决方案等方面具有显著优势，双方基于上述情况将围绕玻璃基封装载板、可折叠玻璃、钙钛矿玻璃基板、光互连相关应用等重点领域开展合作，共同探索具有商业潜力的技术与市场机会。IT之家注意到，京东方此前表示本次与康宁公司签署的是合作备忘录，仅为双方当前阶段的合作意向，除有关保密、知识产权、适用法律与争议解决以及责任限制条款明确约定具有法律约束力外，其他条款不具有法律约束力。玻璃基封装载板业务、钙钛矿业务、光互连业务，尚在技术探讨和验证阶段，还未量产，也未产生量产营收，未来公司能否、以及何时量产并实现相关领域的预期效益，存在重大不确定性。根据业务发展情况，预计未来 2-3 年内，上述业务都无法对公司经营业绩产生重大影响。",
-      "id": "3aa5050ebcec7c938c09256a77fe7f15",
-      "title_zh": "京东方：玻璃基封装载板试验线良率尚未达到量产水平",
-      "summary_zh": "IT之家 6 月 4 日消息，京东方 6 月 3 日发布投资者关系活动记录表，对玻璃基封装载板业务进行了披露。据介绍，该公司于 2024 年投资 9.93 亿元建设玻璃基封装载板试验线。目前已给部分国内客户送样，部分客户已通过概念认证，并进入技术测试阶段。截至目前，公司还未实现批量生产，该业务尚未实现量产营收，公司试验线良率尚未达到量产水平，何时达到具有重大不确定性。新业务合作方面，该公司近日与康",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.385239+00:00"
-    },
-    {
-      "title": "Asia-Pacific markets open lower on renewed Middle East tensions",
-      "url": "https://www.cnbc.com/2026/06/04/asia-markets-today-asx-nikkei-kospi-hang-seng-csi-300-sensex-oil.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-06-04T00:16:33+00:00",
-      "content": "Asia-Pacific markets open lower amid renewed tensions between Iran and the U.S. and worries that the conflict may keep inflation elevated.",
-      "id": "e59c6e481d1836ef1a6d0748767474ca",
-      "title_zh": "中东紧张局势再度升级，亚太市场开盘走低",
-      "summary_zh": "Asia-Pacific markets open lower amid renewed tensions between Iran and the U.S. and worries that the conflict may keep inflation elevated.",
-      "category": "宏观",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.384579+00:00"
-    },
-    {
-      "title": "任天堂确认：将在欧盟发售配备可更换电池的 Switch 2",
-      "url": "https://www.ithome.com/0/959/601.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-06-04T00:14:26+00:00",
-      "content": "IT之家 6 月 4 日消息，任天堂计划在欧盟地区推出可由用户自行便捷更换电池的 Switch 2 机型。欧盟一项新规将于 2027 年 2 月 18 日正式落地施行，为履行法规义务，任天堂在官网表示：“公司正落地相关整改方案，通过推出合规版本产品以满足该项法规要求。”IT之家注意到，得益于欧盟出台的相关法规，支持用户自主换电池的数码设备正在卷土重来。从 2027 年 2 月起，欧盟法规明确要求，包含掌上游戏机在内的多款便携数码产品，必须做到用户能够较为轻松地拆卸、更换设备电池。任天堂并未详细说明新款 Switch 2 会通过哪些硬件改动简化电池更换操作；维修机构 iFixit 此前拆解实测显示，更换 Switch 2 的电池是一个复杂的多步骤流程。目前无法确定这款可换电池的改版机型是否会登陆其他地区，任天堂暂未就此置评请求作出回应。",
-      "id": "1afffc0c3ac4599822a88dfe674582ba",
-      "title_zh": "任天堂确认：将在欧盟发售配备可更换电池的 Switch 2",
-      "summary_zh": "IT之家 6 月 4 日消息，任天堂计划在欧盟地区推出可由用户自行便捷更换电池的 Switch 2 机型。欧盟一项新规将于 2027 年 2 月 18 日正式落地施行，为履行法规义务，任天堂在官网表示：“公司正落地相关整改方案，通过推出合规版本产品以满足该项法规要求。”IT之家注意到，得益于欧盟出台的相关法规，支持用户自主换电池的数码设备正在卷土重来。从 2027 年 2 月起，欧盟法规明确要求，",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.385283+00:00"
-    },
-    {
-      "title": "DNS Is for People – Not for IT Infrastructure",
-      "url": "https://louwrentius.com/dns-is-for-people-not-for-it-infrastructure.html",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-06-04T00:12:50+00:00",
-      "content": "DNS Is for People – Not for IT Infrastructure. Score: 26, Comments: 21",
-      "id": "6fe2f963c130f910d76e5558019925f2",
-      "title_zh": "DNS 是为人服务的，而不是为 IT 基础设施服务的",
-      "summary_zh": "DNS Is for People – Not for IT Infrastructure. Score: 26, Comments: 21",
-      "category": "互联网",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.061281+00:00"
-    },
-    {
-      "title": "Reading MAI's efficiency gain. How to pick architectures like serious people",
-      "url": "https://idlemachines.co.uk/essays/efficiency-gain",
-      "source": "Hacker News",
-      "domain": "AI",
-      "published": "2026-06-04T00:05:15+00:00",
-      "content": "Reading MAI's efficiency gain. How to pick architectures like serious people. Score: 5, Comments: 0",
-      "id": "6ff64323627c7e523d2091494e625bc7",
-      "title_zh": "阅读 MAI 的效率增益。如何像严肃的人一样选择架构",
-      "summary_zh": "Reading MAI's efficiency gain. How to pick architectures like serious people. Score: 5, Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.061956+00:00"
-    },
-    {
-      "title": "Meta 推出商业智能体，欲借 AI 开拓广告之外的新营收渠道",
-      "url": "https://www.ithome.com/0/959/600.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-06-04T00:04:55+00:00",
-      "content": "IT之家 6 月 4 日消息，Meta 正谋求摆脱对广告业务的依赖、依托人工智能开拓新营收，如今将目光投向了热度爆棚的 AI 智能体市场。IT之家注意到，该公司于当地时间周三宣布推出全新功能 Meta 商业智能体（Meta Business Agent），可搭载于 WhatsApp、Messenger、Instagram 等多款旗下应用，实现自动回复客户咨询、商品推荐以及预约登记等服务。这项功能将纳入 Meta One 面向商户的付费订阅套餐。Meta 上周刚上线 Meta One 产品，旨在为内容创作者与企业打包提供高阶增值服务。彼时 Meta 还透露，即将为自家 Meta AI 移动端应用与官网开启订阅服务试点。Meta 首席执行官马克 · 扎克伯格周三在伦敦举办的企业活动上称：“今天我正式推出 Meta 商业智能体，助力大中小各类企业配备专属智能体，对接客户、协助日常经营。如今，伯明翰的服饰小店、圣保罗的烘焙作坊，都能比肩大型品牌，全天候提供高度定制化的客户服务。”自 2007 年 Facebook 上线精准用户广告业务起，扎克伯格依靠线上广告打造了成熟的盈利体系。目前 Meta 近 98% 的营收仍来自广告，多年来该公司在数码产品、实体商品销售领域的尝试屡屡受挫。人工智能虽已助力其稳固核心广告业务，但扎克伯格怀揣更大的 AI 布局目标，意在同 OpenAI、Anthropic、谷歌角逐前沿大模型研发与上层商业化服务市场。扎克伯格表示，Meta 目前正在“构建智能体能力”，可完成高级经营任务，例如给出企业拓客增收方案、整理行业竞品情报、实时复盘业务优劣得失。他在准备好的发言稿中表示：“随着自研大模型迭代升级，智能体能承接的工作会越来越多，最终实现全权代管企业全链路运营。”早在去年 10 月，Meta 就上线过该服务的免费测试版（当时定名 Business AI），仅在墨西哥、印度等部分国家限量开放试用。当下 AI 智能体赛道竞争日趋白热化，Meta 入局正逢群雄逐鹿阶段：亚马逊、微软近期接连发布自研智能体工具；英伟达首席执行官黄仁勋口中“人类史上最火爆的开源项目”OpenClaw，更是吸引海量 AI 用户涌入使用。对于已在用 WhatsApp 商业版平台的大型企业，这项全新 AI 智能体功能将采用按量计费模式，计费规则和企业在该软件向客户逐条发送消息的收费标准一致。Meta 介绍，商户还可接入全新 Meta 商业智能体开放平台，打通 Shopify（电商建站平台）、Zendesk（客户服务系统）等第三方数据源，依托消费者常用的通讯软件，落地个性化客户服务。",
-      "id": "8f5ea2ff38f5e8b0bb36065f5e4ccf67",
-      "title_zh": "Meta 推出商业智能体，欲借 AI 开拓广告之外的新营收渠道",
-      "summary_zh": "IT之家 6 月 4 日消息，Meta 正谋求摆脱对广告业务的依赖、依托人工智能开拓新营收，如今将目光投向了热度爆棚的 AI 智能体市场。IT之家注意到，该公司于当地时间周三宣布推出全新功能 Meta 商业智能体（Meta Business Agent），可搭载于 WhatsApp、Messenger、Instagram 等多款旗下应用，实现自动回复客户咨询、商品推荐以及预约登记等服务。这项功能将",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.385370+00:00"
-    },
-    {
-      "title": "Treasury Wine Surges as CEO Reveals Review of US Operations",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/treasury-wine-flags-lower-earnings-and-focus-on-luxury-market",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-06-04T00:04:00+00:00",
-      "content": "Shares in Australian vintner Treasury Wine Estates Ltd. jumped by the most in six weeks after it unveiled plans to review its long-troubled US operations, with Chief Executive Officer Sam Fischer saying he wasn’t seeing the results he expected from its American brands.",
-      "id": "d45137524bba7dde817769056f758281",
-      "title_zh": "首席执行官透露对美国业务的审查后，富邑葡萄酒价格飙升",
-      "summary_zh": "Shares in Australian vintner Treasury Wine Estates Ltd. jumped by the most in six weeks after it unveiled plans to review its long-troubled US operations, with Chief Executive Officer Sam Fischer sayi",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-06-04T05:32:44.058103+00:00"
-    },
-    {
-      "title": "Why we're raising our price target on Broadcom despite its post-earnings sell-off",
-      "url": "https://www.cnbc.com/2026/06/03/why-were-raising-our-price-target-on-broadcom-despite-sell-off-.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-06-04T00:01:34+00:00",
-      "content": "Broadcom's AI business will continue to shine and outpace the conservative forecast.",
-      "id": "c97c81119b8b0d93800f66c04f27f3f8",
-      "title_zh": "尽管博通财报后遭抛售，但我们为何仍上调博通的目标价",
-      "summary_zh": "Broadcom's AI business will continue to shine and outpace the conservative forecast.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.384601+00:00"
-    },
-    {
-      "title": "The Ü Programming Language",
-      "url": "https://github.com/Panzerschrek/U-00DC-Sprache/",
-      "source": "Hacker News",
-      "domain": "科技",
-      "published": "2026-06-04T00:00:04+00:00",
-      "content": "The Ü Programming Language. Score: 5, Comments: 1",
-      "id": "901cc9ef6bc06a3d992e2eb2c072d4de",
-      "title_zh": "Ü 编程语言",
-      "summary_zh": "The Ü Programming Language. Score: 5, Comments: 1",
-      "category": "开发",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.386645+00:00"
-    },
-    {
-      "title": "Amazon engineers in Seattle slam employer for building AI data centers while laying off 30,000 staffers",
-      "url": "https://www.cnbc.com/2026/06/03/amazon-engineers-in-seattle-slam-employer-for-ai-data-amid-layoffs.html",
-      "source": "CNBC",
-      "domain": "经济",
-      "published": "2026-06-04T00:00:02+00:00",
-      "content": "Amazon engineers called out their employer for conducting mass layoffs while it commits to spending $200 billion this year on AI infrastructure.",
-      "id": "c029f49083d1458ea8ee43f7706f6592",
-      "title_zh": "亚马逊西雅图工程师抨击雇主建设人工智能数据中心并解雇 3 万名员工",
-      "summary_zh": "Amazon engineers called out their employer for conducting mass layoffs while it commits to spending $200 billion this year on AI infrastructure.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.384555+00:00"
-    },
-    {
-      "title": "Biodefense in the Intelligence Age",
-      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "source": "OpenAI Blog",
-      "domain": "AI",
-      "published": "2026-06-04T00:00:00+00:00",
-      "content": "An action plan for AI-powered biological resilience",
-      "id": "5be6c3392056eeba4da59e02321d3d50",
-      "title_zh": "智能时代的生物防御",
-      "summary_zh": "An action plan for AI-powered biological resilience",
-      "category": "研究",
-      "tags": [],
-      "collected": "2026-06-04T21:22:43.731667+00:00"
-    },
-    {
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "source": "Hugging Face Blog",
-      "domain": "AI",
-      "published": "2026-06-04T00:00:00+00:00",
-      "content": "",
-      "id": "4da7ced3f30a41f2b21e0aea0ae59d1c",
-      "title_zh": "将 hf CLI 设计为与 Hub 配合使用的代理优化方式",
-      "summary_zh": "",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-06-04T16:16:56.021749+00:00"
-    },
-    {
-      "title": "微软重押 Win11 原生应用：WinUI 3 改名 WinUI，承诺不再另起新 UI 框架",
-      "url": "https://www.ithome.com/0/959/599.htm",
-      "source": "IT之家",
-      "domain": "科技",
-      "published": "2026-06-03T23:58:51+00:00",
-      "content": "IT之家 6 月 4 日消息，科技媒体 Windows Central 昨日（6 月 3 日）发布博文，报道称在 Build 2026 开发者大会上，微软把 Windows 11 原生应用重新推到台前。微软确认 WinUI 是 Windows 应用的最优生产平台，并放弃 WinUI 3 编号，改称 WinUI。微软承诺不会再另起新框架，让开发者不用担心路线突然变化。WinUI 3 界面示意图这次表态关联微软内部正在推进的 Windows K2 计划，目标重建 Windows 11 系统。微软此前承诺提升系统质量、性能和可靠性，并已组建新团队开发 Windows 11 原生应用，目前已着手推进开始菜单、文件管理器等相关组件改造。IT之家附上相关截图如下：无推荐区域的开始菜单为了补齐基础体验，微软把重点放在稳定性、内存占用和开发工具上。微软软件工程副总裁 Chris Anderson 表示，公司已投入资源改善内存使用，并切换到 System Compositor（系统合成器）。WinUI 3 Gallery 界面微软还邀请企业开发者共同推进 WinUI 生态建设，将推出 DataGrid 和 Charting 相关支持，这两类控件常见于财务应用、人力资源仪表盘、管理工具和计费软件，能让企业团队更容易用 WinUI 搭建数据密集型界面。微软还透露 WinUI 正积极适配 AI 智能体开发，让 AI 工具帮助开发者规划、构建、优化 WinUI 应用。微软 AI 工具辅助 WinUI 应用微软称，新平台能力可用于创建新应用、改造现有应用，或把旧应用迁移到现代 Windows UI 技术栈。AI Agent 辅助 WinUI 开发",
-      "id": "13b1e254302fe55ffe05f6d176b2e035",
-      "title_zh": "微软重押 Win11 原生应用：WinUI 3 改名 WinUI，承诺不再另起新 UI 框架",
-      "summary_zh": "IT之家 6 月 4 日消息，科技媒体 Windows Central 昨日（6 月 3 日）发布博文，报道称在 Build 2026 开发者大会上，微软把 Windows 11 原生应用重新推到台前。微软确认 WinUI 是 Windows 应用的最优生产平台，并放弃 WinUI 3 编号，改称 WinUI。微软承诺不会再另起新框架，让开发者不用担心路线突然变化。WinUI 3 界面示意图这次表",
-      "category": "软件",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.385439+00:00"
-    },
-    {
-      "title": "Liable Humans for AI Deployments",
-      "url": "https://liablehuman.com/",
-      "source": "Hacker News AI",
-      "domain": "AI",
-      "published": "2026-06-03T23:58:19+00:00",
-      "content": "Article URL: https://liablehuman.com/\nComments URL: https://news.ycombinator.com/item?id=48391824\nPoints: 1\n# Comments: 0",
-      "id": "f8f9fa9b71a70f1ed5c5b2597dfa1f74",
-      "title_zh": "人工智能部署的责任人",
-      "summary_zh": "Article URL: https://liablehuman.com/ Comments URL: https://news.ycombinator.com/item?id=48391824 Points: 1 # Comments: 0",
-      "category": "LLM",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.387436+00:00"
-    },
-    {
-      "title": "Rupiah Near 18,000 Level Has Markets on Guard for Intervention",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-03/idr-usd-rupiah-near-18-000-level-has-markets-on-guard-for-intervention",
-      "source": "Bloomberg Markets",
-      "domain": "经济",
-      "published": "2026-06-03T23:57:52+00:00",
-      "content": "The Indonesian rupiah is closing in on a key psychological level, putting market watchers on watch for a stronger response from the central bank.",
-      "id": "2e320c474bf13d26e2faa93925a738ae",
-      "title_zh": "卢比接近 18,000 水平，市场警惕干预",
-      "summary_zh": "The Indonesian rupiah is closing in on a key psychological level, putting market watchers on watch for a stronger response from the central bank.",
-      "category": "市场",
-      "tags": [],
-      "collected": "2026-06-04T00:26:42.384236+00:00"
     }
   ],
   "digest": {
     "AI": [
       {
         "rank": 1,
-        "title": "AI现在可以控制你的桌面",
-        "summary": "研究表明AI能够控制用户桌面，引发关于人机交互和自动化边界的讨论。",
-        "url": "https://clawdcursor.com",
-        "source": "Hacker News AI",
-        "category": "研究"
+        "title": "代币经济学：量化代币在代理软件工程中的使用情况",
+        "summary": "探讨了在代理软件工程中量化代币经济学的应用与价值。",
+        "url": "https://arxiv.org/abs/2601.14470",
+        "source": "Hacker News",
+        "category": "LLM"
       },
       {
         "rank": 2,
-        "title": "OpenAI推出锁定模式以保护敏感数据免受即时注入攻击",
-        "summary": "OpenAI引入锁定模式，旨在防止敏感数据被AI模型即时注入攻击泄露。",
-        "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
-        "source": "TechCrunch AI",
+        "title": "问 HN：您从哪里获得有关人工智能的最新动态？",
+        "summary": "用户在 Hacker News 上讨论获取 AI 最新信息的渠道和方法。",
+        "url": "https://news.ycombinator.com/item?id=48430864",
+        "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 3,
-        "title": "AI引发的大规模裁员",
-        "summary": "AI技术的快速发展正导致一些行业出现大规模裁员现象。",
-        "url": "https://olegdubovoi.com/thoughts/2026-06-04-mass-layoffs-caused-by-ai/",
+        "title": "亚马逊何时可以阻止代理人工智能服务？——亚马逊 vs. Perplexity",
+        "summary": "分析了亚马逊在阻止代理人工智能服务方面的能力，以及与 Perplexity 的潜在竞争。",
+        "url": "https://blog.ericgoldman.org/archives/2026/06/when-can-amazon-block-an-agentic-ai-service-amazon-v-perplexity-guest-blog-post.htm",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 4,
-        "title": "专家和超级预测家更新他们的人工智能时间表",
-        "summary": "专家和预测家对人工智能发展时间表进行了更新，预示着AI的未来进展。",
-        "url": "https://forecastingresearch.substack.com/p/leap-wave-8-ai-timelines",
+        "title": "人工智能焦虑是否导致了 Vibecession？一项调查",
+        "summary": "一项调查探讨了人工智能焦虑与所谓的“Vibecession”（一种经济低迷的感觉）之间的关联。",
+        "url": "https://kevinonthemargin.com/is-ai-anxiety-causing-the-vibecession-an-investigation/",
         "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 5,
+        "title": "人工智能是人类发明的最浪费钱的方案",
+        "summary": "文章对人工智能的成本效益提出了质疑，认为其可能是最浪费钱的发明。",
+        "url": "https://www.telegraph.co.uk/news/2026/06/04/ai-is-the-greatest-money-wasting-scheme-humanity-has-ever-i/",
+        "source": "Hacker News AI",
+        "category": "LLM"
+      },
+      {
+        "rank": 6,
+        "title": "AI 现在可以控制你的桌面",
+        "summary": "研究表明，AI 技术已发展到可以完全控制用户桌面操作的程度。",
+        "url": "https://clawdcursor.com",
+        "source": "Hacker News AI",
+        "category": "研究"
+      },
+      {
+        "rank": 7,
         "title": "为什么我们不测量人工智能如何影响人类？",
-        "summary": "文章探讨了当前AI研究中缺乏对人类影响的全面衡量，呼吁关注AI的社会效应。",
+        "summary": "文章提出疑问，为何社会尚未有效测量和评估 AI 对人类产生的具体影响。",
         "url": "https://spectrum.ieee.org/measuring-ai-societal-impact-khan",
         "source": "Hacker News AI",
         "category": "研究"
       },
       {
-        "rank": 6,
-        "title": "通用内存协议——代理内存的共享格式",
-        "summary": "提出了一个通用内存协议，旨在为代理内存提供共享格式，推动AI代理的发展。",
-        "url": "https://universalmemoryprotocol.io/",
-        "source": "Hacker News",
-        "category": "LLM"
-      },
-      {
-        "rank": 7,
-        "title": "AI内存效率低下：Tenure项目检测到95%的错误率",
-        "summary": "Tenure项目研究发现AI内存存在效率问题，错误率高达95%。",
-        "url": "https://zamin.uz/en/technology/205592-ai-memory-proves-inefficient-tenure-project-detects-95-error-rate.html",
-        "source": "Hacker News AI",
-        "category": "LLM"
-      },
-      {
         "rank": 8,
-        "title": "Meta证实数千个Instagram账户因滥用人工智能聊天机器人而被黑客入侵",
-        "summary": "Meta公司披露，部分Instagram账户因滥用AI聊天机器人而被黑客入侵。",
-        "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
-        "source": "Hacker News",
+        "title": "专家和超级预测家更新他们的人工智能时间表",
+        "summary": "专家和预测者更新了对人工智能发展时间表的预测。",
+        "url": "https://forecastingresearch.substack.com/p/leap-wave-8-ai-timelines",
+        "source": "Hacker News AI",
         "category": "LLM"
       },
       {
         "rank": 9,
-        "title": "HIPAA合规性 – Shieldra.ai上线",
-        "summary": "Shieldra.ai上线，专注于提供符合HIPAA标准的AI解决方案。",
-        "url": "https://www.shieldra.ai/",
+        "title": "科学家表示，人工智能可以推动解决其带来的问题的进步",
+        "summary": "科学家认为，AI 技术不仅会带来问题，也能推动解决这些问题的解决方案。",
+        "url": "https://www.rnz.co.nz/news/science-and-technology/597458/ai-could-drive-advances-that-solve-the-problems-it-brings-computer-scientist-suggests",
         "source": "Hacker News AI",
-        "category": "研究"
+        "category": "LLM"
       },
       {
         "rank": 10,
-        "title": "人工智能爱好者与时间赛跑，怀疑论者与熵赛跑",
-        "summary": "文章描绘了AI领域中，乐观主义者与悲观主义者之间关于AI发展的赛跑。",
-        "url": "https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against",
-        "source": "Hacker News",
+        "title": "OpenAI 推出锁定模式以保护敏感数据免受即时注入攻击",
+        "summary": "OpenAI 发布锁定模式，旨在保护用户敏感数据免受即时注入攻击。",
+        "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+        "source": "TechCrunch AI",
         "category": "LLM"
       }
     ],
     "安全": [
       {
         "rank": 1,
-        "title": "CISA：黑客现在利用SolarWinds Serv-U缺陷导致服务器崩溃",
-        "summary": "CISA警告，黑客正在利用SolarWinds Serv-U的漏洞，导致服务器崩溃。",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-        "source": "BleepingComputer",
-        "category": "漏洞"
-      },
-      {
-        "rank": 2,
-        "title": "AI Agent发现FFmpeg中的21个零日漏洞；Chrome补丁记录429个Bug",
-        "summary": "AI代理在FFmpeg中发现了21个零日漏洞，同时Chrome修复了大量Bug。",
-        "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-        "source": "The Hacker News",
-        "category": "漏洞"
-      },
-      {
-        "rank": 3,
-        "title": "Miasma蠕虫在重大供应链攻击中袭击了73个Microsoft GitHub存储库",
-        "summary": "Miasma蠕虫通过供应链攻击，感染了73个Microsoft GitHub存储库。",
-        "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-        "source": "The Hacker News",
-        "category": "漏洞"
-      },
-      {
-        "rank": 4,
-        "title": "CISA将被积极利用的SolarWinds Serv-U DoS漏洞添加到KEV目录中",
-        "summary": "CISA将SolarWinds Serv-U的DoS漏洞列入KEV目录，因其已被积极利用。",
-        "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-        "source": "The Hacker News",
-        "category": "漏洞"
-      },
-      {
-        "rank": 5,
-        "title": "新的ChatGPT锁定模式限制了可能导致数据泄露的工具",
-        "summary": "ChatGPT推出的锁定模式，旨在限制可能导致数据泄露的工具使用。",
-        "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
-        "source": "The Hacker News",
-        "category": "攻防"
-      },
-      {
-        "rank": 6,
-        "title": "中国APT部署新恶意软件以保持对被黑网络的访问",
-        "summary": "中国APT组织部署新型恶意软件，以维持对被攻陷网络的访问。",
-        "url": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-        "source": "BleepingComputer",
-        "category": "攻防"
-      },
-      {
-        "rank": 7,
-        "title": "Everest Forms Pro严重缺陷被利用来接管WordPress网站",
-        "summary": "Everest Forms Pro存在严重漏洞，被攻击者利用以控制WordPress网站。",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
-        "source": "BleepingComputer",
-        "category": "漏洞"
-      },
-      {
-        "rank": 8,
-        "title": "IronWorm和新的瘴气蠕虫变种在供应链攻击中袭击了npm",
-        "summary": "IronWorm和Miasma蠕虫的新变种，通过供应链攻击影响了npm。",
-        "url": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-        "source": "The Hacker News",
-        "category": "攻防"
-      },
-      {
-        "rank": 9,
-        "title": "OWASP孵化器项目帮助开发人员在几秒钟内找到并修复易受攻击的依赖项",
-        "summary": "OWASP孵化器项目为开发人员提供工具，快速定位和修复有漏洞的依赖。",
-        "url": "https://www.securityweek.com/owasp-incubator-project-helps-developers-find-and-fix-vulnerable-dependencies-in-seconds/",
-        "source": "SecurityWeek",
-        "category": "漏洞"
-      },
-      {
-        "rank": 10,
-        "title": "互联网时代之门是一个日益严重的全球威胁",
-        "summary": "文章指出，“互联网时代之门”正成为一个日益严峻的全球性安全威胁。",
-        "url": "https://www.eff.org/deeplinks/2026/06/internet-age-gates-are-growing-global-threat",
-        "source": "Hacker News",
-        "category": "攻防"
-      }
-    ],
-    "经济": [
-      {
-        "rank": 1,
-        "title": "欧洲央行成为七国集团的领头鹰，准备加息",
-        "summary": "欧洲央行在G7中扮演领导角色，准备实施加息措施。",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-06/ecb-steps-up-as-g7-s-lead-hawk-with-interest-rate-hike-primed",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 2,
-        "title": "中国电动汽车可能会在几年内以某种方式冲击美国",
-        "summary": "文章预测，中国电动汽车未来几年内可能对美国市场产生重大影响。",
-        "url": "https://www.cnbc.com/2026/06/06/chinese-evs-auto-sales-manufacturing-us.html",
-        "source": "CNBC",
-        "category": "市场"
-      },
-      {
-        "rank": 3,
-        "title": "达美航空的Peter Carter谈消费者高端旅行需求",
-        "summary": "达美航空高管Peter Carter就消费者高端旅行需求发表看法。",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-06/delta-s-peter-carter-on-consumer-premium-travel-appetite-video",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 4,
-        "title": "哈佛大学教授表示，Z世代的远程工作职业风险“虽然微妙，但却是重大的”：如何避免陷阱",
-        "summary": "哈佛教授分析了Z世代远程工作面临的潜在风险，并提供规避建议。",
-        "url": "https://www.cnbc.com/2026/06/06/remote-work-career-risks-for-gen-z-how-to-avoid-the-pitfalls.html",
-        "source": "CNBC",
-        "category": "市场"
-      },
-      {
-        "rank": 5,
-        "title": "以下是推动股市旋风一周的三大力量",
-        "summary": "分析了本周推动股市剧烈波动的三个主要驱动因素。",
-        "url": "https://www.cnbc.com/2026/06/06/here-are-3-forces-that-drove-a-whirlwind-week-for-the-stock-market.html",
-        "source": "CNBC",
-        "category": "市场"
-      },
-      {
-        "rank": 6,
-        "title": "国际航空运输协会(IATA)总监威利·沃尔什(Willie Walsh)谈航空燃油成本上涨",
-        "summary": "国际航空运输协会总监讨论了航空燃油价格上涨对行业的影响。",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-06/iata-director-willie-walsh-on-rising-cost-of-jet-fuel-video",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 7,
-        "title": "DoubleLine、Oaktree为潜在的人工智能难题提供支持",
-        "summary": "DoubleLine和Oaktree等公司正在为人工智能相关挑战提供金融支持。",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-06/doubleline-oaktree-brace-for-potential-ai-pain-credit-weekly",
-        "source": "Bloomberg Markets",
-        "category": "市场"
-      },
-      {
-        "rank": 8,
-        "title": "比特币正在崩溃，但华尔街新的加密货币炒作正在兴起",
-        "summary": "在比特币价格下跌的同时，华尔街对其他加密货币的炒作正在升温。",
-        "url": "https://www.cnbc.com/2026/06/06/bitcoin-price-crash-crypto-hype-hyperliquid-etfs.html",
-        "source": "CNBC",
-        "category": "加密"
-      },
-      {
-        "rank": 9,
-        "title": "美联储巴尔警告称，华尔街银行规则宽松可能带来风险",
-        "summary": "美联储官员巴尔警告，放松对华尔街银行的监管可能带来潜在风险。",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-06/fed-s-barr-warns-of-risks-tied-to-looser-wall-street-bank-rules",
-        "source": "Bloomberg Markets",
-        "category": "宏观"
-      },
-      {
-        "rank": 10,
-        "title": "玻利维亚开采矿产资源的计划如何受到大规模骚乱的考验",
-        "summary": "文章探讨了玻利维亚的矿产资源开采计划如何因大规模骚乱而面临挑战。",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-06/why-protests-are-threatening-bolivia-s-investment-push-video",
-        "source": "Bloomberg Markets",
-        "category": "宏观"
-      }
-    ],
-    "科技": [
-      {
-        "rank": 1,
-        "title": "相当于60亿倍太阳，韦布望远镜首次测出百亿光年外休眠黑洞质量",
-        "summary": "韦布望远镜首次精确测量到百亿光年外的休眠黑洞质量，质量是太阳的60亿倍。",
-        "url": "https://www.ithome.com/0/960/997.htm",
-        "source": "IT之家",
-        "category": "软件"
-      },
-      {
-        "rank": 2,
-        "title": "我国清洁低碳氢煤混烧技术取得重大突破：首次实现50%绿氢大比例掺烧以及100%纯氢燃烧",
-        "summary": "中国在氢煤混烧技术上实现突破，能实现50%绿氢掺烧和100%纯氢燃烧。",
-        "url": "https://www.ithome.com/0/960/996.htm",
-        "source": "IT之家",
-        "category": "软件"
-      },
-      {
-        "rank": 3,
-        "title": "IT早报0607：字节跳动否认造车传闻；比亚迪腾势Z超跑“黑武士”实车曝光；减少礼貌用语可让AI能耗降低25%；曝苹果iOS27将改善iPhone17等机型续航...",
-        "summary": "科技早报包含字节跳动造车传闻、比亚迪新车、AI能耗优化及苹果iOS新特性。",
-        "url": "https://www.ithome.com/0/960/995.htm",
-        "source": "IT之家",
-        "category": "硬件"
-      },
-      {
-        "rank": 4,
-        "title": "Sem：代码理解的新原语——不是LSP，而是Git之上的实体",
-        "summary": "提出Sem，一种基于Git的代码理解新原语，而非传统的LSP。",
-        "url": "",
-        "source": "",
-        "category": ""
-      },
-      {
-        "rank": 5,
-        "title": "微软警告称ClaudeCode存在漏洞，可能导致GitHub账号凭证泄露",
-        "summary": "微软发出警告，ClaudeCode存在漏洞，可能导致GitHub账户凭证泄露。",
-        "url": "https://www.ithome.com/0/960/994.htm",
-        "source": "IT之家",
-        "category": "软件"
-      },
-      {
-        "rank": 6,
-        "title": "iFixit拆解华强北山寨Apple Watch Ultra 3、AirPods Max 2、AirPods Pro 3：内部做工粗劣，核心功能缺失",
-        "summary": "iFixit拆解了山寨Apple产品，发现其做工粗劣且核心功能缺失。",
-        "url": "https://www.ithome.com/0/960/992.htm",
-        "source": "IT之家",
-        "category": "软件"
-      },
-      {
-        "rank": 7,
-        "title": "大疆储能官宣6月8日发布新品：“高能尽显”",
-        "summary": "大疆宣布将于6月8日发布新款储能产品，主打“高能尽显”。",
-        "url": "https://www.ithome.com/0/960/993.htm",
-        "source": "IT之家",
-        "category": "互联网"
-      },
-      {
-        "rank": 8,
-        "title": "NTSC-RS – 模拟电视和VHS工件的开源视频仿真",
-        "summary": "NTSC-RS是一个开源项目，用于模拟老式电视和VHS录像机的视觉效果。",
-        "url": "https://ntsc.rs/",
-        "source": "Hacker News",
-        "category": "互联网"
-      },
-      {
-        "rank": 9,
-        "title": "香港超越瑞士成为最大跨境财富中心",
-        "summary": "香港已取代瑞士，成为全球最大的跨境财富管理中心。",
-        "url": "https://www.bcg.com/press/27may2026-hong-kong-surpasses-switzerland-largest-cross-border-wealth-hub",
-        "source": "Hacker News",
-        "category": "软件"
-      },
-      {
-        "rank": 10,
-        "title": "“正在制造的唯一卡式机构”神话已破灭[视频]",
-        "summary": "视频揭示了关于“正在制造的唯一卡式机构”的神话已被打破。",
-        "url": "https://www.youtube.com/watch?v=dYeY4DvlFDs",
-        "source": "Hacker News",
-        "category": "互联网"
-      }
-    ],
-    "国际": [
-      {
-        "rank": 1,
         "title": "五角大楼看到来自以色列的间谍威胁日益增长",
-        "summary": "五角大楼报告称，来自以色列的情报监视威胁正在不断增加。",
+        "summary": "美国国防部报告称，来自以色列的间谍威胁正在不断增长。",
         "url": "https://www.nytimes.com/2026/06/06/us/politics/pentagon-sees-growing-espionage-threat-from-israel.html",
         "source": "Hacker News",
         "category": "攻防"
       },
       {
         "rank": 2,
-        "title": "伊朗战争临近100天",
-        "summary": "伊朗相关冲突已接近100天，表明地区紧张局势持续。",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-06/war-in-iran-approaches-100-day-mark-video",
+        "title": "Everest Forms Pro 严重缺陷被利用来接管 WordPress 网站",
+        "summary": "WordPress 插件 Everest Forms Pro 的严重漏洞正被积极利用，导致网站被劫持。",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+        "source": "BleepingComputer",
+        "category": "漏洞"
+      },
+      {
+        "rank": 3,
+        "title": "新的 ChatGPT 锁定模式限制了可能导致数据泄露的工具",
+        "summary": "ChatGPT 新增锁定模式，限制可能引发数据泄露的工具使用。",
+        "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+        "source": "The Hacker News",
+        "category": "攻防"
+      },
+      {
+        "rank": 4,
+        "title": "AI Agent 发现 FFmpeg 中的 21 个零日漏洞； Chrome 补丁记录 429 个 Bug",
+        "summary": "AI Agent 发现了 FFmpeg 中的 21 个零日漏洞，同时 Chrome 修复了 429 个 Bug。",
+        "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+        "source": "The Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 5,
+        "title": "CISA 将被积极利用的 SolarWinds Serv-U DoS 漏洞添加到 KEV 目录中",
+        "summary": "CISA 将 SolarWinds Serv-U 的高危 DoS 漏洞列入强制性漏洞报告目录。",
+        "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+        "source": "The Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 6,
+        "title": "Miasma 蠕虫在重大供应链攻击中袭击了 73 个 Microsoft GitHub 存储库",
+        "summary": "Miasma 蠕虫通过供应链攻击，感染了 73 个 Microsoft 的 GitHub 仓库。",
+        "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+        "source": "The Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 7,
+        "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 漏洞被积极利用 - 无可用补丁",
+        "summary": "Cisco Catalyst SD-WAN Manager 的一个漏洞正被积极利用，目前尚无可用补丁。",
+        "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+        "source": "The Hacker News",
+        "category": "漏洞"
+      },
+      {
+        "rank": 8,
+        "title": "对等互连的转变威胁着互联网的基础",
+        "summary": "互联网对等互连模式的转变对网络基础设施构成了潜在威胁。",
+        "url": "https://www.internetsociety.org/blog/2026/06/the-shift-in-peering-threatening-the-internets-foundations/",
+        "source": "Hacker News",
+        "category": "攻防"
+      },
+      {
+        "rank": 9,
+        "title": "中国 APT 部署新恶意软件以保持对被黑网络的访问",
+        "summary": "中国的 APT 组织部署了新的恶意软件，以维持对被攻陷网络的长期访问。",
+        "url": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      },
+      {
+        "rank": 10,
+        "title": "OWASP 孵化器项目帮助开发人员在几秒钟内找到并修复易受攻击的依赖项",
+        "summary": "OWASP 孵化器项目致力于帮助开发人员快速发现和修复存在漏洞的依赖项。",
+        "url": "https://www.securityweek.com/owasp-incubator-project-helps-developers-find-and-fix-vulnerable-dependencies-in-seconds/",
+        "source": "SecurityWeek",
+        "category": "漏洞"
+      }
+    ],
+    "经济": [
+      {
+        "rank": 1,
+        "title": "全球最热门的市场让韩国多头寻求保护",
+        "summary": "全球热门市场表现强劲，推动韩国多头投资者寻求风险保护。",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-07/world-s-hottest-market-korea-has-bulls-reaching-for-protection",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 2,
+        "title": "达美航空中东航班和高级旅行总裁",
+        "summary": "达美航空讨论中东地区航班和高端旅行市场的发展。",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-06/delta-president-on-middle-east-flights-premium-travel",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 3,
-        "title": "美国应届大学毕业生的失业率现在高于普通工人",
-        "summary": "文章指出，美国应届大学毕业生的失业率已超过普通劳动者。",
-        "url": "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/",
-        "source": "Hacker News",
-        "category": "LLM"
+        "title": "达美航空的 Peter Carter 谈消费者高端旅行需求",
+        "summary": "达美航空代表 Peter Carter 探讨了消费者高端旅行需求的现状。",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-06/delta-s-peter-carter-on-consumer-premium-travel-appetite-video",
+        "source": "Bloomberg Markets",
+        "category": "市场"
       },
       {
         "rank": 4,
-        "title": "特朗普签署行政命令，在前沿模型发布之前进行人工智能测试",
-        "summary": "美国总统特朗普签署行政命令，要求在前沿AI模型发布前进行测试。",
-        "url": "https://thezvi.substack.com/p/trump-signs-executive-order-for-ai",
-        "source": "Hacker News AI",
-        "category": "AI产品"
+        "title": "捷蓝航空首席执行官谈论国际航空运输协会的潜在整合",
+        "summary": "捷蓝航空 CEO 就国际航空运输协会 (IATA) 的潜在整合发表看法。",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-06/jetblue-ceo-speaks-on-potential-consolidation-at-iata-video",
+        "source": "Bloomberg Markets",
+        "category": "市场"
       },
       {
         "rank": 5,
-        "title": "国际航空运输协会航空运输滞胀与挑战总监",
-        "summary": "文章讨论了国际航空运输协会在航空运输领域面临的滞胀和挑战。",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-06/iata-director-on-air-transport-stagflation-challenges-video",
+        "title": "欧洲央行成为七国集团的领头鹰，准备加息",
+        "summary": "欧洲央行在 G7 中采取领先姿态，准备实施加息政策。",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-06/ecb-steps-up-as-g7-s-lead-hawk-with-interest-rate-hike-primed",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
         "rank": 6,
+        "title": "国际航空运输协会 (IATA) 总监威利·沃尔什 (Willie Walsh) 谈航空燃油成本上涨",
+        "summary": "IATA 总监 Willie Walsh 讨论了航空燃油成本上升对行业的影响。",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-06/iata-director-willie-walsh-on-rising-cost-of-jet-fuel-video",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 7,
+        "title": "DoubleLine、Oaktree 为潜在的人工智能难题提供支持",
+        "summary": "DoubleLine 和 Oaktree 为可能出现的人工智能相关金融难题提供支持。",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-06/doubleline-oaktree-brace-for-potential-ai-pain-credit-weekly",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 8,
+        "title": "以下是推动股市旋风一周的三大力量",
+        "summary": "文章分析了本周推动股市剧烈波动的三个主要因素。",
+        "url": "https://www.cnbc.com/2026/06/06/here-are-3-forces-that-drove-a-whirlwind-week-for-the-stock-market.html",
+        "source": "CNBC",
+        "category": "市场"
+      },
+      {
+        "rank": 9,
+        "title": "美联储巴尔警告称，华尔街银行规则宽松可能带来风险",
+        "summary": "美联储的巴尔警告称，华尔街银行业监管宽松可能带来潜在风险。",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-06/fed-s-barr-warns-of-risks-tied-to-looser-wall-street-bank-rules",
+        "source": "Bloomberg Markets",
+        "category": "宏观"
+      },
+      {
+        "rank": 10,
+        "title": "中国电动汽车可能会在几年内以某种方式冲击美国",
+        "summary": "文章预测中国电动汽车将在未来几年对美国市场产生重大影响。",
+        "url": "https://www.cnbc.com/2026/06/06/chinese-evs-auto-sales-manufacturing-us.html",
+        "source": "CNBC",
+        "category": "市场"
+      }
+    ],
+    "科技": [
+      {
+        "rank": 1,
+        "title": "华为鸿蒙 HarmonyOS API 设备量占比最新数据公布，6.1.0 以下版本合计不足 10%",
+        "summary": "华为 HarmonyOS API 设备量数据显示，6.1.0 以下版本占比不足 10%。",
+        "url": "https://www.ithome.com/0/961/026.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 2,
+        "title": "ASML CEO 富凯：欧盟不应该干预企业战略项目",
+        "summary": "ASML CEO 富凯认为欧盟不应干预公司的战略项目。",
+        "url": "https://www.ithome.com/0/961/024.htm",
+        "source": "IT之家",
+        "category": "硬件"
+      },
+      {
+        "rank": 3,
+        "title": "国际空间站俄舱段维修，专家称漏气问题加剧但仍安全",
+        "summary": "国际空间站俄舱段正在维修，专家表示漏气问题加剧但整体安全。",
+        "url": "https://www.ithome.com/0/961/023.htm",
+        "source": "IT之家",
+        "category": "互联网"
+      },
+      {
+        "rank": 4,
+        "title": "韩国劳动部长呼吁科技巨头分享 AI 超额利润，以缩小社会贫富差距",
+        "summary": "韩国劳动部长呼吁科技巨头分享 AI 利润，以缓解社会贫富差距。",
+        "url": "https://www.ithome.com/0/961/019.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 5,
+        "title": "卡普空《生化危机：代号维罗妮卡》重制版支持中文配音，Steam 页面公开",
+        "summary": "卡普空确认《生化危机：代号维罗妮卡》重制版将支持中文配音，并在 Steam 上公开了页面。",
+        "url": "https://www.ithome.com/0/961/017.htm",
+        "source": "IT之家",
+        "category": "互联网"
+      },
+      {
+        "rank": 6,
+        "title": "美国全面推进 AI 军事应用，特朗普要求 90 天内修订自主武器规则",
+        "summary": "美国正加速 AI 在军事领域的应用，特朗普要求 90 天内修订自主武器规则。",
+        "url": "https://www.ithome.com/0/961/014.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 7,
+        "title": "消息称 Meta 拟通过股票发行募资数百亿美元，为 AI 业务扩张提供资金",
+        "summary": "Meta 计划通过股票发行筹集巨额资金，以支持其 AI 业务的扩张。",
+        "url": "https://www.ithome.com/0/961/011.htm",
+        "source": "IT之家",
+        "category": "互联网"
+      },
+      {
+        "rank": 8,
+        "title": "“驼峰”1500H 重载无人机在重庆首飞：最大起飞 1.5 吨、载重 700 公斤",
+        "summary": "“驼峰”1500H 重载无人机在重庆成功首飞，具备强大的起飞和载重能力。",
+        "url": "https://www.ithome.com/0/961/010.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 9,
+        "title": "特斯拉 Grok 车载 AI 助手全球版图再扩张，登陆智利、马来西亚等市场",
+        "summary": "特斯拉的 Grok 车载 AI 助手已扩展到智利、马来西亚等更多国际市场。",
+        "url": "https://www.ithome.com/0/961/007.htm",
+        "source": "IT之家",
+        "category": "软件"
+      },
+      {
+        "rank": 10,
+        "title": "泰坦军团推出“C32A1S+”31.5 英寸曲面显示器：2K 275Hz HVA 面板，1550 元",
+        "summary": "泰坦军团发布新款 31.5 英寸曲面显示器，拥有 2K 分辨率和 275Hz 刷新率。",
+        "url": "https://www.ithome.com/0/961/027.htm",
+        "source": "IT之家",
+        "category": "互联网"
+      }
+    ],
+    "国际": [
+      {
+        "rank": 1,
+        "title": "伊拉克战争临近 100 天",
+        "summary": "报道关注伊拉克战争即将迎来 100 天的关键节点。",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-06/war-in-iran-approaches-100-day-mark-video",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 2,
         "title": "美国确认第二例德克萨斯螺旋虫病例，加拿大限制牲畜进口",
-        "summary": "美国出现第二例德克萨斯螺旋虫病病例，加拿大已限制牲畜进口。",
+        "summary": "美国出现第二例德克萨斯螺旋虫病例，加拿大因此限制了牲畜进口。",
         "url": "https://www.cnbc.com/2026/06/06/us-confirms-second-texas-screwworm-case.html",
         "source": "CNBC",
         "category": "市场"
       },
       {
-        "rank": 7,
-        "title": "国防部正式从军方认可的宗教名单中删除180种信仰",
-        "summary": "美国国防部已将180种信仰从军方认可的宗教名单中移除。",
-        "url": "https://www.military.com/dod-officially-drops-180-faiths-from-militarys-recognized-religion-list",
-        "source": "Hacker News",
-        "category": "LLM"
-      },
-      {
-        "rank": 8,
-        "title": "据报道，特朗普政府正在就入股OpenAI进行谈判",
-        "summary": "有报道称，特朗普政府正就投资OpenAI公司进行谈判。",
-        "url": "https://www.engadget.com/2188942/the-trump-administration-is-reportedly-in-talks-about-taking-a-stake-in-openai/",
-        "source": "Engadget",
-        "category": "互联网"
-      },
-      {
-        "rank": 9,
+        "rank": 3,
         "title": "特朗普与内塔尼亚胡进行充满脏话的通话",
-        "summary": "报道称，美国前总统特朗普与以色列总理内塔尼亚胡进行了一次言辞激烈的通话。",
+        "summary": "报道称特朗普与内塔尼亚胡之间进行了一次言语激烈的通话。",
         "url": "https://www.bloomberg.com/news/videos/2026-06-06/trump-holds-profanity-filled-call-with-netanyahu-video",
         "source": "Bloomberg Markets",
         "category": "市场"
       },
       {
-        "rank": 10,
-        "title": "在德国机库发现冷战时期罕见的东欧集团计算机",
-        "summary": "在德国一机库中发现了一台罕见的冷战时期东欧集团制造的计算机。",
-        "url": "https://computerhistory.org/stories/explorers-of-the-lost-computers/",
+        "rank": 4,
+        "title": "玻利维亚开采矿产资源的计划如何受到大规模骚乱的考验",
+        "summary": "分析玻利维亚计划开采矿产资源所面临的大规模骚乱的挑战。",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-06/why-protests-are-threatening-bolivia-s-investment-push-video",
+        "source": "Bloomberg Markets",
+        "category": "宏观"
+      },
+      {
+        "rank": 5,
+        "title": "国际足联为 2026 年世界杯做准备",
+        "summary": "国际足联正在为 2026 年世界杯的举办进行筹备工作。",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-06/fifa-prepares-for-world-cup-2026-video",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 6,
+        "title": "据天空报道，星狮集团考虑出价 5 亿英镑收购购物中心",
+        "summary": "天空新闻报道称，星狮集团正考虑以 5 亿英镑的价格收购一家购物中心。",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-06/frasers-weighs-500-million-bid-for-shopping-center-sky-reports",
+        "source": "Bloomberg Markets",
+        "category": "市场"
+      },
+      {
+        "rank": 7,
+        "title": "互联网时代之门是一个日益严重的全球威胁",
+        "summary": "文章探讨了“互联网时代之门”所构成的日益严重的全球性威胁。",
+        "url": "https://www.eff.org/deeplinks/2026/06/internet-age-gates-are-growing-global-threat",
         "source": "Hacker News",
-        "category": "互联网"
+        "category": "攻防"
+      },
+      {
+        "rank": 8,
+        "title": "互联网时代之门是一个日益严重的全球威胁",
+        "summary": "文章探讨了“互联网时代之门”所构成的日益严重的全球性威胁。",
+        "url": "https://www.eff.org/deeplinks/2026/06/internet-age-gates-are-growing-global-threat",
+        "source": "Hacker News",
+        "category": "攻防"
+      },
+      {
+        "rank": 9,
+        "title": "中国 APT 部署新恶意软件以保持对被黑网络的访问",
+        "summary": "中国的 APT 组织部署了新的恶意软件，以维持对被攻陷网络的长期访问。",
+        "url": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
+        "source": "BleepingComputer",
+        "category": "攻防"
+      },
+      {
+        "rank": 10,
+        "title": "免费应用程序正在悄悄地将智能电视变成人工智能的网络抓取代理",
+        "summary": "免费应用程序正利用智能电视进行未经授权的网络抓取，并可能用于 AI。",
+        "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+        "source": "The Hacker News",
+        "category": "攻防"
       }
     ],
-    "generated_at": "2026-06-06T23:56:23.025267+00:00"
+    "generated_at": "2026-06-07T02:12:26.069880+00:00"
   }
 }
