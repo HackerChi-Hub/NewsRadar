@@ -1,18 +1,19 @@
 {
-  "timestamp": "2026-08-02T05:13:59.954540+00:00",
-  "finished_at": "2026-08-02T05:14:17.431363+00:00",
-  "total_articles": 221,
+  "timestamp": "2026-08-02T08:00:16.087995+00:00",
+  "finished_at": "2026-08-02T08:00:46.163026+00:00",
+  "total_articles": 203,
   "total_sources": 25,
-  "ok_count": 14,
-  "error_count": 1,
-  "empty_count": 10,
+  "ok_count": 13,
+  "error_count": 3,
+  "empty_count": 9,
   "health": {
     "arXiv cs.AI": "failing(1)",
     "arXiv cs.LG": "failing(1)",
     "arXiv cs.CL": "failing(1)",
     "arXiv cs.CV": "failing(1)",
     "arXiv cs.RO": "failing(1)",
-    "AI News": "failing(1)",
+    "Hacker News AI": "failing(1)",
+    "The Decoder": "failing(1)",
     "Microsoft AI Blog": "failing(1)",
     "Cohere Blog": "failing(1)",
     "AI21 Blog": "failing(1)",
@@ -26,7 +27,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 219.5
+      "response_time_ms": 98.2
     },
     "arXiv cs.LG": {
       "count": 0,
@@ -34,7 +35,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 105.5
+      "response_time_ms": 70.2
     },
     "arXiv cs.CL": {
       "count": 0,
@@ -42,7 +43,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 115.1
+      "response_time_ms": 43.3
     },
     "arXiv cs.CV": {
       "count": 0,
@@ -50,7 +51,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 97.2
+      "response_time_ms": 113.5
     },
     "arXiv cs.RO": {
       "count": 0,
@@ -58,15 +59,15 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 96.5
+      "response_time_ms": 109.5
     },
     "Hacker News AI": {
-      "count": 20,
+      "count": 0,
       "url": "https://hnrss.org/newest?q=AI",
-      "status": "ok",
-      "error": null,
-      "http_status": 200,
-      "response_time_ms": 1140.8
+      "status": "error",
+      "error": "Remote end closed connection without response",
+      "http_status": null,
+      "response_time_ms": null
     },
     "Lobste.rs AI": {
       "count": 20,
@@ -74,15 +75,15 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 349.6
+      "response_time_ms": 597.7
     },
     "AI News": {
-      "count": 0,
+      "count": 12,
       "url": "https://artificialintelligence-news.com/feed/",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "http_status": 202,
-      "response_time_ms": 592.4
+      "http_status": 200,
+      "response_time_ms": 1716.2
     },
     "VentureBeat AI": {
       "count": 7,
@@ -90,15 +91,15 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 159.9
+      "response_time_ms": 178.7
     },
     "The Decoder": {
-      "count": 10,
+      "count": 0,
       "url": "https://the-decoder.com/feed/",
-      "status": "ok",
-      "error": null,
-      "http_status": 200,
-      "response_time_ms": 1361.0
+      "status": "error",
+      "error": "The read operation timed out",
+      "http_status": null,
+      "response_time_ms": null
     },
     "TechCrunch AI": {
       "count": 20,
@@ -106,7 +107,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 42.6
+      "response_time_ms": 55.1
     },
     "Towards Data Science": {
       "count": 20,
@@ -114,7 +115,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 164.1
+      "response_time_ms": 126.1
     },
     "Wired AI": {
       "count": 10,
@@ -122,7 +123,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 50.0
+      "response_time_ms": 38.5
     },
     "InfoQ AI": {
       "count": 15,
@@ -130,7 +131,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 520.8
+      "response_time_ms": 263.2
     },
     "Hugging Face Blog": {
       "count": 20,
@@ -138,7 +139,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 95.7
+      "response_time_ms": 283.8
     },
     "Google DeepMind": {
       "count": 20,
@@ -146,7 +147,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 216.1
+      "response_time_ms": 298.3
     },
     "Microsoft AI Blog": {
       "count": 0,
@@ -162,7 +163,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 57.9
+      "response_time_ms": 74.5
     },
     "Cohere Blog": {
       "count": 0,
@@ -170,7 +171,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 1161.8
+      "response_time_ms": 1395.1
     },
     "AI21 Blog": {
       "count": 0,
@@ -178,7 +179,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 255.9
+      "response_time_ms": 155.1
     },
     "NVIDIA Research": {
       "count": 20,
@@ -186,7 +187,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 239.2
+      "response_time_ms": 116.3
     },
     "EU AI Act": {
       "count": 20,
@@ -194,7 +195,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 709.2
+      "response_time_ms": 1318.4
     },
     "Future of Life AI": {
       "count": 0,
@@ -202,7 +203,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 1222.3
+      "response_time_ms": 1434.5
     },
     "Stanford HAI": {
       "count": 0,
@@ -210,7 +211,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 145.5
+      "response_time_ms": 252.2
     },
     "EPIC AI": {
       "count": 10,
@@ -218,7 +219,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 169.7
+      "response_time_ms": 192.5
     }
   }
 }
