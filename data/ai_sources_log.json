@@ -1,12 +1,17 @@
 {
-  "timestamp": "2026-11-12T04:36:32.100725+00:00",
-  "finished_at": "2026-11-12T04:36:50.213492+00:00",
-  "total_articles": 314,
+  "timestamp": "2026-11-12T13:22:51.665961+00:00",
+  "finished_at": "2026-11-12T13:23:06.696335+00:00",
+  "total_articles": 214,
   "total_sources": 25,
-  "ok_count": 18,
+  "ok_count": 13,
   "error_count": 2,
-  "empty_count": 5,
+  "empty_count": 10,
   "health": {
+    "arXiv cs.AI": "failing(1)",
+    "arXiv cs.LG": "failing(1)",
+    "arXiv cs.CL": "failing(1)",
+    "arXiv cs.CV": "failing(1)",
+    "arXiv cs.RO": "failing(1)",
     "AI News": "failing(1)",
     "VentureBeat AI": "failing(1)",
     "Microsoft AI Blog": "failing(1)",
@@ -17,44 +22,44 @@
   },
   "sources": {
     "arXiv cs.AI": {
-      "count": 20,
+      "count": 0,
       "url": "https://arxiv.org/rss/cs.AI",
-      "status": "ok",
+      "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 165.6
+      "response_time_ms": 56.3
     },
     "arXiv cs.LG": {
-      "count": 20,
+      "count": 0,
       "url": "https://arxiv.org/rss/cs.LG",
-      "status": "ok",
+      "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 144.7
+      "response_time_ms": 48.0
     },
     "arXiv cs.CL": {
-      "count": 20,
+      "count": 0,
       "url": "https://arxiv.org/rss/cs.CL",
-      "status": "ok",
+      "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 89.4
+      "response_time_ms": 68.7
     },
     "arXiv cs.CV": {
-      "count": 20,
+      "count": 0,
       "url": "https://arxiv.org/rss/cs.CV",
-      "status": "ok",
+      "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 87.4
+      "response_time_ms": 45.2
     },
     "arXiv cs.RO": {
-      "count": 20,
+      "count": 0,
       "url": "https://arxiv.org/rss/cs.RO",
-      "status": "ok",
+      "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 129.3
+      "response_time_ms": 33.4
     },
     "Hacker News AI": {
       "count": 20,
@@ -62,7 +67,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 2132.2
+      "response_time_ms": 227.0
     },
     "Lobste.rs AI": {
       "count": 20,
@@ -70,7 +75,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 267.4
+      "response_time_ms": 199.2
     },
     "AI News": {
       "count": 0,
@@ -78,7 +83,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 1273.1
+      "response_time_ms": 1300.6
     },
     "VentureBeat AI": {
       "count": 0,
@@ -94,7 +99,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 1176.3
+      "response_time_ms": 1089.9
     },
     "TechCrunch AI": {
       "count": 20,
@@ -102,7 +107,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 33.7
+      "response_time_ms": 24.5
     },
     "Towards Data Science": {
       "count": 20,
@@ -110,7 +115,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 111.5
+      "response_time_ms": 129.2
     },
     "Wired AI": {
       "count": 10,
@@ -118,7 +123,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 33.3
+      "response_time_ms": 36.5
     },
     "InfoQ AI": {
       "count": 15,
@@ -126,7 +131,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 523.0
+      "response_time_ms": 544.5
     },
     "Hugging Face Blog": {
       "count": 20,
@@ -134,7 +139,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 51.3
+      "response_time_ms": 46.1
     },
     "Google DeepMind": {
       "count": 20,
@@ -142,7 +147,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 133.0
+      "response_time_ms": 57.0
     },
     "Microsoft AI Blog": {
       "count": 0,
@@ -158,7 +163,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 19.6
+      "response_time_ms": 21.2
     },
     "Cohere Blog": {
       "count": 0,
@@ -166,7 +171,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 381.5
+      "response_time_ms": 406.5
     },
     "AI21 Blog": {
       "count": 0,
@@ -174,7 +179,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 319.9
+      "response_time_ms": 239.3
     },
     "NVIDIA Research": {
       "count": 20,
@@ -182,7 +187,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 69.5
+      "response_time_ms": 109.2
     },
     "EU AI Act": {
       "count": 20,
@@ -190,7 +195,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 915.1
+      "response_time_ms": 672.1
     },
     "Future of Life AI": {
       "count": 0,
@@ -198,7 +203,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 462.4
+      "response_time_ms": 537.0
     },
     "Stanford HAI": {
       "count": 0,
@@ -206,7 +211,7 @@
       "status": "empty",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 103.9
+      "response_time_ms": 199.7
     },
     "EPIC AI": {
       "count": 10,
@@ -214,7 +219,7 @@
       "status": "ok",
       "error": null,
       "http_status": 200,
-      "response_time_ms": 45.3
+      "response_time_ms": 217.5
     }
   }
 }
